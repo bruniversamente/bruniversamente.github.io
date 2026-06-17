@@ -125,18 +125,84 @@
       <article class="case-feature reveal">
         <div class="case-visual retail-visual" aria-hidden="true">
           <div class="dashboard-shell">
-            <div class="dash-header"><span></span><span></span><span></span></div>
+            <div class="dash-title-row">
+              <span>Vendas e margem</span>
+              <strong>Q4</strong>
+            </div>
             <div class="dash-kpis">
-              <i></i><i></i><i></i>
+              <div>
+                <small>Receita líquida</small>
+                <strong>R$ 2,4 mi</strong>
+                <span>+12% vs meta</span>
+              </div>
+              <div>
+                <small>Margem</small>
+                <strong>18,6%</strong>
+                <span>2,1 p.p. abaixo</span>
+              </div>
+              <div>
+                <small>Ticket médio</small>
+                <strong>R$ 184</strong>
+                <span>varejo multicanal</span>
+              </div>
             </div>
             <div class="dash-main">
-              <div class="dash-bars"><i></i><i></i><i></i><i></i><i></i></div>
-              <div class="dash-line">
-                <svg viewBox="0 0 220 110" role="img" aria-label="Linha de tendência">
-                  <path d="M10 82 C45 58, 62 66, 91 42 S145 44, 168 30 S198 34, 212 18" />
-                  <circle cx="91" cy="42" r="4" />
-                  <circle cx="168" cy="30" r="4" />
+              <div class="dash-chart-card">
+                <div class="dash-card-title">
+                  <span>Receita por canal</span>
+                  <strong>R$ mi</strong>
+                </div>
+                <div class="dash-bars">
+                  <span><i style="--bar: 46%"></i><em>Loja</em></span>
+                  <span><i style="--bar: 74%"></i><em>Online</em></span>
+                  <span><i style="--bar: 58%"></i><em>App</em></span>
+                  <span><i style="--bar: 86%"></i><em>B2B</em></span>
+                </div>
+              </div>
+              <div class="dash-chart-card">
+                <div class="dash-card-title">
+                  <span>Margem vs meta</span>
+                  <strong>18,6%</strong>
+                </div>
+                <svg class="dash-line" viewBox="0 0 260 132" role="img" aria-label="Linha de tendência de margem">
+                  <line x1="18" y1="28" x2="242" y2="28"></line>
+                  <line x1="18" y1="68" x2="242" y2="68"></line>
+                  <line x1="18" y1="108" x2="242" y2="108"></line>
+                  <path class="target-line" d="M18 54 L242 54"></path>
+                  <path class="actual-line" d="M18 96 C46 80, 69 78, 96 65 S148 43, 176 57 S218 72, 242 36"></path>
+                  <circle cx="176" cy="57" r="4"></circle>
+                  <circle cx="242" cy="36" r="4"></circle>
                 </svg>
+                <div class="dash-legend">
+                  <span><i class="actual-dot"></i>real</span>
+                  <span><i class="target-dot"></i>meta</span>
+                </div>
+              </div>
+            </div>
+            <div class="dash-alerts">
+              <span>Margem abaixo da meta em 2 canais</span>
+              <span>Categoria com alto volume e baixa rentabilidade</span>
+            </div>
+            <div class="dash-table">
+              <div class="dash-table-head">
+                <span>Categoria</span>
+                <span>Receita</span>
+                <span>Margem</span>
+              </div>
+              <div>
+                <span>Eletrônicos</span>
+                <strong>R$ 680k</strong>
+                <em class="risk">12,4%</em>
+              </div>
+              <div>
+                <span>Casa</span>
+                <strong>R$ 540k</strong>
+                <em>21,8%</em>
+              </div>
+              <div>
+                <span>Moda</span>
+                <strong>R$ 420k</strong>
+                <em>18,1%</em>
               </div>
             </div>
           </div>

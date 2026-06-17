@@ -88,16 +88,30 @@ body::before {
 
 .tech-cursor::before {
   left: 50%;
-  top: -5px;
+  top: -7px;
   width: 1px;
-  height: 10px;
+  height: calc(100% + 14px);
+  transform: translateX(-50%);
+  background: linear-gradient(
+    to bottom,
+    rgba(82, 230, 165, 0.72) 0 10px,
+    transparent 10px calc(100% - 10px),
+    rgba(82, 230, 165, 0.72) calc(100% - 10px) 100%
+  );
 }
 
 .tech-cursor::after {
-  left: -5px;
+  left: -7px;
   top: 50%;
-  width: 10px;
+  width: calc(100% + 14px);
   height: 1px;
+  transform: translateY(-50%);
+  background: linear-gradient(
+    to right,
+    rgba(82, 230, 165, 0.72) 0 10px,
+    transparent 10px calc(100% - 10px),
+    rgba(82, 230, 165, 0.72) calc(100% - 10px) 100%
+  );
 }
 
 .tech-cursor-dot {

@@ -50,6 +50,93 @@ body::before {
   pointer-events: none;
 }
 
+@media (pointer: fine) {
+  body.cursor-ready,
+  body.cursor-ready a,
+  body.cursor-ready button {
+    cursor: none;
+  }
+}
+
+.tech-cursor,
+.tech-cursor-dot {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0;
+  transform: translate3d(-50%, -50%, 0);
+  transition: opacity 0.18s ease, width 0.18s ease, height 0.18s ease, border-color 0.18s ease, background 0.18s ease;
+}
+
+.tech-cursor {
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(57, 212, 255, 0.72);
+  border-radius: 50%;
+  box-shadow: 0 0 22px rgba(57, 212, 255, 0.18), inset 0 0 16px rgba(82, 230, 165, 0.08);
+  mix-blend-mode: screen;
+}
+
+.tech-cursor::before,
+.tech-cursor::after {
+  content: "";
+  position: absolute;
+  background: rgba(82, 230, 165, 0.72);
+}
+
+.tech-cursor::before {
+  left: 50%;
+  top: -5px;
+  width: 1px;
+  height: 10px;
+}
+
+.tech-cursor::after {
+  left: -5px;
+  top: 50%;
+  width: 10px;
+  height: 1px;
+}
+
+.tech-cursor-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 16px rgba(82, 230, 165, 0.62);
+}
+
+body.cursor-ready .tech-cursor,
+body.cursor-ready .tech-cursor-dot {
+  opacity: 1;
+}
+
+body.cursor-hover .tech-cursor {
+  width: 48px;
+  height: 48px;
+  border-color: rgba(82, 230, 165, 0.88);
+  background: rgba(82, 230, 165, 0.06);
+}
+
+body.cursor-hover .tech-cursor-dot {
+  background: var(--cyan);
+}
+
+body.cursor-down .tech-cursor {
+  width: 28px;
+  height: 28px;
+  border-color: rgba(57, 212, 255, 1);
+}
+
+@media (pointer: coarse), (prefers-reduced-motion: reduce) {
+  .tech-cursor,
+  .tech-cursor-dot {
+    display: none;
+  }
+}
+
 a {
   color: inherit;
 }

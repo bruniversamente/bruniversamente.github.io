@@ -1,5 +1,48 @@
 const revealItems = document.querySelectorAll(".reveal");
 
+const canUseTechCursor = window.matchMedia("(pointer: fine)").matches && !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+if (canUseTechCursor) {
+  const cursor = document.createElement("div");
+  const dot = document.createElement("div");
+  cursor.className = "tech-cursor";
+  dot.className = "tech-cursor-dot";
+  document.body.append(cursor, dot);
+
+  let cursorX = window.innerWidth / 2;
+  let cursorY = window.innerHeight / 2;
+  let dotX = cursorX;
+  let dotY = cursorY;
+
+  const moveCursor = () => {
+    dotX += (cursorX - dotX) * 0.24;
+    dotY += (cursorY - dotY) * 0.24;
+    cursor.style.transform = `translate3d(${dotX}px, ${dotY}px, 0) translate(-50%, -50%)`;
+    dot.style.transform = `translate3d(${cursorX}px, ${cursorY}px, 0) translate(-50%, -50%)`;
+    window.requestAnimationFrame(moveCursor);
+  };
+
+  window.addEventListener("mousemove", (event) => {
+    cursorX = event.clientX;
+    cursorY = event.clientY;
+    document.body.classList.add("cursor-ready");
+  });
+
+  window.addEventListener("mouseleave", () => {
+    document.body.classList.remove("cursor-ready", "cursor-hover", "cursor-down");
+  });
+
+  window.addEventListener("mousedown", () => document.body.classList.add("cursor-down"));
+  window.addEventListener("mouseup", () => document.body.classList.remove("cursor-down"));
+
+  document.querySelectorAll("a, button, .case-card, .timeline-item, .stack-board > div").forEach((item) => {
+    item.addEventListener("mouseenter", () => document.body.classList.add("cursor-hover"));
+    item.addEventListener("mouseleave", () => document.body.classList.remove("cursor-hover"));
+  });
+
+  moveCursor();
+}
+
 if ("IntersectionObserver" in window) {
   const observer = new IntersectionObserver(
     (entries) => {

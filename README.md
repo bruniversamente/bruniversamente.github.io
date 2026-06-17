@@ -1,11 +1,11 @@
-# Bruno Nascimento | Portfolio
+# Bruno Nascimento | Portfólio
 
-Site estatico de portfolio profissional para projetos de Dados, BI, Product Analytics, IA aplicada e qualidade de dados.
+Site estático de portfólio profissional para projetos de Dados, BI, Product Analytics, IA aplicada e qualidade de dados.
 
 ## Projetos destacados
 
 - [Dashboard Executivo de Vendas e Margem](https://github.com/bruniversamente/retail-bi-sales-dashboard)
-- [Product Analytics: Funil, Retencao e Marketplace](https://github.com/bruniversamente/product-analytics-funnel-retention)
+- [Product Analytics: Funil, Retenção e Marketplace](https://github.com/bruniversamente/product-analytics-funnel-retention)
 - [AI Response Quality Analysis](https://github.com/bruniversamente/ai-response-quality-analysis)
 - [Data Pipeline Quality Checks](https://github.com/bruniversamente/data-pipeline-quality-checks)
 
@@ -15,4 +15,4 @@ https://bruniversamente.github.io/
 
 ## Stack
 
-HTML e CSS puros, sem dependencias externas.
+HTML, CSS e JavaScript leves, sem dependências externas.

@@ -3,17 +3,18 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bruno Nascimento | Portfólio de Dados, BI e IA Aplicada</title>
-  <meta name="description" content="Portfólio de Bruno Nascimento com projetos práticos de BI, SQL, Power BI, Product Analytics, IA aplicada e qualidade de dados." />
+  <title>Bruno Nascimento | Dados, BI e IA aplicada</title>
+  <meta name="description" content="Portfólio de Bruno Nascimento: projetos práticos de Dados, BI, Product Analytics, qualidade de dados e IA aplicada, com SQL, Python, DuckDB e Power BI." />
   <meta name="author" content="Bruno Nascimento" />
-  <meta name="theme-color" content="#0b1220" />
-  <meta property="og:title" content="Bruno Nascimento | Portfólio de Dados e BI" />
-  <meta property="og:description" content="Projetos end-to-end em SQL, Power BI, Python, Product Analytics, IA aplicada e qualidade de dados." />
+  <meta name="theme-color" content="#060812" />
+  <meta property="og:title" content="Bruno Nascimento | Dados, BI e IA aplicada" />
+  <meta property="og:description" content="Cases de dados com problema de negócio, SQL, validações, documentação e proposta de dashboard." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://bruniversamente.github.io/" />
   <link rel="canonical" href="https://bruniversamente.github.io/" />
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -29,203 +30,261 @@
   </script>
 </head>
 <body>
-  <a class="skip-link" href="#projetos">Pular para projetos</a>
+  <a class="skip-link" href="#cases">Pular para os cases</a>
 
   <header class="site-header">
-    <a class="logo" href="#top" aria-label="Voltar ao início">BN</a>
+    <a class="brand" href="#top" aria-label="Voltar ao início">
+      <span class="brand-mark">BN</span>
+      <span class="brand-copy">
+        <strong>Bruno Nascimento</strong>
+        <small>Dados, BI e IA aplicada</small>
+      </span>
+    </a>
     <nav class="nav" aria-label="Navegação principal">
-      <a href="#projetos">Projetos</a>
-      <a href="#processo">Processo</a>
+      <a href="#cases">Projetos</a>
+      <a href="#metodo">Método</a>
       <a href="#stack">Stack</a>
       <a href="#contato">Contato</a>
     </nav>
+    <a class="nav-cta" href="mailto:bruniversamente@gmail.com">Conversar</a>
   </header>
 
   <main id="top">
-    <section class="hero section">
-      <div class="hero-copy">
-        <p class="eyebrow">Portfólio de Dados, BI e IA Aplicada</p>
-        <h1>Transformo dados em indicadores claros, análises confiáveis e decisões de negócio.</h1>
+    <section class="hero">
+      <div class="hero-copy reveal">
+        <p class="role-line">Portfólio para vagas de Dados, BI, MIS, Produto e IA</p>
+        <h1>Dados tratados viram decisões defensáveis.</h1>
         <p class="hero-text">
-          Sou Bruno Nascimento, de Curitiba/PR. Trabalho com SQL, Power BI, Python, documentação e análise de negócio para criar dashboards, validar dados e comunicar insights com clareza.
+          Sou Bruno Nascimento, de Curitiba/PR. Eu pego dados espalhados, regras soltas e dúvidas de negócio e organizo tudo em consultas, validações e dashboards que uma equipe consegue usar.
         </p>
         <div class="hero-actions" aria-label="Ações principais">
-          <a class="button primary" href="#projetos">Ver projetos</a>
-          <a class="button secondary" href="https://github.com/bruniversamente" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="button primary" href="#cases">Ver cases</a>
           <a class="button secondary" href="https://linkedin.com/in/bruniversamente" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="button ghost" href="https://github.com/bruniversamente" target="_blank" rel="noreferrer">GitHub</a>
         </div>
       </div>
 
-      <aside class="hero-panel" aria-label="Resumo do portfólio">
-        <div class="panel-header">
-          <span class="status-dot"></span>
-          <span>Disponível para Dados, BI, MIS, Produto e IA aplicada</span>
+      <div class="hero-lab reveal" aria-label="Resumo visual de projetos de dados">
+        <div class="lab-topbar">
+          <span></span>
+          <span></span>
+          <span></span>
+          <strong>analytics_workspace.sql</strong>
         </div>
-        <div class="metric-grid">
-          <div>
+        <div class="lab-grid">
+          <div class="query-card">
+            <small>pergunta</small>
+            <p>Onde a margem cai antes da receita parecer um problema?</p>
+            <code>select canal, categoria, margem_pct from mart_vendas where meta_gap &lt; 0;</code>
+          </div>
+          <div class="kpi-card accent">
+            <small>cases</small>
             <strong>4</strong>
-            <span>projetos end-to-end</span>
+            <span>end-to-end</span>
           </div>
-          <div>
+          <div class="kpi-card">
+            <small>stack</small>
             <strong>SQL</strong>
-            <span>consultas, KPIs e validações</span>
+            <span>DuckDB + Power BI</span>
           </div>
-          <div>
-            <strong>BI</strong>
-            <span>dashboards e storytelling</span>
+          <div class="chart-card">
+            <div class="chart-head">
+              <span>qualidade dos dados</span>
+              <strong>92%</strong>
+            </div>
+            <div class="bars" aria-hidden="true">
+              <i style="--h: 42%"></i>
+              <i style="--h: 66%"></i>
+              <i style="--h: 51%"></i>
+              <i style="--h: 78%"></i>
+              <i style="--h: 88%"></i>
+              <i style="--h: 62%"></i>
+            </div>
           </div>
-          <div>
-            <strong>IA</strong>
-            <span>curadoria e produtividade</span>
+          <div class="signal-card">
+            <span class="signal-dot"></span>
+            <p>Disponível para oportunidades onde dados precisam virar leitura clara, confiável e acionável.</p>
           </div>
         </div>
-        <div class="panel-list">
-          <span>Dados sintéticos</span>
-          <span>README técnico</span>
-          <span>Dicionário de dados</span>
-          <span>Regras de negócio</span>
-          <span>SQL reproduzível</span>
-          <span>Blueprint de dashboard</span>
+      </div>
+    </section>
+
+    <section class="proof-rail reveal" aria-label="Resumo profissional">
+      <div><strong>4</strong><span>repositórios com dados sintéticos, SQL e documentação</span></div>
+      <div><strong>BI</strong><span>KPI, margem, meta, storytelling e blueprint de dashboard</span></div>
+      <div><strong>Produto</strong><span>funil, retenção, cohorts e métricas de marketplace</span></div>
+      <div><strong>IA</strong><span>avaliação de respostas, curadoria e melhoria de prompts</span></div>
+    </section>
+
+    <section id="cases" class="section cases-section">
+      <div class="section-kicker reveal">
+        <span>Projetos em destaque</span>
+        <p>Escolhi poucos cases para mostrar raciocínio completo: problema, dados, regra, consulta, validação e decisão.</p>
+      </div>
+
+      <article class="case-feature reveal">
+        <div class="case-visual retail-visual" aria-hidden="true">
+          <div class="dashboard-shell">
+            <div class="dash-header"><span></span><span></span><span></span></div>
+            <div class="dash-kpis">
+              <i></i><i></i><i></i>
+            </div>
+            <div class="dash-main">
+              <div class="dash-bars"><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="dash-line">
+                <svg viewBox="0 0 220 110" role="img" aria-label="Linha de tendência">
+                  <path d="M10 82 C45 58, 62 66, 91 42 S145 44, 168 30 S198 34, 212 18" />
+                  <circle cx="91" cy="42" r="4" />
+                  <circle cx="168" cy="30" r="4" />
+                </svg>
+              </div>
+            </div>
+          </div>
         </div>
-      </aside>
+        <div class="case-copy">
+          <div class="case-meta"><span>Case principal</span><span>BI / MIS</span><span>SQL + Power BI</span></div>
+          <h2>Dashboard executivo de vendas e margem</h2>
+          <p>
+            Um projeto para simular a rotina de BI em varejo: unir dados comerciais, definir KPIs, validar inconsistências e preparar uma visão executiva para receita, margem, metas, canais e categorias.
+          </p>
+          <div class="case-proof-grid">
+            <div><strong>Problema</strong><span>dados comerciais espalhados e baixa visibilidade de margem</span></div>
+            <div><strong>Entrega</strong><span>modelo analítico, consultas SQL, medidas DAX e blueprint do dashboard</span></div>
+          </div>
+          <a class="text-link" href="https://github.com/bruniversamente/retail-bi-sales-dashboard" target="_blank" rel="noreferrer">Abrir repositório</a>
+        </div>
+      </article>
+
+      <div class="case-grid">
+        <article class="case-card reveal">
+          <div class="card-visual funnel-visual" aria-hidden="true">
+            <span></span><span></span><span></span><span></span>
+          </div>
+          <div class="card-body">
+            <div class="case-meta"><span>Product Analytics</span><span>Funil + cohort</span></div>
+            <h3>Funil, retenção e métricas de marketplace</h3>
+            <p>Tracking plan, eventos, funil de ativação, retenção D1/D7/D30 e liquidez de marketplace para apoiar roadmap e crescimento.</p>
+            <a class="text-link" href="https://github.com/bruniversamente/product-analytics-funnel-retention" target="_blank" rel="noreferrer">Ver case</a>
+          </div>
+        </article>
+
+        <article class="case-card reveal">
+          <div class="card-visual ai-visual" aria-hidden="true">
+            <div class="score">4.08</div>
+            <div><i></i><i></i><i></i></div>
+          </div>
+          <div class="card-body">
+            <div class="case-meta"><span>IA aplicada</span><span>Qualidade</span></div>
+            <h3>Análise de qualidade de respostas de IA</h3>
+            <p>Framework para revisar respostas, classificar erros, comparar versões de prompt e transformar curadoria em indicadores.</p>
+            <a class="text-link" href="https://github.com/bruniversamente/ai-response-quality-analysis" target="_blank" rel="noreferrer">Ver case</a>
+          </div>
+        </article>
+
+        <article class="case-card reveal">
+          <div class="card-visual pipeline-visual" aria-hidden="true">
+            <span>raw</span><span>staging</span><span>quality</span><span>marts</span>
+          </div>
+          <div class="card-body">
+            <div class="case-meta"><span>Data Quality</span><span>Pipeline</span></div>
+            <h3>Pipeline analítico com checagens de qualidade</h3>
+            <p>Pipeline local com Python, DuckDB e SQL para ingestão, staging, validações, marts e monitoramento de problemas.</p>
+            <a class="text-link" href="https://github.com/bruniversamente/data-pipeline-quality-checks" target="_blank" rel="noreferrer">Ver case</a>
+          </div>
+        </article>
+      </div>
     </section>
 
-    <section class="proof-strip" aria-label="Competências em destaque">
-      <span>SQL</span>
-      <span>Power BI</span>
-      <span>DAX</span>
-      <span>Python</span>
-      <span>DuckDB</span>
-      <span>BigQuery</span>
-      <span>Product Analytics</span>
-      <span>Data Quality</span>
-      <span>IA aplicada</span>
+    <section class="section evidence-section">
+      <div class="section-kicker reveal">
+        <span>O que o recrutador encontra</span>
+        <p>Não é só uma vitrine. Cada projeto foi organizado para alguém conseguir abrir o repositório e entender como eu penso.</p>
+      </div>
+      <div class="evidence-grid">
+        <div class="evidence-item reveal"><strong>01</strong><h3>Pergunta de negócio</h3><p>Começo pelo problema que a área precisa responder, não pela ferramenta.</p></div>
+        <div class="evidence-item reveal"><strong>02</strong><h3>Dados e regras</h3><p>Uso bases sinteticas, dicionario, regras de calculo e premissas documentadas.</p></div>
+        <div class="evidence-item reveal"><strong>03</strong><h3>SQL reproduzivel</h3><p>Consultas separadas por schema, qualidade, KPIs, funil, cohorts ou marts.</p></div>
+        <div class="evidence-item reveal"><strong>04</strong><h3>Entrega explicável</h3><p>Blueprints de dashboard e recomendações para conectar insight com decisão.</p></div>
+      </div>
     </section>
 
-    <section id="projetos" class="section projects-section">
-      <div class="section-heading centered">
-        <p class="eyebrow">Projetos em destaque</p>
-        <h2>Cases estruturados como entregas reais de dados</h2>
+    <section id="metodo" class="section method-section">
+      <div class="method-copy reveal">
+        <span class="section-label">Método</span>
+        <h2>Meu jeito de trabalhar: clareza antes do grafico.</h2>
         <p>
-          Cada repositório apresenta problema de negócio, dados sintéticos, SQL, documentação, regras de cálculo e proposta de dashboard para avaliação técnica.
+          Um dashboard bonito não salva uma pergunta mal definida. Por isso eu organizo o trabalho em uma sequência simples: entender, modelar, validar e comunicar.
         </p>
       </div>
-
-      <div class="project-grid">
-        <article class="project-card featured-card">
-          <div class="project-visual visual-bi" aria-hidden="true">
-            <div class="mini-top"></div>
-            <div class="mini-kpis"><span></span><span></span><span></span></div>
-            <div class="mini-chart"><i></i><i></i><i></i><i></i></div>
-          </div>
-          <div class="project-content">
-            <div class="project-meta"><span>BI / MIS</span><span>SQL + Power BI</span></div>
-            <h3>Dashboard Executivo de Vendas e Margem</h3>
-            <p>Projeto de BI para acompanhar receita, margem, ticket médio, metas, categorias e canais em uma operação de varejo multicanal.</p>
-            <dl class="project-proof">
-              <div><dt>Problema</dt><dd>Dados comerciais dispersos e baixa visibilidade executiva.</dd></div>
-              <div><dt>Entrega</dt><dd>Modelo analítico, KPIs, validações e blueprint de dashboard.</dd></div>
-            </dl>
-            <ul class="tags"><li>SQL</li><li>Power BI</li><li>DAX</li><li>KPIs</li><li>Varejo</li></ul>
-            <a class="card-link" href="https://github.com/bruniversamente/retail-bi-sales-dashboard" target="_blank" rel="noreferrer">Ver repositório</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-visual visual-product" aria-hidden="true">
-            <div class="funnel"><span></span><span></span><span></span><span></span></div>
-            <div class="cohort"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-          </div>
-          <div class="project-content">
-            <div class="project-meta"><span>Product Analytics</span><span>Eventos + Coortes</span></div>
-            <h3>Funil, Retenção e Métricas de Marketplace</h3>
-            <p>Análise de produto digital com tracking plan, funil de ativação, retenção por coorte e indicadores de liquidez.</p>
-            <ul class="tags"><li>SQL</li><li>BigQuery</li><li>GA4</li><li>Funil</li><li>Retenção</li></ul>
-            <a class="card-link" href="https://github.com/bruniversamente/product-analytics-funnel-retention" target="_blank" rel="noreferrer">Ver repositório</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-visual visual-ai" aria-hidden="true">
-            <div class="score-ring">4.08</div>
-            <div class="issue-bars"><span></span><span></span><span></span></div>
-          </div>
-          <div class="project-content">
-            <div class="project-meta"><span>Dados + IA</span><span>Curadoria</span></div>
-            <h3>Análise de Qualidade de Respostas de IA</h3>
-            <p>Framework analítico para avaliar respostas de IA, classificar erros, comparar versões de prompt e monitorar qualidade.</p>
-            <ul class="tags"><li>IA</li><li>Python</li><li>SQL</li><li>Curadoria</li><li>Prompts</li></ul>
-            <a class="card-link" href="https://github.com/bruniversamente/ai-response-quality-analysis" target="_blank" rel="noreferrer">Ver repositório</a>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-visual visual-pipeline" aria-hidden="true">
-            <div class="pipeline-flow"><span>Raw</span><span>Staging</span><span>Quality</span><span>Marts</span></div>
-          </div>
-          <div class="project-content">
-            <div class="project-meta"><span>ETL / Data Quality</span><span>Pipeline</span></div>
-            <h3>Pipeline Analítico com Checagens de Qualidade</h3>
-            <p>Pipeline local com Python, DuckDB e SQL para ingestão, staging, validação, criação de marts e monitoramento.</p>
-            <ul class="tags"><li>Python</li><li>DuckDB</li><li>SQL</li><li>Data Quality</li><li>ETL</li></ul>
-            <a class="card-link" href="https://github.com/bruniversamente/data-pipeline-quality-checks" target="_blank" rel="noreferrer">Ver repositório</a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section id="processo" class="section process-section">
-      <div class="section-heading">
-        <p class="eyebrow">Método de trabalho</p>
-        <h2>Do problema de negócio ao indicador confiável</h2>
-      </div>
-      <div class="process-grid">
-        <div class="process-card"><span>01</span><h3>Entendimento</h3><p>Transformo a demanda em perguntas de negócio, escopo e critérios de sucesso.</p></div>
-        <div class="process-card"><span>02</span><h3>Modelagem</h3><p>Organizo bases, regras de cálculo, relacionamentos e granularidade dos dados.</p></div>
-        <div class="process-card"><span>03</span><h3>Validação</h3><p>Crio checagens de qualidade para reduzir inconsistências antes da análise.</p></div>
-        <div class="process-card"><span>04</span><h3>Comunicação</h3><p>Apresento KPIs, contexto, insight e recomendação de forma objetiva.</p></div>
+      <div class="method-timeline">
+        <div class="timeline-item reveal"><span>01</span><h3>Entender</h3><p>Qual decisão precisa ser tomada? Qual KPI muda a conversa?</p></div>
+        <div class="timeline-item reveal"><span>02</span><h3>Modelar</h3><p>Separar granularidade, joins, dimensoes, fatos e regras de calculo.</p></div>
+        <div class="timeline-item reveal"><span>03</span><h3>Validar</h3><p>Checar duplicidade, nulos, integridade, totais e desvios antes de publicar.</p></div>
+        <div class="timeline-item reveal"><span>04</span><h3>Comunicar</h3><p>Mostrar contexto, insight, risco e proxima acao de forma direta.</p></div>
       </div>
     </section>
 
     <section id="stack" class="section stack-section">
-      <div class="section-heading centered">
-        <p class="eyebrow">Stack e competências</p>
-        <h2>Ferramentas usadas nos projetos</h2>
+      <div class="section-kicker reveal">
+        <span>Stack</span>
+        <p>Ferramentas que aparecem nos projetos e no tipo de rotina em que quero trabalhar.</p>
       </div>
-      <div class="stack-groups">
-        <div><h3>Análise e BI</h3><p>SQL, Power BI, DAX, Power Query, Excel, KPIs, storytelling e dashboards.</p></div>
-        <div><h3>Dados e automação</h3><p>Python, Pandas, DuckDB, BigQuery, ETL/ELT básico, validação e documentação.</p></div>
-        <div><h3>Produto e IA</h3><p>Funis, coortes, tracking plan, curadoria de IA, prompts, métricas e melhoria contínua.</p></div>
+      <div class="stack-board reveal">
+        <div>
+          <h3>Análise e BI</h3>
+          <ul>
+            <li>SQL para KPI, funil, cohort, joins e validações</li>
+            <li>Power BI, DAX, Power Query e storytelling</li>
+            <li>Métricas comerciais, produto, MIS e operação</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Dados e automacao</h3>
+          <ul>
+            <li>Python, Pandas e geração de dados sintéticos</li>
+            <li>DuckDB e BigQuery como engines analiticas</li>
+            <li>Data quality, contratos e marts para BI</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Produto e IA</h3>
+          <ul>
+            <li>Tracking plan, eventos e análise de jornada</li>
+            <li>Avaliação de respostas, prompts e curadoria</li>
+            <li>Documentação que ajuda time técnico e negócio</li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <section id="sobre" class="section about-section">
-      <div class="about-card">
-        <p class="eyebrow">Sobre</p>
-        <h2>Perfil analítico com visão de negócio</h2>
+    <section class="section about-section">
+      <div class="about-panel reveal">
+        <span class="section-label">Sobre</span>
+        <h2>Estou construindo uma carreira em dados com pé no negócio.</h2>
         <p>
-          Minha atuação combina organização de dados, análise de performance, documentação e comunicação de insights. Tenho interesse em transformar dados dispersos em leituras claras para apoiar áreas de negócio, produto, operação e gestão.
+          Meu foco é entrar em um time onde dados sejam usados para melhorar operação, produto, vendas ou atendimento. Gosto da parte técnica, mas principalmente do ponto em que uma análise ajuda alguém a decidir melhor.
         </p>
         <p>
-          Este portfólio foi criado para demonstrar capacidade prática em problemas comuns de vagas de Analista de Dados, BI, MIS, Product Analytics, IA aplicada e qualidade de dados.
+          Este portfólio existe para mostrar prática: repositórios organizados, perguntas claras, SQL que pode ser lido, validações antes de conclusões e comunicação sem enrolação.
         </p>
       </div>
     </section>
 
-    <section id="contato" class="section contact-section">
-      <p class="eyebrow">Contato</p>
-      <h2>Vamos conversar</h2>
-      <p>Curitiba/PR · Disponível para oportunidades em Dados, BI, MIS, Produto e IA aplicada.</p>
-      <div class="hero-actions center-actions">
-        <a class="button primary" href="mailto:bruniversamente@gmail.com">bruniversamente@gmail.com</a>
-        <a class="button secondary" href="https://linkedin.com/in/bruniversamente" target="_blank" rel="noreferrer">LinkedIn</a>
-        <a class="button secondary" href="https://github.com/bruniversamente" target="_blank" rel="noreferrer">GitHub</a>
+    <section id="contato" class="contact-section">
+      <div class="contact-panel reveal">
+        <p>Curitiba/PR · remoto, híbrido ou presencial conforme oportunidade</p>
+        <h2>Se a vaga precisa de alguém para transformar dados bagunçados em leitura clara, vamos conversar.</h2>
+        <div class="hero-actions center-actions">
+          <a class="button primary" href="mailto:bruniversamente@gmail.com">bruniversamente@gmail.com</a>
+          <a class="button secondary" href="https://linkedin.com/in/bruniversamente" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a class="button ghost" href="https://github.com/bruniversamente" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <p>© 2026 Bruno Nascimento. Portfólio estático em GitHub Pages.</p>
+    <p>© 2026 Bruno Nascimento. Portfólio estático publicado com GitHub Pages.</p>
     <a href="#top">Voltar ao topo</a>
   </footer>
 </body>

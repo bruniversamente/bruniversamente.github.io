@@ -696,7 +696,7 @@ h3 {
 
 .hero-lab.workflow-stage-3 .workflow-lab {
   grid-template-columns: minmax(0, 1fr) 160px;
-  grid-template-rows: auto auto minmax(0, 0.41fr) minmax(0, 0.22fr) minmax(0, 0.37fr);
+  grid-template-rows: auto auto minmax(0, 0.36fr) minmax(0, 0.27fr) minmax(0, 0.37fr);
   grid-template-areas:
     "steps steps"
     "status status"
@@ -707,7 +707,7 @@ h3 {
 
 .hero-lab.workflow-stage-4 .workflow-lab {
   grid-template-columns: minmax(0, 1fr) 160px;
-  grid-template-rows: auto auto minmax(0, 0.41fr) minmax(0, 0.22fr) minmax(0, 0.37fr);
+  grid-template-rows: auto auto minmax(0, 0.36fr) minmax(0, 0.27fr) minmax(0, 0.37fr);
   grid-template-areas:
     "steps steps"
     "status status"

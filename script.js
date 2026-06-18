@@ -58,7 +58,10 @@ const translations = {
       ".proof-rail div:nth-child(3) span": "funil, retenção, cohorts e métricas de marketplace",
       ".proof-rail div:nth-child(4) span": "avaliação de respostas, curadoria e melhoria de prompts",
       "#cases .section-kicker span": "Projetos em destaque",
-      "#cases .section-kicker p": "Cases com problema de negócio, modelo de dados, consultas SQL, validações, documentação e proposta de dashboard.",
+      ".case-topic-capsules span:nth-child(1)": "Product Analytics",
+      ".case-topic-capsules span:nth-child(2)": "AI Quality",
+      ".case-topic-capsules span:nth-child(3)": "Pipeline Quality",
+      ".case-topic-capsules span:nth-child(4)": "Retail BI",
       ".dash-title-row span": "Vendas e margem",
       ".dash-kpis div:nth-child(1) small": "Receita líquida",
       ".dash-kpis div:nth-child(1) span": "+12% vs meta",
@@ -211,6 +214,7 @@ const translations = {
       ".hero-lab": { "aria-label": "Simulação visual de um fluxo de trabalho analítico" },
       ".proof-rail": { "aria-label": "Resumo profissional" },
       ".playzone-visual": { "aria-label": "Mapa analítico do funil Playzone, destacando perda de 64,8% antes do convite enviado." },
+      ".case-topic-capsules": { "aria-label": "Categorias dos cases" },
       ".dash-line": { "aria-label": "Linha de tendência de margem" }
     }
   },
@@ -263,7 +267,10 @@ const translations = {
       ".proof-rail div:nth-child(3) span": "funnel, retention, cohorts and marketplace metrics",
       ".proof-rail div:nth-child(4) span": "response evaluation, curation and prompt improvement",
       "#cases .section-kicker span": "Featured projects",
-      "#cases .section-kicker p": "Cases with business problem, data model, SQL queries, validations, documentation and dashboard proposal.",
+      ".case-topic-capsules span:nth-child(1)": "Product Analytics",
+      ".case-topic-capsules span:nth-child(2)": "AI Quality",
+      ".case-topic-capsules span:nth-child(3)": "Pipeline Quality",
+      ".case-topic-capsules span:nth-child(4)": "Retail BI",
       ".dash-title-row span": "Sales and margin",
       ".dash-kpis div:nth-child(1) small": "Net revenue",
       ".dash-kpis div:nth-child(1) span": "+12% vs target",
@@ -416,6 +423,7 @@ const translations = {
       ".hero-lab": { "aria-label": "Visual simulation of an analytical workflow" },
       ".proof-rail": { "aria-label": "Professional summary" },
       ".playzone-visual": { "aria-label": "Analytical map of the Playzone funnel, highlighting a 64.8% loss before invitation sent." },
+      ".case-topic-capsules": { "aria-label": "Case categories" },
       ".dash-line": { "aria-label": "Margin trend line" }
     }
   },
@@ -468,7 +476,10 @@ const translations = {
       ".proof-rail div:nth-child(3) span": "embudo, retención, cohorts y métricas de marketplace",
       ".proof-rail div:nth-child(4) span": "evaluación de respuestas, curaduría y mejora de prompts",
       "#cases .section-kicker span": "Proyectos destacados",
-      "#cases .section-kicker p": "Casos con problema de negócio, modelo de datos, consultas SQL, validaciones, documentación y propuesta de dashboard.",
+      ".case-topic-capsules span:nth-child(1)": "Product Analytics",
+      ".case-topic-capsules span:nth-child(2)": "AI Quality",
+      ".case-topic-capsules span:nth-child(3)": "Pipeline Quality",
+      ".case-topic-capsules span:nth-child(4)": "Retail BI",
       ".dash-title-row span": "Ventas y margen",
       ".dash-kpis div:nth-child(1) small": "Ingresos netos",
       ".dash-kpis div:nth-child(1) span": "+12% vs meta",
@@ -621,6 +632,7 @@ const translations = {
       ".hero-lab": { "aria-label": "Simulación visual de un flujo de trabajo analítico" },
       ".proof-rail": { "aria-label": "Resumen profesional" },
       ".playzone-visual": { "aria-label": "Mapa analítico del embudo Playzone, destacando pérdida de 64,8% antes de enviar la invitación." },
+      ".case-topic-capsules": { "aria-label": "Categorías de los casos" },
       ".dash-line": { "aria-label": "Línea de tendencia de margen" }
     }
   }

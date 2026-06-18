@@ -1195,6 +1195,29 @@ h3 {
   font-size: 1.05rem;
 }
 
+.case-topic-capsules {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+  align-items: center;
+}
+
+.case-topic-capsules span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.045);
+  font-size: 0.86rem;
+  font-weight: 900;
+  line-height: 1;
+  text-transform: none;
+  user-select: none;
+}
+
 .case-feature {
   display: grid;
   grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);

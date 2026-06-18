@@ -581,54 +581,16 @@ h3 {
   font-weight: 900;
   text-align: center;
   text-transform: uppercase;
-  transition: border-color 0.26s ease, color 0.26s ease, background 0.26s ease;
+  transition: border-color 0.26s ease, color 0.26s ease, background 0.26s ease, box-shadow 0.26s ease;
 }
 
 .hero-lab.is-animated .workflow-steps span {
-  animation: step-pulse 6.4s ease infinite;
+  animation: step-pulse 13.2s ease infinite;
 }
 
-.hero-lab.is-animated .workflow-steps span:nth-child(2) { animation-delay: 1.6s; }
-.hero-lab.is-animated .workflow-steps span:nth-child(3) { animation-delay: 3.2s; }
-.hero-lab.is-animated .workflow-steps span:nth-child(4) { animation-delay: 4.8s; }
-
-.workflow-agent {
-  position: absolute;
-  z-index: 4;
-  left: 18%;
-  top: 94px;
-  display: flex;
-  gap: 7px;
-  align-items: center;
-  color: var(--green);
-  filter: drop-shadow(0 0 12px rgba(82, 230, 165, 0.28));
-  pointer-events: none;
-}
-
-.workflow-agent::before {
-  content: "";
-  width: 14px;
-  height: 14px;
-  border: 1px solid rgba(82, 230, 165, 0.82);
-  border-radius: 50%;
-  background: radial-gradient(circle, currentColor 0 3px, transparent 4px);
-  box-shadow: 0 0 16px rgba(82, 230, 165, 0.26);
-}
-
-.workflow-agent span {
-  padding: 4px 7px;
-  border: 1px solid rgba(82, 230, 165, 0.3);
-  border-radius: 999px;
-  color: var(--green);
-  background: rgba(5, 8, 18, 0.74);
-  font-size: 0.62rem;
-  font-weight: 900;
-  text-transform: uppercase;
-}
-
-.hero-lab.is-animated .workflow-agent {
-  animation: agent-work 13.2s cubic-bezier(0.42, 0, 0.22, 1) infinite;
-}
+.hero-lab.is-animated .workflow-steps span:nth-child(2) { animation-delay: 3.3s; }
+.hero-lab.is-animated .workflow-steps span:nth-child(3) { animation-delay: 6.6s; }
+.hero-lab.is-animated .workflow-steps span:nth-child(4) { animation-delay: 9.9s; }
 
 .workflow-status {
   grid-column: 1 / -1;
@@ -1978,42 +1940,6 @@ h3 {
   }
 }
 
-@keyframes agent-work {
-  0%,
-  11% {
-    left: 19%;
-    top: 97px;
-    opacity: 1;
-  }
-
-  22%,
-  38% {
-    left: 31%;
-    top: 214px;
-    opacity: 1;
-  }
-
-  51%,
-  64% {
-    left: 42%;
-    top: 435px;
-    opacity: 1;
-  }
-
-  78%,
-  90% {
-    left: 79%;
-    top: 285px;
-    opacity: 1;
-  }
-
-  100% {
-    left: 19%;
-    top: 97px;
-    opacity: 1;
-  }
-}
-
 @keyframes cursor-blink {
   50% {
     opacity: 0;
@@ -2028,17 +1954,21 @@ h3 {
 
 @keyframes step-pulse {
   0%,
+  7%,
+  31%,
   100% {
     border-color: var(--line);
     color: var(--subtle);
     background: rgba(255, 255, 255, 0.045);
+    box-shadow: none;
   }
 
   12%,
-  28% {
-    border-color: rgba(82, 230, 165, 0.5);
+  24% {
+    border-color: rgba(82, 230, 165, 0.72);
     color: var(--text);
-    background: rgba(82, 230, 165, 0.1);
+    background: rgba(82, 230, 165, 0.14);
+    box-shadow: 0 0 22px rgba(82, 230, 165, 0.14), inset 0 0 14px rgba(82, 230, 165, 0.05);
   }
 }
 
@@ -2124,10 +2054,6 @@ h3 {
     opacity: 1;
     transform: none;
     clip-path: inset(0 0 0 0);
-  }
-
-  .workflow-agent {
-    display: none;
   }
 
   .js-ready .dash-line .actual-line {
@@ -2255,10 +2181,6 @@ h3 {
   .workflow-status {
     display: grid;
     gap: 5px;
-  }
-
-  .workflow-agent {
-    display: none;
   }
 
   .code-window {

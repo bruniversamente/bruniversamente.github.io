@@ -5,6 +5,7 @@ const animatedVisuals = document.querySelectorAll(".hero-lab, .case-feature, .pr
 const countItems = document.querySelectorAll(".count-up");
 const siteHeader = document.querySelector(".site-header");
 const languageButtons = document.querySelectorAll("[data-lang-option]");
+const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 const translations = {
   pt: {
@@ -623,6 +624,67 @@ const animateCount = (item) => {
   window.requestAnimationFrame(tick);
 };
 
+const prepareCodeTyping = (container) => {
+  const code = container.querySelector(".code-window code");
+  if (!code || code.dataset.typingPrepared === "true") return null;
+
+  const lines = Array.from(code.querySelectorAll("span"));
+  lines.forEach((line) => {
+    line.dataset.fullText = line.textContent;
+    if (!prefersReducedMotion) line.textContent = "";
+  });
+
+  code.dataset.typingPrepared = "true";
+  return { code, lines };
+};
+
+const startCodeTyping = (container) => {
+  const prepared = prepareCodeTyping(container);
+  const code = prepared?.code || container.querySelector(".code-window code");
+  const lines = prepared?.lines || Array.from(container.querySelectorAll(".code-window code span"));
+
+  if (!code || !lines.length || code.dataset.typed === "true") return;
+  code.dataset.typed = "true";
+
+  if (prefersReducedMotion) return;
+
+  const cursor = document.createElement("i");
+  cursor.className = "typing-cursor";
+  cursor.setAttribute("aria-hidden", "true");
+  cursor.textContent = "|";
+
+  let lineIndex = 0;
+  let charIndex = 0;
+
+  const typeNext = () => {
+    const line = lines[lineIndex];
+    if (!line) {
+      cursor.remove();
+      return;
+    }
+
+    const fullText = line.dataset.fullText || "";
+    line.textContent = fullText.slice(0, charIndex);
+    line.appendChild(cursor);
+
+    if (charIndex < fullText.length) {
+      charIndex += 1;
+      window.setTimeout(typeNext, 22);
+      return;
+    }
+
+    line.textContent = fullText;
+    line.appendChild(cursor);
+    lineIndex += 1;
+    charIndex = 0;
+    window.setTimeout(typeNext, 95);
+  };
+
+  window.setTimeout(typeNext, 180);
+};
+
+document.querySelectorAll(".hero-lab").forEach(prepareCodeTyping);
+
 if ("IntersectionObserver" in window) {
   const observer = new IntersectionObserver(
     (entries) => {
@@ -647,6 +709,7 @@ if ("IntersectionObserver" in window) {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) return;
         entry.target.classList.add("is-animated");
+        startCodeTyping(entry.target);
         entry.target.querySelectorAll(".count-up").forEach(animateCount);
         motionObserver.unobserve(entry.target);
       });
@@ -658,6 +721,7 @@ if ("IntersectionObserver" in window) {
 } else {
   animatedVisuals.forEach((item) => {
     item.classList.add("is-animated");
+    startCodeTyping(item);
     item.querySelectorAll(".count-up").forEach(animateCount);
   });
 }

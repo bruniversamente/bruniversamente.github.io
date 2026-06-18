@@ -75,47 +75,75 @@
         </div>
       </div>
 
-      <div class="hero-lab reveal" aria-label="Resumo visual de projetos de dados">
+      <div class="hero-lab reveal" aria-label="Simulação visual de um fluxo de trabalho analítico">
         <div class="lab-topbar">
           <span></span>
           <span></span>
           <span></span>
-          <strong>analytics_workspace.sql</strong>
+          <strong>analysis_workflow.py</strong>
+          <em>simulação</em>
         </div>
-        <div class="lab-grid">
-          <div class="query-card">
-            <small>pergunta</small>
-            <p>Onde a margem cai antes da receita parecer um problema?</p>
-            <code>select canal, categoria, margem_pct from mart_vendas where meta_gap &lt; 0;</code>
+        <div class="workflow-lab">
+          <div class="workflow-steps" aria-hidden="true">
+            <span class="is-current">briefing</span>
+            <span>python</span>
+            <span>resultado</span>
+            <span>dashboard</span>
           </div>
-          <div class="kpi-card accent">
-            <small>cases</small>
-            <strong class="count-up" data-count="4">4</strong>
-            <span>end-to-end</span>
+
+          <div class="workflow-main">
+            <section class="notebook-panel">
+              <div class="panel-label">
+                <small>notebook</small>
+                <strong>margem_analysis.ipynb</strong>
+              </div>
+              <p class="workflow-question">Pergunta: onde a margem cai antes da receita parecer um problema?</p>
+              <pre class="code-window"><code><span>import pandas as pd</span>
+<span>vendas = load_table("mart_vendas")</span>
+<span>gap = vendas.query("meta_gap &lt; 0")</span>
+<span>gap.groupby(["canal", "categoria"])</span>
+<span>   .agg(margem=("margem_pct", "mean"))</span></code></pre>
+            </section>
+
+            <section class="result-panel">
+              <div class="panel-label">
+                <small>resultado</small>
+                <strong>3 sinais priorizados</strong>
+              </div>
+              <div class="result-table">
+                <div><span>canal</span><span>categoria</span><span>margem</span></div>
+                <div><span>Online</span><span>Eletrônicos</span><strong>12,4%</strong></div>
+                <div><span>App</span><span>Moda</span><strong>18,1%</strong></div>
+                <div><span>B2B</span><span>Casa</span><strong>21,8%</strong></div>
+              </div>
+            </section>
           </div>
-          <div class="kpi-card">
-            <small>stack</small>
-            <strong>SQL</strong>
-            <span>DuckDB + Power BI</span>
-          </div>
-          <div class="chart-card">
-            <div class="chart-head">
-              <span>qualidade dos dados</span>
-              <strong class="count-up" data-count="92" data-suffix="%">92%</strong>
+
+          <aside class="workflow-side">
+            <div class="insight-card">
+              <small>insight</small>
+              <strong>margem abaixo da meta</strong>
+              <span>2 canais críticos</span>
             </div>
-            <div class="bars" aria-hidden="true">
-              <i style="--h: 42%"></i>
-              <i style="--h: 66%"></i>
-              <i style="--h: 51%"></i>
-              <i style="--h: 78%"></i>
-              <i style="--h: 88%"></i>
-              <i style="--h: 62%"></i>
+            <div class="mini-dashboard">
+              <div class="mini-dashboard-title">
+                <small>preview executivo</small>
+                <strong>92%</strong>
+              </div>
+              <div class="bars" aria-hidden="true">
+                <i style="--h: 42%"></i>
+                <i style="--h: 66%"></i>
+                <i style="--h: 51%"></i>
+                <i style="--h: 78%"></i>
+                <i style="--h: 88%"></i>
+                <i style="--h: 62%"></i>
+              </div>
             </div>
-          </div>
-          <div class="signal-card">
-            <span class="signal-dot"></span>
-            <p>Disponível para oportunidades em Dados, BI, MIS, Produto e IA aplicada.</p>
-          </div>
+          </aside>
+
+          <p class="workflow-caption">
+            Representação fictícia de um fluxo de análise: pergunta de negócio, código, validação e entrega visual.
+          </p>
         </div>
       </div>
     </section>

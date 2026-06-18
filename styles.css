@@ -488,6 +488,7 @@ h3 {
   justify-self: end;
   overflow: hidden;
   width: min(100%, 500px);
+  height: 701px;
   border: 1px solid rgba(160, 176, 210, 0.26);
   border-radius: var(--radius);
   background:
@@ -558,6 +559,7 @@ h3 {
   position: relative;
   z-index: 1;
   display: grid;
+  height: calc(100% - 49px);
   grid-template-columns: minmax(0, 1fr) 160px;
   grid-template-areas:
     "steps steps"
@@ -643,6 +645,9 @@ h3 {
 
 .notebook-panel {
   grid-area: notebook;
+  display: flex;
+  min-height: 0;
+  flex-direction: column;
 }
 
 .result-panel {
@@ -663,6 +668,7 @@ h3 {
 
 .hero-lab.workflow-stage-0 .workflow-lab {
   grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto auto minmax(0, 1fr);
   grid-template-areas:
     "steps"
     "status"
@@ -671,6 +677,7 @@ h3 {
 
 .hero-lab.workflow-stage-1 .workflow-lab {
   grid-template-columns: minmax(0, 1fr) minmax(136px, 0.62fr);
+  grid-template-rows: auto auto minmax(0, 1fr);
   grid-template-areas:
     "steps steps"
     "status status"
@@ -679,6 +686,7 @@ h3 {
 
 .hero-lab.workflow-stage-2 .workflow-lab {
   grid-template-columns: minmax(0, 1fr) minmax(136px, 0.62fr);
+  grid-template-rows: auto auto minmax(0, 0.58fr) minmax(0, 0.42fr);
   grid-template-areas:
     "steps steps"
     "status status"
@@ -688,6 +696,7 @@ h3 {
 
 .hero-lab.workflow-stage-3 .workflow-lab {
   grid-template-columns: minmax(0, 1fr) minmax(136px, 0.62fr);
+  grid-template-rows: auto auto minmax(0, 0.56fr) minmax(0, 0.44fr);
   grid-template-areas:
     "steps steps"
     "status status"
@@ -697,6 +706,7 @@ h3 {
 
 .hero-lab.workflow-stage-4 .workflow-lab {
   grid-template-columns: minmax(0, 1fr) 160px;
+  grid-template-rows: auto auto minmax(0, 0.41fr) minmax(0, 0.22fr) minmax(0, 0.37fr);
   grid-template-areas:
     "steps steps"
     "status status"
@@ -755,11 +765,11 @@ h3 {
 }
 
 .code-window {
+  flex: 1 1 auto;
   position: relative;
   overflow: hidden;
   margin: 0;
-  height: 116px;
-  min-height: 116px;
+  min-height: 0;
   padding: 12px;
   border: 1px solid rgba(57, 212, 255, 0.2);
   border-radius: var(--radius);
@@ -769,28 +779,7 @@ h3 {
   font-size: 0.62rem;
   line-height: 1.45;
   white-space: pre-wrap;
-  transition: height 0.55s ease, min-height 0.55s ease;
-}
-
-.hero-lab.workflow-stage-0 .code-window {
-  height: 224px;
-  min-height: 224px;
-}
-
-.hero-lab.workflow-stage-1 .code-window {
-  height: 180px;
-  min-height: 180px;
-}
-
-.hero-lab.workflow-stage-2 .code-window {
-  height: 142px;
-  min-height: 142px;
-}
-
-.hero-lab.workflow-stage-3 .code-window,
-.hero-lab.workflow-stage-4 .code-window {
-  height: 116px;
-  min-height: 116px;
+  transition: min-height 0.55s ease;
 }
 
 .code-window code {
@@ -2275,6 +2264,10 @@ h3 {
   .hero {
     gap: 30px;
     padding-bottom: 34px;
+  }
+
+  .hero-lab {
+    height: 1032px;
   }
 
   h1 {

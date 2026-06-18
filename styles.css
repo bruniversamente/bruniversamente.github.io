@@ -670,8 +670,7 @@ h3 {
 .result-panel,
 .insight-card,
 .activity-log,
-.mini-dashboard,
-.workflow-caption {
+.mini-dashboard {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: rgba(5, 8, 18, 0.72);
@@ -920,15 +919,6 @@ h3 {
 .mini-dashboard .bars {
   height: 92px;
   gap: 7px;
-}
-
-.workflow-caption {
-  grid-column: 1 / -1;
-  margin: 0;
-  padding: 10px 12px;
-  color: var(--muted);
-  font-size: 0.78rem;
-  line-height: 1.45;
 }
 
 .lab-grid {

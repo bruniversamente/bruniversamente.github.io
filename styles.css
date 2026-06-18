@@ -2032,6 +2032,191 @@ h3 {
   background: #0a101e;
 }
 
+.mini-case-visual {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 14px;
+  min-height: 232px;
+  padding: 20px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.055), rgba(255, 255, 255, 0.02)),
+    #07101d;
+}
+
+.mini-visual-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.mini-visual-head span,
+.mini-metric-grid small,
+.mini-status-block small,
+.mini-bar-list small {
+  color: var(--subtle);
+  font-size: 0.62rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.mini-visual-head strong {
+  color: var(--green);
+  font-size: 0.9rem;
+  font-weight: 950;
+}
+
+.mini-visual-body {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 12px;
+  align-items: stretch;
+}
+
+.mini-ring {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: conic-gradient(var(--green) 0 var(--score), rgba(255, 255, 255, 0.12) var(--score) 100%);
+  box-shadow: inset 0 0 0 15px #07101d, 0 0 28px rgba(82, 230, 165, 0.12);
+}
+
+.mini-ring strong {
+  color: var(--text);
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.mini-ring span {
+  margin-top: 3px;
+  color: var(--subtle);
+  font-size: 0.58rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.mini-status-block {
+  display: grid;
+  align-content: center;
+  gap: 8px;
+  min-height: 104px;
+  padding: 14px;
+  border: 1px solid rgba(82, 230, 165, 0.22);
+  border-radius: var(--radius);
+  background: rgba(82, 230, 165, 0.065);
+}
+
+.mini-status-block.is-blocked {
+  border-color: rgba(242, 200, 107, 0.3);
+  background: rgba(242, 200, 107, 0.075);
+}
+
+.mini-status-block strong {
+  color: var(--text);
+  font-size: 1rem;
+  line-height: 1.05;
+}
+
+.mini-metric-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.mini-metric-grid div {
+  display: grid;
+  align-content: center;
+  gap: 4px;
+  min-height: 48px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.mini-metric-grid strong {
+  color: var(--text);
+  font-size: 0.92rem;
+  line-height: 1;
+}
+
+.mini-bar-list {
+  display: grid;
+  gap: 8px;
+}
+
+.mini-bar-list span {
+  display: grid;
+  grid-template-columns: 78px minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+}
+
+.mini-bar-list i {
+  position: relative;
+  display: block;
+  height: 9px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: rgba(160, 176, 210, 0.13);
+}
+
+.mini-bar-list i::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: var(--bar);
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--green), var(--cyan), var(--blue));
+  transform-origin: left;
+}
+
+.mini-bar-list .is-alert i::before {
+  background: linear-gradient(90deg, var(--amber), var(--green));
+}
+
+.js-ready .mini-case-visual .mini-visual-head,
+.js-ready .mini-case-visual .mini-visual-body,
+.js-ready .mini-case-visual .mini-bar-list span {
+  opacity: 0;
+  transform: translateY(8px);
+}
+
+.js-ready .mini-bar-list i::before {
+  transform: scaleX(0.08);
+}
+
+.case-card.is-visible .mini-visual-head,
+.case-card.is-visible .mini-visual-body,
+.case-card.is-visible .mini-bar-list span {
+  animation: activation-card-in 0.45s ease forwards;
+}
+
+.case-card.is-visible .mini-visual-body {
+  animation-delay: 0.08s;
+}
+
+.case-card.is-visible .mini-bar-list span:nth-child(1) {
+  animation-delay: 0.16s;
+}
+
+.case-card.is-visible .mini-bar-list span:nth-child(2) {
+  animation-delay: 0.23s;
+}
+
+.case-card.is-visible .mini-bar-list span:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.case-card.is-visible .mini-bar-list i::before {
+  animation: activation-fill 0.64s cubic-bezier(0.2, 0.72, 0.2, 1) forwards;
+  animation-delay: 0.28s;
+}
+
 .funnel-visual {
   display: grid;
   gap: 12px;
@@ -2487,6 +2672,9 @@ h3 {
   .js-ready .activation-callout,
   .js-ready .activation-foot,
   .js-ready .funnel-step,
+  .js-ready .mini-case-visual .mini-visual-head,
+  .js-ready .mini-case-visual .mini-visual-body,
+  .js-ready .mini-case-visual .mini-bar-list span,
   .js-ready .code-window span,
   .js-ready .result-panel,
   .js-ready .insight-card,
@@ -2511,7 +2699,8 @@ h3 {
     stroke-dashoffset: 0;
   }
 
-  .js-ready .funnel-step i::before {
+  .js-ready .funnel-step i::before,
+  .js-ready .mini-bar-list i::before {
     transform: scaleX(1);
   }
 }

@@ -7,20 +7,20 @@ const CASES = {
     tags: ["Product Analytics", "Funnel", "Retention", "Marketplace"],
     copy: {
       pt: {
-        tab: "Playzone",
-        title: "Playzone: ativação, retenção e liquidez do marketplace",
+        tab: "Product Analytics",
+        title: "Product Analytics: ativação no Playzone",
         description: "5,6% de ativação até reserva confirmada. A maior perda aparece antes do convite enviado.",
         recommendation: "Priorizar experimentos que aumentem convite enviado e qualidade de oportunidade antes de otimizar etapas já saudáveis."
       },
       en: {
-        tab: "Playzone",
-        title: "Playzone: activation, retention and marketplace liquidity",
+        tab: "Product Analytics",
+        title: "Product Analytics: Playzone activation",
         description: "5.6% activation to confirmed booking. The largest loss appears before invitation sent.",
         recommendation: "Prioritize experiments that increase invitation sent and opportunity quality before optimizing already healthy steps."
       },
       es: {
-        tab: "Playzone",
-        title: "Playzone: activación, retención y liquidez del marketplace",
+        tab: "Product Analytics",
+        title: "Product Analytics: activación en Playzone",
         description: "5,6% de activación hasta reserva confirmada. La mayor pérdida aparece antes de enviar la invitación.",
         recommendation: "Priorizar experimentos que aumenten invitaciones enviadas y calidad de oportunidad antes de optimizar etapas saludables."
       }
@@ -112,7 +112,7 @@ const UI = {
     navContact: "Contato",
     eyebrow: "Analytics portfolio",
     title: "Cases analíticos",
-    subtitle: "Playzone, AI Quality, Pipeline Quality e Retail BI.",
+    subtitle: "Product Analytics, AI Quality, Data Quality e Retail BI.",
     summaryCases: "cases",
     summaryStatic: "Python + DuckDB",
     summaryState: "GitHub Pages",
@@ -265,7 +265,7 @@ const UI = {
     navContact: "Contact",
     eyebrow: "Analytics portfolio",
     title: "Analytics cases",
-    subtitle: "Playzone, AI Quality, Pipeline Quality and Retail BI.",
+    subtitle: "Product Analytics, AI Quality, Data Quality and Retail BI.",
     summaryCases: "cases",
     summaryStatic: "Python + DuckDB",
     summaryState: "GitHub Pages",
@@ -417,7 +417,7 @@ const UI = {
     navContact: "Contacto",
     eyebrow: "Analytics portfolio",
     title: "Casos analíticos",
-    subtitle: "Playzone, AI Quality, Pipeline Quality y Retail BI.",
+    subtitle: "Product Analytics, AI Quality, Data Quality y Retail BI.",
     summaryCases: "casos",
     summaryStatic: "Python + DuckDB",
     summaryState: "GitHub Pages",

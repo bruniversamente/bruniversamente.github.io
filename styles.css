@@ -606,6 +606,72 @@ h3 {
 .hero-lab.is-animated .workflow-steps span:nth-child(3) { animation-delay: 3.2s; }
 .hero-lab.is-animated .workflow-steps span:nth-child(4) { animation-delay: 4.8s; }
 
+.workflow-agent {
+  position: absolute;
+  z-index: 4;
+  left: 18%;
+  top: 94px;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  color: var(--green);
+  filter: drop-shadow(0 0 12px rgba(82, 230, 165, 0.28));
+  pointer-events: none;
+}
+
+.workflow-agent::before {
+  content: "";
+  width: 13px;
+  height: 18px;
+  background: currentColor;
+  clip-path: polygon(0 0, 100% 43%, 57% 55%, 84% 100%, 63% 100%, 38% 61%, 0 82%);
+}
+
+.workflow-agent span {
+  padding: 4px 7px;
+  border: 1px solid rgba(82, 230, 165, 0.3);
+  border-radius: 999px;
+  color: var(--green);
+  background: rgba(5, 8, 18, 0.74);
+  font-size: 0.62rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.hero-lab.is-animated .workflow-agent {
+  animation: agent-work 7.2s cubic-bezier(0.42, 0, 0.22, 1) infinite;
+}
+
+.workflow-status {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  padding: 9px 11px;
+  border: 1px solid rgba(57, 212, 255, 0.18);
+  border-radius: var(--radius);
+  background: rgba(57, 212, 255, 0.045);
+}
+
+.workflow-status strong,
+.workflow-status span {
+  min-width: 0;
+  font-size: 0.7rem;
+  line-height: 1.25;
+}
+
+.workflow-status strong {
+  color: var(--green);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.workflow-status span {
+  color: var(--muted);
+  font-weight: 780;
+}
+
 .workflow-main {
   display: grid;
   gap: 10px;
@@ -615,6 +681,7 @@ h3 {
 .notebook-panel,
 .result-panel,
 .insight-card,
+.activity-log,
 .mini-dashboard,
 .workflow-caption {
   border: 1px solid var(--line);
@@ -690,34 +757,56 @@ h3 {
 .code-window span {
   display: block;
   opacity: 1;
+  clip-path: inset(0 0 0 0);
 }
 
 .js-ready .code-window span,
 .js-ready .result-table > div,
 .js-ready .insight-card,
+.js-ready .activity-log span,
 .js-ready .mini-dashboard {
   opacity: 0;
+}
+
+.js-ready .result-table > div,
+.js-ready .insight-card,
+.js-ready .activity-log span,
+.js-ready .mini-dashboard {
   transform: translateY(8px);
+}
+
+.js-ready .code-window span {
+  clip-path: inset(0 100% 0 0);
 }
 
 .hero-lab.is-animated .code-window span,
 .hero-lab.is-animated .result-table > div,
 .hero-lab.is-animated .insight-card,
+.hero-lab.is-animated .activity-log span,
 .hero-lab.is-animated .mini-dashboard {
   animation: workflow-in 0.42s ease forwards;
 }
 
-.hero-lab.is-animated .code-window span:nth-child(1) { animation-delay: 0.16s; }
-.hero-lab.is-animated .code-window span:nth-child(2) { animation-delay: 0.38s; }
-.hero-lab.is-animated .code-window span:nth-child(3) { animation-delay: 0.6s; }
-.hero-lab.is-animated .code-window span:nth-child(4) { animation-delay: 0.82s; }
-.hero-lab.is-animated .code-window span:nth-child(5) { animation-delay: 1.04s; }
+.hero-lab.is-animated .code-window span {
+  animation-name: type-line;
+  animation-duration: 0.5s;
+  animation-timing-function: steps(34, end);
+}
+
+.hero-lab.is-animated .code-window span:nth-child(1) { animation-delay: 0.28s; }
+.hero-lab.is-animated .code-window span:nth-child(2) { animation-delay: 0.62s; }
+.hero-lab.is-animated .code-window span:nth-child(3) { animation-delay: 0.96s; }
+.hero-lab.is-animated .code-window span:nth-child(4) { animation-delay: 1.3s; }
+.hero-lab.is-animated .code-window span:nth-child(5) { animation-delay: 1.64s; }
 .hero-lab.is-animated .result-table > div:nth-child(1) { animation-delay: 1.28s; }
 .hero-lab.is-animated .result-table > div:nth-child(2) { animation-delay: 1.48s; }
 .hero-lab.is-animated .result-table > div:nth-child(3) { animation-delay: 1.68s; }
 .hero-lab.is-animated .result-table > div:nth-child(4) { animation-delay: 1.88s; }
 .hero-lab.is-animated .insight-card { animation-delay: 2.08s; }
-.hero-lab.is-animated .mini-dashboard { animation-delay: 2.28s; }
+.hero-lab.is-animated .activity-log span:nth-of-type(1) { animation-delay: 2.22s; }
+.hero-lab.is-animated .activity-log span:nth-of-type(2) { animation-delay: 2.38s; }
+.hero-lab.is-animated .activity-log span:nth-of-type(3) { animation-delay: 2.54s; }
+.hero-lab.is-animated .mini-dashboard { animation-delay: 2.72s; }
 
 .result-table {
   display: grid;
@@ -768,6 +857,7 @@ h3 {
 }
 
 .insight-card,
+.activity-log,
 .mini-dashboard {
   padding: 13px;
 }
@@ -787,6 +877,43 @@ h3 {
 .insight-card span {
   color: var(--muted);
   font-size: 0.78rem;
+}
+
+.activity-log {
+  display: grid;
+  gap: 7px;
+}
+
+.activity-log small,
+.activity-log span {
+  display: block;
+}
+
+.activity-log small {
+  color: var(--subtle);
+  font-size: 0.65rem;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.activity-log span {
+  position: relative;
+  padding-left: 15px;
+  color: var(--muted);
+  font-size: 0.72rem;
+  font-weight: 760;
+}
+
+.activity-log span::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.56em;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--green);
+  box-shadow: 0 0 10px rgba(82, 230, 165, 0.35);
 }
 
 .mini-dashboard {
@@ -1831,6 +1958,49 @@ h3 {
   }
 }
 
+@keyframes type-line {
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@keyframes agent-work {
+  0%,
+  11% {
+    left: 19%;
+    top: 97px;
+    opacity: 1;
+  }
+
+  22%,
+  38% {
+    left: 31%;
+    top: 214px;
+    opacity: 1;
+  }
+
+  51%,
+  64% {
+    left: 42%;
+    top: 435px;
+    opacity: 1;
+  }
+
+  78%,
+  90% {
+    left: 79%;
+    top: 285px;
+    opacity: 1;
+  }
+
+  100% {
+    left: 19%;
+    top: 97px;
+    opacity: 1;
+  }
+}
+
 @keyframes cursor-blink {
   50% {
     opacity: 0;
@@ -1930,9 +2100,15 @@ h3 {
   .js-ready .code-window span,
   .js-ready .result-table > div,
   .js-ready .insight-card,
+  .js-ready .activity-log span,
   .js-ready .mini-dashboard {
     opacity: 1;
     transform: none;
+    clip-path: inset(0 0 0 0);
+  }
+
+  .workflow-agent {
+    display: none;
   }
 
   .js-ready .dash-line .actual-line {
@@ -2055,6 +2231,19 @@ h3 {
 
   .workflow-steps {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .workflow-status {
+    display: grid;
+    gap: 5px;
+  }
+
+  .workflow-agent {
+    display: none;
+  }
+
+  .code-window {
+    font-size: 0.68rem;
   }
 
   .workflow-side {

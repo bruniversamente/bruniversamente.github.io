@@ -43,6 +43,19 @@
     </div>
   </header>
 
+  <div class="dashboard-subheader" aria-label="Navegação dos dashboards">
+    <div class="dashboard-toolbar">
+      <div>
+        <span class="section-label" data-i18n="caseLabel">Selecionar case</span>
+        <div class="case-tabs" id="case-tabs" role="tablist" aria-label="Cases"></div>
+      </div>
+      <div class="toolbar-actions">
+        <a class="button ghost" id="repo-link" target="_blank" rel="noreferrer" data-i18n="openRepo">Abrir repositório</a>
+        <a class="button secondary" href="../#cases" data-i18n="backPortfolio">Voltar ao portfólio</a>
+      </div>
+    </div>
+  </div>
+
   <main>
     <section class="dashboard-hero">
       <div class="hero-copy">
@@ -60,17 +73,6 @@
     </section>
 
     <section class="dashboard-shell" aria-label="Dashboards dos estudos de caso">
-      <div class="dashboard-toolbar">
-        <div>
-          <span class="section-label" data-i18n="caseLabel">Selecionar case</span>
-          <div class="case-tabs" id="case-tabs" role="tablist" aria-label="Cases"></div>
-        </div>
-        <div class="toolbar-actions">
-          <a class="button ghost" id="repo-link" target="_blank" rel="noreferrer" data-i18n="openRepo">Abrir repositório</a>
-          <a class="button secondary" href="../#cases" data-i18n="backPortfolio">Voltar ao portfólio</a>
-        </div>
-      </div>
-
       <div class="dashboard-intro" id="case-intro"></div>
       <div class="control-grid" id="controls"></div>
       <div class="filter-bar" id="filter-bar"></div>

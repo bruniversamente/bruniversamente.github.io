@@ -127,7 +127,11 @@ const UI = {
       version: "Versão do prompt",
       severity: "Severidade",
       source: "Origem",
-      category: "Categoria"
+      category: "Categoria",
+      useCase: "Caso de uso",
+      issue: "Tipo de falha",
+      rule: "Regra",
+      month: "Mês"
     },
     all: "Todos",
     notesLabel: "Como ler",
@@ -139,20 +143,26 @@ const UI = {
       activationByChannel: "Ativação por canal",
       retention: "Retenção por ativação",
       categoryLiquidity: "Liquidez por categoria",
+      cohortHeatmap: "Cohorts de retenção",
+      liquidityMap: "Mapa de liquidez",
       promptVersion: "Prontidão por versão",
       useCaseQuality: "Qualidade por caso de uso",
       dimensions: "Dimensões da avaliação",
       issues: "Distribuição de falhas",
       backlog: "Backlog priorizado",
+      releaseMatrix: "Matriz de prontidão",
+      qualityTrend: "Tendência mensal de qualidade",
       failedRules: "Regras com falha",
       sourceReadiness: "Prontidão por origem",
       readyRevenue: "Receita pronta para BI",
       reviewQueue: "Fila de revisão",
+      categoryImpact: "Impacto por categoria",
       revenueTrend: "Receita e margem por mês",
       channelRevenue: "Receita por canal",
       categoryMargin: "Categoria: receita e margem",
       targets: "Atingimento de meta por canal",
-      products: "Produtos que explicam o resultado"
+      products: "Produtos que explicam o resultado",
+      productMap: "Mapa de produtos"
     },
     terms: {
       published: "Publicado",
@@ -191,6 +201,8 @@ const UI = {
       reviewOrders: "Pedidos em revisão",
       needCorrection: "Precisam de correção antes do BI executivo",
       source: "Origem",
+      channel: "Canal",
+      month: "Mês",
       orders: "Pedidos",
       orderTotal: "Total pedido",
       captured: "Capturado",
@@ -221,6 +233,28 @@ const UI = {
       revenueMarginReference: "Linha de receita líquida e referência de margem",
       allCategories: "Todas as categorias",
       topProducts: "Ranking dos principais produtos"
+      ,
+      activeFilters: "Filtros ativos",
+      noActiveFilters: "Sem filtros ativos",
+      clearFilters: "Limpar filtros",
+      copyLink: "Copiar link",
+      copied: "Link copiado",
+      week: "Semana",
+      cohort: "Cohort",
+      retentionRate: "Retenção",
+      opportunities: "Oportunidades",
+      bookings: "Reservas",
+      confirmationRate: "Taxa de confirmação",
+      avgTime: "Tempo médio",
+      releaseReadyRate: "Taxa pronta para release",
+      monthlyTrend: "Evolução mensal",
+      revenue: "Receita",
+      units: "Unidades",
+      target: "Meta",
+      realized: "Realizado"
+      ,
+      confirmedPerOpen: "Reserva confirmada / abertura do app",
+      retentionWindows: "D1, D7 e D30"
     }
   },
   en: {
@@ -246,7 +280,11 @@ const UI = {
       version: "Prompt version",
       severity: "Severity",
       source: "Source",
-      category: "Category"
+      category: "Category",
+      useCase: "Use case",
+      issue: "Issue type",
+      rule: "Rule",
+      month: "Month"
     },
     all: "All",
     notesLabel: "How to read",
@@ -258,20 +296,26 @@ const UI = {
       activationByChannel: "Activation by channel",
       retention: "Retention by activation",
       categoryLiquidity: "Liquidity by category",
+      cohortHeatmap: "Retention cohorts",
+      liquidityMap: "Liquidity map",
       promptVersion: "Readiness by version",
       useCaseQuality: "Quality by use case",
       dimensions: "Evaluation dimensions",
       issues: "Failure distribution",
       backlog: "Prioritized backlog",
+      releaseMatrix: "Readiness matrix",
+      qualityTrend: "Monthly quality trend",
       failedRules: "Failed rules",
       sourceReadiness: "Readiness by source",
       readyRevenue: "BI-ready revenue",
       reviewQueue: "Review queue",
+      categoryImpact: "Category impact",
       revenueTrend: "Revenue and margin by month",
       channelRevenue: "Revenue by channel",
       categoryMargin: "Category: revenue and margin",
       targets: "Target attainment by channel",
-      products: "Products explaining the result"
+      products: "Products explaining the result",
+      productMap: "Product map"
     },
     terms: {
       published: "Published",
@@ -310,6 +354,8 @@ const UI = {
       reviewOrders: "Review orders",
       needCorrection: "Need correction before executive BI",
       source: "Source",
+      channel: "Channel",
+      month: "Month",
       orders: "Orders",
       orderTotal: "Order total",
       captured: "Captured",
@@ -339,7 +385,28 @@ const UI = {
       blockedRecords: "Records blocked from executive publication",
       revenueMarginReference: "Net revenue line and margin reference",
       allCategories: "All categories",
-      topProducts: "Top product ranking"
+      topProducts: "Top product ranking",
+      activeFilters: "Active filters",
+      noActiveFilters: "No active filters",
+      clearFilters: "Clear filters",
+      copyLink: "Copy link",
+      copied: "Link copied",
+      week: "Week",
+      cohort: "Cohort",
+      retentionRate: "Retention",
+      opportunities: "Opportunities",
+      bookings: "Bookings",
+      confirmationRate: "Confirmation rate",
+      avgTime: "Average time",
+      releaseReadyRate: "Release-ready rate",
+      monthlyTrend: "Monthly trend",
+      revenue: "Revenue",
+      units: "Units",
+      target: "Target",
+      realized: "Realized"
+      ,
+      confirmedPerOpen: "Confirmed booking / app open",
+      retentionWindows: "D1, D7 and D30"
     }
   },
   es: {
@@ -365,7 +432,11 @@ const UI = {
       version: "Versión del prompt",
       severity: "Severidad",
       source: "Origen",
-      category: "Categoría"
+      category: "Categoría",
+      useCase: "Caso de uso",
+      issue: "Tipo de falla",
+      rule: "Regla",
+      month: "Mes"
     },
     all: "Todos",
     notesLabel: "Cómo leer",
@@ -377,20 +448,26 @@ const UI = {
       activationByChannel: "Activación por canal",
       retention: "Retención por activación",
       categoryLiquidity: "Liquidez por categoría",
+      cohortHeatmap: "Cohorts de retención",
+      liquidityMap: "Mapa de liquidez",
       promptVersion: "Preparación por versión",
       useCaseQuality: "Calidad por caso de uso",
       dimensions: "Dimensiones de evaluación",
       issues: "Distribución de fallas",
       backlog: "Backlog priorizado",
+      releaseMatrix: "Matriz de preparación",
+      qualityTrend: "Tendencia mensual de calidad",
       failedRules: "Reglas con falla",
       sourceReadiness: "Preparación por origen",
       readyRevenue: "Ingreso listo para BI",
       reviewQueue: "Cola de revisión",
+      categoryImpact: "Impacto por categoría",
       revenueTrend: "Ingreso y margen por mes",
       channelRevenue: "Ingreso por canal",
       categoryMargin: "Categoría: ingreso y margen",
       targets: "Cumplimiento de meta por canal",
-      products: "Productos que explican el resultado"
+      products: "Productos que explican el resultado",
+      productMap: "Mapa de productos"
     },
     terms: {
       published: "Publicado",
@@ -429,6 +506,8 @@ const UI = {
       reviewOrders: "Pedidos en revisión",
       needCorrection: "Necesitan corrección antes del BI ejecutivo",
       source: "Origen",
+      channel: "Canal",
+      month: "Mes",
       orders: "Pedidos",
       orderTotal: "Total pedido",
       captured: "Capturado",
@@ -458,7 +537,28 @@ const UI = {
       blockedRecords: "Registros bloqueados para publicación ejecutiva",
       revenueMarginReference: "Línea de ingreso neto y referencia de margen",
       allCategories: "Todas las categorías",
-      topProducts: "Ranking de productos principales"
+      topProducts: "Ranking de productos principales",
+      activeFilters: "Filtros activos",
+      noActiveFilters: "Sin filtros activos",
+      clearFilters: "Limpiar filtros",
+      copyLink: "Copiar link",
+      copied: "Link copiado",
+      week: "Semana",
+      cohort: "Cohort",
+      retentionRate: "Retención",
+      opportunities: "Oportunidades",
+      bookings: "Reservas",
+      confirmationRate: "Tasa de confirmación",
+      avgTime: "Tiempo medio",
+      releaseReadyRate: "Tasa lista para release",
+      monthlyTrend: "Evolución mensual",
+      revenue: "Ingreso",
+      units: "Unidades",
+      target: "Meta",
+      realized: "Realizado"
+      ,
+      confirmedPerOpen: "Reserva confirmada / apertura de app",
+      retentionWindows: "D1, D7 y D30"
     }
   }
 };
@@ -513,7 +613,11 @@ const state = {
     version: params.get("version") || "all",
     severity: params.get("severity") || "all",
     source: params.get("source") || "all",
-    category: params.get("category") || "all"
+    category: params.get("category") || "all",
+    useCase: params.get("useCase") || "all",
+    issue: params.get("issue") || "all",
+    rule: params.get("rule") || "all",
+    month: params.get("month") || "all"
   }
 };
 
@@ -622,18 +726,61 @@ const control = (key, values) => {
 const renderControls = () => {
   const data = datasets[state.caseId];
   let html = "";
-  if (state.caseId === "playzone") html = control("channel", unique(data.funnel_by_channel, "acquisition_channel"));
-  if (state.caseId === "ai-quality") html = control("version", unique(data.prompt_version_performance, "prompt_version"));
-  if (state.caseId === "pipeline") html = control("severity", unique(data.failed_rules, "severity")) + control("source", unique(data.source_quality, "source_system"));
-  if (state.caseId === "retail") html = control("channel", unique(data.channel_performance, "sales_channel")) + control("category", unique(data.category_performance, "category"));
+  if (state.caseId === "playzone") html = control("channel", unique(data.funnel_by_channel, "acquisition_channel")) + control("category", unique(data.marketplace_category_metrics, "category"));
+  if (state.caseId === "ai-quality") html = control("version", unique(data.prompt_version_performance, "prompt_version")) + control("useCase", unique(data.quality_by_use_case, "use_case")) + control("severity", unique(data.issue_distribution, "severity")) + control("issue", unique(data.issue_distribution, "issue_type"));
+  if (state.caseId === "pipeline") html = control("severity", unique(data.failed_rules, "severity")) + control("source", unique(data.source_quality, "source_system")) + control("rule", unique(data.failed_rules, "rule_name"));
+  if (state.caseId === "retail") html = control("channel", unique(data.channel_performance, "sales_channel")) + control("category", unique(data.category_performance, "category")) + control("month", unique(data.monthly_performance, "order_month"));
   $("#controls").innerHTML = html;
   document.querySelectorAll("[data-filter]").forEach((item) => {
     item.addEventListener("change", () => {
       state.filters[item.dataset.filter] = item.value;
       updateUrl();
+      renderFilterBar();
       renderCaseContent();
     });
   });
+  renderFilterBar();
+};
+
+const currentControlKeys = () => {
+  if (state.caseId === "playzone") return ["channel", "category"];
+  if (state.caseId === "ai-quality") return ["version", "useCase", "severity", "issue"];
+  if (state.caseId === "pipeline") return ["severity", "source", "rule"];
+  if (state.caseId === "retail") return ["channel", "category", "month"];
+  return [];
+};
+
+const resetCurrentFilters = () => {
+  currentControlKeys().forEach((key) => {
+    state.filters[key] = "all";
+  });
+  updateUrl();
+  renderControls();
+  renderCaseContent();
+};
+
+const copyCurrentLink = async (button) => {
+  try {
+    await navigator.clipboard.writeText(window.location.href);
+    button.textContent = term("copied");
+    window.setTimeout(() => { button.textContent = term("copyLink"); }, 1200);
+  } catch {
+    button.textContent = window.location.href;
+  }
+};
+
+const renderFilterBar = () => {
+  const active = currentControlKeys().filter((key) => state.filters[key] && state.filters[key] !== "all");
+  const chips = active.length ? active.map((key) => `
+    <span class="filter-chip"><strong>${escapeHtml(copy().controls[key] || key)}</strong>${escapeHtml(label(state.filters[key]))}</span>
+  `).join("") : `<span class="filter-chip">${escapeHtml(term("noActiveFilters"))}</span>`;
+  $("#filter-bar").innerHTML = `
+    ${chips}
+    <button class="filter-action" type="button" data-filter-action="copy">${escapeHtml(term("copyLink"))}</button>
+    ${active.length ? `<button class="filter-action" type="button" data-filter-action="clear">${escapeHtml(term("clearFilters"))}</button>` : ""}
+  `;
+  document.querySelector('[data-filter-action="clear"]')?.addEventListener("click", resetCurrentFilters);
+  document.querySelector('[data-filter-action="copy"]')?.addEventListener("click", (event) => copyCurrentLink(event.currentTarget));
 };
 
 const statusStrip = (status, reason, layer = "JSON + GitHub Pages") => {
@@ -743,16 +890,70 @@ const heatGrid = (rows, labelKey, valueKey, formatter) => {
   `;
 };
 
+const matrixGrid = (rowLabels, colLabels, getValue, formatter) => {
+  const values = rowLabels.flatMap((rowLabel) => colLabels.map((colLabel) => Number(getValue(rowLabel, colLabel) || 0)));
+  const max = Math.max(...values, 1);
+  return `
+    <div class="matrix-grid">
+      <div class="matrix-row" style="--matrix-cols:${colLabels.length}">
+        <div class="matrix-cell is-head"></div>
+        ${colLabels.map((colLabel) => `<div class="matrix-cell is-head">${escapeHtml(label(colLabel))}</div>`).join("")}
+      </div>
+      ${rowLabels.map((rowLabel) => `
+        <div class="matrix-row" style="--matrix-cols:${colLabels.length}">
+          <div class="matrix-cell is-head">${escapeHtml(label(rowLabel))}</div>
+          ${colLabels.map((colLabel) => {
+            const value = Number(getValue(rowLabel, colLabel) || 0);
+            const alpha = 0.05 + (value / max) * 0.26;
+            return `<div class="matrix-cell" style="--a:${alpha.toFixed(3)}"><strong>${escapeHtml(formatter(value))}</strong></div>`;
+          }).join("")}
+        </div>
+      `).join("")}
+    </div>
+  `;
+};
+
+const bubbleChart = (rows, config) => {
+  const width = 760;
+  const height = 300;
+  const pad = 48;
+  const maxX = Math.max(...rows.map((row) => Number(row.x || 0)), 1);
+  const maxY = Math.max(...rows.map((row) => Number(row.y || 0)), 1);
+  const maxSize = Math.max(...rows.map((row) => Number(row.size || 0)), 1);
+  const x = (value) => pad + (Number(value || 0) / maxX) * (width - pad * 2);
+  const y = (value) => height - pad - (Number(value || 0) / maxY) * (height - pad * 2);
+  const r = (value) => 7 + Math.sqrt(Number(value || 0) / maxSize) * 22;
+  return `
+    <svg class="bubble-chart" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(config.title || "")}">
+      <line class="axis" x1="${pad}" y1="${height - pad}" x2="${width - pad}" y2="${height - pad}"></line>
+      <line class="axis" x1="${pad}" y1="${pad}" x2="${pad}" y2="${height - pad}"></line>
+      <line class="grid" x1="${pad}" y1="${pad}" x2="${width - pad}" y2="${pad}"></line>
+      <text x="${width - pad}" y="${height - 14}" text-anchor="end">${escapeHtml(config.xLabel)}</text>
+      <text x="${pad}" y="24">${escapeHtml(config.yLabel)}</text>
+      ${rows.map((row) => `
+        <g class="${row.alert ? "is-alert" : ""}">
+          <circle cx="${x(row.x)}" cy="${y(row.y)}" r="${r(row.size)}"></circle>
+          <text x="${x(row.x)}" y="${y(row.y) - r(row.size) - 6}" text-anchor="middle">${escapeHtml(label(row.label))}</text>
+        </g>
+      `).join("")}
+    </svg>
+  `;
+};
+
 const renderPlayzone = (data) => {
   const channel = selected("channel", unique(data.funnel_by_channel, "acquisition_channel"));
+  const category = selected("category", unique(data.marketplace_category_metrics, "category"));
   const funnel = channel === "all" ? data.ordered_funnel : data.funnel_by_channel.filter((row) => row.acquisition_channel === channel);
   const summary = data.kpi_summary[0];
   const finalStep = funnel[funnel.length - 1];
   const inviteStep = funnel.find((row) => Number(row.step_order) === 6) || {};
+  const categoryRows = data.marketplace_category_metrics.filter((row) => category === "all" || row.category === category);
   const channelRows = unique(data.funnel_by_channel, "acquisition_channel").map((name) => {
     const row = data.funnel_by_channel.find((item) => item.acquisition_channel === name && Number(item.step_order) === 7);
     return { label: name, value: row?.conversion_from_start || 0, muted: channel !== "all" && channel !== name };
   }).sort((a, b) => b.value - a.value);
+  const cohortMonths = unique(data.cohort_retention, "signup_month");
+  const cohortWeeks = unique(data.cohort_retention, "week_number").sort((a, b) => Number(a) - Number(b));
 
   statusStrip(term("published"), term("localJson"));
   return `
@@ -768,13 +969,24 @@ const renderPlayzone = (data) => {
         value: row.conversion_from_start,
         alert: Number(row.step_order) === 6
       })), { max: 1, format: (value) => formatPercent(value) }), true, channel === "all" ? copy().all : channel)}
-      ${vizCard(copy().charts.activationByChannel, "Confirmed booking / app open", bars(channelRows, { max: 0.12, format: (value) => formatPercent(value) }))}
-      ${vizCard(copy().charts.retention, "D1, D7 and D30", heatGrid(data.retention_by_activation.flatMap((row) => [
+      ${vizCard(copy().charts.activationByChannel, term("confirmedPerOpen"), bars(channelRows, { max: 0.12, format: (value) => formatPercent(value) }))}
+      ${vizCard(copy().charts.retention, term("retentionWindows"), heatGrid(data.retention_by_activation.flatMap((row) => [
         { cohort: `${label(row.activation_status)} D1`, value: row.retention_d1 },
         { cohort: `${label(row.activation_status)} D7`, value: row.retention_d7 },
         { cohort: `${label(row.activation_status)} D30`, value: row.retention_d30 }
       ]), "cohort", "value", (value) => formatPercent(value)))}
-      ${tableCard(copy().charts.categoryLiquidity, term("invitationsBookingsTime"), [term("category"), term("confirmed"), term("rate"), term("avgHours")], data.marketplace_category_metrics.map((row) => [
+      ${vizCard(copy().charts.cohortHeatmap, `${term("cohort")} x ${term("week")}`, matrixGrid(cohortMonths, cohortWeeks.map(String), (month, week) => {
+        const row = data.cohort_retention.find((item) => item.signup_month === month && String(item.week_number) === String(week));
+        return row?.retention_rate || 0;
+      }, (value) => formatPercent(value)), true)}
+      ${vizCard(copy().charts.liquidityMap, `${term("opportunities")} x ${term("confirmationRate")}`, bubbleChart(categoryRows.map((row) => ({
+        label: row.category,
+        x: row.opportunities,
+        y: row.confirmation_rate,
+        size: row.confirmed_bookings,
+        alert: row.confirmation_rate < 0.55
+      })), { xLabel: term("opportunities"), yLabel: term("confirmationRate"), title: copy().charts.liquidityMap }))}
+      ${tableCard(copy().charts.categoryLiquidity, term("invitationsBookingsTime"), [term("category"), term("confirmed"), term("rate"), term("avgHours")], categoryRows.map((row) => [
         row.category,
         formatInt(row.confirmed_bookings),
         formatPercent(row.confirmation_rate),
@@ -786,9 +998,15 @@ const renderPlayzone = (data) => {
 
 const renderAiQuality = (data) => {
   const versions = unique(data.prompt_version_performance, "prompt_version");
+  const useCases = unique(data.quality_by_use_case, "use_case");
   const version = selected("version", versions);
+  const useCase = selected("useCase", useCases);
+  const severity = selected("severity", unique(data.issue_distribution, "severity"));
+  const issue = selected("issue", unique(data.issue_distribution, "issue_type"));
   const base = version === "all" ? data.kpi_summary[0] : data.prompt_version_performance.find((row) => row.prompt_version === version);
-  const backlog = data.improvement_backlog.filter((row) => version === "all" || row.prompt_version === version);
+  const backlog = data.improvement_backlog.filter((row) => (version === "all" || row.prompt_version === version) && (useCase === "all" || row.use_case === useCase));
+  const qualityRows = data.quality_by_use_case.filter((row) => useCase === "all" || row.use_case === useCase);
+  const issueRows = data.issue_distribution.filter((row) => (severity === "all" || row.severity === severity) && (issue === "all" || row.issue_type === issue));
   statusStrip(term("published"), term("localJson"));
 
   return `
@@ -804,12 +1022,17 @@ const renderAiQuality = (data) => {
         value: row.release_ready_rate,
         muted: version !== "all" && version !== row.prompt_version
       })), { max: 0.7, format: (value) => formatPercent(value) }))}
-      ${vizCard(copy().charts.useCaseQuality, term("avgScoreByUseCase"), bars(data.quality_by_use_case.map((row) => ({
+      ${vizCard(copy().charts.useCaseQuality, term("avgScoreByUseCase"), bars(qualityRows.map((row) => ({
         label: row.use_case,
         value: row.avg_quality_score
       })).sort((a, b) => b.value - a.value), { max: 5, format: (value) => formatNumber(value, { minimumFractionDigits: 2, maximumFractionDigits: 2 }) }))}
+      ${vizCard(copy().charts.qualityTrend, term("monthlyTrend"), lineChart(data.monthly_quality_trend, "response_month", "avg_quality_score", null, (value) => formatNumber(value, { minimumFractionDigits: 2, maximumFractionDigits: 2 })), true)}
+      ${vizCard(copy().charts.releaseMatrix, `${term("version")} x ${term("useCase")}`, matrixGrid(useCases, versions, (caseName, promptVersion) => {
+        const row = data.improvement_backlog.find((item) => item.use_case === caseName && item.prompt_version === promptVersion);
+        return row?.release_ready_rate || 0;
+      }, (value) => formatPercent(value)), true)}
       ${vizCard(copy().charts.dimensions, term("avgDimensionScore"), heatGrid(data.dimension_scores, "dimension", "avg_score", (value) => formatNumber(value, { minimumFractionDigits: 2, maximumFractionDigits: 2 })))}
-      ${tableCard(copy().charts.issues, term("issueShareBySeverity"), [term("issue"), term("severity"), term("count"), term("share")], data.issue_distribution.slice(0, 8).map((row) => [
+      ${tableCard(copy().charts.issues, term("issueShareBySeverity"), [term("issue"), term("severity"), term("count"), term("share")], issueRows.slice(0, 8).map((row) => [
         row.issue_type,
         row.severity,
         formatInt(row.occurrences),
@@ -830,7 +1053,8 @@ const renderPipeline = (data) => {
   const sources = unique(data.source_quality, "source_system");
   const severity = selected("severity", severities);
   const source = selected("source", sources);
-  const rules = data.failed_rules.filter((row) => severity === "all" || row.severity === severity);
+  const rule = selected("rule", unique(data.failed_rules, "rule_name"));
+  const rules = data.failed_rules.filter((row) => (severity === "all" || row.severity === severity) && (rule === "all" || row.rule_name === rule));
   const sourceQuality = data.source_quality.filter((row) => source === "all" || row.source_system === source);
   const readyRevenue = data.revenue_ready.filter((row) => source === "all" || row.source_system === source);
   statusStrip(data.publication_status, data.publication_reason);
@@ -864,6 +1088,13 @@ const renderPipeline = (data) => {
         formatMoney(row.order_total),
         row.issue_summary
       ]), true, "0.7fr 0.8fr 0.8fr 1.7fr")}
+      ${vizCard(copy().charts.categoryImpact, `${term("revenue")} x ${term("margin")}`, bubbleChart(data.category_metrics.map((row) => ({
+        label: row.category,
+        x: row.net_revenue,
+        y: row.gross_margin,
+        size: row.units,
+        alert: row.gross_margin / Math.max(1, row.net_revenue) < 0.35
+      })), { xLabel: term("revenue"), yLabel: term("margin"), title: copy().charts.categoryImpact }), true)}
     </div>
   `;
 };
@@ -873,13 +1104,15 @@ const renderRetail = (data) => {
   const categories = unique(data.category_performance, "category");
   const channel = selected("channel", channels);
   const category = selected("category", categories);
+  const month = selected("month", unique(data.monthly_performance, "order_month"));
   const channelRows = data.channel_performance.filter((row) => channel === "all" || row.sales_channel === channel);
   const categoryRows = data.category_performance.filter((row) => category === "all" || row.category === category);
   const productRows = data.product_ranking.filter((row) => category === "all" || row.category === category);
   const channelBase = channel === "all" ? data.kpis : channelRows[0];
-  const targetRows = data.target_tracking.filter((row) => channel === "all" || row.sales_channel === channel);
+  const trendRows = data.monthly_performance.filter((row) => month === "all" || row.order_month === month);
+  const targetRows = data.target_tracking.filter((row) => (channel === "all" || row.sales_channel === channel) && (month === "all" || row.target_month === month));
   const targetByChannel = channels.map((name) => {
-    const rows = data.target_tracking.filter((row) => row.sales_channel === name);
+    const rows = data.target_tracking.filter((row) => row.sales_channel === name && (month === "all" || row.target_month === month));
     return {
       label: name,
       value: rows.reduce((sum, row) => sum + row.revenue_target_attainment, 0) / Math.max(1, rows.length),
@@ -896,7 +1129,7 @@ const renderRetail = (data) => {
       { label: term("averageTicket"), value: formatMoney(data.kpis.average_ticket), note: term("portfolioMetric") }
     ])}
     <div class="viz-grid">
-      ${vizCard(copy().charts.revenueTrend, term("revenueMarginReference"), lineChart(data.monthly_performance, "order_month", "net_revenue", null, formatMoney), true)}
+      ${vizCard(copy().charts.revenueTrend, term("revenueMarginReference"), lineChart(trendRows, "order_month", "net_revenue", null, formatMoney), true)}
       ${vizCard(copy().charts.channelRevenue, channel === "all" ? term("revenueShare") : channel, bars(channelRows.map((row) => ({
         label: row.sales_channel,
         value: row.net_revenue
@@ -907,6 +1140,19 @@ const renderRetail = (data) => {
         alert: row.gross_margin_pct < 0.3
       })), { max: 0.45, format: (value) => formatPercent(value) }))}
       ${vizCard(copy().charts.targets, term("avgTarget"), bars(targetByChannel, { max: 1.12, format: (value) => formatPercent(value) }))}
+      ${tableCard(copy().charts.targets, `${term("target")} x ${term("realized")}`, [term("month"), term("channel"), term("target"), term("realized")], targetRows.slice(0, 8).map((row) => [
+        row.target_month,
+        row.sales_channel,
+        formatMoney(row.revenue_target),
+        formatMoney(row.realized_revenue)
+      ]), false, "0.8fr 1fr 1fr 1fr")}
+      ${vizCard(copy().charts.productMap, `${term("revenue")} x ${term("margin")}`, bubbleChart(productRows.slice(0, 10).map((row) => ({
+        label: row.product_name,
+        x: row.net_revenue,
+        y: row.gross_margin_pct,
+        size: row.units_sold,
+        alert: row.gross_margin_pct < 0.3
+      })), { xLabel: term("revenue"), yLabel: term("margin"), title: copy().charts.productMap }), true)}
       ${tableCard(copy().charts.products, category === "all" ? term("topProducts") : label(category), [term("product"), term("category"), term("netRevenue"), term("margin")], productRows.slice(0, 8).map((row) => [
         row.product_name,
         label(row.category),

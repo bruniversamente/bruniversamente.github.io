@@ -1,4 +1,13 @@
+document.documentElement.classList.add("js-ready");
+
 const revealItems = document.querySelectorAll(".reveal");
+const animatedVisuals = document.querySelectorAll(".hero-lab, .case-feature, .proof-rail");
+const countItems = document.querySelectorAll(".count-up");
+const siteHeader = document.querySelector(".site-header");
+
+revealItems.forEach((item) => {
+  item.addEventListener("transitionend", () => item.classList.add("reveal-done"), { once: true });
+});
 
 const canUseTechCursor = window.matchMedia("(pointer: fine)").matches && !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
@@ -29,19 +38,57 @@ if (canUseTechCursor) {
   });
 
   window.addEventListener("mouseleave", () => {
-    document.body.classList.remove("cursor-ready", "cursor-hover", "cursor-down");
+    document.body.classList.remove("cursor-ready", "cursor-hover", "cursor-action", "cursor-down");
   });
 
   window.addEventListener("mousedown", () => document.body.classList.add("cursor-down"));
   window.addEventListener("mouseup", () => document.body.classList.remove("cursor-down"));
 
-  document.querySelectorAll("a, button, .case-card, .timeline-item, .stack-board > div").forEach((item) => {
+  document.querySelectorAll("a, button").forEach((item) => {
+    item.addEventListener("mouseenter", () => document.body.classList.add("cursor-hover", "cursor-action"));
+    item.addEventListener("mouseleave", () => document.body.classList.remove("cursor-hover", "cursor-action"));
+  });
+
+  document.querySelectorAll(".case-card, .timeline-item, .stack-board > div, .evidence-item").forEach((item) => {
     item.addEventListener("mouseenter", () => document.body.classList.add("cursor-hover"));
     item.addEventListener("mouseleave", () => document.body.classList.remove("cursor-hover"));
   });
 
   moveCursor();
 }
+
+const setHeaderState = () => {
+  if (!siteHeader) return;
+  document.body.classList.toggle("is-scrolled", window.scrollY > 18);
+};
+
+setHeaderState();
+window.addEventListener("scroll", setHeaderState, { passive: true });
+
+const animateCount = (item) => {
+  if (item.dataset.counted === "true") return;
+  item.dataset.counted = "true";
+
+  const target = Number.parseFloat(item.dataset.count || item.textContent);
+  if (!Number.isFinite(target)) return;
+
+  const decimals = Number.parseInt(item.dataset.decimals || "0", 10);
+  const prefix = item.dataset.prefix || "";
+  const suffix = item.dataset.suffix || "";
+  const duration = Number.parseInt(item.dataset.duration || "900", 10);
+  const start = performance.now();
+
+  const tick = (now) => {
+    const progress = Math.min((now - start) / duration, 1);
+    const eased = 1 - Math.pow(1 - progress, 3);
+    const value = target * eased;
+    const renderedValue = item.dataset.comma === "true" ? value.toFixed(decimals).replace(".", ",") : value.toFixed(decimals);
+    item.textContent = `${prefix}${renderedValue}${suffix}`;
+    if (progress < 1) window.requestAnimationFrame(tick);
+  };
+
+  window.requestAnimationFrame(tick);
+};
 
 if ("IntersectionObserver" in window) {
   const observer = new IntersectionObserver(
@@ -60,6 +107,31 @@ if ("IntersectionObserver" in window) {
 } else {
   revealItems.forEach((item) => item.classList.add("is-visible"));
 }
+
+if ("IntersectionObserver" in window) {
+  const motionObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        entry.target.classList.add("is-animated");
+        entry.target.querySelectorAll(".count-up").forEach(animateCount);
+        motionObserver.unobserve(entry.target);
+      });
+    },
+    { threshold: 0.24 }
+  );
+
+  animatedVisuals.forEach((item) => motionObserver.observe(item));
+} else {
+  animatedVisuals.forEach((item) => {
+    item.classList.add("is-animated");
+    item.querySelectorAll(".count-up").forEach(animateCount);
+  });
+}
+
+countItems.forEach((item) => {
+  if (!item.closest(".hero-lab, .case-feature, .proof-rail")) animateCount(item);
+});
 
 const sections = document.querySelectorAll("section[id]");
 const navLinks = document.querySelectorAll(".nav a");
@@ -85,6 +157,7 @@ const methodItems = document.querySelectorAll(".timeline-item");
 
 if (methodTimeline && methodItems.length) {
   const lightMethodItems = () => {
+    methodTimeline.classList.add("is-active");
     methodItems.forEach((item, index) => {
       window.setTimeout(() => item.classList.add("is-lit"), index * 180);
     });

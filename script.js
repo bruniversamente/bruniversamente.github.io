@@ -17,6 +17,7 @@ const translations = {
       ".brand-copy strong": "Bruno Nascimento",
       ".brand-copy small": "Dados, BI e IA aplicada",
       ".nav a[href=\"#cases\"]": "Projetos",
+      "[data-dashboard-nav]": "Dashboards",
       ".nav a[href=\"#metodo\"]": "Método",
       ".nav a[href=\"#stack\"]": "Stack",
       ".nav a[href=\"#contato\"]": "Contato",
@@ -51,7 +52,6 @@ const translations = {
       ".activity-log span:nth-of-type(2)": "nulos revisados",
       ".activity-log span:nth-of-type(3)": "métrica pronta",
       ".mini-dashboard-title small": "preview executivo",
-      ".workflow-caption": "Representação fictícia de um fluxo de análise: pergunta de negócio, código, validação e entrega visual.",
       ".proof-rail div:nth-child(1) span": "repositórios com dados sintéticos, SQL e documentação",
       ".proof-rail div:nth-child(2) span": "KPI, margem, meta, storytelling e blueprint de dashboard",
       ".proof-rail div:nth-child(3) strong": "Produto",
@@ -79,26 +79,35 @@ const translations = {
       ".dash-table > div:nth-child(3) span": "Casa",
       ".dash-table > div:nth-child(4) span": "Moda",
       ".case-copy .case-meta span:nth-child(1)": "Case principal",
-      ".case-copy h2": "Playzone: funil, retenção e liquidez",
-      ".case-copy > p": "Estudo de caso para diagnosticar se usuários chegam ao momento de valor em uma plataforma de experiências, jogos e atividades: reserva confirmada após descoberta de oportunidade e envio de convite.",
-      ".case-proof-grid div:nth-child(1) strong": "Problema",
-      ".case-proof-grid div:nth-child(1) span": "ativação baixa e perda relevante antes do convite enviado",
-      ".case-proof-grid div:nth-child(2) strong": "Entrega",
-      ".case-proof-grid div:nth-child(2) span": "funil ordenado, cohorts de retenção, liquidez por categoria, outputs CSV e dashboard HTML",
+      ".case-copy h2": "Playzone: aumentar ativação",
+      ".case-copy > p": "Case de produto que diagnostica por que apenas 5,6% dos usuários chegam ao momento de valor e mostra que a primeira alavanca está antes do convite enviado, não no topo do funil.",
+      ".case-proof-grid div:nth-child(1) strong": "5,6%",
+      ".case-proof-grid div:nth-child(1) span": "ativação ordenada até reserva confirmada",
+      ".case-proof-grid div:nth-child(2) strong": "64,8%",
+      ".case-proof-grid div:nth-child(2) span": "perda na passagem para convite enviado",
+      ".case-proof-grid div:nth-child(3) strong": "62,2%",
+      ".case-proof-grid div:nth-child(3) span": "confirmação depois que o convite acontece",
+      ".case-proof-grid div:nth-child(4) strong": "35,7%",
+      ".case-proof-grid div:nth-child(4) span": "retenção D30 entre usuários ativados",
+      ".case-copy .dashboard-cta": "Abrir dashboard",
       ".case-copy .text-link": "Abrir repositório",
-      ".case-card:nth-child(1) .case-meta span:nth-child(1)": "BI / MIS",
-      ".case-card:nth-child(1) .case-meta span:nth-child(2)": "Vendas + margem",
-      ".case-card:nth-child(1) h3": "Dashboard executivo de vendas e margem",
-      ".case-card:nth-child(1) p": "Modelo analítico, KPIs comerciais, medidas DAX e blueprint de dashboard para receita, margem, metas, canais e categorias.",
+      ".case-card:nth-child(1) .case-meta span:nth-child(1)": "IA aplicada",
+      ".case-card:nth-child(1) .case-meta span:nth-child(2)": "Qualidade",
+      ".case-card:nth-child(1) h3": "Governança de release para respostas de IA",
+      ".case-card:nth-child(1) p": "Avalia 500 respostas e separa qualidade média de prontidão operacional: 41,0% release-ready, v3 como melhor baseline e backlog por falha.",
+      ".case-card:nth-child(1) .dashboard-cta": "Abrir dashboard",
       ".case-card:nth-child(1) .text-link": "Ver case",
-      ".case-card:nth-child(2) .case-meta span:nth-child(1)": "IA aplicada",
-      ".case-card:nth-child(2) .case-meta span:nth-child(2)": "Qualidade",
-      ".case-card:nth-child(2) h3": "Análise de qualidade de respostas de IA",
-      ".case-card:nth-child(2) p": "Framework para revisar respostas, classificar erros, comparar versões de prompt e transformar curadoria em indicadores.",
+      ".case-card:nth-child(2) .case-meta span:nth-child(1)": "Data Quality",
+      ".case-card:nth-child(2) .case-meta span:nth-child(2)": "Pipeline",
+      ".case-card:nth-child(2) h3": "Pipeline bloqueado mesmo com 98,2% de score",
+      ".case-card:nth-child(2) p": "Gate de qualidade para BI: 9 falhas críticas impedem publicação executiva, mesmo com score acima da meta e 495 pedidos prontos.",
+      ".case-card:nth-child(2) .dashboard-cta": "Abrir dashboard",
       ".case-card:nth-child(2) .text-link": "Ver case",
-      ".case-card:nth-child(3) .case-meta span:nth-child(1)": "Data Quality",
-      ".case-card:nth-child(3) h3": "Pipeline analítico com checagens de qualidade",
-      ".case-card:nth-child(3) p": "Pipeline local com Python, DuckDB e SQL para ingestão, staging, validações, marts e monitoramento de problemas.",
+      ".case-card:nth-child(3) .case-meta span:nth-child(1)": "BI / MIS",
+      ".case-card:nth-child(3) .case-meta span:nth-child(2)": "Vendas + margem",
+      ".case-card:nth-child(3) h3": "Decisão executiva de receita, margem e metas",
+      ".case-card:nth-child(3) p": "BI aprovado para publicação: R$ 1,08M em receita, 31,0% de margem e alerta para proteger rentabilidade em categorias pressionadas.",
+      ".case-card:nth-child(3) .dashboard-cta": "Abrir dashboard",
       ".case-card:nth-child(3) .text-link": "Ver case",
       ".evidence-section .section-kicker span": "O que o recrutador encontra",
       ".evidence-section .section-kicker p": "Cada repositório apresenta contexto, premissas, consultas, validações e entregáveis de forma objetiva.",
@@ -169,6 +178,7 @@ const translations = {
       ".skip-link": "Skip to cases",
       ".brand-copy small": "Data, BI and applied AI",
       ".nav a[href=\"#cases\"]": "Projects",
+      "[data-dashboard-nav]": "Dashboards",
       ".nav a[href=\"#metodo\"]": "Method",
       ".nav a[href=\"#stack\"]": "Stack",
       ".nav a[href=\"#contato\"]": "Contact",
@@ -203,7 +213,6 @@ const translations = {
       ".activity-log span:nth-of-type(2)": "nulls reviewed",
       ".activity-log span:nth-of-type(3)": "metric ready",
       ".mini-dashboard-title small": "executive preview",
-      ".workflow-caption": "Fictional representation of an analysis workflow: business question, code, validation and visual delivery.",
       ".proof-rail div:nth-child(1) span": "repositories with synthetic data, SQL and documentation",
       ".proof-rail div:nth-child(2) span": "KPIs, margin, targets, storytelling and dashboard blueprint",
       ".proof-rail div:nth-child(3) strong": "Product",
@@ -231,26 +240,35 @@ const translations = {
       ".dash-table > div:nth-child(3) span": "Home",
       ".dash-table > div:nth-child(4) span": "Fashion",
       ".case-copy .case-meta span:nth-child(1)": "Main case",
-      ".case-copy h2": "Playzone: funnel, retention and liquidity",
-      ".case-copy > p": "Product analytics case to diagnose whether users reach the value moment in an experiences, games and activities platform: confirmed booking after opportunity discovery and invitation.",
-      ".case-proof-grid div:nth-child(1) strong": "Problem",
-      ".case-proof-grid div:nth-child(1) span": "low activation and meaningful drop-off before invitation sent",
-      ".case-proof-grid div:nth-child(2) strong": "Delivery",
-      ".case-proof-grid div:nth-child(2) span": "ordered funnel, retention cohorts, category liquidity, CSV outputs and HTML dashboard",
+      ".case-copy h2": "Playzone: increasing activation",
+      ".case-copy > p": "Product case diagnosing why only 5.6% of users reach the value moment and showing that the first lever sits before invitation sent, not at the top of the funnel.",
+      ".case-proof-grid div:nth-child(1) strong": "5.6%",
+      ".case-proof-grid div:nth-child(1) span": "ordered activation to confirmed booking",
+      ".case-proof-grid div:nth-child(2) strong": "64.8%",
+      ".case-proof-grid div:nth-child(2) span": "drop-off before invitation sent",
+      ".case-proof-grid div:nth-child(3) strong": "62.2%",
+      ".case-proof-grid div:nth-child(3) span": "confirmation after invitation happens",
+      ".case-proof-grid div:nth-child(4) strong": "35.7%",
+      ".case-proof-grid div:nth-child(4) span": "D30 retention among activated users",
+      ".case-copy .dashboard-cta": "Open dashboard",
       ".case-copy .text-link": "Open repository",
-      ".case-card:nth-child(1) .case-meta span:nth-child(1)": "BI / MIS",
-      ".case-card:nth-child(1) .case-meta span:nth-child(2)": "Sales + margin",
-      ".case-card:nth-child(1) h3": "Executive sales and margin dashboard",
-      ".case-card:nth-child(1) p": "Analytical model, commercial KPIs, DAX measures and dashboard blueprint for revenue, margin, targets, channels and categories.",
+      ".case-card:nth-child(1) .case-meta span:nth-child(1)": "Applied AI",
+      ".case-card:nth-child(1) .case-meta span:nth-child(2)": "Quality",
+      ".case-card:nth-child(1) h3": "Release governance for AI responses",
+      ".case-card:nth-child(1) p": "Reviews 500 responses and separates average quality from operational readiness: 41.0% release-ready, v3 as the best baseline and backlog by failure type.",
+      ".case-card:nth-child(1) .dashboard-cta": "Open dashboard",
       ".case-card:nth-child(1) .text-link": "View case",
-      ".case-card:nth-child(2) .case-meta span:nth-child(1)": "Applied AI",
-      ".case-card:nth-child(2) .case-meta span:nth-child(2)": "Quality",
-      ".case-card:nth-child(2) h3": "AI response quality analysis",
-      ".case-card:nth-child(2) p": "Framework to review responses, classify errors, compare prompt versions and turn curation work into indicators.",
+      ".case-card:nth-child(2) .case-meta span:nth-child(1)": "Data Quality",
+      ".case-card:nth-child(2) .case-meta span:nth-child(2)": "Pipeline",
+      ".case-card:nth-child(2) h3": "Pipeline blocked even with a 98.2% score",
+      ".case-card:nth-child(2) p": "Quality gate for BI: 9 critical failures block executive publication, even with score above target and 495 orders ready.",
+      ".case-card:nth-child(2) .dashboard-cta": "Open dashboard",
       ".case-card:nth-child(2) .text-link": "View case",
-      ".case-card:nth-child(3) .case-meta span:nth-child(1)": "Data Quality",
-      ".case-card:nth-child(3) h3": "Analytical pipeline with quality checks",
-      ".case-card:nth-child(3) p": "Local pipeline with Python, DuckDB and SQL for ingestion, staging, validations, marts and issue monitoring.",
+      ".case-card:nth-child(3) .case-meta span:nth-child(1)": "BI / MIS",
+      ".case-card:nth-child(3) .case-meta span:nth-child(2)": "Sales + margin",
+      ".case-card:nth-child(3) h3": "Executive decision on revenue, margin and targets",
+      ".case-card:nth-child(3) p": "BI approved for publication: R$ 1.08M in revenue, 31.0% margin and an alert to protect profitability in pressured categories.",
+      ".case-card:nth-child(3) .dashboard-cta": "Open dashboard",
       ".case-card:nth-child(3) .text-link": "View case",
       ".evidence-section .section-kicker span": "What recruiters find",
       ".evidence-section .section-kicker p": "Each repository presents context, assumptions, queries, validations and deliverables objectively.",
@@ -321,12 +339,13 @@ const translations = {
       ".skip-link": "Saltar a los casos",
       ".brand-copy small": "Datos, BI e IA aplicada",
       ".nav a[href=\"#cases\"]": "Proyectos",
+      "[data-dashboard-nav]": "Dashboards",
       ".nav a[href=\"#metodo\"]": "Método",
       ".nav a[href=\"#stack\"]": "Stack",
       ".nav a[href=\"#contato\"]": "Contacto",
       ".role-line": "Portafolio de Datos, BI, MIS, Producto e IA aplicada",
-      ".hero h1": "Análisis confiables para decisiones de negocio.",
-      ".hero-text": "Soy Bruno Nascimento, de Curitiba/PR. Desarrollo análisis, consultas, validaciones y dashboards que conectan datos operativos con indicadores útiles para áreas de negocio.",
+      ".hero h1": "Análisis confiables para decisiones de negócio.",
+      ".hero-text": "Soy Bruno Nascimento, de Curitiba/PR. Desarrollo análisis, consultas, validaciones y dashboards que conectan datos operativos con indicadores útiles para áreas de negócio.",
       ".hero .hero-actions .button.primary": "Ver casos",
       ".lab-topbar em": "simulación",
       ".workflow-agent span": "ejecutando",
@@ -355,14 +374,13 @@ const translations = {
       ".activity-log span:nth-of-type(2)": "nulos revisados",
       ".activity-log span:nth-of-type(3)": "métrica lista",
       ".mini-dashboard-title small": "preview ejecutivo",
-      ".workflow-caption": "Representación ficticia de un flujo de análisis: pregunta de negocio, código, validación y entrega visual.",
-      ".proof-rail div:nth-child(1) span": "repositorios con datos sintéticos, SQL y documentación",
+      ".proof-rail div:nth-child(1) span": "repositórios con datos sintéticos, SQL y documentación",
       ".proof-rail div:nth-child(2) span": "KPI, margen, meta, storytelling y blueprint de dashboard",
       ".proof-rail div:nth-child(3) strong": "Producto",
       ".proof-rail div:nth-child(3) span": "embudo, retención, cohorts y métricas de marketplace",
       ".proof-rail div:nth-child(4) span": "evaluación de respuestas, curaduría y mejora de prompts",
       "#cases .section-kicker span": "Proyectos destacados",
-      "#cases .section-kicker p": "Casos con problema de negocio, modelo de datos, consultas SQL, validaciones, documentación y propuesta de dashboard.",
+      "#cases .section-kicker p": "Casos con problema de negócio, modelo de datos, consultas SQL, validaciones, documentación y propuesta de dashboard.",
       ".dash-title-row span": "Ventas y margen",
       ".dash-kpis div:nth-child(1) small": "Ingresos netos",
       ".dash-kpis div:nth-child(1) span": "+12% vs meta",
@@ -383,31 +401,40 @@ const translations = {
       ".dash-table > div:nth-child(3) span": "Hogar",
       ".dash-table > div:nth-child(4) span": "Moda",
       ".case-copy .case-meta span:nth-child(1)": "Caso principal",
-      ".case-copy h2": "Playzone: embudo, retención y liquidez",
-      ".case-copy > p": "Estudio de Product Analytics para diagnosticar si los usuarios llegan al momento de valor en una plataforma de experiencias, juegos y actividades: reserva confirmada tras descubrir una oportunidad y enviar una invitación.",
-      ".case-proof-grid div:nth-child(1) strong": "Problema",
-      ".case-proof-grid div:nth-child(1) span": "baja activación y pérdida relevante antes de enviar la invitación",
-      ".case-proof-grid div:nth-child(2) strong": "Entrega",
-      ".case-proof-grid div:nth-child(2) span": "embudo ordenado, cohorts de retención, liquidez por categoría, outputs CSV y dashboard HTML",
-      ".case-copy .text-link": "Abrir repositorio",
-      ".case-card:nth-child(1) .case-meta span:nth-child(1)": "BI / MIS",
-      ".case-card:nth-child(1) .case-meta span:nth-child(2)": "Ventas + margen",
-      ".case-card:nth-child(1) h3": "Dashboard ejecutivo de ventas y margen",
-      ".case-card:nth-child(1) p": "Modelo analítico, KPIs comerciales, medidas DAX y blueprint de dashboard para ingresos, margen, metas, canales y categorías.",
+      ".case-copy h2": "Playzone: aumentar activación",
+      ".case-copy > p": "Caso de producto que diagnostica por qué solo 5,6% de los usuarios llegan al momento de valor y muestra que la primera palanca está antes de enviar la invitación, no arriba del embudo.",
+      ".case-proof-grid div:nth-child(1) strong": "5,6%",
+      ".case-proof-grid div:nth-child(1) span": "activación ordenada hasta reserva confirmada",
+      ".case-proof-grid div:nth-child(2) strong": "64,8%",
+      ".case-proof-grid div:nth-child(2) span": "pérdida antes de enviar la invitación",
+      ".case-proof-grid div:nth-child(3) strong": "62,2%",
+      ".case-proof-grid div:nth-child(3) span": "confirmación después de la invitación",
+      ".case-proof-grid div:nth-child(4) strong": "35,7%",
+      ".case-proof-grid div:nth-child(4) span": "retención D30 entre usuarios activados",
+      ".case-copy .dashboard-cta": "Abrir dashboard",
+      ".case-copy .text-link": "Abrir repositório",
+      ".case-card:nth-child(1) .case-meta span:nth-child(1)": "IA aplicada",
+      ".case-card:nth-child(1) .case-meta span:nth-child(2)": "Calidad",
+      ".case-card:nth-child(1) h3": "Gobernanza de release para respuestas de IA",
+      ".case-card:nth-child(1) p": "Evalúa 500 respuestas y separa calidad media de preparación operacional: 41,0% release-ready, v3 como mejor baseline y backlog por falla.",
+      ".case-card:nth-child(1) .dashboard-cta": "Abrir dashboard",
       ".case-card:nth-child(1) .text-link": "Ver caso",
-      ".case-card:nth-child(2) .case-meta span:nth-child(1)": "IA aplicada",
-      ".case-card:nth-child(2) .case-meta span:nth-child(2)": "Calidad",
-      ".case-card:nth-child(2) h3": "Análisis de calidad de respuestas de IA",
-      ".case-card:nth-child(2) p": "Framework para revisar respuestas, clasificar errores, comparar versiones de prompt y transformar curaduría en indicadores.",
+      ".case-card:nth-child(2) .case-meta span:nth-child(1)": "Data Quality",
+      ".case-card:nth-child(2) .case-meta span:nth-child(2)": "Pipeline",
+      ".case-card:nth-child(2) h3": "Pipeline bloqueado incluso con 98,2% de score",
+      ".case-card:nth-child(2) p": "Gate de calidad para BI: 9 fallas críticas impiden publicación ejecutiva, incluso con score arriba de la meta y 495 pedidos listos.",
+      ".case-card:nth-child(2) .dashboard-cta": "Abrir dashboard",
       ".case-card:nth-child(2) .text-link": "Ver caso",
-      ".case-card:nth-child(3) .case-meta span:nth-child(1)": "Data Quality",
-      ".case-card:nth-child(3) h3": "Pipeline analítico con controles de calidad",
-      ".case-card:nth-child(3) p": "Pipeline local con Python, DuckDB y SQL para ingesta, staging, validaciones, marts y monitoreo de problemas.",
+      ".case-card:nth-child(3) .case-meta span:nth-child(1)": "BI / MIS",
+      ".case-card:nth-child(3) .case-meta span:nth-child(2)": "Ventas + margen",
+      ".case-card:nth-child(3) h3": "Decisión ejecutiva de ingresos, margen y metas",
+      ".case-card:nth-child(3) p": "BI aprobado para publicación: R$ 1,08M en ingresos, 31,0% de margen y alerta para proteger rentabilidad en categorías presionadas.",
+      ".case-card:nth-child(3) .dashboard-cta": "Abrir dashboard",
       ".case-card:nth-child(3) .text-link": "Ver caso",
       ".evidence-section .section-kicker span": "Lo que encuentra el reclutador",
-      ".evidence-section .section-kicker p": "Cada repositorio presenta contexto, premisas, consultas, validaciones y entregables de forma objetiva.",
-      ".evidence-item:nth-child(1) h3": "Pregunta de negocio",
-      ".evidence-item:nth-child(1) p": "Definición del problema, las métricas y los criterios de éxito del análisis.",
+      ".evidence-section .section-kicker p": "Cada repositório presenta contexto, premisas, consultas, validaciones y entregables de forma objetiva.",
+      ".evidence-item:nth-child(1) h3": "Pregunta de negócio",
+      ".evidence-item:nth-child(1) p": "Definición del problema, las métricas y los critérios de éxito del análisis.",
       ".evidence-item:nth-child(2) h3": "Datos y reglas",
       ".evidence-item:nth-child(2) p": "Bases sintéticas, diccionario, reglas de cálculo y premisas documentadas.",
       ".evidence-item:nth-child(3) h3": "SQL reproducible",
@@ -416,7 +443,7 @@ const translations = {
       ".evidence-item:nth-child(4) p": "Blueprints de dashboard y recomendaciones para conectar insight con decisión.",
       ".method-copy .section-label": "Método",
       ".method-copy h2": "Claridad antes del gráfico.",
-      ".method-copy p": "Antes de construir visualizaciones, defino la pregunta de negocio, las reglas de cálculo, la calidad de los datos y la mejor forma de comunicar el indicador.",
+      ".method-copy p": "Antes de construir visualizaciones, defino la pregunta de negócio, las reglas de cálculo, la calidad de los datos y la mejor forma de comunicar el indicador.",
       ".timeline-item:nth-child(1) h3": "Entender",
       ".timeline-item:nth-child(1) p": "¿Qué decisión debe tomarse? ¿Qué KPI cambia la conversación?",
       ".timeline-item:nth-child(2) h3": "Modelar",
@@ -438,10 +465,10 @@ const translations = {
       ".stack-board > div:nth-child(3) h3": "Producto e IA",
       ".stack-board > div:nth-child(3) li:nth-child(1)": "Tracking plan, eventos y análisis de jornada",
       ".stack-board > div:nth-child(3) li:nth-child(2)": "Evaluación de respuestas, prompts y curaduría",
-      ".stack-board > div:nth-child(3) li:nth-child(3)": "Documentación que ayuda a equipos técnicos y de negocio",
+      ".stack-board > div:nth-child(3) li:nth-child(3)": "Documentación que ayuda a equipos técnicos y de negócio",
       ".about-panel .section-label": "Sobre",
-      ".about-panel h2": "Perfil analítico con foco en negocio.",
-      ".about-panel p:nth-of-type(1)": "Mi foco profesional está en transformar datos operativos en lecturas útiles para áreas de negocio, producto, operación y gestión.",
+      ".about-panel h2": "Perfil analítico con foco en negócio.",
+      ".about-panel p:nth-of-type(1)": "Mi foco profesional está en transformar datos operativos en lecturas útiles para áreas de negócio, producto, operación y gestión.",
       ".about-panel p:nth-of-type(2)": "Este portafolio demuestra práctica en organización de datos, SQL, documentación, validación de métricas y comunicación de resultados.",
       ".contact-panel > p": "Curitiba/PR · remoto, híbrido o presencial según la oportunidad",
       ".contact-panel h2": "Si tu equipo necesita transformar datos e indicadores en análisis claros, conversemos.",
@@ -522,6 +549,10 @@ const applyLanguage = (language, shouldPersist = false) => {
   languageButtons.forEach((button) => {
     const isActive = button.dataset.langOption === language;
     button.setAttribute("aria-pressed", String(isActive));
+  });
+
+  document.querySelectorAll("[data-dashboard-case]").forEach((link) => {
+    link.setAttribute("href", `dashboards/?case=${encodeURIComponent(link.dataset.dashboardCase)}&lang=${language}`);
   });
 
   if (shouldPersist) {
@@ -683,7 +714,32 @@ const startCodeTyping = (container) => {
   window.setTimeout(typeNext, 180);
 };
 
-document.querySelectorAll(".hero-lab").forEach(prepareCodeTyping);
+const workflowStageClasses = ["workflow-stage-0", "workflow-stage-1", "workflow-stage-2", "workflow-stage-3", "workflow-stage-4"];
+
+const setWorkflowStage = (container, stage) => {
+  container.classList.remove(...workflowStageClasses);
+  container.classList.add(`workflow-stage-${stage}`);
+};
+
+const startWorkflowLayout = (container) => {
+  if (!container.classList.contains("hero-lab") || container.dataset.workflowLayoutStarted === "true") return;
+  container.dataset.workflowLayoutStarted = "true";
+
+  if (prefersReducedMotion) {
+    setWorkflowStage(container, 4);
+    return;
+  }
+
+  setWorkflowStage(container, 0);
+  [1, 2, 3, 4].forEach((stage, index) => {
+    window.setTimeout(() => setWorkflowStage(container, stage), 1450 + index * 1550);
+  });
+};
+
+document.querySelectorAll(".hero-lab").forEach((item) => {
+  prepareCodeTyping(item);
+  setWorkflowStage(item, prefersReducedMotion ? 4 : 0);
+});
 
 if ("IntersectionObserver" in window) {
   const observer = new IntersectionObserver(
@@ -709,6 +765,7 @@ if ("IntersectionObserver" in window) {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) return;
         entry.target.classList.add("is-animated");
+        startWorkflowLayout(entry.target);
         startCodeTyping(entry.target);
         entry.target.querySelectorAll(".count-up").forEach(animateCount);
         motionObserver.unobserve(entry.target);
@@ -721,6 +778,7 @@ if ("IntersectionObserver" in window) {
 } else {
   animatedVisuals.forEach((item) => {
     item.classList.add("is-animated");
+    startWorkflowLayout(item);
     startCodeTyping(item);
     item.querySelectorAll(".count-up").forEach(animateCount);
   });

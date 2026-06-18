@@ -4,14 +4,18 @@ Site estático de portfólio profissional para projetos de Dados, BI, Product An
 
 ## Projetos destacados
 
-- [Dashboard Executivo de Vendas e Margem](https://github.com/bruniversamente/retail-bi-sales-dashboard)
-- [Product Analytics: Funil, Retenção e Marketplace](https://github.com/bruniversamente/product-analytics-funnel-retention)
-- [AI Response Quality Analysis](https://github.com/bruniversamente/ai-response-quality-analysis)
-- [Data Pipeline Quality Checks](https://github.com/bruniversamente/data-pipeline-quality-checks)
+- [Case principal: Playzone Product Analytics](https://github.com/bruniversamente/product-analytics-funnel-retention) - ativação, funil ordenado, retenção e liquidez de marketplace
+- [AI Response Quality Analysis](https://github.com/bruniversamente/ai-response-quality-analysis) - governança de release para respostas de IA
+- [Data Pipeline Quality Checks](https://github.com/bruniversamente/data-pipeline-quality-checks) - gate de qualidade que bloqueia BI mesmo com score alto
+- [Dashboard Executivo de Vendas e Margem](https://github.com/bruniversamente/retail-bi-sales-dashboard) - decisão executiva de receita, margem e metas
 
 ## Site
 
 https://bruniversamente.github.io/
+
+## Dashboards interativos
+
+https://bruniversamente.github.io/dashboards/
 
 ## Stack
 

@@ -731,7 +731,8 @@ h3 {
   position: relative;
   overflow: hidden;
   margin: 0;
-  min-height: 266px;
+  height: 116px;
+  min-height: 116px;
   padding: 12px;
   border: 1px solid rgba(57, 212, 255, 0.2);
   border-radius: var(--radius);
@@ -741,6 +742,12 @@ h3 {
   font-size: 0.62rem;
   line-height: 1.45;
   white-space: pre-wrap;
+}
+
+.code-window code {
+  display: block;
+  transform: translateY(0);
+  white-space: normal;
 }
 
 .code-window::after {
@@ -758,6 +765,7 @@ h3 {
   display: block;
   opacity: 1;
   clip-path: inset(0 0 0 0);
+  white-space: pre;
 }
 
 .js-ready .code-window span,
@@ -777,6 +785,10 @@ h3 {
 
 .js-ready .code-window span {
   clip-path: inset(0 100% 0 0);
+}
+
+.hero-lab.is-animated .code-window code {
+  animation: code-scroll 13.2s ease-in-out forwards;
 }
 
 .hero-lab.is-animated .code-window span,
@@ -1977,6 +1989,33 @@ h3 {
   }
 }
 
+@keyframes code-scroll {
+  0%,
+  24% {
+    transform: translateY(0);
+  }
+
+  31%,
+  42% {
+    transform: translateY(-45px);
+  }
+
+  49%,
+  60% {
+    transform: translateY(-90px);
+  }
+
+  67%,
+  78% {
+    transform: translateY(-135px);
+  }
+
+  85%,
+  100% {
+    transform: translateY(-172px);
+  }
+}
+
 @keyframes agent-work {
   0%,
   11% {
@@ -1988,14 +2027,14 @@ h3 {
   22%,
   38% {
     left: 31%;
-    top: 250px;
+    top: 214px;
     opacity: 1;
   }
 
   51%,
   64% {
     left: 42%;
-    top: 535px;
+    top: 435px;
     opacity: 1;
   }
 

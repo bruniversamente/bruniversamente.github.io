@@ -1226,21 +1226,11 @@ h3 {
   width: min(100%, 520px);
   min-height: 540px;
   padding: 20px;
-  border: 1px solid rgba(57, 212, 255, 0.24);
   border-radius: var(--radius);
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.07), rgba(255, 255, 255, 0.025)),
     rgba(5, 8, 18, 0.84);
   box-shadow: 0 28px 70px rgba(0, 0, 0, 0.26), inset 0 0 38px rgba(57, 212, 255, 0.05);
-}
-
-.activation-map::before {
-  content: "";
-  position: absolute;
-  inset: 18px;
-  border: 1px solid rgba(255, 255, 255, 0.055);
-  border-radius: calc(var(--radius) - 3px);
-  pointer-events: none;
 }
 
 .activation-map-head,
@@ -2700,10 +2690,6 @@ h3 {
     min-height: auto;
     padding: 15px;
     gap: 12px;
-  }
-
-  .activation-map::before {
-    inset: 12px;
   }
 
   .activation-summary {

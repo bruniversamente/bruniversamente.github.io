@@ -1913,6 +1913,8 @@ h3 {
   flex-wrap: wrap;
   gap: 10px;
   align-items: center;
+  justify-content: flex-end;
+  margin-top: auto;
 }
 
 .dashboard-cta {
@@ -1990,6 +1992,8 @@ h3 {
 }
 
 .case-card {
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   transition: transform 0.24s ease, border-color 0.24s ease, background 0.24s ease, box-shadow 0.24s ease;
 }
@@ -2113,11 +2117,28 @@ h3 {
 }
 
 .card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   padding: 24px;
 }
 
 .card-body p {
   min-height: 112px;
+}
+
+.case-card .dashboard-cta {
+  min-height: 34px;
+  padding: 0;
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
+}
+
+.case-card .dashboard-cta:hover {
+  border-color: transparent;
+  background: transparent;
+  box-shadow: none;
 }
 
 .evidence-grid {
@@ -2601,7 +2622,6 @@ h3 {
 
   .hero-actions,
   .button,
-  .dashboard-cta,
   .case-actions .text-link {
     width: 100%;
   }

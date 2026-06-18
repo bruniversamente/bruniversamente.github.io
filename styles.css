@@ -201,7 +201,7 @@ body.is-scrolled .site-header {
 
 .site-header-inner {
   display: grid;
-  grid-template-columns: 1fr auto auto;
+  grid-template-columns: 1fr auto auto auto;
   gap: 18px;
   align-items: center;
   max-width: var(--max);
@@ -309,6 +309,41 @@ body.is-scrolled .site-header-inner {
 .nav a:hover::after,
 .nav a.active::after {
   transform: scaleX(1);
+}
+
+.language-switcher {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.language-switcher button {
+  min-width: 34px;
+  min-height: 32px;
+  padding: 0 8px;
+  border: 0;
+  border-radius: calc(var(--radius) - 2px);
+  color: var(--muted);
+  background: transparent;
+  font: inherit;
+  font-size: 0.76rem;
+  font-weight: 900;
+  line-height: 1;
+  transition: color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
+}
+
+.language-switcher button:hover,
+.language-switcher button[aria-pressed="true"] {
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.language-switcher button[aria-pressed="true"] {
+  box-shadow: inset 0 -2px 0 var(--cyan);
 }
 
 .nav-cta {
@@ -761,6 +796,23 @@ h3 {
   background:
     linear-gradient(135deg, rgba(79, 140, 255, 0.13), rgba(82, 230, 165, 0.06)),
     #090e1a;
+}
+
+.playzone-visual {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.case-dashboard-preview {
+  display: block;
+  width: min(100%, 740px);
+  max-width: none;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: var(--radius);
+  box-shadow: 0 28px 70px rgba(0, 0, 0, 0.34);
+  transform: rotate(-1.2deg) scale(1.02);
+  transform-origin: center;
 }
 
 .dashboard-shell {
@@ -1631,11 +1683,17 @@ h3 {
   }
 
   .nav {
-    grid-column: 1 / -1;
+    grid-column: 1;
     grid-row: 2;
     width: 100%;
     overflow-x: auto;
     padding-bottom: 2px;
+  }
+
+  .language-switcher {
+    grid-column: 2;
+    grid-row: 2;
+    justify-self: end;
   }
 
   .nav-cta {

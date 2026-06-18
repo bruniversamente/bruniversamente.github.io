@@ -49,6 +49,11 @@
         <a href="#stack">Stack</a>
         <a href="#contato">Contato</a>
       </nav>
+      <div class="language-switcher" aria-label="Selecionar idioma">
+        <button type="button" data-lang-option="pt" aria-pressed="true">PT</button>
+        <button type="button" data-lang-option="en" aria-pressed="false">EN</button>
+        <button type="button" data-lang-option="es" aria-pressed="false">ES</button>
+      </div>
       <a class="nav-cta" href="https://wa.me/5541999990367" target="_blank" rel="noreferrer" aria-label="Conversar pelo WhatsApp">
         <img src="assets/whatsapp.svg" alt="" width="24" height="24" />
       </a>
@@ -129,101 +134,20 @@
       </div>
 
       <article class="case-feature reveal">
-        <div class="case-visual retail-visual" aria-hidden="true">
-          <div class="dashboard-shell">
-            <div class="dash-title-row">
-              <span>Vendas e margem</span>
-              <strong>Q4</strong>
-            </div>
-            <div class="dash-kpis">
-              <div>
-                <small>Receita líquida</small>
-                <strong class="count-up" data-count="2.4" data-prefix="R$ " data-suffix=" mi" data-decimals="1" data-comma="true">R$ 2,4 mi</strong>
-                <span>+12% vs meta</span>
-              </div>
-              <div>
-                <small>Margem</small>
-                <strong class="count-up" data-count="18.6" data-suffix="%" data-decimals="1" data-comma="true">18,6%</strong>
-                <span>2,1 p.p. abaixo</span>
-              </div>
-              <div>
-                <small>Ticket médio</small>
-                <strong class="count-up" data-count="184" data-prefix="R$ ">R$ 184</strong>
-                <span>varejo multicanal</span>
-              </div>
-            </div>
-            <div class="dash-main">
-              <div class="dash-chart-card">
-                <div class="dash-card-title">
-                  <span>Receita por canal</span>
-                  <strong>R$ mi</strong>
-                </div>
-                <div class="dash-bars">
-                  <span><i style="--bar: 46%"></i><em>Loja</em></span>
-                  <span><i style="--bar: 74%"></i><em>Online</em></span>
-                  <span><i style="--bar: 58%"></i><em>App</em></span>
-                  <span><i style="--bar: 86%"></i><em>B2B</em></span>
-                </div>
-              </div>
-              <div class="dash-chart-card">
-                <div class="dash-card-title">
-                  <span>Margem vs meta</span>
-                  <strong>18,6%</strong>
-                </div>
-                <svg class="dash-line" viewBox="0 0 260 132" role="img" aria-label="Linha de tendência de margem">
-                  <line x1="18" y1="28" x2="242" y2="28"></line>
-                  <line x1="18" y1="68" x2="242" y2="68"></line>
-                  <line x1="18" y1="108" x2="242" y2="108"></line>
-                  <path class="target-line" d="M18 54 L242 54"></path>
-                  <path class="actual-line" d="M18 96 C46 80, 69 78, 96 65 S148 43, 176 57 S218 72, 242 36"></path>
-                  <circle cx="176" cy="57" r="4"></circle>
-                  <circle cx="242" cy="36" r="4"></circle>
-                </svg>
-                <div class="dash-legend">
-                  <span><i class="actual-dot"></i>real</span>
-                  <span><i class="target-dot"></i>meta</span>
-                </div>
-              </div>
-            </div>
-            <div class="dash-alerts">
-              <span>Margem abaixo da meta em 2 canais</span>
-              <span>Categoria com alto volume e baixa rentabilidade</span>
-            </div>
-            <div class="dash-table">
-              <div class="dash-table-head">
-                <span>Categoria</span>
-                <span>Receita</span>
-                <span>Margem</span>
-              </div>
-              <div>
-                <span>Eletrônicos</span>
-                <strong>R$ 680k</strong>
-                <em class="risk">12,4%</em>
-              </div>
-              <div>
-                <span>Casa</span>
-                <strong>R$ 540k</strong>
-                <em>21,8%</em>
-              </div>
-              <div>
-                <span>Moda</span>
-                <strong>R$ 420k</strong>
-                <em>18,1%</em>
-              </div>
-            </div>
-          </div>
+        <div class="case-visual playzone-visual" aria-hidden="true">
+          <img class="case-dashboard-preview" src="assets/playzone-dashboard-preview.png" alt="" />
         </div>
         <div class="case-copy">
-          <div class="case-meta"><span>Case principal</span><span>BI / MIS</span><span>SQL + Power BI</span></div>
-          <h2>Dashboard executivo de vendas e margem</h2>
+          <div class="case-meta"><span>Case principal</span><span>Product Analytics</span><span>SQL + Python + Dashboard</span></div>
+          <h2>Playzone: funil, retenção e liquidez</h2>
           <p>
-            Projeto de BI para consolidar dados comerciais, definir KPIs, validar inconsistências e estruturar uma visão executiva de receita, margem, metas, canais e categorias.
+            Estudo de caso para diagnosticar se usuários chegam ao momento de valor em uma plataforma de experiências, jogos e atividades: reserva confirmada após descoberta de oportunidade e envio de convite.
           </p>
           <div class="case-proof-grid">
-            <div><strong>Problema</strong><span>dados comerciais espalhados e baixa visibilidade de margem</span></div>
-            <div><strong>Entrega</strong><span>modelo analítico, consultas SQL, medidas DAX e blueprint do dashboard</span></div>
+            <div><strong>Problema</strong><span>ativação baixa e perda relevante antes do convite enviado</span></div>
+            <div><strong>Entrega</strong><span>funil ordenado, cohorts de retenção, liquidez por categoria, outputs CSV e dashboard HTML</span></div>
           </div>
-          <a class="text-link" href="https://github.com/bruniversamente/retail-bi-sales-dashboard" target="_blank" rel="noreferrer">Abrir repositório</a>
+          <a class="text-link" href="https://github.com/bruniversamente/product-analytics-funnel-retention" target="_blank" rel="noreferrer">Abrir repositório</a>
         </div>
       </article>
 
@@ -233,10 +157,10 @@
             <span></span><span></span><span></span><span></span>
           </div>
           <div class="card-body">
-            <div class="case-meta"><span>Product Analytics</span><span>Funil + cohort</span></div>
-            <h3>Funil, retenção e métricas de marketplace</h3>
-            <p>Tracking plan, eventos, funil de ativação, retenção D1/D7/D30 e liquidez de marketplace para apoiar roadmap e crescimento.</p>
-            <a class="text-link" href="https://github.com/bruniversamente/product-analytics-funnel-retention" target="_blank" rel="noreferrer">Ver case</a>
+            <div class="case-meta"><span>BI / MIS</span><span>Vendas + margem</span></div>
+            <h3>Dashboard executivo de vendas e margem</h3>
+            <p>Modelo analítico, KPIs comerciais, medidas DAX e blueprint de dashboard para receita, margem, metas, canais e categorias.</p>
+            <a class="text-link" href="https://github.com/bruniversamente/retail-bi-sales-dashboard" target="_blank" rel="noreferrer">Ver case</a>
           </div>
         </article>
 

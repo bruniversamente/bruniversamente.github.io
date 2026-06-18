@@ -2071,7 +2071,7 @@ h3 {
 .mini-visual-body {
   display: grid;
   grid-template-columns: 112px minmax(0, 1fr);
-  gap: 12px;
+  gap: 18px;
   align-items: stretch;
 }
 
@@ -2082,7 +2082,7 @@ h3 {
   aspect-ratio: 1;
   border-radius: 50%;
   background: conic-gradient(var(--green) 0 var(--score), rgba(255, 255, 255, 0.12) var(--score) 100%);
-  box-shadow: inset 0 0 0 15px #07101d, 0 0 28px rgba(82, 230, 165, 0.12);
+  box-shadow: inset 0 0 0 15px #07101d;
 }
 
 .mini-ring strong {

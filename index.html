@@ -106,10 +106,22 @@
               </div>
               <p class="workflow-question">Pergunta: onde a margem cai antes da receita parecer um problema?</p>
               <pre class="code-window"><code><span>import pandas as pd</span>
-<span>vendas = load_table("mart_vendas")</span>
-<span>gap = vendas.query("meta_gap &lt; 0")</span>
-<span>gap.groupby(["canal", "categoria"])</span>
-<span>   .agg(margem=("margem_pct", "mean"))</span></code></pre>
+<span>from pathlib import Path</span>
+<span>base = Path("data")</span>
+<span>arquivo = base / "mart_vendas.parquet"</span>
+<span>vendas = pd.read_parquet(arquivo)</span>
+<span>lucro = vendas["lucro"]</span>
+<span>receita = vendas["receita"]</span>
+<span>meta = vendas["meta_margem"]</span>
+<span>vendas["margem"] = lucro / receita</span>
+<span>vendas["gap"] = vendas["margem"] - meta</span>
+<span>risco = vendas[vendas.gap &lt; 0]</span>
+<span>resumo = risco.groupby("canal").agg(</span>
+<span>    receita=("receita", "sum"),</span>
+<span>    margem=("margem", "mean"),</span>
+<span>)</span>
+<span>saida = "outputs/canais_em_risco.csv"</span>
+<span>resumo.to_csv(saida)</span></code></pre>
             </section>
 
             <section class="result-panel">

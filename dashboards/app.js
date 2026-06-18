@@ -9,19 +9,19 @@ const CASES = {
       pt: {
         tab: "Playzone",
         title: "Playzone: ativação, retenção e liquidez do marketplace",
-        description: "A leitura central é que o gargalo mais caro não está no cadastro: ele aparece antes do convite enviado. O dashboard mostra funil, canais, retenção e categorias para priorizar a alavanca certa.",
+        description: "5,6% de ativação até reserva confirmada. A maior perda aparece antes do convite enviado.",
         recommendation: "Priorizar experimentos que aumentem convite enviado e qualidade de oportunidade antes de otimizar etapas já saudáveis."
       },
       en: {
         tab: "Playzone",
         title: "Playzone: activation, retention and marketplace liquidity",
-        description: "The core read is that the most expensive bottleneck is not signup. It appears before invitation sent. The dashboard shows funnel, channels, retention and categories to prioritize the right lever.",
+        description: "5.6% activation to confirmed booking. The largest loss appears before invitation sent.",
         recommendation: "Prioritize experiments that increase invitation sent and opportunity quality before optimizing already healthy steps."
       },
       es: {
         tab: "Playzone",
         title: "Playzone: activación, retención y liquidez del marketplace",
-        description: "La lectura central es que el cuello de botella más caro no está en el registro. Aparece antes de enviar la invitación. El dashboard muestra embudo, canales, retención y categorías.",
+        description: "5,6% de activación hasta reserva confirmada. La mayor pérdida aparece antes de enviar la invitación.",
         recommendation: "Priorizar experimentos que aumenten invitaciones enviadas y calidad de oportunidad antes de optimizar etapas saludables."
       }
     }
@@ -34,19 +34,19 @@ const CASES = {
       pt: {
         tab: "AI Quality",
         title: "AI Quality: governança de release para respostas de IA",
-        description: "O case separa qualidade média de prontidão operacional. A v3 é o melhor baseline, mas ainda existe backlog relevante por versão, caso de uso e tipo de falha.",
+        description: "41,0% release-ready. A v3 é o melhor baseline, com backlog por versão, caso de uso e tipo de falha.",
         recommendation: "Usar v3 como baseline, atacar falhas de contexto e actionability, e manter gate de release por caso de uso."
       },
       en: {
         tab: "AI Quality",
         title: "AI Quality: release governance for AI responses",
-        description: "The case separates average quality from operational readiness. v3 is the best baseline, but there is still meaningful backlog by version, use case and failure type.",
+        description: "41.0% release-ready. v3 is the best baseline, with backlog by version, use case and failure type.",
         recommendation: "Use v3 as the baseline, address context and actionability failures, and keep a release gate by use case."
       },
       es: {
         tab: "AI Quality",
         title: "AI Quality: gobernanza de release para respuestas de IA",
-        description: "El caso separa calidad media de preparación operacional. v3 es el mejor baseline, pero todavía hay backlog por versión, caso de uso y tipo de falla.",
+        description: "41,0% release-ready. v3 es el mejor baseline, con backlog por versión, caso de uso y tipo de falla.",
         recommendation: "Usar v3 como baseline, atacar fallas de contexto y accionabilidad, y mantener gate por caso de uso."
       }
     }
@@ -59,19 +59,19 @@ const CASES = {
       pt: {
         tab: "Pipeline Quality",
         title: "Pipeline Quality: publicação bloqueada com score alto",
-        description: "O score geral parece saudável, mas nove falhas críticas impedem a publicação executiva. O dashboard mostra por que média boa não substitui regra de bloqueio.",
+        description: "98,2% de score geral, mas 9 falhas críticas bloqueiam a publicação executiva.",
         recommendation: "Publicar apenas marts Ready, corrigir falhas críticas e tratar warnings fora da receita executiva."
       },
       en: {
         tab: "Pipeline Quality",
         title: "Pipeline Quality: publication blocked despite a high score",
-        description: "The overall score looks healthy, but nine critical failures block executive publication. The dashboard shows why a good average does not replace blocking rules.",
+        description: "98.2% overall score, but 9 critical failures block executive publication.",
         recommendation: "Publish Ready marts only, fix critical failures and monitor warnings outside executive revenue."
       },
       es: {
         tab: "Pipeline Quality",
         title: "Pipeline Quality: publicación bloqueada con score alto",
-        description: "El score general parece saludable, pero nueve fallas críticas bloquean la publicación ejecutiva. El dashboard muestra por qué un buen promedio no reemplaza reglas críticas.",
+        description: "98,2% de score general, pero 9 fallas críticas bloquean la publicación ejecutiva.",
         recommendation: "Publicar solo marts Ready, corregir fallas críticas y monitorear warnings fuera del ingreso ejecutivo."
       }
     }
@@ -84,19 +84,19 @@ const CASES = {
       pt: {
         tab: "Retail BI",
         title: "Retail BI: receita, margem e metas executivas",
-        description: "O dashboard mostra uma operação aprovada para publicação: R$ 1,08M em receita, margem de 31,0% e leitura por canal, categoria, mês e produto.",
+        description: "R$ 1,08M em receita, 31,0% de margem e alertas por canal, categoria, mês e produto.",
         recommendation: "Proteger categorias com margem pressionada e usar metas por canal para explicar onde receita cresceu sem preservar rentabilidade."
       },
       en: {
         tab: "Retail BI",
         title: "Retail BI: executive revenue, margin and targets",
-        description: "The dashboard shows an operation approved for publication: R$1.08M revenue, 31.0% margin and reads by channel, category, month and product.",
+        description: "R$1.08M revenue, 31.0% margin and alerts by channel, category, month and product.",
         recommendation: "Protect categories with pressured margin and use channel targets to explain where revenue grew without preserving profitability."
       },
       es: {
         tab: "Retail BI",
         title: "Retail BI: ingresos, margen y metas ejecutivas",
-        description: "El dashboard muestra una operación aprobada para publicación: R$1,08M en ingresos, margen de 31,0% y lectura por canal, categoría, mes y producto.",
+        description: "R$1,08M en ingresos, 31,0% de margen y alertas por canal, categoría, mes y producto.",
         recommendation: "Proteger categorías con margen presionado y usar metas por canal para explicar dónde creció ingreso sin preservar rentabilidad."
       }
     }
@@ -110,12 +110,12 @@ const UI = {
     navCases: "Projetos",
     navMethod: "Método",
     navContact: "Contato",
-    eyebrow: "Dashboards publicados no GitHub Pages",
-    title: "Quatro estudos de caso, uma camada executiva interativa.",
-    subtitle: "Cada dashboard usa os dados versionados do respectivo repositório e mantém filtros, contexto, evidência e recomendação em uma experiência navegável.",
-    summaryCases: "cases conectados",
-    summaryStatic: "estático e versionável",
-    summaryState: "filtros compartilháveis",
+    eyebrow: "Analytics portfolio",
+    title: "Cases analíticos",
+    subtitle: "Playzone, AI Quality, Pipeline Quality e Retail BI.",
+    summaryCases: "cases",
+    summaryStatic: "Python + DuckDB",
+    summaryState: "GitHub Pages",
     caseLabel: "Selecionar case",
     openRepo: "Abrir repositório",
     backPortfolio: "Voltar ao portfólio",
@@ -134,9 +134,9 @@ const UI = {
       month: "Mês"
     },
     all: "Todos",
-    notesLabel: "Como ler",
-    notesTitle: "O dashboard mostra decisão, não só gráfico.",
-    notesBody: "A ordem de leitura é: contexto do problema, KPIs que mudam a decisão, evidência visual, registros ou dimensões de apoio e recomendação. Os dados são sintéticos, mas a estrutura simula uma entrega profissional.",
+    notesLabel: "",
+    notesTitle: "",
+    notesBody: "",
     charts: {
       orderedFunnel: "Funil ordenado até reserva confirmada",
       orderedFunnelSub: "A maior perda aparece antes do convite enviado.",
@@ -263,12 +263,12 @@ const UI = {
     navCases: "Projects",
     navMethod: "Method",
     navContact: "Contact",
-    eyebrow: "Dashboards published on GitHub Pages",
-    title: "Four case studies, one interactive executive layer.",
-    subtitle: "Each dashboard uses versioned data from its repository and keeps filters, context, evidence and recommendation in a navigable experience.",
-    summaryCases: "connected cases",
-    summaryStatic: "static and versioned",
-    summaryState: "shareable filters",
+    eyebrow: "Analytics portfolio",
+    title: "Analytics cases",
+    subtitle: "Playzone, AI Quality, Pipeline Quality and Retail BI.",
+    summaryCases: "cases",
+    summaryStatic: "Python + DuckDB",
+    summaryState: "GitHub Pages",
     caseLabel: "Select case",
     openRepo: "Open repository",
     backPortfolio: "Back to portfolio",
@@ -287,9 +287,9 @@ const UI = {
       month: "Month"
     },
     all: "All",
-    notesLabel: "How to read",
-    notesTitle: "The dashboard shows decisions, not just charts.",
-    notesBody: "The reading order is: problem context, decision-changing KPIs, visual evidence, support records or dimensions and recommendation. The data is synthetic, but the structure simulates a professional delivery.",
+    notesLabel: "",
+    notesTitle: "",
+    notesBody: "",
     charts: {
       orderedFunnel: "Ordered funnel to confirmed booking",
       orderedFunnelSub: "The largest loss appears before invitation sent.",
@@ -415,12 +415,12 @@ const UI = {
     navCases: "Proyectos",
     navMethod: "Método",
     navContact: "Contacto",
-    eyebrow: "Dashboards publicados en GitHub Pages",
-    title: "Cuatro estudios de caso, una capa ejecutiva interactiva.",
-    subtitle: "Cada dashboard usa datos versionados del repositorio correspondiente y mantiene filtros, contexto, evidencia y recomendación en una experiencia navegable.",
-    summaryCases: "casos conectados",
-    summaryStatic: "estático y versionable",
-    summaryState: "filtros compartibles",
+    eyebrow: "Analytics portfolio",
+    title: "Casos analíticos",
+    subtitle: "Playzone, AI Quality, Pipeline Quality y Retail BI.",
+    summaryCases: "casos",
+    summaryStatic: "Python + DuckDB",
+    summaryState: "GitHub Pages",
     caseLabel: "Seleccionar caso",
     openRepo: "Abrir repositorio",
     backPortfolio: "Volver al portafolio",
@@ -439,9 +439,9 @@ const UI = {
       month: "Mes"
     },
     all: "Todos",
-    notesLabel: "Cómo leer",
-    notesTitle: "El dashboard muestra decisión, no solo gráfico.",
-    notesBody: "El orden de lectura es: contexto del problema, KPIs que cambian la decisión, evidencia visual, registros o dimensiones de apoyo y recomendación. Los datos son sintéticos, pero la estructura simula una entrega profesional.",
+    notesLabel: "",
+    notesTitle: "",
+    notesBody: "",
     charts: {
       orderedFunnel: "Embudo ordenado hasta reserva confirmada",
       orderedFunnelSub: "La mayor pérdida aparece antes de enviar la invitación.",

@@ -676,7 +676,7 @@ h3 {
 }
 
 .hero-lab.workflow-stage-1 .workflow-lab {
-  grid-template-columns: minmax(0, 1fr) minmax(136px, 0.62fr);
+  grid-template-columns: minmax(0, 1fr) 160px;
   grid-template-rows: auto auto minmax(0, 1fr);
   grid-template-areas:
     "steps steps"
@@ -686,12 +686,13 @@ h3 {
 
 .hero-lab.workflow-stage-2 .workflow-lab {
   grid-template-columns: minmax(0, 1fr) 160px;
-  grid-template-rows: auto auto minmax(0, 0.58fr) minmax(0, 0.42fr);
+  grid-template-rows: auto auto minmax(0, 0.36fr) minmax(0, 0.27fr) minmax(0, 0.37fr);
   grid-template-areas:
     "steps steps"
     "status status"
     "notebook validation"
-    "result result";
+    "notebook validation"
+    "insight validation";
 }
 
 .hero-lab.workflow-stage-3 .workflow-lab {
@@ -702,7 +703,7 @@ h3 {
     "status status"
     "notebook insight"
     "notebook validation"
-    "result result";
+    "result dashboard";
 }
 
 .hero-lab.workflow-stage-4 .workflow-lab {
@@ -832,9 +833,9 @@ h3 {
   animation: workflow-card-in 0.48s ease forwards;
 }
 
-.hero-lab.workflow-stage-2 .result-panel,
 .hero-lab.workflow-stage-3 .result-panel,
 .hero-lab.workflow-stage-4 .result-panel,
+.hero-lab.workflow-stage-2 .insight-card,
 .hero-lab.workflow-stage-3 .insight-card,
 .hero-lab.workflow-stage-4 .insight-card,
 .hero-lab.workflow-stage-4 .mini-dashboard {
@@ -2316,7 +2317,7 @@ h3 {
       "status"
       "notebook"
       "validation"
-      "result";
+      "insight";
   }
 
   .hero-lab.workflow-stage-3 .workflow-lab {
@@ -2325,8 +2326,8 @@ h3 {
       "status"
       "notebook"
       "validation"
-      "result"
-      "insight";
+      "insight"
+      "result";
   }
 
   .hero-lab.workflow-stage-4 .workflow-lab {

@@ -54,7 +54,7 @@ body::before {
   body.cursor-ready,
   body.cursor-ready a,
   body.cursor-ready button {
-    cursor: none;
+    cursor: auto;
   }
 }
 
@@ -115,16 +115,11 @@ body::before {
 }
 
 .tech-cursor-dot {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--green);
-  box-shadow: 0 0 16px rgba(82, 230, 165, 0.62);
+  display: none;
 }
 
-body.cursor-ready .tech-cursor,
-body.cursor-ready .tech-cursor-dot {
-  opacity: 1;
+body.cursor-ready .tech-cursor {
+  opacity: 0.38;
 }
 
 body.cursor-hover .tech-cursor {
@@ -134,19 +129,10 @@ body.cursor-hover .tech-cursor {
   background: rgba(82, 230, 165, 0.06);
 }
 
-body.cursor-hover .tech-cursor-dot {
-  background: var(--cyan);
-}
-
 body.cursor-action .tech-cursor {
   border-color: rgba(82, 230, 165, 0.95);
   border-radius: 34%;
   box-shadow: 0 0 28px rgba(82, 230, 165, 0.2), inset 0 0 18px rgba(57, 212, 255, 0.1);
-}
-
-body.cursor-action .tech-cursor-dot {
-  width: 8px;
-  height: 8px;
 }
 
 body.cursor-down .tech-cursor {
@@ -621,10 +607,12 @@ h3 {
 
 .workflow-agent::before {
   content: "";
-  width: 13px;
-  height: 18px;
-  background: currentColor;
-  clip-path: polygon(0 0, 100% 43%, 57% 55%, 84% 100%, 63% 100%, 38% 61%, 0 82%);
+  width: 14px;
+  height: 14px;
+  border: 1px solid rgba(82, 230, 165, 0.82);
+  border-radius: 50%;
+  background: radial-gradient(circle, currentColor 0 3px, transparent 4px);
+  box-shadow: 0 0 16px rgba(82, 230, 165, 0.26);
 }
 
 .workflow-agent span {

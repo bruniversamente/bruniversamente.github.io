@@ -895,7 +895,7 @@ if ("IntersectionObserver" in window) {
         }
       });
     },
-    { threshold: 0.14 }
+    { threshold: 0.04 }
   );
 
   revealItems.forEach((item) => observer.observe(item));
@@ -915,7 +915,7 @@ if ("IntersectionObserver" in window) {
         motionObserver.unobserve(entry.target);
       });
     },
-    { threshold: 0.24 }
+    { threshold: 0.08 }
   );
 
   animatedVisuals.forEach((item) => motionObserver.observe(item));

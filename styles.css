@@ -413,6 +413,30 @@ body.is-scrolled .site-header-inner {
   transform: translateY(0) scale(0.98);
 }
 
+.mobile-menu-toggle,
+.mobile-menu-panel {
+  display: none;
+}
+
+.mobile-menu-toggle {
+  place-items: center;
+  width: 44px;
+  min-width: 44px;
+  min-height: 40px;
+  padding: 0;
+  border: 1px solid rgba(160, 176, 210, 0.24);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.mobile-menu-toggle span {
+  display: block;
+  width: 18px;
+  height: 2px;
+  border-radius: 999px;
+  background: var(--text);
+}
+
 .hero {
   display: grid;
   grid-template-columns: minmax(0, 0.92fr) minmax(430px, 0.78fr);
@@ -3429,11 +3453,12 @@ h3 {
 
 @media (max-width: 640px) {
   :root {
-    --snap-header-offset: 150px;
+    --snap-header-offset: 64px;
   }
 
   .site-header-inner {
-    grid-template-columns: 1fr auto;
+    position: relative;
+    grid-template-columns: 1fr auto auto;
     gap: 8px 10px;
     padding: 10px 18px 11px;
   }
@@ -3442,41 +3467,9 @@ h3 {
     display: none;
   }
 
-  .nav {
-    grid-column: 1 / -1;
-    grid-row: 2;
-    width: 100%;
-    gap: 2px;
-    overflow-x: auto;
-    padding-bottom: 0;
-  }
-
-  .nav a {
-    flex: 0 0 auto;
-    min-height: 34px;
-    padding: 8px 8px;
-    font-size: 0.8rem;
-    white-space: nowrap;
-  }
-
-  .nav a::after {
-    left: 8px;
-    right: 8px;
-    bottom: 4px;
-  }
-
-  .language-switcher {
-    grid-column: 1 / -1;
-    grid-row: 3;
-    justify-self: start;
-    padding: 2px;
-  }
-
-  .language-switcher button {
-    min-width: 30px;
-    min-height: 28px;
-    padding: 0 6px;
-    font-size: 0.7rem;
+  .site-header-inner > .nav,
+  .site-header-inner > .language-switcher:not(.mobile-language-switcher) {
+    display: none;
   }
 
   .nav-cta {
@@ -3487,6 +3480,73 @@ h3 {
     min-height: 40px;
   }
 
+  .mobile-menu-toggle {
+    display: inline-grid;
+    grid-column: 3;
+    grid-row: 1;
+    gap: 4px;
+  }
+
+  .site-header.is-menu-open .mobile-menu-toggle {
+    border-color: rgba(57, 212, 255, 0.42);
+    background: rgba(57, 212, 255, 0.08);
+  }
+
+  .mobile-menu-panel:not([hidden]) {
+    position: absolute;
+    top: calc(100% + 8px);
+    right: 18px;
+    left: auto;
+    z-index: 60;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+    width: 132px;
+    padding: 12px;
+    border: 1px solid rgba(160, 176, 210, 0.22);
+    border-radius: var(--radius);
+    background: rgba(8, 12, 24, 0.98);
+    box-shadow: 0 20px 48px rgba(0, 0, 0, 0.36);
+  }
+
+  .mobile-menu-panel .mobile-nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .mobile-menu-panel .mobile-nav a {
+    display: grid;
+    min-height: 38px;
+    place-items: center;
+    padding: 8px 6px;
+    border: 1px solid rgba(160, 176, 210, 0.16);
+    border-radius: var(--radius);
+    background: rgba(255, 255, 255, 0.045);
+    font-size: 0.8rem;
+  }
+
+  .mobile-menu-panel .mobile-nav a::after {
+    display: none;
+  }
+
+  .mobile-menu-panel .mobile-language-switcher {
+    display: inline-grid;
+    justify-self: stretch;
+    align-self: start;
+    width: 100%;
+    min-height: 38px;
+  }
+
+  .mobile-menu-panel .mobile-language-switcher button {
+    min-width: 0;
+    min-height: 30px;
+    padding: 0 3px;
+    font-size: 0.7rem;
+  }
+
   .hero,
   .section,
   .contact-section {
@@ -3494,14 +3554,64 @@ h3 {
     padding-right: 18px;
   }
 
+  main#top > .hero,
+  main#top > .section,
+  main#top > .contact-section {
+    min-height: auto;
+    scroll-snap-align: none;
+  }
+
   .hero {
-    gap: 22px;
-    padding-top: 28px;
-    padding-bottom: 30px;
+    gap: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .hero-copy {
+    display: flex;
+    min-height: calc(100svh - var(--snap-header-offset));
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px 0 18px;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+
+  .hero-copy .role-line {
+    position: static;
+    margin-bottom: 14px;
   }
 
   .hero-lab {
-    height: 1032px;
+    height: calc(100svh - var(--snap-header-offset) - 18px);
+    min-height: 0;
+    margin: 9px 0;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+
+  .lab-topbar {
+    min-height: 42px;
+    padding: 0 12px;
+  }
+
+  .lab-topbar strong {
+    min-width: 0;
+    overflow: hidden;
+    font-size: 0.74rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .lab-topbar em {
+    padding: 3px 6px;
+    font-size: 0.58rem;
+  }
+
+  .workflow-lab {
+    height: calc(100% - 43px);
+    gap: 8px;
+    padding: 10px;
   }
 
   h1 {
@@ -3530,56 +3640,222 @@ h3 {
     width: 100%;
   }
 
+  #cases .case-grid .case-card,
+  #cases .case-feature .case-visual,
+  #cases .case-feature .case-copy,
+  .contact-panel {
+    min-height: calc(100svh - var(--snap-header-offset));
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+
+  #cases .case-feature {
+    display: contents;
+    height: auto;
+    min-height: auto;
+    scroll-snap-align: none;
+  }
+
+  #cases .case-feature .case-visual,
+  #cases .case-feature .case-copy {
+    display: flex;
+    height: calc(100svh - var(--snap-header-offset));
+    min-height: 0;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #cases .case-feature .case-copy {
+    gap: 0;
+    padding: 16px;
+  }
+
+  #cases .case-feature .case-copy h2 {
+    font-size: clamp(1.86rem, 8vw, 2.34rem);
+    line-height: 0.98;
+  }
+
+  #cases .case-feature .case-copy > p {
+    font-size: 0.86rem;
+    line-height: 1.34;
+  }
+
+  #cases .case-feature .case-proof-grid {
+    gap: 7px;
+    margin: 11px 0;
+  }
+
+  #cases .case-feature .case-proof-grid div {
+    padding: 9px;
+  }
+
+  #cases .case-grid {
+    min-height: auto;
+    gap: 18px;
+  }
+
+  main#top > #metodo.method-section {
+    display: grid;
+    min-height: auto;
+    max-width: none;
+    align-content: stretch;
+    gap: 18px;
+    padding: 0 18px;
+    scroll-snap-align: none;
+    scroll-snap-stop: normal;
+  }
+
+  .method-copy,
+  .work-step,
+  .case-evidence-panel {
+    min-height: 0;
+    scroll-snap-align: none;
+    scroll-snap-stop: normal;
+  }
+
+  .method-copy,
+  .method-proof-flow,
+  .case-evidence-panel {
+    min-height: calc(100svh - var(--snap-header-offset));
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+  }
+
   .lab-grid,
   .workflow-lab,
-  .method-proof,
   .case-proof-grid {
     grid-template-columns: 1fr;
   }
 
+  .method-copy {
+    align-content: start;
+    gap: 18px;
+    padding: 64px 0 20px;
+  }
+
+  .method-copy h2 {
+    max-width: none;
+    font-size: clamp(2.24rem, 10vw, 3.05rem);
+    line-height: 1;
+  }
+
+  .method-copy p {
+    max-width: none;
+    font-size: 1rem;
+    line-height: 1.48;
+  }
+
+  .method-tools {
+    gap: 8px;
+    margin-top: 8px;
+  }
+
+  .method-tools span {
+    min-height: 32px;
+    padding: 0 11px;
+    font-size: 0.72rem;
+  }
+
+  .method-proof {
+    display: contents;
+  }
+
+  .method-proof-flow {
+    align-content: start;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 62px 0 20px;
+  }
+
+  .work-step {
+    min-height: 228px;
+    padding: 18px;
+  }
+
+  .work-step span {
+    margin-bottom: 16px;
+    font-size: 1rem;
+  }
+
+  .work-step h3 {
+    margin-bottom: 10px;
+    font-size: 1.02rem;
+    line-height: 1.02;
+  }
+
+  .work-step p {
+    font-size: 0.86rem;
+    line-height: 1.38;
+  }
+
+  .case-evidence-panel {
+    align-content: start;
+    gap: 18px;
+    padding: 82px 18px 18px;
+  }
+
+  .case-evidence-panel .panel-label strong {
+    font-size: 1.12rem;
+  }
+
+  .case-evidence-list {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .case-evidence-list div {
+    min-height: 88px;
+    padding: 16px;
+  }
+
+  .case-evidence-list span {
+    margin-bottom: 7px;
+    font-size: 0.78rem;
+  }
+
+  .case-evidence-list strong {
+    font-size: 1rem;
+    line-height: 1.28;
+  }
+
   .hero-lab.workflow-stage-0 .workflow-lab,
-  .hero-lab.workflow-stage-1 .workflow-lab,
+  .hero-lab.workflow-stage-1 .workflow-lab {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto minmax(0, 1fr);
+    grid-template-areas:
+      "steps"
+      "notebook";
+  }
+
   .hero-lab.workflow-stage-2 .workflow-lab,
   .hero-lab.workflow-stage-3 .workflow-lab,
   .hero-lab.workflow-stage-4 .workflow-lab {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-lab.workflow-stage-1 .workflow-lab {
-    grid-template-areas:
-      "steps"
-      "status"
-      "notebook";
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.72fr);
+    grid-template-rows: auto minmax(0, 0.9fr) minmax(72px, 0.44fr) minmax(72px, 0.44fr);
   }
 
   .hero-lab.workflow-stage-2 .workflow-lab {
     grid-template-areas:
-      "steps"
-      "status"
-      "notebook"
-      "validation"
-      "insight";
+      "steps steps"
+      "notebook validation"
+      "notebook validation"
+      "insight validation";
   }
 
   .hero-lab.workflow-stage-3 .workflow-lab {
     grid-template-areas:
-      "steps"
-      "status"
-      "notebook"
-      "validation"
-      "insight"
-      "result";
+      "steps steps"
+      "notebook insight"
+      "notebook validation"
+      "result validation";
   }
 
   .hero-lab.workflow-stage-4 .workflow-lab {
     grid-template-areas:
-      "steps"
-      "status"
-      "notebook"
-      "validation"
-      "result"
-      "insight"
-      "dashboard";
+      "steps steps"
+      "notebook insight"
+      "notebook validation"
+      "result dashboard";
   }
 
   .workflow-steps {
@@ -3587,13 +3863,69 @@ h3 {
   }
 
   .workflow-status {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 5px;
+    display: none;
+  }
+
+  .workflow-status::before {
+    display: none;
+  }
+
+  .workflow-status span {
+    gap: 4px;
+    font-size: 0.58rem;
   }
 
   .code-window {
-    font-size: 0.68rem;
+    padding: 10px;
+    font-size: 0.55rem;
+    line-height: 1.38;
+  }
+
+  .workflow-question {
+    margin-bottom: 8px;
+    font-size: 0.76rem;
+  }
+
+  .notebook-panel,
+  .result-panel {
+    padding: 11px;
+  }
+
+  .panel-label,
+  .mini-dashboard-title {
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .panel-label small,
+  .mini-dashboard-title small,
+  .insight-card small {
+    font-size: 0.56rem;
+  }
+
+  .panel-label strong,
+  .mini-dashboard-title strong {
+    font-size: 0.62rem;
+  }
+
+  .insight-card,
+  .activity-log,
+  .mini-dashboard {
+    padding: 11px;
+  }
+
+  .insight-card strong {
+    font-size: 0.78rem;
+  }
+
+  .insight-card span,
+  .activity-log span {
+    font-size: 0.66rem;
+  }
+
+  .result-table span,
+  .result-table strong {
+    font-size: 0.58rem;
   }
 
   .workflow-side {
@@ -3618,34 +3950,83 @@ h3 {
 
   .case-visual {
     min-height: 310px;
-    padding: 16px;
+    padding: 12px;
   }
 
   .activation-map {
     width: 100%;
     min-height: auto;
-    padding: 15px;
-    gap: 12px;
+    padding: 8px;
+    gap: 6px;
   }
 
   .activation-summary {
-    padding: 12px;
+    padding: 8px;
+  }
+
+  .activation-summary strong {
+    font-size: 1rem;
+  }
+
+  .activation-summary span {
+    font-size: 0.78rem;
+    line-height: 1.28;
+  }
+
+  .activation-funnel {
+    gap: 5px;
   }
 
   .funnel-step {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr) minmax(92px, 43%);
     gap: 8px;
-    min-height: 58px;
-    padding-right: 0;
+    min-height: 39px;
+    padding: 4px 8px 4px 0;
   }
 
   .funnel-step div {
     grid-template-columns: 34px 1fr;
-    padding-left: 38px;
+    padding-left: 34px;
+  }
+
+  .funnel-step strong {
+    font-size: 0.75rem;
+  }
+
+  .funnel-step em {
+    font-size: 0.68rem;
+  }
+
+  .funnel-step i {
+    height: 9px;
+  }
+
+  .activation-callout {
+    grid-template-columns: auto 1fr;
+    gap: 8px 12px;
+    padding: 8px 10px;
+  }
+
+  .activation-callout strong {
+    font-size: 1.68rem;
+  }
+
+  .activation-callout span {
+    font-size: 0.78rem;
+    line-height: 1.25;
   }
 
   .activation-foot {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .activation-foot span {
+    padding: 7px;
+  }
+
+  .activation-foot strong {
+    font-size: 1rem;
   }
 
   .dashboard-shell {

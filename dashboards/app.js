@@ -648,7 +648,7 @@ const UI = {
   pt: {
     lang: "pt-BR",
     pageTitle: "Dashboards analíticos | Bruno Nascimento",
-    navCases: "Projetos",
+    navCases: "Cases",
     navDashboard: "Dashboards",
     navMethod: "Método",
     navStack: "Stack",
@@ -800,7 +800,7 @@ const UI = {
   en: {
     lang: "en",
     pageTitle: "Analytics dashboards | Bruno Nascimento",
-    navCases: "Projects",
+    navCases: "Cases",
     navDashboard: "Dashboards",
     navMethod: "Method",
     navStack: "Stack",
@@ -951,7 +951,7 @@ const UI = {
   es: {
     lang: "es",
     pageTitle: "Dashboards analíticos | Bruno Nascimento",
-    navCases: "Proyectos",
+    navCases: "Casos",
     navDashboard: "Dashboards",
     navMethod: "Método",
     navStack: "Stack",

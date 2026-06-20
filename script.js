@@ -1,10 +1,12 @@
 document.documentElement.classList.add("js-ready");
 
 const revealItems = document.querySelectorAll(".reveal");
-const animatedVisuals = document.querySelectorAll(".hero-lab, .case-feature");
+const animatedVisuals = document.querySelectorAll(".hero-lab, .case-feature, .case-feature > .playzone-visual");
 const countItems = document.querySelectorAll(".count-up");
 const siteHeader = document.querySelector(".site-header");
 const languageButtons = document.querySelectorAll("[data-lang-option]");
+const mobileMenuToggle = document.querySelector(".mobile-menu-toggle");
+const mobileMenuPanel = document.querySelector(".mobile-menu-panel");
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 const translations = {
@@ -16,7 +18,7 @@ const translations = {
       ".skip-link": "Pular para os cases",
       ".brand-copy strong": "Bruno Nascimento",
       ".brand-copy small": "Dados, BI e IA aplicada",
-      ".nav a[href=\"#cases\"]": "Projetos",
+      ".nav a[href=\"#cases\"]": "Cases",
       "[data-dashboard-nav]": "Dashboards",
       ".nav a[href=\"#metodo\"]": "Método",
       ".nav a[href=\"#contato\"]": "Contato",
@@ -232,7 +234,7 @@ const translations = {
     texts: {
       ".skip-link": "Skip to cases",
       ".brand-copy small": "Data, BI and applied AI",
-      ".nav a[href=\"#cases\"]": "Projects",
+      ".nav a[href=\"#cases\"]": "Cases",
       "[data-dashboard-nav]": "Dashboards",
       ".nav a[href=\"#metodo\"]": "Method",
       ".nav a[href=\"#contato\"]": "Contact",
@@ -448,7 +450,7 @@ const translations = {
     texts: {
       ".skip-link": "Saltar a los casos",
       ".brand-copy small": "Datos, BI e IA aplicada",
-      ".nav a[href=\"#cases\"]": "Proyectos",
+      ".nav a[href=\"#cases\"]": "Casos",
       "[data-dashboard-nav]": "Dashboards",
       ".nav a[href=\"#metodo\"]": "Método",
       ".nav a[href=\"#contato\"]": "Contacto",
@@ -735,6 +737,33 @@ languageButtons.forEach((button) => {
   button.addEventListener("click", () => applyLanguage(button.dataset.langOption, true));
 });
 
+const setMobileMenuState = (isOpen) => {
+  if (!mobileMenuToggle || !mobileMenuPanel || !siteHeader) return;
+  mobileMenuPanel.hidden = !isOpen;
+  mobileMenuToggle.setAttribute("aria-expanded", String(isOpen));
+  siteHeader.classList.toggle("is-menu-open", isOpen);
+};
+
+if (mobileMenuToggle && mobileMenuPanel) {
+  mobileMenuToggle.addEventListener("click", () => {
+    setMobileMenuState(mobileMenuPanel.hidden);
+  });
+
+  mobileMenuPanel.querySelectorAll("a, button").forEach((item) => {
+    item.addEventListener("click", () => setMobileMenuState(false));
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") setMobileMenuState(false);
+  });
+
+  document.addEventListener("click", (event) => {
+    if (mobileMenuPanel.hidden) return;
+    if (siteHeader?.contains(event.target)) return;
+    setMobileMenuState(false);
+  });
+}
+
 revealItems.forEach((item) => {
   item.addEventListener("transitionend", () => item.classList.add("reveal-done"), { once: true });
 });
@@ -929,10 +958,13 @@ if ("IntersectionObserver" in window) {
     (entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) return;
-        entry.target.classList.add("is-animated");
-        startWorkflowLayout(entry.target);
-        startCodeTyping(entry.target);
-        entry.target.querySelectorAll(".count-up").forEach(animateCount);
+        const animationTarget = entry.target.classList.contains("playzone-visual")
+          ? entry.target.closest(".case-feature") || entry.target
+          : entry.target;
+        animationTarget.classList.add("is-animated");
+        startWorkflowLayout(animationTarget);
+        startCodeTyping(animationTarget);
+        animationTarget.querySelectorAll(".count-up").forEach(animateCount);
         motionObserver.unobserve(entry.target);
       });
     },
@@ -977,6 +1009,8 @@ const workSteps = document.querySelectorAll(".work-step");
 const caseEvidencePanel = document.querySelector(".case-evidence-panel");
 
 if (methodProof && workSteps.length) {
+  const methodAnimationTarget = document.querySelector(".method-proof-flow") || methodProof;
+
   const lightWorkSteps = () => {
     caseEvidencePanel?.classList.remove("is-open");
     workSteps.forEach((item, index) => {
@@ -997,7 +1031,7 @@ if (methodProof && workSteps.length) {
       { threshold: 0.28 }
     );
 
-    methodObserver.observe(methodProof);
+    methodObserver.observe(methodAnimationTarget);
   } else {
     lightWorkSteps();
   }

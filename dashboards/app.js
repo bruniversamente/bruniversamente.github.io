@@ -658,6 +658,7 @@ const UI = {
     dataLayer: "Camada de dados",
     controls: {
       channel: "Canal",
+      result: "Resultado",
       version: "Versão do prompt",
       severity: "Severidade",
       source: "Origem",
@@ -665,7 +666,9 @@ const UI = {
       useCase: "Caso de uso",
       issue: "Tipo de falha",
       rule: "Regra",
-      month: "Mês"
+      month: "Mês",
+      marginStatus: "Status margem",
+      targetStatus: "Status meta"
     },
     all: "Todos",
     notesLabel: "",
@@ -807,6 +810,7 @@ const UI = {
     dataLayer: "Data layer",
     controls: {
       channel: "Channel",
+      result: "Result",
       version: "Prompt version",
       severity: "Severity",
       source: "Source",
@@ -814,7 +818,9 @@ const UI = {
       useCase: "Use case",
       issue: "Issue type",
       rule: "Rule",
-      month: "Month"
+      month: "Month",
+      marginStatus: "Margin status",
+      targetStatus: "Target status"
     },
     all: "All",
     notesLabel: "",
@@ -955,6 +961,7 @@ const UI = {
     dataLayer: "Capa de datos",
     controls: {
       channel: "Canal",
+      result: "Resultado",
       version: "Versión del prompt",
       severity: "Severidad",
       source: "Origen",
@@ -962,7 +969,9 @@ const UI = {
       useCase: "Caso de uso",
       issue: "Tipo de falla",
       rule: "Regla",
-      month: "Mes"
+      month: "Mes",
+      marginStatus: "Estado margen",
+      targetStatus: "Estado meta"
     },
     all: "Todos",
     notesLabel: "",
@@ -1109,7 +1118,19 @@ const LABELS = {
     "Moda": "Fashion",
     "Beleza": "Beauty",
     "Sem falhas críticas; 256 warnings monitorados fora da receita executiva.": "No critical failures; 256 warnings monitored outside executive revenue.",
-    "9 falhas críticas encontradas; publicar apenas os marts Ready.": "9 critical failures found; publish Ready marts only."
+    "9 falhas críticas encontradas; publicar apenas os marts Ready.": "9 critical failures found; publish Ready marts only.",
+    "release-ready": "Release-ready",
+    "backlog": "Backlog",
+    "high-severity": "High severity",
+    payment: "Payment",
+    reference: "Reference",
+    duplicate: "Duplicate",
+    quantity: "Quantity",
+    status: "Order status",
+    "below-floor": "Below floor",
+    "above-floor": "On/above floor",
+    "below-target": "Below target",
+    "met-target": "Target met"
   },
   es: {
     "Abertura do app": "Apertura de app",
@@ -1127,10 +1148,34 @@ const LABELS = {
     "Moda": "Moda",
     "Beleza": "Belleza",
     "Sem falhas críticas; 256 warnings monitorados fora da receita executiva.": "Sin fallas críticas; 256 warnings monitoreados fuera del ingreso ejecutivo.",
-    "9 falhas críticas encontradas; publicar apenas os marts Ready.": "9 fallas críticas encontradas; publicar solo marts Ready."
+    "9 falhas críticas encontradas; publicar apenas os marts Ready.": "9 fallas críticas encontradas; publicar solo marts Ready.",
+    "release-ready": "Release-ready",
+    "backlog": "Backlog",
+    "high-severity": "Severidad alta",
+    payment: "Pago",
+    reference: "Referencia",
+    duplicate: "Duplicidad",
+    quantity: "Cantidad",
+    status: "Estado del pedido",
+    "below-floor": "Debajo del piso",
+    "above-floor": "En/arriba del piso",
+    "below-target": "Debajo de meta",
+    "met-target": "Meta cumplida"
   },
   pt: {
-    "Eletronicos": "Eletrônicos"
+    "Eletronicos": "Eletrônicos",
+    "release-ready": "Release-ready",
+    "backlog": "Backlog",
+    "high-severity": "Severidade alta",
+    payment: "Pagamento",
+    reference: "Referência",
+    duplicate: "Duplicidade",
+    quantity: "Quantidade",
+    status: "Status do pedido",
+    "below-floor": "Abaixo do piso",
+    "above-floor": "No/acima do piso",
+    "below-target": "Abaixo da meta",
+    "met-target": "Meta batida"
   }
 };
 
@@ -1139,6 +1184,7 @@ const state = {
   lang: UI[params.get("lang")] ? params.get("lang") : "pt",
   filters: {
     channel: params.get("channel") || "all",
+    result: params.get("result") || "all",
     version: params.get("version") || "all",
     severity: params.get("severity") || "all",
     source: params.get("source") || "all",
@@ -1146,11 +1192,14 @@ const state = {
     useCase: params.get("useCase") || "all",
     issue: params.get("issue") || "all",
     rule: params.get("rule") || "all",
-    month: params.get("month") || "all"
+    month: params.get("month") || "all",
+    marginStatus: params.get("marginStatus") || "all",
+    targetStatus: params.get("targetStatus") || "all"
   }
 };
 
 let datasets = {};
+let chartRevealObserver = null;
 
 const $ = (selector) => document.querySelector(selector);
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -1204,6 +1253,53 @@ const setLanguage = (lang) => {
 
 const unique = (rows, key) => [...new Set((rows || []).map((row) => row[key]).filter(Boolean))];
 const selected = (key, options) => options.includes(state.filters[key]) ? state.filters[key] : "all";
+const aiResultOptions = () => ["release-ready", "backlog", "high-severity"];
+const pipelineIssueGroups = () => ["payment", "reference", "duplicate", "quantity", "status"];
+const retailMarginStatusOptions = () => ["below-floor", "above-floor"];
+const retailTargetStatusOptions = () => ["below-target", "met-target"];
+const pipelineIssueGroup = (value = "") => {
+  const text = String(value || "").toLowerCase();
+  if (text.includes("payment") || text.includes("captured")) return "payment";
+  if (text.includes("reference") || text.includes("missing customer") || text.includes("missing product") || text.includes("missing_customer") || text.includes("missing_product")) return "reference";
+  if (text.includes("duplicate")) return "duplicate";
+  if (text.includes("quantity")) return "quantity";
+  if (text.includes("inactive") || text.includes("cancelled") || text.includes("status")) return "status";
+  return "other";
+};
+const weightedAverage = (rows, valueKey, weightKey = "reviewed_responses") => {
+  const totalWeight = (rows || []).reduce((sum, row) => sum + Number(row[weightKey] || 0), 0);
+  if (!totalWeight) return 0;
+  return rows.reduce((sum, row) => sum + (Number(row[valueKey] || 0) * Number(row[weightKey] || 0)), 0) / totalWeight;
+};
+const aiResultMatches = (row, result, data) => {
+  if (result === "all") return true;
+  const baselineReady = Number(data?.kpi_summary?.[0]?.release_ready_rate || 0.4);
+  const baselineCritical = Number(data?.kpi_summary?.[0]?.critical_issue_rate || 0.1);
+  const readyRate = Number(row.release_ready_rate || 0);
+  const reworkRate = Number(row.rework_rate || 0);
+  const criticalRate = Number(row.critical_issue_rate || 0);
+  const severity = String(row.severity || "").toLowerCase();
+  if (severity && row.release_ready_rate === undefined && row.critical_issue_rate === undefined) {
+    if (result === "release-ready") return severity !== "high" && severity !== "critical";
+    if (result === "backlog") return true;
+    if (result === "high-severity") return severity === "high" || severity === "critical";
+  }
+  if (result === "release-ready") return readyRate >= baselineReady && (!criticalRate || criticalRate <= baselineCritical) && severity !== "high";
+  if (result === "backlog") return Number(row.not_approved_cases || 0) > 0 || reworkRate >= 0.4 || readyRate < baselineReady;
+  if (result === "high-severity") return severity === "high" || severity === "critical" || criticalRate >= baselineCritical;
+  return true;
+};
+const summarizeAiRows = (rows, fallback = {}) => {
+  const total = rows.reduce((sum, row) => sum + Number(row.reviewed_responses || 0), 0);
+  if (!rows.length || !total) return fallback;
+  return {
+    reviewed_responses: total,
+    avg_quality_score: weightedAverage(rows, "avg_quality_score"),
+    release_ready_rate: weightedAverage(rows, "release_ready_rate"),
+    rework_rate: weightedAverage(rows, "rework_rate"),
+    critical_issue_rate: weightedAverage(rows, "critical_issue_rate")
+  };
+};
 const chevronIcon = () => `
   <svg aria-hidden="true" viewBox="0 0 20 20" focusable="false">
     <path d="M5.8 7.4 10 11.6l4.2-4.2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
@@ -1264,24 +1360,6 @@ const bindCustomSelects = () => {
   });
 };
 
-const bindMobileDisclosures = () => {
-  const isCompact = window.innerWidth <= 640 || (window.innerWidth <= 900 && window.innerWidth > window.innerHeight);
-  document.querySelectorAll("[data-mobile-collapsible]").forEach((details) => {
-    if (details.dataset.userToggled === "true") return;
-    details.open = !isCompact;
-  });
-};
-
-const bindDisclosureToggles = () => {
-  document.querySelectorAll("[data-mobile-collapsible]").forEach((details) => {
-    if (details.dataset.disclosureBound === "true") return;
-    details.dataset.disclosureBound = "true";
-    details.addEventListener("toggle", () => {
-      details.dataset.userToggled = "true";
-    });
-  });
-};
-
 const renderTabs = () => {
   $("#case-tabs").innerHTML = Object.keys(CASES).map((caseId) => `
     <button type="button" role="tab" aria-selected="${caseId === state.caseId}" data-case-id="${caseId}">
@@ -1305,7 +1383,6 @@ const heroText = () => {
       problem: "Problema",
       diagnosis: "Diagnóstico",
       decision: "Decisão",
-      flowNote: "Miniatura do funil completo; o trecho em alerta marca o maior vazamento antes do dashboard detalhado.",
       signals: {
         activation: "Ativação",
         inviteLoss: "Perda no convite",
@@ -1346,7 +1423,6 @@ const heroText = () => {
       problem: "Problem",
       diagnosis: "Diagnosis",
       decision: "Decision",
-      flowNote: "Miniature of the full funnel; the alert segment marks the largest leak before the detailed dashboard.",
       signals: {
         activation: "Activation",
         inviteLoss: "Invitation loss",
@@ -1387,7 +1463,6 @@ const heroText = () => {
       problem: "Problema",
       diagnosis: "Diagnóstico",
       decision: "Decisión",
-      flowNote: "Miniatura del embudo completo; el tramo en alerta marca la mayor fuga antes del dashboard detallado.",
       signals: {
         activation: "Activación",
         inviteLoss: "Pérdida en invitación",
@@ -1428,22 +1503,136 @@ const heroText = () => {
 };
 
 const heroFlow = (data) => {
-  if (state.caseId !== "playzone" || !data?.ordered_funnel?.length) return "";
-  const rows = data.ordered_funnel;
-  const largestLoss = rows.reduce((max, row) => Number(row.loss_from_previous || 0) > Number(max.loss_from_previous || 0) ? row : max, rows[0]);
-  return `
-    <div class="hero-mini-flow">
-      <div class="hero-mini-flow-track" style="--flow-count:${rows.length}">
-        ${rows.map((row) => `
-          <div class="hero-mini-flow-step ${row.step_order === largestLoss.step_order ? "is-alert" : ""}">
-            <span>${escapeHtml(label(row.step_label))}</span>
-            <i style="--w:${Math.max(4, Number(row.conversion_from_start || 0) * 100).toFixed(1)}%"></i>
-          </div>
-        `).join("")}
-      </div>
-      <span class="hero-mini-flow-note">${escapeHtml(heroText().flowNote)}</span>
-    </div>
-  `;
+  return "";
+};
+
+const heroEvidence = (data) => {
+  const copyText = ({
+    pt: {
+      users: "Usuários",
+      opportunities: "Oportunidades",
+      invitations: "Convites",
+      bookings: "Reservas",
+      sample: "base analisada",
+      viewed: "vistas",
+      sent: "enviados",
+      confirmed: "confirmadas",
+      reviews: "Respostas",
+      score: "Score médio",
+      ready: "Ready",
+      critical: "Críticas",
+      evaluated: "avaliadas",
+      scale: "escala 1-5",
+      release: "release-ready",
+      risk: "falhas",
+      records: "Pedidos",
+      quality: "Qualidade",
+      warnings: "Warnings",
+      readyRecords: "prontos",
+      overall: "score global",
+      monitored: "monitorados",
+      revenue: "Receita",
+      margin: "Margem",
+      orders: "Pedidos",
+      ticket: "Ticket",
+      delivered: "entregues",
+      average: "médio"
+    },
+    en: {
+      users: "Users",
+      opportunities: "Opportunities",
+      invitations: "Invitations",
+      bookings: "Bookings",
+      sample: "reviewed base",
+      viewed: "viewed",
+      sent: "sent",
+      confirmed: "confirmed",
+      reviews: "Responses",
+      score: "Avg. score",
+      ready: "Ready",
+      critical: "Critical",
+      evaluated: "reviewed",
+      scale: "1-5 scale",
+      release: "release-ready",
+      risk: "issues",
+      records: "Orders",
+      quality: "Quality",
+      warnings: "Warnings",
+      readyRecords: "ready",
+      overall: "global score",
+      monitored: "monitored",
+      revenue: "Revenue",
+      margin: "Margin",
+      orders: "Orders",
+      ticket: "Ticket",
+      delivered: "delivered",
+      average: "average"
+    },
+    es: {
+      users: "Usuarios",
+      opportunities: "Oportunidades",
+      invitations: "Invitaciones",
+      bookings: "Reservas",
+      sample: "base analizada",
+      viewed: "vistas",
+      sent: "enviadas",
+      confirmed: "confirmadas",
+      reviews: "Respuestas",
+      score: "Score medio",
+      ready: "Ready",
+      critical: "Críticas",
+      evaluated: "evaluadas",
+      scale: "escala 1-5",
+      release: "release-ready",
+      risk: "fallas",
+      records: "Pedidos",
+      quality: "Calidad",
+      warnings: "Warnings",
+      readyRecords: "listos",
+      overall: "score global",
+      monitored: "monitoreados",
+      revenue: "Ingreso",
+      margin: "Margen",
+      orders: "Pedidos",
+      ticket: "Ticket",
+      delivered: "entregados",
+      average: "medio"
+    }
+  })[state.lang] || {};
+  if (state.caseId === "playzone") {
+    const kpi = data.kpi_summary?.[0] || {};
+    return [
+      { label: copyText.users, value: formatInt(kpi.total_users), note: copyText.sample },
+      { label: copyText.opportunities, value: formatInt(kpi.opportunities_created), note: copyText.viewed },
+      { label: copyText.invitations, value: formatInt(kpi.opportunities_invited), note: copyText.sent },
+      { label: copyText.bookings, value: formatInt(kpi.confirmed_bookings), note: copyText.confirmed }
+    ];
+  }
+  if (state.caseId === "ai-quality") {
+    const kpi = data.kpi_summary?.[0] || {};
+    return [
+      { label: copyText.reviews, value: formatInt(kpi.reviewed_responses), note: copyText.evaluated },
+      { label: copyText.score, value: formatNumber(kpi.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 }), note: copyText.scale },
+      { label: copyText.ready, value: formatPercent(kpi.release_ready_rate), note: copyText.release },
+      { label: copyText.critical, value: formatPercent(kpi.critical_issue_rate), note: copyText.risk }
+    ];
+  }
+  if (state.caseId === "pipeline") {
+    const kpi = data.kpis || {};
+    return [
+      { label: copyText.records, value: formatInt(kpi.raw_orders), note: copyText.sample },
+      { label: copyText.ready, value: formatInt(kpi.ready_orders), note: copyText.readyRecords },
+      { label: copyText.quality, value: formatPercent(kpi.quality_score), note: copyText.overall },
+      { label: copyText.warnings, value: formatInt(kpi.warning_failures), note: copyText.monitored }
+    ];
+  }
+  const kpi = data.kpis || {};
+  return [
+    { label: copyText.revenue, value: formatMoney(kpi.net_revenue), note: copyText.sample },
+    { label: copyText.margin, value: formatPercent(kpi.gross_margin_pct), note: copyText.overall },
+    { label: copyText.orders, value: formatInt(kpi.delivered_orders), note: copyText.delivered },
+    { label: copyText.ticket, value: formatMoney(kpi.average_ticket), note: copyText.average }
+  ];
 };
 
 const heroNarrative = () => {
@@ -1488,6 +1677,7 @@ const heroNarrative = () => {
   return {
     kicker: text.kicker,
     flow: heroFlow(data),
+    evidence: heroEvidence(data),
     signals,
     readings: [
       { label: text.problem, value: story.problem },
@@ -1527,6 +1717,15 @@ const renderIntro = () => {
       </ul>
     </aside>
     ${hero.flow}
+    <div class="hero-evidence-strip" aria-label="Evidências principais do case">
+      ${hero.evidence.map((item) => `
+        <article class="hero-evidence-item">
+          <small>${escapeHtml(item.label)}</small>
+          <strong>${escapeHtml(item.value)}</strong>
+          <span>${escapeHtml(item.note)}</span>
+        </article>
+      `).join("")}
+    </div>
   `;
 };
 
@@ -1550,6 +1749,7 @@ const filterOptions = (key) => {
       category: unique(data.marketplace_category_metrics, "category")
     },
     "ai-quality": {
+      result: aiResultOptions(),
       version: unique(data.prompt_version_performance, "prompt_version"),
       useCase: unique(data.quality_by_use_case, "use_case"),
       severity: unique(data.issue_distribution, "severity"),
@@ -1558,12 +1758,15 @@ const filterOptions = (key) => {
     pipeline: {
       severity: unique(data.failed_rules, "severity"),
       source: unique(data.source_quality, "source_system"),
-      rule: unique(data.failed_rules, "rule_name")
+      issue: pipelineIssueGroups(),
+      category: unique(data.category_metrics, "category")
     },
     retail: {
       channel: unique(data.channel_performance, "sales_channel"),
       category: unique(data.category_performance, "category"),
-      month: unique(data.monthly_performance, "order_month")
+      month: unique(data.monthly_performance, "order_month"),
+      marginStatus: retailMarginStatusOptions(),
+      targetStatus: retailTargetStatusOptions()
     }
   };
   return sources[state.caseId]?.[key] || [];
@@ -1573,9 +1776,9 @@ const renderControls = () => {
   const data = datasets[state.caseId];
   let html = "";
   if (state.caseId === "playzone") html = control("channel", unique(data.funnel_by_channel, "acquisition_channel")) + control("category", unique(data.marketplace_category_metrics, "category"));
-  if (state.caseId === "ai-quality") html = control("version", unique(data.prompt_version_performance, "prompt_version")) + control("useCase", unique(data.quality_by_use_case, "use_case")) + control("severity", unique(data.issue_distribution, "severity")) + control("issue", unique(data.issue_distribution, "issue_type"));
-  if (state.caseId === "pipeline") html = control("severity", unique(data.failed_rules, "severity")) + control("source", unique(data.source_quality, "source_system")) + control("rule", unique(data.failed_rules, "rule_name"));
-  if (state.caseId === "retail") html = control("channel", unique(data.channel_performance, "sales_channel")) + control("category", unique(data.category_performance, "category")) + control("month", unique(data.monthly_performance, "order_month"));
+  if (state.caseId === "ai-quality") html = control("result", aiResultOptions()) + control("version", unique(data.prompt_version_performance, "prompt_version")) + control("useCase", unique(data.quality_by_use_case, "use_case")) + control("severity", unique(data.issue_distribution, "severity")) + control("issue", unique(data.issue_distribution, "issue_type"));
+  if (state.caseId === "pipeline") html = control("source", unique(data.source_quality, "source_system")) + control("severity", unique(data.failed_rules, "severity")) + control("issue", pipelineIssueGroups());
+  if (state.caseId === "retail") html = control("channel", unique(data.channel_performance, "sales_channel")) + control("category", unique(data.category_performance, "category")) + control("month", unique(data.monthly_performance, "order_month")) + control("marginStatus", retailMarginStatusOptions()) + control("targetStatus", retailTargetStatusOptions());
   $("#controls").innerHTML = html;
   bindCustomSelects();
   renderFilterBar();
@@ -1583,9 +1786,9 @@ const renderControls = () => {
 
 const currentControlKeys = () => {
   if (state.caseId === "playzone") return ["channel", "category"];
-  if (state.caseId === "ai-quality") return ["version", "useCase", "severity", "issue"];
-  if (state.caseId === "pipeline") return ["severity", "source", "rule"];
-  if (state.caseId === "retail") return ["channel", "category", "month"];
+  if (state.caseId === "ai-quality") return ["result", "version", "useCase", "severity", "issue"];
+  if (state.caseId === "pipeline") return ["source", "severity", "issue", "category"];
+  if (state.caseId === "retail") return ["channel", "category", "month", "marginStatus", "targetStatus"];
   return [];
 };
 
@@ -1596,6 +1799,28 @@ const resetCurrentFilters = () => {
   updateUrl();
   renderControls();
   renderCaseContent();
+};
+
+const setupChartReveal = () => {
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  chartRevealObserver?.disconnect();
+  const targets = [...document.querySelectorAll("#dashboard-content .viz-card, #dashboard-content .table-card, #dashboard-content .kpi-card, #dashboard-content .diagnostic-kpi-card")];
+  if (!targets.length || !("IntersectionObserver" in window)) {
+    targets.forEach((target) => target.classList.add("is-inview"));
+    return;
+  }
+  document.body.classList.add("motion-ready");
+  chartRevealObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("is-inview");
+      chartRevealObserver.unobserve(entry.target);
+    });
+  }, {
+    threshold: 0.16,
+    rootMargin: "0px 0px -8% 0px"
+  });
+  targets.forEach((target) => chartRevealObserver.observe(target));
 };
 
 const renderFilterBar = () => {
@@ -1633,21 +1858,13 @@ const processChapter = (item) => {
 
 const methodBlock = (item, code = item?.logic) => {
   if (!item?.body && !code) return "";
-  const codeLabel = term("codeEvidence");
   return `
     <section class="method-block">
       <div class="method-copy">
         <span>${escapeHtml(term("methodStep"))}</span>
         <p>${escapeHtml(item.body || "")}</p>
       </div>
-      ${code ? `
-        <details class="method-code-disclosure mobile-collapsible" data-mobile-collapsible>
-          <summary>${escapeHtml(codeLabel)}</summary>
-          <div class="mobile-collapsible-body">
-            <pre class="method-code"><code>${escapeHtml(code)}</code></pre>
-          </div>
-        </details>
-      ` : ""}
+      ${code ? `<pre class="method-code"><code>${escapeHtml(code)}</code></pre>` : ""}
     </section>
   `;
 };
@@ -1662,18 +1879,15 @@ const technicalJourney = (item) => {
     </div>
   ` : "";
   const snippets = item.snippets?.length ? `
-    <details class="code-column mobile-collapsible" data-mobile-collapsible>
-      <summary>${escapeHtml(term("codeEvidence"))}</summary>
-      <div class="mobile-collapsible-body">
-        <span>${escapeHtml(term("codeEvidence"))}</span>
+    <div class="code-column">
+      <span>${escapeHtml(term("codeEvidence"))}</span>
       ${item.snippets.map((snippet) => `
         <div>
           <span class="code-title">${escapeHtml(snippet.label)}</span>
           <pre class="code-snippet"><code>${escapeHtml(snippet.code)}</code></pre>
         </div>
       `).join("")}
-      </div>
-    </details>
+    </div>
   ` : "";
   const flow = item.flow?.length ? `
     <div class="flow-column">
@@ -1732,6 +1946,204 @@ const resultReadout = (item) => `
     </ul>
   </section>
 `;
+
+const aiQualityResultReadout = (data, context, stage = 0) => {
+  const base = context.base || data.kpi_summary?.[0] || {};
+  const result = context.result || "all";
+  const resultLabel = result === "all" ? copy().all : label(result);
+  const versions = context.versionRows?.length ? context.versionRows : data.prompt_version_performance || [];
+  const qualityRows = context.qualityRows?.length ? context.qualityRows : data.quality_by_use_case || [];
+  const backlogRows = context.backlog?.length ? context.backlog : data.improvement_backlog || [];
+  const issueRows = context.issueRows?.length ? context.issueRows : data.issue_distribution || [];
+  const bestVersion = [...versions].sort((a, b) => Number(b.release_ready_rate || 0) - Number(a.release_ready_rate || 0))[0] || {};
+  const weakestUseCase = [...qualityRows].sort((a, b) => Number(a.avg_quality_score || 0) - Number(b.avg_quality_score || 0))[0] || {};
+  const strongestUseCase = [...qualityRows].sort((a, b) => Number(b.avg_quality_score || 0) - Number(a.avg_quality_score || 0))[0] || {};
+  const topBacklog = [...backlogRows].sort((a, b) => Number(b.not_approved_cases || 0) - Number(a.not_approved_cases || 0))[0] || {};
+  const weakestDimension = [...(data.dimension_scores || [])].sort((a, b) => Number(a.avg_score || 0) - Number(b.avg_score || 0))[0] || {};
+  const highSeverity = issueRows.filter((row) => String(row.severity || "").toLowerCase() === "high");
+  const highSeverityCount = highSeverity.reduce((sum, row) => sum + Number(row.occurrences || 0), 0);
+  const trend = data.monthly_quality_trend || [];
+  const firstMonth = trend[0] || {};
+  const lastMonth = [...trend].at(-1) || {};
+  const scoreDelta = Number(lastMonth.avg_quality_score || 0) - Number(firstMonth.avg_quality_score || 0);
+  const targetGap = Math.max(0, 4 - Number(lastMonth.avg_quality_score || 0));
+  const stageTexts = {
+    pt: [
+      [
+        `No recorte ${resultLabel}, ${formatInt(base.reviewed_responses)} respostas foram avaliadas; ${formatPercent(base.release_ready_rate)} estão prontas para release e o score médio fica em ${formatNumber(base.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}/5.`,
+        `A leitura não depende só da média: ${formatPercent(base.critical_issue_rate)} ainda cai em severidade alta, então o release precisa combinar score, prontidão e risco.`,
+        `Quando o filtro muda, os KPIs também mudam; isso deixa explícito se o resultado vem de um baseline saudável, de backlog ou de casos que exigem bloqueio.`
+      ],
+      [
+        `A versão com melhor sinal é ${bestVersion.prompt_version || "-"}: ${formatPercent(bestVersion.release_ready_rate)} release-ready, ${formatPercent(bestVersion.critical_issue_rate)} severidade alta e ${formatInt(bestVersion.reviewed_responses)} avaliadas.`,
+        `${strongestUseCase.use_case || "O caso mais forte"} lidera em score médio com ${formatNumber(strongestUseCase.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}; ${weakestUseCase.use_case || "o caso mais frágil"} puxa a régua para baixo com ${formatNumber(weakestUseCase.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}.`,
+        `A tendência sai de ${formatNumber(firstMonth.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })} para ${formatNumber(lastMonth.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}: ganho de ${formatNumber(scoreDelta, { minimumFractionDigits: 2, maximumFractionDigits: 2 })} ponto, mas ainda abaixo do alvo 4,0.`
+      ],
+      [
+        `A matriz mostra onde o release pode avançar por combinação de versão e caso de uso; ${topBacklog.use_case || "-"} em ${topBacklog.prompt_version || "-"} concentra ${formatInt(topBacklog.not_approved_cases)} não aprovadas.`,
+        `A menor dimensão é ${weakestDimension.dimension || "-"}, com ${formatNumber(weakestDimension.avg_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}/5; é o tipo de sinal que explica por que a média geral não basta.`,
+        `No recorte atual há ${formatInt(highSeverityCount)} ocorrências de severidade alta nas falhas listadas. Isso é o que transforma análise de qualidade em fila de correção.`
+      ],
+      [
+        `A decisão é manter gate por caso de uso: ${bestVersion.prompt_version || "-"} é o melhor baseline, mas não substitui a leitura de matriz, falhas e backlog.`,
+        `O próximo ciclo deve atacar ${topBacklog.use_case || "-"} em ${topBacklog.prompt_version || "-"} primeiro, porque concentra ${formatInt(topBacklog.not_approved_cases)} respostas não aprovadas.`,
+        `O último mês ainda está ${formatNumber(targetGap, { minimumFractionDigits: 2, maximumFractionDigits: 2 })} ponto abaixo do alvo 4,0; liberar só pela média esconderia risco operacional.`
+      ]
+    ],
+    en: [
+      [
+        `For ${resultLabel}, ${formatInt(base.reviewed_responses)} responses were reviewed; ${formatPercent(base.release_ready_rate)} are release-ready and the average score is ${formatNumber(base.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}/5.`,
+        `The readout is not only the average: ${formatPercent(base.critical_issue_rate)} still lands in high severity, so release needs score, readiness and risk together.`,
+        `When the filter changes, the KPIs change too; this makes clear whether the result comes from a healthy baseline, backlog or blocked cases.`
+      ],
+      [
+        `The strongest version is ${bestVersion.prompt_version || "-"}: ${formatPercent(bestVersion.release_ready_rate)} release-ready, ${formatPercent(bestVersion.critical_issue_rate)} high severity and ${formatInt(bestVersion.reviewed_responses)} reviewed.`,
+        `${strongestUseCase.use_case || "The strongest use case"} leads with ${formatNumber(strongestUseCase.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}; ${weakestUseCase.use_case || "the weakest use case"} pulls the bar down with ${formatNumber(weakestUseCase.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}.`,
+        `The trend moves from ${formatNumber(firstMonth.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })} to ${formatNumber(lastMonth.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}: +${formatNumber(scoreDelta, { minimumFractionDigits: 2, maximumFractionDigits: 2 })} point, still below the 4.0 target.`
+      ],
+      [
+        `The matrix shows where release can move forward by version and use case; ${topBacklog.use_case || "-"} on ${topBacklog.prompt_version || "-"} concentrates ${formatInt(topBacklog.not_approved_cases)} not-approved responses.`,
+        `The weakest dimension is ${weakestDimension.dimension || "-"}, at ${formatNumber(weakestDimension.avg_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}/5; this explains why the global average is not enough.`,
+        `The current slice has ${formatInt(highSeverityCount)} high-severity occurrences in the listed issues. That turns quality analysis into a correction queue.`
+      ],
+      [
+        `The decision is to keep a use-case gate: ${bestVersion.prompt_version || "-"} is the best baseline, but does not replace the matrix, issue and backlog readout.`,
+        `The next cycle should address ${topBacklog.use_case || "-"} on ${topBacklog.prompt_version || "-"} first, because it concentrates ${formatInt(topBacklog.not_approved_cases)} not-approved responses.`,
+        `The last month is still ${formatNumber(targetGap, { minimumFractionDigits: 2, maximumFractionDigits: 2 })} point below the 4.0 target; releasing by average alone would hide operational risk.`
+      ]
+    ],
+    es: [
+      [
+        `En el recorte ${resultLabel}, ${formatInt(base.reviewed_responses)} respuestas fueron evaluadas; ${formatPercent(base.release_ready_rate)} están listas para release y el score medio queda en ${formatNumber(base.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}/5.`,
+        `La lectura no depende solo de la media: ${formatPercent(base.critical_issue_rate)} aún cae en severidad alta, entonces el release debe combinar score, preparación y riesgo.`,
+        `Cuando cambia el filtro, los KPIs también cambian; eso muestra si el resultado viene de un baseline sano, backlog o casos bloqueados.`
+      ],
+      [
+        `La versión con mejor señal es ${bestVersion.prompt_version || "-"}: ${formatPercent(bestVersion.release_ready_rate)} release-ready, ${formatPercent(bestVersion.critical_issue_rate)} severidad alta y ${formatInt(bestVersion.reviewed_responses)} evaluadas.`,
+        `${strongestUseCase.use_case || "El caso más fuerte"} lidera con ${formatNumber(strongestUseCase.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}; ${weakestUseCase.use_case || "el caso más débil"} baja la vara con ${formatNumber(weakestUseCase.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}.`,
+        `La tendencia pasa de ${formatNumber(firstMonth.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })} a ${formatNumber(lastMonth.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}: +${formatNumber(scoreDelta, { minimumFractionDigits: 2, maximumFractionDigits: 2 })} punto, aún debajo del objetivo 4,0.`
+      ],
+      [
+        `La matriz muestra dónde el release puede avanzar por versión y caso de uso; ${topBacklog.use_case || "-"} en ${topBacklog.prompt_version || "-"} concentra ${formatInt(topBacklog.not_approved_cases)} no aprobadas.`,
+        `La dimensión más débil es ${weakestDimension.dimension || "-"}, con ${formatNumber(weakestDimension.avg_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}/5; esto explica por qué la media global no alcanza.`,
+        `El recorte actual tiene ${formatInt(highSeverityCount)} ocurrencias de severidad alta en las fallas listadas. Eso convierte la calidad en fila de corrección.`
+      ],
+      [
+        `La decisión es mantener gate por caso de uso: ${bestVersion.prompt_version || "-"} es el mejor baseline, pero no reemplaza la lectura de matriz, fallas y backlog.`,
+        `El próximo ciclo debe atacar ${topBacklog.use_case || "-"} en ${topBacklog.prompt_version || "-"} primero, porque concentra ${formatInt(topBacklog.not_approved_cases)} respuestas no aprobadas.`,
+        `El último mes aún está ${formatNumber(targetGap, { minimumFractionDigits: 2, maximumFractionDigits: 2 })} punto debajo del objetivo 4,0; liberar solo por media escondería riesgo operacional.`
+      ]
+    ]
+  };
+  const texts = (stageTexts[state.lang] || stageTexts.pt)[stage] || (stageTexts[state.lang] || stageTexts.pt)[0];
+  return `
+    <section class="result-readout ai-result-readout">
+      <span>${escapeHtml(term("reading"))}</span>
+      <ul>
+        ${texts.map((reading) => `<li>${escapeHtml(reading)}</li>`).join("")}
+      </ul>
+    </section>
+  `;
+};
+
+const pipelineResultReadout = (data, context, stage = 0) => {
+  const sourceLabel = context.source === "all" ? term("allSources") : label(context.source);
+  const severityLabel = context.severity === "all" ? copy().all : label(context.severity);
+  const issueLabel = context.issue === "all" ? copy().all : label(context.issue);
+  const categoryLabel = context.category === "all" ? term("allCategories") : label(context.category);
+  const rules = context.rules?.length ? context.rules : data.failed_rules || [];
+  const sourceQuality = context.sourceQuality?.length ? context.sourceQuality : data.source_quality || [];
+  const readyRevenue = context.readyRevenue?.length ? context.readyRevenue : data.revenue_ready || [];
+  const reviewRecords = context.reviewRecords?.length ? context.reviewRecords : data.review_records || [];
+  const categoryRows = context.categoryRows?.length ? context.categoryRows : data.category_metrics || [];
+  const topRule = [...rules].sort((a, b) => Number(b.failed_records || 0) - Number(a.failed_records || 0))[0] || {};
+  const weakestSource = [...sourceQuality].sort((a, b) => Number(a.ready_rate || 0) - Number(b.ready_rate || 0))[0] || {};
+  const strongestSource = [...sourceQuality].sort((a, b) => Number(b.ready_rate || 0) - Number(a.ready_rate || 0))[0] || {};
+  const readyTotal = readyRevenue.reduce((sum, row) => sum + Number(row.captured_payment_amount || 0), 0);
+  const readyOrders = readyRevenue.reduce((sum, row) => sum + Number(row.completed_orders || 0), 0);
+  const reviewTotal = reviewRecords.reduce((sum, row) => sum + Number(row.order_total || 0), 0);
+  const topCategory = [...categoryRows].sort((a, b) => Number(b.net_revenue || 0) - Number(a.net_revenue || 0))[0] || {};
+  const weakestMargin = [...categoryRows].sort((a, b) => (Number(a.gross_margin || 0) / Math.max(1, Number(a.net_revenue || 0))) - (Number(b.gross_margin || 0) / Math.max(1, Number(b.net_revenue || 0))))[0] || {};
+  const weakestMarginRate = Number(weakestMargin.gross_margin || 0) / Math.max(1, Number(weakestMargin.net_revenue || 0));
+  const criticalFailures = rules.filter((row) => row.severity === "Critical").reduce((sum, row) => sum + Number(row.failed_records || 0), 0);
+  const stageTexts = {
+    pt: [
+      [
+        `Com severidade ${severityLabel} e tipo ${issueLabel}, o gate enxerga ${formatInt(criticalFailures)} falhas críticas contra ${formatInt(context.rawOrders || data.kpis.raw_orders)} pedidos brutos.`,
+        `O score filtrado fica em ${formatPercent(context.scopedQualityScore)}: alto o bastante para parecer saudável, mas ainda dependente de zerar falhas críticas antes da publicação.`,
+        `A leitura principal é binária: se existir falha crítica no recorte, o BI executivo não deveria publicar esse pedaço como camada final.`
+      ],
+      [
+        `No recorte de origem ${sourceLabel}, a regra com maior impacto é ${topRule.rule_name || "-"}, com ${formatInt(topRule.failed_records || 0)} registros afetados.`,
+        `${strongestSource.source_system || "-"} aparece com ${formatPercent(strongestSource.ready_rate || 0)} de prontidão; ${weakestSource.source_system || "-"} é o ponto mais frágil, com ${formatPercent(weakestSource.ready_rate || 0)}.`,
+        `Aqui a leitura separa volume de risco: poucas regras podem bloquear muito se atingirem pagamento, status ou referência obrigatória.`
+      ],
+      [
+        `A fila Ready soma ${formatInt(readyOrders)} pedidos concluídos e ${formatMoney(readyTotal)} capturados para BI no recorte atual.`,
+        `A fila de revisão mantém ${formatInt(reviewRecords.length)} pedidos bloqueados, somando ${formatMoney(reviewTotal)} que não deve entrar em publicação executiva sem correção.`,
+        `O filtro por origem e tipo de falha deixa claro o que pode seguir para mart Ready e o que precisa continuar em revisão operacional.`
+      ],
+      [
+        `Em ${categoryLabel}, a maior exposição de receita é ${topCategory.category || "-"}, com ${formatMoney(topCategory.net_revenue || 0)} líquidos e ${formatInt(topCategory.units || 0)} unidades.`,
+        `A margem mais sensível é ${weakestMargin.category || "-"}, em ${formatPercent(weakestMarginRate)}; abaixo do piso, o ponto vira risco de publicação mesmo quando a receita é alta.`,
+        `O mapa combina receita, margem e unidades para mostrar onde corrigir primeiro: categorias grandes e abaixo do piso são prioridade executiva.`
+      ]
+    ],
+    en: [
+      [
+        `With severity ${severityLabel} and issue type ${issueLabel}, the gate sees ${formatInt(criticalFailures)} critical failures across ${formatInt(context.rawOrders || data.kpis.raw_orders)} raw orders.`,
+        `The filtered score is ${formatPercent(context.scopedQualityScore)}: high enough to look healthy, but still dependent on clearing critical failures before publication.`,
+        `The main readout is binary: if a critical failure exists in the slice, that part should not be published as the final executive layer.`
+      ],
+      [
+        `For source ${sourceLabel}, the highest-impact rule is ${topRule.rule_name || "-"}, with ${formatInt(topRule.failed_records || 0)} affected records.`,
+        `${strongestSource.source_system || "-"} shows ${formatPercent(strongestSource.ready_rate || 0)} readiness; ${weakestSource.source_system || "-"} is the weakest point at ${formatPercent(weakestSource.ready_rate || 0)}.`,
+        `This readout separates volume from risk: a small number of rules can block a lot when they hit payment, status or required references.`
+      ],
+      [
+        `The Ready queue adds up to ${formatInt(readyOrders)} completed orders and ${formatMoney(readyTotal)} captured for BI in the current slice.`,
+        `The review queue keeps ${formatInt(reviewRecords.length)} blocked orders, totaling ${formatMoney(reviewTotal)} that should not enter executive publication without correction.`,
+        `Filtering by source and issue type makes clear what can move to the Ready mart and what must remain in operational review.`
+      ],
+      [
+        `In ${categoryLabel}, the largest revenue exposure is ${topCategory.category || "-"}, with ${formatMoney(topCategory.net_revenue || 0)} net and ${formatInt(topCategory.units || 0)} units.`,
+        `The most sensitive margin is ${weakestMargin.category || "-"}, at ${formatPercent(weakestMarginRate)}; below the floor, the point becomes publication risk even when revenue is high.`,
+        `The map combines revenue, margin and units to show what to fix first: large categories below the floor are the executive priority.`
+      ]
+    ],
+    es: [
+      [
+        `Con severidad ${severityLabel} y tipo ${issueLabel}, el gate ve ${formatInt(criticalFailures)} fallas críticas sobre ${formatInt(context.rawOrders || data.kpis.raw_orders)} pedidos brutos.`,
+        `El score filtrado queda en ${formatPercent(context.scopedQualityScore)}: alto para parecer sano, pero todavía depende de cerrar fallas críticas antes de publicar.`,
+        `La lectura principal es binaria: si existe falla crítica en el recorte, esa parte no debería publicarse como capa ejecutiva final.`
+      ],
+      [
+        `En la fuente ${sourceLabel}, la regla de mayor impacto es ${topRule.rule_name || "-"}, con ${formatInt(topRule.failed_records || 0)} registros afectados.`,
+        `${strongestSource.source_system || "-"} aparece con ${formatPercent(strongestSource.ready_rate || 0)} de preparación; ${weakestSource.source_system || "-"} es el punto más frágil, con ${formatPercent(weakestSource.ready_rate || 0)}.`,
+        `Esta lectura separa volumen de riesgo: pocas reglas pueden bloquear mucho si afectan pago, estado o referencias obligatorias.`
+      ],
+      [
+        `La fila Ready suma ${formatInt(readyOrders)} pedidos concluidos y ${formatMoney(readyTotal)} capturados para BI en el recorte actual.`,
+        `La fila de revisión mantiene ${formatInt(reviewRecords.length)} pedidos bloqueados, sumando ${formatMoney(reviewTotal)} que no debe entrar en publicación ejecutiva sin corrección.`,
+        `El filtro por fuente y tipo de falla deja claro qué puede avanzar al mart Ready y qué debe seguir en revisión operacional.`
+      ],
+      [
+        `En ${categoryLabel}, la mayor exposición de ingreso es ${topCategory.category || "-"}, con ${formatMoney(topCategory.net_revenue || 0)} netos y ${formatInt(topCategory.units || 0)} unidades.`,
+        `La margen más sensible es ${weakestMargin.category || "-"}, en ${formatPercent(weakestMarginRate)}; debajo del piso, el punto se vuelve riesgo de publicación aunque el ingreso sea alto.`,
+        `El mapa combina ingreso, margen y unidades para mostrar qué corregir primero: categorías grandes y debajo del piso son prioridad ejecutiva.`
+      ]
+    ]
+  };
+  const texts = (stageTexts[state.lang] || stageTexts.pt)[stage] || (stageTexts[state.lang] || stageTexts.pt)[0];
+  return `
+    <section class="result-readout pipeline-result-readout">
+      <span>${escapeHtml(term("reading"))}</span>
+      <ul>
+        ${texts.map((reading) => `<li>${escapeHtml(reading)}</li>`).join("")}
+      </ul>
+    </section>
+  `;
+};
 
 const decisionGrid = (decision) => `
   <section class="decision-block">
@@ -1814,15 +2226,8 @@ const vizCard = (title, subtitle, body, wide = false, pill = "") => `
   </article>
 `;
 
-const tableCell = (tag, column, cell) => `
-  <${tag} data-label="${escapeHtml(column)}">
-    <em class="table-cell-label">${escapeHtml(column)}</em>
-    <span class="table-cell-value">${escapeHtml(cell)}</span>
-  </${tag}>
-`;
-
-const tableCard = (title, subtitle, columns, rows, wide = false, template = "1.4fr 1fr 1fr") => `
-  <article class="table-card ${wide ? "is-wide" : ""}">
+const tableCard = (title, subtitle, columns, rows, wide = false, template = "1.4fr 1fr 1fr", extraClass = "") => `
+  <article class="table-card ${wide ? "is-wide" : ""} ${extraClass}">
     ${cardHead(title, subtitle)}
     <div class="data-table">
       <div class="table-row is-head" style="--cols:${template}">
@@ -1830,7 +2235,7 @@ const tableCard = (title, subtitle, columns, rows, wide = false, template = "1.4
       </div>
       ${rows.map((row) => `
         <div class="table-row" style="--cols:${template}">
-          ${row.map((cell, index) => tableCell(index === 0 ? "strong" : "span", columns[index] || "", cell)).join("")}
+          ${row.map((cell, index) => index === 0 ? `<strong>${escapeHtml(cell)}</strong>` : `<span>${escapeHtml(cell)}</span>`).join("")}
         </div>
       `).join("")}
     </div>
@@ -1981,25 +2386,157 @@ const retentionActivationComparison = (rows) => {
                 <span class="retention-lift">+${escapeHtml(formatNumber(lift * 100, { maximumFractionDigits: 1 }))} p.p. ${escapeHtml(copy.lift)}</span>
               </div>
               <div class="retention-lane">
-                <div class="retention-lane-label">
-                  <span>${escapeHtml(label(activated.activation_status || ""))}</span>
+                <span class="retention-lane-label">${escapeHtml(label(activated.activation_status || ""))}</span>
+                <div class="retention-lane-meter">
+                  <i class="retention-lane-bar" style="--w:${Math.max(4, (activeValue / max) * 100).toFixed(1)}%"></i>
                   <strong>${escapeHtml(formatPercent(activeValue))}</strong>
                 </div>
-                <i class="retention-lane-bar" style="--w:${Math.max(4, (activeValue / max) * 100).toFixed(1)}%"></i>
                 <span class="retention-lane-count">${escapeHtml(formatInt(retainedCount(activated, window.key)))} / ${escapeHtml(formatInt(activated.users))} ${escapeHtml(copy.retained)}</span>
               </div>
               <div class="retention-lane is-muted">
-                <div class="retention-lane-label">
-                  <span>${escapeHtml(label(notActivated.activation_status || ""))}</span>
+                <span class="retention-lane-label">${escapeHtml(label(notActivated.activation_status || ""))}</span>
+                <div class="retention-lane-meter">
+                  <i class="retention-lane-bar" style="--w:${Math.max(4, (inactiveValue / max) * 100).toFixed(1)}%"></i>
                   <strong>${escapeHtml(formatPercent(inactiveValue))}</strong>
                 </div>
-                <i class="retention-lane-bar" style="--w:${Math.max(4, (inactiveValue / max) * 100).toFixed(1)}%"></i>
                 <span class="retention-lane-count">${escapeHtml(formatInt(retainedCount(notActivated, window.key)))} / ${escapeHtml(formatInt(notActivated.users))} ${escapeHtml(copy.retained)}</span>
               </div>
             </article>
           `;
         }).join("")}
       </div>
+    </div>
+  `;
+};
+
+const liquidityKpiStrip = (rows) => {
+  const safeRows = rows || [];
+  const opportunities = safeRows.reduce((sum, row) => sum + Number(row.opportunities || 0), 0);
+  const invitations = safeRows.reduce((sum, row) => sum + Number(row.invitations_sent || 0), 0);
+  const confirmed = safeRows.reduce((sum, row) => sum + Number(row.confirmed_bookings || 0), 0);
+  const avgHours = confirmed
+    ? safeRows.reduce((sum, row) => sum + (Number(row.avg_hours_to_confirmation || 0) * Number(row.confirmed_bookings || 0)), 0) / confirmed
+    : 0;
+  const targetCount = safeRows.filter((row) => Number(row.confirmation_rate || 0) >= 0.6).length;
+  const copy = ({
+    pt: {
+      opportunities: "Oportunidades",
+      confirmed: "Reservas",
+      rate: "Taxa confirm.",
+      avgTime: "Tempo médio",
+      marketDemand: "demanda analisada",
+      confirmedBookings: "confirmadas",
+      aboveTarget: `${targetCount}/${safeRows.length || 0} categorias na meta`,
+      untilConfirmation: "até confirmação"
+    },
+    en: {
+      opportunities: "Opportunities",
+      confirmed: "Bookings",
+      rate: "Confirm. rate",
+      avgTime: "Avg. time",
+      marketDemand: "demand reviewed",
+      confirmedBookings: "confirmed",
+      aboveTarget: `${targetCount}/${safeRows.length || 0} categories on target`,
+      untilConfirmation: "to confirmation"
+    },
+    es: {
+      opportunities: "Oportunidades",
+      confirmed: "Reservas",
+      rate: "Tasa confirm.",
+      avgTime: "Tiempo medio",
+      marketDemand: "demanda analizada",
+      confirmedBookings: "confirmadas",
+      aboveTarget: `${targetCount}/${safeRows.length || 0} categorías en meta`,
+      untilConfirmation: "hasta confirmación"
+    }
+  })[state.lang] || {};
+  return `
+    <div class="chart-kpi-strip">
+      <article class="chart-kpi-item">
+        <small>${escapeHtml(copy.opportunities)}</small>
+        <strong>${escapeHtml(formatInt(opportunities))}</strong>
+        <span>${escapeHtml(copy.marketDemand)}</span>
+      </article>
+      <article class="chart-kpi-item">
+        <small>${escapeHtml(copy.confirmed)}</small>
+        <strong>${escapeHtml(formatInt(confirmed))}</strong>
+        <span>${escapeHtml(copy.confirmedBookings)}</span>
+      </article>
+      <article class="chart-kpi-item">
+        <small>${escapeHtml(copy.rate)}</small>
+        <strong>${escapeHtml(formatPercent(invitations ? confirmed / invitations : 0))}</strong>
+        <span>${escapeHtml(copy.aboveTarget)}</span>
+      </article>
+      <article class="chart-kpi-item">
+        <small>${escapeHtml(copy.avgTime)}</small>
+        <strong>${escapeHtml(formatNumber(avgHours, { maximumFractionDigits: 1 }))}h</strong>
+        <span>${escapeHtml(copy.untilConfirmation)}</span>
+      </article>
+    </div>
+  `;
+};
+
+const pipelineCategoryImpactKpiStrip = (rows) => {
+  const safeRows = rows || [];
+  const revenue = safeRows.reduce((sum, row) => sum + Number(row.net_revenue || 0), 0);
+  const margin = safeRows.reduce((sum, row) => sum + Number(row.gross_margin || 0), 0);
+  const weightedMargin = margin / Math.max(1, revenue);
+  const leader = safeRows.reduce((winner, row) => Number(row.net_revenue || 0) > Number(winner.net_revenue || 0) ? row : winner, safeRows[0] || {});
+  const risky = safeRows.filter((row) => (Number(row.gross_margin || 0) / Math.max(1, Number(row.net_revenue || 0))) < 0.35).length;
+  const copy = ({
+    pt: {
+      revenue: "Receita",
+      margin: "Margem",
+      leader: "Maior impacto",
+      risk: "Risco",
+      readyRevenue: "líquida analisada",
+      weighted: "ponderada",
+      byRevenue: `${escapeHtml(label(leader.category || ""))} lidera`,
+      belowFloor: "categorias abaixo de 35%"
+    },
+    en: {
+      revenue: "Revenue",
+      margin: "Margin",
+      leader: "Highest impact",
+      risk: "Risk",
+      readyRevenue: "net reviewed",
+      weighted: "weighted",
+      byRevenue: `${escapeHtml(label(leader.category || ""))} leads`,
+      belowFloor: "categories below 35%"
+    },
+    es: {
+      revenue: "Ingreso",
+      margin: "Margen",
+      leader: "Mayor impacto",
+      risk: "Riesgo",
+      readyRevenue: "neto analizado",
+      weighted: "ponderado",
+      byRevenue: `${escapeHtml(label(leader.category || ""))} lidera`,
+      belowFloor: "categorias abajo de 35%"
+    }
+  })[state.lang] || {};
+  return `
+    <div class="chart-kpi-strip">
+      <article class="chart-kpi-item">
+        <small>${escapeHtml(copy.revenue)}</small>
+        <strong>${escapeHtml(formatMoney(revenue))}</strong>
+        <span>${escapeHtml(copy.readyRevenue)}</span>
+      </article>
+      <article class="chart-kpi-item">
+        <small>${escapeHtml(copy.margin)}</small>
+        <strong>${escapeHtml(formatPercent(weightedMargin))}</strong>
+        <span>${escapeHtml(copy.weighted)}</span>
+      </article>
+      <article class="chart-kpi-item">
+        <small>${escapeHtml(copy.leader)}</small>
+        <strong>${escapeHtml(label(leader.category || ""))}</strong>
+        <span>${escapeHtml(formatMoney(leader.net_revenue || 0))}</span>
+      </article>
+      <article class="chart-kpi-item">
+        <small>${escapeHtml(copy.risk)}</small>
+        <strong>${escapeHtml(formatInt(risky))}</strong>
+        <span>${escapeHtml(copy.belowFloor)}</span>
+      </article>
     </div>
   `;
 };
@@ -2027,116 +2564,252 @@ const matrixGrid = (rowLabels, colLabels, getValue, formatter) => {
   `;
 };
 
-const aiReadinessMatrix = (useCases, versions, rows) => {
-  const matrixCopy = ({
-    pt: {
-      improvement: "item de melhoria",
-      noBacklog: "fora do backlog",
-      noPriority: "sem prioridade no backlog",
-      notApproved: "nao aprov.",
-      evaluated: "avaliadas",
-      min: "menor prontidao",
-      max: "maior prontidao"
-    },
-    en: {
-      improvement: "improvement item",
-      noBacklog: "outside backlog",
-      noPriority: "no backlog priority",
-      notApproved: "not approved",
-      evaluated: "evaluated",
-      min: "lower readiness",
-      max: "higher readiness"
-    },
-    es: {
-      improvement: "item de mejora",
-      noBacklog: "fuera del backlog",
-      noPriority: "sin prioridad en backlog",
-      notApproved: "no aprob.",
-      evaluated: "evaluadas",
-      min: "menor preparacion",
-      max: "mayor preparacion"
-    }
+const smoothPath = (points) => {
+  if (points.length < 2) return "";
+  return points.slice(1).reduce((path, point, index) => {
+    const previous = points[index];
+    const midX = (previous.x + point.x) / 2;
+    return `${path} C ${midX.toFixed(1)},${previous.y.toFixed(1)} ${midX.toFixed(1)},${point.y.toFixed(1)} ${point.x.toFixed(1)},${point.y.toFixed(1)}`;
+  }, `M ${points[0].x.toFixed(1)},${points[0].y.toFixed(1)}`);
+};
+
+const qualityTrendChart = (rows) => {
+  const compactChart = typeof window !== "undefined" && window.innerWidth < 560;
+  const width = compactChart ? 640 : 920;
+  const height = compactChart ? 430 : 370;
+  const pad = compactChart ? { top: 52, right: 42, bottom: 74, left: 82 } : { top: 44, right: 42, bottom: 70, left: 78 };
+  const chartW = width - pad.left - pad.right;
+  const chartH = height - pad.top - pad.bottom;
+  const target = 4;
+  const values = rows.map((row) => Number(row.avg_quality_score || 0));
+  const yMin = Math.min(3.4, ...values) - 0.02;
+  const yMax = Math.max(4.1, target, ...values) + 0.02;
+  const x = (index) => pad.left + (index * chartW) / Math.max(1, rows.length - 1);
+  const y = (value) => pad.top + ((yMax - Number(value || 0)) / Math.max(0.01, yMax - yMin)) * chartH;
+  const points = rows.map((row, index) => ({ x: x(index), y: y(row.avg_quality_score), row }));
+  const linePath = smoothPath(points);
+  const areaPath = `${linePath} L ${points.at(-1).x.toFixed(1)},${(pad.top + chartH).toFixed(1)} L ${points[0].x.toFixed(1)},${(pad.top + chartH).toFixed(1)} Z`;
+  const barBase = pad.top + chartH;
+  const barMaxHeight = compactChart ? 62 : 46;
+  const barWidth = compactChart ? 44 : 54;
+  const monthLabelY = height - 26;
+  const xAxisY = height - 8;
+  const last = rows.at(-1) || {};
+  const first = rows[0] || {};
+  const best = [...rows].sort((a, b) => Number(b.avg_quality_score || 0) - Number(a.avg_quality_score || 0))[0] || last;
+  const delta = Number(last.avg_quality_score || 0) - Number(first.avg_quality_score || 0);
+  const targetGap = target - Number(last.avg_quality_score || 0);
+  const trendCopy = ({
+    pt: { scoreLine: "linha = score médio", readyBars: "colunas = release-ready", yAxis: "score médio (1-5)", xAxis: "mês da avaliação", target: "alvo operacional 4,0", delta: "delta no período", bestMonth: "melhor mês", currentReady: "prontidão atual", gap: "gap até alvo" },
+    en: { scoreLine: "line = average score", readyBars: "columns = release-ready", yAxis: "average score (1-5)", xAxis: "review month", target: "operational target 4.0", delta: "period delta", bestMonth: "best month", currentReady: "current readiness", gap: "gap to target" },
+    es: { scoreLine: "línea = score medio", readyBars: "columnas = release-ready", yAxis: "score medio (1-5)", xAxis: "mes de evaluación", target: "objetivo operacional 4,0", delta: "delta del periodo", bestMonth: "mejor mes", currentReady: "preparación actual", gap: "brecha al objetivo" }
   })[state.lang] || {};
-  const rowFor = (useCase, promptVersion) => rows.find((item) => item.use_case === useCase && item.prompt_version === promptVersion);
+  const monthLabel = (value) => String(value || "").slice(5) || value;
+  const yTicks = [yMin, (yMin + yMax) / 2, yMax];
+  return `
+    <div class="quality-trend">
+      <div class="quality-trend-summary">
+        <span><strong>${escapeHtml(delta >= 0 ? `+${formatNumber(delta, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}` : formatNumber(delta, { minimumFractionDigits: 2, maximumFractionDigits: 2 }))}</strong>${escapeHtml(trendCopy.delta)}</span>
+        <span><strong>${escapeHtml(monthLabel(best.response_month))}</strong>${escapeHtml(trendCopy.bestMonth)} - ${escapeHtml(formatNumber(best.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 }))}</span>
+        <span><strong>${escapeHtml(formatPercent(last.release_ready_rate || 0))}</strong>${escapeHtml(trendCopy.currentReady)}</span>
+        <span><strong>${escapeHtml(formatNumber(Math.max(0, targetGap), { minimumFractionDigits: 2, maximumFractionDigits: 2 }))}</strong>${escapeHtml(trendCopy.gap)}</span>
+      </div>
+      <div class="quality-trend-legend">
+        <span class="is-score">${escapeHtml(trendCopy.scoreLine)}</span>
+        <span class="is-ready">${escapeHtml(trendCopy.readyBars)}</span>
+      </div>
+      <svg class="quality-trend-chart" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(`${trendCopy.scoreLine}: ${formatNumber(last.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}; ${trendCopy.readyBars}: ${formatPercent(last.release_ready_rate || 0)}`)}">
+        <defs>
+          <linearGradient id="qualityTrendArea" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#39d4ff" stop-opacity="0.22"></stop><stop offset="100%" stop-color="#52e6a5" stop-opacity="0"></stop></linearGradient>
+          <linearGradient id="qualityTrendLine" x1="0" x2="1" y1="0" y2="0"><stop offset="0%" stop-color="#52e6a5"></stop><stop offset="100%" stop-color="#39d4ff"></stop></linearGradient>
+        </defs>
+        <rect class="quality-plot-bg" x="${pad.left}" y="${pad.top}" width="${chartW}" height="${chartH}" rx="16"></rect>
+        <text class="quality-axis-title is-y" x="${pad.left - 44}" y="${(pad.top + chartH / 2).toFixed(1)}" text-anchor="middle" transform="rotate(-90 ${pad.left - 44} ${(pad.top + chartH / 2).toFixed(1)})">${escapeHtml(trendCopy.yAxis)}</text>
+        <text class="quality-axis-title is-x" x="${(pad.left + chartW / 2).toFixed(1)}" y="${xAxisY}" text-anchor="middle">${escapeHtml(trendCopy.xAxis)}</text>
+        ${yTicks.map((tick) => `<line class="quality-grid" x1="${pad.left}" y1="${y(tick).toFixed(1)}" x2="${width - pad.right}" y2="${y(tick).toFixed(1)}"></line><text class="quality-axis-label" x="${pad.left - 16}" y="${(y(tick) + 5).toFixed(1)}" text-anchor="end">${escapeHtml(formatNumber(tick, { minimumFractionDigits: 1, maximumFractionDigits: 1 }))}</text>`).join("")}
+        <line class="quality-target" x1="${pad.left}" y1="${y(target).toFixed(1)}" x2="${width - pad.right}" y2="${y(target).toFixed(1)}"></line>
+        <text class="quality-target-label" x="${width - pad.right}" y="${(y(target) - 10).toFixed(1)}" text-anchor="end">${escapeHtml(trendCopy.target)}</text>
+        ${rows.map((row, index) => {
+          const readyRate = Number(row.release_ready_rate || 0);
+          const readyHeight = Math.max(7, readyRate * barMaxHeight);
+          const readyY = barBase - readyHeight;
+          return `<line class="quality-month-guide" x1="${x(index).toFixed(1)}" y1="${pad.top}" x2="${x(index).toFixed(1)}" y2="${barBase}"></line><rect class="quality-ready-bar" x="${(x(index) - barWidth / 2).toFixed(1)}" y="${readyY.toFixed(1)}" width="${barWidth.toFixed(1)}" height="${readyHeight.toFixed(1)}" rx="8"></rect><text class="quality-ready-label" x="${x(index).toFixed(1)}" y="${(readyY - 9).toFixed(1)}" text-anchor="middle">${escapeHtml(formatPercent(readyRate))}</text><text class="quality-month-label" x="${x(index).toFixed(1)}" y="${monthLabelY}" text-anchor="middle">${escapeHtml(monthLabel(row.response_month))}</text>`;
+        }).join("")}
+        <path class="quality-area" d="${areaPath}"></path><path class="quality-line" d="${linePath}"></path>
+        ${rows.map((row, index) => `<circle class="quality-point-ring" cx="${x(index).toFixed(1)}" cy="${y(row.avg_quality_score).toFixed(1)}" r="11"></circle><circle class="quality-point" cx="${x(index).toFixed(1)}" cy="${y(row.avg_quality_score).toFixed(1)}" r="6"></circle><text class="quality-point-label" x="${x(index).toFixed(1)}" y="${(y(row.avg_quality_score) - 18).toFixed(1)}" text-anchor="middle">${escapeHtml(formatNumber(row.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 }))}</text>`).join("")}
+      </svg>
+    </div>
+  `;
+};
+
+const retailRevenueTrendChart = (rows) => {
+  const width = 920;
+  const height = 370;
+  const pad = { top: 44, right: 52, bottom: 70, left: 118 };
+  const chartW = width - pad.left - pad.right;
+  const chartH = height - pad.top - pad.bottom;
+  const values = rows.map((row) => Number(row.net_revenue || 0));
+  const yMin = Math.min(0, ...values);
+  const yMax = Math.max(...values, 1) * 1.08;
+  const x = (index) => pad.left + (index * chartW) / Math.max(1, rows.length - 1);
+  const y = (value) => pad.top + ((yMax - Number(value || 0)) / Math.max(1, yMax - yMin)) * chartH;
+  const points = rows.map((row, index) => ({ x: x(index), y: y(row.net_revenue), row }));
+  const linePath = smoothPath(points);
+  const areaPath = `${linePath} L ${points.at(-1).x.toFixed(1)},${(pad.top + chartH).toFixed(1)} L ${points[0].x.toFixed(1)},${(pad.top + chartH).toFixed(1)} Z`;
+  const marginFloor = 0.3;
+  const marginScaleMax = 0.55;
+  const barBase = pad.top + chartH;
+  const barMaxHeight = 64;
+  const barWidth = 52;
+  const monthLabel = (value) => String(value || "").slice(5) || value;
+  const copyText = ({ pt: { revenueLine: "linha = receita líquida", marginBars: "colunas = margem bruta", yAxis: "receita líquida", xAxis: "mês do pedido", marginFloor: "piso margem 30%" }, en: { revenueLine: "line = net revenue", marginBars: "columns = gross margin", yAxis: "net revenue", xAxis: "order month", marginFloor: "30% margin floor" }, es: { revenueLine: "línea = ingreso neto", marginBars: "columnas = margen bruto", yAxis: "ingreso neto", xAxis: "mes del pedido", marginFloor: "piso margen 30%" } })[state.lang] || {};
+  return `
+    <div class="quality-trend revenue-trend">
+      <div class="quality-trend-legend"><span class="is-score">${escapeHtml(copyText.revenueLine)}</span><span class="is-ready">${escapeHtml(copyText.marginBars)}</span><span class="is-threshold">${escapeHtml(copyText.marginFloor)}</span></div>
+      <svg class="quality-trend-chart revenue-trend-chart" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(copyText.revenueLine)}">
+        <defs>
+          <linearGradient id="qualityTrendArea" x1="0" x2="0" y1="0" y2="1"><stop offset="0%" stop-color="#39d4ff" stop-opacity="0.22"></stop><stop offset="100%" stop-color="#52e6a5" stop-opacity="0"></stop></linearGradient>
+          <linearGradient id="qualityTrendLine" x1="0" x2="1" y1="0" y2="0"><stop offset="0%" stop-color="#52e6a5"></stop><stop offset="100%" stop-color="#39d4ff"></stop></linearGradient>
+        </defs>
+        <rect class="quality-plot-bg" x="${pad.left}" y="${pad.top}" width="${chartW}" height="${chartH}" rx="16"></rect>
+        <text class="quality-axis-title is-y" x="${pad.left - 88}" y="${(pad.top + chartH / 2).toFixed(1)}" text-anchor="middle" transform="rotate(-90 ${pad.left - 88} ${(pad.top + chartH / 2).toFixed(1)})">${escapeHtml(copyText.yAxis)}</text>
+        <text class="quality-axis-title is-x" x="${(pad.left + chartW / 2).toFixed(1)}" y="${height - 8}" text-anchor="middle">${escapeHtml(copyText.xAxis)}</text>
+        <line class="quality-grid" x1="${pad.left}" y1="${pad.top}" x2="${width - pad.right}" y2="${pad.top}"></line>
+        <line class="quality-grid" x1="${pad.left}" y1="${barBase}" x2="${width - pad.right}" y2="${barBase}"></line>
+        <text class="quality-axis-label" x="${pad.left - 16}" y="${(pad.top + 5).toFixed(1)}" text-anchor="end">${escapeHtml(formatMoney(yMax))}</text>
+        <text class="quality-axis-label" x="${pad.left - 16}" y="${(barBase + 5).toFixed(1)}" text-anchor="end">${escapeHtml(formatMoney(yMin))}</text>
+        <line class="quality-target revenue-margin-target" x1="${pad.left}" y1="${(barBase - (marginFloor / marginScaleMax) * barMaxHeight).toFixed(1)}" x2="${width - pad.right}" y2="${(barBase - (marginFloor / marginScaleMax) * barMaxHeight).toFixed(1)}"></line>
+        <text class="quality-target-label revenue-margin-target-label" x="${width - pad.right}" y="${(barBase - (marginFloor / marginScaleMax) * barMaxHeight - 10).toFixed(1)}" text-anchor="end">${escapeHtml(copyText.marginFloor)}</text>
+        ${rows.map((row, index) => {
+          const margin = Number(row.gross_margin_pct || 0);
+          const marginHeight = Math.max(7, (margin / marginScaleMax) * barMaxHeight);
+          const barY = barBase - marginHeight;
+          return `<line class="quality-month-guide" x1="${x(index).toFixed(1)}" y1="${pad.top}" x2="${x(index).toFixed(1)}" y2="${barBase}"></line><rect class="quality-ready-bar revenue-margin-bar" x="${(x(index) - barWidth / 2).toFixed(1)}" y="${barY.toFixed(1)}" width="${barWidth.toFixed(1)}" height="${marginHeight.toFixed(1)}" rx="8"></rect><text class="quality-ready-label revenue-margin-label" x="${(x(index) + barWidth / 2 + 10).toFixed(1)}" y="${(barY + marginHeight / 2).toFixed(1)}" text-anchor="start" dominant-baseline="middle">${escapeHtml(formatPercent(margin))}</text><text class="quality-month-label" x="${x(index).toFixed(1)}" y="${height - 26}" text-anchor="middle">${escapeHtml(monthLabel(row.order_month))}</text>`;
+        }).join("")}
+        <path class="quality-area" d="${areaPath}"></path><path class="quality-line revenue-line" d="${linePath}"></path>
+        ${rows.map((row, index) => `<circle class="quality-point-ring" cx="${x(index).toFixed(1)}" cy="${y(row.net_revenue).toFixed(1)}" r="11"></circle><circle class="quality-point" cx="${x(index).toFixed(1)}" cy="${y(row.net_revenue).toFixed(1)}" r="6"></circle><text class="quality-point-label revenue-point-label" x="${x(index).toFixed(1)}" y="${(y(row.net_revenue) - 18).toFixed(1)}" text-anchor="middle">${escapeHtml(formatMoney(row.net_revenue))}</text>`).join("")}
+      </svg>
+    </div>
+  `;
+};
+
+const dimensionScoreChart = (rows) => {
+  const target = 4;
+  const sorted = [...rows].sort((a, b) => Number(b.avg_score || 0) - Number(a.avg_score || 0));
+  const clampPercent = (value) => Math.max(0, Math.min(100, ((Number(value || 0) - 1) / 4) * 100));
+  const copyText = ({ pt: { target: "alvo 4,0", scale: "escala 1-5", gap: "gap", ready: "no alvo" }, en: { target: "target 4.0", scale: "scale 1-5", gap: "gap", ready: "on target" }, es: { target: "objetivo 4,0", scale: "escala 1-5", gap: "brecha", ready: "en objetivo" } })[state.lang] || {};
+  return `
+    <div class="dimension-bullet-chart" style="--target:${clampPercent(target).toFixed(2)}%">
+      <div class="dimension-bullet-axis" aria-hidden="true"><span>1</span><span>3</span><strong>${escapeHtml(copyText.target)}</strong><span>5</span></div>
+      ${sorted.map((row, index) => {
+        const value = Number(row.avg_score || 0);
+        const gap = Math.max(0, target - value);
+        return `<article class="dimension-bullet-row ${gap <= 0 ? "is-ready" : ""}" style="--score:${clampPercent(value).toFixed(2)}%;--rank:${index + 1}"><div class="dimension-bullet-meta"><strong>${escapeHtml(label(row.dimension))}</strong><span>${escapeHtml(gap <= 0 ? copyText.ready : `${copyText.gap} ${formatNumber(gap, { minimumFractionDigits: 2, maximumFractionDigits: 2 })}`)}</span></div><div class="dimension-bullet-track"><i class="dimension-bullet-fill"></i><i class="dimension-bullet-target"></i></div><strong class="dimension-bullet-value">${escapeHtml(formatNumber(value, { minimumFractionDigits: 2, maximumFractionDigits: 2 }))}</strong></article>`;
+      }).join("")}
+      <span class="dimension-bullet-scale">${escapeHtml(copyText.scale)}</span>
+    </div>
+  `;
+};
+
+const aiReadinessMatrix = (useCases, versions, rows) => {
   const values = rows.map((row) => Number(row.release_ready_rate || 0));
   const max = Math.max(...values, 1);
-  const cellStyle = (value) => {
-    const ratio = Number(value || 0) / max;
-    const alpha = 0.06 + ratio * 0.28;
-    return `--a:${alpha.toFixed(3)};--w:${Math.max(6, ratio * 100).toFixed(1)}%`;
+  const lerp = (start, end, t) => Math.round(start + (end - start) * t);
+  const readinessColor = (value) => {
+    const t = Math.max(0, Math.min(1, Number(value || 0) / max));
+    const stops = [{ p: 0, c: [13, 25, 40] }, { p: 0.52, c: [35, 105, 111] }, { p: 1, c: [36, 143, 103] }];
+    const lower = t <= stops[1].p ? stops[0] : stops[1];
+    const upper = t <= stops[1].p ? stops[1] : stops[2];
+    const localT = (t - lower.p) / Math.max(upper.p - lower.p, 0.01);
+    const color = lower.c.map((channel, index) => lerp(channel, upper.c[index], localT));
+    return `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
   };
+  const copyText = ({ pt: { improvement: "item de melhoria", noBacklog: "fora do backlog", notApproved: "não aprov.", evaluated: "avaliadas", min: "menor prontidão", max: "maior prontidão" }, en: { improvement: "improvement item", noBacklog: "outside backlog", notApproved: "not approved", evaluated: "reviewed", min: "lower readiness", max: "higher readiness" }, es: { improvement: "item de mejora", noBacklog: "fuera del backlog", notApproved: "no aprob.", evaluated: "evaluadas", min: "menor preparación", max: "mayor preparación" } })[state.lang] || {};
+  const rowFor = (useCase, promptVersion) => rows.find((item) => item.use_case === useCase && item.prompt_version === promptVersion);
   const dataCell = (useCase, promptVersion) => {
     const row = rowFor(useCase, promptVersion);
-    if (!row) {
-      return `
-        <div class="matrix-cell ai-readiness-cell is-empty">
-          <strong>-</strong>
-          <span>${escapeHtml(matrixCopy.noPriority)}</span>
-        </div>
-      `;
-    }
+    if (!row) return `<div class="ai-readiness-cell is-empty"><b class="ai-readiness-version">${escapeHtml(label(promptVersion))}</b><strong>-</strong><span>${escapeHtml(copyText.noBacklog)}</span></div>`;
     const value = Number(row.release_ready_rate || 0);
-    return `
-      <div class="matrix-cell ai-readiness-cell" style="${cellStyle(value)}">
-        <strong>${escapeHtml(formatPercent(value))}</strong>
-        <span>${escapeHtml(formatInt(row.not_approved_cases))} ${escapeHtml(matrixCopy.notApproved)} · ${escapeHtml(formatInt(row.reviewed_responses))} ${escapeHtml(matrixCopy.evaluated)}</span>
-        <i></i>
-      </div>
-    `;
+    return `<div class="ai-readiness-cell" style="--cell-bg:${readinessColor(value)}"><b class="ai-readiness-version">${escapeHtml(label(promptVersion))}</b><strong>${escapeHtml(formatPercent(value))}</strong><span>${escapeHtml(formatInt(row.not_approved_cases))} ${escapeHtml(copyText.notApproved)} - ${escapeHtml(formatInt(row.reviewed_responses))} ${escapeHtml(copyText.evaluated)}</span></div>`;
   };
   return `
     <div class="ai-readiness-matrix">
-      <div class="ai-readiness-legend" aria-hidden="true">
-        <span>${escapeHtml(matrixCopy.min)}</span>
-        <i></i>
-        <span>${escapeHtml(matrixCopy.max)}</span>
+      <div class="ai-readiness-legend" aria-hidden="true"><span>${escapeHtml(copyText.min)}</span><i></i><span>${escapeHtml(copyText.max)}</span></div>
+      <div class="ai-readiness-grid">
+        <div class="ai-readiness-header" style="--matrix-cols:${versions.length}"><div class="ai-readiness-head-spacer" aria-hidden="true"></div>${versions.map((promptVersion) => `<div class="ai-readiness-head">${escapeHtml(label(promptVersion))}</div>`).join("")}</div>
+        ${useCases.map((useCase) => `<div class="ai-readiness-row" style="--matrix-cols:${versions.length}"><div class="ai-readiness-label"><strong>${escapeHtml(label(useCase))}</strong><span>${escapeHtml(copyText.improvement)}</span></div>${versions.map((promptVersion) => dataCell(useCase, promptVersion)).join("")}</div>`).join("")}
       </div>
-      <div class="matrix-grid ai-readiness-desktop">
-        <div class="matrix-row" style="--matrix-cols:${versions.length}">
-          <div class="matrix-head-spacer" aria-hidden="true"></div>
-          ${versions.map((promptVersion) => `<div class="matrix-cell is-head">${escapeHtml(label(promptVersion))}</div>`).join("")}
-        </div>
-        ${useCases.map((useCase) => `
-          <div class="matrix-row" style="--matrix-cols:${versions.length}">
-            <div class="matrix-cell is-head ai-row-head">
-              <strong>${escapeHtml(label(useCase))}</strong>
-              <span>${escapeHtml(matrixCopy.improvement)}</span>
-            </div>
-            ${versions.map((promptVersion) => dataCell(useCase, promptVersion)).join("")}
-          </div>
-        `).join("")}
+    </div>
+  `;
+};
+
+const retailTargetMatrix = (channels, months, rows) => {
+  const values = rows.map((row) => Number(row.revenue_target_attainment || 0));
+  const min = Math.min(...values, 0.9);
+  const max = Math.max(...values, 1.07);
+  const lerp = (start, end, t) => Math.round(start + (end - start) * t);
+  const readinessColor = (value) => {
+    const t = Math.max(0, Math.min(1, (Number(value || 0) - min) / Math.max(max - min, 0.01)));
+    const stops = [{ p: 0, c: [13, 25, 40] }, { p: 0.58, c: [35, 105, 111] }, { p: 1, c: [36, 143, 103] }];
+    const lower = t <= stops[1].p ? stops[0] : stops[1];
+    const upper = t <= stops[1].p ? stops[1] : stops[2];
+    const localT = (t - lower.p) / Math.max(upper.p - lower.p, 0.01);
+    const color = lower.c.map((channelValue, index) => lerp(channelValue, upper.c[index], localT));
+    return `rgb(${color[0]}, ${color[1]}, ${color[2]})`;
+  };
+  const copyText = ({
+    pt: { low: "abaixo da meta", high: "meta batida", empty: "sem leitura", marginGap: "gap margem", target: "meta", realized: "realizado", min: "menor atingimento", max: "maior atingimento" },
+    en: { low: "below target", high: "target met", empty: "no readout", marginGap: "margin gap", target: "target", realized: "realized", min: "lower attainment", max: "higher attainment" },
+    es: { low: "debajo de meta", high: "meta cumplida", empty: "sin lectura", marginGap: "gap margen", target: "meta", realized: "realizado", min: "menor cumplimiento", max: "mayor cumplimiento" }
+  })[state.lang] || {};
+  const monthShort = (value) => String(value || "").split("-").pop() || value;
+  const rowFor = (month, salesChannel) => rows.find((item) => item.target_month === month && item.sales_channel === salesChannel);
+  const dataCell = (month, salesChannel) => {
+    const row = rowFor(month, salesChannel);
+    if (!row) return `<div class="ai-readiness-cell retail-target-cell is-empty"><b class="ai-readiness-version">${escapeHtml(label(salesChannel))}</b><strong>-</strong><span>${escapeHtml(copyText.empty)}</span></div>`;
+    const attainment = Number(row.revenue_target_attainment || 0);
+    const marginGap = Number(row.realized_margin_pct || 0) - Number(row.margin_target_pct || 0);
+    const alert = attainment < 1 || marginGap < 0;
+    const gapText = `${copyText.marginGap} ${formatNumber(marginGap * 100, { minimumFractionDigits: 1, maximumFractionDigits: 1 })} p.p.`;
+    return `<div class="ai-readiness-cell retail-target-cell ${alert ? "is-alert" : ""}" style="--cell-bg:${readinessColor(attainment)}"><b class="ai-readiness-version">${escapeHtml(label(salesChannel))}</b><strong>${escapeHtml(formatPercent(attainment))}</strong><span>${escapeHtml(attainment >= 1 ? copyText.high : copyText.low)} - ${escapeHtml(gapText)}</span><em>${escapeHtml(copyText.realized)} ${escapeHtml(formatMoney(row.realized_revenue))} / ${escapeHtml(copyText.target)} ${escapeHtml(formatMoney(row.revenue_target))}</em></div>`;
+  };
+  return `
+    <div class="ai-readiness-matrix retail-target-matrix">
+      <div class="ai-readiness-legend" aria-hidden="true"><span>${escapeHtml(copyText.min)}</span><i></i><span>${escapeHtml(copyText.max)}</span></div>
+      <div class="ai-readiness-grid">
+        <div class="ai-readiness-header" style="--matrix-cols:${channels.length}"><div class="ai-readiness-head-spacer" aria-hidden="true"></div>${channels.map((salesChannel) => `<div class="ai-readiness-head">${escapeHtml(label(salesChannel))}</div>`).join("")}</div>
+        ${months.map((month) => `<div class="ai-readiness-row" style="--matrix-cols:${channels.length}"><div class="ai-readiness-label"><strong>${escapeHtml(monthShort(month))}</strong><span>${escapeHtml(term("month"))}</span></div>${channels.map((salesChannel) => dataCell(month, salesChannel)).join("")}</div>`).join("")}
       </div>
-      <div class="ai-readiness-mobile">
-        ${useCases.map((useCase) => `
-          <article class="ai-readiness-card">
-            <header>
-              <strong>${escapeHtml(label(useCase))}</strong>
-              <span>${escapeHtml(matrixCopy.improvement)}</span>
-            </header>
-            ${versions.map((promptVersion) => {
-              const row = rowFor(useCase, promptVersion);
-              if (!row) {
-                return `
-                  <section class="is-empty">
-                    <b>${escapeHtml(label(promptVersion))}</b>
-                    <em>-</em>
-                    <small>${escapeHtml(matrixCopy.noBacklog)}</small>
-                  </section>
-                `;
-              }
-              const value = Number(row.release_ready_rate || 0);
-              return `
-                <section style="${cellStyle(value)}">
-                  <b>${escapeHtml(label(promptVersion))}</b>
-                  <em>${escapeHtml(formatPercent(value))}</em>
-                  <small>${escapeHtml(formatInt(row.not_approved_cases))} ${escapeHtml(matrixCopy.notApproved)} · ${escapeHtml(formatInt(row.reviewed_responses))} ${escapeHtml(matrixCopy.evaluated)}</small>
-                  <i></i>
-                </section>
-              `;
-            }).join("")}
-          </article>
-        `).join("")}
-      </div>
+    </div>
+  `;
+};
+
+const retailProductMarginBullets = (rows) => {
+  const floor = 0.3;
+  const maxMargin = Math.max(0.55, ...rows.map((row) => Number(row.gross_margin_pct || 0)));
+  const clampPercent = (value) => Math.max(0, Math.min(100, (Number(value || 0) / maxMargin) * 100));
+  const copyText = ({
+    pt: { floor: "piso 30%", scale: "margem bruta", ok: "ok", review: "revisar", gap: "gap", units: "un." },
+    en: { floor: "30% floor", scale: "gross margin", ok: "ok", review: "review", gap: "gap", units: "units" },
+    es: { floor: "piso 30%", scale: "margen bruta", ok: "ok", review: "revisar", gap: "gap", units: "un." }
+  })[state.lang] || {};
+  const sorted = [...rows].sort((a, b) => {
+    const alertDelta = Number(a.gross_margin_pct || 0) < floor === Number(b.gross_margin_pct || 0) < floor ? 0 : Number(b.gross_margin_pct || 0) < floor ? 1 : -1;
+    return alertDelta || Number(b.net_revenue || 0) - Number(a.net_revenue || 0);
+  }).slice(0, 8);
+  return `
+    <div class="dimension-bullet-chart retail-product-bullets" style="--target:${clampPercent(floor).toFixed(2)}%">
+      <div class="dimension-bullet-axis retail-product-axis" aria-hidden="true"><span>0%</span><span></span><strong>${escapeHtml(copyText.floor)}</strong><span>${escapeHtml(formatPercent(maxMargin))}</span></div>
+      ${sorted.map((row) => {
+        const margin = Number(row.gross_margin_pct || 0);
+        const gap = margin - floor;
+        const alert = margin < floor;
+        const note = alert
+          ? `${copyText.review} / ${copyText.gap} ${formatNumber(gap * 100, { minimumFractionDigits: 1, maximumFractionDigits: 1 })} p.p.`
+          : `${copyText.ok} / ${formatInt(row.units_sold)} ${copyText.units}`;
+        return `<article class="dimension-bullet-row retail-product-row ${alert ? "is-alert" : "is-ready"}" style="--score:${clampPercent(margin).toFixed(2)}%"><div class="dimension-bullet-meta"><strong>${escapeHtml(row.product_name)}</strong><span>${escapeHtml(label(row.category))} / ${escapeHtml(formatMoney(row.net_revenue))} / ${escapeHtml(formatInt(row.units_sold))} ${escapeHtml(copyText.units)}</span></div><div class="dimension-bullet-track"><i class="dimension-bullet-fill"></i><i class="dimension-bullet-target"></i></div><strong class="dimension-bullet-value">${escapeHtml(formatPercent(margin))}</strong><span class="retail-product-status">${escapeHtml(note)}</span></article>`;
+      }).join("")}
+      <span class="dimension-bullet-scale">${escapeHtml(copyText.scale)}</span>
     </div>
   `;
 };
@@ -2237,10 +2910,6 @@ const bubbleChart = (rows, config) => {
   const x = (value) => pad + (Number(value || 0) / maxX) * (width - pad * 2);
   const y = (value) => height - pad - (Number(value || 0) / maxY) * (height - pad * 2);
   const r = (value) => 7 + Math.sqrt(Number(value || 0) / maxSize) * 22;
-  const formatX = config.formatX || ((value) => formatNumber(value, { maximumFractionDigits: 1 }));
-  const formatY = config.formatY || ((value) => formatNumber(value, { maximumFractionDigits: 1 }));
-  const formatSize = config.formatSize || ((value) => formatNumber(value, { maximumFractionDigits: 0 }));
-  const sizeLabel = config.sizeLabel || term("units");
   return `
     <svg class="bubble-chart" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(config.title || "")}">
       <line class="axis" x1="${pad}" y1="${height - pad}" x2="${width - pad}" y2="${height - pad}"></line>
@@ -2255,32 +2924,6 @@ const bubbleChart = (rows, config) => {
         </g>
       `).join("")}
     </svg>
-    <div class="bubble-mobile-list" role="list" aria-label="${escapeHtml(config.title || "")}">
-      ${rows.map((row) => {
-        const xShare = Math.max(6, (Number(row.x || 0) / maxX) * 100).toFixed(1);
-        const yShare = Math.max(6, (Number(row.y || 0) / maxY) * 100).toFixed(1);
-        return `
-          <article class="bubble-mobile-card ${row.alert ? "is-alert" : ""}" role="listitem">
-            <div class="bubble-mobile-title">
-              <strong>${escapeHtml(label(row.label))}</strong>
-              <span>${escapeHtml(formatSize(row.size))} ${escapeHtml(sizeLabel)}</span>
-            </div>
-            <div class="bubble-mobile-metrics">
-              <span>
-                <em>${escapeHtml(config.xLabel)}</em>
-                <strong>${escapeHtml(formatX(row.x))}</strong>
-                <i style="--w:${xShare}%"></i>
-              </span>
-              <span>
-                <em>${escapeHtml(config.yLabel)}</em>
-                <strong>${escapeHtml(formatY(row.y))}</strong>
-                <i style="--w:${yShare}%"></i>
-              </span>
-            </div>
-          </article>
-        `;
-      }).join("")}
-    </div>
   `;
 };
 
@@ -2385,6 +3028,115 @@ const liquidityMapChart = (rows, config) => {
             <line class="label-line" x1="${lineStartX}" y1="${lineStartY}" x2="${lineEndX}" y2="${lineEndY}"></line>
             <text class="bubble-label" x="${labelX}" y="${labelY}" text-anchor="${offset.anchor}">${escapeHtml(label(row.label))}</text>
             <text class="bubble-sub" x="${labelX}" y="${labelY + 15}" text-anchor="${offset.anchor}">${escapeHtml(formatPercent(row.y))} · ${escapeHtml(formatInt(row.size))} ${escapeHtml(decisionCopy.bookings)}</text>
+          </g>
+        `;
+      }).join("")}
+    </svg>
+  `;
+};
+
+const pipelineCategoryImpactMapChart = (rows, config) => {
+  const width = 920;
+  const height = 420;
+  const pad = { top: 74, right: 64, bottom: 88, left: 96 };
+  const valuesX = rows.map((row) => Number(row.x || 0));
+  const valuesY = rows.map((row) => Number(row.y || 0));
+  const minX = Math.max(1, Math.min(...valuesX) * 0.78);
+  const maxX = Math.max(...valuesX) * 1.06;
+  const minY = Math.max(0, Math.min(...valuesY) - 0.08);
+  const maxY = Math.min(0.7, Math.max(...valuesY) + 0.08);
+  const maxSize = Math.max(...rows.map((row) => Number(row.size || 0)), 1);
+  const sortedX = [...valuesX].sort((a, b) => a - b);
+  const medianX = sortedX[Math.floor(sortedX.length / 2)] || 0;
+  const targetY = config.targetY ?? 0.35;
+  const plotWidth = width - pad.left - pad.right;
+  const plotHeight = height - pad.top - pad.bottom;
+  const logMinX = Math.log10(minX);
+  const logMaxX = Math.log10(Math.max(maxX, minX + 1));
+  const x = (value) => pad.left + ((Math.log10(Math.max(1, Number(value || 0))) - logMinX) / Math.max(logMaxX - logMinX, 0.001)) * plotWidth;
+  const y = (value) => pad.top + ((maxY - Number(value || 0)) / Math.max(maxY - minY, 0.01)) * plotHeight;
+  const r = (value) => 12 + Math.sqrt(Number(value || 0) / maxSize) * 18;
+  const axisTicks = [minX, medianX, maxX];
+  const labelOffsets = {
+    Home: { dx: -8, dy: 58, anchor: "middle" },
+    Accessories: { dx: 42, dy: -52, anchor: "start" },
+    Furniture: { dx: 0, dy: -54, anchor: "middle" },
+    Electronics: { dx: -22, dy: -74, anchor: "middle" }
+  };
+  const decisionCopy = ({
+    pt: {
+      scale: "Tamanho = unidades vendidas",
+      target: "piso 35%",
+      median: "receita mediana",
+      priority: "Escalar com margem",
+      watch: "Alta receita, proteger margem",
+      risk: "Baixo impacto ou margem",
+      units: "unid."
+    },
+    en: {
+      scale: "Size = units sold",
+      target: "35% floor",
+      median: "median revenue",
+      priority: "Scale with margin",
+      watch: "High revenue, protect margin",
+      risk: "Low impact or margin",
+      units: "units"
+    },
+    es: {
+      scale: "Tamaño = unidades vendidas",
+      target: "piso 35%",
+      median: "ingreso mediano",
+      priority: "Escalar con margen",
+      watch: "Alto ingreso, proteger margen",
+      risk: "Bajo impacto o margen",
+      units: "unid."
+    }
+  })[state.lang] || {};
+  return `
+    <svg class="liquidity-chart pipeline-impact-map" viewBox="0 0 ${width} ${height}" role="img" aria-label="${escapeHtml(config.title || "")}">
+      <rect class="zone" x="${x(medianX)}" y="${pad.top}" width="${width - pad.right - x(medianX)}" height="${Math.max(0, y(targetY) - pad.top)}"></rect>
+      <rect class="zone-risk" x="${pad.left}" y="${y(targetY)}" width="${plotWidth}" height="${height - pad.bottom - y(targetY)}"></rect>
+      <line class="grid" x1="${pad.left}" y1="${pad.top}" x2="${width - pad.right}" y2="${pad.top}"></line>
+      <line class="grid" x1="${pad.left}" y1="${y(targetY)}" x2="${width - pad.right}" y2="${y(targetY)}"></line>
+      <line class="grid" x1="${pad.left}" y1="${height - pad.bottom}" x2="${width - pad.right}" y2="${height - pad.bottom}"></line>
+      <line class="axis" x1="${pad.left - 10}" y1="${height - pad.bottom}" x2="${width - pad.right + 10}" y2="${height - pad.bottom}"></line>
+      <line class="axis" x1="${pad.left}" y1="${pad.top - 10}" x2="${pad.left}" y2="${height - pad.bottom + 10}"></line>
+      <line class="target-line" x1="${pad.left}" y1="${y(targetY)}" x2="${width - pad.right}" y2="${y(targetY)}"></line>
+      <line class="median-line" x1="${x(medianX)}" y1="${pad.top}" x2="${x(medianX)}" y2="${height - pad.bottom}"></line>
+      <text class="zone-label" x="${x(medianX) + 14}" y="${pad.top + 22}">${escapeHtml(decisionCopy.priority)}</text>
+      <text class="zone-label" x="${pad.left + 14}" y="${y(targetY) - 14}">${escapeHtml(decisionCopy.watch)}</text>
+      <text class="zone-label" x="${pad.left + 14}" y="${height - pad.bottom - 22}">${escapeHtml(decisionCopy.risk)}</text>
+      <text x="${width - pad.right}" y="${height - pad.bottom + 54}" text-anchor="end">${escapeHtml(config.xLabel)}</text>
+      <text x="${pad.left}" y="${pad.top - 22}">${escapeHtml(config.yLabel)}</text>
+      <g class="size-legend" transform="translate(${width - pad.right - 226}, 16)">
+        <rect class="size-legend-bg" x="0" y="0" width="226" height="28" rx="14"></rect>
+        <circle class="size-legend-ring" cx="23" cy="14" r="7"></circle>
+        <text class="size-legend-text" x="40" y="18">${escapeHtml(decisionCopy.scale)}</text>
+      </g>
+      <text class="reference-label" x="${(pad.left + plotWidth * 0.58).toFixed(1)}" y="${y(targetY) - 8}" text-anchor="middle">${escapeHtml(decisionCopy.target)}</text>
+      <text class="reference-label" x="${x(medianX) + 10}" y="${height - pad.bottom + 40}">${escapeHtml(decisionCopy.median)}</text>
+      ${axisTicks.map((tick) => `
+        <text class="axis-tick" x="${x(tick)}" y="${height - pad.bottom + 22}" text-anchor="middle">${escapeHtml(formatMoney(tick))}</text>
+      `).join("")}
+      <text class="axis-tick" x="${pad.left - 12}" y="${y(targetY) + 4}" text-anchor="end">${escapeHtml(formatPercent(targetY))}</text>
+      ${rows.map((row) => {
+        const cx = x(row.x);
+        const cy = y(row.y);
+        const radius = r(row.size);
+        const offset = labelOffsets[row.label] || { dx: 0, dy: -radius - 14, anchor: "middle" };
+        const labelX = cx + offset.dx;
+        const labelY = cy + offset.dy;
+        const lineEndX = offset.anchor === "start" ? labelX - 9 : offset.anchor === "end" ? labelX + 9 : labelX;
+        const lineEndY = offset.dy < 0 ? labelY + 9 : labelY - 9;
+        const distance = Math.hypot(lineEndX - cx, lineEndY - cy) || 1;
+        const lineStartX = cx + ((lineEndX - cx) / distance) * (radius + 2);
+        const lineStartY = cy + ((lineEndY - cy) / distance) * (radius + 2);
+        return `
+          <g class="bubble-group">
+            <circle class="bubble ${row.alert ? "is-alert" : ""}" cx="${cx}" cy="${cy}" r="${radius}"></circle>
+            <line class="label-line" x1="${lineStartX}" y1="${lineStartY}" x2="${lineEndX}" y2="${lineEndY}"></line>
+            <text class="bubble-label" x="${labelX}" y="${labelY}" text-anchor="${offset.anchor}">${escapeHtml(label(row.label))}</text>
+            <text class="bubble-sub" x="${labelX}" y="${labelY + 15}" text-anchor="${offset.anchor}">${escapeHtml(formatPercent(row.y))} · ${escapeHtml(formatInt(row.size))} ${escapeHtml(decisionCopy.units)}</text>
           </g>
         `;
       }).join("")}
@@ -2554,7 +3306,7 @@ const renderPlayzone = (data) => {
     ${dashboardMarker(chapters[2].resultTitle, ["category"])}
     <div class="viz-grid retention-grid">
       ${vizCard(copy().charts.retention, term("retentionWindows"), retentionActivationComparison(data.retention_by_activation))}
-      ${vizCard(copy().charts.liquidityMap, `${term("opportunities")} x ${term("confirmationRate")}`, liquidityMapChart(categoryRows.map((row) => ({
+      ${vizCard(copy().charts.liquidityMap, `${term("opportunities")} x ${term("confirmationRate")}`, liquidityKpiStrip(categoryRows) + liquidityMapChart(categoryRows.map((row) => ({
         label: row.category,
         x: row.opportunities,
         y: row.confirmation_rate,
@@ -2579,126 +3331,300 @@ const renderPlayzone = (data) => {
 const renderAiQuality = (data) => {
   const versions = unique(data.prompt_version_performance, "prompt_version");
   const useCases = unique(data.quality_by_use_case, "use_case");
+  const result = selected("result", aiResultOptions());
   const version = selected("version", versions);
   const useCase = selected("useCase", useCases);
   const severity = selected("severity", unique(data.issue_distribution, "severity"));
   const issue = selected("issue", unique(data.issue_distribution, "issue_type"));
-  const base = version === "all" ? data.kpi_summary[0] : data.prompt_version_performance.find((row) => row.prompt_version === version);
-  const backlog = data.improvement_backlog.filter((row) => (version === "all" || row.prompt_version === version) && (useCase === "all" || row.use_case === useCase));
-  const qualityRows = data.quality_by_use_case.filter((row) => useCase === "all" || row.use_case === useCase);
-  const issueRows = data.issue_distribution.filter((row) => (severity === "all" || row.severity === severity) && (issue === "all" || row.issue_type === issue));
+  const versionRows = data.prompt_version_performance.filter((row) => (version === "all" || row.prompt_version === version) && aiResultMatches(row, result, data));
+  const base = summarizeAiRows(versionRows, version === "all" ? data.kpi_summary[0] : data.prompt_version_performance.find((row) => row.prompt_version === version) || data.kpi_summary[0]);
+  const rawBacklog = data.improvement_backlog.filter((row) => (version === "all" || row.prompt_version === version) && (useCase === "all" || row.use_case === useCase));
+  const rawQualityRows = data.quality_by_use_case.filter((row) => useCase === "all" || row.use_case === useCase);
+  const rawIssueRows = data.issue_distribution.filter((row) => (severity === "all" || row.severity === severity) && (issue === "all" || row.issue_type === issue));
+  const backlog = rawBacklog.filter((row) => aiResultMatches(row, result, data));
+  const qualityRows = rawQualityRows.filter((row) => aiResultMatches(row, result, data));
+  const issueRows = rawIssueRows.filter((row) => aiResultMatches(row, result, data));
+  const displayBacklog = backlog.length ? backlog : rawBacklog;
+  const displayQualityRows = qualityRows.length ? qualityRows : rawQualityRows;
+  const displayIssueRows = issueRows.length ? issueRows : rawIssueRows;
+  const matrixUseCases = unique(displayBacklog, "use_case").length ? unique(displayBacklog, "use_case") : useCases;
+  const matrixVersions = unique(displayBacklog, "prompt_version").length ? unique(displayBacklog, "prompt_version") : versions;
   const chapters = journeyCopy();
+  const stageTitles = ({
+    pt: ["Gate inicial de release", "Prontidão, qualidade e tendência", "Matriz, falhas e backlog", "Decisão de release"],
+    en: ["Initial release gate", "Readiness, quality and trend", "Matrix, issues and backlog", "Release decision"],
+    es: ["Gate inicial de release", "Preparación, calidad y tendencia", "Matriz, fallas y backlog", "Decisión de release"]
+  })[state.lang] || {};
+  const decision = ({
+    pt: {
+      kicker: "Decisão",
+      summary: "Release só avança quando versão, caso de uso e severidade passam juntos pelo gate.",
+      items: [
+        { kind: "action", title: "Baseline", body: "Usar v3 como ponto de partida, mas sem tratar a versão como aprovação geral." },
+        { kind: "hypothesis", title: "Correção", body: "Atacar contexto, completude e actionability onde a matriz concentra não aprovadas." },
+        { kind: "guardrail", title: "Guardrail", body: "Manter bloqueio para severidade alta e acompanhar score, prontidão e retrabalho por caso de uso." }
+      ]
+    },
+    en: {
+      kicker: "Decision",
+      summary: "Release only moves forward when version, use case and severity pass the gate together.",
+      items: [
+        { kind: "action", title: "Baseline", body: "Use v3 as the starting point, but not as global approval." },
+        { kind: "hypothesis", title: "Correction", body: "Address context, completeness and actionability where the matrix concentrates not-approved responses." },
+        { kind: "guardrail", title: "Guardrail", body: "Keep high severity blocked and track score, readiness and rework by use case." }
+      ]
+    },
+    es: {
+      kicker: "Decisión",
+      summary: "El release solo avanza cuando versión, caso de uso y severidad pasan juntos por el gate.",
+      items: [
+        { kind: "action", title: "Baseline", body: "Usar v3 como punto de partida, pero no como aprobación general." },
+        { kind: "hypothesis", title: "Corrección", body: "Atacar contexto, completitud y accionabilidad donde la matriz concentra no aprobadas." },
+        { kind: "guardrail", title: "Guardrail", body: "Mantener bloqueada la severidad alta y monitorear score, preparación y retrabajo por caso de uso." }
+      ]
+    }
+  })[state.lang];
   return `
     ${processChapter(chapters[0])}
     ${methodBlock(chapters[0])}
+    ${dashboardMarker(stageTitles[0], ["result", "version"])}
     ${kpiGrid([
       { label: term("releaseReady"), value: formatPercent(base.release_ready_rate), note: version === "all" ? term("allPromptVersions") : version },
       { label: term("qualityScore"), value: formatNumber(base.avg_quality_score, { minimumFractionDigits: 2, maximumFractionDigits: 2 }), note: term("scaleOneToFive") },
       { label: term("criticalIssueRate"), value: formatPercent(base.critical_issue_rate), note: term("operationalRisk"), alert: base.critical_issue_rate > 0.1 },
       { label: term("reviewed"), value: formatInt(base.reviewed_responses), note: term("responsesEvaluated") }
     ])}
+    ${aiQualityResultReadout(data, { result, base, versionRows, qualityRows: displayQualityRows, backlog: displayBacklog, issueRows: displayIssueRows }, 0)}
     ${processChapter(chapters[1])}
     ${methodBlock(chapters[1])}
+    ${dashboardMarker(stageTitles[1], ["result", "version", "useCase"])}
     <div class="viz-grid">
-      ${vizCard(copy().charts.promptVersion, term("readyRateByVersion"), bars(data.prompt_version_performance.map((row) => ({
+      ${vizCard(copy().charts.promptVersion, term("readyRateByVersion"), bars((versionRows.length ? versionRows : data.prompt_version_performance).map((row) => ({
         label: row.prompt_version,
         value: row.release_ready_rate,
         muted: version !== "all" && version !== row.prompt_version
       })), { max: 0.7, format: (value) => formatPercent(value) }))}
-      ${vizCard(copy().charts.useCaseQuality, term("avgScoreByUseCase"), bars(qualityRows.map((row) => ({
+      ${vizCard(copy().charts.useCaseQuality, term("avgScoreByUseCase"), bars(displayQualityRows.map((row) => ({
         label: row.use_case,
         value: row.avg_quality_score
       })).sort((a, b) => b.value - a.value), { max: 5, format: (value) => formatNumber(value, { minimumFractionDigits: 2, maximumFractionDigits: 2 }) }))}
-      ${vizCard(copy().charts.qualityTrend, term("monthlyTrend"), lineChart(data.monthly_quality_trend, "response_month", "avg_quality_score", null, (value) => formatNumber(value, { minimumFractionDigits: 2, maximumFractionDigits: 2 })), true)}
+      ${vizCard(copy().charts.qualityTrend, term("monthlyTrend"), qualityTrendChart(data.monthly_quality_trend), true)}
     </div>
+    ${aiQualityResultReadout(data, { result, base, versionRows, qualityRows: displayQualityRows, backlog: displayBacklog, issueRows: displayIssueRows }, 1)}
     ${processChapter(chapters[2])}
     ${methodBlock(chapters[2])}
+    ${dashboardMarker(stageTitles[2], ["result", "version", "useCase", "severity", "issue"])}
     <div class="viz-grid">
-      ${vizCard(copy().charts.releaseMatrix, `${term("version")} x ${term("useCase")}`, aiReadinessMatrix(useCases, versions, data.improvement_backlog), true)}
-      ${vizCard(copy().charts.dimensions, term("avgDimensionScore"), heatGrid(data.dimension_scores, "dimension", "avg_score", (value) => formatNumber(value, { minimumFractionDigits: 2, maximumFractionDigits: 2 })))}
-      ${tableCard(copy().charts.issues, term("issueShareBySeverity"), [term("issue"), term("severity"), term("count"), term("share")], issueRows.slice(0, 8).map((row) => [
+      ${vizCard(copy().charts.releaseMatrix, `${term("version")} x ${term("useCase")}`, aiReadinessMatrix(matrixUseCases, matrixVersions, displayBacklog.length ? displayBacklog : data.improvement_backlog), true)}
+      ${vizCard(copy().charts.dimensions, term("avgDimensionScore"), dimensionScoreChart(data.dimension_scores), true)}
+      ${tableCard(copy().charts.issues, term("issueShareBySeverity"), [term("issue"), term("severity"), term("count"), term("share")], displayIssueRows.slice(0, 8).map((row) => [
         row.issue_type,
         row.severity,
         formatInt(row.occurrences),
         formatPercent(row.share_of_reviews)
-      ]), false, "1.4fr 0.8fr 0.7fr 0.7fr")}
-      ${tableCard(copy().charts.backlog, version === "all" ? term("topBacklog") : `${term("filteredBy")} ${version}`, [term("useCase"), term("version"), term("notApproved"), term("releaseReady")], backlog.slice(0, 8).map((row) => [
+      ]), false, "1.4fr 0.8fr 0.7fr 0.7fr", "case-table-card")}
+      ${tableCard(copy().charts.backlog, version === "all" ? term("topBacklog") : `${term("filteredBy")} ${version}`, [term("useCase"), term("version"), term("notApproved"), term("releaseReady")], displayBacklog.slice(0, 8).map((row) => [
         row.use_case,
         row.prompt_version,
         formatInt(row.not_approved_cases),
         formatPercent(row.release_ready_rate)
-      ]), true, "1.5fr 0.7fr 0.8fr 0.8fr")}
+      ]), false, "1.5fr 0.7fr 0.8fr 0.8fr", "case-table-card")}
     </div>
+    ${aiQualityResultReadout(data, { result, base, versionRows, qualityRows: displayQualityRows, backlog: displayBacklog, issueRows: displayIssueRows }, 2)}
     ${processChapter(chapters[3])}
     ${methodBlock(chapters[3])}
+    ${dashboardMarker(stageTitles[3], ["result", "version", "useCase"])}
+    ${decisionGrid(decision)}
+    ${aiQualityResultReadout(data, { result, base, versionRows, qualityRows: displayQualityRows, backlog: displayBacklog, issueRows: displayIssueRows }, 3)}
   `;
 };
 
 const renderPipeline = (data) => {
   const severities = unique(data.failed_rules, "severity");
   const sources = unique(data.source_quality, "source_system");
+  const categories = unique(data.category_metrics, "category");
   const severity = selected("severity", severities);
   const source = selected("source", sources);
-  const rule = selected("rule", unique(data.failed_rules, "rule_name"));
-  const rules = data.failed_rules.filter((row) => (severity === "all" || row.severity === severity) && (rule === "all" || row.rule_name === rule));
+  const issue = selected("issue", pipelineIssueGroups());
+  const category = selected("category", categories);
+  const rules = data.failed_rules.filter((row) => (severity === "all" || row.severity === severity) && (issue === "all" || pipelineIssueGroup(row.rule_name) === issue));
   const sourceQuality = data.source_quality.filter((row) => source === "all" || row.source_system === source);
   const readyRevenue = data.revenue_ready.filter((row) => source === "all" || row.source_system === source);
+  const reviewRecords = data.review_records.filter((row) => (source === "all" || row.source_system === source) && (issue === "all" || pipelineIssueGroup(row.issue_summary) === issue));
+  const categoryRows = data.category_metrics.filter((row) => category === "all" || row.category === category);
+  const rawOrders = sourceQuality.reduce((sum, row) => sum + Number(row.orders || 0), 0);
+  const readyOrders = sourceQuality.reduce((sum, row) => sum + Number(row.ready_orders || 0), 0);
+  const criticalFailures = rules.filter((row) => row.severity === "Critical").reduce((sum, row) => sum + Number(row.failed_records || 0), 0);
+  const scopedQualityScore = 1 - (criticalFailures / Math.max(1, rawOrders || data.kpis.raw_orders));
+  const pipelineContext = { severity, source, issue, category, rules, sourceQuality, readyRevenue, reviewRecords, categoryRows, rawOrders, readyOrders, criticalFailures, scopedQualityScore };
   const chapters = journeyCopy();
+  const stageTitles = ({
+    pt: ["Gate inicial de publicação", "Regras, origem e severidade", "Filas Ready e Review", "Impacto por categoria"],
+    en: ["Initial publication gate", "Rules, source and severity", "Ready and Review queues", "Category impact"],
+    es: ["Gate inicial de publicación", "Reglas, origen y severidad", "Filas Ready y Review", "Impacto por categoría"]
+  })[state.lang] || {};
   return `
     ${processChapter(chapters[0])}
     ${methodBlock(chapters[0])}
+    ${dashboardMarker(stageTitles[0], ["severity", "issue"])}
     ${kpiGrid([
-      { label: term("qualityScoreShort"), value: formatPercent(data.kpis.quality_score), note: term("highAverage") },
-      { label: term("criticalFailures"), value: formatInt(data.kpis.critical_failures), note: term("blockingPublication"), alert: true },
-      { label: term("readyOrders"), value: formatInt(data.kpis.ready_orders), note: `${formatInt(data.kpis.raw_orders)} ${term("rawOrders")}` },
-      { label: term("reviewOrders"), value: formatInt(data.kpis.review_orders), note: term("needCorrection"), alert: data.kpis.review_orders > 0 }
+      { label: term("qualityScoreShort"), value: formatPercent(scopedQualityScore), note: term("highAverage") },
+      { label: term("criticalFailures"), value: formatInt(criticalFailures), note: term("blockingPublication"), alert: criticalFailures > 0 },
+      { label: term("readyOrders"), value: formatInt(readyOrders), note: `${formatInt(rawOrders || data.kpis.raw_orders)} ${term("rawOrders")}` },
+      { label: term("reviewOrders"), value: formatInt(reviewRecords.length), note: term("needCorrection"), alert: reviewRecords.length > 0 }
     ])}
+    ${pipelineResultReadout(data, pipelineContext, 0)}
     ${processChapter(chapters[1])}
     ${methodBlock(chapters[1])}
-    <div class="viz-grid">
+    ${dashboardMarker(stageTitles[1], ["source", "severity", "issue"])}
+    <div class="viz-grid pipeline-rules-grid">
       ${vizCard(copy().charts.failedRules, severity === "all" ? term("criticalWarningRules") : severity, bars(rules.map((row) => ({
         label: row.rule_name,
         value: row.failed_records,
         alert: row.severity === "Critical"
-      })), { format: (value) => formatInt(value) }), true)}
+      })), { format: (value) => formatInt(value) }))}
       ${vizCard(copy().charts.sourceReadiness, source === "all" ? term("allSources") : source, bars(sourceQuality.map((row) => ({
         label: row.source_system,
         value: row.ready_rate
       })), { max: 1, format: (value) => formatPercent(value) }))}
     </div>
+    ${pipelineResultReadout(data, pipelineContext, 1)}
     ${processChapter(chapters[2])}
     ${methodBlock(chapters[2])}
-    <div class="viz-grid">
+    ${dashboardMarker(stageTitles[2], ["source", "issue"])}
+    <div class="viz-grid pipeline-tables-grid">
       ${tableCard(copy().charts.readyRevenue, term("completedCaptured"), [term("source"), term("orders"), term("orderTotal"), term("captured")], readyRevenue.map((row) => [
         row.source_system,
         formatInt(row.completed_orders),
         formatMoney(row.order_total),
         formatMoney(row.captured_payment_amount)
-      ]), false, "1fr 0.7fr 1fr 1fr")}
-      ${tableCard(copy().charts.reviewQueue, term("blockedRecords"), [term("order"), term("source"), term("total"), term("issue")], data.review_records.map((row) => [
+      ]), false, "1fr 0.7fr 1fr 1fr", "case-table-card")}
+      ${tableCard(copy().charts.reviewQueue, term("blockedRecords"), [term("order"), term("source"), term("total"), term("issue")], reviewRecords.map((row) => [
         row.order_id,
         row.source_system,
         formatMoney(row.order_total),
         row.issue_summary
-      ]), true, "0.7fr 0.8fr 0.8fr 1.7fr")}
-      ${vizCard(copy().charts.categoryImpact, `${term("revenue")} x ${term("margin")}`, bubbleChart(data.category_metrics.map((row) => ({
+      ]), false, "0.7fr 0.8fr 0.8fr 1.7fr", "case-table-card")}
+    </div>
+    ${pipelineResultReadout(data, pipelineContext, 2)}
+    ${dashboardMarker(stageTitles[3], ["category"])}
+    <div class="viz-grid">
+      ${vizCard(copy().charts.categoryImpact, category === "all" ? `${term("revenue")} x ${term("margin")}` : label(category), pipelineCategoryImpactKpiStrip(categoryRows) + pipelineCategoryImpactMapChart(categoryRows.map((row) => ({
         label: row.category,
         x: row.net_revenue,
-        y: Number(row.gross_margin || 0) / Math.max(1, Number(row.net_revenue || 0)),
+        y: row.gross_margin / Math.max(1, row.net_revenue),
         size: row.units,
         alert: row.gross_margin / Math.max(1, row.net_revenue) < 0.35
-      })), {
-        xLabel: term("revenue"),
-        yLabel: term("margin"),
-        title: copy().charts.categoryImpact,
-        formatX: formatMoney,
-        formatY: (value) => formatPercent(value),
-        formatSize: (value) => formatInt(value),
-        sizeLabel: term("units")
-      }), true)}
+      })), { xLabel: term("revenue"), yLabel: term("margin"), title: copy().charts.categoryImpact, targetY: 0.35 }), true)}
     </div>
+    ${pipelineResultReadout(data, pipelineContext, 3)}
     ${processChapter(chapters[3])}
     ${methodBlock(chapters[3])}
+  `;
+};
+
+const retailResultReadout = (data, context, stage = 0) => {
+  const channelLabel = context.channel === "all" ? term("allChannels") : label(context.channel);
+  const categoryLabel = context.category === "all" ? term("allCategories") : label(context.category);
+  const monthLabel = context.month === "all" ? copy().all : context.month;
+  const marginStatusLabel = context.marginStatus === "all" ? copy().all : label(context.marginStatus);
+  const targetStatusLabel = context.targetStatus === "all" ? copy().all : label(context.targetStatus);
+  const channelBase = context.channelBase || data.kpis || {};
+  const trendRows = context.trendRows || [];
+  const channelRows = context.channelRows || [];
+  const categoryRows = context.categoryRows || [];
+  const productRows = context.productRows || [];
+  const targetRows = context.targetRows || [];
+  const sortedTrend = [...trendRows].sort((a, b) => String(a.order_month || "").localeCompare(String(b.order_month || "")));
+  const latestMonth = sortedTrend.at(-1) || {};
+  const bestMonth = [...trendRows].sort((a, b) => Number(b.net_revenue || 0) - Number(a.net_revenue || 0))[0] || {};
+  const topChannel = [...channelRows].sort((a, b) => Number(b.net_revenue || 0) - Number(a.net_revenue || 0))[0] || {};
+  const weakestCategory = [...categoryRows].sort((a, b) => Number(a.gross_margin_pct || 0) - Number(b.gross_margin_pct || 0))[0] || {};
+  const alertCategoryCount = categoryRows.filter((row) => Number(row.gross_margin_pct || 0) < 0.3).length;
+  const belowTargetCount = targetRows.filter((row) => Number(row.revenue_target_attainment || 0) < 1).length;
+  const metTargetCount = targetRows.filter((row) => Number(row.revenue_target_attainment || 0) >= 1).length;
+  const weakestTarget = [...targetRows].sort((a, b) => Number(a.revenue_target_attainment || 0) - Number(b.revenue_target_attainment || 0))[0] || {};
+  const bestTarget = [...targetRows].sort((a, b) => Number(b.revenue_target_attainment || 0) - Number(a.revenue_target_attainment || 0))[0] || {};
+  const topProduct = [...productRows].sort((a, b) => Number(b.net_revenue || 0) - Number(a.net_revenue || 0))[0] || {};
+  const weakestProduct = [...productRows].sort((a, b) => Number(a.gross_margin_pct || 0) - Number(b.gross_margin_pct || 0))[0] || {};
+  const alertProductCount = productRows.filter((row) => Number(row.gross_margin_pct || 0) < 0.3).length;
+  const targetGap = Number(weakestTarget.realized_revenue || 0) - Number(weakestTarget.revenue_target || 0);
+  const stageTexts = {
+    pt: [
+      [
+        `No recorte ${channelLabel}, a leitura executiva mostra ${formatMoney(channelBase.net_revenue)} em receita líquida, ${formatPercent(channelBase.gross_margin_pct)} de margem e ${formatInt(channelBase.delivered_orders)} pedidos entregues.`,
+        `O ticket médio fica em ${formatMoney(channelBase.average_ticket || data.kpis.average_ticket)}; ele ajuda a separar crescimento real de simples aumento de volume.`,
+        `A leitura aqui é o ponto de partida: se a margem estiver perto do piso, a receita precisa ser explicada por canal, categoria e produto antes de virar recomendação.`
+      ],
+      [
+        `Com mês ${monthLabel}, categoria ${categoryLabel} e status de margem ${marginStatusLabel}, o maior mês do recorte é ${bestMonth.order_month || "-"}, com ${formatMoney(bestMonth.net_revenue || 0)} líquidos.`,
+        `${topChannel.sales_channel || "-"} concentra a maior receita por canal no recorte, com ${formatMoney(topChannel.net_revenue || 0)} e margem de ${formatPercent(topChannel.gross_margin_pct || 0)}.`,
+        `Entre as categorias filtradas, ${weakestCategory.category || "-"} é a mais sensível em margem: ${formatPercent(weakestCategory.gross_margin_pct || 0)}. Há ${formatInt(alertCategoryCount)} categoria(s) abaixo do piso de 30%.`
+      ],
+      [
+        `Com status de meta ${targetStatusLabel}, a matriz mostra ${formatInt(metTargetCount)} leitura(s) com meta batida e ${formatInt(belowTargetCount)} abaixo da meta no recorte atual.`,
+        `O ponto mais frágil de meta é ${weakestTarget.sales_channel || "-"} em ${weakestTarget.target_month || "-"}: ${formatPercent(weakestTarget.revenue_target_attainment || 0)} de atingimento e gap de ${formatMoney(targetGap)}.`,
+        `Nos produtos filtrados, ${topProduct.product_name || "-"} explica a maior receita (${formatMoney(topProduct.net_revenue || 0)}), enquanto ${weakestProduct.product_name || "-"} pressiona margem em ${formatPercent(weakestProduct.gross_margin_pct || 0)}. Há ${formatInt(alertProductCount)} produto(s) abaixo do piso.`
+      ],
+      [
+        `A decisão combina três sinais: receita por canal, margem por categoria/produto e atingimento de meta por mês.`,
+        `O melhor sinal de meta no recorte é ${bestTarget.sales_channel || "-"} em ${bestTarget.target_month || "-"}, com ${formatPercent(bestTarget.revenue_target_attainment || 0)} de atingimento.`,
+        `A recomendação é proteger primeiro os itens abaixo do piso e só depois escalar o que já combina receita, margem e meta.`
+      ]
+    ],
+    en: [
+      [
+        `For ${channelLabel}, the executive readout shows ${formatMoney(channelBase.net_revenue)} in net revenue, ${formatPercent(channelBase.gross_margin_pct)} margin and ${formatInt(channelBase.delivered_orders)} delivered orders.`,
+        `Average ticket is ${formatMoney(channelBase.average_ticket || data.kpis.average_ticket)}; it separates real growth from simple volume expansion.`,
+        `This is the starting point: if margin is close to the floor, revenue needs to be explained by channel, category and product before becoming a recommendation.`
+      ],
+      [
+        `With month ${monthLabel}, category ${categoryLabel} and margin status ${marginStatusLabel}, the largest month in the slice is ${bestMonth.order_month || "-"}, with ${formatMoney(bestMonth.net_revenue || 0)} net.`,
+        `${topChannel.sales_channel || "-"} concentrates the largest channel revenue in the slice, with ${formatMoney(topChannel.net_revenue || 0)} and ${formatPercent(topChannel.gross_margin_pct || 0)} margin.`,
+        `Among filtered categories, ${weakestCategory.category || "-"} is the most margin-sensitive: ${formatPercent(weakestCategory.gross_margin_pct || 0)}. There are ${formatInt(alertCategoryCount)} category/categories below the 30% floor.`
+      ],
+      [
+        `With target status ${targetStatusLabel}, the matrix shows ${formatInt(metTargetCount)} readout(s) with target met and ${formatInt(belowTargetCount)} below target in the current slice.`,
+        `The weakest target point is ${weakestTarget.sales_channel || "-"} in ${weakestTarget.target_month || "-"}: ${formatPercent(weakestTarget.revenue_target_attainment || 0)} attainment and a ${formatMoney(targetGap)} gap.`,
+        `In filtered products, ${topProduct.product_name || "-"} explains the largest revenue (${formatMoney(topProduct.net_revenue || 0)}), while ${weakestProduct.product_name || "-"} pressures margin at ${formatPercent(weakestProduct.gross_margin_pct || 0)}. There are ${formatInt(alertProductCount)} product(s) below the floor.`
+      ],
+      [
+        `The decision combines three signals: revenue by channel, margin by category/product, and target attainment by month.`,
+        `The best target signal in the slice is ${bestTarget.sales_channel || "-"} in ${bestTarget.target_month || "-"}, with ${formatPercent(bestTarget.revenue_target_attainment || 0)} attainment.`,
+        `The recommendation is to protect items below the floor first, then scale what already combines revenue, margin and target.`
+      ]
+    ],
+    es: [
+      [
+        `En el recorte ${channelLabel}, la lectura ejecutiva muestra ${formatMoney(channelBase.net_revenue)} en ingreso neto, ${formatPercent(channelBase.gross_margin_pct)} de margen y ${formatInt(channelBase.delivered_orders)} pedidos entregados.`,
+        `El ticket promedio queda en ${formatMoney(channelBase.average_ticket || data.kpis.average_ticket)}; ayuda a separar crecimiento real de simple aumento de volumen.`,
+        `Esta es la lectura inicial: si el margen está cerca del piso, el ingreso debe explicarse por canal, categoría y producto antes de convertirse en recomendación.`
+      ],
+      [
+        `Con mes ${monthLabel}, categoría ${categoryLabel} y estado de margen ${marginStatusLabel}, el mayor mes del recorte es ${bestMonth.order_month || "-"}, con ${formatMoney(bestMonth.net_revenue || 0)} netos.`,
+        `${topChannel.sales_channel || "-"} concentra el mayor ingreso por canal en el recorte, con ${formatMoney(topChannel.net_revenue || 0)} y margen de ${formatPercent(topChannel.gross_margin_pct || 0)}.`,
+        `Entre las categorías filtradas, ${weakestCategory.category || "-"} es la más sensible en margen: ${formatPercent(weakestCategory.gross_margin_pct || 0)}. Hay ${formatInt(alertCategoryCount)} categoría(s) debajo del piso de 30%.`
+      ],
+      [
+        `Con estado de meta ${targetStatusLabel}, la matriz muestra ${formatInt(metTargetCount)} lectura(s) con meta cumplida y ${formatInt(belowTargetCount)} debajo de meta en el recorte actual.`,
+        `El punto más débil de meta es ${weakestTarget.sales_channel || "-"} en ${weakestTarget.target_month || "-"}: ${formatPercent(weakestTarget.revenue_target_attainment || 0)} de cumplimiento y gap de ${formatMoney(targetGap)}.`,
+        `En los productos filtrados, ${topProduct.product_name || "-"} explica el mayor ingreso (${formatMoney(topProduct.net_revenue || 0)}), mientras ${weakestProduct.product_name || "-"} presiona margen en ${formatPercent(weakestProduct.gross_margin_pct || 0)}. Hay ${formatInt(alertProductCount)} producto(s) debajo del piso.`
+      ],
+      [
+        `La decisión combina tres señales: ingreso por canal, margen por categoría/producto y cumplimiento de meta por mes.`,
+        `La mejor señal de meta en el recorte es ${bestTarget.sales_channel || "-"} en ${bestTarget.target_month || "-"}, con ${formatPercent(bestTarget.revenue_target_attainment || 0)} de cumplimiento.`,
+        `La recomendación es proteger primero los ítems debajo del piso y después escalar lo que ya combina ingreso, margen y meta.`
+      ]
+    ]
+  };
+  const texts = (stageTexts[state.lang] || stageTexts.pt)[stage] || (stageTexts[state.lang] || stageTexts.pt)[0];
+  return `
+    <section class="result-readout retail-result-readout">
+      <span>${escapeHtml(term("reading"))}</span>
+      <ul>
+        ${texts.map((reading) => `<li>${escapeHtml(reading)}</li>`).join("")}
+      </ul>
+    </section>
   `;
 };
 
@@ -2708,35 +3634,46 @@ const renderRetail = (data) => {
   const channel = selected("channel", channels);
   const category = selected("category", categories);
   const month = selected("month", unique(data.monthly_performance, "order_month"));
+  const marginStatus = selected("marginStatus", retailMarginStatusOptions());
+  const targetStatus = selected("targetStatus", retailTargetStatusOptions());
+  const marginMatches = (row) => marginStatus === "all" || (marginStatus === "below-floor" ? Number(row.gross_margin_pct || 0) < 0.3 : Number(row.gross_margin_pct || 0) >= 0.3);
+  const targetMatches = (row) => targetStatus === "all" || (targetStatus === "below-target" ? Number(row.revenue_target_attainment || 0) < 1 : Number(row.revenue_target_attainment || 0) >= 1);
   const channelRows = data.channel_performance.filter((row) => channel === "all" || row.sales_channel === channel);
-  const categoryRows = data.category_performance.filter((row) => category === "all" || row.category === category);
-  const productRows = data.product_ranking.filter((row) => category === "all" || row.category === category);
+  const categoryRows = data.category_performance.filter((row) => (category === "all" || row.category === category) && marginMatches(row));
+  const productRows = data.product_ranking.filter((row) => (category === "all" || row.category === category) && marginMatches(row));
   const channelBase = channel === "all" ? data.kpis : channelRows[0];
   const trendRows = data.monthly_performance.filter((row) => month === "all" || row.order_month === month);
-  const targetRows = data.target_tracking.filter((row) => (channel === "all" || row.sales_channel === channel) && (month === "all" || row.target_month === month));
-  const targetByChannel = channels.map((name) => {
-    const rows = data.target_tracking.filter((row) => row.sales_channel === name && (month === "all" || row.target_month === month));
-    return {
-      label: name,
-      value: rows.reduce((sum, row) => sum + row.revenue_target_attainment, 0) / Math.max(1, rows.length),
-      muted: channel !== "all" && channel !== name
-    };
-  });
+  const targetRows = data.target_tracking.filter((row) => (channel === "all" || row.sales_channel === channel) && (month === "all" || row.target_month === month) && targetMatches(row));
+  const targetMatrixChannels = targetRows.length && targetStatus !== "all"
+    ? unique(targetRows, "sales_channel").sort()
+    : channels.filter((name) => channel === "all" || channel === name);
+  const targetMatrixMonths = targetRows.length
+    ? unique(targetRows, "target_month").sort()
+    : (month === "all" ? unique(data.target_tracking, "target_month").sort() : [month]);
   const chapters = journeyCopy();
+  const stageTitles = ({
+    pt: ["Leitura executiva de receita", "Receita, margem e canais", "Metas e produtos que explicam o resultado"],
+    en: ["Executive revenue readout", "Revenue, margin and channels", "Targets and products explaining the result"],
+    es: ["Lectura ejecutiva de ingreso", "Ingreso, margen y canales", "Metas y productos que explican el resultado"]
+  })[state.lang] || {};
+  const retailContext = { channel, category, month, marginStatus, targetStatus, channelBase, trendRows, channelRows, categoryRows, productRows, targetRows };
 
   return `
     ${processChapter(chapters[0])}
     ${methodBlock(chapters[0])}
+    ${dashboardMarker(stageTitles[0], ["channel"])}
     ${kpiGrid([
       { label: term("netRevenue"), value: formatMoney(channelBase.net_revenue), note: channel === "all" ? term("allChannels") : channel },
       { label: term("grossMargin"), value: formatPercent(channelBase.gross_margin_pct), note: formatMoney(channelBase.gross_margin) },
       { label: term("deliveredOrders"), value: formatInt(channelBase.delivered_orders), note: term("validForBi") },
       { label: term("averageTicket"), value: formatMoney(data.kpis.average_ticket), note: term("portfolioMetric") }
     ])}
+    ${retailResultReadout(data, retailContext, 0)}
     ${processChapter(chapters[1])}
     ${methodBlock(chapters[1])}
+    ${dashboardMarker(stageTitles[1], ["month", "channel", "category", "marginStatus"])}
     <div class="viz-grid">
-      ${vizCard(copy().charts.revenueTrend, term("revenueMarginReference"), lineChart(trendRows, "order_month", "net_revenue", null, formatMoney), true)}
+      ${vizCard(copy().charts.revenueTrend, term("revenueMarginReference"), retailRevenueTrendChart(trendRows), true)}
       ${vizCard(copy().charts.channelRevenue, channel === "all" ? term("revenueShare") : channel, bars(channelRows.map((row) => ({
         label: row.sales_channel,
         value: row.net_revenue
@@ -2747,32 +3684,36 @@ const renderRetail = (data) => {
         alert: row.gross_margin_pct < 0.3
       })), { max: 0.45, format: (value) => formatPercent(value) }))}
     </div>
+    ${retailResultReadout(data, retailContext, 1)}
     ${processChapter(chapters[2])}
     ${methodBlock(chapters[2])}
-    <div class="viz-grid">
-      ${vizCard(copy().charts.targets, term("avgTarget"), bars(targetByChannel, { max: 1.12, format: (value) => formatPercent(value) }))}
+    ${dashboardMarker(stageTitles[2], ["month", "channel", "targetStatus", "category", "marginStatus"])}
+    <article class="viz-card is-wide retail-diagnosis-chart-grid retail-target-card">
+      ${cardHead(copy().charts.targets, `${term("month")} x ${term("channel")}`)}
+      ${retailTargetMatrix(targetMatrixChannels, targetMatrixMonths, targetRows)}
+    </article>
+    <article class="viz-card is-wide retail-diagnosis-chart-grid retail-product-card">
+      ${cardHead(copy().charts.products, `${term("margin")} x ${term("product")}`)}
+      ${retailProductMarginBullets(productRows)}
+    </article>
+    <div class="viz-grid retail-diagnosis-table-grid">
       ${tableCard(copy().charts.targets, `${term("target")} x ${term("realized")}`, [term("month"), term("channel"), term("target"), term("realized")], targetRows.slice(0, 8).map((row) => [
         row.target_month,
         row.sales_channel,
         formatMoney(row.revenue_target),
         formatMoney(row.realized_revenue)
-      ]), false, "0.8fr 1fr 1fr 1fr")}
-      ${vizCard(copy().charts.productMap, `${term("revenue")} x ${term("margin")}`, bubbleChart(productRows.slice(0, 10).map((row) => ({
-        label: row.product_name,
-        x: row.net_revenue,
-        y: row.gross_margin_pct,
-        size: row.units_sold,
-        alert: row.gross_margin_pct < 0.3
-      })), { xLabel: term("revenue"), yLabel: term("margin"), title: copy().charts.productMap }), true)}
+      ]), false, "0.8fr 1fr 1fr 1fr", "case-table-card")}
       ${tableCard(copy().charts.products, category === "all" ? term("topProducts") : label(category), [term("product"), term("category"), term("netRevenue"), term("margin")], productRows.slice(0, 8).map((row) => [
         row.product_name,
         label(row.category),
         formatMoney(row.net_revenue),
         formatPercent(row.gross_margin_pct)
-      ]), true, "1.7fr 0.8fr 0.9fr 0.8fr")}
+      ]), false, "1.7fr 0.8fr 0.9fr 0.8fr", "case-table-card")}
     </div>
+    ${retailResultReadout(data, retailContext, 2)}
     ${processChapter(chapters[3])}
     ${methodBlock(chapters[3])}
+    ${retailResultReadout(data, retailContext, 3)}
   `;
 };
 
@@ -2787,8 +3728,7 @@ const renderCaseContent = () => {
   if (state.caseId === "pipeline") $("#dashboard-content").innerHTML = renderPipeline(data);
   if (state.caseId === "retail") $("#dashboard-content").innerHTML = renderRetail(data);
   bindCustomSelects();
-  bindMobileDisclosures();
-  bindDisclosureToggles();
+  setupChartReveal();
 };
 
 const render = () => {
@@ -2819,7 +3759,6 @@ const setHeaderState = () => {
 
 setHeaderState();
 window.addEventListener("scroll", setHeaderState, { passive: true });
-window.addEventListener("resize", bindMobileDisclosures, { passive: true });
 
 const load = async () => {
   $("#dashboard-content").innerHTML = `<div class="loading">Loading dashboards...</div>`;

@@ -13,8 +13,8 @@
   <meta property="og:url" content="https://bruniversamente.github.io/" />
   <link rel="canonical" href="https://bruniversamente.github.io/" />
   <link rel="icon" href="assets/logo-bruno-nascimento.png" type="image/png" />
-  <link rel="stylesheet" href="styles.css?v=20260618-case-capsules" />
-  <script defer src="script.js?v=20260618-case-capsules"></script>
+  <link rel="stylesheet" href="styles.css?v=20260619-workproof" />
+  <script defer src="script.js?v=20260619-workproof"></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -47,7 +47,6 @@
         <a href="#cases">Projetos</a>
         <a href="dashboards/" data-dashboard-nav>Dashboards</a>
         <a href="#metodo">Método</a>
-        <a href="#stack">Stack</a>
         <a href="#contato">Contato</a>
       </nav>
       <div class="language-switcher" aria-label="Selecionar idioma">
@@ -92,8 +91,10 @@
             <span>dashboard</span>
           </div>
           <div class="workflow-status">
-            <strong>execução simulada</strong>
-            <span>pergunta → código → validação → visual</span>
+            <span>pergunta</span>
+            <span>código</span>
+            <span>validação</span>
+            <span>visual</span>
           </div>
 
           <div class="workflow-main">
@@ -166,13 +167,6 @@
 
         </div>
       </div>
-    </section>
-
-    <section class="proof-rail reveal" aria-label="Resumo profissional">
-      <div><strong class="count-up" data-count="4">4</strong><span>repositórios com dados sintéticos, SQL e documentação</span></div>
-      <div><strong>BI</strong><span>KPI, margem, meta, storytelling e blueprint de dashboard</span></div>
-      <div><strong>Produto</strong><span>funil, retenção, cohorts e métricas de marketplace</span></div>
-      <div><strong>IA</strong><span>avaliação de respostas, curadoria e melhoria de prompts</span></div>
     </section>
 
     <section id="cases" class="section cases-section">
@@ -257,7 +251,7 @@
           <div class="card-visual mini-case-visual ai-mini" aria-hidden="true">
             <div class="mini-visual-head">
               <span>Qualidade IA</span>
-              <strong>3.67</strong>
+              <strong>500 respostas</strong>
             </div>
             <div class="mini-visual-body">
               <div class="mini-ring" style="--score: 73%;">
@@ -351,78 +345,59 @@
       </div>
     </section>
 
-    <section class="section evidence-section">
-      <div class="section-kicker reveal">
-        <span>O que o recrutador encontra</span>
-        <p>Cada repositório apresenta contexto, premissas, consultas, validações e entregáveis de forma objetiva.</p>
-      </div>
-      <div class="evidence-grid">
-        <div class="evidence-item reveal"><strong>01</strong><h3>Pergunta de negócio</h3><p>Definição do problema, das métricas e dos critérios de sucesso da análise.</p></div>
-        <div class="evidence-item reveal"><strong>02</strong><h3>Dados e regras</h3><p>Bases sintéticas, dicionário, regras de cálculo e premissas documentadas.</p></div>
-        <div class="evidence-item reveal"><strong>03</strong><h3>SQL reproduzível</h3><p>Consultas separadas por schema, qualidade, KPIs, funil, cohorts ou marts.</p></div>
-        <div class="evidence-item reveal"><strong>04</strong><h3>Entrega explicável</h3><p>Blueprints de dashboard e recomendações para conectar insight com decisão.</p></div>
-      </div>
-    </section>
-
     <section id="metodo" class="section method-section">
+      <span id="stack" class="section-anchor" aria-hidden="true"></span>
       <div class="method-copy reveal">
-        <span class="section-label">Método</span>
-        <h2>Clareza antes do gráfico.</h2>
+        <span class="section-label">Método aplicado</span>
+        <h2>Do problema à decisão, com validação no caminho.</h2>
         <p>
-          Antes de construir visualizações, defino a pergunta de negócio, as regras de cálculo, a qualidade dos dados e a melhor forma de comunicar o indicador.
+          O portfólio foi organizado para mostrar raciocínio analítico completo: pergunta de negócio, métrica correta, consulta reproduzível, validação e entrega visual.
         </p>
+        <div class="method-tools" aria-label="Ferramentas aplicadas nos cases">
+          <span>SQL</span>
+          <span>Python</span>
+          <span>Power BI</span>
+          <span>DuckDB</span>
+          <span>Product Analytics</span>
+          <span>Data Quality</span>
+        </div>
       </div>
-      <div class="method-timeline">
-        <div class="timeline-item reveal"><span>01</span><h3>Entender</h3><p>Qual decisão precisa ser tomada? Qual KPI muda a conversa?</p></div>
-        <div class="timeline-item reveal"><span>02</span><h3>Modelar</h3><p>Separar granularidade, joins, dimensões, fatos e regras de cálculo.</p></div>
-        <div class="timeline-item reveal"><span>03</span><h3>Validar</h3><p>Checar duplicidade, nulos, integridade, totais e desvios antes de publicar.</p></div>
-        <div class="timeline-item reveal"><span>04</span><h3>Comunicar</h3><p>Apresentar contexto, insight, risco e próxima ação de forma direta.</p></div>
-      </div>
-    </section>
 
-    <section id="stack" class="section stack-section">
-      <div class="section-kicker reveal">
-        <span>Stack</span>
-        <p>Ferramentas aplicadas nos projetos e em rotinas de análise, BI, produto e qualidade de dados.</p>
-      </div>
-      <div class="stack-board reveal">
-        <div>
-          <h3>Análise e BI</h3>
-          <ul>
-            <li>SQL para KPI, funil, cohort, joins e validações</li>
-            <li>Power BI, DAX, Power Query e storytelling</li>
-            <li>Métricas comerciais, produto, MIS e operação</li>
-          </ul>
+      <div class="method-proof reveal">
+        <div class="method-proof-flow" aria-label="Fluxo de trabalho analítico">
+          <article class="work-step">
+            <span>01</span>
+            <h3>Pergunta que muda decisão</h3>
+            <p>Parto da decisão que precisa ser tomada antes de escolher gráfico, métrica ou ferramenta.</p>
+          </article>
+          <article class="work-step">
+            <span>02</span>
+            <h3>Métrica e granularidade</h3>
+            <p>Defino unidade de análise, regras de cálculo, segmentações e critérios de comparação.</p>
+          </article>
+          <article class="work-step">
+            <span>03</span>
+            <h3>Validação antes do dashboard</h3>
+            <p>Confiro nulos, duplicidades, totais, desvios e coerência antes de transformar resultado em visual.</p>
+          </article>
+          <article class="work-step">
+            <span>04</span>
+            <h3>Insight com próxima ação</h3>
+            <p>Entrego leitura executiva: onde agir, qual risco observar e que evidência sustenta a decisão.</p>
+          </article>
         </div>
-        <div>
-          <h3>Dados e automação</h3>
-          <ul>
-            <li>Python, Pandas e geração de dados sintéticos</li>
-            <li>DuckDB e BigQuery como engines analíticas</li>
-            <li>Data quality, contratos e marts para BI</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Produto e IA</h3>
-          <ul>
-            <li>Tracking plan, eventos e análise de jornada</li>
-            <li>Avaliação de respostas, prompts e curadoria</li>
-            <li>Documentação que ajuda time técnico e negócio</li>
-          </ul>
-        </div>
-      </div>
-    </section>
 
-    <section class="section about-section">
-      <div class="about-panel reveal">
-        <span class="section-label">Sobre</span>
-        <h2>Perfil analítico com foco em negócio.</h2>
-        <p>
-          Meu foco profissional está em transformar dados operacionais em leituras úteis para áreas de negócio, produto, operação e gestão.
-        </p>
-        <p>
-          Este portfólio demonstra prática em organização de dados, SQL, documentação, validação de métricas e comunicação de resultados.
-        </p>
+        <aside class="case-evidence-panel" aria-label="Evidências dos cases">
+          <div class="panel-label">
+            <strong>Evidências por projeto</strong>
+          </div>
+          <div class="case-evidence-list">
+            <div><span>Playzone</span><strong>perda crítica antes do convite enviado</strong></div>
+            <div><span>AI Quality</span><strong>baseline v3 e prontidão operacional</strong></div>
+            <div><span>Pipeline</span><strong>bloqueio mesmo com 98,2% de score</strong></div>
+            <div><span>Retail BI</span><strong>margem, meta e alerta por canal</strong></div>
+          </div>
+        </aside>
       </div>
     </section>
 

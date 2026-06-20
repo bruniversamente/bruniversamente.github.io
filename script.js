@@ -1,7 +1,7 @@
 document.documentElement.classList.add("js-ready");
 
 const revealItems = document.querySelectorAll(".reveal");
-const animatedVisuals = document.querySelectorAll(".hero-lab, .case-feature, .proof-rail");
+const animatedVisuals = document.querySelectorAll(".hero-lab, .case-feature");
 const countItems = document.querySelectorAll(".count-up");
 const siteHeader = document.querySelector(".site-header");
 const languageButtons = document.querySelectorAll("[data-lang-option]");
@@ -19,7 +19,6 @@ const translations = {
       ".nav a[href=\"#cases\"]": "Projetos",
       "[data-dashboard-nav]": "Dashboards",
       ".nav a[href=\"#metodo\"]": "Método",
-      ".nav a[href=\"#stack\"]": "Stack",
       ".nav a[href=\"#contato\"]": "Contato",
       ".role-line": "Portfólio de Dados, BI, MIS, Produto e IA aplicada",
       ".hero h1": "Análises confiáveis para decisões de negócio.",
@@ -27,8 +26,10 @@ const translations = {
       ".hero .hero-actions .button.primary": "Ver cases",
       ".lab-topbar em": "simulação",
       ".workflow-agent span": "executando",
-      ".workflow-status strong": "execução simulada",
-      ".workflow-status span": "pergunta → código → validação → visual",
+      ".workflow-status span:nth-child(1)": "pergunta",
+      ".workflow-status span:nth-child(2)": "código",
+      ".workflow-status span:nth-child(3)": "validação",
+      ".workflow-status span:nth-child(4)": "visual",
       ".workflow-steps span:nth-child(1)": "briefing",
       ".workflow-steps span:nth-child(2)": "python",
       ".workflow-steps span:nth-child(3)": "resultado",
@@ -117,6 +118,7 @@ const translations = {
       ".case-card:nth-child(1) .case-meta span:nth-child(1)": "IA aplicada",
       ".case-card:nth-child(1) .case-meta span:nth-child(2)": "Qualidade",
       ".ai-mini .mini-visual-head span": "Qualidade IA",
+      ".ai-mini .mini-visual-head strong": "500 respostas",
       ".ai-mini .mini-ring span": "score",
       ".ai-mini .mini-metric-grid div:nth-child(1) small": "Release-ready",
       ".ai-mini .mini-metric-grid div:nth-child(2) small": "Baseline",
@@ -165,17 +167,22 @@ const translations = {
       ".evidence-item:nth-child(3) p": "Consultas separadas por schema, qualidade, KPIs, funil, cohorts ou marts.",
       ".evidence-item:nth-child(4) h3": "Entrega explicável",
       ".evidence-item:nth-child(4) p": "Blueprints de dashboard e recomendações para conectar insight com decisão.",
-      ".method-copy .section-label": "Método",
-      ".method-copy h2": "Clareza antes do gráfico.",
-      ".method-copy p": "Antes de construir visualizações, defino a pergunta de negócio, as regras de cálculo, a qualidade dos dados e a melhor forma de comunicar o indicador.",
-      ".timeline-item:nth-child(1) h3": "Entender",
-      ".timeline-item:nth-child(1) p": "Qual decisão precisa ser tomada? Qual KPI muda a conversa?",
-      ".timeline-item:nth-child(2) h3": "Modelar",
-      ".timeline-item:nth-child(2) p": "Separar granularidade, joins, dimensões, fatos e regras de cálculo.",
-      ".timeline-item:nth-child(3) h3": "Validar",
-      ".timeline-item:nth-child(3) p": "Checar duplicidade, nulos, integridade, totais e desvios antes de publicar.",
-      ".timeline-item:nth-child(4) h3": "Comunicar",
-      ".timeline-item:nth-child(4) p": "Apresentar contexto, insight, risco e próxima ação de forma direta.",
+      ".method-copy .section-label": "Método aplicado",
+      ".method-copy h2": "Do problema à decisão, com validação no caminho.",
+      ".method-copy p": "O portfólio foi organizado para mostrar raciocínio analítico completo: pergunta de negócio, métrica correta, consulta reproduzível, validação e entrega visual.",
+      ".work-step:nth-child(1) h3": "Pergunta que muda decisão",
+      ".work-step:nth-child(1) p": "Parto da decisão que precisa ser tomada antes de escolher gráfico, métrica ou ferramenta.",
+      ".work-step:nth-child(2) h3": "Métrica e granularidade",
+      ".work-step:nth-child(2) p": "Defino unidade de análise, regras de cálculo, segmentações e critérios de comparação.",
+      ".work-step:nth-child(3) h3": "Validação antes do dashboard",
+      ".work-step:nth-child(3) p": "Confiro nulos, duplicidades, totais, desvios e coerência antes de transformar resultado em visual.",
+      ".work-step:nth-child(4) h3": "Insight com próxima ação",
+      ".work-step:nth-child(4) p": "Entrego leitura executiva: onde agir, qual risco observar e que evidência sustenta a decisão.",
+      ".case-evidence-panel .panel-label strong": "Evidências por projeto",
+      ".case-evidence-list div:nth-child(1) strong": "perda crítica antes do convite enviado",
+      ".case-evidence-list div:nth-child(2) strong": "baseline v3 e prontidão operacional",
+      ".case-evidence-list div:nth-child(3) strong": "bloqueio mesmo com 98,2% de score",
+      ".case-evidence-list div:nth-child(4) strong": "margem, meta e alerta por canal",
       "#stack .section-kicker span": "Stack",
       "#stack .section-kicker p": "Ferramentas aplicadas nos projetos e em rotinas de análise, BI, produto e qualidade de dados.",
       ".stack-board > div:nth-child(1) h3": "Análise e BI",
@@ -228,7 +235,6 @@ const translations = {
       ".nav a[href=\"#cases\"]": "Projects",
       "[data-dashboard-nav]": "Dashboards",
       ".nav a[href=\"#metodo\"]": "Method",
-      ".nav a[href=\"#stack\"]": "Stack",
       ".nav a[href=\"#contato\"]": "Contact",
       ".role-line": "Data, BI, MIS, Product and applied AI portfolio",
       ".hero h1": "Reliable analysis for business decisions.",
@@ -236,8 +242,10 @@ const translations = {
       ".hero .hero-actions .button.primary": "View cases",
       ".lab-topbar em": "simulation",
       ".workflow-agent span": "running",
-      ".workflow-status strong": "simulated execution",
-      ".workflow-status span": "question → code → validation → visual",
+      ".workflow-status span:nth-child(1)": "question",
+      ".workflow-status span:nth-child(2)": "code",
+      ".workflow-status span:nth-child(3)": "validation",
+      ".workflow-status span:nth-child(4)": "visual",
       ".workflow-steps span:nth-child(1)": "briefing",
       ".workflow-steps span:nth-child(2)": "python",
       ".workflow-steps span:nth-child(3)": "result",
@@ -326,6 +334,7 @@ const translations = {
       ".case-card:nth-child(1) .case-meta span:nth-child(1)": "Applied AI",
       ".case-card:nth-child(1) .case-meta span:nth-child(2)": "Quality",
       ".ai-mini .mini-visual-head span": "AI quality",
+      ".ai-mini .mini-visual-head strong": "500 responses",
       ".ai-mini .mini-ring span": "score",
       ".ai-mini .mini-metric-grid div:nth-child(1) small": "Release-ready",
       ".ai-mini .mini-metric-grid div:nth-child(2) small": "Baseline",
@@ -374,17 +383,22 @@ const translations = {
       ".evidence-item:nth-child(3) p": "Queries separated by schema, quality, KPIs, funnel, cohorts or marts.",
       ".evidence-item:nth-child(4) h3": "Explainable delivery",
       ".evidence-item:nth-child(4) p": "Dashboard blueprints and recommendations that connect insight to decision-making.",
-      ".method-copy .section-label": "Method",
-      ".method-copy h2": "Clarity before the chart.",
-      ".method-copy p": "Before building visualizations, I define the business question, calculation rules, data quality and the best way to communicate the indicator.",
-      ".timeline-item:nth-child(1) h3": "Understand",
-      ".timeline-item:nth-child(1) p": "Which decision needs to be made? Which KPI changes the conversation?",
-      ".timeline-item:nth-child(2) h3": "Model",
-      ".timeline-item:nth-child(2) p": "Separate granularity, joins, dimensions, facts and calculation rules.",
-      ".timeline-item:nth-child(3) h3": "Validate",
-      ".timeline-item:nth-child(3) p": "Check duplicates, nulls, integrity, totals and deviations before publishing.",
-      ".timeline-item:nth-child(4) h3": "Communicate",
-      ".timeline-item:nth-child(4) p": "Present context, insight, risk and next action directly.",
+      ".method-copy .section-label": "Applied method",
+      ".method-copy h2": "From problem to decision, with validation along the way.",
+      ".method-copy p": "The portfolio is organized to show complete analytical reasoning: business question, correct metric, reproducible query, validation and visual delivery.",
+      ".work-step:nth-child(1) h3": "Question that changes the decision",
+      ".work-step:nth-child(1) p": "I start from the decision that needs to be made before choosing a chart, metric or tool.",
+      ".work-step:nth-child(2) h3": "Metric and granularity",
+      ".work-step:nth-child(2) p": "I define the analysis unit, calculation rules, segments and comparison criteria.",
+      ".work-step:nth-child(3) h3": "Validation before the dashboard",
+      ".work-step:nth-child(3) p": "I check nulls, duplicates, totals, deviations and consistency before turning results into visuals.",
+      ".work-step:nth-child(4) h3": "Insight with next action",
+      ".work-step:nth-child(4) p": "I deliver an executive read: where to act, what risk to watch and which evidence supports the decision.",
+      ".case-evidence-panel .panel-label strong": "Evidence by project",
+      ".case-evidence-list div:nth-child(1) strong": "critical loss before the invitation is sent",
+      ".case-evidence-list div:nth-child(2) strong": "baseline v3 and operational readiness",
+      ".case-evidence-list div:nth-child(3) strong": "blocked even with a 98.2% score",
+      ".case-evidence-list div:nth-child(4) strong": "margin, target and channel alert",
       "#stack .section-kicker span": "Stack",
       "#stack .section-kicker p": "Tools applied in projects and analysis, BI, product and data quality routines.",
       ".stack-board > div:nth-child(1) h3": "Analysis and BI",
@@ -437,7 +451,6 @@ const translations = {
       ".nav a[href=\"#cases\"]": "Proyectos",
       "[data-dashboard-nav]": "Dashboards",
       ".nav a[href=\"#metodo\"]": "Método",
-      ".nav a[href=\"#stack\"]": "Stack",
       ".nav a[href=\"#contato\"]": "Contacto",
       ".role-line": "Portafolio de Datos, BI, MIS, Producto e IA aplicada",
       ".hero h1": "Análisis confiables para decisiones de negócio.",
@@ -445,8 +458,10 @@ const translations = {
       ".hero .hero-actions .button.primary": "Ver casos",
       ".lab-topbar em": "simulación",
       ".workflow-agent span": "ejecutando",
-      ".workflow-status strong": "ejecución simulada",
-      ".workflow-status span": "pregunta → código → validación → visual",
+      ".workflow-status span:nth-child(1)": "pregunta",
+      ".workflow-status span:nth-child(2)": "código",
+      ".workflow-status span:nth-child(3)": "validación",
+      ".workflow-status span:nth-child(4)": "visual",
       ".workflow-steps span:nth-child(1)": "briefing",
       ".workflow-steps span:nth-child(2)": "python",
       ".workflow-steps span:nth-child(3)": "resultado",
@@ -535,6 +550,7 @@ const translations = {
       ".case-card:nth-child(1) .case-meta span:nth-child(1)": "IA aplicada",
       ".case-card:nth-child(1) .case-meta span:nth-child(2)": "Calidad",
       ".ai-mini .mini-visual-head span": "Calidad IA",
+      ".ai-mini .mini-visual-head strong": "500 respuestas",
       ".ai-mini .mini-ring span": "score",
       ".ai-mini .mini-metric-grid div:nth-child(1) small": "Release-ready",
       ".ai-mini .mini-metric-grid div:nth-child(2) small": "Baseline",
@@ -583,17 +599,22 @@ const translations = {
       ".evidence-item:nth-child(3) p": "Consultas separadas por schema, calidad, KPIs, embudo, cohorts o marts.",
       ".evidence-item:nth-child(4) h3": "Entrega explicable",
       ".evidence-item:nth-child(4) p": "Blueprints de dashboard y recomendaciones para conectar insight con decisión.",
-      ".method-copy .section-label": "Método",
-      ".method-copy h2": "Claridad antes del gráfico.",
-      ".method-copy p": "Antes de construir visualizaciones, defino la pregunta de negócio, las reglas de cálculo, la calidad de los datos y la mejor forma de comunicar el indicador.",
-      ".timeline-item:nth-child(1) h3": "Entender",
-      ".timeline-item:nth-child(1) p": "¿Qué decisión debe tomarse? ¿Qué KPI cambia la conversación?",
-      ".timeline-item:nth-child(2) h3": "Modelar",
-      ".timeline-item:nth-child(2) p": "Separar granularidad, joins, dimensiones, hechos y reglas de cálculo.",
-      ".timeline-item:nth-child(3) h3": "Validar",
-      ".timeline-item:nth-child(3) p": "Revisar duplicados, nulos, integridad, totales y desvíos antes de publicar.",
-      ".timeline-item:nth-child(4) h3": "Comunicar",
-      ".timeline-item:nth-child(4) p": "Presentar contexto, insight, riesgo y próxima acción de forma directa.",
+      ".method-copy .section-label": "Método aplicado",
+      ".method-copy h2": "Del problema a la decisión, con validación en el camino.",
+      ".method-copy p": "El portafolio está organizado para mostrar razonamiento analítico completo: pregunta de negocio, métrica correcta, consulta reproducible, validación y entrega visual.",
+      ".work-step:nth-child(1) h3": "Pregunta que cambia la decisión",
+      ".work-step:nth-child(1) p": "Parto de la decisión que debe tomarse antes de elegir gráfico, métrica o herramienta.",
+      ".work-step:nth-child(2) h3": "Métrica y granularidad",
+      ".work-step:nth-child(2) p": "Defino unidad de análisis, reglas de cálculo, segmentaciones y criterios de comparación.",
+      ".work-step:nth-child(3) h3": "Validación antes del dashboard",
+      ".work-step:nth-child(3) p": "Reviso nulos, duplicados, totales, desvíos y coherencia antes de transformar el resultado en visual.",
+      ".work-step:nth-child(4) h3": "Insight con próxima acción",
+      ".work-step:nth-child(4) p": "Entrego lectura ejecutiva: dónde actuar, qué riesgo observar y qué evidencia sostiene la decisión.",
+      ".case-evidence-panel .panel-label strong": "Evidencias por proyecto",
+      ".case-evidence-list div:nth-child(1) strong": "pérdida crítica antes del convite enviado",
+      ".case-evidence-list div:nth-child(2) strong": "baseline v3 y preparación operativa",
+      ".case-evidence-list div:nth-child(3) strong": "bloqueo incluso con 98,2% de score",
+      ".case-evidence-list div:nth-child(4) strong": "margen, meta y alerta por canal",
       "#stack .section-kicker span": "Stack",
       "#stack .section-kicker p": "Herramientas aplicadas en los proyectos y en rutinas de análisis, BI, producto y calidad de datos.",
       ".stack-board > div:nth-child(1) h3": "Análisis y BI",
@@ -758,7 +779,7 @@ if (canUseTechCursor) {
     item.addEventListener("mouseleave", () => document.body.classList.remove("cursor-hover", "cursor-action"));
   });
 
-  document.querySelectorAll(".case-card, .timeline-item, .stack-board > div, .evidence-item").forEach((item) => {
+  document.querySelectorAll(".case-card, .work-step, .case-evidence-panel").forEach((item) => {
     item.addEventListener("mouseenter", () => document.body.classList.add("cursor-hover"));
     item.addEventListener("mouseleave", () => document.body.classList.remove("cursor-hover"));
   });
@@ -929,7 +950,7 @@ if ("IntersectionObserver" in window) {
 }
 
 countItems.forEach((item) => {
-  if (!item.closest(".hero-lab, .case-feature, .proof-rail")) animateCount(item);
+  if (!item.closest(".hero-lab, .case-feature")) animateCount(item);
 });
 
 const sections = document.querySelectorAll("section[id]");
@@ -951,15 +972,17 @@ if ("IntersectionObserver" in window) {
   sections.forEach((section) => sectionObserver.observe(section));
 }
 
-const methodTimeline = document.querySelector(".method-timeline");
-const methodItems = document.querySelectorAll(".timeline-item");
+const methodProof = document.querySelector(".method-proof");
+const workSteps = document.querySelectorAll(".work-step");
+const caseEvidencePanel = document.querySelector(".case-evidence-panel");
 
-if (methodTimeline && methodItems.length) {
-  const lightMethodItems = () => {
-    methodTimeline.classList.add("is-active");
-    methodItems.forEach((item, index) => {
-      window.setTimeout(() => item.classList.add("is-lit"), index * 180);
+if (methodProof && workSteps.length) {
+  const lightWorkSteps = () => {
+    caseEvidencePanel?.classList.remove("is-open");
+    workSteps.forEach((item, index) => {
+      window.setTimeout(() => item.classList.add("is-lit"), index * 620);
     });
+    window.setTimeout(() => caseEvidencePanel?.classList.add("is-open"), (workSteps.length - 1) * 620 + 900);
   };
 
   if ("IntersectionObserver" in window) {
@@ -967,15 +990,15 @@ if (methodTimeline && methodItems.length) {
       (entries) => {
         entries.forEach((entry) => {
           if (!entry.isIntersecting) return;
-          lightMethodItems();
+          lightWorkSteps();
           methodObserver.unobserve(entry.target);
         });
       },
       { threshold: 0.28 }
     );
 
-    methodObserver.observe(methodTimeline);
+    methodObserver.observe(methodProof);
   } else {
-    lightMethodItems();
+    lightWorkSteps();
   }
 }

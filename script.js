@@ -7,6 +7,10 @@ const siteHeader = document.querySelector(".site-header");
 const languageButtons = document.querySelectorAll("[data-lang-option]");
 const mobileMenuToggle = document.querySelector(".mobile-menu-toggle");
 const mobileMenuPanel = document.querySelector(".mobile-menu-panel");
+const caseCarousel = document.querySelector("[data-case-carousel]");
+const caseCarouselRail = caseCarousel?.querySelector(".case-grid");
+const caseCarouselPrev = caseCarousel?.querySelector(".case-carousel-prev");
+const caseCarouselNext = caseCarousel?.querySelector(".case-carousel-next");
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
 const translations = {
@@ -231,6 +235,9 @@ const translations = {
       ".proof-rail": { "aria-label": "Resumo profissional" },
       ".playzone-visual": { "aria-label": "Mapa analítico do funil Playzone, destacando perda de 64,8% antes do convite enviado." },
       ".case-topic-capsules": { "aria-label": "Categorias dos cases" },
+      ".case-grid": { "aria-label": "Cases em destaque" },
+      ".case-carousel-prev": { "aria-label": "Ver cases anteriores" },
+      ".case-carousel-next": { "aria-label": "Ver próximos cases" },
       ".dash-line": { "aria-label": "Linha de tendência de margem" }
     }
   },
@@ -454,6 +461,9 @@ const translations = {
       ".proof-rail": { "aria-label": "Professional summary" },
       ".playzone-visual": { "aria-label": "Analytical map of the Playzone funnel, highlighting a 64.8% loss before invitation sent." },
       ".case-topic-capsules": { "aria-label": "Case categories" },
+      ".case-grid": { "aria-label": "Featured cases" },
+      ".case-carousel-prev": { "aria-label": "View previous cases" },
+      ".case-carousel-next": { "aria-label": "View next cases" },
       ".dash-line": { "aria-label": "Margin trend line" }
     }
   },
@@ -677,6 +687,9 @@ const translations = {
       ".proof-rail": { "aria-label": "Resumen profesional" },
       ".playzone-visual": { "aria-label": "Mapa analítico del embudo Playzone, destacando pérdida de 64,8% antes de enviar la invitación." },
       ".case-topic-capsules": { "aria-label": "Categorías de los casos" },
+      ".case-grid": { "aria-label": "Casos destacados" },
+      ".case-carousel-prev": { "aria-label": "Ver casos anteriores" },
+      ".case-carousel-next": { "aria-label": "Ver casos siguientes" },
       ".dash-line": { "aria-label": "Línea de tendencia de margen" }
     }
   }
@@ -757,6 +770,39 @@ applyLanguage(currentLanguage);
 languageButtons.forEach((button) => {
   button.addEventListener("click", () => applyLanguage(button.dataset.langOption, true));
 });
+
+if (caseCarouselRail && caseCarouselPrev && caseCarouselNext) {
+  const updateCaseCarousel = () => {
+    const maxScrollLeft = Math.max(0, caseCarouselRail.scrollWidth - caseCarouselRail.clientWidth);
+    const hasOverflow = maxScrollLeft > 2;
+    caseCarouselPrev.hidden = !hasOverflow;
+    caseCarouselNext.hidden = !hasOverflow;
+    caseCarouselPrev.disabled = !hasOverflow || caseCarouselRail.scrollLeft <= 2;
+    caseCarouselNext.disabled = !hasOverflow || caseCarouselRail.scrollLeft >= maxScrollLeft - 2;
+  };
+
+  const scrollCases = (direction) => {
+    const firstCard = caseCarouselRail.querySelector(".case-card");
+    if (!firstCard) return;
+    const gap = Number.parseFloat(window.getComputedStyle(caseCarouselRail).columnGap) || 0;
+    const step = firstCard.getBoundingClientRect().width + gap;
+    caseCarouselRail.scrollBy({
+      left: direction * step,
+      behavior: prefersReducedMotion ? "auto" : "smooth"
+    });
+  };
+
+  caseCarouselPrev.addEventListener("click", () => scrollCases(-1));
+  caseCarouselNext.addEventListener("click", () => scrollCases(1));
+  caseCarouselRail.addEventListener("scroll", () => window.requestAnimationFrame(updateCaseCarousel), { passive: true });
+  caseCarouselRail.addEventListener("keydown", (event) => {
+    if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
+    event.preventDefault();
+    scrollCases(event.key === "ArrowLeft" ? -1 : 1);
+  });
+  window.addEventListener("resize", updateCaseCarousel);
+  window.requestAnimationFrame(updateCaseCarousel);
+}
 
 const setMobileMenuState = (isOpen) => {
   if (!mobileMenuToggle || !mobileMenuPanel || !siteHeader) return;

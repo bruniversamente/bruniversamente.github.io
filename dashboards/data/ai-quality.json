@@ -103,11 +103,11 @@
       "avg_score": 3.63
     },
     {
-      "dimension": "Accuracy",
+      "dimension": "Tone fit",
       "avg_score": 3.69
     },
     {
-      "dimension": "Tone fit",
+      "dimension": "Accuracy",
       "avg_score": 3.69
     },
     {
@@ -229,20 +229,20 @@
       "rework_rate": 0.3636
     },
     {
-      "reviewer_id": "REV04",
-      "reviewed_responses": 112,
-      "avg_quality_score": 3.69,
-      "score_stddev": 0.78,
-      "avg_review_time_minutes": 11.04,
-      "rework_rate": 0.4107
-    },
-    {
       "reviewer_id": "REV01",
       "reviewed_responses": 112,
       "avg_quality_score": 3.55,
       "score_stddev": 0.73,
       "avg_review_time_minutes": 9.97,
       "rework_rate": 0.4911
+    },
+    {
+      "reviewer_id": "REV04",
+      "reviewed_responses": 112,
+      "avg_quality_score": 3.69,
+      "score_stddev": 0.78,
+      "avg_review_time_minutes": 11.04,
+      "rework_rate": 0.4107
     },
     {
       "reviewer_id": "REV02",

@@ -1,4 +1,5 @@
 const params = new URLSearchParams(window.location.search);
+const TENNIS_PLAYER_AVATARS = {"Aaron Krickstein": {"file": "aaron-krickstein.jpg", "countryCode": "US"}, "Adrian Mannarino": {"file": "adrian-mannarino.jpg", "countryCode": "FR"}, "Agnieszka Radwanska": {"file": "agnieszka-radwanska.jpg", "countryCode": "PL"}, "Ajla Tomljanovic": {"file": "ajla-tomljanovic.jpg", "countryCode": "AU"}, "Albert Costa": {"file": "albert-costa.jpg", "countryCode": "ES"}, "Albert Ramos": {"file": "albert-ramos.jpg", "countryCode": "ES"}, "Alejandro Davidovich Fokina": {"file": "alejandro-davidovich-fokina.jpg", "countryCode": "ES"}, "Alejandro Falla": {"file": "alejandro-falla.jpg", "countryCode": "CO"}, "Alejandro Tabilo": {"file": "alejandro-tabilo.jpg", "countryCode": "CL"}, "Aleksandar Kovacevic": {"file": "aleksandar-kovacevic.jpg", "countryCode": "US"}, "Aleksandar Vukic": {"file": "aleksandar-vukic.jpg", "countryCode": "AU"}, "Alex Corretja": {"file": "alex-corretja.jpg", "countryCode": "ES"}, "Alex De Minaur": {"file": "alex-de-minaur.jpg", "countryCode": "AU"}, "Alex Michelsen": {"file": "alex-michelsen.jpg", "countryCode": "US"}, "Alex Molcan": {"file": "alex-molcan.jpg", "countryCode": "SK"}, "Alexander Bublik": {"file": "alexander-bublik.jpg", "countryCode": "KZ"}, "Alexander Shevchenko": {"file": "alexander-shevchenko.jpg", "countryCode": "KZ"}, "Alexander Zverev": {"file": "alexander-zverev.jpg", "countryCode": "DE"}, "Alexandr Dolgopolov": {"file": "alexandr-dolgopolov.jpg", "countryCode": "UA"}, "Alexandra Eala": {"file": "alexandra-eala.jpg", "countryCode": "PH"}, "Alexandre Muller": {"file": "alexandre-muller.jpg", "countryCode": "FR"}, "Alexei Popyrin": {"file": "alexei-popyrin.jpg", "countryCode": "AU"}, "Aliaksandra Sasnovich": {"file": "aliaksandra-sasnovich.jpg", "countryCode": "BY"}, "Alina Korneeva": {"file": "alina-korneeva.jpg", "countryCode": "RU"}, "Alison Riske Amritraj": {"file": "alison-riske-amritraj.jpg", "countryCode": "US"}, "Alison Van Uytvanck": {"file": "alison-van-uytvanck.jpg", "countryCode": "BE"}, "Alize Cornet": {"file": "alize-cornet.jpg", "countryCode": "FR"}, "Aljaz Bedene": {"file": "aljaz-bedene.jpg", "countryCode": "GB"}, "Alycia Parks": {"file": "alycia-parks.jpg", "countryCode": "US"}, "Amanda Anisimova": {"file": "amanda-anisimova.jpg", "countryCode": "US"}, "Amelie Mauresmo": {"file": "amelie-mauresmo.jpg", "countryCode": "FR"}, "Ana Bogdan": {"file": "ana-bogdan.jpg", "countryCode": "RO"}, "Ana Ivanovic": {"file": "ana-ivanovic.jpg", "countryCode": "RS"}, "Ana Konjuh": {"file": "ana-konjuh.jpg", "countryCode": "HR"}, "Anastasia Myskina": {"file": "anastasia-myskina.jpg", "countryCode": "RU"}, "Anastasia Pavlyuchenkova": {"file": "anastasia-pavlyuchenkova.jpg", "countryCode": "RU"}, "Anastasia Potapova": {"file": "anastasia-potapova.jpg", "countryCode": "AT"}, "Anastasija Sevastova": {"file": "anastasija-sevastova.jpg", "countryCode": "LV"}, "Andre Agassi": {"file": "andre-agassi.jpg", "countryCode": "US"}, "Andrea Petkovic": {"file": "andrea-petkovic.jpg", "countryCode": "DE"}, "Andreas Seppi": {"file": "andreas-seppi.jpg", "countryCode": "IT"}, "Andrei Chesnokov": {"countryCode": "RU"}, "Andrei Medvedev": {"file": "andrei-medvedev.jpg", "countryCode": "UA"}, "Andres Gomez": {"file": "andres-gomez.jpg", "countryCode": "EC"}, "Andrey Rublev": {"file": "andrey-rublev.jpg", "countryCode": "RU"}, "Andy Murray": {"file": "andy-murray.jpg", "countryCode": "GB"}, "Andy Roddick": {"file": "andy-roddick.jpg", "countryCode": "US"}, "Anett Kontaveit": {"file": "anett-kontaveit.jpg", "countryCode": "EE"}, "Angelique Kerber": {"file": "angelique-kerber.jpg", "countryCode": "DE"}, "Anhelina Kalinina": {"file": "anhelina-kalinina.jpg", "countryCode": "UA"}, "Anna Blinkova": {"file": "anna-blinkova.jpg", "countryCode": "RU"}, "Anna Bondar": {"file": "anna-bondar.jpg", "countryCode": "HU"}, "Anna Kalinskaya": {"file": "anna-kalinskaya.jpg", "countryCode": "RU"}, "Anna Karolina Schmiedlova": {"file": "anna-karolina-schmiedlova.jpg", "countryCode": "SK"}, "Anna Lena Friedsam": {"file": "anna-lena-friedsam.jpg", "countryCode": "DE"}, "Antonia Ruzic": {"file": "antonia-ruzic.jpg", "countryCode": "HR"}, "Arantxa Rus": {"file": "arantxa-rus.jpg", "countryCode": "NL"}, "Arantxa Sanchez Vicario": {"file": "arantxa-sanchez-vicario.jpg", "countryCode": "ES"}, "Arianne Hartono": {"file": "arianne-hartono.jpg", "countryCode": "NL"}, "Arnaud Clement": {"file": "arnaud-clement.jpg", "countryCode": "FR"}, "Arthur Cazaux": {"file": "arthur-cazaux.jpg", "countryCode": "FR"}, "Arthur Fils": {"file": "arthur-fils.jpg", "countryCode": "FR"}, "Arthur Rinderknech": {"file": "arthur-rinderknech.jpg", "countryCode": "FR"}, "Aryna Sabalenka": {"file": "aryna-sabalenka.jpg", "countryCode": "BY"}, "Ashleigh Barty": {"file": "ashleigh-barty.jpg", "countryCode": "AU"}, "Ashlyn Krueger": {"file": "ashlyn-krueger.jpg", "countryCode": "US"}, "Aslan Karatsev": {"file": "aslan-karatsev.jpg", "countryCode": "RU"}, "Astra Sharma": {"file": "astra-sharma.jpg", "countryCode": "AU"}, "Barbora Krejcikova": {"file": "barbora-krejcikova.jpg", "countryCode": "CZ"}, "Barbora Strycova": {"file": "barbora-strycova.jpg", "countryCode": "CZ"}, "Beatriz Haddad Maia": {"file": "beatriz-haddad-maia.jpg", "countryCode": "BR"}, "Belinda Bencic": {"file": "belinda-bencic.jpg", "countryCode": "CH"}, "Ben Shelton": {"file": "ben-shelton.jpg", "countryCode": "US"}, "Benjamin Bonzi": {"file": "benjamin-bonzi.jpg", "countryCode": "FR"}, "Benoit Paire": {"file": "benoit-paire.jpg", "countryCode": "FR"}, "Bernabe Zapata Miralles": {"file": "bernabe-zapata-miralles.jpg", "countryCode": "ES"}, "Bernard Tomic": {"file": "bernard-tomic.jpg", "countryCode": "AU"}, "Bernarda Pera": {"file": "bernarda-pera.jpg", "countryCode": "US"}, "Bethanie Mattek Sands": {"file": "bethanie-mattek-sands.jpg", "countryCode": "US"}, "Bianca Andreescu": {"file": "bianca-andreescu.jpg", "countryCode": "CA"}, "Bibiane Schoofs": {"file": "bibiane-schoofs.jpg", "countryCode": "NL"}, "Bjorn Borg": {"file": "bjorn-borg.jpg", "countryCode": "SE"}, "Boris Becker": {"file": "boris-becker.jpg", "countryCode": "DE"}, "Borna Coric": {"file": "borna-coric.jpg", "countryCode": "HR"}, "Botic Van De Zandschulp": {"file": "botic-van-de-zandschulp.jpg", "countryCode": "NL"}, "Brad Gilbert": {"file": "brad-gilbert.jpg", "countryCode": "US"}, "Brandon Nakashima": {"file": "brandon-nakashima.jpg", "countryCode": "US"}, "Brenda Fruhvirtova": {"file": "brenda-fruhvirtova.jpg", "countryCode": "CZ"}, "Cameron Norrie": {"file": "cameron-norrie.jpg", "countryCode": "GB"}, "Camila Giorgi": {"file": "camila-giorgi.jpg", "countryCode": "IT"}, "Camila Osorio": {"file": "camila-osorio.jpg", "countryCode": "CO"}, "Camilo Ugo Carabelli": {"file": "camilo-ugo-carabelli.jpg", "countryCode": "AR"}, "Carla Suarez Navarro": {"file": "carla-suarez-navarro.jpg", "countryCode": "ES"}, "Carlos Alcaraz": {"file": "carlos-alcaraz.jpg", "countryCode": "ES"}, "Carlos Berlocq": {"file": "carlos-berlocq.jpg", "countryCode": "AR"}, "Carlos Moya": {"file": "carlos-moya.jpg", "countryCode": "ES"}, "Caroline Dolehide": {"file": "caroline-dolehide.jpg", "countryCode": "US"}, "Caroline Garcia": {"file": "caroline-garcia.jpg", "countryCode": "FR"}, "Caroline Wozniacki": {"file": "caroline-wozniacki.jpg", "countryCode": "DK"}, "Casper Ruud": {"file": "casper-ruud.jpg", "countryCode": "NO"}, "Caty Mcnally": {"file": "caty-mcnally.jpg", "countryCode": "US"}, "Cedric Pioline": {"file": "cedric-pioline.jpg", "countryCode": "FR"}, "Chris Evert": {"file": "chris-evert.jpg", "countryCode": "US"}, "Christina Mchale": {"file": "christina-mchale.jpg", "countryCode": "US"}, "Christopher Eubanks": {"file": "christopher-eubanks.jpg", "countryCode": "US"}, "Christopher Oconnell": {"file": "christopher-oconnell.jpg", "countryCode": "AU"}, "Clara Burel": {"file": "clara-burel.jpg", "countryCode": "FR"}, "Clara Tauson": {"file": "clara-tauson.jpg", "countryCode": "DK"}, "Coco Gauff": {"file": "coco-gauff.jpg", "countryCode": "US"}, "Coco Vandeweghe": {"file": "coco-vandeweghe.jpg", "countryCode": "US"}, "Conchita Martinez": {"file": "conchita-martinez.jpg", "countryCode": "ES"}, "Corentin Moutet": {"file": "corentin-moutet.jpg", "countryCode": "FR"}, "Cristian Garin": {"file": "cristian-garin.jpg", "countryCode": "CL"}, "Cristina Bucsa": {"file": "cristina-bucsa.jpg", "countryCode": "ES"}, "Damir Dzumhur": {"file": "damir-dzumhur.jpg", "countryCode": "BA"}, "Daniel Altmaier": {"file": "daniel-altmaier.jpg", "countryCode": "DE"}, "Daniel Elahi Galan": {"file": "daniel-elahi-galan.jpg", "countryCode": "CO"}, "Daniel Evans": {"file": "daniel-evans.jpg", "countryCode": "GB"}, "Daniela Hantuchova": {"file": "daniela-hantuchova.jpg", "countryCode": "SK"}, "Danielle Collins": {"file": "danielle-collins.jpg", "countryCode": "US"}, "Daniil Medvedev": {"file": "daniil-medvedev.jpg", "countryCode": "RU"}, "Danka Kovinic": {"file": "danka-kovinic.jpg", "countryCode": "ME"}, "Daria Kasatkina": {"file": "daria-kasatkina.jpg", "countryCode": "AU"}, "Daria Saville": {"file": "daria-saville.jpg", "countryCode": "AU"}, "David Ferrer": {"file": "david-ferrer.jpg", "countryCode": "ES"}, "David Goffin": {"file": "david-goffin.jpg", "countryCode": "BE"}, "David Nalbandian": {"file": "david-nalbandian.jpg", "countryCode": "AR"}, "David Wheaton": {"file": "david-wheaton.jpg", "countryCode": "US"}, "Dayana Yastremska": {"file": "dayana-yastremska.jpg", "countryCode": "UA"}, "Denis Istomin": {"file": "denis-istomin.jpg", "countryCode": "UZ"}, "Denis Kudla": {"file": "denis-kudla.jpg", "countryCode": "US"}, "Denis Shapovalov": {"file": "denis-shapovalov.jpg", "countryCode": "CA"}, "Diana Shnaider": {"file": "diana-shnaider.jpg", "countryCode": "RU"}, "Diane Parry": {"file": "diane-parry.jpg", "countryCode": "FR"}, "Diego Schwartzman": {"file": "diego-schwartzman.jpg", "countryCode": "AR"}, "Dinara Safina": {"file": "dinara-safina.jpg", "countryCode": "RU"}, "Dominic Thiem": {"file": "dominic-thiem.jpg", "countryCode": "AT"}, "Dominik Koepfer": {"file": "dominik-koepfer.jpg", "countryCode": "DE"}, "Dominika Cibulkova": {"file": "dominika-cibulkova.jpg", "countryCode": "SK"}, "Donna Vekic": {"file": "donna-vekic.jpg", "countryCode": "HR"}, "Dusan Lajovic": {"file": "dusan-lajovic.jpg", "countryCode": "RS"}, "Dustin Brown": {"file": "dustin-brown.jpg", "countryCode": "DE"}, "Ekaterina Alexandrova": {"file": "ekaterina-alexandrova.png", "countryCode": "RU"}, "Elena Dementieva": {"file": "elena-dementieva.jpg", "countryCode": "RU"}, "Elena Gabriela Ruse": {"file": "elena-gabriela-ruse.jpg", "countryCode": "RO"}, "Elena Rybakina": {"file": "elena-rybakina.jpg", "countryCode": "KZ"}, "Elena Vesnina": {"file": "elena-vesnina.jpg", "countryCode": "RU"}, "Elina Avanesyan": {"file": "elina-avanesyan.jpg", "countryCode": "AM"}, "Elina Svitolina": {"file": "elina-svitolina.jpg", "countryCode": "UA"}, "Elisabetta Cocciaretto": {"file": "elisabetta-cocciaretto.jpg", "countryCode": "IT"}, "Elise Mertens": {"file": "elise-mertens.jpg", "countryCode": "BE"}, "Elsa Jacquemot": {"file": "elsa-jacquemot.jpg", "countryCode": "FR"}, "Emil Ruusuvuori": {"file": "emil-ruusuvuori.jpg", "countryCode": "FI"}, "Emma Navarro": {"file": "emma-navarro.jpg", "countryCode": "US"}, "Emma Raducanu": {"file": "emma-raducanu.jpg", "countryCode": "GB"}, "Ernests Gulbis": {"file": "ernests-gulbis.jpg", "countryCode": "LV"}, "Ethan Quinn": {"file": "ethan-quinn.jpg", "countryCode": "US"}, "Eugenie Bouchard": {"file": "eugenie-bouchard.jpg", "countryCode": "CA"}, "Eva Lys": {"file": "eva-lys.jpg", "countryCode": "DE"}, "Eva Vedder": {"countryCode": "NL"}, "Fabian Marozsan": {"file": "fabian-marozsan.jpg", "countryCode": "HU"}, "Fabio Fognini": {"file": "fabio-fognini.jpg", "countryCode": "IT"}, "Fabrice Santoro": {"file": "fabrice-santoro.jpg", "countryCode": "FR"}, "Facundo Bagnis": {"file": "facundo-bagnis.jpg", "countryCode": "AR"}, "Federico Coria": {"file": "federico-coria.jpg", "countryCode": "AR"}, "Federico Delbonis": {"file": "federico-delbonis.jpg", "countryCode": "AR"}, "Feliciano Lopez": {"file": "feliciano-lopez.jpg", "countryCode": "ES"}, "Felix Auger Aliassime": {"file": "felix-auger-aliassime.jpg", "countryCode": "CA"}, "Felix Mantilla": {"file": "felix-mantilla.jpg", "countryCode": "ES"}, "Fernando Gonzalez": {"file": "fernando-gonzalez.jpg", "countryCode": "CL"}, "Fernando Verdasco": {"file": "fernando-verdasco.jpg", "countryCode": "ES"}, "Filip Krajinovic": {"file": "filip-krajinovic.jpg", "countryCode": "RS"}, "Fiona Ferro": {"file": "fiona-ferro.jpg", "countryCode": "FR"}, "Flavia Pennetta": {"file": "flavia-pennetta.jpg", "countryCode": "IT"}, "Flavio Cobolli": {"file": "flavio-cobolli.jpg", "countryCode": "IT"}, "Florian Mayer": {"file": "florian-mayer.jpg", "countryCode": "DE"}, "Frances Tiafoe": {"file": "frances-tiafoe.jpg", "countryCode": "US"}, "Francesca Schiavone": {"file": "francesca-schiavone.jpg", "countryCode": "IT"}, "Francisco Cerundolo": {"file": "francisco-cerundolo.jpg", "countryCode": "AR"}, "Gabriel Diallo": {"file": "gabriel-diallo.jpg", "countryCode": "CA"}, "Gabriela Sabatini": {"file": "gabriela-sabatini.jpg", "countryCode": "AR"}, "Gael Monfils": {"file": "gael-monfils.jpg", "countryCode": "FR"}, "Garbine Muguruza": {"file": "garbine-muguruza.jpg", "countryCode": "ES"}, "Gaston Gaudio": {"file": "gaston-gaudio.jpg", "countryCode": "AR"}, "Gijs Brouwer": {"file": "gijs-brouwer.jpg", "countryCode": "NL"}, "Gilles Muller": {"file": "gilles-muller.jpg", "countryCode": "LU"}, "Gilles Simon": {"file": "gilles-simon.jpg", "countryCode": "FR"}, "Giovanni Mpetshi Perricard": {"file": "giovanni-mpetshi-perricard.jpg", "countryCode": "FR"}, "Goran Ivanisevic": {"file": "goran-ivanisevic.jpg", "countryCode": "HR"}, "Greg Rusedski": {"file": "greg-rusedski.jpg", "countryCode": "GB"}, "Gregoire Barrere": {"file": "gregoire-barrere.jpg", "countryCode": "FR"}, "Grigor Dimitrov": {"file": "grigor-dimitrov.jpg", "countryCode": "BG"}, "Guido Pella": {"file": "guido-pella.jpg", "countryCode": "AR"}, "Guillermo Canas": {"file": "guillermo-canas.jpg", "countryCode": "AR"}, "Guillermo Coria": {"file": "guillermo-coria.jpg", "countryCode": "AR"}, "Guillermo Vilas": {"file": "guillermo-vilas.jpg", "countryCode": "AR"}, "Gustavo Kuerten": {"file": "gustavo-kuerten.jpg", "countryCode": "BR"}, "Guy Den Ouden": {"countryCode": "NL"}, "Guy Forget": {"file": "guy-forget.jpg", "countryCode": "FR"}, "Hamad Medjedovic": {"file": "hamad-medjedovic.jpg", "countryCode": "RS"}, "Harmony Tan": {"file": "harmony-tan.jpg", "countryCode": "FR"}, "Harriet Dart": {"file": "harriet-dart.jpg", "countryCode": "GB"}, "Heather Watson": {"file": "heather-watson.jpg", "countryCode": "GB"}, "Helena Sukova": {"file": "helena-sukova.jpg", "countryCode": "CZ"}, "Henri Leconte": {"file": "henri-leconte.jpg", "countryCode": "FR"}, "Holger Rune": {"file": "holger-rune.jpg", "countryCode": "DK"}, "Hubert Hurkacz": {"file": "hubert-hurkacz.jpg", "countryCode": "PL"}, "Hugo Dellien": {"file": "hugo-dellien.jpg", "countryCode": "VE"}, "Hugo Gaston": {"file": "hugo-gaston.jpg", "countryCode": "FR"}, "Hyeon Chung": {"file": "hyeon-chung.jpg", "countryCode": "KR"}, "Iga Swiatek": {"file": "iga-swiatek.jpg", "countryCode": "PL"}, "Igor Andreev": {"file": "igor-andreev.jpg", "countryCode": "RU"}, "Ilya Ivashka": {"file": "ilya-ivashka.jpg", "countryCode": "BY"}, "Irina Bara": {"file": "irina-bara.jpg", "countryCode": "RO"}, "Irina Camelia Begu": {"file": "irina-camelia-begu.jpg", "countryCode": "RO"}, "Iva Jovic": {"file": "iva-jovic.jpg", "countryCode": "US"}, "Ivan Lendl": {"file": "ivan-lendl.jpg", "countryCode": "US"}, "Ivan Ljubicic": {"file": "ivan-ljubicic.jpg", "countryCode": "HR"}, "Ivo Karlovic": {"file": "ivo-karlovic.jpg", "countryCode": "HR"}, "Jack Draper": {"file": "jack-draper.jpg", "countryCode": "GB"}, "Jack Sock": {"file": "jack-sock.jpg", "countryCode": "US"}, "Jakub Mensik": {"file": "jakub-mensik.jpg", "countryCode": "CZ"}, "James Blake": {"file": "james-blake.jpg", "countryCode": "US"}, "James Duckworth": {"file": "james-duckworth.jpg", "countryCode": "AU"}, "Jan Lennard Struff": {"file": "jan-lennard-struff.jpg", "countryCode": "DE"}, "Jana Novotna": {"file": "jana-novotna.jpg", "countryCode": "CZ"}, "Janko Tipsarevic": {"file": "janko-tipsarevic.jpg", "countryCode": "RS"}, "Jannik Sinner": {"file": "jannik-sinner.jpg", "countryCode": "IT"}, "Jaqueline Cristian": {"file": "jaqueline-cristian.jpg", "countryCode": "RO"}, "Jarkko Nieminen": {"file": "jarkko-nieminen.jpg", "countryCode": "FI"}, "Jasmine Paolini": {"file": "jasmine-paolini.jpg", "countryCode": "IT"}, "Jason Kubler": {"file": "jason-kubler.jpg", "countryCode": "AU"}, "Jaume Munar": {"file": "jaume-munar.jpg", "countryCode": "ES"}, "Jelena Dokic": {"file": "jelena-dokic.jpg", "countryCode": "HR"}, "Jelena Jankovic": {"file": "jelena-jankovic.jpg", "countryCode": "RS"}, "Jelena Ostapenko": {"file": "jelena-ostapenko.jpg", "countryCode": "LV"}, "Jennifer Brady": {"file": "jennifer-brady.jpg", "countryCode": "US"}, "Jennifer Capriati": {"file": "jennifer-capriati.jpg", "countryCode": "US"}, "Jenson Brooksby": {"file": "jenson-brooksby.jpg", "countryCode": "US"}, "Jeremy Chardy": {"file": "jeremy-chardy.jpg", "countryCode": "FR"}, "Jerzy Janowicz": {"file": "jerzy-janowicz.jpg", "countryCode": "PL"}, "Jesper De Jong": {"file": "jesper-de-jong.jpg", "countryCode": "NL"}, "Jessica Bouzas Maneiro": {"file": "jessica-bouzas-maneiro.jpg", "countryCode": "ES"}, "Jessica Pegula": {"file": "jessica-pegula.jpg", "countryCode": "US"}, "Jil Teichmann": {"file": "jil-teichmann.jpg", "countryCode": "CH"}, "Jim Courier": {"file": "jim-courier.jpg", "countryCode": "US"}, "Jimmy Connors": {"file": "jimmy-connors.jpg", "countryCode": "US"}, "Jiri Lehecka": {"file": "jiri-lehecka.jpg", "countryCode": "CZ"}, "Jiri Novak": {"file": "jiri-novak.jpg", "countryCode": "CZ"}, "Jiri Vesely": {"file": "jiri-vesely.jpg", "countryCode": "CZ"}, "Jo Wilfried Tsonga": {"file": "jo-wilfried-tsonga.jpg", "countryCode": "FR"}, "Joao Fonseca": {"file": "joao-fonseca.jpg", "countryCode": "BR"}, "Joao Sousa": {"file": "joao-sousa.jpg", "countryCode": "PT"}, "Johanna Konta": {"file": "johanna-konta.jpg", "countryCode": "GB"}, "Johanna Larsson": {"file": "johanna-larsson.jpg", "countryCode": "SE"}, "John Isner": {"file": "john-isner.jpg", "countryCode": "US"}, "John Mcenroe": {"file": "john-mcenroe.jpg", "countryCode": "US"}, "John Millman": {"file": "john-millman.jpg", "countryCode": "AU"}, "Jonas Bjorkman": {"file": "jonas-bjorkman.jpg", "countryCode": "SE"}, "Jonas Svensson": {"countryCode": "SE"}, "Jordan Thompson": {"file": "jordan-thompson.jpg", "countryCode": "AU"}, "Juan Carlos Ferrero": {"file": "juan-carlos-ferrero.jpg", "countryCode": "ES"}, "Juan Carlos Prado Angelo": {"file": "juan-carlos-prado-angelo.jpg", "countryCode": "BO"}, "Juan Ignacio Londero": {"file": "juan-ignacio-londero.jpg", "countryCode": "AR"}, "Juan Manuel Cerundolo": {"file": "juan-manuel-cerundolo.jpg", "countryCode": "AR"}, "Juan Martin Del Potro": {"file": "juan-martin-del-potro.jpg", "countryCode": "AR"}, "Juan Pablo Varillas": {"file": "juan-pablo-varillas.jpg", "countryCode": "PE"}, "Jule Niemeier": {"file": "jule-niemeier.jpg", "countryCode": "DE"}, "Julia Goerges": {"file": "julia-goerges.jpg", "countryCode": "DE"}, "Juncheng Shang": {"file": "juncheng-shang.jpg", "countryCode": "CN"}, "Jurgen Melzer": {"file": "jurgen-melzer.jpg", "countryCode": "AT"}, "Justine Henin": {"file": "justine-henin.jpg", "countryCode": "BE"}, "Kaia Kanepi": {"file": "kaia-kanepi.jpg", "countryCode": "EE"}, "Kaja Juvan": {"file": "kaja-juvan.jpg", "countryCode": "SI"}, "Karen Khachanov": {"file": "karen-khachanov.jpg", "countryCode": "RU"}, "Karim Mohamed Maamoun": {"countryCode": "EG"}, "Karol Kucera": {"countryCode": "SK"}, "Karolina Muchova": {"file": "karolina-muchova.jpg", "countryCode": "CZ"}, "Karolina Pliskova": {"file": "karolina-pliskova.jpg", "countryCode": "CZ"}, "Kate Makarova": {"file": "kate-makarova.jpg", "countryCode": "RU"}, "Katerina Siniakova": {"file": "katerina-siniakova.jpg", "countryCode": "CZ"}, "Kateryna Baindl": {"file": "kateryna-baindl.jpg", "countryCode": "UA"}, "Katie Boulter": {"file": "katie-boulter.jpg", "countryCode": "GB"}, "Katie Volynets": {"file": "katie-volynets.jpg", "countryCode": "US"}, "Kei Nishikori": {"file": "kei-nishikori.jpg", "countryCode": "JP"}, "Kevin Anderson": {"file": "kevin-anderson.jpg", "countryCode": "ZA"}, "Kevin Curren": {"file": "kevin-curren.jpg", "countryCode": "ZA"}, "Kevin King": {"file": "kevin-king.jpg", "countryCode": "US"}, "Kiki Bertens": {"file": "kiki-bertens.jpg", "countryCode": "NL"}, "Kim Clijsters": {"file": "kim-clijsters.jpg", "countryCode": "BE"}, "Kimberly Birrell": {"file": "kimberly-birrell.jpg", "countryCode": "AU"}, "Kirsten Flipkens": {"file": "kirsten-flipkens.jpg", "countryCode": "BE"}, "Klara Koukalova": {"file": "klara-koukalova.jpg", "countryCode": "CZ"}, "Kristina Mladenovic": {"file": "kristina-mladenovic.jpg", "countryCode": "FR"}, "Kyle Edmund": {"file": "kyle-edmund.jpg", "countryCode": "GB"}, "Laslo Djere": {"file": "laslo-djere.jpg", "countryCode": "RS"}, "Laura Siegemund": {"file": "laura-siegemund.jpg", "countryCode": "DE"}, "Lauren Davis": {"file": "lauren-davis.jpg", "countryCode": "US"}, "Learner Tien": {"file": "learner-tien.jpg", "countryCode": "US"}, "Leonardo Mayer": {"file": "leonardo-mayer.jpg", "countryCode": "AR"}, "Lesia Tsurenko": {"file": "lesia-tsurenko.jpg", "countryCode": "UA"}, "Lesley Pattinama Kerkhove": {"file": "lesley-pattinama-kerkhove.jpg", "countryCode": "NL"}, "Leylah Fernandez": {"file": "leylah-fernandez.jpg", "countryCode": "CA"}, "Lin Zhu": {"file": "lin-zhu.jpg", "countryCode": "CN"}, "Linda Fruhvirtova": {"file": "linda-fruhvirtova.jpg", "countryCode": "CZ"}, "Linda Klimovicova": {"file": "linda-klimovicova.jpg", "countryCode": "PL"}, "Linda Noskova": {"file": "linda-noskova.jpg", "countryCode": "CZ"}, "Lindsay Davenport": {"file": "lindsay-davenport.jpg", "countryCode": "US"}, "Liudmila Samsonova": {"file": "liudmila-samsonova.jpg", "countryCode": "RU"}, "Lleyton Hewitt": {"file": "lleyton-hewitt.jpg", "countryCode": "AU"}, "Lorenzo Musetti": {"file": "lorenzo-musetti.jpg", "countryCode": "IT"}, "Lorenzo Sonego": {"file": "lorenzo-sonego.jpg", "countryCode": "IT"}, "Louisa Chirico": {"file": "louisa-chirico.jpg", "countryCode": "US"}, "Luca Nardi": {"file": "luca-nardi.jpg", "countryCode": "IT"}, "Lucas Pouille": {"file": "lucas-pouille.jpg", "countryCode": "FR"}, "Lucia Bronzetti": {"file": "lucia-bronzetti.jpg", "countryCode": "IT"}, "Luciano Darderi": {"file": "luciano-darderi.jpg", "countryCode": "IT"}, "Lucie Safarova": {"file": "lucie-safarova.jpg", "countryCode": "CZ"}, "Lukas Rosol": {"file": "lukas-rosol.jpg", "countryCode": "CZ"}, "Mackenzie Mcdonald": {"file": "mackenzie-mcdonald.jpg", "countryCode": "US"}, "Madison Brengle": {"file": "madison-brengle.jpg", "countryCode": "US"}, "Madison Keys": {"file": "madison-keys.jpg", "countryCode": "US"}, "Magda Linette": {"file": "magda-linette.jpg", "countryCode": "PL"}, "Magdalena Frech": {"file": "magdalena-frech.jpg", "countryCode": "PL"}, "Magdalena Rybarikova": {"file": "magdalena-rybarikova.jpg", "countryCode": "SK"}, "Magnus Gustafsson": {"countryCode": "SE"}, "Magnus Norman": {"file": "magnus-norman.jpg", "countryCode": "SE"}, "Malivai Washington": {"file": "malivai-washington.jpg", "countryCode": "US"}, "Marat Safin": {"file": "marat-safin.jpg", "countryCode": "RU"}, "Marc Rosset": {"file": "marc-rosset.jpg", "countryCode": "CH"}, "Marcel Granollers": {"file": "marcel-granollers.jpg", "countryCode": "ES"}, "Marcelo Rios": {"file": "marcelo-rios.jpg", "countryCode": "CL"}, "Marco Cecchinato": {"file": "marco-cecchinato.jpg", "countryCode": "IT"}, "Marcos Baghdatis": {"file": "marcos-baghdatis.jpg", "countryCode": "CY"}, "Marcos Giron": {"file": "marcos-giron.jpg", "countryCode": "US"}, "Mardy Fish": {"file": "mardy-fish.jpg", "countryCode": "US"}, "Maria Sakkari": {"file": "maria-sakkari.jpg", "countryCode": "GR"}, "Maria Sharapova": {"file": "maria-sharapova.jpg", "countryCode": "RU"}, "Mariano Navone": {"file": "mariano-navone.jpg", "countryCode": "AR"}, "Marie Bouzkova": {"file": "marie-bouzkova.jpg", "countryCode": "CZ"}, "Marin Cilic": {"file": "marin-cilic.jpg", "countryCode": "HR"}, "Mario Ancic": {"file": "mario-ancic.jpg", "countryCode": "HR"}, "Marion Bartoli": {"file": "marion-bartoli.jpg", "countryCode": "FR"}, "Mark Philippoussis": {"file": "mark-philippoussis.jpg", "countryCode": "AU"}, "Marketa Vondrousova": {"file": "marketa-vondrousova.jpg", "countryCode": "CZ"}, "Marta Kostyuk": {"file": "marta-kostyuk.jpg", "countryCode": "UA"}, "Martin Klizan": {"file": "martin-klizan.jpg", "countryCode": "SK"}, "Martina Hingis": {"file": "martina-hingis.jpg", "countryCode": "CH"}, "Martina Navratilova": {"file": "martina-navratilova.jpg", "countryCode": "US"}, "Martina Trevisan": {"file": "martina-trevisan.jpg", "countryCode": "IT"}, "Marton Fucsovics": {"file": "marton-fucsovics.jpg", "countryCode": "HU"}, "Mary Pierce": {"file": "mary-pierce.jpg", "countryCode": "FR"}, "Mats Wilander": {"file": "mats-wilander.jpg", "countryCode": "SE"}, "Matteo Arnaldi": {"file": "matteo-arnaldi.jpg", "countryCode": "IT"}, "Matteo Berrettini": {"file": "matteo-berrettini.jpg", "countryCode": "IT"}, "Mattia Bellucci": {"file": "mattia-bellucci.jpg", "countryCode": "IT"}, "Max Mirnyi": {"file": "max-mirnyi.jpg", "countryCode": "BY"}, "Max Purcell": {"file": "max-purcell.jpg", "countryCode": "AU"}, "Maxime Cressy": {"file": "maxime-cressy.jpg", "countryCode": "US"}, "Maya Joint": {"file": "maya-joint.jpg", "countryCode": "AU"}, "Mayar Sherif": {"file": "mayar-sherif.jpg", "countryCode": "EG"}, "Mccartney Kessler": {"file": "mccartney-kessler.jpg", "countryCode": "US"}, "Michael Chang": {"file": "michael-chang.jpg", "countryCode": "US"}, "Michael Stich": {"file": "michael-stich.jpg", "countryCode": "DE"}, "Mihaela Buzarnescu": {"file": "mihaela-buzarnescu.jpg", "countryCode": "RO"}, "Mikael Pernfors": {"file": "mikael-pernfors.jpg", "countryCode": "SE"}, "Mikael Ymer": {"file": "mikael-ymer.jpg", "countryCode": "SE"}, "Mikhail Kukushkin": {"file": "mikhail-kukushkin.jpg", "countryCode": "KZ"}, "Mikhail Youzhny": {"file": "mikhail-youzhny.jpg", "countryCode": "RU"}, "Milos Raonic": {"file": "milos-raonic.jpg", "countryCode": "CA"}, "Miloslav Mecir": {"file": "miloslav-mecir.jpg", "countryCode": "SK"}, "Miomir Kecmanovic": {"file": "miomir-kecmanovic.jpg", "countryCode": "RS"}, "Mirra Andreeva": {"file": "mirra-andreeva.jpg", "countryCode": "RU"}, "Misaki Doi": {"file": "misaki-doi.jpg", "countryCode": "JP"}, "Mischa Zverev": {"file": "mischa-zverev.jpg", "countryCode": "DE"}, "Mona Barthel": {"file": "mona-barthel.jpg", "countryCode": "DE"}, "Monica Niculescu": {"file": "monica-niculescu.jpg", "countryCode": "RO"}, "Monica Puig": {"file": "monica-puig.jpg", "countryCode": "PR"}, "Monica Seles": {"file": "monica-seles.jpg", "countryCode": "US"}, "Moyuka Uchijima": {"file": "moyuka-uchijima.jpg", "countryCode": "JP"}, "Na Li": {"file": "na-li.jpg", "countryCode": "CN"}, "Nadia Petrova": {"file": "nadia-petrova.jpg", "countryCode": "RU"}, "Nadia Podoroska": {"file": "nadia-podoroska.jpg", "countryCode": "AR"}, "Nao Hibino": {"file": "nao-hibino.jpg", "countryCode": "JP"}, "Naomi Osaka": {"file": "naomi-osaka.jpg", "countryCode": "JP"}, "Nick Kyrgios": {"file": "nick-kyrgios.jpg", "countryCode": "AU"}, "Nicolas Almagro": {"file": "nicolas-almagro.jpg", "countryCode": "ES"}, "Nicolas Escude": {"file": "nicolas-escude.jpg", "countryCode": "FR"}, "Nicolas Jarry": {"file": "nicolas-jarry.jpg", "countryCode": "CL"}, "Nicolas Kiefer": {"file": "nicolas-kiefer.jpg", "countryCode": "DE"}, "Nicolas Mahut": {"file": "nicolas-mahut.jpg", "countryCode": "FR"}, "Nicolas Massu": {"file": "nicolas-massu.jpg", "countryCode": "CL"}, "Nicole Gibbs": {"file": "nicole-gibbs.jpg", "countryCode": "US"}, "Nikolay Davydenko": {"file": "nikolay-davydenko.jpg", "countryCode": "RU"}, "Nikoloz Basilashvili": {"file": "nikoloz-basilashvili.jpg", "countryCode": "GE"}, "Nishesh Basavareddy": {"file": "nishesh-basavareddy.jpg", "countryCode": "US"}, "Novak Djokovic": {"file": "novak-djokovic.jpg", "countryCode": "RS"}, "Nuno Borges": {"file": "nuno-borges.jpg", "countryCode": "PT"}, "Nuria Parrizas Diaz": {"file": "nuria-parrizas-diaz.jpg", "countryCode": "ES"}, "Oceane Dodin": {"file": "oceane-dodin.jpg", "countryCode": "FR"}, "Olga Danilovic": {"file": "olga-danilovic.jpg", "countryCode": "RS"}, "Olivia Gadecki": {"file": "olivia-gadecki.jpg", "countryCode": "AU"}, "Ons Jabeur": {"file": "ons-jabeur.jpg", "countryCode": "TN"}, "Otto Virtanen": {"file": "otto-virtanen.jpg", "countryCode": "FI"}, "Pablo Andujar": {"file": "pablo-andujar.jpg", "countryCode": "ES"}, "Pablo Carreno Busta": {"file": "pablo-carreno-busta.jpg", "countryCode": "ES"}, "Paolo Lorenzi": {"file": "paolo-lorenzi.jpg", "countryCode": "IT"}, "Pat Cash": {"file": "pat-cash.jpg", "countryCode": "AU"}, "Patricia Maria Tig": {"file": "patricia-maria-tig.jpg", "countryCode": "RO"}, "Patrick Rafter": {"file": "patrick-rafter.jpg", "countryCode": "AU"}, "Paul Henri Mathieu": {"file": "paul-henri-mathieu.jpg", "countryCode": "FR"}, "Paula Badosa": {"file": "paula-badosa.jpg", "countryCode": "ES"}, "Pavel Kotov": {"file": "pavel-kotov.jpg", "countryCode": "RU"}, "Pedro Martinez": {"file": "pedro-martinez.jpg", "countryCode": "ES"}, "Pete Sampras": {"file": "pete-sampras.jpg", "countryCode": "US"}, "Peter Gojowczyk": {"file": "peter-gojowczyk.jpg", "countryCode": "DE"}, "Petr Korda": {"file": "petr-korda.jpg", "countryCode": "CZ"}, "Petra Kvitova": {"file": "petra-kvitova.jpg", "countryCode": "CZ"}, "Petra Martic": {"file": "petra-martic.jpg", "countryCode": "HR"}, "Peyton Stearns": {"file": "peyton-stearns.jpg", "countryCode": "US"}, "Philipp Kohlschreiber": {"file": "philipp-kohlschreiber.jpg", "countryCode": "DE"}, "Pierre Hugues Herbert": {"file": "pierre-hugues-herbert.jpg", "countryCode": "FR"}, "Polona Hercog": {"file": "polona-hercog.jpg", "countryCode": "SI"}, "Qiang Wang": {"file": "qiang-wang.jpg", "countryCode": "CN"}, "Qinwen Zheng": {"file": "qinwen-zheng.png", "countryCode": "CN"}, "Quentin Halys": {"file": "quentin-halys.jpg", "countryCode": "FR"}, "Radek Stepanek": {"file": "radek-stepanek.jpg", "countryCode": "CZ"}, "Radu Albot": {"file": "radu-albot.jpg", "countryCode": "MD"}, "Rafael Jodar": {"file": "rafael-jodar.jpg", "countryCode": "ES"}, "Rafael Nadal": {"file": "rafael-nadal.jpg", "countryCode": "ES"}, "Raphael Collignon": {"file": "raphael-collignon.jpg", "countryCode": "BE"}, "Rebecca Marino": {"file": "rebecca-marino.jpg", "countryCode": "CA"}, "Rebecca Peterson": {"file": "rebecca-peterson.jpg", "countryCode": "SE"}, "Rebecca Sramkova": {"file": "rebecca-sramkova.jpg", "countryCode": "SK"}, "Reilly Opelka": {"file": "reilly-opelka.jpg", "countryCode": "US"}, "Ricardas Berankis": {"file": "ricardas-berankis.jpg", "countryCode": "LT"}, "Richard Gasquet": {"file": "richard-gasquet.jpg", "countryCode": "FR"}, "Richard Krajicek": {"file": "richard-krajicek.jpg", "countryCode": "NL"}, "Rinky Hijikata": {"file": "rinky-hijikata.jpg", "countryCode": "AU"}, "Roberta Vinci": {"file": "roberta-vinci.jpg", "countryCode": "IT"}, "Roberto Bautista Agut": {"file": "roberto-bautista-agut.jpg", "countryCode": "ES"}, "Roberto Carballes Baena": {"file": "roberto-carballes-baena.jpg", "countryCode": "ES"}, "Robin Haase": {"file": "robin-haase.jpg", "countryCode": "NL"}, "Robin Montgomery": {"file": "robin-montgomery.jpg", "countryCode": "US"}, "Robin Soderling": {"file": "robin-soderling.jpg", "countryCode": "SE"}, "Roger Federer": {"file": "roger-federer.jpg", "countryCode": "CH"}, "Roman Safiullin": {"file": "roman-safiullin.jpg", "countryCode": "RU"}, "Sabine Lisicki": {"file": "sabine-lisicki.jpg", "countryCode": "DE"}, "Saisai Zheng": {"file": "saisai-zheng.jpg", "countryCode": "CN"}, "Sam Querrey": {"file": "sam-querrey.jpg", "countryCode": "US"}, "Samantha Stosur": {"file": "samantha-stosur.jpg", "countryCode": "AU"}, "Sara Bejlek": {"file": "sara-bejlek.jpg", "countryCode": "CZ"}, "Sara Errani": {"file": "sara-errani.jpg", "countryCode": "IT"}, "Sara Sorribes Tormo": {"file": "sara-sorribes-tormo.jpg", "countryCode": "ES"}, "Sebastian Baez": {"file": "sebastian-baez.jpg", "countryCode": "AR"}, "Sebastian Korda": {"file": "sebastian-korda.jpg", "countryCode": "US"}, "Sebastian Ofner": {"file": "sebastian-ofner.jpg", "countryCode": "AT"}, "Sebastien Grosjean": {"file": "sebastien-grosjean.jpg", "countryCode": "FR"}, "Selina Dal": {"countryCode": "DE"}, "Serena Williams": {"file": "serena-williams.jpg", "countryCode": "US"}, "Sergi Bruguera": {"countryCode": "ES"}, "Sergiy Stakhovsky": {"file": "sergiy-stakhovsky.jpg", "countryCode": "UA"}, "Shelby Rogers": {"file": "shelby-rogers.jpg", "countryCode": "US"}, "Shuai Peng": {"file": "shuai-peng.jpg", "countryCode": "CN"}, "Shuai Zhang": {"file": "shuai-zhang.jpg", "countryCode": "CN"}, "Simona Halep": {"file": "simona-halep.jpg", "countryCode": "RO"}, "Sjeng Schalken": {"file": "sjeng-schalken.jpg", "countryCode": "NL"}, "Sloane Stephens": {"file": "sloane-stephens.jpg", "countryCode": "US"}, "Sofia Kenin": {"file": "sofia-kenin.jpg", "countryCode": "US"}, "Solana Sierra": {"file": "solana-sierra.jpg", "countryCode": "AR"}, "Sorana Cirstea": {"file": "sorana-cirstea.jpg", "countryCode": "RO"}, "Stan Wawrinka": {"file": "stan-wawrinka.jpg", "countryCode": "CH"}, "Stefan Edberg": {"file": "stefan-edberg.jpg", "countryCode": "SE"}, "Stefanos Tsitsipas": {"file": "stefanos-tsitsipas.jpg", "countryCode": "GR"}, "Steffi Graf": {"file": "steffi-graf.jpg", "countryCode": "DE"}, "Steve Darcis": {"file": "steve-darcis.jpg", "countryCode": "BE"}, "Steve Johnson": {"file": "steve-johnson.jpg", "countryCode": "US"}, "Su Wei Hsieh": {"file": "su-wei-hsieh.jpg", "countryCode": "TW"}, "Sumit Nagal": {"file": "sumit-nagal.jpg", "countryCode": "IN"}, "Suzan Lamens": {"file": "suzan-lamens.jpg", "countryCode": "NL"}, "Svetlana Kuznetsova": {"file": "svetlana-kuznetsova.jpg", "countryCode": "RU"}, "Talia Gibson": {"file": "talia-gibson.jpg", "countryCode": "AU"}, "Tallon Griekspoor": {"file": "tallon-griekspoor.jpg", "countryCode": "NL"}, "Tamara Zidansek": {"file": "tamara-zidansek.jpg", "countryCode": "SI"}, "Taro Daniel": {"file": "taro-daniel.jpg", "countryCode": "JP"}, "Tatjana Maria": {"file": "tatjana-maria.jpg", "countryCode": "DE"}, "Taylor Fritz": {"file": "taylor-fritz.jpg", "countryCode": "US"}, "Taylor Townsend": {"file": "taylor-townsend.jpg", "countryCode": "US"}, "Tennys Sandgren": {"file": "tennys-sandgren.jpg", "countryCode": "US"}, "Tereza Martincova": {"file": "tereza-martincova.jpg", "countryCode": "CZ"}, "Tereza Valentova": {"file": "tereza-valentova.jpg", "countryCode": "CZ"}, "Thanasi Kokkinakis": {"file": "thanasi-kokkinakis.jpg", "countryCode": "AU"}, "Thiago Monteiro": {"file": "thiago-monteiro.jpg", "countryCode": "BR"}, "Thiago Seyboth Wild": {"file": "thiago-seyboth-wild.jpg", "countryCode": "BR"}, "Thomas Enqvist": {"file": "thomas-enqvist.jpg", "countryCode": "SE"}, "Thomas Fabbiano": {"file": "thomas-fabbiano.jpg", "countryCode": "IT"}, "Thomas Johansson": {"file": "thomas-johansson.jpg", "countryCode": "SE"}, "Thomas Muster": {"file": "thomas-muster.jpg", "countryCode": "AT"}, "Thomaz Bellucci": {"file": "thomaz-bellucci.jpg", "countryCode": "BR"}, "Tim Henman": {"file": "tim-henman.jpg", "countryCode": "GB"}, "Tim Van Rijthoven": {"file": "tim-van-rijthoven.jpg", "countryCode": "NL"}, "Timea Bacsinszky": {"file": "timea-bacsinszky.jpg", "countryCode": "CH"}, "Todd Martin": {"file": "todd-martin.jpg", "countryCode": "US"}, "Tomas Berdych": {"file": "tomas-berdych.jpg", "countryCode": "CZ"}, "Tomas Machac": {"file": "tomas-machac.jpg", "countryCode": "CZ"}, "Tomas Martin Etcheverry": {"file": "tomas-martin-etcheverry.jpg", "countryCode": "AR"}, "Tommy Haas": {"file": "tommy-haas.jpg", "countryCode": "DE"}, "Tommy Paul": {"file": "tommy-paul.jpg", "countryCode": "US"}, "Tommy Robredo": {"file": "tommy-robredo.jpg", "countryCode": "ES"}, "Tsvetana Pironkova": {"file": "tsvetana-pironkova.jpg", "countryCode": "BG"}, "Ugo Humbert": {"file": "ugo-humbert.jpg", "countryCode": "FR"}, "Valentin Vacherot": {"file": "valentin-vacherot.jpg", "countryCode": "MC"}, "Varvara Gracheva": {"file": "varvara-gracheva.jpg", "countryCode": "FR"}, "Varvara Lepchenko": {"file": "varvara-lepchenko.jpg", "countryCode": "US"}, "Vasek Pospisil": {"file": "vasek-pospisil.jpg", "countryCode": "CA"}, "Venus Williams": {"file": "venus-williams.jpg", "countryCode": "US"}, "Vera Zvonareva": {"file": "vera-zvonareva.jpg", "countryCode": "RU"}, "Veronika Kudermetova": {"file": "veronika-kudermetova.jpg", "countryCode": "RU"}, "Victoria Azarenka": {"file": "victoria-azarenka.jpg", "countryCode": "BY"}, "Victoria Jimenez Kasintseva": {"file": "victoria-jimenez-kasintseva.jpg", "countryCode": "AD"}, "Victoria Mboko": {"file": "victoria-mboko.jpg", "countryCode": "CA"}, "Viktor Troicki": {"file": "viktor-troicki.jpg", "countryCode": "RS"}, "Viktoria Hruncakova": {"file": "viktoria-hruncakova.jpg", "countryCode": "SK"}, "Viktorija Golubic": {"file": "viktorija-golubic.jpg", "countryCode": "CH"}, "Viktoriya Tomova": {"file": "viktoriya-tomova.jpg", "countryCode": "BG"}, "Wayne Ferreira": {"file": "wayne-ferreira.jpg", "countryCode": "ZA"}, "Xavier Malisse": {"file": "xavier-malisse.jpg", "countryCode": "BE"}, "Xin Yu Wang": {"file": "xin-yu-wang.jpg", "countryCode": "CN"}, "Xiyu Wang": {"file": "xiyu-wang.jpg", "countryCode": "CN"}, "Yafan Wang": {"file": "yafan-wang.jpg", "countryCode": "CN"}, "Yannick Hanfmann": {"file": "yannick-hanfmann.jpg", "countryCode": "DE"}, "Yannick Noah": {"file": "yannick-noah.jpg", "countryCode": "FR"}, "Yevgeny Kafelnikov": {"file": "yevgeny-kafelnikov.jpg", "countryCode": "RU"}, "Yoshihito Nishioka": {"file": "yoshihito-nishioka.jpg", "countryCode": "JP"}, "Yue Yuan": {"file": "yue-yuan.jpg", "countryCode": "CN"}, "Yulia Putintseva": {"file": "yulia-putintseva.jpg", "countryCode": "KZ"}, "Zarina Diyas": {"file": "zarina-diyas.jpg", "countryCode": "KZ"}, "Zhizhen Zhang": {"file": "zhizhen-zhang.jpg", "countryCode": "CN"}, "Zizou Bergs": {"file": "zizou-bergs.jpg", "countryCode": "BE"}};
 
 const CASES = {
   playzone: {
@@ -99,6 +100,20 @@ const CASES = {
         description: "R$1,08M en ingresos, 31,0% de margen y alertas por canal, categoría, mes y producto.",
         recommendation: "Proteger categorías con margen presionado y usar metas por canal para explicar dónde creció ingreso sin preservar rentabilidad."
       }
+    }
+  },
+  "tennis-pressure": {
+    file: "data/tennis-pressure.json",
+    repo: "https://github.com/bruniversamente/tennis-pressure-analytics",
+    tags: {
+      pt: ["Análise esportiva", "Comparação contextual", "Incerteza visível", "Qualidade dos dados"],
+      en: ["Sports analysis", "Contextual comparison", "Visible uncertainty", "Data quality"],
+      es: ["Análisis deportivo", "Comparación contextual", "Incertidumbre visible", "Calidad de datos"]
+    },
+    copy: {
+      pt: { tab: "Tennis Pressure", title: "Saque sob pressão: o que muda nos break points?", description: "Comparação entre pontos de saque em break point e os demais pontos, com denominadores e intervalos de confiança visíveis.", recommendation: "Use a leitura como diagnóstico descritivo: contexto, amostra e incerteza devem acompanhar qualquer comparação por jogador." },
+      en: { tab: "Tennis Pressure", title: "Serving under pressure: what changes on break points?", description: "Break-point serve performance versus other serve points, with visible denominators and confidence intervals.", recommendation: "Use this as a descriptive diagnostic: context, sample size and uncertainty must accompany every player comparison." },
+      es: { tab: "Tennis Pressure", title: "Saque bajo presión: ¿qué cambia en los break points?", description: "Rendimiento al saque en break point frente a los demás puntos, con denominadores e intervalos de confianza visibles.", recommendation: "Use la lectura como diagnóstico descriptivo: contexto, muestra e incertidumbre deben acompañar cada comparación por jugadora o jugador." }
     }
   }
 };
@@ -507,6 +522,110 @@ const JOURNEYS = {
         meta: ["Margen", "Canal", "Plan ejecutivo"]
       }
     ]
+  },
+  "tennis-pressure": {
+    pt: [
+      {
+        step: "01",
+        kicker: "Brief",
+        title: "A pergunta não era quem saca melhor, mas o que muda sob pressão",
+        body: "O case compara o mesmo fundamento em dois contextos: pontos de saque disputados em break point e todos os demais pontos de saque. O objetivo é medir a variação sem transformar uma comparação descritiva em ranking ou causalidade.",
+        logic: "taxa sob pressão = pontos vencidos em break points / break points disputados\ntaxa nos demais pontos = demais pontos vencidos / demais pontos disputados\nvariação = taxa sob pressão − taxa nos demais pontos",
+        meta: ["Análise esportiva", "Pergunta comparável", "Pressão"]
+      },
+      {
+        step: "02",
+        kicker: "Métricas",
+        title: "Tamanho da amostra e incerteza vêm antes da comparação por jogador",
+        body: "As taxas foram calculadas com os pontos vencidos no numerador e os pontos disputados no denominador. Para cada jogador, uma faixa estimada de 95% acompanha o resultado, evitando tratar amostras pequenas como evidência precisa.",
+        logic: "proporção observada = pontos vencidos / pontos disputados\nfaixa estimada de 95% = proporção observada ± margem de incerteza\na margem diminui conforme a amostra cresce",
+        meta: ["Análise estatística", "Faixa de 95%", "Tamanho da amostra"]
+      },
+      {
+        step: "03",
+        kicker: "Diagnóstico",
+        title: "O padrão geral precisa sobreviver ao recorte por jogador",
+        body: "O gráfico posiciona cada jogador pela taxa nos demais saques e pela taxa em break points. A diagonal representa desempenho igual; distância, tamanho da amostra e faixa estimada ajudam a separar sinal consistente de oscilação.",
+        logic: "eixo horizontal = desempenho nos demais pontos\neixo vertical = desempenho sob pressão\nbolha maior = mais break points observados\nentra na tabela = faixa estimada de até 25 pontos percentuais",
+        meta: ["Comparação", "Amostra", "Incerteza"]
+      },
+      {
+        step: "04",
+        kicker: "Decisão",
+        title: "A conclusão é um diagnóstico de contexto, não um ranking de talento",
+        body: "A leitura final usa a diferença agregada como sinal de pressão e a análise por jogador como diagnóstico. Qualquer uso em scouting ou preparação de partida deve preservar superfície, circuito, período, tamanho da amostra e faixa estimada.",
+        logic: "uso responsável = contexto + taxa + tamanho da amostra + faixa estimada\nnão concluir = causalidade ou ranking sem ajuste",
+        meta: ["Leitura responsável", "Scouting", "Limites"]
+      }
+    ],
+    en: [
+      {
+        step: "01",
+        kicker: "Brief",
+        title: "The question was not who serves better, but what changes under pressure",
+        body: "The case compares the same skill in two contexts: serve points played on break point and all other serve points. The goal is to measure the change without turning a descriptive comparison into a ranking or causal claim.",
+        logic: "under-pressure rate = break points won / break points played\nother-point rate = other points won / other points played\nchange = under-pressure rate − other-point rate",
+        meta: ["Sports Analytics", "Comparable question", "Pressure"]
+      },
+      {
+        step: "02",
+        kicker: "Metrics",
+        title: "Sample size and uncertainty come before player comparison",
+        body: "Rates use points won as the numerator and points played as the denominator. For each player, an estimated 95% range accompanies the result so small samples are not treated as precise evidence.",
+        logic: "observed proportion = points won / points played\nestimated 95% range = observed proportion ± uncertainty margin\nthe margin narrows as the sample grows",
+        meta: ["Statistical analysis", "95% range", "Sample size"]
+      },
+      {
+        step: "03",
+        kicker: "Diagnosis",
+        title: "The overall pattern must survive the player-level cut",
+        body: "The chart places each player by the rate on other serve points and the break-point rate. The diagonal means equal performance; distance, sample size and estimated range separate a stable signal from variation.",
+        logic: "horizontal axis = performance on other points\nvertical axis = performance under pressure\nlarger bubble = more observed break points\nenters the table = estimated range up to 25 percentage points wide",
+        meta: ["Comparison", "Sample", "Uncertainty"]
+      },
+      {
+        step: "04",
+        kicker: "Decision",
+        title: "The conclusion is a context diagnosis, not a talent ranking",
+        body: "The final read uses the aggregate difference as a pressure signal and the player view as a diagnostic. Any scouting or match-preparation use must preserve surface, tour, period, sample size and estimated range.",
+        logic: "responsible use = context + rate + sample size + estimated range\ndo not claim = causality or unadjusted ranking",
+        meta: ["Responsible reading", "Scouting", "Limits"]
+      }
+    ],
+    es: [
+      {
+        step: "01",
+        kicker: "Brief",
+        title: "La pregunta no era quién saca mejor, sino qué cambia bajo presión",
+        body: "El caso compara el mismo fundamento en dos contextos: puntos de saque jugados en break point y los demás puntos de saque. El objetivo es medir la variación sin convertir una comparación descriptiva en ranking o causalidad.",
+        logic: "tasa bajo presión = break points ganados / break points jugados\ntasa en los demás puntos = otros puntos ganados / otros puntos jugados\nvariación = tasa bajo presión − tasa en los demás puntos",
+        meta: ["Análisis deportivo", "Pregunta comparable", "Presión"]
+      },
+      {
+        step: "02",
+        kicker: "Métricas",
+        title: "Tamaño de la muestra e incertidumbre vienen antes de comparar jugadores",
+        body: "Las tasas usan puntos ganados en el numerador y puntos jugados en el denominador. Para cada jugador, una franja estimada del 95% acompaña la tasa bajo presión para no tratar muestras pequeñas como evidencia precisa.",
+        logic: "proporción observada = puntos ganados / puntos jugados\nfranja estimada = proporción observada ± margen de incertidumbre\nel margen disminuye cuando aumenta la muestra",
+        meta: ["Análisis estadístico", "Franja estimada del 95%", "Tamaño de la muestra"]
+      },
+      {
+        step: "03",
+        kicker: "Diagnóstico",
+        title: "El patrón general debe sobrevivir al recorte por jugador",
+        body: "El gráfico posiciona a cada jugador por la tasa en otros saques y la tasa en break points. La diagonal indica rendimiento igual; distancia, tamaño de la muestra y franja estimada ayudan a separar señal de oscilación.",
+        logic: "eje horizontal = rendimiento en los demás puntos\neje vertical = rendimiento bajo presión\nburbuja mayor = más break points observados\nentra en la tabla = franja estimada de hasta 25 puntos porcentuales",
+        meta: ["Comparación", "Muestra", "Incertidumbre"]
+      },
+      {
+        step: "04",
+        kicker: "Decisión",
+        title: "La conclusión es un diagnóstico de contexto, no un ranking de talento",
+        body: "La lectura final usa la diferencia agregada como señal de presión y el análisis por jugador como diagnóstico. Cualquier uso en scouting o preparación debe preservar superficie, circuito, período, tamaño de la muestra y franja estimada.",
+        logic: "usar el resultado = contexto + tasa + tamaño de la muestra + franja estimada\nno concluir = causalidad o ranking sin ajuste",
+        meta: ["Lectura responsable", "Scouting", "Límites"]
+      }
+    ]
   }
 };
 
@@ -668,7 +787,8 @@ const UI = {
       rule: "Regra",
       month: "Mês",
       marginStatus: "Status margem",
-      targetStatus: "Status meta"
+      targetStatus: "Status meta",
+      tour: "Circuito", surface: "Piso", period: "Período"
     },
     all: "Todos",
     notesLabel: "",
@@ -820,7 +940,8 @@ const UI = {
       rule: "Rule",
       month: "Month",
       marginStatus: "Margin status",
-      targetStatus: "Target status"
+      targetStatus: "Target status",
+      tour: "Tour", surface: "Surface", period: "Period"
     },
     all: "All",
     notesLabel: "",
@@ -971,7 +1092,8 @@ const UI = {
       rule: "Regla",
       month: "Mes",
       marginStatus: "Estado margen",
-      targetStatus: "Estado meta"
+      targetStatus: "Estado meta",
+      tour: "Circuito", surface: "Superficie", period: "Período"
     },
     all: "Todos",
     notesLabel: "",
@@ -1130,7 +1252,14 @@ const LABELS = {
     "below-floor": "Below floor",
     "above-floor": "On/above floor",
     "below-target": "Below target",
-    "met-target": "Target met"
+    "met-target": "Target met",
+    "Clay": "Clay",
+    "Hard": "Hard",
+    "Grass": "Grass",
+    "Unknown": "Unknown",
+    "to2009": "Through 2009",
+    "2010s": "2010–2019",
+    "2020s": "2020–present"
   },
   es: {
     "Abertura do app": "Apertura de app",
@@ -1160,7 +1289,14 @@ const LABELS = {
     "below-floor": "Debajo del piso",
     "above-floor": "En/arriba del piso",
     "below-target": "Debajo de meta",
-    "met-target": "Meta cumplida"
+    "met-target": "Meta cumplida",
+    "Clay": "Tierra batida",
+    "Hard": "Dura",
+    "Grass": "Hierba",
+    "Unknown": "Desconocido",
+    "to2009": "Hasta 2009",
+    "2010s": "2010–2019",
+    "2020s": "2020–actualidad"
   },
   pt: {
     "Eletronicos": "Eletrônicos",
@@ -1175,7 +1311,14 @@ const LABELS = {
     "below-floor": "Abaixo do piso",
     "above-floor": "No/acima do piso",
     "below-target": "Abaixo da meta",
-    "met-target": "Meta batida"
+    "met-target": "Meta batida",
+    "Clay": "Saibro",
+    "Hard": "Dura",
+    "Grass": "Grama",
+    "Unknown": "Desconhecido",
+    "to2009": "Até 2009",
+    "2010s": "2010–2019",
+    "2020s": "2020–atual"
   }
 };
 
@@ -1194,7 +1337,10 @@ const state = {
     rule: params.get("rule") || "all",
     month: params.get("month") || "all",
     marginStatus: params.get("marginStatus") || "all",
-    targetStatus: params.get("targetStatus") || "all"
+    targetStatus: params.get("targetStatus") || "all",
+    tour: params.get("tour") || "all",
+    surface: params.get("surface") || "all",
+    period: params.get("period") || "all"
   }
 };
 
@@ -1395,7 +1541,8 @@ const heroText = () => {
         readyRecords: "Registros Ready",
         netRevenue: "Receita líquida",
         grossMargin: "Margem bruta",
-        deliveredOrders: "Pedidos entregues"
+        deliveredOrders: "Pedidos entregues",
+        bpRate: "Break points salvos", pressureDelta: "Variação", bpSample: "Break points analisados"
       },
       playzone: {
         problem: "A jornada gera interesse, mas pouca reserva confirmada.",
@@ -1416,6 +1563,11 @@ const heroText = () => {
         problem: "Receita, margem e meta precisam ser lidas juntas para evitar crescimento sem rentabilidade.",
         diagnosis: "A operação está aprovada, mas categorias e canais ainda explicam pressão de margem.",
         decision: "Usar metas por canal e alertas de margem para proteger rentabilidade no crescimento."
+      },
+      tennis: {
+        problem: "Ordenar jogadores pela taxa de saque sob pressão pode sugerir quem é melhor, mesmo que alguns tenham muito menos pontos analisados.",
+        diagnosis: "A taxa de pontos de saque vencidos é menor nos break points, mas contexto e intervalo mudam a leitura individual.",
+        decision: "Usar o padrão como diagnóstico descritivo e exigir denominador e incerteza em qualquer recorte por jogador."
       }
     },
     en: {
@@ -1435,7 +1587,8 @@ const heroText = () => {
         readyRecords: "Ready records",
         netRevenue: "Net revenue",
         grossMargin: "Gross margin",
-        deliveredOrders: "Delivered orders"
+        deliveredOrders: "Delivered orders",
+        bpRate: "Break points saved", pressureDelta: "Change under pressure", bpSample: "Break points analyzed"
       },
       playzone: {
         problem: "The journey creates intent, but few users reach confirmed booking.",
@@ -1456,6 +1609,11 @@ const heroText = () => {
         problem: "Revenue, margin and targets need to be read together to avoid unprofitable growth.",
         diagnosis: "The operation is approved, but categories and channels still explain margin pressure.",
         decision: "Use channel targets and margin alerts to protect profitability while growing."
+      },
+      tennis: {
+        problem: "Ordering players by serve rate under pressure can imply who is better, even when some have far fewer points analyzed.",
+        diagnosis: "Serve-point win rate is lower on break points, but context and interval precision change the player-level read.",
+        decision: "Use the pattern as a descriptive diagnostic and require denominators and uncertainty for every player cut."
       }
     },
     es: {
@@ -1475,7 +1633,8 @@ const heroText = () => {
         readyRecords: "Registros Ready",
         netRevenue: "Ingreso neto",
         grossMargin: "Margen bruto",
-        deliveredOrders: "Pedidos entregados"
+        deliveredOrders: "Pedidos entregados",
+        bpRate: "Break points salvados", pressureDelta: "Variación bajo presión", bpSample: "Break points analizados"
       },
       playzone: {
         problem: "La jornada genera intención, pero pocas personas llegan a reserva confirmada.",
@@ -1496,6 +1655,11 @@ const heroText = () => {
         problem: "Ingresos, margen y metas deben leerse juntos para evitar crecimiento sin rentabilidad.",
         diagnosis: "La operación está aprobada, pero categorías y canales todavía explican presión de margen.",
         decision: "Usar metas por canal y alertas de margen para proteger rentabilidad durante el crecimiento."
+      },
+      tennis: {
+        problem: "Ordenar a los jugadores por su tasa de saque bajo presión puede sugerir quién es mejor, aunque algunos tengan muchos menos puntos analizados.",
+        diagnosis: "La tasa de puntos de saque ganados es menor en break points, pero el contexto y el intervalo cambian la lectura individual.",
+        decision: "Usar el patrón como diagnóstico descriptivo y exigir denominador e incertidumbre en cada recorte por jugador."
       }
     }
   };
@@ -1626,6 +1790,17 @@ const heroEvidence = (data) => {
       { label: copyText.warnings, value: formatInt(kpi.warning_failures), note: copyText.monitored }
     ];
   }
+  if (state.caseId === "tennis-pressure") {
+    const kpi = data.kpis?.[0] || {};
+    const t = ({ pt: { matches: "Partidas", serve: "Pontos de saque", bp: "Break points", players: "Jogadores analisados", sample: "base analisada", points: "pontos", pressure: "sob pressão", compared: "comparação individual" }, en: { matches: "Matches", serve: "Serve points", bp: "Break points", players: "Players analyzed", sample: "reviewed base", points: "points", pressure: "under pressure", compared: "player comparison" }, es: { matches: "Partidos", serve: "Puntos de saque", bp: "Break points", players: "Jugadores analizados", sample: "base analizada", points: "puntos", pressure: "bajo presión", compared: "comparación individual" } })[state.lang];
+    const playerCount = new Set((data.players || []).map((row) => row.player)).size;
+    return [
+      { label: t.matches, value: formatInt(kpi.matches), note: t.sample },
+      { label: t.serve, value: compact(kpi.serve_points), note: t.points },
+      { label: t.bp, value: compact(kpi.bp_serve_points), note: t.pressure },
+      { label: t.players, value: formatInt(playerCount), note: t.compared }
+    ];
+  }
   const kpi = data.kpis || {};
   return [
     { label: copyText.revenue, value: formatMoney(kpi.net_revenue), note: copyText.sample },
@@ -1639,7 +1814,7 @@ const heroNarrative = () => {
   const data = datasets[state.caseId] || {};
   const text = heroText();
   const signal = text.signals;
-  const caseKey = state.caseId === "ai-quality" ? "ai" : state.caseId;
+  const caseKey = state.caseId === "ai-quality" ? "ai" : state.caseId === "tennis-pressure" ? "tennis" : state.caseId;
   const story = text[caseKey] || text.playzone;
   let signals = [];
   if (state.caseId === "playzone") {
@@ -1666,6 +1841,13 @@ const heroNarrative = () => {
       { label: signal.qualityScore, value: formatPercent(data.kpis?.quality_score) },
       { label: signal.criticalFailures, value: formatInt(data.kpis?.critical_failures), alert: true },
       { label: signal.readyRecords, value: formatInt(data.kpis?.ready_orders) }
+    ];
+  } else if (state.caseId === "tennis-pressure") {
+    const kpi = data.kpis?.[0] || {};
+    signals = [
+      { label: signal.bpRate, value: formatPercent(kpi.bp_serve_win_rate) },
+      { label: signal.pressureDelta, value: formatPercent(kpi.pressure_delta), alert: true },
+      { label: signal.bpSample, value: formatInt(kpi.bp_serve_points) }
     ];
   } else {
     signals = [
@@ -1696,7 +1878,7 @@ const renderIntro = () => {
   $("#repo-link").href = def.repo;
   intro.innerHTML = `
     <div class="intro-copy">
-      <div class="case-tags">${def.tags.map((tag) => `<span>${escapeHtml(tag)}</span>`).join("")}</div>
+      <div class="case-tags">${(Array.isArray(def.tags) ? def.tags : (def.tags[state.lang] || def.tags.pt)).map((tag) => `<span>${escapeHtml(tag)}</span>`).join("")}</div>
       <h2>${escapeHtml(c.title)}</h2>
       <p>${escapeHtml(c.description)}</p>
     </div>
@@ -1767,6 +1949,11 @@ const filterOptions = (key) => {
       month: unique(data.monthly_performance, "order_month"),
       marginStatus: retailMarginStatusOptions(),
       targetStatus: retailTargetStatusOptions()
+    },
+    "tennis-pressure": {
+      tour: unique(data.players, "tour"),
+      surface: unique(data.players, "surface"),
+      period: unique(data.players, "period")
     }
   };
   return sources[state.caseId]?.[key] || [];
@@ -1779,6 +1966,7 @@ const renderControls = () => {
   if (state.caseId === "ai-quality") html = control("result", aiResultOptions()) + control("version", unique(data.prompt_version_performance, "prompt_version")) + control("useCase", unique(data.quality_by_use_case, "use_case")) + control("severity", unique(data.issue_distribution, "severity")) + control("issue", unique(data.issue_distribution, "issue_type"));
   if (state.caseId === "pipeline") html = control("source", unique(data.source_quality, "source_system")) + control("severity", unique(data.failed_rules, "severity")) + control("issue", pipelineIssueGroups());
   if (state.caseId === "retail") html = control("channel", unique(data.channel_performance, "sales_channel")) + control("category", unique(data.category_performance, "category")) + control("month", unique(data.monthly_performance, "order_month")) + control("marginStatus", retailMarginStatusOptions()) + control("targetStatus", retailTargetStatusOptions());
+  if (state.caseId === "tennis-pressure") html = control("tour", unique(data.players, "tour")) + control("surface", unique(data.players, "surface")) + control("period", unique(data.players, "period"));
   $("#controls").innerHTML = html;
   bindCustomSelects();
   renderFilterBar();
@@ -1789,6 +1977,7 @@ const currentControlKeys = () => {
   if (state.caseId === "ai-quality") return ["result", "version", "useCase", "severity", "issue"];
   if (state.caseId === "pipeline") return ["source", "severity", "issue", "category"];
   if (state.caseId === "retail") return ["channel", "category", "month", "marginStatus", "targetStatus"];
+  if (state.caseId === "tennis-pressure") return ["tour", "surface", "period"];
   return [];
 };
 
@@ -2233,12 +2422,76 @@ const tableCard = (title, subtitle, columns, rows, wide = false, template = "1.4
       <div class="table-row is-head" style="--cols:${template}">
         ${columns.map((col) => `<span>${escapeHtml(col)}</span>`).join("")}
       </div>
-      ${rows.map((row) => `
-        <div class="table-row" style="--cols:${template}">
+      ${rows.map((row, rowIndex) => `
+        <div class="table-row" style="--cols:${template};--row-delay:${rowIndex * 55}ms">
           ${row.map((cell, index) => index === 0 ? `<strong>${escapeHtml(cell)}</strong>` : `<span>${escapeHtml(cell)}</span>`).join("")}
         </div>
       `).join("")}
     </div>
+  </article>
+`;
+
+const tennisPlayerInitials = (player) => {
+  const parts = String(player || "").trim().split(/\s+/).filter(Boolean);
+  return `${parts[0]?.[0] || ""}${parts.length > 1 ? parts.at(-1)[0] : ""}`.toUpperCase();
+};
+
+const tennisCountryFlag = (countryCode) => {
+  const code = String(countryCode || "").toUpperCase();
+  return /^[A-Z]{2}$/.test(code) ? `assets/tennis-players/flags/${code.toLowerCase()}.svg` : "";
+};
+
+const tennisCountryName = (countryCode) => {
+  try {
+    return new Intl.DisplayNames([locale()], { type: "region" }).of(countryCode) || countryCode;
+  } catch {
+    return countryCode;
+  }
+};
+
+const tennisPlayerTableHeader = (label, index) => {
+  const breakAfter = locale().startsWith("pt")
+    ? { 1: 2, 2: 3, 3: 2, 4: 2 }
+    : { 1: 2, 2: 2, 3: 2, 4: 1 };
+  const words = String(label || "").trim().split(/\s+/);
+  const splitAt = breakAfter[index];
+  if (!splitAt || words.length <= splitAt) return `<span>${escapeHtml(label)}</span>`;
+  return `<span>${escapeHtml(words.slice(0, splitAt).join(" "))}<br>${escapeHtml(words.slice(splitAt).join(" "))}</span>`;
+};
+
+const tennisPlayerTable = (title, subtitle, columns, rows, photoCredits) => `
+  <article class="table-card is-wide case-table-card tennis-player-table">
+    ${cardHead(title, subtitle)}
+    <div class="data-table">
+      <div class="table-row is-head" style="--cols:1.5fr .8fr .8fr .8fr 1fr .6fr">
+        ${columns.map((col, index) => tennisPlayerTableHeader(col, index)).join("")}
+      </div>
+      ${rows.map((row, rowIndex) => {
+        const avatar = TENNIS_PLAYER_AVATARS[row.player];
+        const source = avatar?.file ? `assets/tennis-players/${encodeURIComponent(avatar.file)}` : "";
+        const countryFlag = tennisCountryFlag(avatar?.countryCode);
+        const countryName = countryFlag ? tennisCountryName(avatar.countryCode) : "";
+        return `
+          <div class="table-row" style="--cols:1.5fr .8fr .8fr .8fr 1fr .6fr;--row-delay:${rowIndex * 55}ms">
+            <div class="tennis-player-cell">
+              <span class="tennis-player-avatar" aria-hidden="true">
+                <span>${escapeHtml(tennisPlayerInitials(row.player))}</span>
+                ${source ? `<img src="${source}" alt="" width="42" height="42" loading="lazy" decoding="async" onerror="this.remove()">` : ""}
+              </span>
+              <span class="tennis-player-identity">
+                <strong>${escapeHtml(row.player)}</strong>
+                ${countryFlag ? `<img class="tennis-player-flag" src="${countryFlag}" alt="${escapeHtml(countryName)}" title="${escapeHtml(countryName)}" loading="lazy">` : ""}
+              </span>
+            </div>
+            <span>${escapeHtml(row.bp)}</span>
+            <span>${escapeHtml(row.non)}</span>
+            <span>${escapeHtml(row.delta)}</span>
+            <span>${escapeHtml(row.ci)}</span>
+            <span>${escapeHtml(row.sample)}</span>
+          </div>`;
+      }).join("")}
+    </div>
+    <a class="tennis-photo-credits" href="assets/tennis-players/credits.html" target="_blank" rel="noreferrer">${escapeHtml(photoCredits)}</a>
   </article>
 `;
 
@@ -3717,6 +3970,467 @@ const renderRetail = (data) => {
   `;
 };
 
+const tennisWilson = (won, points) => {
+  if (!points) return [null, null];
+  const z = 1.96, p = won / points, den = 1 + z * z / points;
+  const center = (p + z * z / (2 * points)) / den;
+  const margin = z * Math.sqrt((p * (1 - p) + z * z / (4 * points)) / points) / den;
+  return [Math.max(0, center - margin), Math.min(1, center + margin)];
+};
+
+const tennisResultReadout = (context, stage = 0) => {
+  const { bpPts, bpWon, nonPts, nonWon, bpRate, nonRate, players, ranked, tour, surface, period, source } = context;
+  const delta = bpRate - nonRate;
+  const deltaPp = formatNumber(delta * 100, { minimumFractionDigits: 1, maximumFractionDigits: 1, signDisplay: "exceptZero" });
+  const eligible = players.filter((row) => row.ciWidth <= .25);
+  const largestSample = [...players].sort((a, b) => b.bpPts - a.bpPts)[0] || {};
+  const largestDrop = [...ranked].sort((a, b) => (a.bpRate - a.nonRate) - (b.bpRate - b.nonRate))[0] || {};
+  const largestGain = [...ranked].sort((a, b) => (b.bpRate - b.nonRate) - (a.bpRate - a.nonRate))[0] || {};
+  const filterText = [tour, surface, period].map((value) => value === "all" ? copy().all : label(value)).join(" | ");
+  const playerDelta = (row) => formatNumber((Number(row.bpRate || 0) - Number(row.nonRate || 0)) * 100, { minimumFractionDigits: 1, maximumFractionDigits: 1, signDisplay: "exceptZero" });
+  const texts = {
+    pt: [
+      [
+        `Em break points, ${formatInt(bpWon)} de ${formatInt(bpPts)} pontos de saque foram vencidos: ${formatPercent(bpRate)}. Nos demais saques, foram ${formatInt(nonWon)} de ${formatInt(nonPts)}: ${formatPercent(nonRate)}.`,
+        `A variação sob pressão é ${formatPercent(bpRate)} − ${formatPercent(nonRate)} = ${deltaPp} pontos percentuais. O sinal negativo indica desempenho agregado menor em break points.`,
+        `O recorte ativo é ${filterText}; taxas e denominadores são recalculados quando circuito, piso ou período mudam.`
+      ],
+      [
+        `A comparação reúne ${formatInt(players.length)} jogadores no recorte; ${formatInt(eligible.length)} têm uma faixa estimada de 95% com largura máxima de 25 pontos percentuais e entram na leitura mais controlada.`,
+        `${largestSample.player || "O maior denominador"} tem a maior amostra individual, com ${formatInt(largestSample.bpPts || 0)} break points observados. A bolha maior mostra essa diferença de precisão.`,
+        `Pontos acima da diagonal tiveram taxa maior em break points; pontos abaixo tiveram taxa menor. A posição mostra direção, não prova que a pressão causou a diferença.`
+      ],
+      [
+        `A tabela mantém ${formatInt(ranked.length)} jogadores com intervalo suficientemente estreito e exibe taxa, diferença, intervalo e denominador na mesma linha.`,
+        `${largestDrop.player || "A maior queda"} apresenta a maior variação negativa desse grupo (${playerDelta(largestDrop)} pontos percentuais); ${largestGain.player || "o maior ganho"} apresenta a maior positiva (${playerDelta(largestGain)} pontos percentuais).`,
+        `Esses extremos continuam sendo diagnósticos descritivos: superfície, adversário, placar e composição da amostra podem mudar a leitura.`
+      ],
+      [
+        `O sinal agregado é de ${deltaPp} pontos percentuais sob pressão, mas a dispersão entre jogadores impede transformar o resultado em uma regra universal.`,
+        `Para scouting, a unidade mínima de leitura é jogador + contexto + taxa + tamanho da amostra + faixa estimada de 95%. Sem esse conjunto, a comparação fica mais precisa na aparência do que nos dados.`,
+        `${source}`
+      ]
+    ],
+    en: [
+      [
+        `On break points, ${formatInt(bpWon)} of ${formatInt(bpPts)} serve points were won: ${formatPercent(bpRate)}. On other serve points, ${formatInt(nonWon)} of ${formatInt(nonPts)} were won: ${formatPercent(nonRate)}.`,
+        `The change under pressure is ${formatPercent(bpRate)} − ${formatPercent(nonRate)} = ${deltaPp} percentage points. A negative sign means lower aggregate performance on break points.`,
+        `The active slice is ${filterText}; rates and denominators are recalculated when tour, surface or period changes.`
+      ],
+      [
+        `The comparison contains ${formatInt(players.length)} players; ${formatInt(eligible.length)} have an estimated 95% range no wider than 25 percentage points and enter the more controlled read.`,
+        `${largestSample.player || "The largest denominator"} has the largest individual sample, with ${formatInt(largestSample.bpPts || 0)} observed break points. Bubble size exposes that precision difference.`,
+        `Dots above the diagonal performed better on break points; dots below performed worse. Position shows direction, not proof that pressure caused the difference.`
+      ],
+      [
+        `The table retains ${formatInt(ranked.length)} players with a sufficiently narrow interval and keeps rate, delta, interval and denominator on the same row.`,
+        `${largestDrop.player || "The largest drop"} has the largest negative change in this group (${playerDelta(largestDrop)} percentage points); ${largestGain.player || "the largest gain"} has the largest positive one (${playerDelta(largestGain)} percentage points).`,
+        `These extremes remain descriptive diagnostics: surface, opponent, score and sample composition may change the read.`
+      ],
+      [
+        `The aggregate pressure signal is ${deltaPp} percentage points, but player dispersion prevents turning it into a universal rule.`,
+        `For scouting, the minimum reading unit is player + context + rate + sample size + estimated 95% range. Without that set, the comparison looks more precise than the data support.`,
+        `${source}`
+      ]
+    ],
+    es: [
+      [
+        `En break points, se ganaron ${formatInt(bpWon)} de ${formatInt(bpPts)} puntos de saque: ${formatPercent(bpRate)}. En los demás saques, fueron ${formatInt(nonWon)} de ${formatInt(nonPts)}: ${formatPercent(nonRate)}.`,
+        `La variación bajo presión es ${formatPercent(bpRate)} − ${formatPercent(nonRate)} = ${deltaPp} puntos porcentuales. El signo negativo indica menor rendimiento agregado en break points.`,
+        `El recorte activo es ${filterText}; tasas y denominadores se recalculan al cambiar circuito, superficie o período.`
+      ],
+      [
+        `La comparación reúne ${formatInt(players.length)} jugadores; ${formatInt(eligible.length)} tienen una franja estimada del 95% con un ancho máximo de 25 puntos porcentuales y entran en la lectura más controlada.`,
+        `${largestSample.player || "El mayor denominador"} tiene la mayor muestra individual, con ${formatInt(largestSample.bpPts || 0)} break points observados. La burbuja muestra esa diferencia de precisión.`,
+        `Los puntos sobre la diagonal rindieron mejor en break points; los puntos debajo rindieron peor. La posición muestra dirección, no causalidad.`
+      ],
+      [
+        `La tabla mantiene ${formatInt(ranked.length)} jugadores con intervalo suficientemente estrecho y muestra tasa, diferencia, intervalo y denominador en la misma fila.`,
+        `${largestDrop.player || "La mayor caída"} presenta la mayor variación negativa del grupo (${playerDelta(largestDrop)} puntos porcentuales); ${largestGain.player || "la mayor mejora"} presenta la mayor positiva (${playerDelta(largestGain)} puntos porcentuales).`,
+        `Estos extremos siguen siendo diagnósticos descriptivos: superficie, rival, marcador y composición de la muestra pueden cambiar la lectura.`
+      ],
+      [
+        `La señal agregada es de ${deltaPp} puntos porcentuales bajo presión, pero la dispersión entre jugadores impide convertirla en regla universal.`,
+        `Para scouting, la unidad mínima es jugador + contexto + tasa + tamaño de la muestra + franja estimada del 95%. Sin ese conjunto, la comparación parece más precisa de lo que permiten los datos.`,
+        `${source}`
+      ]
+    ]
+  };
+  const readings = (texts[state.lang] || texts.pt)[stage] || (texts[state.lang] || texts.pt)[0];
+  return resultReadout({ readings });
+};
+
+const tennisScatter = (rows, strings) => {
+  const good = rows.filter((row) => row.bpRate != null && row.nonRate != null && row.ciWidth <= 0.25);
+  if (!good.length) return `<div class="empty-state">${escapeHtml(strings.empty)}</div>`;
+  const x = (value) => 58 + value * 600;
+  const y = (value) => 382 - value * 330;
+  const ticks = [0, .2, .4, .6, .8, 1];
+  const gridTicks = [.2, .4, .6, .8];
+  return `<div class="tennis-scatter-shell" data-tennis-zoom data-delta-unit="${escapeHtml(strings.deltaUnit)}">
+    <div class="tennis-scatter-toolbar" role="toolbar" aria-label="${escapeHtml(strings.zoomTools)}">
+      <button class="tennis-zoom-button" type="button" data-tennis-zoom-out aria-label="${escapeHtml(strings.zoomOut)}">−</button>
+      <output class="tennis-zoom-status" data-tennis-zoom-status aria-live="polite">100%</output>
+      <button class="tennis-zoom-button" type="button" data-tennis-zoom-in aria-label="${escapeHtml(strings.zoomIn)}">+</button>
+      <button class="tennis-zoom-button" type="button" data-tennis-zoom-reset>${escapeHtml(strings.zoomReset)}</button>
+    </div>
+    <p class="tennis-zoom-hint" id="tennis-zoom-hint">${escapeHtml(strings.zoomHint)}</p>
+    <ul class="tennis-reading-key" id="tennis-reading-key" aria-label="${escapeHtml(strings.scatter)}">
+      <li><span class="tennis-key-symbol is-axis" aria-hidden="true">X</span><span>${escapeHtml(strings.keyX)}</span></li>
+      <li><span class="tennis-key-symbol is-axis" aria-hidden="true">Y</span><span>${escapeHtml(strings.keyY)}</span></li>
+      <li><span class="tennis-key-symbol is-diagonal" aria-hidden="true"></span><span>${escapeHtml(strings.keyEqual)}</span></li>
+      <li><span class="tennis-key-symbol is-bubble" aria-hidden="true"></span><span>${escapeHtml(strings.keySize)}</span></li>
+    </ul>
+    <div class="tennis-scatter-stage">
+      <aside class="tennis-detail-card" data-tennis-detail role="region" aria-live="polite" aria-label="${escapeHtml(strings.playerDetails)}" hidden>
+        <div class="tennis-detail-head">
+          <div class="tennis-detail-player">
+            <span class="tennis-player-avatar" aria-hidden="true">
+              <span data-tennis-detail-initials></span>
+              <img data-tennis-detail-avatar src="" alt="" width="42" height="42" decoding="async" hidden>
+            </span>
+            <span class="tennis-player-identity">
+              <strong data-tennis-detail-player></strong>
+              <img class="tennis-player-flag" data-tennis-detail-flag src="" alt="" hidden>
+            </span>
+          </div>
+          <button class="tennis-detail-close" type="button" data-tennis-detail-close aria-label="${escapeHtml(strings.closeDetails)}">×</button>
+        </div>
+        <dl class="tennis-detail-grid">
+          <dt>${escapeHtml(strings.bp)}</dt><dd data-tennis-detail-bp></dd>
+          <dt>${escapeHtml(strings.non)}</dt><dd data-tennis-detail-non></dd>
+          <dt>${escapeHtml(strings.delta)}</dt><dd data-tennis-detail-delta></dd>
+          <dt>${escapeHtml(strings.ci)}</dt><dd data-tennis-detail-ci></dd>
+          <dt>${escapeHtml(strings.bpSample)}</dt><dd data-tennis-detail-sample></dd>
+        </dl>
+        <p class="tennis-detail-glossary">${escapeHtml(strings.detailGlossary)}</p>
+      </aside>
+      <svg class="tennis-scatter" viewBox="0 0 720 440" role="img" tabindex="0" aria-label="${escapeHtml(strings.scatter)}" aria-describedby="tennis-zoom-hint tennis-reading-key">
+        <defs><clipPath id="tennis-plot-clip"><rect x="58" y="52" width="600" height="330"></rect></clipPath></defs>
+        <g aria-hidden="true">
+          ${gridTicks.map((tick) => `<line class="tennis-grid" x1="${x(tick)}" y1="52" x2="${x(tick)}" y2="382"></line><line class="tennis-grid" x1="58" y1="${y(tick)}" x2="658" y2="${y(tick)}"></line>`).join("")}
+        </g>
+        <line class="tennis-axis" x1="58" y1="382" x2="658" y2="382"></line>
+        <line class="tennis-axis" x1="58" y1="52" x2="58" y2="382"></line>
+        <g aria-hidden="true">
+          ${ticks.map((tick) => `<line class="tennis-axis" x1="${x(tick)}" y1="382" x2="${x(tick)}" y2="388"></line><text class="tennis-tick" data-tennis-x-tick="${x(tick)}" x="${x(tick)}" y="405" text-anchor="middle">${formatPercent(tick, 0)}</text>`).join("")}
+          ${ticks.map((tick) => `<line class="tennis-axis" x1="52" y1="${y(tick)}" x2="58" y2="${y(tick)}"></line><text class="tennis-tick" data-tennis-y-tick="${y(tick)}" x="54" y="${y(tick)}" text-anchor="end" dominant-baseline="middle">${formatPercent(tick, 0)}</text>`).join("")}
+        </g>
+        <g class="tennis-zoom-layer" clip-path="url(#tennis-plot-clip)">
+          <line class="tennis-diagonal" x1="${x(.35)}" y1="${y(.35)}" x2="${x(.85)}" y2="${y(.85)}"></line>
+          ${good.map((row, index) => { const radius = Math.max(3, Math.min(9, Math.sqrt(row.bpPts) / 2)); const dotLabel = `${row.player}: ${strings.bp} ${formatPercent(row.bpRate)}; ${strings.non} ${formatPercent(row.nonRate)}; ${strings.bpSample}: ${formatInt(row.bpPts)}`; return `<circle class="tennis-dot" style="--tennis-delay:${(index % 12) * 14}ms" tabindex="0" role="button" aria-pressed="false" aria-label="${escapeHtml(dotLabel)}" cx="${x(row.nonRate)}" cy="${y(row.bpRate)}" r="${radius}" data-r="${radius}" data-player="${escapeHtml(row.player)}" data-bp="${row.bpRate}" data-non="${row.nonRate}" data-delta="${row.bpRate - row.nonRate}" data-ci-low="${row.ciLow}" data-ci-high="${row.ciHigh}" data-sample="${row.bpPts}"><title>${escapeHtml(dotLabel)}</title></circle>`; }).join("")}
+        </g>
+        <text class="tennis-axis-label is-x" x="358" y="430" text-anchor="middle">${escapeHtml(strings.axisX)}</text>
+        <text class="tennis-axis-label is-y" x="12" y="217" transform="rotate(-90 12 217)" text-anchor="middle">${escapeHtml(strings.axisY)}</text>
+      </svg>
+    </div>
+  </div>`;
+};
+
+const renderTennisPressure = (data) => {
+  const strings = ({
+    pt: { overview: "Visão geral", players: "Comparação por jogador", playersLabel: "jogadores", method: "Metodologia e limites", bp: "Break points salvos", non: "Demais pontos de saque vencidos", delta: "Variação sob pressão", sample: "Break points analisados", scatter: "Desempenho do saque por jogador", scatterSubtitle: "Sob pressão × demais pontos | faixa estimada de 95%", components: "Componentes do saque", componentsSubtitle: "Sob pressão × demais pontos", table: "Jogadores com mais dados para comparação", tableSubtitle: "Até 20 jogadores, priorizando quem tem mais break points analisados e resultados menos incertos", empty: "Nenhum dado atende aos filtros.", caveat: "Comparação observacional e descritiva. As amostras por jogador e contexto são desiguais; as faixas estimadas acompanham a leitura e não sustentam causalidade. Saques não devolvidos ficaram fora da comparação porque as tabelas de origem não reconciliam esse componente em 2.136 linhas.", source: "Fonte: Tennis Abstract Match Charting Project, CC BY-NC-SA 4.0. Uso não comercial." },
+    en: { overview: "Overview", players: "Player comparison", playersLabel: "players", method: "Methodology and limits", bp: "Break points saved", non: "Other serve points won", delta: "Change under pressure", sample: "Break points analyzed", scatter: "Serve performance by player", scatterSubtitle: "Under pressure × other points | estimated 95% range", components: "Serve components", componentsSubtitle: "Under pressure × other points", table: "Players with more data for comparison", tableSubtitle: "Up to 20 players, prioritizing those with more break points analyzed and less uncertain results", empty: "No data matches the filters.", caveat: "Observational, descriptive comparison. Samples differ by player and context; estimated ranges belong with the result and do not support causal claims. Unreturned serves are omitted because source tables do not reconcile that component in 2,136 rows.", source: "Source: Tennis Abstract Match Charting Project, CC BY-NC-SA 4.0. Non-commercial use." },
+    es: { overview: "Vista general", players: "Comparación por jugador", playersLabel: "jugadores", method: "Metodología y límites", bp: "Break points salvados", non: "Otros puntos de saque ganados", delta: "Variación bajo presión", sample: "Break points analizados", scatter: "Rendimiento del saque por jugador", scatterSubtitle: "Bajo presión × demás puntos | franja estimada del 95%", components: "Componentes del saque", componentsSubtitle: "Bajo presión × demás puntos", table: "Jugadores con más datos para comparar", tableSubtitle: "Hasta 20 jugadores, priorizando a quienes tienen más break points analizados y resultados menos inciertos", empty: "Ningún dato coincide con los filtros.", caveat: "Comparación observacional y descritiva. Las muestras cambian por jugador y contexto; las franjas estimadas acompañan el resultado y no permiten afirmaciones causales. Los saques no devueltos se omiten porque las tablas de origen no reconcilian ese componente en 2.136 filas.", source: "Fuente: Tennis Abstract Match Charting Project, CC BY-NC-SA 4.0. Uso no comercial." }
+  })[state.lang] || {};
+  Object.assign(strings, ({
+    pt: { zoomTools: "Controles de zoom do gráfico", zoomIn: "Ampliar gráfico", zoomOut: "Reduzir gráfico", zoomReset: "Restaurar", zoomHint: "Selecione uma bolinha. Zoom: +/−, Ctrl + roda ou pinça; arraste para mover.", playerDetails: "Detalhes do jogador", closeDetails: "Fechar detalhes", ci: "Faixa estimada de 95%", bpSample: "Break points analisados", detailGlossary: "A variação é apresentada em pontos percentuais.", glossaryCode: "Faixa estimada de 95% = margem de incerteza da taxa\nPontos percentuais = diferença direta entre duas taxas", deltaUnit: "pontos percentuais", axisX: "Pontos vencidos nos demais saques (%)", axisY: "Break points salvos (%)", keyX: "Eixo X: pontos vencidos nos demais saques", keyY: "Eixo Y: break points salvos", keyEqual: "Tracejado: desempenho igual; acima da linha = melhor sob pressão", keySize: "Bolha maior: mais break points observados", pressureContext: "Sob pressão", otherContext: "Demais pontos", deltaNote: "Sob pressão − demais pontos", firstServe: "Primeiro saque em quadra", ace: "Ace", doubleFault: "Dupla falta", playerLabel: "Jogador", sampleHeader: "Amostra", photoCredits: "Fotos: créditos e licenças" },
+    en: { zoomTools: "Chart zoom controls", zoomIn: "Zoom in", zoomOut: "Zoom out", zoomReset: "Reset", zoomHint: "Select a dot. Zoom: +/−, Ctrl + wheel, or pinch; drag to move.", playerDetails: "Player details", closeDetails: "Close details", ci: "Estimated 95% range", bpSample: "Break points analyzed", detailGlossary: "The change is shown in percentage points.", glossaryCode: "Estimated 95% range = uncertainty around the rate\nPercentage points = direct difference between two rates", deltaUnit: "percentage points", axisX: "Other serve points won (%)", axisY: "Break points saved (%)", keyX: "X axis: other serve points won", keyY: "Y axis: break points saved", keyEqual: "Dashed: equal performance; above the line = better under pressure", keySize: "Larger bubble: more break points observed", pressureContext: "Under pressure", otherContext: "Other points", deltaNote: "Under pressure − other points", firstServe: "First serve in", ace: "Ace", doubleFault: "Double fault", playerLabel: "Player", sampleHeader: "Sample", photoCredits: "Photos: credits and licenses" },
+    es: { zoomTools: "Controles de zoom del gráfico", zoomIn: "Ampliar gráfico", zoomOut: "Reducir gráfico", zoomReset: "Restaurar", zoomHint: "Selecciona un punto. Zoom: +/−, Ctrl + rueda o pellizco; arrastra para mover.", playerDetails: "Detalles del jugador", closeDetails: "Cerrar detalles", ci: "Franja estimada del 95%", bpSample: "Break points analizados", detailGlossary: "La variación se presenta en puntos porcentuales.", glossaryCode: "Franja estimada del 95% = incertidumbre alrededor de la tasa\nPuntos porcentuales = diferencia directa entre dos tasas", deltaUnit: "puntos porcentuales", axisX: "Otros puntos de saque ganados (%)", axisY: "Break points salvados (%)", keyX: "Eje X: otros puntos de saque ganados", keyY: "Eje Y: break points salvados", keyEqual: "Discontinua: rendimiento igual; encima = mejor bajo presión", keySize: "Burbuja mayor: más break points observados", pressureContext: "Bajo presión", otherContext: "Demás puntos", deltaNote: "Bajo presión − demás puntos", firstServe: "Primer saque dentro", ace: "Ace", doubleFault: "Doble falta", playerLabel: "Jugador", sampleHeader: "Muestra", photoCredits: "Fotos: créditos y licencias" }
+  })[state.lang] || {});
+  strings.source = ({
+    pt: "Fonte dos dados: GitHub @JeffSackmann/tennis_MatchChartingProject | CC BY-NC-SA 4.0 | uso não comercial.",
+    en: "Data source: GitHub @JeffSackmann/tennis_MatchChartingProject | CC BY-NC-SA 4.0 | non-commercial use.",
+    es: "Fuente de los datos: GitHub @JeffSackmann/tennis_MatchChartingProject | CC BY-NC-SA 4.0 | uso no comercial."
+  })[state.lang] || "";
+  const tour = selected("tour", unique(data.players, "tour"));
+  const surface = selected("surface", unique(data.players, "surface"));
+  const period = selected("period", unique(data.players, "period"));
+  const base = data.players.filter((row) => (tour === "all" || row.tour === tour) && (surface === "all" || row.surface === surface) && (period === "all" || row.period === period));
+  if (!base.length) return `<div class="error">${escapeHtml(strings.empty)}</div>`;
+  const totals = (key) => base.reduce((sum, row) => sum + Number(row[key] || 0), 0);
+  const bpPts = totals("bp_serve_points"), bpWon = totals("bp_serve_points_won"), nonPts = totals("non_bp_serve_points"), nonWon = totals("non_bp_serve_points_won");
+  const bpRate = bpWon / bpPts, nonRate = nonWon / nonPts;
+  const grouped = new Map();
+  base.forEach((row) => {
+    const item = grouped.get(row.player) || { player: row.player, bpPts: 0, bpWon: 0, nonPts: 0, nonWon: 0 };
+    item.bpPts += Number(row.bp_serve_points || 0); item.bpWon += Number(row.bp_serve_points_won || 0); item.nonPts += Number(row.non_bp_serve_points || 0); item.nonWon += Number(row.non_bp_serve_points_won || 0);
+    grouped.set(row.player, item);
+  });
+  const players = [...grouped.values()].map((row) => { const ci = tennisWilson(row.bpWon, row.bpPts); return { ...row, bpRate: row.bpPts ? row.bpWon / row.bpPts : null, nonRate: row.nonPts ? row.nonWon / row.nonPts : null, ciLow: ci[0], ciHigh: ci[1], ciWidth: ci[1] == null ? 9 : ci[1] - ci[0] }; });
+  const component = (name, bpKey, nonKey, valid = () => true) => {
+    const validRows = base.filter(valid), bDen = validRows.reduce((s, r) => s + Number(r.bp_serve_points || 0), 0), nDen = validRows.reduce((s, r) => s + Number(r.non_bp_serve_points || 0), 0);
+    const b = validRows.reduce((s, r) => s + Number(r[bpKey] || 0), 0) / bDen, n = validRows.reduce((s, r) => s + Number(r[nonKey] || 0), 0) / nDen;
+    return `<div class="tennis-component"><strong>${escapeHtml(name)}</strong><span>${escapeHtml(strings.pressureContext)} ${formatPercent(b)}</span><i style="--w:${Math.min(100, b * 100)}%"></i><span>${escapeHtml(strings.otherContext)} ${formatPercent(n)}</span><i class="is-context" style="--w:${Math.min(100, n * 100)}%"></i></div>`;
+  };
+  const ranked = players.filter((row) => row.ciWidth <= .25).sort((a, b) => b.bpPts - a.bpPts).slice(0, 20);
+  const chapters = journeyCopy();
+  const tennisContext = { bpPts, bpWon, nonPts, nonWon, bpRate, nonRate, players, ranked, tour, surface, period, source: strings.source };
+  const stageTitles = ({
+    pt: ["O sinal agregado", "Comparação e incerteza", "Evidência por jogador"],
+    en: ["Aggregate signal", "Comparison and uncertainty", "Player-level evidence"],
+    es: ["Señal agregada", "Comparación e incertidumbre", "Evidencia por jugador"]
+  })[state.lang] || [];
+  return `${processChapter(chapters[0])}
+    ${methodBlock(chapters[0])}
+    ${dashboardMarker(stageTitles[0] || strings.overview, ["tour", "surface", "period"])}
+    ${kpiGrid([{label: strings.bp, value: formatPercent(bpRate), note: `${formatInt(bpWon)} / ${formatInt(bpPts)}`},{label: strings.non, value: formatPercent(nonRate), note: `${formatInt(nonWon)} / ${formatInt(nonPts)}`},{label: strings.delta, value: formatPercent(bpRate - nonRate), note: strings.deltaNote, alert: bpRate < nonRate},{label: strings.sample, value: formatInt(bpPts), note: `${formatInt(players.length)} ${strings.playersLabel}`}])}
+    ${tennisResultReadout(tennisContext, 0)}
+    ${processChapter(chapters[1])}
+    ${methodBlock(chapters[1])}
+    ${dashboardMarker(stageTitles[1] || strings.overview, ["tour", "surface", "period"])}
+    <div class="viz-grid">${vizCard(strings.scatter, strings.scatterSubtitle, tennisScatter(players, strings), true)}${vizCard(strings.components, strings.componentsSubtitle, component(strings.firstServe, "bp_first_in", "non_bp_first_in") + component(strings.ace, "bp_aces", "non_bp_aces") + component(strings.doubleFault, "bp_double_faults", "non_bp_double_faults"), true)}</div>
+    ${tennisResultReadout(tennisContext, 1)}
+    ${processChapter(chapters[2])}
+    ${methodBlock(chapters[2])}
+    ${dashboardMarker(stageTitles[2] || strings.players, ["tour", "surface", "period"])}
+    ${tennisPlayerTable(strings.table, strings.tableSubtitle, [strings.playerLabel, strings.bp, strings.non, strings.delta, strings.ci, strings.sampleHeader], ranked.map((row) => ({ player: row.player, bp: formatPercent(row.bpRate), non: formatPercent(row.nonRate), delta: formatPercent(row.bpRate-row.nonRate), ci: `${formatPercent(row.ciLow)}–${formatPercent(row.ciHigh)}`, sample: formatInt(row.bpPts) })), strings.photoCredits)}
+    ${tennisResultReadout(tennisContext, 2)}
+    ${processChapter(chapters[3])}
+    ${methodBlock(chapters[3])}
+    ${tennisResultReadout(tennisContext, 3)}
+    <section class="method-block"><div class="method-copy"><span>${escapeHtml(strings.method)}</span><p>${escapeHtml(strings.caveat)}</p></div><pre class="method-code"><code>${escapeHtml(strings.glossaryCode)}</code></pre></section>`;
+};
+
+const setupTennisScatterZoom = () => {
+  const root = document.querySelector("[data-tennis-zoom]");
+  if (!root) return;
+  const svg = root.querySelector(".tennis-scatter");
+  const layer = root.querySelector(".tennis-zoom-layer");
+  const status = root.querySelector("[data-tennis-zoom-status]");
+  const zoomIn = root.querySelector("[data-tennis-zoom-in]");
+  const zoomOut = root.querySelector("[data-tennis-zoom-out]");
+  const reset = root.querySelector("[data-tennis-zoom-reset]");
+  const dots = [...root.querySelectorAll(".tennis-dot")];
+  const xTicks = [...root.querySelectorAll("[data-tennis-x-tick]")];
+  const yTicks = [...root.querySelectorAll("[data-tennis-y-tick]")];
+  const detail = root.querySelector("[data-tennis-detail]");
+  const detailClose = root.querySelector("[data-tennis-detail-close]");
+  const detailInitials = root.querySelector("[data-tennis-detail-initials]");
+  const detailAvatar = root.querySelector("[data-tennis-detail-avatar]");
+  const detailFlag = root.querySelector("[data-tennis-detail-flag]");
+  const card = root.closest(".viz-card");
+  const head = card?.querySelector(":scope > .viz-head");
+  const toolbar = root.querySelector(".tennis-scatter-toolbar");
+  const hint = root.querySelector(".tennis-zoom-hint");
+  if (card && head && toolbar && hint) {
+    card.classList.add("tennis-scatter-card");
+    const headTools = document.createElement("div");
+    headTools.className = "tennis-head-tools";
+    headTools.append(toolbar, hint);
+    head.append(headTools);
+  }
+  let selectedDot = null;
+  let suppressNextClick = false;
+  const bounds = { left: 58, right: 658, top: 52, bottom: 382 };
+  const zoom = { k: 1, x: 0, y: 0 };
+  const clamp = (value, min, max) => Math.max(min, Math.min(max, value));
+  const clampPan = () => {
+    zoom.x = clamp(zoom.x, bounds.right - bounds.right * zoom.k, bounds.left - bounds.left * zoom.k);
+    zoom.y = clamp(zoom.y, bounds.bottom - bounds.bottom * zoom.k, bounds.top - bounds.top * zoom.k);
+  };
+  const apply = () => {
+    clampPan();
+    layer.setAttribute("transform", `translate(${zoom.x} ${zoom.y}) scale(${zoom.k})`);
+    dots.forEach((dot) => dot.setAttribute("r", Number(dot.dataset.r) / zoom.k));
+    const tickDigits = zoom.k >= 4 ? 1 : 0;
+    xTicks.forEach((tick) => {
+      const screenX = Number(tick.getAttribute("data-tennis-x-tick"));
+      const worldX = (screenX - zoom.x) / zoom.k;
+      tick.textContent = formatPercent(clamp((worldX - 58) / 600, 0, 1), tickDigits);
+    });
+    yTicks.forEach((tick) => {
+      const screenY = Number(tick.getAttribute("data-tennis-y-tick"));
+      const worldY = (screenY - zoom.y) / zoom.k;
+      tick.textContent = formatPercent(clamp((382 - worldY) / 330, 0, 1), tickDigits);
+    });
+    const atRest = Math.abs(zoom.k - 1) < .001;
+    svg.classList.toggle("is-zoomed", !atRest);
+    root.dataset.zoom = zoom.k.toFixed(2);
+    status.textContent = `${Math.round(zoom.k * 100)}%`;
+    zoomOut.disabled = atRest;
+    reset.disabled = atRest;
+  };
+  const toSvgPoint = (clientX, clientY) => {
+    const point = svg.createSVGPoint();
+    point.x = clientX;
+    point.y = clientY;
+    return point.matrixTransform(svg.getScreenCTM().inverse());
+  };
+  const scaleAt = (point, requestedScale) => {
+    const next = clamp(requestedScale, 1, 6);
+    const worldX = (point.x - zoom.x) / zoom.k;
+    const worldY = (point.y - zoom.y) / zoom.k;
+    zoom.x = point.x - worldX * next;
+    zoom.y = point.y - worldY * next;
+    zoom.k = next;
+    apply();
+  };
+  const center = () => ({ x: (bounds.left + bounds.right) / 2, y: (bounds.top + bounds.bottom) / 2 });
+  const restore = () => { zoom.k = 1; zoom.x = 0; zoom.y = 0; apply(); };
+  const closeDetail = (restoreFocus = false) => {
+    detail.hidden = true;
+    if (selectedDot) {
+      selectedDot.classList.remove("is-selected");
+      selectedDot.setAttribute("aria-pressed", "false");
+      if (restoreFocus) selectedDot.focus();
+    }
+    selectedDot = null;
+  };
+  const showDetail = (dot) => {
+    if (selectedDot && selectedDot !== dot) {
+      selectedDot.classList.remove("is-selected");
+      selectedDot.setAttribute("aria-pressed", "false");
+    }
+    selectedDot = dot;
+    dot.classList.add("is-selected");
+    dot.setAttribute("aria-pressed", "true");
+    const avatar = TENNIS_PLAYER_AVATARS[dot.dataset.player];
+    const avatarSource = avatar?.file ? `assets/tennis-players/${encodeURIComponent(avatar.file)}` : "";
+    const countryFlag = tennisCountryFlag(avatar?.countryCode);
+    const countryName = countryFlag ? tennisCountryName(avatar.countryCode) : "";
+    detailInitials.textContent = tennisPlayerInitials(dot.dataset.player);
+    detailAvatar.hidden = !avatarSource;
+    if (avatarSource) {
+      detailAvatar.src = avatarSource;
+      detailAvatar.onerror = () => { detailAvatar.hidden = true; };
+    } else {
+      detailAvatar.removeAttribute("src");
+    }
+    detailFlag.hidden = !countryFlag;
+    if (countryFlag) {
+      detailFlag.src = countryFlag;
+      detailFlag.alt = countryName;
+      detailFlag.title = countryName;
+    } else {
+      detailFlag.removeAttribute("src");
+      detailFlag.removeAttribute("alt");
+      detailFlag.removeAttribute("title");
+    }
+    detail.querySelector("[data-tennis-detail-player]").textContent = dot.dataset.player;
+    detail.querySelector("[data-tennis-detail-bp]").textContent = formatPercent(Number(dot.dataset.bp));
+    detail.querySelector("[data-tennis-detail-non]").textContent = formatPercent(Number(dot.dataset.non));
+    detail.querySelector("[data-tennis-detail-delta]").textContent = `${formatNumber(Number(dot.dataset.delta) * 100, { minimumFractionDigits: 1, maximumFractionDigits: 1, signDisplay: "exceptZero" })} ${root.dataset.deltaUnit}`;
+    detail.querySelector("[data-tennis-detail-ci]").textContent = `${formatPercent(Number(dot.dataset.ciLow))}–${formatPercent(Number(dot.dataset.ciHigh))}`;
+    detail.querySelector("[data-tennis-detail-sample]").textContent = formatInt(Number(dot.dataset.sample));
+    detail.hidden = false;
+  };
+  const nearestDot = (event) => {
+    const direct = event.target.closest?.(".tennis-dot");
+    if (direct) return direct;
+    let nearest = null, distance = 24;
+    dots.forEach((dot) => {
+      const box = dot.getBoundingClientRect();
+      const next = Math.hypot(event.clientX - (box.left + box.width / 2), event.clientY - (box.top + box.height / 2));
+      if (next < distance) { nearest = dot; distance = next; }
+    });
+    return nearest;
+  };
+
+  zoomIn.addEventListener("click", () => scaleAt(center(), zoom.k * 1.5));
+  zoomOut.addEventListener("click", () => scaleAt(center(), zoom.k / 1.5));
+  reset.addEventListener("click", restore);
+  detailClose.addEventListener("click", () => closeDetail(true));
+  svg.addEventListener("click", (event) => {
+    if (suppressNextClick) { suppressNextClick = false; return; }
+    const dot = nearestDot(event);
+    if (dot) showDetail(dot);
+  });
+  svg.addEventListener("dblclick", (event) => {
+    event.preventDefault();
+    scaleAt(toSvgPoint(event.clientX, event.clientY), zoom.k * 1.6);
+  });
+  svg.addEventListener("wheel", (event) => {
+    if (!(event.ctrlKey || event.metaKey)) return;
+    event.preventDefault();
+    scaleAt(toSvgPoint(event.clientX, event.clientY), zoom.k * Math.exp(-event.deltaY * .002));
+  }, { passive: false });
+
+  let mouseDrag = null;
+  svg.addEventListener("pointerdown", (event) => {
+    if (event.pointerType === "touch" || zoom.k <= 1 || event.target.closest?.(".tennis-dot")) return;
+    mouseDrag = { id: event.pointerId, point: toSvgPoint(event.clientX, event.clientY), x: zoom.x, y: zoom.y, moved: false };
+    svg.setPointerCapture(event.pointerId);
+    svg.classList.add("is-dragging");
+  });
+  svg.addEventListener("pointermove", (event) => {
+    if (!mouseDrag || event.pointerId !== mouseDrag.id) return;
+    const point = toSvgPoint(event.clientX, event.clientY);
+    if (Math.hypot(point.x - mouseDrag.point.x, point.y - mouseDrag.point.y) > 3) mouseDrag.moved = true;
+    zoom.x = mouseDrag.x + point.x - mouseDrag.point.x;
+    zoom.y = mouseDrag.y + point.y - mouseDrag.point.y;
+    apply();
+  });
+  const stopMouseDrag = (event) => {
+    if (!mouseDrag || (event && event.pointerId !== mouseDrag.id)) return;
+    suppressNextClick = mouseDrag.moved;
+    mouseDrag = null;
+    svg.classList.remove("is-dragging");
+  };
+  svg.addEventListener("pointerup", stopMouseDrag);
+  svg.addEventListener("pointercancel", stopMouseDrag);
+
+  let touchGesture = null;
+  const touchPoint = (touch) => toSvgPoint(touch.clientX, touch.clientY);
+  const touchCenter = (touches) => {
+    const a = touchPoint(touches[0]), b = touchPoint(touches[1]);
+    return { x: (a.x + b.x) / 2, y: (a.y + b.y) / 2, distance: Math.hypot(a.x - b.x, a.y - b.y) };
+  };
+  svg.addEventListener("touchstart", (event) => {
+    if (event.touches.length === 2) {
+      const point = touchCenter(event.touches);
+      touchGesture = { kind: "pinch", point, k: zoom.k, x: zoom.x, y: zoom.y };
+    } else if (event.touches.length === 1 && zoom.k > 1 && !event.target.closest?.(".tennis-dot")) {
+      touchGesture = { kind: "drag", point: touchPoint(event.touches[0]), x: zoom.x, y: zoom.y };
+    }
+  }, { passive: true });
+  svg.addEventListener("touchmove", (event) => {
+    if (!touchGesture) return;
+    if (touchGesture.kind === "pinch" && event.touches.length === 2) {
+      event.preventDefault();
+      suppressNextClick = true;
+      const point = touchCenter(event.touches);
+      const next = clamp(touchGesture.k * point.distance / Math.max(1, touchGesture.point.distance), 1, 6);
+      const worldX = (touchGesture.point.x - touchGesture.x) / touchGesture.k;
+      const worldY = (touchGesture.point.y - touchGesture.y) / touchGesture.k;
+      zoom.k = next;
+      zoom.x = point.x - worldX * next;
+      zoom.y = point.y - worldY * next;
+      apply();
+    } else if (touchGesture.kind === "drag" && event.touches.length === 1) {
+      event.preventDefault();
+      suppressNextClick = true;
+      const point = touchPoint(event.touches[0]);
+      zoom.x = touchGesture.x + point.x - touchGesture.point.x;
+      zoom.y = touchGesture.y + point.y - touchGesture.point.y;
+      apply();
+    }
+  }, { passive: false });
+  svg.addEventListener("touchend", () => { touchGesture = null; }, { passive: true });
+  svg.addEventListener("touchcancel", () => { touchGesture = null; }, { passive: true });
+
+  svg.addEventListener("keydown", (event) => {
+    const pan = 28;
+    if ((event.key === "Enter" || event.key === " ") && event.target.matches?.(".tennis-dot")) showDetail(event.target);
+    else if (["+", "="].includes(event.key)) scaleAt(center(), zoom.k * 1.5);
+    else if (["-", "_"].includes(event.key)) scaleAt(center(), zoom.k / 1.5);
+    else if (event.key === "0" || event.key === "Home") restore();
+    else if (event.key === "ArrowLeft") { zoom.x += pan; apply(); }
+    else if (event.key === "ArrowRight") { zoom.x -= pan; apply(); }
+    else if (event.key === "ArrowUp") { zoom.y += pan; apply(); }
+    else if (event.key === "ArrowDown") { zoom.y -= pan; apply(); }
+    else return;
+    event.preventDefault();
+  });
+  svg.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !detail.hidden) {
+      closeDetail(true);
+      event.preventDefault();
+    }
+  });
+  apply();
+};
+
 const renderCaseContent = () => {
   const data = datasets[state.caseId];
   if (!data) {
@@ -3727,7 +4441,9 @@ const renderCaseContent = () => {
   if (state.caseId === "ai-quality") $("#dashboard-content").innerHTML = renderAiQuality(data);
   if (state.caseId === "pipeline") $("#dashboard-content").innerHTML = renderPipeline(data);
   if (state.caseId === "retail") $("#dashboard-content").innerHTML = renderRetail(data);
+  if (state.caseId === "tennis-pressure") $("#dashboard-content").innerHTML = renderTennisPressure(data);
   bindCustomSelects();
+  setupTennisScatterZoom();
   setupChartReveal();
 };
 

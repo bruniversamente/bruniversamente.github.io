@@ -1,0 +1,101 @@
+@media (pointer: fine) {
+  body.cursor-ready,
+  body.cursor-ready a,
+  body.cursor-ready button {
+    cursor: auto;
+  }
+}
+
+.tech-cursor,
+.tech-cursor-dot {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0;
+  transform: translate3d(-50%, -50%, 0);
+  transition: opacity 0.18s ease, width 0.18s ease, height 0.18s ease, border-color 0.18s ease, border-radius 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
+}
+
+.tech-cursor {
+  width: 34px;
+  height: 34px;
+  border: 1px solid rgba(57, 212, 255, 0.72);
+  border-radius: 50%;
+  box-shadow: 0 0 22px rgba(57, 212, 255, 0.18), inset 0 0 16px rgba(82, 230, 165, 0.08);
+  mix-blend-mode: screen;
+}
+
+.tech-cursor::before,
+.tech-cursor::after {
+  content: "";
+  position: absolute;
+  background: rgba(82, 230, 165, 0.72);
+}
+
+.tech-cursor::before {
+  left: 50%;
+  top: -7px;
+  width: 1px;
+  height: calc(100% + 14px);
+  transform: translateX(-50%);
+  background: linear-gradient(
+    to bottom,
+    rgba(82, 230, 165, 0.72) 0 10px,
+    transparent 10px calc(100% - 10px),
+    rgba(82, 230, 165, 0.72) calc(100% - 10px) 100%
+  );
+}
+
+.tech-cursor::after {
+  left: -7px;
+  top: 50%;
+  width: calc(100% + 14px);
+  height: 1px;
+  transform: translateY(-50%);
+  background: linear-gradient(
+    to right,
+    rgba(82, 230, 165, 0.72) 0 10px,
+    transparent 10px calc(100% - 10px),
+    rgba(82, 230, 165, 0.72) calc(100% - 10px) 100%
+  );
+}
+
+.tech-cursor-dot {
+  display: none;
+}
+
+body.cursor-ready .tech-cursor {
+  opacity: 0.38;
+}
+
+body.cursor-hover .tech-cursor {
+  width: 48px;
+  height: 48px;
+  border-color: rgba(82, 230, 165, 0.88);
+  background: rgba(82, 230, 165, 0.06);
+}
+
+body.cursor-action .tech-cursor {
+  border-color: rgba(82, 230, 165, 0.95);
+  border-radius: 34%;
+  box-shadow: 0 0 28px rgba(82, 230, 165, 0.2), inset 0 0 18px rgba(57, 212, 255, 0.1);
+}
+
+body.cursor-down .tech-cursor {
+  width: 28px;
+  height: 28px;
+  border-color: rgba(57, 212, 255, 1);
+}
+
+body.cursor-native .tech-cursor {
+  opacity: 0;
+}
+
+@media (pointer: coarse), (prefers-reduced-motion: reduce) {
+  .tech-cursor,
+  .tech-cursor-dot {
+    display: none;
+  }
+}

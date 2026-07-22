@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projetos | Bruno Nascimento</title>
+  <meta name="description" content="Projetos de dados, BI, produto, qualidade, IA aplicada e automação desenvolvidos por Bruno Nascimento." />
+  <meta name="author" content="Bruno Nascimento" />
+  <meta name="theme-color" content="#060812" />
+  <meta property="og:title" content="Projetos | Bruno Nascimento" />
+  <meta property="og:description" content="Projetos com problema, método, cálculos, validações e entregas navegáveis." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bruniversamente.github.io/projetos/" />
+  <link rel="canonical" href="https://bruniversamente.github.io/projetos/" />
+  <link rel="icon" href="../assets/logo-bruno-nascimento.png" type="image/png" />
+  <link rel="stylesheet" href="../dashboards/app.css?v=20260721-projects-page" />
+  <link rel="stylesheet" href="../assets/site-cursor.css?v=20260721-site-cursor" />
+  <script defer src="../dashboards/app.js?v=20260721-projects-page"></script>
+  <script defer src="../assets/site-cursor.js?v=20260721-site-cursor"></script>
+</head>
+<body id="top" class="projects-page" data-projects-page>
+  <a class="skip-link" href="#project-content-start" data-i18n="skipToAnalysis">Pular para o projeto</a>
+
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../#top" aria-label="Voltar ao início">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="../assets/logo-bruno-nascimento.png" alt="" width="42" height="42" />
+        </span>
+        <span class="brand-copy">
+          <strong>Bruno Nascimento</strong>
+          <small>Dados, BI e IA aplicada</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Navegação principal">
+        <a class="active" href="./" data-i18n="navCases" aria-current="page">Projetos</a>
+        <a href="../#contato" data-i18n="navContact">Contato</a>
+      </nav>
+      <div class="language-switcher" aria-label="Selecionar idioma">
+        <button type="button" data-lang-option="pt" aria-pressed="true">PT</button>
+        <button type="button" data-lang-option="en" aria-pressed="false">EN</button>
+        <button type="button" data-lang-option="es" aria-pressed="false">ES</button>
+      </div>
+      <a class="nav-cta" href="https://wa.me/5541999990367" target="_blank" rel="noreferrer" aria-label="Conversar pelo WhatsApp">
+        <img src="../assets/whatsapp.svg" alt="" width="24" height="24" />
+      </a>
+    </div>
+  </header>
+
+  <div class="dashboard-subheader projects-selector-header" aria-label="Selecionar projeto">
+    <div class="dashboard-toolbar">
+      <div class="case-tabs" id="case-tabs" role="tablist" aria-label="Projetos"></div>
+    </div>
+  </div>
+
+  <div class="project-context-header" data-project-context aria-label="Navegação interna do projeto">
+    <div class="project-context-toolbar">
+      <a class="project-context-name" href="#project-content-start">
+        <span id="project-context-name">Playzone</span>
+        <strong id="project-context-type">Product Analytics</strong>
+      </a>
+      <nav class="project-step-nav" id="project-step-nav" aria-label="Etapas do projeto"></nav>
+      <a class="project-repo-link" id="repo-link" target="_blank" rel="noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path d="M12 2C6.48 2 2 6.58 2 12.22c0 4.52 2.87 8.35 6.84 9.7.5.09.68-.22.68-.49v-1.74c-2.78.62-3.37-1.22-3.37-1.22-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.63.07-.63 1.01.07 1.54 1.06 1.54 1.06.89 1.57 2.34 1.12 2.91.86.09-.66.35-1.12.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.27 2.75 1.05A9.37 9.37 0 0 1 12 7.1c.85 0 1.71.12 2.51.34 1.91-1.32 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.8-4.57 5.05.36.32.68.94.68 1.9v2.63c0 .27.18.59.69.49A10.16 10.16 0 0 0 22 12.22C22 6.58 17.52 2 12 2Z"></path>
+        </svg>
+        <span data-i18n="openRepo">Repositório</span>
+      </a>
+    </div>
+  </div>
+
+  <main>
+    <section class="dashboard-shell" aria-label="Conteúdo do projeto">
+      <span id="project-content-start" class="project-content-anchor" aria-hidden="true"></span>
+      <div class="dashboard-intro" id="case-intro"></div>
+      <div class="control-grid" id="controls"></div>
+      <div class="filter-bar" id="filter-bar"></div>
+      <div id="dashboard-content" class="dashboard-content" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Bruno Nascimento.</p>
+    <a href="#top">Voltar ao topo</a>
+  </footer>
+</body>
+</html>

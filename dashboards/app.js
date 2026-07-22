@@ -1,4 +1,6 @@
 const params = new URLSearchParams(window.location.search);
+const DASHBOARD_BASE_URL = new URL("../dashboards/", window.location.href);
+const dashboardAssetUrl = (path) => new URL(path, DASHBOARD_BASE_URL).href;
 const TENNIS_PLAYER_AVATARS = {"Aaron Krickstein": {"file": "aaron-krickstein.jpg", "countryCode": "US"}, "Adrian Mannarino": {"file": "adrian-mannarino.jpg", "countryCode": "FR"}, "Agnieszka Radwanska": {"file": "agnieszka-radwanska.jpg", "countryCode": "PL"}, "Ajla Tomljanovic": {"file": "ajla-tomljanovic.jpg", "countryCode": "AU"}, "Albert Costa": {"file": "albert-costa.jpg", "countryCode": "ES"}, "Albert Ramos": {"file": "albert-ramos.jpg", "countryCode": "ES"}, "Alejandro Davidovich Fokina": {"file": "alejandro-davidovich-fokina.jpg", "countryCode": "ES"}, "Alejandro Falla": {"file": "alejandro-falla.jpg", "countryCode": "CO"}, "Alejandro Tabilo": {"file": "alejandro-tabilo.jpg", "countryCode": "CL"}, "Aleksandar Kovacevic": {"file": "aleksandar-kovacevic.jpg", "countryCode": "US"}, "Aleksandar Vukic": {"file": "aleksandar-vukic.jpg", "countryCode": "AU"}, "Alex Corretja": {"file": "alex-corretja.jpg", "countryCode": "ES"}, "Alex De Minaur": {"file": "alex-de-minaur.jpg", "countryCode": "AU"}, "Alex Michelsen": {"file": "alex-michelsen.jpg", "countryCode": "US"}, "Alex Molcan": {"file": "alex-molcan.jpg", "countryCode": "SK"}, "Alexander Bublik": {"file": "alexander-bublik.jpg", "countryCode": "KZ"}, "Alexander Shevchenko": {"file": "alexander-shevchenko.jpg", "countryCode": "KZ"}, "Alexander Zverev": {"file": "alexander-zverev.jpg", "countryCode": "DE"}, "Alexandr Dolgopolov": {"file": "alexandr-dolgopolov.jpg", "countryCode": "UA"}, "Alexandra Eala": {"file": "alexandra-eala.jpg", "countryCode": "PH"}, "Alexandre Muller": {"file": "alexandre-muller.jpg", "countryCode": "FR"}, "Alexei Popyrin": {"file": "alexei-popyrin.jpg", "countryCode": "AU"}, "Aliaksandra Sasnovich": {"file": "aliaksandra-sasnovich.jpg", "countryCode": "BY"}, "Alina Korneeva": {"file": "alina-korneeva.jpg", "countryCode": "RU"}, "Alison Riske Amritraj": {"file": "alison-riske-amritraj.jpg", "countryCode": "US"}, "Alison Van Uytvanck": {"file": "alison-van-uytvanck.jpg", "countryCode": "BE"}, "Alize Cornet": {"file": "alize-cornet.jpg", "countryCode": "FR"}, "Aljaz Bedene": {"file": "aljaz-bedene.jpg", "countryCode": "GB"}, "Alycia Parks": {"file": "alycia-parks.jpg", "countryCode": "US"}, "Amanda Anisimova": {"file": "amanda-anisimova.jpg", "countryCode": "US"}, "Amelie Mauresmo": {"file": "amelie-mauresmo.jpg", "countryCode": "FR"}, "Ana Bogdan": {"file": "ana-bogdan.jpg", "countryCode": "RO"}, "Ana Ivanovic": {"file": "ana-ivanovic.jpg", "countryCode": "RS"}, "Ana Konjuh": {"file": "ana-konjuh.jpg", "countryCode": "HR"}, "Anastasia Myskina": {"file": "anastasia-myskina.jpg", "countryCode": "RU"}, "Anastasia Pavlyuchenkova": {"file": "anastasia-pavlyuchenkova.jpg", "countryCode": "RU"}, "Anastasia Potapova": {"file": "anastasia-potapova.jpg", "countryCode": "AT"}, "Anastasija Sevastova": {"file": "anastasija-sevastova.jpg", "countryCode": "LV"}, "Andre Agassi": {"file": "andre-agassi.jpg", "countryCode": "US"}, "Andrea Petkovic": {"file": "andrea-petkovic.jpg", "countryCode": "DE"}, "Andreas Seppi": {"file": "andreas-seppi.jpg", "countryCode": "IT"}, "Andrei Chesnokov": {"countryCode": "RU"}, "Andrei Medvedev": {"file": "andrei-medvedev.jpg", "countryCode": "UA"}, "Andres Gomez": {"file": "andres-gomez.jpg", "countryCode": "EC"}, "Andrey Rublev": {"file": "andrey-rublev.jpg", "countryCode": "RU"}, "Andy Murray": {"file": "andy-murray.jpg", "countryCode": "GB"}, "Andy Roddick": {"file": "andy-roddick.jpg", "countryCode": "US"}, "Anett Kontaveit": {"file": "anett-kontaveit.jpg", "countryCode": "EE"}, "Angelique Kerber": {"file": "angelique-kerber.jpg", "countryCode": "DE"}, "Anhelina Kalinina": {"file": "anhelina-kalinina.jpg", "countryCode": "UA"}, "Anna Blinkova": {"file": "anna-blinkova.jpg", "countryCode": "RU"}, "Anna Bondar": {"file": "anna-bondar.jpg", "countryCode": "HU"}, "Anna Kalinskaya": {"file": "anna-kalinskaya.jpg", "countryCode": "RU"}, "Anna Karolina Schmiedlova": {"file": "anna-karolina-schmiedlova.jpg", "countryCode": "SK"}, "Anna Lena Friedsam": {"file": "anna-lena-friedsam.jpg", "countryCode": "DE"}, "Antonia Ruzic": {"file": "antonia-ruzic.jpg", "countryCode": "HR"}, "Arantxa Rus": {"file": "arantxa-rus.jpg", "countryCode": "NL"}, "Arantxa Sanchez Vicario": {"file": "arantxa-sanchez-vicario.jpg", "countryCode": "ES"}, "Arianne Hartono": {"file": "arianne-hartono.jpg", "countryCode": "NL"}, "Arnaud Clement": {"file": "arnaud-clement.jpg", "countryCode": "FR"}, "Arthur Cazaux": {"file": "arthur-cazaux.jpg", "countryCode": "FR"}, "Arthur Fils": {"file": "arthur-fils.jpg", "countryCode": "FR"}, "Arthur Rinderknech": {"file": "arthur-rinderknech.jpg", "countryCode": "FR"}, "Aryna Sabalenka": {"file": "aryna-sabalenka.jpg", "countryCode": "BY"}, "Ashleigh Barty": {"file": "ashleigh-barty.jpg", "countryCode": "AU"}, "Ashlyn Krueger": {"file": "ashlyn-krueger.jpg", "countryCode": "US"}, "Aslan Karatsev": {"file": "aslan-karatsev.jpg", "countryCode": "RU"}, "Astra Sharma": {"file": "astra-sharma.jpg", "countryCode": "AU"}, "Barbora Krejcikova": {"file": "barbora-krejcikova.jpg", "countryCode": "CZ"}, "Barbora Strycova": {"file": "barbora-strycova.jpg", "countryCode": "CZ"}, "Beatriz Haddad Maia": {"file": "beatriz-haddad-maia.jpg", "countryCode": "BR"}, "Belinda Bencic": {"file": "belinda-bencic.jpg", "countryCode": "CH"}, "Ben Shelton": {"file": "ben-shelton.jpg", "countryCode": "US"}, "Benjamin Bonzi": {"file": "benjamin-bonzi.jpg", "countryCode": "FR"}, "Benoit Paire": {"file": "benoit-paire.jpg", "countryCode": "FR"}, "Bernabe Zapata Miralles": {"file": "bernabe-zapata-miralles.jpg", "countryCode": "ES"}, "Bernard Tomic": {"file": "bernard-tomic.jpg", "countryCode": "AU"}, "Bernarda Pera": {"file": "bernarda-pera.jpg", "countryCode": "US"}, "Bethanie Mattek Sands": {"file": "bethanie-mattek-sands.jpg", "countryCode": "US"}, "Bianca Andreescu": {"file": "bianca-andreescu.jpg", "countryCode": "CA"}, "Bibiane Schoofs": {"file": "bibiane-schoofs.jpg", "countryCode": "NL"}, "Bjorn Borg": {"file": "bjorn-borg.jpg", "countryCode": "SE"}, "Boris Becker": {"file": "boris-becker.jpg", "countryCode": "DE"}, "Borna Coric": {"file": "borna-coric.jpg", "countryCode": "HR"}, "Botic Van De Zandschulp": {"file": "botic-van-de-zandschulp.jpg", "countryCode": "NL"}, "Brad Gilbert": {"file": "brad-gilbert.jpg", "countryCode": "US"}, "Brandon Nakashima": {"file": "brandon-nakashima.jpg", "countryCode": "US"}, "Brenda Fruhvirtova": {"file": "brenda-fruhvirtova.jpg", "countryCode": "CZ"}, "Cameron Norrie": {"file": "cameron-norrie.jpg", "countryCode": "GB"}, "Camila Giorgi": {"file": "camila-giorgi.jpg", "countryCode": "IT"}, "Camila Osorio": {"file": "camila-osorio.jpg", "countryCode": "CO"}, "Camilo Ugo Carabelli": {"file": "camilo-ugo-carabelli.jpg", "countryCode": "AR"}, "Carla Suarez Navarro": {"file": "carla-suarez-navarro.jpg", "countryCode": "ES"}, "Carlos Alcaraz": {"file": "carlos-alcaraz.jpg", "countryCode": "ES"}, "Carlos Berlocq": {"file": "carlos-berlocq.jpg", "countryCode": "AR"}, "Carlos Moya": {"file": "carlos-moya.jpg", "countryCode": "ES"}, "Caroline Dolehide": {"file": "caroline-dolehide.jpg", "countryCode": "US"}, "Caroline Garcia": {"file": "caroline-garcia.jpg", "countryCode": "FR"}, "Caroline Wozniacki": {"file": "caroline-wozniacki.jpg", "countryCode": "DK"}, "Casper Ruud": {"file": "casper-ruud.jpg", "countryCode": "NO"}, "Caty Mcnally": {"file": "caty-mcnally.jpg", "countryCode": "US"}, "Cedric Pioline": {"file": "cedric-pioline.jpg", "countryCode": "FR"}, "Chris Evert": {"file": "chris-evert.jpg", "countryCode": "US"}, "Christina Mchale": {"file": "christina-mchale.jpg", "countryCode": "US"}, "Christopher Eubanks": {"file": "christopher-eubanks.jpg", "countryCode": "US"}, "Christopher Oconnell": {"file": "christopher-oconnell.jpg", "countryCode": "AU"}, "Clara Burel": {"file": "clara-burel.jpg", "countryCode": "FR"}, "Clara Tauson": {"file": "clara-tauson.jpg", "countryCode": "DK"}, "Coco Gauff": {"file": "coco-gauff.jpg", "countryCode": "US"}, "Coco Vandeweghe": {"file": "coco-vandeweghe.jpg", "countryCode": "US"}, "Conchita Martinez": {"file": "conchita-martinez.jpg", "countryCode": "ES"}, "Corentin Moutet": {"file": "corentin-moutet.jpg", "countryCode": "FR"}, "Cristian Garin": {"file": "cristian-garin.jpg", "countryCode": "CL"}, "Cristina Bucsa": {"file": "cristina-bucsa.jpg", "countryCode": "ES"}, "Damir Dzumhur": {"file": "damir-dzumhur.jpg", "countryCode": "BA"}, "Daniel Altmaier": {"file": "daniel-altmaier.jpg", "countryCode": "DE"}, "Daniel Elahi Galan": {"file": "daniel-elahi-galan.jpg", "countryCode": "CO"}, "Daniel Evans": {"file": "daniel-evans.jpg", "countryCode": "GB"}, "Daniela Hantuchova": {"file": "daniela-hantuchova.jpg", "countryCode": "SK"}, "Danielle Collins": {"file": "danielle-collins.jpg", "countryCode": "US"}, "Daniil Medvedev": {"file": "daniil-medvedev.jpg", "countryCode": "RU"}, "Danka Kovinic": {"file": "danka-kovinic.jpg", "countryCode": "ME"}, "Daria Kasatkina": {"file": "daria-kasatkina.jpg", "countryCode": "AU"}, "Daria Saville": {"file": "daria-saville.jpg", "countryCode": "AU"}, "David Ferrer": {"file": "david-ferrer.jpg", "countryCode": "ES"}, "David Goffin": {"file": "david-goffin.jpg", "countryCode": "BE"}, "David Nalbandian": {"file": "david-nalbandian.jpg", "countryCode": "AR"}, "David Wheaton": {"file": "david-wheaton.jpg", "countryCode": "US"}, "Dayana Yastremska": {"file": "dayana-yastremska.jpg", "countryCode": "UA"}, "Denis Istomin": {"file": "denis-istomin.jpg", "countryCode": "UZ"}, "Denis Kudla": {"file": "denis-kudla.jpg", "countryCode": "US"}, "Denis Shapovalov": {"file": "denis-shapovalov.jpg", "countryCode": "CA"}, "Diana Shnaider": {"file": "diana-shnaider.jpg", "countryCode": "RU"}, "Diane Parry": {"file": "diane-parry.jpg", "countryCode": "FR"}, "Diego Schwartzman": {"file": "diego-schwartzman.jpg", "countryCode": "AR"}, "Dinara Safina": {"file": "dinara-safina.jpg", "countryCode": "RU"}, "Dominic Thiem": {"file": "dominic-thiem.jpg", "countryCode": "AT"}, "Dominik Koepfer": {"file": "dominik-koepfer.jpg", "countryCode": "DE"}, "Dominika Cibulkova": {"file": "dominika-cibulkova.jpg", "countryCode": "SK"}, "Donna Vekic": {"file": "donna-vekic.jpg", "countryCode": "HR"}, "Dusan Lajovic": {"file": "dusan-lajovic.jpg", "countryCode": "RS"}, "Dustin Brown": {"file": "dustin-brown.jpg", "countryCode": "DE"}, "Ekaterina Alexandrova": {"file": "ekaterina-alexandrova.png", "countryCode": "RU"}, "Elena Dementieva": {"file": "elena-dementieva.jpg", "countryCode": "RU"}, "Elena Gabriela Ruse": {"file": "elena-gabriela-ruse.jpg", "countryCode": "RO"}, "Elena Rybakina": {"file": "elena-rybakina.jpg", "countryCode": "KZ"}, "Elena Vesnina": {"file": "elena-vesnina.jpg", "countryCode": "RU"}, "Elina Avanesyan": {"file": "elina-avanesyan.jpg", "countryCode": "AM"}, "Elina Svitolina": {"file": "elina-svitolina.jpg", "countryCode": "UA"}, "Elisabetta Cocciaretto": {"file": "elisabetta-cocciaretto.jpg", "countryCode": "IT"}, "Elise Mertens": {"file": "elise-mertens.jpg", "countryCode": "BE"}, "Elsa Jacquemot": {"file": "elsa-jacquemot.jpg", "countryCode": "FR"}, "Emil Ruusuvuori": {"file": "emil-ruusuvuori.jpg", "countryCode": "FI"}, "Emma Navarro": {"file": "emma-navarro.jpg", "countryCode": "US"}, "Emma Raducanu": {"file": "emma-raducanu.jpg", "countryCode": "GB"}, "Ernests Gulbis": {"file": "ernests-gulbis.jpg", "countryCode": "LV"}, "Ethan Quinn": {"file": "ethan-quinn.jpg", "countryCode": "US"}, "Eugenie Bouchard": {"file": "eugenie-bouchard.jpg", "countryCode": "CA"}, "Eva Lys": {"file": "eva-lys.jpg", "countryCode": "DE"}, "Eva Vedder": {"countryCode": "NL"}, "Fabian Marozsan": {"file": "fabian-marozsan.jpg", "countryCode": "HU"}, "Fabio Fognini": {"file": "fabio-fognini.jpg", "countryCode": "IT"}, "Fabrice Santoro": {"file": "fabrice-santoro.jpg", "countryCode": "FR"}, "Facundo Bagnis": {"file": "facundo-bagnis.jpg", "countryCode": "AR"}, "Federico Coria": {"file": "federico-coria.jpg", "countryCode": "AR"}, "Federico Delbonis": {"file": "federico-delbonis.jpg", "countryCode": "AR"}, "Feliciano Lopez": {"file": "feliciano-lopez.jpg", "countryCode": "ES"}, "Felix Auger Aliassime": {"file": "felix-auger-aliassime.jpg", "countryCode": "CA"}, "Felix Mantilla": {"file": "felix-mantilla.jpg", "countryCode": "ES"}, "Fernando Gonzalez": {"file": "fernando-gonzalez.jpg", "countryCode": "CL"}, "Fernando Verdasco": {"file": "fernando-verdasco.jpg", "countryCode": "ES"}, "Filip Krajinovic": {"file": "filip-krajinovic.jpg", "countryCode": "RS"}, "Fiona Ferro": {"file": "fiona-ferro.jpg", "countryCode": "FR"}, "Flavia Pennetta": {"file": "flavia-pennetta.jpg", "countryCode": "IT"}, "Flavio Cobolli": {"file": "flavio-cobolli.jpg", "countryCode": "IT"}, "Florian Mayer": {"file": "florian-mayer.jpg", "countryCode": "DE"}, "Frances Tiafoe": {"file": "frances-tiafoe.jpg", "countryCode": "US"}, "Francesca Schiavone": {"file": "francesca-schiavone.jpg", "countryCode": "IT"}, "Francisco Cerundolo": {"file": "francisco-cerundolo.jpg", "countryCode": "AR"}, "Gabriel Diallo": {"file": "gabriel-diallo.jpg", "countryCode": "CA"}, "Gabriela Sabatini": {"file": "gabriela-sabatini.jpg", "countryCode": "AR"}, "Gael Monfils": {"file": "gael-monfils.jpg", "countryCode": "FR"}, "Garbine Muguruza": {"file": "garbine-muguruza.jpg", "countryCode": "ES"}, "Gaston Gaudio": {"file": "gaston-gaudio.jpg", "countryCode": "AR"}, "Gijs Brouwer": {"file": "gijs-brouwer.jpg", "countryCode": "NL"}, "Gilles Muller": {"file": "gilles-muller.jpg", "countryCode": "LU"}, "Gilles Simon": {"file": "gilles-simon.jpg", "countryCode": "FR"}, "Giovanni Mpetshi Perricard": {"file": "giovanni-mpetshi-perricard.jpg", "countryCode": "FR"}, "Goran Ivanisevic": {"file": "goran-ivanisevic.jpg", "countryCode": "HR"}, "Greg Rusedski": {"file": "greg-rusedski.jpg", "countryCode": "GB"}, "Gregoire Barrere": {"file": "gregoire-barrere.jpg", "countryCode": "FR"}, "Grigor Dimitrov": {"file": "grigor-dimitrov.jpg", "countryCode": "BG"}, "Guido Pella": {"file": "guido-pella.jpg", "countryCode": "AR"}, "Guillermo Canas": {"file": "guillermo-canas.jpg", "countryCode": "AR"}, "Guillermo Coria": {"file": "guillermo-coria.jpg", "countryCode": "AR"}, "Guillermo Vilas": {"file": "guillermo-vilas.jpg", "countryCode": "AR"}, "Gustavo Kuerten": {"file": "gustavo-kuerten.jpg", "countryCode": "BR"}, "Guy Den Ouden": {"countryCode": "NL"}, "Guy Forget": {"file": "guy-forget.jpg", "countryCode": "FR"}, "Hamad Medjedovic": {"file": "hamad-medjedovic.jpg", "countryCode": "RS"}, "Harmony Tan": {"file": "harmony-tan.jpg", "countryCode": "FR"}, "Harriet Dart": {"file": "harriet-dart.jpg", "countryCode": "GB"}, "Heather Watson": {"file": "heather-watson.jpg", "countryCode": "GB"}, "Helena Sukova": {"file": "helena-sukova.jpg", "countryCode": "CZ"}, "Henri Leconte": {"file": "henri-leconte.jpg", "countryCode": "FR"}, "Holger Rune": {"file": "holger-rune.jpg", "countryCode": "DK"}, "Hubert Hurkacz": {"file": "hubert-hurkacz.jpg", "countryCode": "PL"}, "Hugo Dellien": {"file": "hugo-dellien.jpg", "countryCode": "VE"}, "Hugo Gaston": {"file": "hugo-gaston.jpg", "countryCode": "FR"}, "Hyeon Chung": {"file": "hyeon-chung.jpg", "countryCode": "KR"}, "Iga Swiatek": {"file": "iga-swiatek.jpg", "countryCode": "PL"}, "Igor Andreev": {"file": "igor-andreev.jpg", "countryCode": "RU"}, "Ilya Ivashka": {"file": "ilya-ivashka.jpg", "countryCode": "BY"}, "Irina Bara": {"file": "irina-bara.jpg", "countryCode": "RO"}, "Irina Camelia Begu": {"file": "irina-camelia-begu.jpg", "countryCode": "RO"}, "Iva Jovic": {"file": "iva-jovic.jpg", "countryCode": "US"}, "Ivan Lendl": {"file": "ivan-lendl.jpg", "countryCode": "US"}, "Ivan Ljubicic": {"file": "ivan-ljubicic.jpg", "countryCode": "HR"}, "Ivo Karlovic": {"file": "ivo-karlovic.jpg", "countryCode": "HR"}, "Jack Draper": {"file": "jack-draper.jpg", "countryCode": "GB"}, "Jack Sock": {"file": "jack-sock.jpg", "countryCode": "US"}, "Jakub Mensik": {"file": "jakub-mensik.jpg", "countryCode": "CZ"}, "James Blake": {"file": "james-blake.jpg", "countryCode": "US"}, "James Duckworth": {"file": "james-duckworth.jpg", "countryCode": "AU"}, "Jan Lennard Struff": {"file": "jan-lennard-struff.jpg", "countryCode": "DE"}, "Jana Novotna": {"file": "jana-novotna.jpg", "countryCode": "CZ"}, "Janko Tipsarevic": {"file": "janko-tipsarevic.jpg", "countryCode": "RS"}, "Jannik Sinner": {"file": "jannik-sinner.jpg", "countryCode": "IT"}, "Jaqueline Cristian": {"file": "jaqueline-cristian.jpg", "countryCode": "RO"}, "Jarkko Nieminen": {"file": "jarkko-nieminen.jpg", "countryCode": "FI"}, "Jasmine Paolini": {"file": "jasmine-paolini.jpg", "countryCode": "IT"}, "Jason Kubler": {"file": "jason-kubler.jpg", "countryCode": "AU"}, "Jaume Munar": {"file": "jaume-munar.jpg", "countryCode": "ES"}, "Jelena Dokic": {"file": "jelena-dokic.jpg", "countryCode": "HR"}, "Jelena Jankovic": {"file": "jelena-jankovic.jpg", "countryCode": "RS"}, "Jelena Ostapenko": {"file": "jelena-ostapenko.jpg", "countryCode": "LV"}, "Jennifer Brady": {"file": "jennifer-brady.jpg", "countryCode": "US"}, "Jennifer Capriati": {"file": "jennifer-capriati.jpg", "countryCode": "US"}, "Jenson Brooksby": {"file": "jenson-brooksby.jpg", "countryCode": "US"}, "Jeremy Chardy": {"file": "jeremy-chardy.jpg", "countryCode": "FR"}, "Jerzy Janowicz": {"file": "jerzy-janowicz.jpg", "countryCode": "PL"}, "Jesper De Jong": {"file": "jesper-de-jong.jpg", "countryCode": "NL"}, "Jessica Bouzas Maneiro": {"file": "jessica-bouzas-maneiro.jpg", "countryCode": "ES"}, "Jessica Pegula": {"file": "jessica-pegula.jpg", "countryCode": "US"}, "Jil Teichmann": {"file": "jil-teichmann.jpg", "countryCode": "CH"}, "Jim Courier": {"file": "jim-courier.jpg", "countryCode": "US"}, "Jimmy Connors": {"file": "jimmy-connors.jpg", "countryCode": "US"}, "Jiri Lehecka": {"file": "jiri-lehecka.jpg", "countryCode": "CZ"}, "Jiri Novak": {"file": "jiri-novak.jpg", "countryCode": "CZ"}, "Jiri Vesely": {"file": "jiri-vesely.jpg", "countryCode": "CZ"}, "Jo Wilfried Tsonga": {"file": "jo-wilfried-tsonga.jpg", "countryCode": "FR"}, "Joao Fonseca": {"file": "joao-fonseca.jpg", "countryCode": "BR"}, "Joao Sousa": {"file": "joao-sousa.jpg", "countryCode": "PT"}, "Johanna Konta": {"file": "johanna-konta.jpg", "countryCode": "GB"}, "Johanna Larsson": {"file": "johanna-larsson.jpg", "countryCode": "SE"}, "John Isner": {"file": "john-isner.jpg", "countryCode": "US"}, "John Mcenroe": {"file": "john-mcenroe.jpg", "countryCode": "US"}, "John Millman": {"file": "john-millman.jpg", "countryCode": "AU"}, "Jonas Bjorkman": {"file": "jonas-bjorkman.jpg", "countryCode": "SE"}, "Jonas Svensson": {"countryCode": "SE"}, "Jordan Thompson": {"file": "jordan-thompson.jpg", "countryCode": "AU"}, "Juan Carlos Ferrero": {"file": "juan-carlos-ferrero.jpg", "countryCode": "ES"}, "Juan Carlos Prado Angelo": {"file": "juan-carlos-prado-angelo.jpg", "countryCode": "BO"}, "Juan Ignacio Londero": {"file": "juan-ignacio-londero.jpg", "countryCode": "AR"}, "Juan Manuel Cerundolo": {"file": "juan-manuel-cerundolo.jpg", "countryCode": "AR"}, "Juan Martin Del Potro": {"file": "juan-martin-del-potro.jpg", "countryCode": "AR"}, "Juan Pablo Varillas": {"file": "juan-pablo-varillas.jpg", "countryCode": "PE"}, "Jule Niemeier": {"file": "jule-niemeier.jpg", "countryCode": "DE"}, "Julia Goerges": {"file": "julia-goerges.jpg", "countryCode": "DE"}, "Juncheng Shang": {"file": "juncheng-shang.jpg", "countryCode": "CN"}, "Jurgen Melzer": {"file": "jurgen-melzer.jpg", "countryCode": "AT"}, "Justine Henin": {"file": "justine-henin.jpg", "countryCode": "BE"}, "Kaia Kanepi": {"file": "kaia-kanepi.jpg", "countryCode": "EE"}, "Kaja Juvan": {"file": "kaja-juvan.jpg", "countryCode": "SI"}, "Karen Khachanov": {"file": "karen-khachanov.jpg", "countryCode": "RU"}, "Karim Mohamed Maamoun": {"countryCode": "EG"}, "Karol Kucera": {"countryCode": "SK"}, "Karolina Muchova": {"file": "karolina-muchova.jpg", "countryCode": "CZ"}, "Karolina Pliskova": {"file": "karolina-pliskova.jpg", "countryCode": "CZ"}, "Kate Makarova": {"file": "kate-makarova.jpg", "countryCode": "RU"}, "Katerina Siniakova": {"file": "katerina-siniakova.jpg", "countryCode": "CZ"}, "Kateryna Baindl": {"file": "kateryna-baindl.jpg", "countryCode": "UA"}, "Katie Boulter": {"file": "katie-boulter.jpg", "countryCode": "GB"}, "Katie Volynets": {"file": "katie-volynets.jpg", "countryCode": "US"}, "Kei Nishikori": {"file": "kei-nishikori.jpg", "countryCode": "JP"}, "Kevin Anderson": {"file": "kevin-anderson.jpg", "countryCode": "ZA"}, "Kevin Curren": {"file": "kevin-curren.jpg", "countryCode": "ZA"}, "Kevin King": {"file": "kevin-king.jpg", "countryCode": "US"}, "Kiki Bertens": {"file": "kiki-bertens.jpg", "countryCode": "NL"}, "Kim Clijsters": {"file": "kim-clijsters.jpg", "countryCode": "BE"}, "Kimberly Birrell": {"file": "kimberly-birrell.jpg", "countryCode": "AU"}, "Kirsten Flipkens": {"file": "kirsten-flipkens.jpg", "countryCode": "BE"}, "Klara Koukalova": {"file": "klara-koukalova.jpg", "countryCode": "CZ"}, "Kristina Mladenovic": {"file": "kristina-mladenovic.jpg", "countryCode": "FR"}, "Kyle Edmund": {"file": "kyle-edmund.jpg", "countryCode": "GB"}, "Laslo Djere": {"file": "laslo-djere.jpg", "countryCode": "RS"}, "Laura Siegemund": {"file": "laura-siegemund.jpg", "countryCode": "DE"}, "Lauren Davis": {"file": "lauren-davis.jpg", "countryCode": "US"}, "Learner Tien": {"file": "learner-tien.jpg", "countryCode": "US"}, "Leonardo Mayer": {"file": "leonardo-mayer.jpg", "countryCode": "AR"}, "Lesia Tsurenko": {"file": "lesia-tsurenko.jpg", "countryCode": "UA"}, "Lesley Pattinama Kerkhove": {"file": "lesley-pattinama-kerkhove.jpg", "countryCode": "NL"}, "Leylah Fernandez": {"file": "leylah-fernandez.jpg", "countryCode": "CA"}, "Lin Zhu": {"file": "lin-zhu.jpg", "countryCode": "CN"}, "Linda Fruhvirtova": {"file": "linda-fruhvirtova.jpg", "countryCode": "CZ"}, "Linda Klimovicova": {"file": "linda-klimovicova.jpg", "countryCode": "PL"}, "Linda Noskova": {"file": "linda-noskova.jpg", "countryCode": "CZ"}, "Lindsay Davenport": {"file": "lindsay-davenport.jpg", "countryCode": "US"}, "Liudmila Samsonova": {"file": "liudmila-samsonova.jpg", "countryCode": "RU"}, "Lleyton Hewitt": {"file": "lleyton-hewitt.jpg", "countryCode": "AU"}, "Lorenzo Musetti": {"file": "lorenzo-musetti.jpg", "countryCode": "IT"}, "Lorenzo Sonego": {"file": "lorenzo-sonego.jpg", "countryCode": "IT"}, "Louisa Chirico": {"file": "louisa-chirico.jpg", "countryCode": "US"}, "Luca Nardi": {"file": "luca-nardi.jpg", "countryCode": "IT"}, "Lucas Pouille": {"file": "lucas-pouille.jpg", "countryCode": "FR"}, "Lucia Bronzetti": {"file": "lucia-bronzetti.jpg", "countryCode": "IT"}, "Luciano Darderi": {"file": "luciano-darderi.jpg", "countryCode": "IT"}, "Lucie Safarova": {"file": "lucie-safarova.jpg", "countryCode": "CZ"}, "Lukas Rosol": {"file": "lukas-rosol.jpg", "countryCode": "CZ"}, "Mackenzie Mcdonald": {"file": "mackenzie-mcdonald.jpg", "countryCode": "US"}, "Madison Brengle": {"file": "madison-brengle.jpg", "countryCode": "US"}, "Madison Keys": {"file": "madison-keys.jpg", "countryCode": "US"}, "Magda Linette": {"file": "magda-linette.jpg", "countryCode": "PL"}, "Magdalena Frech": {"file": "magdalena-frech.jpg", "countryCode": "PL"}, "Magdalena Rybarikova": {"file": "magdalena-rybarikova.jpg", "countryCode": "SK"}, "Magnus Gustafsson": {"countryCode": "SE"}, "Magnus Norman": {"file": "magnus-norman.jpg", "countryCode": "SE"}, "Malivai Washington": {"file": "malivai-washington.jpg", "countryCode": "US"}, "Marat Safin": {"file": "marat-safin.jpg", "countryCode": "RU"}, "Marc Rosset": {"file": "marc-rosset.jpg", "countryCode": "CH"}, "Marcel Granollers": {"file": "marcel-granollers.jpg", "countryCode": "ES"}, "Marcelo Rios": {"file": "marcelo-rios.jpg", "countryCode": "CL"}, "Marco Cecchinato": {"file": "marco-cecchinato.jpg", "countryCode": "IT"}, "Marcos Baghdatis": {"file": "marcos-baghdatis.jpg", "countryCode": "CY"}, "Marcos Giron": {"file": "marcos-giron.jpg", "countryCode": "US"}, "Mardy Fish": {"file": "mardy-fish.jpg", "countryCode": "US"}, "Maria Sakkari": {"file": "maria-sakkari.jpg", "countryCode": "GR"}, "Maria Sharapova": {"file": "maria-sharapova.jpg", "countryCode": "RU"}, "Mariano Navone": {"file": "mariano-navone.jpg", "countryCode": "AR"}, "Marie Bouzkova": {"file": "marie-bouzkova.jpg", "countryCode": "CZ"}, "Marin Cilic": {"file": "marin-cilic.jpg", "countryCode": "HR"}, "Mario Ancic": {"file": "mario-ancic.jpg", "countryCode": "HR"}, "Marion Bartoli": {"file": "marion-bartoli.jpg", "countryCode": "FR"}, "Mark Philippoussis": {"file": "mark-philippoussis.jpg", "countryCode": "AU"}, "Marketa Vondrousova": {"file": "marketa-vondrousova.jpg", "countryCode": "CZ"}, "Marta Kostyuk": {"file": "marta-kostyuk.jpg", "countryCode": "UA"}, "Martin Klizan": {"file": "martin-klizan.jpg", "countryCode": "SK"}, "Martina Hingis": {"file": "martina-hingis.jpg", "countryCode": "CH"}, "Martina Navratilova": {"file": "martina-navratilova.jpg", "countryCode": "US"}, "Martina Trevisan": {"file": "martina-trevisan.jpg", "countryCode": "IT"}, "Marton Fucsovics": {"file": "marton-fucsovics.jpg", "countryCode": "HU"}, "Mary Pierce": {"file": "mary-pierce.jpg", "countryCode": "FR"}, "Mats Wilander": {"file": "mats-wilander.jpg", "countryCode": "SE"}, "Matteo Arnaldi": {"file": "matteo-arnaldi.jpg", "countryCode": "IT"}, "Matteo Berrettini": {"file": "matteo-berrettini.jpg", "countryCode": "IT"}, "Mattia Bellucci": {"file": "mattia-bellucci.jpg", "countryCode": "IT"}, "Max Mirnyi": {"file": "max-mirnyi.jpg", "countryCode": "BY"}, "Max Purcell": {"file": "max-purcell.jpg", "countryCode": "AU"}, "Maxime Cressy": {"file": "maxime-cressy.jpg", "countryCode": "US"}, "Maya Joint": {"file": "maya-joint.jpg", "countryCode": "AU"}, "Mayar Sherif": {"file": "mayar-sherif.jpg", "countryCode": "EG"}, "Mccartney Kessler": {"file": "mccartney-kessler.jpg", "countryCode": "US"}, "Michael Chang": {"file": "michael-chang.jpg", "countryCode": "US"}, "Michael Stich": {"file": "michael-stich.jpg", "countryCode": "DE"}, "Mihaela Buzarnescu": {"file": "mihaela-buzarnescu.jpg", "countryCode": "RO"}, "Mikael Pernfors": {"file": "mikael-pernfors.jpg", "countryCode": "SE"}, "Mikael Ymer": {"file": "mikael-ymer.jpg", "countryCode": "SE"}, "Mikhail Kukushkin": {"file": "mikhail-kukushkin.jpg", "countryCode": "KZ"}, "Mikhail Youzhny": {"file": "mikhail-youzhny.jpg", "countryCode": "RU"}, "Milos Raonic": {"file": "milos-raonic.jpg", "countryCode": "CA"}, "Miloslav Mecir": {"file": "miloslav-mecir.jpg", "countryCode": "SK"}, "Miomir Kecmanovic": {"file": "miomir-kecmanovic.jpg", "countryCode": "RS"}, "Mirra Andreeva": {"file": "mirra-andreeva.jpg", "countryCode": "RU"}, "Misaki Doi": {"file": "misaki-doi.jpg", "countryCode": "JP"}, "Mischa Zverev": {"file": "mischa-zverev.jpg", "countryCode": "DE"}, "Mona Barthel": {"file": "mona-barthel.jpg", "countryCode": "DE"}, "Monica Niculescu": {"file": "monica-niculescu.jpg", "countryCode": "RO"}, "Monica Puig": {"file": "monica-puig.jpg", "countryCode": "PR"}, "Monica Seles": {"file": "monica-seles.jpg", "countryCode": "US"}, "Moyuka Uchijima": {"file": "moyuka-uchijima.jpg", "countryCode": "JP"}, "Na Li": {"file": "na-li.jpg", "countryCode": "CN"}, "Nadia Petrova": {"file": "nadia-petrova.jpg", "countryCode": "RU"}, "Nadia Podoroska": {"file": "nadia-podoroska.jpg", "countryCode": "AR"}, "Nao Hibino": {"file": "nao-hibino.jpg", "countryCode": "JP"}, "Naomi Osaka": {"file": "naomi-osaka.jpg", "countryCode": "JP"}, "Nick Kyrgios": {"file": "nick-kyrgios.jpg", "countryCode": "AU"}, "Nicolas Almagro": {"file": "nicolas-almagro.jpg", "countryCode": "ES"}, "Nicolas Escude": {"file": "nicolas-escude.jpg", "countryCode": "FR"}, "Nicolas Jarry": {"file": "nicolas-jarry.jpg", "countryCode": "CL"}, "Nicolas Kiefer": {"file": "nicolas-kiefer.jpg", "countryCode": "DE"}, "Nicolas Mahut": {"file": "nicolas-mahut.jpg", "countryCode": "FR"}, "Nicolas Massu": {"file": "nicolas-massu.jpg", "countryCode": "CL"}, "Nicole Gibbs": {"file": "nicole-gibbs.jpg", "countryCode": "US"}, "Nikolay Davydenko": {"file": "nikolay-davydenko.jpg", "countryCode": "RU"}, "Nikoloz Basilashvili": {"file": "nikoloz-basilashvili.jpg", "countryCode": "GE"}, "Nishesh Basavareddy": {"file": "nishesh-basavareddy.jpg", "countryCode": "US"}, "Novak Djokovic": {"file": "novak-djokovic.jpg", "countryCode": "RS"}, "Nuno Borges": {"file": "nuno-borges.jpg", "countryCode": "PT"}, "Nuria Parrizas Diaz": {"file": "nuria-parrizas-diaz.jpg", "countryCode": "ES"}, "Oceane Dodin": {"file": "oceane-dodin.jpg", "countryCode": "FR"}, "Olga Danilovic": {"file": "olga-danilovic.jpg", "countryCode": "RS"}, "Olivia Gadecki": {"file": "olivia-gadecki.jpg", "countryCode": "AU"}, "Ons Jabeur": {"file": "ons-jabeur.jpg", "countryCode": "TN"}, "Otto Virtanen": {"file": "otto-virtanen.jpg", "countryCode": "FI"}, "Pablo Andujar": {"file": "pablo-andujar.jpg", "countryCode": "ES"}, "Pablo Carreno Busta": {"file": "pablo-carreno-busta.jpg", "countryCode": "ES"}, "Paolo Lorenzi": {"file": "paolo-lorenzi.jpg", "countryCode": "IT"}, "Pat Cash": {"file": "pat-cash.jpg", "countryCode": "AU"}, "Patricia Maria Tig": {"file": "patricia-maria-tig.jpg", "countryCode": "RO"}, "Patrick Rafter": {"file": "patrick-rafter.jpg", "countryCode": "AU"}, "Paul Henri Mathieu": {"file": "paul-henri-mathieu.jpg", "countryCode": "FR"}, "Paula Badosa": {"file": "paula-badosa.jpg", "countryCode": "ES"}, "Pavel Kotov": {"file": "pavel-kotov.jpg", "countryCode": "RU"}, "Pedro Martinez": {"file": "pedro-martinez.jpg", "countryCode": "ES"}, "Pete Sampras": {"file": "pete-sampras.jpg", "countryCode": "US"}, "Peter Gojowczyk": {"file": "peter-gojowczyk.jpg", "countryCode": "DE"}, "Petr Korda": {"file": "petr-korda.jpg", "countryCode": "CZ"}, "Petra Kvitova": {"file": "petra-kvitova.jpg", "countryCode": "CZ"}, "Petra Martic": {"file": "petra-martic.jpg", "countryCode": "HR"}, "Peyton Stearns": {"file": "peyton-stearns.jpg", "countryCode": "US"}, "Philipp Kohlschreiber": {"file": "philipp-kohlschreiber.jpg", "countryCode": "DE"}, "Pierre Hugues Herbert": {"file": "pierre-hugues-herbert.jpg", "countryCode": "FR"}, "Polona Hercog": {"file": "polona-hercog.jpg", "countryCode": "SI"}, "Qiang Wang": {"file": "qiang-wang.jpg", "countryCode": "CN"}, "Qinwen Zheng": {"file": "qinwen-zheng.png", "countryCode": "CN"}, "Quentin Halys": {"file": "quentin-halys.jpg", "countryCode": "FR"}, "Radek Stepanek": {"file": "radek-stepanek.jpg", "countryCode": "CZ"}, "Radu Albot": {"file": "radu-albot.jpg", "countryCode": "MD"}, "Rafael Jodar": {"file": "rafael-jodar.jpg", "countryCode": "ES"}, "Rafael Nadal": {"file": "rafael-nadal.jpg", "countryCode": "ES"}, "Raphael Collignon": {"file": "raphael-collignon.jpg", "countryCode": "BE"}, "Rebecca Marino": {"file": "rebecca-marino.jpg", "countryCode": "CA"}, "Rebecca Peterson": {"file": "rebecca-peterson.jpg", "countryCode": "SE"}, "Rebecca Sramkova": {"file": "rebecca-sramkova.jpg", "countryCode": "SK"}, "Reilly Opelka": {"file": "reilly-opelka.jpg", "countryCode": "US"}, "Ricardas Berankis": {"file": "ricardas-berankis.jpg", "countryCode": "LT"}, "Richard Gasquet": {"file": "richard-gasquet.jpg", "countryCode": "FR"}, "Richard Krajicek": {"file": "richard-krajicek.jpg", "countryCode": "NL"}, "Rinky Hijikata": {"file": "rinky-hijikata.jpg", "countryCode": "AU"}, "Roberta Vinci": {"file": "roberta-vinci.jpg", "countryCode": "IT"}, "Roberto Bautista Agut": {"file": "roberto-bautista-agut.jpg", "countryCode": "ES"}, "Roberto Carballes Baena": {"file": "roberto-carballes-baena.jpg", "countryCode": "ES"}, "Robin Haase": {"file": "robin-haase.jpg", "countryCode": "NL"}, "Robin Montgomery": {"file": "robin-montgomery.jpg", "countryCode": "US"}, "Robin Soderling": {"file": "robin-soderling.jpg", "countryCode": "SE"}, "Roger Federer": {"file": "roger-federer.jpg", "countryCode": "CH"}, "Roman Safiullin": {"file": "roman-safiullin.jpg", "countryCode": "RU"}, "Sabine Lisicki": {"file": "sabine-lisicki.jpg", "countryCode": "DE"}, "Saisai Zheng": {"file": "saisai-zheng.jpg", "countryCode": "CN"}, "Sam Querrey": {"file": "sam-querrey.jpg", "countryCode": "US"}, "Samantha Stosur": {"file": "samantha-stosur.jpg", "countryCode": "AU"}, "Sara Bejlek": {"file": "sara-bejlek.jpg", "countryCode": "CZ"}, "Sara Errani": {"file": "sara-errani.jpg", "countryCode": "IT"}, "Sara Sorribes Tormo": {"file": "sara-sorribes-tormo.jpg", "countryCode": "ES"}, "Sebastian Baez": {"file": "sebastian-baez.jpg", "countryCode": "AR"}, "Sebastian Korda": {"file": "sebastian-korda.jpg", "countryCode": "US"}, "Sebastian Ofner": {"file": "sebastian-ofner.jpg", "countryCode": "AT"}, "Sebastien Grosjean": {"file": "sebastien-grosjean.jpg", "countryCode": "FR"}, "Selina Dal": {"countryCode": "DE"}, "Serena Williams": {"file": "serena-williams.jpg", "countryCode": "US"}, "Sergi Bruguera": {"countryCode": "ES"}, "Sergiy Stakhovsky": {"file": "sergiy-stakhovsky.jpg", "countryCode": "UA"}, "Shelby Rogers": {"file": "shelby-rogers.jpg", "countryCode": "US"}, "Shuai Peng": {"file": "shuai-peng.jpg", "countryCode": "CN"}, "Shuai Zhang": {"file": "shuai-zhang.jpg", "countryCode": "CN"}, "Simona Halep": {"file": "simona-halep.jpg", "countryCode": "RO"}, "Sjeng Schalken": {"file": "sjeng-schalken.jpg", "countryCode": "NL"}, "Sloane Stephens": {"file": "sloane-stephens.jpg", "countryCode": "US"}, "Sofia Kenin": {"file": "sofia-kenin.jpg", "countryCode": "US"}, "Solana Sierra": {"file": "solana-sierra.jpg", "countryCode": "AR"}, "Sorana Cirstea": {"file": "sorana-cirstea.jpg", "countryCode": "RO"}, "Stan Wawrinka": {"file": "stan-wawrinka.jpg", "countryCode": "CH"}, "Stefan Edberg": {"file": "stefan-edberg.jpg", "countryCode": "SE"}, "Stefanos Tsitsipas": {"file": "stefanos-tsitsipas.jpg", "countryCode": "GR"}, "Steffi Graf": {"file": "steffi-graf.jpg", "countryCode": "DE"}, "Steve Darcis": {"file": "steve-darcis.jpg", "countryCode": "BE"}, "Steve Johnson": {"file": "steve-johnson.jpg", "countryCode": "US"}, "Su Wei Hsieh": {"file": "su-wei-hsieh.jpg", "countryCode": "TW"}, "Sumit Nagal": {"file": "sumit-nagal.jpg", "countryCode": "IN"}, "Suzan Lamens": {"file": "suzan-lamens.jpg", "countryCode": "NL"}, "Svetlana Kuznetsova": {"file": "svetlana-kuznetsova.jpg", "countryCode": "RU"}, "Talia Gibson": {"file": "talia-gibson.jpg", "countryCode": "AU"}, "Tallon Griekspoor": {"file": "tallon-griekspoor.jpg", "countryCode": "NL"}, "Tamara Zidansek": {"file": "tamara-zidansek.jpg", "countryCode": "SI"}, "Taro Daniel": {"file": "taro-daniel.jpg", "countryCode": "JP"}, "Tatjana Maria": {"file": "tatjana-maria.jpg", "countryCode": "DE"}, "Taylor Fritz": {"file": "taylor-fritz.jpg", "countryCode": "US"}, "Taylor Townsend": {"file": "taylor-townsend.jpg", "countryCode": "US"}, "Tennys Sandgren": {"file": "tennys-sandgren.jpg", "countryCode": "US"}, "Tereza Martincova": {"file": "tereza-martincova.jpg", "countryCode": "CZ"}, "Tereza Valentova": {"file": "tereza-valentova.jpg", "countryCode": "CZ"}, "Thanasi Kokkinakis": {"file": "thanasi-kokkinakis.jpg", "countryCode": "AU"}, "Thiago Monteiro": {"file": "thiago-monteiro.jpg", "countryCode": "BR"}, "Thiago Seyboth Wild": {"file": "thiago-seyboth-wild.jpg", "countryCode": "BR"}, "Thomas Enqvist": {"file": "thomas-enqvist.jpg", "countryCode": "SE"}, "Thomas Fabbiano": {"file": "thomas-fabbiano.jpg", "countryCode": "IT"}, "Thomas Johansson": {"file": "thomas-johansson.jpg", "countryCode": "SE"}, "Thomas Muster": {"file": "thomas-muster.jpg", "countryCode": "AT"}, "Thomaz Bellucci": {"file": "thomaz-bellucci.jpg", "countryCode": "BR"}, "Tim Henman": {"file": "tim-henman.jpg", "countryCode": "GB"}, "Tim Van Rijthoven": {"file": "tim-van-rijthoven.jpg", "countryCode": "NL"}, "Timea Bacsinszky": {"file": "timea-bacsinszky.jpg", "countryCode": "CH"}, "Todd Martin": {"file": "todd-martin.jpg", "countryCode": "US"}, "Tomas Berdych": {"file": "tomas-berdych.jpg", "countryCode": "CZ"}, "Tomas Machac": {"file": "tomas-machac.jpg", "countryCode": "CZ"}, "Tomas Martin Etcheverry": {"file": "tomas-martin-etcheverry.jpg", "countryCode": "AR"}, "Tommy Haas": {"file": "tommy-haas.jpg", "countryCode": "DE"}, "Tommy Paul": {"file": "tommy-paul.jpg", "countryCode": "US"}, "Tommy Robredo": {"file": "tommy-robredo.jpg", "countryCode": "ES"}, "Tsvetana Pironkova": {"file": "tsvetana-pironkova.jpg", "countryCode": "BG"}, "Ugo Humbert": {"file": "ugo-humbert.jpg", "countryCode": "FR"}, "Valentin Vacherot": {"file": "valentin-vacherot.jpg", "countryCode": "MC"}, "Varvara Gracheva": {"file": "varvara-gracheva.jpg", "countryCode": "FR"}, "Varvara Lepchenko": {"file": "varvara-lepchenko.jpg", "countryCode": "US"}, "Vasek Pospisil": {"file": "vasek-pospisil.jpg", "countryCode": "CA"}, "Venus Williams": {"file": "venus-williams.jpg", "countryCode": "US"}, "Vera Zvonareva": {"file": "vera-zvonareva.jpg", "countryCode": "RU"}, "Veronika Kudermetova": {"file": "veronika-kudermetova.jpg", "countryCode": "RU"}, "Victoria Azarenka": {"file": "victoria-azarenka.jpg", "countryCode": "BY"}, "Victoria Jimenez Kasintseva": {"file": "victoria-jimenez-kasintseva.jpg", "countryCode": "AD"}, "Victoria Mboko": {"file": "victoria-mboko.jpg", "countryCode": "CA"}, "Viktor Troicki": {"file": "viktor-troicki.jpg", "countryCode": "RS"}, "Viktoria Hruncakova": {"file": "viktoria-hruncakova.jpg", "countryCode": "SK"}, "Viktorija Golubic": {"file": "viktorija-golubic.jpg", "countryCode": "CH"}, "Viktoriya Tomova": {"file": "viktoriya-tomova.jpg", "countryCode": "BG"}, "Wayne Ferreira": {"file": "wayne-ferreira.jpg", "countryCode": "ZA"}, "Xavier Malisse": {"file": "xavier-malisse.jpg", "countryCode": "BE"}, "Xin Yu Wang": {"file": "xin-yu-wang.jpg", "countryCode": "CN"}, "Xiyu Wang": {"file": "xiyu-wang.jpg", "countryCode": "CN"}, "Yafan Wang": {"file": "yafan-wang.jpg", "countryCode": "CN"}, "Yannick Hanfmann": {"file": "yannick-hanfmann.jpg", "countryCode": "DE"}, "Yannick Noah": {"file": "yannick-noah.jpg", "countryCode": "FR"}, "Yevgeny Kafelnikov": {"file": "yevgeny-kafelnikov.jpg", "countryCode": "RU"}, "Yoshihito Nishioka": {"file": "yoshihito-nishioka.jpg", "countryCode": "JP"}, "Yue Yuan": {"file": "yue-yuan.jpg", "countryCode": "CN"}, "Yulia Putintseva": {"file": "yulia-putintseva.jpg", "countryCode": "KZ"}, "Zarina Diyas": {"file": "zarina-diyas.jpg", "countryCode": "KZ"}, "Zhizhen Zhang": {"file": "zhizhen-zhang.jpg", "countryCode": "CN"}, "Zizou Bergs": {"file": "zizou-bergs.jpg", "countryCode": "BE"}};
 
 const CASES = {
@@ -8,19 +10,19 @@ const CASES = {
     tags: ["Product Analytics", "Funnel", "Retention", "Marketplace"],
     copy: {
       pt: {
-        tab: "Product Analytics",
+        tab: "Playzone",
         title: "Product Analytics: funil de ativação do marketplace Playzone",
         description: "No marketplace Playzone, só 5,6% da jornada chega à reserva confirmada. A maior perda aparece antes do convite enviado.",
         recommendation: "Priorizar experimentos que aumentem convite enviado e qualidade de oportunidade antes de otimizar etapas já saudáveis."
       },
       en: {
-        tab: "Product Analytics",
+        tab: "Playzone",
         title: "Product Analytics: activation funnel for the Playzone marketplace",
         description: "In the Playzone marketplace, only 5.6% of the journey reaches confirmed booking. The largest loss appears before invitation sent.",
         recommendation: "Prioritize experiments that increase invitation sent and opportunity quality before optimizing already healthy steps."
       },
       es: {
-        tab: "Product Analytics",
+        tab: "Playzone",
         title: "Product Analytics: embudo de activación del marketplace Playzone",
         description: "En el marketplace Playzone, solo 5,6% de la jornada llega a reserva confirmada. La mayor pérdida aparece antes de enviar la invitación.",
         recommendation: "Priorizar experimentos que aumenten invitaciones enviadas y calidad de oportunidad antes de optimizar etapas saludables."
@@ -33,19 +35,19 @@ const CASES = {
     tags: ["Applied AI", "Quality", "Release governance", "Prompt evaluation"],
     copy: {
       pt: {
-        tab: "AI Quality",
+        tab: "Governança de IA",
         title: "AI Quality: governança de release para respostas de IA",
         description: "41,0% release-ready. A v3 é o melhor baseline, com backlog por versão, caso de uso e tipo de falha.",
         recommendation: "Usar v3 como baseline, atacar falhas de contexto e actionability, e manter gate de release por caso de uso."
       },
       en: {
-        tab: "AI Quality",
+        tab: "AI Governance",
         title: "AI Quality: release governance for AI responses",
         description: "41.0% release-ready. v3 is the best baseline, with backlog by version, use case and failure type.",
         recommendation: "Use v3 as the baseline, address context and actionability failures, and keep a release gate by use case."
       },
       es: {
-        tab: "AI Quality",
+        tab: "Gobernanza de IA",
         title: "AI Quality: gobernanza de release para respuestas de IA",
         description: "41,0% release-ready. v3 es el mejor baseline, con backlog por versión, caso de uso y tipo de falla.",
         recommendation: "Usar v3 como baseline, atacar fallas de contexto y accionabilidad, y mantener gate por caso de uso."
@@ -58,7 +60,7 @@ const CASES = {
     tags: ["Data Quality", "Pipeline", "BI gate", "DuckDB"],
     copy: {
       pt: {
-        tab: "Pipeline Quality",
+        tab: "Qualidade do pipeline",
         title: "Pipeline Quality: publicação bloqueada com score alto",
         description: "98,2% de score geral, mas 9 falhas críticas bloqueiam a publicação executiva.",
         recommendation: "Publicar apenas marts Ready, corrigir falhas críticas e tratar warnings fora da receita executiva."
@@ -70,7 +72,7 @@ const CASES = {
         recommendation: "Publish Ready marts only, fix critical failures and monitor warnings outside executive revenue."
       },
       es: {
-        tab: "Pipeline Quality",
+        tab: "Calidad del pipeline",
         title: "Pipeline Quality: publicación bloqueada con score alto",
         description: "98,2% de score general, pero 9 fallas críticas bloquean la publicación ejecutiva.",
         recommendation: "Publicar solo marts Ready, corregir fallas críticas y monitorear warnings fuera del ingreso ejecutivo."
@@ -83,19 +85,19 @@ const CASES = {
     tags: ["Retail BI", "Margin", "Targets", "Executive dashboard"],
     copy: {
       pt: {
-        tab: "Retail BI",
+        tab: "Receita e margem",
         title: "Retail BI: receita, margem e metas executivas",
         description: "R$ 1,08M em receita, 31,0% de margem e alertas por canal, categoria, mês e produto.",
         recommendation: "Proteger categorias com margem pressionada e usar metas por canal para explicar onde receita cresceu sem preservar rentabilidade."
       },
       en: {
-        tab: "Retail BI",
+        tab: "Revenue and margin",
         title: "Retail BI: executive revenue, margin and targets",
         description: "R$1.08M revenue, 31.0% margin and alerts by channel, category, month and product.",
         recommendation: "Protect categories with pressured margin and use channel targets to explain where revenue grew without preserving profitability."
       },
       es: {
-        tab: "Retail BI",
+        tab: "Ingresos y margen",
         title: "Retail BI: ingresos, margen y metas ejecutivas",
         description: "R$1,08M en ingresos, 31,0% de margen y alertas por canal, categoría, mes y producto.",
         recommendation: "Proteger categorías con margen presionado y usar metas por canal para explicar dónde creció ingreso sin preservar rentabilidad."
@@ -111,9 +113,9 @@ const CASES = {
       es: ["Análisis deportivo", "Comparación contextual", "Incertidumbre visible", "Calidad de datos"]
     },
     copy: {
-      pt: { tab: "Tennis Pressure", title: "Saque sob pressão: o que muda nos break points?", description: "Comparação entre pontos de saque em break point e os demais pontos, com denominadores e intervalos de confiança visíveis.", recommendation: "Use a leitura como diagnóstico descritivo: contexto, amostra e incerteza devem acompanhar qualquer comparação por jogador." },
-      en: { tab: "Tennis Pressure", title: "Serving under pressure: what changes on break points?", description: "Break-point serve performance versus other serve points, with visible denominators and confidence intervals.", recommendation: "Use this as a descriptive diagnostic: context, sample size and uncertainty must accompany every player comparison." },
-      es: { tab: "Tennis Pressure", title: "Saque bajo presión: ¿qué cambia en los break points?", description: "Rendimiento al saque en break point frente a los demás puntos, con denominadores e intervalos de confianza visibles.", recommendation: "Use la lectura como diagnóstico descriptivo: contexto, muestra e incertidumbre deben acompañar cada comparación por jugadora o jugador." }
+      pt: { tab: "Saque sob pressão", title: "Saque sob pressão: o que muda nos break points?", description: "Comparação entre pontos de saque em break point e os demais pontos, com denominadores e intervalos de confiança visíveis.", recommendation: "Use a leitura como diagnóstico descritivo: contexto, amostra e incerteza devem acompanhar qualquer comparação por jogador." },
+      en: { tab: "Serving under pressure", title: "Serving under pressure: what changes on break points?", description: "Break-point serve performance versus other serve points, with visible denominators and confidence intervals.", recommendation: "Use this as a descriptive diagnostic: context, sample size and uncertainty must accompany every player comparison." },
+      es: { tab: "Saque bajo presión", title: "Saque bajo presión: ¿qué cambia en los break points?", description: "Rendimiento al saque en break point frente a los demás puntos, con denominadores e intervalos de confianza visibles.", recommendation: "Use la lectura como diagnóstico descriptivo: contexto, muestra e incertidumbre deben acompañar cada comparación por jugadora o jugador." }
     }
   }
 };
@@ -125,7 +127,7 @@ const JOURNEYS = {
         step: "01",
         kicker: "Brief",
         title: "O que o marketplace Playzone precisava descobrir",
-        body: "Playzone é a marca do marketplace deste case. A pergunta de negócio era onde uma jornada com interesse real deixava de virar reserva confirmada, para priorizar produto sem olhar apenas volume bruto.",
+        body: "Playzone é a marca do marketplace deste projeto. A pergunta de negócio era onde uma jornada com interesse real deixava de virar reserva confirmada, para priorizar produto sem olhar apenas volume bruto.",
         logic: "perda_etapa = 1 - usuarios_etapa / usuarios_etapa_anterior\nconversao_total = usuarios_etapa / usuarios_inicio",
         meta: ["Produto", "Funil ordenado", "Priorização"]
       },
@@ -158,7 +160,7 @@ const JOURNEYS = {
         step: "01",
         kicker: "Brief",
         title: "What the Playzone marketplace needed to learn",
-        body: "Playzone is the marketplace brand in this case. The business question was where a journey with real interest stopped becoming a confirmed booking, so product priorities would not be based on raw volume alone.",
+        body: "Playzone is the marketplace brand in this project. The business question was where a journey with real interest stopped becoming a confirmed booking, so product priorities would not be based on raw volume alone.",
         logic: "step_loss = 1 - users_at_step / users_previous_step\ntotal_conversion = users_at_step / users_start",
         meta: ["Product", "Ordered funnel", "Prioritization"]
       },
@@ -191,7 +193,7 @@ const JOURNEYS = {
         step: "01",
         kicker: "Brief",
         title: "Qué necesitaba descubrir el marketplace Playzone",
-        body: "Playzone es la marca del marketplace de este caso. La pregunta de negocio era dónde una jornada con interés real dejaba de convertirse en reserva confirmada, para priorizar producto sin mirar solo volumen bruto.",
+        body: "Playzone es la marca del marketplace de este proyecto. La pregunta de negocio era dónde una jornada con interés real dejaba de convertirse en reserva confirmada, para priorizar producto sin mirar solo volumen bruto.",
         logic: "perdida_etapa = 1 - usuarios_etapa / usuarios_etapa_anterior\nconversion_total = usuarios_etapa / usuarios_inicio",
         meta: ["Producto", "Embudo ordenado", "Priorización"]
       },
@@ -327,7 +329,7 @@ const JOURNEYS = {
         step: "01",
         kicker: "Brief",
         title: "Score alto não significa dado publicável",
-        body: "O case responde se a camada executiva poderia ser publicada mesmo com qualidade média alta. A decisão precisava separar warnings toleráveis de falhas críticas que contaminariam BI, receita e confiança.",
+        body: "O projeto responde se a camada executiva poderia ser publicada mesmo com qualidade média alta. A decisão precisava separar warnings toleráveis de falhas críticas que contaminariam BI, receita e confiança.",
         logic: "publicavel = falhas_criticas == 0\nscore_qualidade = checks_ok / checks_total",
         meta: ["Data Quality", "BI gate", "Risco executivo"]
       },
@@ -360,7 +362,7 @@ const JOURNEYS = {
         step: "01",
         kicker: "Brief",
         title: "A high score does not mean publishable data",
-        body: "The case answers whether the executive layer could be published despite a high average quality score. The decision had to separate tolerable warnings from critical failures that would damage BI, revenue and trust.",
+        body: "The project answers whether the executive layer could be published despite a high average quality score. The decision had to separate tolerable warnings from critical failures that would damage BI, revenue and trust.",
         logic: "publishable = critical_failures == 0\nquality_score = checks_passed / checks_total",
         meta: ["Data Quality", "BI gate", "Executive risk"]
       },
@@ -393,7 +395,7 @@ const JOURNEYS = {
         step: "01",
         kicker: "Brief",
         title: "Un score alto no significa dato publicable",
-        body: "El caso responde si la capa ejecutiva podía publicarse aunque el score promedio fuera alto. La decisión debía separar warnings tolerables de fallas críticas que contaminarían BI, ingreso y confianza.",
+        body: "El proyecto responde si la capa ejecutiva podía publicarse aunque el score promedio fuera alto. La decisión debía separar warnings tolerables de fallas críticas que contaminarían BI, ingreso y confianza.",
         logic: "publicable = fallas_criticas == 0\nscore_calidad = checks_ok / checks_total",
         meta: ["Data Quality", "BI gate", "Riesgo ejecutivo"]
       },
@@ -529,7 +531,7 @@ const JOURNEYS = {
         step: "01",
         kicker: "Brief",
         title: "A pergunta não era quem saca melhor, mas o que muda sob pressão",
-        body: "O case compara o mesmo fundamento em dois contextos: pontos de saque disputados em break point e todos os demais pontos de saque. O objetivo é medir a variação sem transformar uma comparação descritiva em ranking ou causalidade.",
+        body: "O projeto compara o mesmo fundamento em dois contextos: pontos de saque disputados em break point e todos os demais pontos de saque. O objetivo é medir a variação sem transformar uma comparação descritiva em ranking ou causalidade.",
         logic: "taxa sob pressão = pontos vencidos em break points / break points disputados\ntaxa nos demais pontos = demais pontos vencidos / demais pontos disputados\nvariação = taxa sob pressão − taxa nos demais pontos",
         meta: ["Análise esportiva", "Pergunta comparável", "Pressão"]
       },
@@ -563,7 +565,7 @@ const JOURNEYS = {
         step: "01",
         kicker: "Brief",
         title: "The question was not who serves better, but what changes under pressure",
-        body: "The case compares the same skill in two contexts: serve points played on break point and all other serve points. The goal is to measure the change without turning a descriptive comparison into a ranking or causal claim.",
+        body: "The project compares the same skill in two contexts: serve points played on break point and all other serve points. The goal is to measure the change without turning a descriptive comparison into a ranking or causal claim.",
         logic: "under-pressure rate = break points won / break points played\nother-point rate = other points won / other points played\nchange = under-pressure rate − other-point rate",
         meta: ["Sports Analytics", "Comparable question", "Pressure"]
       },
@@ -597,7 +599,7 @@ const JOURNEYS = {
         step: "01",
         kicker: "Brief",
         title: "La pregunta no era quién saca mejor, sino qué cambia bajo presión",
-        body: "El caso compara el mismo fundamento en dos contextos: puntos de saque jugados en break point y los demás puntos de saque. El objetivo es medir la variación sin convertir una comparación descriptiva en ranking o causalidad.",
+        body: "El proyecto compara el mismo fundamento en dos contextos: puntos de saque jugados en break point y los demás puntos de saque. El objetivo es medir la variación sin convertir una comparación descriptiva en ranking o causalidad.",
         logic: "tasa bajo presión = break points ganados / break points jugados\ntasa en los demás puntos = otros puntos ganados / otros puntos jugados\nvariación = tasa bajo presión − tasa en los demás puntos",
         meta: ["Análisis deportivo", "Pregunta comparable", "Presión"]
       },
@@ -637,7 +639,7 @@ const PLAYZONE_STAGES = {
       title: "Descobrir se a Playzone leva usuários ao momento de valor",
       meta: ["Python", "Tracking plan", "CSV sintético", "Product Analytics"],
       body: [
-        "A Playzone foi modelada como um marketplace de experiências, jogos e atividades. O objetivo do case não era contar abertura de app, mas medir se usuários chegavam ao momento de valor: uma reserva confirmada depois de buscar, ver uma oportunidade e enviar convite.",
+        "A Playzone foi modelada como um marketplace de experiências, jogos e atividades. O objetivo do projeto não era contar abertura de app, mas medir se usuários chegavam ao momento de valor: uma reserva confirmada depois de buscar, ver uma oportunidade e enviar convite.",
         "A base foi gerada em Python com 500 usuários, canais de aquisição, plataformas, categorias, eventos de produto e oportunidades de marketplace. O funil e as probabilidades de passagem foram definidos explicitamente para simular uma jornada realista e auditável."
       ],
       flow: ["generate_product_events.py", "users/events/actions CSV", "tracking_plan.md", "DuckDB model", "dashboard_data.json"],
@@ -766,13 +768,16 @@ PLAYZONE_STAGES.es = PLAYZONE_STAGES.pt;
 const UI = {
   pt: {
     lang: "pt-BR",
-    pageTitle: "Dashboards analíticos | Bruno Nascimento",
-    navCases: "Cases",
-    navDashboard: "Dashboards",
+    pageTitle: "Projetos | Bruno Nascimento",
+    skipToAnalysis: "Pular para o projeto",
+    loadingAnalyses: "Carregando análises...",
+    analysisLoadError: "Não foi possível carregar os dados da análise:",
+    navCases: "Projetos",
+    navDashboard: "Análises interativas",
     navMethod: "Método",
     navStack: "Stack",
     navContact: "Contato",
-    openRepo: "Abrir repositório",
+    openRepo: "Repositório",
     recommendation: "Recomendação",
     dataLayer: "Camada de dados",
     controls: {
@@ -919,13 +924,16 @@ const UI = {
   },
   en: {
     lang: "en",
-    pageTitle: "Analytics dashboards | Bruno Nascimento",
-    navCases: "Cases",
-    navDashboard: "Dashboards",
+    pageTitle: "Projects | Bruno Nascimento",
+    skipToAnalysis: "Skip to the project",
+    loadingAnalyses: "Loading analyses...",
+    analysisLoadError: "The analysis data could not be loaded:",
+    navCases: "Projects",
+    navDashboard: "Interactive analyses",
     navMethod: "Method",
     navStack: "Stack",
     navContact: "Contact",
-    openRepo: "Open repository",
+    openRepo: "Repository",
     recommendation: "Recommendation",
     dataLayer: "Data layer",
     controls: {
@@ -1071,13 +1079,16 @@ const UI = {
   },
   es: {
     lang: "es",
-    pageTitle: "Dashboards analíticos | Bruno Nascimento",
-    navCases: "Casos",
-    navDashboard: "Dashboards",
+    pageTitle: "Proyectos | Bruno Nascimento",
+    skipToAnalysis: "Saltar al proyecto",
+    loadingAnalyses: "Cargando análisis...",
+    analysisLoadError: "No se pudieron cargar los datos del análisis:",
+    navCases: "Proyectos",
+    navDashboard: "Análisis interactivos",
     navMethod: "Método",
     navStack: "Stack",
     navContact: "Contacto",
-    openRepo: "Abrir repositorio",
+    openRepo: "Repositorio",
     recommendation: "Recomendación",
     dataLayer: "Capa de datos",
     controls: {
@@ -1322,8 +1333,10 @@ const LABELS = {
   }
 };
 
+const requestedProject = params.get("project") || params.get("case");
+
 const state = {
-  caseId: CASES[params.get("case")] ? params.get("case") : "playzone",
+  caseId: CASES[requestedProject] ? requestedProject : "playzone",
   lang: UI[params.get("lang")] ? params.get("lang") : "pt",
   filters: {
     channel: params.get("channel") || "all",
@@ -1346,6 +1359,7 @@ const state = {
 
 let datasets = {};
 let chartRevealObserver = null;
+let projectStepObserver = null;
 
 const $ = (selector) => document.querySelector(selector);
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -1374,7 +1388,8 @@ const compact = (value) => formatNumber(value, { notation: "compact", maximumFra
 
 const updateUrl = () => {
   const url = new URL(window.location.href);
-  url.searchParams.set("case", state.caseId);
+  url.searchParams.set("project", state.caseId);
+  url.searchParams.delete("case");
   url.searchParams.set("lang", state.lang);
   Object.entries(state.filters).forEach(([key, value]) => {
     if (value && value !== "all") url.searchParams.set(key, value);
@@ -1507,19 +1522,58 @@ const bindCustomSelects = () => {
 };
 
 const renderTabs = () => {
-  $("#case-tabs").innerHTML = Object.keys(CASES).map((caseId) => `
+  const tabs = $("#case-tabs");
+  if (!tabs) return;
+  tabs.innerHTML = Object.keys(CASES).map((caseId) => `
     <button type="button" role="tab" aria-selected="${caseId === state.caseId}" data-case-id="${caseId}">
       ${escapeHtml(caseCopy(caseId).tab)}
     </button>
-  `).join("");
+  `).join("") + `
+    <a role="tab" aria-selected="false" href="../cases/aga-studio/?lang=${encodeURIComponent(state.lang)}">AGA Studio</a>
+  `;
 
   document.querySelectorAll("[data-case-id]").forEach((button) => {
     button.addEventListener("click", () => {
       state.caseId = button.dataset.caseId;
+      Object.keys(state.filters).forEach((key) => { state.filters[key] = "all"; });
       updateUrl();
       render();
+      document.querySelector("#project-content-start")?.scrollIntoView({ block: "start" });
     });
   });
+};
+
+const projectStages = () => state.caseId === "playzone" ? playzoneStages() : journeyCopy();
+
+const renderProjectContext = () => {
+  const context = document.querySelector("[data-project-context]");
+  if (!context) return;
+  const definition = CASES[state.caseId];
+  const tags = Array.isArray(definition.tags) ? definition.tags : (definition.tags[state.lang] || definition.tags.pt);
+  const stages = projectStages();
+  $("#project-context-name").textContent = caseCopy().tab;
+  $("#project-context-type").textContent = tags[0] || "";
+  $("#project-step-nav").innerHTML = stages.map((item) => `
+    <a href="#project-step-${escapeHtml(item.step)}" data-project-step-link="${escapeHtml(item.step)}">${escapeHtml(item.kicker)}</a>
+  `).join("");
+  const repo = $("#repo-link");
+  if (repo) repo.href = definition.repo;
+};
+
+const setupProjectStepNav = () => {
+  projectStepObserver?.disconnect();
+  const links = [...document.querySelectorAll("[data-project-step-link]")];
+  const sections = [...document.querySelectorAll(".process-chapter[id]")];
+  if (!links.length || !sections.length || !("IntersectionObserver" in window)) return;
+  const setCurrent = (step) => {
+    links.forEach((link) => link.classList.toggle("is-current", link.dataset.projectStepLink === step));
+  };
+  setCurrent(sections[0].id.replace("project-step-", ""));
+  projectStepObserver = new IntersectionObserver((entries) => {
+    const visible = entries.filter((entry) => entry.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+    if (visible[0]) setCurrent(visible[0].target.id.replace("project-step-", ""));
+  }, { rootMargin: "-54px 0px -72% 0px", threshold: 0 });
+  sections.forEach((section) => projectStepObserver.observe(section));
 };
 
 const heroText = () => {
@@ -1899,7 +1953,7 @@ const renderIntro = () => {
       </ul>
     </aside>
     ${hero.flow}
-    <div class="hero-evidence-strip" aria-label="Evidências principais do case">
+    <div class="hero-evidence-strip" aria-label="Evidências principais do projeto">
       ${hero.evidence.map((item) => `
         <article class="hero-evidence-item">
           <small>${escapeHtml(item.label)}</small>
@@ -2034,7 +2088,7 @@ const processChapter = (item) => {
     </div>
   ` : "";
   return `
-    <section class="process-chapter">
+    <section class="process-chapter" id="project-step-${escapeHtml(item.step)}">
       <div class="chapter-index">${escapeHtml(item.step)}</div>
       <div class="chapter-copy">
         <span>${escapeHtml(item.kicker)}</span>
@@ -2468,7 +2522,7 @@ const tennisPlayerTable = (title, subtitle, columns, rows, photoCredits) => `
       </div>
       ${rows.map((row, rowIndex) => {
         const avatar = TENNIS_PLAYER_AVATARS[row.player];
-        const source = avatar?.file ? `assets/tennis-players/${encodeURIComponent(avatar.file)}` : "";
+        const source = avatar?.file ? dashboardAssetUrl(`assets/tennis-players/${encodeURIComponent(avatar.file)}`) : "";
         const countryFlag = tennisCountryFlag(avatar?.countryCode);
         const countryName = countryFlag ? tennisCountryName(avatar.countryCode) : "";
         return `
@@ -4286,7 +4340,7 @@ const setupTennisScatterZoom = () => {
     dot.classList.add("is-selected");
     dot.setAttribute("aria-pressed", "true");
     const avatar = TENNIS_PLAYER_AVATARS[dot.dataset.player];
-    const avatarSource = avatar?.file ? `assets/tennis-players/${encodeURIComponent(avatar.file)}` : "";
+    const avatarSource = avatar?.file ? dashboardAssetUrl(`assets/tennis-players/${encodeURIComponent(avatar.file)}`) : "";
     const countryFlag = tennisCountryFlag(avatar?.countryCode);
     const countryName = countryFlag ? tennisCountryName(avatar.countryCode) : "";
     detailInitials.textContent = tennisPlayerInitials(dot.dataset.player);
@@ -4434,7 +4488,7 @@ const setupTennisScatterZoom = () => {
 const renderCaseContent = () => {
   const data = datasets[state.caseId];
   if (!data) {
-    $("#dashboard-content").innerHTML = `<div class="loading">Loading...</div>`;
+    $("#dashboard-content").innerHTML = `<div class="loading">${escapeHtml(copy().loadingAnalyses)}</div>`;
     return;
   }
   if (state.caseId === "playzone") $("#dashboard-content").innerHTML = renderPlayzone(data);
@@ -4445,11 +4499,13 @@ const renderCaseContent = () => {
   bindCustomSelects();
   setupTennisScatterZoom();
   setupChartReveal();
+  setupProjectStepNav();
 };
 
 const render = () => {
   setLanguage(state.lang);
   renderTabs();
+  renderProjectContext();
   renderIntro();
   renderControls();
   renderCaseContent();
@@ -4477,17 +4533,18 @@ setHeaderState();
 window.addEventListener("scroll", setHeaderState, { passive: true });
 
 const load = async () => {
-  $("#dashboard-content").innerHTML = `<div class="loading">Loading dashboards...</div>`;
+  setLanguage(state.lang);
+  $("#dashboard-content").innerHTML = `<div class="loading">${escapeHtml(copy().loadingAnalyses)}</div>`;
   try {
     const entries = await Promise.all(Object.entries(CASES).map(async ([caseId, def]) => {
-      const response = await fetch(def.file);
+      const response = await fetch(dashboardAssetUrl(def.file));
       if (!response.ok) throw new Error(`${def.file}: ${response.status}`);
       return [caseId, await response.json()];
     }));
     datasets = Object.fromEntries(entries);
     render();
   } catch (error) {
-    $("#dashboard-content").innerHTML = `<div class="error">Dashboard data could not be loaded: ${escapeHtml(error.message)}</div>`;
+    $("#dashboard-content").innerHTML = `<div class="error">${escapeHtml(copy().analysisLoadError)} ${escapeHtml(error.message)}</div>`;
   }
 };
 

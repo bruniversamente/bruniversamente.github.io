@@ -8,13 +8,15 @@
   <meta name="author" content="Bruno Nascimento" />
   <meta name="theme-color" content="#060812" />
   <meta property="og:title" content="Bruno Nascimento | Dados, BI e IA aplicada" />
-  <meta property="og:description" content="Cases de dados com problema de negócio, SQL, validações, documentação e proposta de dashboard." />
+  <meta property="og:description" content="Projetos de dados com problema de negócio, SQL, validações, documentação e entregas interativas." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://bruniversamente.github.io/" />
   <link rel="canonical" href="https://bruniversamente.github.io/" />
   <link rel="icon" href="assets/logo-bruno-nascimento.png" type="image/png" />
-  <link rel="stylesheet" href="styles.css?v=20260714-case-carousel" />
-  <script defer src="script.js?v=20260714-case-carousel"></script>
+  <link rel="stylesheet" href="styles.css?v=20260721-projects-ia" />
+  <link rel="stylesheet" href="assets/site-cursor.css?v=20260721-site-cursor" />
+  <script defer src="script.js?v=20260721-projects-ia"></script>
+  <script defer src="assets/site-cursor.js?v=20260721-site-cursor"></script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -30,7 +32,7 @@
   </script>
 </head>
 <body>
-  <a class="skip-link" href="#cases">Pular para os cases</a>
+  <a class="skip-link" href="#cases">Pular para os projetos</a>
 
   <header class="site-header">
     <div class="site-header-inner">
@@ -44,9 +46,7 @@
         </span>
       </a>
       <nav class="nav" aria-label="Navegação principal">
-        <a href="#cases">Cases</a>
-        <a href="dashboards/" data-dashboard-nav>Dashboards</a>
-        <a href="#metodo">Método</a>
+        <a href="projetos/" data-projects-nav>Projetos</a>
         <a href="#contato">Contato</a>
       </nav>
       <div class="language-switcher" aria-label="Selecionar idioma">
@@ -64,9 +64,7 @@
       </button>
       <div class="mobile-menu-panel" id="mobile-menu" hidden>
         <nav class="nav mobile-nav" aria-label="Navegação principal no mobile">
-          <a href="#cases">Cases</a>
-          <a href="dashboards/" data-dashboard-nav>Dashboards</a>
-          <a href="#metodo">Método</a>
+          <a href="projetos/" data-projects-nav>Projetos</a>
           <a href="#contato">Contato</a>
         </nav>
         <div class="language-switcher mobile-language-switcher" aria-label="Selecionar idioma">
@@ -87,7 +85,7 @@
           Sou Bruno Nascimento, de Curitiba/PR. Desenvolvo análises, consultas, validações e dashboards que conectam dados operacionais a indicadores úteis para áreas de negócio.
         </p>
         <div class="hero-actions" aria-label="Ações principais">
-          <a class="button primary" href="#cases">Ver cases</a>
+          <a class="button primary" href="projetos/" data-projects-cta>Ver projetos</a>
           <a class="button secondary" href="https://linkedin.com/in/bruniversamente" target="_blank" rel="noreferrer">LinkedIn</a>
           <a class="button ghost" href="https://github.com/bruniversamente" target="_blank" rel="noreferrer">GitHub</a>
         </div>
@@ -190,7 +188,7 @@
     <section id="cases" class="section cases-section">
       <div class="section-kicker reveal">
         <span>Projetos em destaque</span>
-        <div class="case-topic-capsules" aria-label="Categorias dos cases">
+        <div class="case-topic-capsules" aria-label="Categorias dos projetos">
           <span>Product Analytics</span>
           <span>AI Quality</span>
           <span>Pipeline Quality</span>
@@ -248,10 +246,10 @@
           </div>
         </div>
         <div class="case-copy">
-          <div class="case-meta"><span>Case principal</span><span>Product Analytics</span><span>SQL + Python + Dashboard</span></div>
+          <div class="case-meta"><span>Projeto principal</span><span>Product Analytics</span><span>SQL + Python + Dashboard</span></div>
           <h2>Playzone: aumentar ativação</h2>
           <p>
-            Case de produto que diagnostica por que apenas 5,6% dos usuários chegam ao momento de valor e mostra que a primeira alavanca está antes do convite enviado, não no topo do funil.
+            Projeto de produto que diagnostica por que apenas 5,6% dos usuários chegam ao momento de valor e mostra que a primeira alavanca está antes do convite enviado, não no topo do funil.
           </p>
           <div class="case-proof-grid">
             <div><strong>5,6%</strong><span>ativação ordenada até reserva confirmada</span></div>
@@ -260,18 +258,13 @@
             <div><strong>35,7%</strong><span>retenção D30 entre usuários ativados</span></div>
           </div>
           <div class="case-actions">
-            <a class="dashboard-cta" href="dashboards/?case=playzone&amp;lang=pt" data-dashboard-case="playzone">Abrir dashboard</a>
+            <a class="dashboard-cta" href="projetos/?project=playzone&amp;lang=pt" data-dashboard-case="playzone">Ver projeto</a>
           </div>
         </div>
       </article>
 
-      <div class="case-carousel" data-case-carousel>
-        <button class="case-carousel-nav case-carousel-prev" type="button" aria-label="Ver cases anteriores" disabled>
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="m15 18-6-6 6-6" />
-          </svg>
-        </button>
-        <div class="case-grid" role="region" aria-label="Cases em destaque" tabindex="0">
+      <div class="case-carousel project-preview">
+        <div class="case-grid project-preview-grid" role="region" aria-label="Projetos em destaque">
         <article class="case-card reveal">
           <div class="card-visual mini-case-visual ai-mini" aria-hidden="true">
             <div class="mini-visual-head">
@@ -299,7 +292,7 @@
             <h3>Governança de release para respostas de IA</h3>
             <p>Avalia 500 respostas e separa qualidade média de prontidão operacional: 41,0% release-ready, v3 como melhor baseline e backlog por falha.</p>
             <div class="case-actions">
-              <a class="dashboard-cta" href="dashboards/?case=ai-quality&amp;lang=pt" data-dashboard-case="ai-quality">Abrir dashboard</a>
+              <a class="dashboard-cta" href="projetos/?project=ai-quality&amp;lang=pt" data-dashboard-case="ai-quality">Ver projeto</a>
             </div>
           </div>
         </article>
@@ -331,7 +324,7 @@
             <h3>Pipeline bloqueado mesmo com 98,2% de score</h3>
             <p>Gate de qualidade para BI: 9 falhas críticas impedem publicação executiva, mesmo com score acima da meta e 495 pedidos prontos.</p>
             <div class="case-actions">
-              <a class="dashboard-cta" href="dashboards/?case=pipeline&amp;lang=pt" data-dashboard-case="pipeline">Abrir dashboard</a>
+              <a class="dashboard-cta" href="projetos/?project=pipeline&amp;lang=pt" data-dashboard-case="pipeline">Ver projeto</a>
             </div>
           </div>
         </article>
@@ -363,7 +356,7 @@
             <h3>Decisão executiva de receita, margem e metas</h3>
             <p>BI aprovado para publicação: R$ 1,08M em receita, 31,0% de margem e alerta para proteger rentabilidade em categorias pressionadas.</p>
             <div class="case-actions">
-              <a class="dashboard-cta" href="dashboards/?case=retail&amp;lang=pt" data-dashboard-case="retail">Abrir dashboard</a>
+              <a class="dashboard-cta" href="projetos/?project=retail&amp;lang=pt" data-dashboard-case="retail">Ver projeto</a>
             </div>
           </div>
         </article>
@@ -384,15 +377,35 @@
             <div class="case-meta"><span>Sports Analytics</span><span>Incerteza</span></div>
             <h3>Saque sob pressão nos break points</h3>
             <p>Compara ATP e WTA sem esconder amostras desiguais: denominadores, intervalo Wilson de 95% e limitações da fonte acompanham cada leitura.</p>
-            <div class="case-actions"><a class="dashboard-cta" href="dashboards/?case=tennis-pressure&amp;lang=pt" data-dashboard-case="tennis-pressure">Abrir dashboard</a></div>
+            <div class="case-actions"><a class="dashboard-cta" href="projetos/?project=tennis-pressure&amp;lang=pt" data-dashboard-case="tennis-pressure">Ver projeto</a></div>
           </div>
         </article>
+        <article class="case-card reveal">
+            <div class="card-visual mini-case-visual aga-mini" aria-hidden="true">
+              <div class="mini-visual-head"><span>AGA Studio</span><strong>Windows 0.2.4</strong></div>
+              <div class="aga-flow-mini">
+                <span><i>01</i><strong>Dados</strong></span>
+                <svg viewBox="0 0 24 14"><path d="M2 7h17m-4-4 4 4-4 4" /></svg>
+                <span><i>02</i><strong>Cálculo</strong></span>
+                <svg viewBox="0 0 24 14"><path d="M2 7h17m-4-4 4 4-4 4" /></svg>
+                <span><i>03</i><strong>Provas</strong></span>
+                <svg viewBox="0 0 24 14"><path d="M2 7h17m-4-4 4 4-4 4" /></svg>
+                <span><i>04</i><strong>Processo</strong></span>
+              </div>
+              <div class="aga-mini-proof"><span>54 testes do motor</span><span>465 verificações</span></div>
+            </div>
+            <div class="card-body">
+              <div class="case-meta"><span>Business Analysis</span><span>Automação</span></div>
+              <h3>Do processo técnico fragmentado a um fluxo rastreável</h3>
+              <p>Aplicativo Windows que conecta fontes, cálculo de viabilidade, evidências, relatório e preparação do processo OPEA.</p>
+              <div class="case-actions"><a class="dashboard-cta" href="cases/aga-studio/?lang=pt" data-aga-project>Ver projeto</a></div>
+            </div>
+        </article>
         </div>
-        <button class="case-carousel-nav case-carousel-next" type="button" aria-label="Ver próximos cases">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="m9 18 6-6-6-6" />
-          </svg>
-        </button>
+      </div>
+      <div class="interactive-library-action reveal">
+        <span data-projects-index-copy>Todos os projetos, métodos e resultados em uma página.</span>
+        <a class="text-link" href="projetos/" data-projects-index>Ver todos os projetos</a>
       </div>
     </section>
 
@@ -404,7 +417,7 @@
         <p>
           O portfólio foi organizado para mostrar raciocínio analítico completo: pergunta de negócio, métrica correta, consulta reproduzível, validação e entrega visual.
         </p>
-        <div class="method-tools" aria-label="Ferramentas aplicadas nos cases">
+        <div class="method-tools" aria-label="Ferramentas aplicadas nos projetos">
           <span>SQL</span>
           <span>Python</span>
           <span>Power BI</span>
@@ -438,7 +451,7 @@
           </article>
         </div>
 
-        <aside class="case-evidence-panel" aria-label="Evidências dos cases">
+        <aside class="case-evidence-panel" aria-label="Evidências dos projetos">
           <div class="panel-label">
             <strong>Evidências por projeto</strong>
           </div>

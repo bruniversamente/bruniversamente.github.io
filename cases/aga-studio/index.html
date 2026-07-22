@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AGA Studio | Bruno Nascimento</title>
+  <meta name="description" content="AGA Studio: produto desktop com SQL, cálculo geoespacial, relatórios técnicos, CAD e preparação controlada do processo aeronáutico." />
+  <meta name="author" content="Bruno Nascimento" />
+  <meta name="theme-color" content="#060812" />
+  <meta property="og:title" content="AGA Studio | Bruno Nascimento" />
+  <meta property="og:description" content="Produto desktop para analisar restrições aeronáuticas de construções, do catálogo SQL aos relatórios e desenhos técnicos." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://bruniversamente.github.io/cases/aga-studio/" />
+  <link rel="canonical" href="https://bruniversamente.github.io/cases/aga-studio/" />
+  <link rel="icon" href="../../assets/logo-bruno-nascimento.png" type="image/png" />
+  <link rel="stylesheet" href="../../dashboards/app.css?v=20260721-projects-page" />
+  <link rel="stylesheet" href="case.css?v=20260721-projects-page" />
+  <link rel="stylesheet" href="../../assets/site-cursor.css?v=20260721-site-cursor" />
+  <script defer src="case.js?v=20260721-product-audit"></script>
+  <script defer src="../../assets/site-cursor.js?v=20260721-site-cursor"></script>
+</head>
+<body id="top" class="projects-page aga-project-page">
+  <a class="skip-link" href="#case-content" data-i18n="skip">Pular para o projeto</a>
+
+  <header class="site-header">
+    <div class="site-header-inner">
+      <a class="brand" href="../../#top" aria-label="Voltar ao início" data-i18n-aria="brandAria">
+        <span class="brand-mark" aria-hidden="true">
+          <img src="../../assets/logo-bruno-nascimento.png" alt="" width="42" height="42" />
+        </span>
+        <span class="brand-copy">
+          <strong>Bruno Nascimento</strong>
+          <small data-i18n="brandRole">Dados, BI e IA aplicada</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Navegação principal" data-i18n-aria="navAria">
+        <a class="active" href="../../projetos/" aria-current="page" data-projects-index data-i18n="navCases">Projetos</a>
+        <a href="../../#contato" data-i18n="navContact">Contato</a>
+      </nav>
+      <div class="language-switcher" aria-label="Selecionar idioma" data-i18n-aria="languageAria">
+        <button type="button" data-lang-option="pt" aria-pressed="true">PT</button>
+        <button type="button" data-lang-option="en" aria-pressed="false">EN</button>
+        <button type="button" data-lang-option="es" aria-pressed="false">ES</button>
+      </div>
+      <a class="nav-cta" href="https://wa.me/5541999990367" target="_blank" rel="noreferrer" aria-label="Conversar pelo WhatsApp" data-i18n-aria="whatsappAria">
+        <img src="../../assets/whatsapp.svg" alt="" width="24" height="24" />
+      </a>
+    </div>
+  </header>
+
+  <div class="dashboard-subheader projects-selector-header" aria-label="Selecionar projeto" data-i18n-aria="projectsSelectorAria">
+    <div class="dashboard-toolbar">
+      <nav class="case-tabs" role="tablist" aria-label="Projetos" data-i18n-aria="projectsAria">
+        <a role="tab" aria-selected="false" data-project-target="playzone" href="../../projetos/?project=playzone&amp;lang=pt" data-i18n="projectPlayzone">Playzone</a>
+        <a role="tab" aria-selected="false" data-project-target="ai-quality" href="../../projetos/?project=ai-quality&amp;lang=pt" data-i18n="projectAi">Governança de IA</a>
+        <a role="tab" aria-selected="false" data-project-target="pipeline" href="../../projetos/?project=pipeline&amp;lang=pt" data-i18n="projectPipeline">Qualidade do pipeline</a>
+        <a role="tab" aria-selected="false" data-project-target="retail" href="../../projetos/?project=retail&amp;lang=pt" data-i18n="projectRetail">Receita e margem</a>
+        <a role="tab" aria-selected="false" data-project-target="tennis-pressure" href="../../projetos/?project=tennis-pressure&amp;lang=pt" data-i18n="projectTennis">Saque sob pressão</a>
+        <a role="tab" aria-selected="true" href="./?lang=pt" data-aga-project-link>AGA Studio</a>
+      </nav>
+    </div>
+  </div>
+
+  <div class="case-subheader" aria-label="Navegação do projeto" data-i18n-aria="caseNavAria">
+    <div class="case-toolbar">
+      <a class="case-name" href="#top" aria-label="Voltar ao início do projeto" data-i18n-aria="caseTopAria">
+        <span>AGA Studio</span>
+        <strong data-i18n="caseType">Análise de negócios e automação</strong>
+      </a>
+      <nav class="case-anchor-nav" aria-label="Etapas do projeto" data-i18n-aria="stepsAria">
+        <a href="#problema" data-i18n="stepProblem">Problema</a>
+        <a href="#requisitos" data-i18n="stepRequirements">Requisitos</a>
+        <a href="#solucao" data-i18n="stepSolution">Construção</a>
+        <a href="#entregas" data-i18n="stepDeliverables">Entregas</a>
+        <a href="#provas" data-i18n="stepEvidence">Provas</a>
+      </nav>
+      <a class="back-link" href="../../projetos/" data-projects-index data-i18n="backCases">Todos os projetos</a>
+    </div>
+  </div>
+
+  <main id="case-content">
+    <section class="case-hero reveal" aria-labelledby="case-title">
+      <div class="case-hero-copy">
+        <div class="case-tags" aria-label="Categorias do projeto" data-i18n-aria="tagsAria">
+          <span data-i18n="tagBusiness">Análise de negócios</span>
+          <span data-i18n="tagAutomation">Dados, SQL e automação</span>
+          <span data-i18n="tagProduct">Produto autoral</span>
+        </div>
+        <h1 id="case-title" data-i18n="heroTitle">AGA Studio: da localização do empreendimento ao processo aeronáutico</h1>
+        <p class="hero-lead" data-i18n="heroLead">Projetei e desenvolvi um programa para Windows que cruza dados de uma construção com planos de proteção do espaço aéreo, calcula os limites de altura e gera os documentos técnicos usados na análise aeronáutica.</p>
+      </div>
+
+      <aside class="hero-executive-panel" aria-label="Resumo executivo" data-i18n-aria="executiveAria">
+        <span class="hero-executive-kicker" data-i18n="executiveKicker">Leitura executiva</span>
+        <div class="hero-signal-grid">
+          <div class="hero-signal">
+            <strong>0.2.4</strong>
+            <span data-i18n="signalVersion">Versão interna</span>
+          </div>
+          <div class="hero-signal">
+            <strong>54</strong>
+            <span data-i18n="signalEngineTests">Testes de cálculo</span>
+          </div>
+          <div class="hero-signal">
+            <strong>465</strong>
+            <span data-i18n="signalReleaseChecks">Conferências da versão</span>
+          </div>
+        </div>
+        <ul class="hero-decision-list">
+          <li><strong data-i18n="executiveProblemLabel">Problema</strong><span data-i18n="executiveProblemText">Uma análise dependia de consultas, cálculos e documentos espalhados entre planilhas, mapas, desenhos e sistemas distintos.</span></li>
+          <li><strong data-i18n="executiveDiagnosisLabel">Diagnóstico</strong><span data-i18n="executiveDiagnosisText">O maior risco não estava em uma conta isolada, mas nas passagens entre etapas: redigitar coordenadas, usar uma fonte antiga ou entregar um documento que já não correspondia ao cálculo.</span></li>
+          <li><strong data-i18n="executiveDecisionLabel">Decisão</strong><span data-i18n="executiveDecisionText">Transformar o processo em um produto único, com dados locais, regras verificáveis, entregas ligadas ao cálculo e revisão humana antes do protocolo oficial.</span></li>
+        </ul>
+      </aside>
+
+      <div class="hero-evidence-strip" aria-label="Evidências principais" data-i18n-aria="heroEvidenceAria">
+        <div class="hero-evidence-item"><small data-i18n="metricPlans">Planos de proteção catalogados</small><strong>6.733</strong></div>
+        <div class="hero-evidence-item"><small data-i18n="metricFiles">Arquivos catalogados</small><strong>24.636</strong></div>
+        <div class="hero-evidence-item"><small data-i18n="metricEngineTests">Testes de cálculo</small><strong>54</strong></div>
+        <div class="hero-evidence-item"><small data-i18n="metricReleaseChecks">Conferências da versão</small><strong>465</strong></div>
+      </div>
+    </section>
+
+    <section class="media-stage reveal" aria-label="Imagem principal pendente" data-i18n-aria="heroMediaAria">
+      <div class="shot-placeholder shot-placeholder-hero" data-shot="01">
+        <div class="shot-placeholder-copy">
+          <span data-i18n="shot01Label">Print 01</span>
+          <strong data-i18n="shot01Title">Um projeto, da localização às entregas</strong>
+          <p data-i18n="shot01Text">A tela mostrará um exemplo fictício, da localização do empreendimento aos documentos técnicos, sem dados reais de clientes.</p>
+        </div>
+        <div class="shot-placeholder-frame" aria-hidden="true">
+          <i></i><i></i><i></i><i></i>
+        </div>
+      </div>
+    </section>
+
+    <div class="case-story">
+      <section class="story-section reveal" id="problema">
+        <header class="process-chapter">
+          <div class="chapter-index">01</div>
+          <div class="chapter-copy">
+            <span data-i18n="chapter01Label">O problema</span>
+            <h2 data-i18n="chapter01Title">Uma construção pode ter a altura limitada pelo espaço aéreo protegido ao seu redor</h2>
+          </div>
+          <div class="chapter-meta"><span data-i18n="metaProcesses">Processos</span><span data-i18n="metaRequirements">Requisitos</span></div>
+        </header>
+
+        <div class="story-copy-grid">
+          <div class="method-copy">
+            <span data-i18n="methodApplied">O que precisava ser resolvido</span>
+            <p data-i18n="chapter01Body">Na regulação aeronáutica brasileira, OPEA é uma construção, estrutura ou equipamento que pode afetar a navegação aérea. Antes de projetar o programa, decompus o trabalho real: localizar o empreendimento, descobrir quais planos de proteção alcançam a área, aplicar as regras de cada plano, encontrar a altura permitida e preparar a documentação para avaliação oficial.</p>
+          </div>
+          <aside class="story-decision">
+            <span data-i18n="decisionLabel">Decisão de produto</span>
+            <strong data-i18n="chapter01Decision">O cálculo só seria confiável se coordenadas, fontes, regras e documentos permanecessem ligados à mesma versão do projeto.</strong>
+          </aside>
+        </div>
+
+        <div class="process-map" aria-label="Fluxo da análise" data-i18n-aria="processMapAria">
+          <div><span>01</span><strong data-i18n="flowFiles">Localizar o empreendimento</strong></div>
+          <svg viewBox="0 0 42 16" aria-hidden="true"><path d="M2 8h34m-6-5 6 5-6 5" /></svg>
+          <div><span>02</span><strong data-i18n="flowSearch">Encontrar planos aplicáveis</strong></div>
+          <svg viewBox="0 0 42 16" aria-hidden="true"><path d="M2 8h34m-6-5 6 5-6 5" /></svg>
+          <div><span>03</span><strong data-i18n="flowCalculation">Calcular limites de altura</strong></div>
+          <svg viewBox="0 0 42 16" aria-hidden="true"><path d="M2 8h34m-6-5 6 5-6 5" /></svg>
+          <div><span>04</span><strong data-i18n="flowDelivery">Gerar e revisar as entregas</strong></div>
+        </div>
+      </section>
+
+      <section class="story-section reveal" id="requisitos">
+        <header class="process-chapter">
+          <div class="chapter-index">02</div>
+          <div class="chapter-copy">
+            <span data-i18n="chapter02Label">Requisitos</span>
+            <h2 data-i18n="chapter02Title">As regras do produto nasceram dos pontos em que o processo poderia induzir ao erro</h2>
+          </div>
+          <div class="chapter-meta"><span data-i18n="metaRules">Regras de negócio</span><span data-i18n="metaTraceability">Qualidade dos dados</span></div>
+        </header>
+
+        <div class="rule-list" role="list">
+          <article role="listitem"><span>01</span><div><strong data-i18n="rule01Title">Proximidade não significa restrição</strong><p data-i18n="rule01Text">O programa primeiro encontra planos candidatos, depois confirma a interseção pela geometria e só então calcula se existe limite aplicável.</p></div></article>
+          <article role="listitem"><span>02</span><div><strong data-i18n="rule02Title">Simulação não vira dado oficial</strong><p data-i18n="rule02Text">Pontos usados para testar toda a área são mantidos separados dos vértices oficiais que identificam o empreendimento.</p></div></article>
+          <article role="listitem"><span>03</span><div><strong data-i18n="rule03Title">Uma mudança invalida o que ficou antigo</strong><p data-i18n="rule03Text">Se coordenadas, documentos ou regras mudam, relatórios, desenhos e pacotes anteriores são marcados como desatualizados.</p></div></article>
+          <article role="listitem"><span>04</span><div><strong data-i18n="rule04Title">Dados extraídos de PDF exigem revisão</strong><p data-i18n="rule04Text">Cada valor conserva a página, o texto original e a forma normalizada. Ele só entra no projeto depois de ser revisado e confirmado.</p></div></article>
+          <article role="listitem"><span>05</span><div><strong data-i18n="rule05Title">O protocolo final continua humano</strong><p data-i18n="rule05Text">O programa prepara e confere os arquivos, mas login, declarações, assinatura, captcha e envio permanecem sob responsabilidade do profissional.</p></div></article>
+        </div>
+      </section>
+
+      <section class="story-section reveal" id="solucao">
+        <header class="process-chapter">
+          <div class="chapter-index">03</div>
+          <div class="chapter-copy">
+            <span data-i18n="chapter03Label">Construção</span>
+            <h2 data-i18n="chapter03Title">Dados locais, cálculo geoespacial e histórico formam a base do produto</h2>
+          </div>
+          <div class="chapter-meta"><span>SQLite</span><span>Python</span><span>Next.js</span><span>Electron</span></div>
+        </header>
+
+        <div class="capability-grid">
+          <article>
+            <span class="capability-number">01</span>
+            <div><small data-i18n="capabilityDataKicker">Dados e SQL</small><h3 data-i18n="capabilityDataTitle">Catálogo local de planos</h3><p data-i18n="capabilityDataText">Modelei um banco SQLite com 6.733 planos e 24.636 registros de arquivos. Consultas SQL localizam informações por município, aeródromo, tipo, coordenada ou arquivo KML.</p><strong data-i18n="capabilityDataProof">Índice textual + índice espacial RTree</strong></div>
+          </article>
+          <article>
+            <span class="capability-number">02</span>
+            <div><small data-i18n="capabilityGeoKicker">Análise geoespacial</small><h3 data-i18n="capabilityGeoTitle">Da busca rápida à interseção real</h3><p data-i18n="capabilityGeoText">O índice espacial reduz os candidatos. Em seguida, o motor abre a geometria e confirma quais planos realmente alcançam o empreendimento, evitando tratar proximidade como restrição.</p><strong data-i18n="capabilityGeoProof">SQLite RTree + Shapely + PyProj</strong></div>
+          </article>
+          <article>
+            <span class="capability-number">03</span>
+            <div><small data-i18n="capabilityEngineKicker">Motor normativo</small><h3 data-i18n="capabilityEngineTitle">Cálculo de altura em toda a área</h3><p data-i18n="capabilityEngineText">O motor compara vértices, bordas e pontos internos com as superfícies aplicáveis. O resultado identifica o ponto mais restritivo, o limite de altitude, a altura máxima e quanto a construção fica abaixo ou acima desse limite.</p><strong data-i18n="capabilityEngineProof">Cálculo determinístico em Python</strong></div>
+          </article>
+          <article>
+            <span class="capability-number">04</span>
+            <div><small data-i18n="capabilityDocumentsKicker">Documentos</small><h3 data-i18n="capabilityDocumentsTitle">Leitura assistida de PDFs</h3><p data-i18n="capabilityDocumentsText">O programa reconhece sete tipos de documento técnico e propõe campos, coordenadas e parâmetros. PDFs sem texto pesquisável são bloqueados para revisão manual ou OCR.</p><strong data-i18n="capabilityDocumentsProof">Página, valor original e confirmação registrados</strong></div>
+          </article>
+          <article>
+            <span class="capability-number">05</span>
+            <div><small data-i18n="capabilityProjectKicker">Rastreabilidade</small><h3 data-i18n="capabilityProjectTitle">Um arquivo de projeto com histórico</h3><p data-i18n="capabilityProjectText">O arquivo .aga guarda fontes, versões do motor e do catálogo, cálculos, entregas e aprovações. A recuperação automática protege o trabalho se o programa for interrompido.</p><strong data-i18n="capabilityProjectProof">Versão, impressão digital e recuperação</strong></div>
+          </article>
+          <article>
+            <span class="capability-number">06</span>
+            <div><small data-i18n="capabilityRuntimeKicker">Produto desktop</small><h3 data-i18n="capabilityRuntimeTitle">Motor e banco executados no computador</h3><p data-i18n="capabilityRuntimeText">A versão instalada leva a interface, o motor Python e o catálogo SQLite. Cálculos e consultas continuam funcionando sem depender do serviço publicado.</p><strong data-i18n="capabilityRuntimeProof">Aplicativo Windows empacotado com Electron</strong></div>
+          </article>
+        </div>
+
+        <div class="paired-shots">
+          <div class="shot-placeholder" data-shot="02"><div class="shot-placeholder-copy"><span data-i18n="shot02Label">Print 02</span><strong data-i18n="shot02Title">Consulta ao catálogo e planos incidentes</strong><p data-i18n="shot02Text">Mostrar a busca local, as fontes encontradas e a diferença entre plano candidato, interseção confirmada e restrição calculada.</p></div><div class="shot-placeholder-frame compact" aria-hidden="true"><i></i><i></i><i></i></div></div>
+          <div class="shot-placeholder" data-shot="03"><div class="shot-placeholder-copy"><span data-i18n="shot03Label">Print 03</span><strong data-i18n="shot03Title">Resultado explicado por ponto</strong><p data-i18n="shot03Text">Mostrar o ponto mais restritivo, a superfície aplicável, a altura permitida e os valores usados no cálculo.</p></div><div class="shot-placeholder-frame compact" aria-hidden="true"><i></i><i></i><i></i></div></div>
+        </div>
+      </section>
+
+      <section class="story-section reveal" id="entregas">
+        <header class="process-chapter">
+          <div class="chapter-index">04</div>
+          <div class="chapter-copy">
+            <span data-i18n="chapter04Label">Entregas</span>
+            <h2 data-i18n="chapter04Title">O mesmo cálculo alimenta mapas, relatório, desenho técnico e preparação do processo</h2>
+          </div>
+          <div class="chapter-meta"><span>DXF</span><span>DOCX</span><span>PDF</span><span>KML</span></div>
+        </header>
+
+        <div class="deliverable-grid">
+          <article><small data-i18n="deliveryEvidenceKicker">Provas técnicas</small><h3 data-i18n="deliveryEvidenceTitle">Mapa e análise por ponto</h3><p data-i18n="deliveryEvidenceText">O pacote mostra a área estudada, os planos incidentes, o ponto mais restritivo, as superfícies avaliadas e os valores usados nos cálculos.</p><span data-i18n="deliveryEvidenceFormats">KML | mapas | tabelas</span></article>
+          <article><small data-i18n="deliveryReportKicker">Relatório de viabilidade</small><h3 data-i18n="deliveryReportTitle">Documento com cálculo e origem</h3><p data-i18n="deliveryReportText">O relatório reúne conclusão, método, fontes, mapa, perfil da restrição crítica, análise por ponto, tabela e detalhamento dos cálculos. Os valores calculados não podem ser alterados pelo editor de texto.</p><span data-i18n="deliveryReportFormats">DOCX | HTML preparado para PDF</span></article>
+          <article><small data-i18n="deliveryCadKicker">Desenho técnico</small><h3 data-i18n="deliveryCadTitle">Planta de Situação gerada em CAD</h3><p data-i18n="deliveryCadText">A prancha A0 inclui perímetro, vértices, cotas, tabela de coordenadas, carimbo e declinação magnética atualizada. O próprio gerador verifica colisões, campos fora da célula e componentes obrigatórios.</p><span data-i18n="deliveryCadFormats">DXF | PDF | PNG | auditoria JSON</span></article>
+          <article><small data-i18n="deliverySysagaKicker">Processo oficial</small><h3 data-i18n="deliverySysagaTitle">Pacote conferido antes do SysAGA</h3><p data-i18n="deliverySysagaText">Pré-análise, Anexo C2 e requerimento recebem um código SHA-256 que acusa qualquer alteração e passam por um teste sem envio. O programa bloqueia salvar, avançar, protocolar ou enviar automaticamente.</p><span data-i18n="deliverySysagaFormats">Pacote validado | pausa humana</span></article>
+        </div>
+
+        <div class="paired-shots">
+          <div class="shot-placeholder" data-shot="04"><div class="shot-placeholder-copy"><span data-i18n="shot04Label">Print 04</span><strong data-i18n="shot04Title">Relatório técnico completo</strong><p data-i18n="shot04Text">Mostrar a conclusão, o mapa, o perfil da restrição e a rastreabilidade da rodada de cálculo.</p></div><div class="shot-placeholder-frame compact" aria-hidden="true"><i></i><i></i><i></i></div></div>
+          <div class="shot-placeholder" data-shot="05"><div class="shot-placeholder-copy"><span data-i18n="shot05Label">Print 05</span><strong data-i18n="shot05Title">Planta de Situação gerada</strong><p data-i18n="shot05Text">Mostrar o DXF e sua prévia com tabela de coordenadas, carimbo, vértices e conferências automáticas.</p></div><div class="shot-placeholder-frame compact" aria-hidden="true"><i></i><i></i><i></i></div></div>
+        </div>
+      </section>
+
+      <section class="story-section reveal" id="provas">
+        <header class="process-chapter">
+          <div class="chapter-index">05</div>
+          <div class="chapter-copy">
+            <span data-i18n="chapter05Label">Controles e provas</span>
+            <h2 data-i18n="chapter05Title">Automação termina onde começam a decisão e a responsabilidade profissional</h2>
+          </div>
+          <div class="chapter-meta"><span data-i18n="metaAutomatedTests">Testes automáticos</span><span data-i18n="metaHumanReview">Revisão humana</span><span data-i18n="metaAcceptance">Instalação limpa</span></div>
+        </header>
+
+        <div class="control-boundary">
+          <section><span data-i18n="automationSide">O programa pode</span><ul><li data-i18n="automation01">consultar fontes e executar cálculos;</li><li data-i18n="automation02">gerar mapas, relatórios e a Planta de Situação;</li><li data-i18n="automation03">validar campos, arquivos e versões;</li><li data-i18n="automation04">preparar o pacote e testar seu preenchimento.</li></ul></section>
+          <div class="boundary-marker" aria-hidden="true"><span></span><strong data-i18n="boundary">Revisão obrigatória</strong><span></span></div>
+          <section><span data-i18n="humanSide">O profissional precisa</span><ul><li data-i18n="human01">confirmar dados e conclusão técnica;</li><li data-i18n="human02">revisar relatório e desenho final;</li><li data-i18n="human03">assumir declarações e responsabilidade técnica;</li><li data-i18n="human04">fazer login, assinar e enviar no SysAGA.</li></ul></section>
+        </div>
+
+        <div class="evidence-grid">
+          <article><span data-i18n="evidenceEngine">Motor Python</span><strong>54/54</strong><p data-i18n="evidenceEngineText">testes de regras e cálculos aprovados</p></article>
+          <article><span data-i18n="evidenceDocs">Documentos e CAD</span><strong>180/180</strong><p data-i18n="evidenceDocsText">verificações documentais aprovadas</p></article>
+          <article><span data-i18n="evidenceRelease">Pacote de instalação</span><strong>465/465</strong><p data-i18n="evidenceReleaseText">recursos da versão conferidos sem falha</p></article>
+          <article><span data-i18n="evidenceE2e">Fluxos da interface</span><strong>55</strong><p data-i18n="evidenceE2eText">50 passaram em conjunto; 5 excederam o tempo e passaram quando repetidos separadamente</p></article>
+        </div>
+      </section>
+
+      <section class="story-section conclusion-section reveal" id="resultado">
+        <header class="process-chapter">
+          <div class="chapter-index">06</div>
+          <div class="chapter-copy">
+            <span data-i18n="chapter06Label">Resultado atual</span>
+            <h2 data-i18n="chapter06Title">A versão 0.2.4 foi instalada e validada em um perfil limpo do Windows</h2>
+          </div>
+          <div class="chapter-meta"><span>Windows</span><span>0.2.4</span></div>
+        </header>
+
+        <div class="conclusion-grid">
+          <div><span data-i18n="deliveredLabel">O que está comprovado</span><p data-i18n="deliveredText">O aplicativo consulta o catálogo SQLite, executa o motor Python local, salva e recupera projetos, exporta KML, gera relatório técnico, prepara a Planta de Situação e monta pacotes verificados para o SysAGA.</p></div>
+          <div><span data-i18n="limitsLabel">O que ainda não afirmo</span><p data-i18n="limitsText">O instalador ainda não tem assinatura comercial. Busca de endereço e mapa de fundo podem exigir internet. A Planta de Perfil continua bloqueada até ter regras gráficas completas. Ganho de tempo e redução de erros ainda serão medidos com tarefas comparáveis.</p></div>
+        </div>
+
+        <div class="portfolio-proof">
+          <span data-i18n="portfolioProofLabel">O que este projeto demonstra</span>
+          <div><strong data-i18n="portfolioProofBusiness">Análise de negócios</strong><p data-i18n="portfolioProofBusinessText">Processo, requisitos, regras, exceções e critérios de aceite.</p></div>
+          <div><strong data-i18n="portfolioProofData">Dados e SQL</strong><p data-i18n="portfolioProofDataText">Modelagem SQLite, consultas, busca textual, índice espacial e integridade do catálogo.</p></div>
+          <div><strong data-i18n="portfolioProofAutomation">Python e automação</strong><p data-i18n="portfolioProofAutomationText">API local, cálculo geoespacial, leitura de documentos e geração de arquivos.</p></div>
+          <div><strong data-i18n="portfolioProofQuality">Qualidade e governança</strong><p data-i18n="portfolioProofQualityText">Rastreabilidade, revisão humana, versões, testes e bloqueios contra resultados desatualizados.</p></div>
+        </div>
+
+        <div class="next-measurement"><span data-i18n="measurementLabel">Próxima medição</span><strong data-i18n="measurementTitle">Comparar o processo anterior e o AGA Studio em tarefas equivalentes.</strong><p data-i18n="measurementText">A avaliação registrará tempo, etapas manuais, correções, divergências e arquivos gerados. Até essa medição, o case apresenta capacidade técnica e qualidade do produto, não ganho operacional estimado.</p></div>
+      </section>
+    </div>
+
+    <section class="case-contact reveal">
+      <div>
+        <span data-i18n="closingLabel">Análise de negócios, produto e automação</span>
+        <h2 data-i18n="closingTitle">O AGA Studio mostra como traduzi um processo especializado em um produto funcional, com dados, regras, entregas técnicas e controles humanos explícitos.</h2>
+      </div>
+      <div class="case-contact-actions">
+        <a class="button secondary" href="../../projetos/" data-projects-index data-i18n="closingCases">Ver outros projetos</a>
+        <a class="button ghost" href="mailto:bruniversamente@gmail.com" data-i18n="closingContact">Entrar em contato</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 Bruno Nascimento.</p>
+    <a href="#top" data-i18n="backTop">Voltar ao topo</a>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,194 @@
+{
+  "id": "hering-carnaval",
+  "title": "Hering Kids",
+  "subtitle": "Carnaval 2023: adereços e figurino",
+  "tags": [
+    "Adereços",
+    "Figurino",
+    "Produção para campanha"
+  ],
+  "intro": "Adereços e peças de figurino para a campanha de Carnaval 2023 da Hering Kids. A apresentação reúne croquis, registros de montagem e fotografias das peças em uso.",
+  "credits": [
+    {
+      "role": "Marca",
+      "names": "Hering Kids"
+    },
+    {
+      "role": "Fotografias",
+      "names": "Brunno Kawagoe"
+    }
+  ],
+  "area": "design",
+  "presentation": "boards",
+  "media": [
+    {
+      "type": "image",
+      "alt": "Hering Kids · Carnaval 2023",
+      "width": 1280,
+      "height": 953,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 2084,
+      "src": "portfolio/assets/design/hering-carnaval/01-01-4d311c6daf/1280w.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval/01-01-4d311c6daf/original.webp",
+      "srcset": "portfolio/assets/design/hering-carnaval/01-01-4d311c6daf/640w.webp 640w, portfolio/assets/design/hering-carnaval/01-01-4d311c6daf/1280w.webp 1280w, portfolio/assets/design/hering-carnaval/01-01-4d311c6daf/1920w.webp 1920w, portfolio/assets/design/hering-carnaval/01-01-4d311c6daf/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "Hering Kids · Guizos e franjas",
+      "width": 1280,
+      "height": 806,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 1764,
+      "src": "portfolio/assets/design/hering-carnaval/02-02-6ef2ac2921/1280w.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval/02-02-6ef2ac2921/original.webp",
+      "srcset": "portfolio/assets/design/hering-carnaval/02-02-6ef2ac2921/640w.webp 640w, portfolio/assets/design/hering-carnaval/02-02-6ef2ac2921/1280w.webp 1280w, portfolio/assets/design/hering-carnaval/02-02-6ef2ac2921/1920w.webp 1920w, portfolio/assets/design/hering-carnaval/02-02-6ef2ac2921/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "Hering Kids · Flores e borboletas",
+      "width": 1280,
+      "height": 806,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 1764,
+      "src": "portfolio/assets/design/hering-carnaval/03-03-a17c7bfd44/1280w.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval/03-03-a17c7bfd44/original.webp",
+      "srcset": "portfolio/assets/design/hering-carnaval/03-03-a17c7bfd44/640w.webp 640w, portfolio/assets/design/hering-carnaval/03-03-a17c7bfd44/1280w.webp 1280w, portfolio/assets/design/hering-carnaval/03-03-a17c7bfd44/1920w.webp 1920w, portfolio/assets/design/hering-carnaval/03-03-a17c7bfd44/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "Hering Kids · Franjas coloridas",
+      "width": 1280,
+      "height": 806,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 1764,
+      "src": "portfolio/assets/design/hering-carnaval/04-04-eeefbcae3e/1280w.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval/04-04-eeefbcae3e/original.webp",
+      "srcset": "portfolio/assets/design/hering-carnaval/04-04-eeefbcae3e/640w.webp 640w, portfolio/assets/design/hering-carnaval/04-04-eeefbcae3e/1280w.webp 1280w, portfolio/assets/design/hering-carnaval/04-04-eeefbcae3e/1920w.webp 1920w, portfolio/assets/design/hering-carnaval/04-04-eeefbcae3e/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "Hering Kids · Fitas",
+      "width": 1280,
+      "height": 861,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 1884,
+      "src": "portfolio/assets/design/hering-carnaval/05-05-be0e03e1c1/1280w.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval/05-05-be0e03e1c1/original.webp",
+      "srcset": "portfolio/assets/design/hering-carnaval/05-05-be0e03e1c1/640w.webp 640w, portfolio/assets/design/hering-carnaval/05-05-be0e03e1c1/1280w.webp 1280w, portfolio/assets/design/hering-carnaval/05-05-be0e03e1c1/1920w.webp 1920w, portfolio/assets/design/hering-carnaval/05-05-be0e03e1c1/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "Hering Kids · Pompons",
+      "width": 1280,
+      "height": 806,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 1764,
+      "src": "portfolio/assets/design/hering-carnaval/06-06-f976cbc9a7/1280w.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval/06-06-f976cbc9a7/original.webp",
+      "srcset": "portfolio/assets/design/hering-carnaval/06-06-f976cbc9a7/640w.webp 640w, portfolio/assets/design/hering-carnaval/06-06-f976cbc9a7/1280w.webp 1280w, portfolio/assets/design/hering-carnaval/06-06-f976cbc9a7/1920w.webp 1920w, portfolio/assets/design/hering-carnaval/06-06-f976cbc9a7/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "Hering Kids · Tiara com olhos",
+      "width": 1280,
+      "height": 885,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 1936,
+      "src": "portfolio/assets/design/hering-carnaval/07-07-cd82bed037/1280w.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval/07-07-cd82bed037/original.webp",
+      "srcset": "portfolio/assets/design/hering-carnaval/07-07-cd82bed037/640w.webp 640w, portfolio/assets/design/hering-carnaval/07-07-cd82bed037/1280w.webp 1280w, portfolio/assets/design/hering-carnaval/07-07-cd82bed037/1920w.webp 1920w, portfolio/assets/design/hering-carnaval/07-07-cd82bed037/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "Hering Kids · Carnaval em grupo",
+      "width": 1280,
+      "height": 861,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 1884,
+      "src": "portfolio/assets/design/hering-carnaval/08-08-d4d37c45f6/1280w.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval/08-08-d4d37c45f6/original.webp",
+      "srcset": "portfolio/assets/design/hering-carnaval/08-08-d4d37c45f6/640w.webp 640w, portfolio/assets/design/hering-carnaval/08-08-d4d37c45f6/1280w.webp 1280w, portfolio/assets/design/hering-carnaval/08-08-d4d37c45f6/1920w.webp 1920w, portfolio/assets/design/hering-carnaval/08-08-d4d37c45f6/original.webp 2800w"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Adereços, props e peças de figurino",
+      "paragraphs": [
+        "Guizos, franjas, flores, fitas e pompons compõem os acessórios da campanha de Carnaval da Hering Kids. Os croquis e os registros de montagem acompanham aqui as fotografias das peças em uso."
+      ]
+    },
+    {
+      "title": "Guizos e franjas",
+      "paragraphs": [
+        "O desenho orienta a trama de correntes, a distribuição dos guizos e as franjas vermelhas. O manequim permite acompanhar a montagem da estrutura."
+      ]
+    },
+    {
+      "title": "Flores e borboletas",
+      "paragraphs": [
+        "Croqui e fotografias do adereço com flor branca e borboletas suspensas."
+      ]
+    },
+    {
+      "title": "Franjas coloridas",
+      "paragraphs": [
+        "O estudo combina fitas, aviamentos e pompons. As tiras soltas acompanham os braços e o movimento da criança."
+      ]
+    },
+    {
+      "title": "Fitas",
+      "paragraphs": [
+        "Tiras largas de várias cores formam os volumes dos dois braços."
+      ]
+    },
+    {
+      "title": "Pompons",
+      "paragraphs": [
+        "O cone e as aplicações retomam a figura do palhaço. Os registros mostram os pompons preparados e os detalhes do conjunto nas fotografias."
+      ]
+    },
+    {
+      "title": "Tiara com olhos",
+      "paragraphs": [
+        "Cada haste combina um olho móvel, pompons e uma base flexível. As fotos de bancada registram as partes e o adereço montado."
+      ]
+    },
+    {
+      "title": "Construção e campanha",
+      "paragraphs": [
+        "Um registro da bancada acompanha o filme final da Hering Kids.",
+        "Registro do processo · 43 segundos",
+        "Hering Kids · 24 segundos"
+      ]
+    }
+  ],
+  "credit": "",
+  "links": [
+    {
+      "title": "Ver apresentação no Behance",
+      "url": "https://www.behance.net/gallery/257787803/Hering-Kids-Carnaval-2023-Aderecos-e-figurino"
+    }
+  ],
+  "films": [
+    {
+      "title": "Construção dos adereços",
+      "src": "https://www-ccv.adobe.io/v1/player/ccv/UEyvXjhgaV_/embed?api_key=behance1&bgcolor=%23191919",
+      "url": "https://www.behance.net/gallery/257787803/Hering-Kids-Carnaval-2023-Aderecos-e-figurino",
+      "poster": "portfolio/assets/design/hering-carnaval-feed/01-capa-131b39fc0f/1280w.webp"
+    },
+    {
+      "title": "Filme da campanha",
+      "src": "https://www-ccv.adobe.io/v1/player/ccv/LRXj2GPq8L3/embed?api_key=behance1&bgcolor=%23191919",
+      "url": "https://www.behance.net/gallery/257787803/Hering-Kids-Carnaval-2023-Aderecos-e-figurino",
+      "poster": "portfolio/assets/design/hering-carnaval-feed/01-capa-131b39fc0f/1280w.webp"
+    }
+  ]
+}

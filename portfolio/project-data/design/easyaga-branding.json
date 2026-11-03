@@ -1,0 +1,188 @@
+{
+  "id": "easyaga-branding",
+  "title": "EasyAGA",
+  "subtitle": "Branding e Web Design",
+  "tags": [
+    "Identidade visual",
+    "Web Design",
+    "Aplicações institucionais"
+  ],
+  "intro": "Marca e website para a EasyAGA, consultoria aeronáutica. O projeto reúne identidade visual, telas do site publicado e aplicações em comunicação institucional e documentos técnicos.",
+  "credits": [
+    {
+      "role": "Marca, website e aplicações",
+      "names": "Bruno Nascimento"
+    }
+  ],
+  "area": "design",
+  "presentation": "boards",
+  "media": [
+    {
+      "type": "image",
+      "alt": "EasyAGA · Identidade para uma consultoria aeronáutica",
+      "width": 1280,
+      "height": 987,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 2160,
+      "src": "portfolio/assets/design/easyaga-branding/01-01-0716a9ac0c/1280w.webp",
+      "fullSrc": "portfolio/assets/design/easyaga-branding/01-01-0716a9ac0c/original.webp",
+      "srcset": "portfolio/assets/design/easyaga-branding/01-01-0716a9ac0c/640w.webp 640w, portfolio/assets/design/easyaga-branding/01-01-0716a9ac0c/1280w.webp 1280w, portfolio/assets/design/easyaga-branding/01-01-0716a9ac0c/1920w.webp 1920w, portfolio/assets/design/easyaga-branding/01-01-0716a9ac0c/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "EasyAGA · Contexto e marca",
+      "width": 2800,
+      "height": 1200,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 1200,
+      "src": "portfolio/assets/design/easyaga-branding/02-02-8cf3862967/original.webp",
+      "fullSrc": "portfolio/assets/design/easyaga-branding/02-02-8cf3862967/original.webp",
+      "srcset": "portfolio/assets/design/easyaga-branding/02-02-8cf3862967/640w.webp 640w, portfolio/assets/design/easyaga-branding/02-02-8cf3862967/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "EasyAGA · Tipografia e cor",
+      "width": 2800,
+      "height": 2640,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 2640,
+      "src": "portfolio/assets/design/easyaga-branding/03-03-f65e6cc741/original.webp",
+      "fullSrc": "portfolio/assets/design/easyaga-branding/03-03-f65e6cc741/original.webp",
+      "srcset": "portfolio/assets/design/easyaga-branding/03-03-f65e6cc741/640w.webp 640w, portfolio/assets/design/easyaga-branding/03-03-f65e6cc741/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "EasyAGA · Website",
+      "width": 1280,
+      "height": 1335,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 2920,
+      "src": "portfolio/assets/design/easyaga-branding/04-04-aa6ca2cb36/1280w.webp",
+      "fullSrc": "portfolio/assets/design/easyaga-branding/04-04-aa6ca2cb36/original.webp",
+      "srcset": "portfolio/assets/design/easyaga-branding/04-04-aa6ca2cb36/640w.webp 640w, portfolio/assets/design/easyaga-branding/04-04-aa6ca2cb36/1280w.webp 1280w, portfolio/assets/design/easyaga-branding/04-04-aa6ca2cb36/1920w.webp 1920w, portfolio/assets/design/easyaga-branding/04-04-aa6ca2cb36/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "EasyAGA · Telas responsivas",
+      "width": 1280,
+      "height": 1600,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 3500,
+      "src": "portfolio/assets/design/easyaga-branding/05-05-778bc86c90/1280w.webp",
+      "fullSrc": "portfolio/assets/design/easyaga-branding/05-05-778bc86c90/original.webp",
+      "srcset": "portfolio/assets/design/easyaga-branding/05-05-778bc86c90/640w.webp 640w, portfolio/assets/design/easyaga-branding/05-05-778bc86c90/1280w.webp 1280w, portfolio/assets/design/easyaga-branding/05-05-778bc86c90/1920w.webp 1920w, portfolio/assets/design/easyaga-branding/05-05-778bc86c90/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "EasyAGA · Aplicações em relatórios",
+      "width": 1280,
+      "height": 1417,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 3100,
+      "src": "portfolio/assets/design/easyaga-branding/06-06-741c629884/1280w.webp",
+      "fullSrc": "portfolio/assets/design/easyaga-branding/06-06-741c629884/original.webp",
+      "srcset": "portfolio/assets/design/easyaga-branding/06-06-741c629884/640w.webp 640w, portfolio/assets/design/easyaga-branding/06-06-741c629884/1280w.webp 1280w, portfolio/assets/design/easyaga-branding/06-06-741c629884/1920w.webp 1920w, portfolio/assets/design/easyaga-branding/06-06-741c629884/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "EasyAGA · E-mail e aplicações institucionais",
+      "width": 1280,
+      "height": 1298,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 2840,
+      "src": "portfolio/assets/design/easyaga-branding/07-07-07fde0951c/1280w.webp",
+      "fullSrc": "portfolio/assets/design/easyaga-branding/07-07-07fde0951c/original.webp",
+      "srcset": "portfolio/assets/design/easyaga-branding/07-07-07fde0951c/640w.webp 640w, portfolio/assets/design/easyaga-branding/07-07-07fde0951c/1280w.webp 1280w, portfolio/assets/design/easyaga-branding/07-07-07fde0951c/original.webp 2800w"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Contexto das imagens",
+      "paragraphs": [
+        "As composições de e-mail e relatório usam conteúdo demonstrativo, sem dados de clientes."
+      ]
+    },
+    {
+      "title": "Uma presença própria para a EasyAGA.",
+      "paragraphs": [
+        "A EasyAGA presta consultoria aeronáutica para obras, aeroportos e helipontos. Criei a marca e o website para apresentar esse trabalho, explicar os serviços e facilitar o primeiro contato."
+      ]
+    },
+    {
+      "title": "A marca e suas versões",
+      "paragraphs": [
+        "O traço fino de “Easy” e o peso de “AGA” aparecem nas versões da assinatura. No site, a versão tipográfica ocupa o cabeçalho; nos materiais institucionais, uso também o símbolo."
+      ]
+    },
+    {
+      "title": "Tipografia e cor",
+      "paragraphs": [
+        "Tipografia de interface e apoio. A assinatura da marca usa o desenho original.",
+        "Paleta do kit da marca e do website, incluindo tons de apoio para fundos, textos e divisórias."
+      ]
+    },
+    {
+      "title": "Começar pelo problema de quem chega.",
+      "paragraphs": [
+        "Na página inicial, o visitante encontra caminhos para obras, terrenos e helipontos antes de entrar no detalhe dos serviços.",
+        "Cenários na página inicial",
+        "Escopo e etapas de análise",
+        "Casos da consultoria",
+        "Contato e envio do caso",
+        "Captura do website publicado em easyaga.com."
+      ]
+    },
+    {
+      "title": "Serviços, projetos e contato também no celular.",
+      "paragraphs": [
+        "O menu recolhido, os títulos e os botões preservam a hierarquia em telas menores.",
+        "Nas páginas de serviço, a equipe apresenta o contexto técnico e as informações necessárias para iniciar uma análise.",
+        "Telas reais do site, sem redesenho da interface.",
+        "No portfólio, os cards reúnem imagem, localização e tipo de projeto para dar contexto a cada caso."
+      ]
+    },
+    {
+      "title": "A identidade nas entregas da consultoria.",
+      "paragraphs": [
+        "Nos relatórios do AGA Studio, a marca aparece na capa, no cabeçalho e no rodapé, com espaço para textos, mapas e tabelas.",
+        "RELATÓRIO TÉCNICO",
+        "Modelo de apresentação",
+        "APLICAÇÃO DEMONSTRATIVA Sem dados de clientes",
+        "Esta página demonstra a aplicação da identidade visual em um documento técnico. O conteúdo serve apenas para apresentar a composição.",
+        "Títulos, divisórias e recuos ajudam a localizar as informações. A área central permanece disponível para os materiais de cada projeto.",
+        "Capa com a arte técnica utilizada no aplicativo.",
+        "Papel timbrado com marca, contatos e área de leitura.",
+        "Composições demonstrativas a partir dos arquivos e modelos existentes. Nenhum relatório de cliente foi reproduzido."
+      ]
+    },
+    {
+      "title": "Apresentação por e-mail",
+      "paragraphs": [
+        "APRESENTAÇÃO INSTITUCIONAL",
+        "Conheça a atuação da EasyAGA em estudos, documentação e apoio técnico para empreendimentos com interface com a aviação.",
+        "Consulte os serviços e o portfólio da empresa.",
+        "Aplicação demonstrativa com os PNGs usados nos e-mails de prospecção.",
+        "Cabeçalho escuro e rodapé claro mantêm o nome legível nas duas aplicações.",
+        "Aplicação institucional do kit da marca."
+      ]
+    }
+  ],
+  "credit": "",
+  "links": [
+    {
+      "title": "Ver apresentação no Behance",
+      "url": "https://www.behance.net/gallery/257688047/EasyAGA-Branding-e-Web-Design"
+    },
+    {
+      "title": "Visitar o website EasyAGA",
+      "url": "https://easyaga.com"
+    }
+  ]
+}

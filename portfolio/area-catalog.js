@@ -72,6 +72,130 @@ window.AREA_CATALOG = {
   ],
   "design": [
     {
+      "id": "easyaga-branding",
+      "title": "EasyAGA | Branding e Web Design",
+      "credit": "Branding e Web Design",
+      "images": [
+        {
+          "type": "image",
+          "alt": "EasyAGA · Branding e Web Design",
+          "width": 1354,
+          "height": 782,
+          "src": "portfolio/assets/design/easyaga-branding-feed/01-site-home-desktop-ea7eed273f/original.jpg",
+          "srcset": "portfolio/assets/design/easyaga-branding-feed/01-site-home-desktop-ea7eed273f/original.jpg 1354w"
+        },
+        {
+          "type": "image",
+          "alt": "EasyAGA · Branding e Web Design",
+          "width": 1354,
+          "height": 782,
+          "src": "portfolio/assets/design/easyaga-branding-feed/02-site-helipontos-desktop-3e646d479b/original.jpg",
+          "srcset": "portfolio/assets/design/easyaga-branding-feed/02-site-helipontos-desktop-3e646d479b/original.jpg 1354w"
+        },
+        {
+          "type": "image",
+          "alt": "EasyAGA · Branding e Web Design",
+          "width": 1063,
+          "height": 591,
+          "src": "portfolio/assets/design/easyaga-branding-feed/03-cartao-visita-frente-33b059dd83/640w.webp",
+          "srcset": "portfolio/assets/design/easyaga-branding-feed/03-cartao-visita-frente-33b059dd83/640w.webp 640w, portfolio/assets/design/easyaga-branding-feed/03-cartao-visita-frente-33b059dd83/original.webp 1063w"
+        }
+      ]
+    },
+    {
+      "id": "rakestra-identidade",
+      "title": "Rakestra | Identidade visual e aplicações digitais",
+      "credit": "Identidade visual e aplicações digitais",
+      "images": [
+        {
+          "type": "image",
+          "alt": "Rakestra · Identidade visual e aplicações digitais",
+          "width": 1385,
+          "height": 900,
+          "src": "portfolio/assets/design/rakestra-identidade-feed/01-site-real-desktop-rakestra-20261030-a6390e0e83/original.jpg",
+          "srcset": "portfolio/assets/design/rakestra-identidade-feed/01-site-real-desktop-rakestra-20261030-a6390e0e83/original.jpg 1385w"
+        },
+        {
+          "type": "image",
+          "alt": "Rakestra · Identidade visual e aplicações digitais",
+          "width": 1440,
+          "height": 900,
+          "src": "portfolio/assets/design/rakestra-identidade-feed/02-management-04cc0cbf8c/original.webp",
+          "srcset": "portfolio/assets/design/rakestra-identidade-feed/02-management-04cc0cbf8c/original.webp 1440w"
+        },
+        {
+          "type": "image",
+          "alt": "Rakestra · Identidade visual e aplicações digitais",
+          "width": 1200,
+          "height": 2670,
+          "src": "portfolio/assets/design/rakestra-identidade-feed/03-performance-6113853726/640w.webp",
+          "srcset": "portfolio/assets/design/rakestra-identidade-feed/03-performance-6113853726/640w.webp 640w, portfolio/assets/design/rakestra-identidade-feed/03-performance-6113853726/original.webp 1200w"
+        }
+      ]
+    },
+    {
+      "id": "hering-carnaval",
+      "title": "Hering Kids | Carnaval 2023: adereços e figurino",
+      "credit": "Carnaval 2023: adereços e figurino",
+      "images": [
+        {
+          "type": "image",
+          "alt": "Hering Kids · Carnaval 2023: adereços e figurino",
+          "width": 1280,
+          "height": 1919,
+          "src": "portfolio/assets/design/hering-carnaval-feed/01-capa-131b39fc0f/640w.webp",
+          "srcset": "portfolio/assets/design/hering-carnaval-feed/01-capa-131b39fc0f/640w.webp 640w, portfolio/assets/design/hering-carnaval-feed/01-capa-131b39fc0f/1280w.webp 1280w"
+        },
+        {
+          "type": "image",
+          "alt": "Hering Kids · Carnaval 2023: adereços e figurino",
+          "width": 1280,
+          "height": 1600,
+          "src": "portfolio/assets/design/hering-carnaval-feed/02-guizos-final-caca42dd88/640w.webp",
+          "srcset": "portfolio/assets/design/hering-carnaval-feed/02-guizos-final-caca42dd88/640w.webp 640w, portfolio/assets/design/hering-carnaval-feed/02-guizos-final-caca42dd88/1280w.webp 1280w"
+        },
+        {
+          "type": "image",
+          "alt": "Hering Kids · Carnaval 2023: adereços e figurino",
+          "width": 1280,
+          "height": 1600,
+          "src": "portfolio/assets/design/hering-carnaval-feed/03-flor-final-dbf3317522/640w.webp",
+          "srcset": "portfolio/assets/design/hering-carnaval-feed/03-flor-final-dbf3317522/640w.webp 640w, portfolio/assets/design/hering-carnaval-feed/03-flor-final-dbf3317522/1280w.webp 1280w"
+        }
+      ]
+    },
+    {
+      "id": "hering-fabula",
+      "title": "Hering Kids + Fábula | Adereços e props para Fala, Bicho!",
+      "credit": "Adereços e props para Fala, Bicho!",
+      "images": [
+        {
+          "type": "image",
+          "alt": "Hering Kids + Fábula · Adereços e props para Fala, Bicho!",
+          "width": 1800,
+          "height": 2700,
+          "src": "portfolio/assets/design/hering-fabula-feed/01-papagaio-foto-a981727548/640w.webp",
+          "srcset": "portfolio/assets/design/hering-fabula-feed/01-papagaio-foto-a981727548/640w.webp 640w, portfolio/assets/design/hering-fabula-feed/01-papagaio-foto-a981727548/original.jpg 1800w"
+        },
+        {
+          "type": "image",
+          "alt": "Hering Kids + Fábula · Adereços e props para Fala, Bicho!",
+          "width": 1800,
+          "height": 2700,
+          "src": "portfolio/assets/design/hering-fabula-feed/02-macaco-foto-62f371f7aa/640w.webp",
+          "srcset": "portfolio/assets/design/hering-fabula-feed/02-macaco-foto-62f371f7aa/640w.webp 640w, portfolio/assets/design/hering-fabula-feed/02-macaco-foto-62f371f7aa/original.jpg 1800w"
+        },
+        {
+          "type": "image",
+          "alt": "Hering Kids + Fábula · Adereços e props para Fala, Bicho!",
+          "width": 1800,
+          "height": 2700,
+          "src": "portfolio/assets/design/hering-fabula-feed/03-onca-foto-20b4231067/640w.webp",
+          "srcset": "portfolio/assets/design/hering-fabula-feed/03-onca-foto-20b4231067/640w.webp 640w, portfolio/assets/design/hering-fabula-feed/03-onca-foto-20b4231067/original.jpg 1800w"
+        }
+      ]
+    },
+    {
       "id": "flyers",
       "title": "Cartazes e flyers",
       "credit": "",

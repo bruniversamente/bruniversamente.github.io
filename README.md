@@ -11,3 +11,7 @@ O novo leitor está em `portfolio/`. Os dashboards completos em `dashboards/` e 
 O Pages continua usando a branch `main` e a raiz, sem novas dependências ou mudanças no fluxo de publicação.
 
 As imagens visuais têm variantes responsivas e ampliação em resolução nativa, sem recompressão com perdas. Os arquivos originais de trabalho permanecem fora da publicação. Créditos e textos das apresentações foram preservados.
+
+## Complemento de Design
+
+Design reúne nove projetos após a inclusão de EasyAGA Branding/Web Design, Rakestra Identidade, Hering Kids Carnaval e Hering Kids + Fábula. As quatro apresentações preservam 30 pranchas em resolução completa, com imagens responsivas e galeria. As miniaturas usam fotografias e capturas do próprio projeto. Os três filmes das campanhas usam os players públicos já existentes; o visitante os carrega ao escolher Reproduzir. A home mantém as três áreas, totalizando 15 projetos.

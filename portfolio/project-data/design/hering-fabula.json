@@ -1,0 +1,156 @@
+{
+  "id": "hering-fabula",
+  "title": "Hering Kids + Fábula",
+  "subtitle": "Adereços e props para Fala, Bicho!",
+  "tags": [
+    "Adereços",
+    "Props",
+    "Produção para campanha"
+  ],
+  "intro": "Estudos dos adereços e fotografias das peças em uso na campanha Fala, Bicho!, colaboração de Hering Kids e Fábula lançada em 2022.",
+  "credits": [
+    {
+      "role": "Marcas",
+      "names": "Hering Kids + Fábula"
+    },
+    {
+      "role": "Adereços, props e peças de roupa",
+      "names": "Bruno Nascimento"
+    }
+  ],
+  "area": "design",
+  "presentation": "boards",
+  "media": [
+    {
+      "type": "image",
+      "alt": "Hering Kids + Fábula · Fala, Bicho!",
+      "width": 1280,
+      "height": 870,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 1904,
+      "src": "portfolio/assets/design/hering-fabula/01-01-db75db5cce/1280w.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula/01-01-db75db5cce/original.webp",
+      "srcset": "portfolio/assets/design/hering-fabula/01-01-db75db5cce/640w.webp 640w, portfolio/assets/design/hering-fabula/01-01-db75db5cce/1280w.webp 1280w, portfolio/assets/design/hering-fabula/01-01-db75db5cce/1920w.webp 1920w, portfolio/assets/design/hering-fabula/01-01-db75db5cce/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "Hering Kids + Fábula · Orelhas e cauda de macaco",
+      "width": 1280,
+      "height": 790,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 1728,
+      "src": "portfolio/assets/design/hering-fabula/02-02-2c29c8c231/1280w.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula/02-02-2c29c8c231/original.webp",
+      "srcset": "portfolio/assets/design/hering-fabula/02-02-2c29c8c231/640w.webp 640w, portfolio/assets/design/hering-fabula/02-02-2c29c8c231/1280w.webp 1280w, portfolio/assets/design/hering-fabula/02-02-2c29c8c231/1920w.webp 1920w, portfolio/assets/design/hering-fabula/02-02-2c29c8c231/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "Hering Kids + Fábula · Patas de jacaré",
+      "width": 1280,
+      "height": 790,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 1728,
+      "src": "portfolio/assets/design/hering-fabula/03-03-95f297bef8/1280w.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula/03-03-95f297bef8/original.webp",
+      "srcset": "portfolio/assets/design/hering-fabula/03-03-95f297bef8/640w.webp 640w, portfolio/assets/design/hering-fabula/03-03-95f297bef8/1280w.webp 1280w, portfolio/assets/design/hering-fabula/03-03-95f297bef8/1920w.webp 1920w, portfolio/assets/design/hering-fabula/03-03-95f297bef8/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "Hering Kids + Fábula · Capacete de papagaio",
+      "width": 1280,
+      "height": 765,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 1674,
+      "src": "portfolio/assets/design/hering-fabula/04-04-6de5f59048/1280w.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula/04-04-6de5f59048/original.webp",
+      "srcset": "portfolio/assets/design/hering-fabula/04-04-6de5f59048/640w.webp 640w, portfolio/assets/design/hering-fabula/04-04-6de5f59048/1280w.webp 1280w, portfolio/assets/design/hering-fabula/04-04-6de5f59048/1920w.webp 1920w, portfolio/assets/design/hering-fabula/04-04-6de5f59048/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "Hering Kids + Fábula · Onça para vestir",
+      "width": 1280,
+      "height": 872,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 1908,
+      "src": "portfolio/assets/design/hering-fabula/05-05-96d12653d6/1280w.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula/05-05-96d12653d6/original.webp",
+      "srcset": "portfolio/assets/design/hering-fabula/05-05-96d12653d6/640w.webp 640w, portfolio/assets/design/hering-fabula/05-05-96d12653d6/1280w.webp 1280w, portfolio/assets/design/hering-fabula/05-05-96d12653d6/1920w.webp 1920w, portfolio/assets/design/hering-fabula/05-05-96d12653d6/original.webp 2800w"
+    },
+    {
+      "type": "image",
+      "alt": "Hering Kids + Fábula · Óculos de borboleta",
+      "width": 1280,
+      "height": 872,
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullWidth": 2800,
+      "fullHeight": 1908,
+      "src": "portfolio/assets/design/hering-fabula/06-06-8044a2c1ab/1280w.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula/06-06-8044a2c1ab/original.webp",
+      "srcset": "portfolio/assets/design/hering-fabula/06-06-8044a2c1ab/640w.webp 640w, portfolio/assets/design/hering-fabula/06-06-8044a2c1ab/1280w.webp 1280w, portfolio/assets/design/hering-fabula/06-06-8044a2c1ab/1920w.webp 1920w, portfolio/assets/design/hering-fabula/06-06-8044a2c1ab/original.webp 2800w"
+    }
+  ],
+  "sections": [
+    {
+      "title": "Fala, Bicho!",
+      "paragraphs": [
+        "Em 2022, Hering Kids e Fábula lançaram uma colaboração inspirada nos animais. Esta seleção reúne estudos dos adereços e fotografias das peças em uso."
+      ]
+    },
+    {
+      "title": "Orelhas e cauda de macaco",
+      "paragraphs": [
+        "O estudo das orelhas aparece ao lado da peça usada na campanha. A fotografia de corpo inteiro mostra também a cauda."
+      ]
+    },
+    {
+      "title": "Patas de jacaré",
+      "paragraphs": [
+        "O desenho registra uma proposta inicial; nas fotos, a peça tem uma solução volumétrica diferente."
+      ]
+    },
+    {
+      "title": "Capacete de papagaio",
+      "paragraphs": [
+        "Os detalhes das fotografias permitem observar as camadas, o bico e a aplicação de cor."
+      ]
+    },
+    {
+      "title": "Onça para vestir",
+      "paragraphs": [
+        "O croqui mostra a estrutura suspensa por cordas e suas referências de montagem. A foto apresenta a peça no corpo."
+      ]
+    },
+    {
+      "title": "Óculos de borboleta",
+      "paragraphs": [
+        "Na folha de estudos, os óculos dividem espaço com propostas para a cauda e as orelhas de macaco."
+      ]
+    },
+    {
+      "title": "Filme da campanha",
+      "paragraphs": [
+        "Os adereços acompanham as crianças em movimento no filme da campanha."
+      ]
+    }
+  ],
+  "credit": "",
+  "links": [
+    {
+      "title": "Ver apresentação no Behance",
+      "url": "https://www.behance.net/gallery/257744859/Hering-Kids-Fabula-Aderecos-e-props"
+    }
+  ],
+  "films": [
+    {
+      "title": "Filme da campanha",
+      "src": "https://www-ccv.adobe.io/v1/player/ccv/53ax3sAjeMP/embed?api_key=behance1&bgcolor=%23191919",
+      "url": "https://www.behance.net/gallery/257744859/Hering-Kids-Fabula-Aderecos-e-props",
+      "poster": "portfolio/assets/design/hering-fabula-feed/01-papagaio-foto-a981727548/original.jpg"
+    }
+  ]
+}

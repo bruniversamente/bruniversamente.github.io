@@ -3,3 +3,6 @@
 .main[data-area=dados] .feed-card{grid-column:auto;aspect-ratio:16/10;max-height:calc((100svh - var(--header) - var(--bottom) - 12rem)/2)}
 .main[data-area=dados] .feed-card .feed-media img{object-fit:contain}
 @media(max-width:1023.98px){.main[data-area=dados] .area-feed{grid-template-columns:1fr;gap:2rem}.main[data-area=dados] .feed-card{max-height:none;aspect-ratio:16/10}}
+
+/* Keep the complete technical drawing visible, including wide modules. */
+.main[data-area=arquitetura] .feed-card .feed-media img,.main[data-area=arquitetura] .case-cover img{object-fit:contain;object-position:center}

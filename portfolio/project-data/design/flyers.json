@@ -1,0 +1,172 @@
+{
+  "area": "design",
+  "id": "flyers",
+  "title": "Cartazes e flyers",
+  "subtitle": "Design e direção criativa",
+  "tags": [
+    "Design e direção criativa"
+  ],
+  "intro": "As peças da Brejeiras compartilham cores, retratos e tipografia, com variações para cada atração.",
+  "sections": [
+    {
+      "title": "Uma identidade que acompanha a programação",
+      "paragraphs": [
+        "As peças da Brejeiras compartilham cores, retratos e tipografia, com variações para cada atração."
+      ]
+    },
+    {
+      "title": "Cada evento pede um tom",
+      "paragraphs": [
+        "Três peças com soluções distintas de cor, imagem e composição. A informação do evento permanece no centro da leitura."
+      ]
+    },
+    {
+      "title": "A divulgação continua em outras peças",
+      "paragraphs": [
+        "Flyers, conjuntos de artes e materiais de maior formato ampliam a apresentação das campanhas."
+      ]
+    }
+  ],
+  "credits": [],
+  "credit": "",
+  "media": [
+    {
+      "type": "image",
+      "alt": "Peça 03 do projeto",
+      "width": 1920,
+      "height": 1440,
+      "fullWidth": 1920,
+      "fullHeight": 1440,
+      "src": "portfolio/assets/design/flyers/01-flyers-03-a9a9e271fd/original.webp",
+      "fullSrc": "portfolio/assets/design/flyers/01-flyers-03-a9a9e271fd/original.webp",
+      "srcset": "portfolio/assets/design/flyers/01-flyers-03-a9a9e271fd/640w.webp 640w, portfolio/assets/design/flyers/01-flyers-03-a9a9e271fd/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 02 do acervo flyers",
+      "width": 2800,
+      "height": 2100,
+      "fullWidth": 2800,
+      "fullHeight": 2100,
+      "src": "portfolio/assets/design/flyers/02-flyers-02-d126263ccd/original.webp",
+      "fullSrc": "portfolio/assets/design/flyers/02-flyers-02-d126263ccd/original.webp",
+      "srcset": "portfolio/assets/design/flyers/02-flyers-02-d126263ccd/640w.webp 640w, portfolio/assets/design/flyers/02-flyers-02-d126263ccd/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 04 do acervo flyers",
+      "width": 1920,
+      "height": 1440,
+      "fullWidth": 1920,
+      "fullHeight": 1440,
+      "src": "portfolio/assets/design/flyers/03-flyers-04-c15bd3903d/original.webp",
+      "fullSrc": "portfolio/assets/design/flyers/03-flyers-04-c15bd3903d/original.webp",
+      "srcset": "portfolio/assets/design/flyers/03-flyers-04-c15bd3903d/640w.webp 640w, portfolio/assets/design/flyers/03-flyers-04-c15bd3903d/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 08 do acervo flyers",
+      "width": 1400,
+      "height": 1050,
+      "fullWidth": 1400,
+      "fullHeight": 1050,
+      "src": "portfolio/assets/design/flyers/04-flyers-08-f4de353cc6/original.webp",
+      "fullSrc": "portfolio/assets/design/flyers/04-flyers-08-f4de353cc6/original.webp",
+      "srcset": "portfolio/assets/design/flyers/04-flyers-08-f4de353cc6/640w.webp 640w, portfolio/assets/design/flyers/04-flyers-08-f4de353cc6/original.webp 1400w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 11 do acervo flyers",
+      "width": 1400,
+      "height": 934,
+      "fullWidth": 1400,
+      "fullHeight": 934,
+      "src": "portfolio/assets/design/flyers/05-flyers-11-8868aac6b1/original.webp",
+      "fullSrc": "portfolio/assets/design/flyers/05-flyers-11-8868aac6b1/original.webp",
+      "srcset": "portfolio/assets/design/flyers/05-flyers-11-8868aac6b1/640w.webp 640w, portfolio/assets/design/flyers/05-flyers-11-8868aac6b1/original.webp 1400w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 15 do acervo flyers",
+      "width": 1920,
+      "height": 1440,
+      "fullWidth": 1920,
+      "fullHeight": 1440,
+      "src": "portfolio/assets/design/flyers/06-flyers-15-d8ec04d157/original.webp",
+      "fullSrc": "portfolio/assets/design/flyers/06-flyers-15-d8ec04d157/original.webp",
+      "srcset": "portfolio/assets/design/flyers/06-flyers-15-d8ec04d157/640w.webp 640w, portfolio/assets/design/flyers/06-flyers-15-d8ec04d157/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 05 do acervo flyers",
+      "width": 1400,
+      "height": 1050,
+      "fullWidth": 1400,
+      "fullHeight": 1050,
+      "src": "portfolio/assets/design/flyers/07-flyers-05-de4ec42ae7/original.webp",
+      "fullSrc": "portfolio/assets/design/flyers/07-flyers-05-de4ec42ae7/original.webp",
+      "srcset": "portfolio/assets/design/flyers/07-flyers-05-de4ec42ae7/original.webp 1400w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 09 do acervo flyers",
+      "width": 1920,
+      "height": 1440,
+      "fullWidth": 1920,
+      "fullHeight": 1440,
+      "src": "portfolio/assets/design/flyers/08-flyers-09-2cdfbb8220/original.webp",
+      "fullSrc": "portfolio/assets/design/flyers/08-flyers-09-2cdfbb8220/original.webp",
+      "srcset": "portfolio/assets/design/flyers/08-flyers-09-2cdfbb8220/640w.webp 640w, portfolio/assets/design/flyers/08-flyers-09-2cdfbb8220/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 17 do acervo flyers",
+      "width": 1920,
+      "height": 1440,
+      "fullWidth": 1920,
+      "fullHeight": 1440,
+      "src": "portfolio/assets/design/flyers/09-flyers-17-e167b7a358/original.webp",
+      "fullSrc": "portfolio/assets/design/flyers/09-flyers-17-e167b7a358/original.webp",
+      "srcset": "portfolio/assets/design/flyers/09-flyers-17-e167b7a358/640w.webp 640w, portfolio/assets/design/flyers/09-flyers-17-e167b7a358/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 19 do acervo flyers",
+      "width": 1400,
+      "height": 1213,
+      "fullWidth": 1400,
+      "fullHeight": 1213,
+      "src": "portfolio/assets/design/flyers/10-flyers-19-c49fef06c1/original.webp",
+      "fullSrc": "portfolio/assets/design/flyers/10-flyers-19-c49fef06c1/original.webp",
+      "srcset": "portfolio/assets/design/flyers/10-flyers-19-c49fef06c1/640w.webp 640w, portfolio/assets/design/flyers/10-flyers-19-c49fef06c1/original.webp 1400w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 18 do acervo flyers",
+      "width": 1920,
+      "height": 1440,
+      "fullWidth": 1920,
+      "fullHeight": 1440,
+      "src": "portfolio/assets/design/flyers/11-flyers-18-7fe5efeef9/original.webp",
+      "fullSrc": "portfolio/assets/design/flyers/11-flyers-18-7fe5efeef9/original.webp",
+      "srcset": "portfolio/assets/design/flyers/11-flyers-18-7fe5efeef9/640w.webp 640w, portfolio/assets/design/flyers/11-flyers-18-7fe5efeef9/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    }
+  ],
+  "links": [
+    {
+      "title": "Ver projeto publicado",
+      "url": "https://www.behance.net/gallery/234966237/Flyer-Poster-Design"
+    }
+  ]
+}

@@ -55,7 +55,7 @@
     opener=trigger||document.activeElement;savedScroll=window.scrollY;active=true;document.documentElement.classList.add('media-viewer-open');
     show(index,items[index]?.type==='video');if(!dialog.open)dialog.showModal();closeButton.focus({preventScroll:true});
   }
-  function setCollection(label,media){close(false);title.textContent=label;items=media;}
+  function setCollection(label,media){close(false);title.textContent=label;items=media.map(item=>item.fullSrc?{...item,src:item.fullSrc,width:item.fullWidth||item.width,height:item.fullHeight||item.height,version:undefined}:item);}
   closeButton.addEventListener('click',()=>close());dialog.addEventListener('close',()=>{if(!dialog.open)release(true);});
   previous.addEventListener('click',()=>show(position-1));next.addEventListener('click',()=>show(position+1));
   larger.addEventListener('click',()=>changeZoom(.5));smaller.addEventListener('click',()=>changeZoom(-.5));fit.addEventListener('click',()=>{zoom=1;panX=0;panY=0;updateZoom();});

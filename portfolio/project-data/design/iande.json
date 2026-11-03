@@ -1,0 +1,202 @@
+{
+  "area": "design",
+  "id": "iande",
+  "title": "Iandê",
+  "subtitle": "Flores de Pedra",
+  "tags": [
+    "Design e direção criativa"
+  ],
+  "intro": "Henrique Neves criou Flores de Pedra como artista convidado da Iandê Moda Responsável. A coleção parte de uma linoleogravura em que o artista representa uma deusa cercada por flores, desenhadas com formas que lembram pedra esculpida.",
+  "sections": [
+    {
+      "title": "A coleção",
+      "paragraphs": [
+        "Henrique Neves criou Flores de Pedra como artista convidado da Iandê Moda Responsável. A coleção parte de uma linoleogravura em que o artista representa uma deusa cercada por flores, desenhadas com formas que lembram pedra esculpida."
+      ]
+    },
+    {
+      "title": "Direção criativa e produção",
+      "paragraphs": [
+        "Como sócio e diretor criativo da Iandê, criei as artes de divulgação para as redes sociais, coordenei a impressão das estampas e organizei o evento de lançamento."
+      ]
+    }
+  ],
+  "credits": [],
+  "credit": "Coleção: Henrique Neves. Direção criativa e produção: Bruno Nascimento.",
+  "media": [
+    {
+      "type": "image",
+      "alt": "Peça 05 do projeto",
+      "width": 3500,
+      "height": 3500,
+      "fullWidth": 3500,
+      "fullHeight": 3500,
+      "src": "portfolio/assets/design/iande/01-iande-05-652fecb0ca/original.webp",
+      "fullSrc": "portfolio/assets/design/iande/01-iande-05-652fecb0ca/original.webp",
+      "srcset": "portfolio/assets/design/iande/01-iande-05-652fecb0ca/640w.webp 640w, portfolio/assets/design/iande/01-iande-05-652fecb0ca/original.webp 3500w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 01 do acervo iande",
+      "width": 1280,
+      "height": 1280,
+      "fullWidth": 3500,
+      "fullHeight": 3500,
+      "src": "portfolio/assets/design/iande/02-iande-01-ec2f354347/1280w.webp",
+      "fullSrc": "portfolio/assets/design/iande/02-iande-01-ec2f354347/original.webp",
+      "srcset": "portfolio/assets/design/iande/02-iande-01-ec2f354347/640w.webp 640w, portfolio/assets/design/iande/02-iande-01-ec2f354347/1280w.webp 1280w, portfolio/assets/design/iande/02-iande-01-ec2f354347/original.webp 3500w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 03 do acervo iande",
+      "width": 3500,
+      "height": 3500,
+      "fullWidth": 3500,
+      "fullHeight": 3500,
+      "src": "portfolio/assets/design/iande/03-iande-03-4fbde57893/original.webp",
+      "fullSrc": "portfolio/assets/design/iande/03-iande-03-4fbde57893/original.webp",
+      "srcset": "portfolio/assets/design/iande/03-iande-03-4fbde57893/640w.webp 640w, portfolio/assets/design/iande/03-iande-03-4fbde57893/original.webp 3500w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 06 do acervo iande",
+      "width": 3500,
+      "height": 3500,
+      "fullWidth": 3500,
+      "fullHeight": 3500,
+      "src": "portfolio/assets/design/iande/04-iande-06-97a2ff522e/original.webp",
+      "fullSrc": "portfolio/assets/design/iande/04-iande-06-97a2ff522e/original.webp",
+      "srcset": "portfolio/assets/design/iande/04-iande-06-97a2ff522e/640w.webp 640w, portfolio/assets/design/iande/04-iande-06-97a2ff522e/original.webp 3500w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 02 do acervo iande",
+      "width": 3500,
+      "height": 3500,
+      "fullWidth": 3500,
+      "fullHeight": 3500,
+      "src": "portfolio/assets/design/iande/05-iande-02-fad947c8aa/original.webp",
+      "fullSrc": "portfolio/assets/design/iande/05-iande-02-fad947c8aa/original.webp",
+      "srcset": "portfolio/assets/design/iande/05-iande-02-fad947c8aa/640w.webp 640w, portfolio/assets/design/iande/05-iande-02-fad947c8aa/original.webp 3500w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 04 do acervo iande",
+      "width": 3500,
+      "height": 3500,
+      "fullWidth": 3500,
+      "fullHeight": 3500,
+      "src": "portfolio/assets/design/iande/06-iande-04-dcf58f662b/original.webp",
+      "fullSrc": "portfolio/assets/design/iande/06-iande-04-dcf58f662b/original.webp",
+      "srcset": "portfolio/assets/design/iande/06-iande-04-dcf58f662b/640w.webp 640w, portfolio/assets/design/iande/06-iande-04-dcf58f662b/original.webp 3500w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 08 do acervo iande",
+      "width": 3500,
+      "height": 3500,
+      "fullWidth": 3500,
+      "fullHeight": 3500,
+      "src": "portfolio/assets/design/iande/07-iande-08-4278928382/original.webp",
+      "fullSrc": "portfolio/assets/design/iande/07-iande-08-4278928382/original.webp",
+      "srcset": "portfolio/assets/design/iande/07-iande-08-4278928382/640w.webp 640w, portfolio/assets/design/iande/07-iande-08-4278928382/original.webp 3500w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 10 do acervo iande",
+      "width": 3500,
+      "height": 3500,
+      "fullWidth": 3500,
+      "fullHeight": 3500,
+      "src": "portfolio/assets/design/iande/08-iande-10-b61c353dad/original.webp",
+      "fullSrc": "portfolio/assets/design/iande/08-iande-10-b61c353dad/original.webp",
+      "srcset": "portfolio/assets/design/iande/08-iande-10-b61c353dad/640w.webp 640w, portfolio/assets/design/iande/08-iande-10-b61c353dad/original.webp 3500w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 07 do acervo iande",
+      "width": 3500,
+      "height": 3500,
+      "fullWidth": 3500,
+      "fullHeight": 3500,
+      "src": "portfolio/assets/design/iande/09-iande-07-eb003533f1/original.webp",
+      "fullSrc": "portfolio/assets/design/iande/09-iande-07-eb003533f1/original.webp",
+      "srcset": "portfolio/assets/design/iande/09-iande-07-eb003533f1/640w.webp 640w, portfolio/assets/design/iande/09-iande-07-eb003533f1/original.webp 3500w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 09 do acervo iande",
+      "width": 3500,
+      "height": 3500,
+      "fullWidth": 3500,
+      "fullHeight": 3500,
+      "src": "portfolio/assets/design/iande/10-iande-09-7e13841048/original.webp",
+      "fullSrc": "portfolio/assets/design/iande/10-iande-09-7e13841048/original.webp",
+      "srcset": "portfolio/assets/design/iande/10-iande-09-7e13841048/640w.webp 640w, portfolio/assets/design/iande/10-iande-09-7e13841048/original.webp 3500w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 11 do acervo iande",
+      "width": 3500,
+      "height": 3500,
+      "fullWidth": 3500,
+      "fullHeight": 3500,
+      "src": "portfolio/assets/design/iande/11-iande-11-4d3437b3d5/original.webp",
+      "fullSrc": "portfolio/assets/design/iande/11-iande-11-4d3437b3d5/original.webp",
+      "srcset": "portfolio/assets/design/iande/11-iande-11-4d3437b3d5/640w.webp 640w, portfolio/assets/design/iande/11-iande-11-4d3437b3d5/original.webp 3500w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 12 do acervo iande",
+      "width": 3500,
+      "height": 3500,
+      "fullWidth": 3500,
+      "fullHeight": 3500,
+      "src": "portfolio/assets/design/iande/12-iande-12-a1f732e0ed/original.webp",
+      "fullSrc": "portfolio/assets/design/iande/12-iande-12-a1f732e0ed/original.webp",
+      "srcset": "portfolio/assets/design/iande/12-iande-12-a1f732e0ed/640w.webp 640w, portfolio/assets/design/iande/12-iande-12-a1f732e0ed/original.webp 3500w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 13 do acervo iande",
+      "width": 2250,
+      "height": 4000,
+      "fullWidth": 2250,
+      "fullHeight": 4000,
+      "src": "portfolio/assets/design/iande/13-iande-13-fe2fabc37b/original.webp",
+      "fullSrc": "portfolio/assets/design/iande/13-iande-13-fe2fabc37b/original.webp",
+      "srcset": "portfolio/assets/design/iande/13-iande-13-fe2fabc37b/640w.webp 640w, portfolio/assets/design/iande/13-iande-13-fe2fabc37b/original.webp 2250w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 14 do acervo iande",
+      "width": 2250,
+      "height": 4000,
+      "fullWidth": 2250,
+      "fullHeight": 4000,
+      "src": "portfolio/assets/design/iande/14-iande-14-9f208bf352/original.webp",
+      "fullSrc": "portfolio/assets/design/iande/14-iande-14-9f208bf352/original.webp",
+      "srcset": "portfolio/assets/design/iande/14-iande-14-9f208bf352/640w.webp 640w, portfolio/assets/design/iande/14-iande-14-9f208bf352/original.webp 2250w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    }
+  ],
+  "links": [
+    {
+      "title": "Ver projeto publicado",
+      "url": "https://www.behance.net/gallery/234980191/IANDE-Henrique-Neves"
+    }
+  ]
+}

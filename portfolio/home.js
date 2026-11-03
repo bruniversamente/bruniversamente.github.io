@@ -1,4 +1,4 @@
-const entries = {"dados": {"group": "digital", "title": "Dados e BI", "description": "Análises, dashboards e qualidade de dados.", "credit": "Projetos e estudos de Dados e BI de Bruno Nascimento."}};
+const entries = {"dados": {"group": "digital", "title": "Dados e BI", "description": "Análises, dashboards e qualidade de dados.", "credit": "Projetos e estudos de Dados e BI de Bruno Nascimento."}, "design": {"group": "creative", "title": "Design e direção criativa", "description": "Identidade visual, editorial, cartazes e estampas.", "credit": "Iandê · Flores de Pedra. Coleção: Henrique Neves. Direção criativa e produção: Bruno Nascimento."}, "arquitetura": {"group": "technical", "title": "Arquitetura e Urbanismo", "description": "Projetos, estudos urbanos e representação técnica.", "credit": "Território e moradia · TFG em Arquitetura e Urbanismo. Bruno Nascimento."}};
 const grid = document.querySelector('#project-grid');
 const cards = [...grid.querySelectorAll('.project-card')];
 const search = document.querySelector('#search');
@@ -42,7 +42,7 @@ function prepareIndexGalleries(){
     const segment=document.createElement('span');segment.className='index-segment';
     const patternWidth=images.reduce((sum,image)=>sum+stripHeight*image.width/image.height+.4*fontSize,0);
     const repeats=Math.max(1,Math.ceil((grid.clientWidth+300)/patternWidth));
-    for(let repeat=0;repeat<repeats;repeat++)images.forEach(image=>{const img=document.createElement('img');img.src=image.src;img.alt='';img.title=image.title;img.width=image.width;img.height=image.height;img.loading='lazy';img.decoding='async';img.draggable=false;segment.append(img);});
+    for(let repeat=0;repeat<repeats;repeat++)images.forEach(image=>{const img=document.createElement('img');img.src=image.src;if(image.srcset){img.srcset=image.srcset;img.sizes='300px';}img.alt='';img.title=image.title;img.width=image.width;img.height=image.height;img.loading='lazy';img.decoding='async';img.draggable=false;segment.append(img);});
     track.style.setProperty('--index-duration',`${Math.max(12,patternWidth*repeats/75)}s`);
     track.append(segment,segment.cloneNode(true));marquee.replaceChildren(track);
   });

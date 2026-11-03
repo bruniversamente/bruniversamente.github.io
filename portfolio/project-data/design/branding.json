@@ -1,0 +1,130 @@
+{
+  "area": "design",
+  "id": "branding",
+  "title": "Identidade visual e editorial",
+  "subtitle": "Design e direção criativa",
+  "tags": [
+    "Design e direção criativa"
+  ],
+  "intro": "Cardápio para a DiCarly e cartão profissional para serviços de musicoterapia e ensino de música.",
+  "sections": [
+    {
+      "title": "Cardápio e cartão de visita",
+      "paragraphs": [
+        "Cardápio para a DiCarly e cartão profissional para serviços de musicoterapia e ensino de música."
+      ]
+    },
+    {
+      "title": "Portfólio artístico",
+      "paragraphs": [
+        "Projeto gráfico e diagramação do portfólio da musicista Gisele Fontoura."
+      ]
+    }
+  ],
+  "credits": [],
+  "credit": "",
+  "media": [
+    {
+      "type": "image",
+      "alt": "Peça 01 do projeto",
+      "width": 1920,
+      "height": 1440,
+      "fullWidth": 1920,
+      "fullHeight": 1440,
+      "src": "portfolio/assets/design/branding/01-branding-01-1cd9af0e11/original.webp",
+      "fullSrc": "portfolio/assets/design/branding/01-branding-01-1cd9af0e11/original.webp",
+      "srcset": "portfolio/assets/design/branding/01-branding-01-1cd9af0e11/640w.webp 640w, portfolio/assets/design/branding/01-branding-01-1cd9af0e11/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 02 do acervo branding",
+      "width": 2800,
+      "height": 3200,
+      "fullWidth": 2800,
+      "fullHeight": 3200,
+      "src": "portfolio/assets/design/branding/02-branding-02-46d529f9f6/original.webp",
+      "fullSrc": "portfolio/assets/design/branding/02-branding-02-46d529f9f6/original.webp",
+      "srcset": "portfolio/assets/design/branding/02-branding-02-46d529f9f6/640w.webp 640w, portfolio/assets/design/branding/02-branding-02-46d529f9f6/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 03 do acervo branding",
+      "width": 1280,
+      "height": 960,
+      "fullWidth": 2800,
+      "fullHeight": 2100,
+      "src": "portfolio/assets/design/branding/03-branding-03-a091382293/1280w.webp",
+      "fullSrc": "portfolio/assets/design/branding/03-branding-03-a091382293/original.webp",
+      "srcset": "portfolio/assets/design/branding/03-branding-03-a091382293/640w.webp 640w, portfolio/assets/design/branding/03-branding-03-a091382293/1280w.webp 1280w, portfolio/assets/design/branding/03-branding-03-a091382293/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 04 do acervo branding",
+      "width": 1920,
+      "height": 1281,
+      "fullWidth": 1920,
+      "fullHeight": 1281,
+      "src": "portfolio/assets/design/branding/04-branding-04-20cc5562f7/original.webp",
+      "fullSrc": "portfolio/assets/design/branding/04-branding-04-20cc5562f7/original.webp",
+      "srcset": "portfolio/assets/design/branding/04-branding-04-20cc5562f7/640w.webp 640w, portfolio/assets/design/branding/04-branding-04-20cc5562f7/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 05 do acervo branding",
+      "width": 1920,
+      "height": 1440,
+      "fullWidth": 1920,
+      "fullHeight": 1440,
+      "src": "portfolio/assets/design/branding/05-branding-05-3133cd7ae2/original.webp",
+      "fullSrc": "portfolio/assets/design/branding/05-branding-05-3133cd7ae2/original.webp",
+      "srcset": "portfolio/assets/design/branding/05-branding-05-3133cd7ae2/640w.webp 640w, portfolio/assets/design/branding/05-branding-05-3133cd7ae2/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 06 do acervo branding",
+      "width": 1920,
+      "height": 1440,
+      "fullWidth": 1920,
+      "fullHeight": 1440,
+      "src": "portfolio/assets/design/branding/06-branding-06-5d7b96cb7b/original.webp",
+      "fullSrc": "portfolio/assets/design/branding/06-branding-06-5d7b96cb7b/original.webp",
+      "srcset": "portfolio/assets/design/branding/06-branding-06-5d7b96cb7b/640w.webp 640w, portfolio/assets/design/branding/06-branding-06-5d7b96cb7b/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 07 do acervo branding",
+      "width": 1920,
+      "height": 1229,
+      "fullWidth": 1920,
+      "fullHeight": 1229,
+      "src": "portfolio/assets/design/branding/07-branding-07-b8e83f67a8/original.webp",
+      "fullSrc": "portfolio/assets/design/branding/07-branding-07-b8e83f67a8/original.webp",
+      "srcset": "portfolio/assets/design/branding/07-branding-07-b8e83f67a8/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 08 do acervo branding",
+      "width": 1920,
+      "height": 1229,
+      "fullWidth": 1920,
+      "fullHeight": 1229,
+      "src": "portfolio/assets/design/branding/08-branding-08-9880ccf07b/original.webp",
+      "fullSrc": "portfolio/assets/design/branding/08-branding-08-9880ccf07b/original.webp",
+      "srcset": "portfolio/assets/design/branding/08-branding-08-9880ccf07b/640w.webp 640w, portfolio/assets/design/branding/08-branding-08-9880ccf07b/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    }
+  ],
+  "links": [
+    {
+      "title": "Ver projeto publicado",
+      "url": "https://www.behance.net/gallery/235134877/Branding-Visual-Identity"
+    }
+  ]
+}

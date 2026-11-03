@@ -1,15 +1,31 @@
 {
-  "release": "dados-bi-20261103",
-  "base_commit": "b0708be36f59e046e8d00bbfb01b73134426829b",
+  "release": "design-arquitetura-20261103",
+  "base_commit": "e2d5875d37fa16ef5343eb1820ecf21cf74c89d6",
   "areas": [
+    "design",
+    "arquitetura",
     "dados"
   ],
-  "projects": [
-    "dados-01",
-    "dados-02",
-    "dados-03",
-    "dados-04",
-    "dados-05"
-  ],
-  "new_payload_bytes": 2228628
+  "projects": {
+    "dados": [
+      "dados-01",
+      "dados-02",
+      "dados-03",
+      "dados-04",
+      "dados-05"
+    ],
+    "design": [
+      "flyers",
+      "branding",
+      "iande",
+      "iande-camisetas",
+      "melted"
+    ],
+    "arquitetura": [
+      "tfg"
+    ]
+  },
+  "image_files_added": 143,
+  "image_bytes_added": 82588168,
+  "native_media": 86
 }

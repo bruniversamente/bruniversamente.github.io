@@ -1,0 +1,125 @@
+{
+  "area": "arquitetura",
+  "id": "tfg",
+  "title": "Território e moradia",
+  "subtitle": "TFG em Arquitetura e Urbanismo",
+  "tags": [
+    "Arquitetura e Urbanismo",
+    "TFG"
+  ],
+  "intro": "O trabalho reúne análise da realidade local, identificação do perfil do assentamento e definição de diretrizes para o uso e a ocupação do solo.",
+  "sections": [
+    {
+      "title": "Uma leitura do território para orientar a proposta",
+      "paragraphs": [
+        "O trabalho reúne análise da realidade local, identificação do perfil do assentamento e definição de diretrizes para o uso e a ocupação do solo."
+      ]
+    },
+    {
+      "title": "Ler o contexto",
+      "paragraphs": [
+        "Histórico da ocupação, condicionantes físicos e serviços existentes."
+      ]
+    },
+    {
+      "title": "O estudo completo, por etapas",
+      "paragraphs": [
+        "As pranchas originais estão reunidas na sequência de leitura. Clique em cada uma para consultar os textos, mapas e diagramas em resolução maior."
+      ]
+    }
+  ],
+  "credits": [],
+  "credit": "TFG em Arquitetura e Urbanismo · Bruno Nascimento.",
+  "media": [
+    {
+      "type": "image",
+      "alt": "Peça 07 do projeto",
+      "width": 3840,
+      "height": 5437,
+      "fullWidth": 3840,
+      "fullHeight": 5437,
+      "src": "portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/original.jpg",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/original.jpg",
+      "srcset": "portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/640w.webp 640w, portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/original.jpg 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 01 do projeto",
+      "width": 2560,
+      "height": 3625,
+      "fullWidth": 3840,
+      "fullHeight": 5437,
+      "src": "portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/2560w.webp",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/original.jpg",
+      "srcset": "portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/640w.webp 640w, portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/2560w.webp 2560w, portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/original.jpg 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 02 do projeto",
+      "width": 3840,
+      "height": 5437,
+      "fullWidth": 3840,
+      "fullHeight": 5437,
+      "src": "portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/original.jpg",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/original.jpg",
+      "srcset": "portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/640w.webp 640w, portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/original.jpg 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 03 do projeto",
+      "width": 1920,
+      "height": 2719,
+      "fullWidth": 1920,
+      "fullHeight": 2719,
+      "src": "portfolio/assets/arquitetura/tfg/04-tfg-03-a283afb561/original.webp",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/04-tfg-03-a283afb561/original.webp",
+      "srcset": "portfolio/assets/arquitetura/tfg/04-tfg-03-a283afb561/640w.webp 640w, portfolio/assets/arquitetura/tfg/04-tfg-03-a283afb561/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 04 do projeto",
+      "width": 3840,
+      "height": 5437,
+      "fullWidth": 3840,
+      "fullHeight": 5437,
+      "src": "portfolio/assets/arquitetura/tfg/05-tfg-04-cbc6ee85c3/original.jpg",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/05-tfg-04-cbc6ee85c3/original.jpg",
+      "srcset": "portfolio/assets/arquitetura/tfg/05-tfg-04-cbc6ee85c3/640w.webp 640w, portfolio/assets/arquitetura/tfg/05-tfg-04-cbc6ee85c3/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/05-tfg-04-cbc6ee85c3/original.jpg 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 05 do projeto",
+      "width": 3840,
+      "height": 5437,
+      "fullWidth": 3840,
+      "fullHeight": 5437,
+      "src": "portfolio/assets/arquitetura/tfg/06-tfg-05-771046d00e/original.jpg",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/06-tfg-05-771046d00e/original.jpg",
+      "srcset": "portfolio/assets/arquitetura/tfg/06-tfg-05-771046d00e/640w.webp 640w, portfolio/assets/arquitetura/tfg/06-tfg-05-771046d00e/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/06-tfg-05-771046d00e/original.jpg 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    },
+    {
+      "type": "image",
+      "alt": "Peça 06 do projeto",
+      "width": 3840,
+      "height": 5437,
+      "fullWidth": 3840,
+      "fullHeight": 5437,
+      "src": "portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/original.jpg",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/original.jpg",
+      "srcset": "portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/640w.webp 640w, portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/original.jpg 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+    }
+  ],
+  "links": [
+    {
+      "title": "Ver projeto publicado",
+      "url": "https://www.behance.net/gallery/234978399/TFG-Trabalho-Final-de-Graduacao"
+    }
+  ]
+}

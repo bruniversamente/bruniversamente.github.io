@@ -12,7 +12,7 @@
   let active=null,view='feed',projectFilter='all',units=6;
   let homeView='grid';
   function element(tag,className,text){const el=document.createElement(tag);if(className)el.className=className;if(text)el.textContent=text;return el;}
-  function imageNode(image,lazy=true){const img=element('img');img.src=image.src+(image.version?`?v=${image.version}`:'');img.alt=image.alt||'';img.width=image.width;img.height=image.height;img.loading=lazy?'lazy':'eager';img.decoding='async';img.draggable=false;return img;}
+  function imageNode(image,lazy=true,sizes='(max-width:700px) 100vw, 50vw'){const img=element('img');img.src=image.src+(image.version?`?v=${image.version}`:'');if(image.srcset){img.srcset=image.srcset;img.sizes=sizes;}img.alt=image.alt||'';img.width=image.width;img.height=image.height;img.loading=lazy?'lazy':'eager';img.decoding='async';img.draggable=false;return img;}
   function matches(project){return (projectFilter==='all'||project.id===projectFilter)&&normalize(project.title+' '+project.credit).includes(normalize(search.value));}
   function showProject(project,image){
     if(window.projectPage){window.projectPage.open(active,project.id);return;}
@@ -44,7 +44,7 @@
     const clip=element('span','index-preview-clip'),marquee=element('span','index-marquee'),track=element('span','index-track'),segment=element('span','index-segment');
     // Repeat a complete segment before cloning so the strip fills every viewport.
     const repeats=Math.max(2,Math.ceil(18/project.images.length));
-    for(let i=0;i<repeats;i++)project.images.forEach(image=>{const img=imageNode(image);img.alt='';segment.append(img);});
+    for(let i=0;i<repeats;i++)project.images.forEach(image=>{const img=imageNode(image,true,'300px');img.alt='';segment.append(img);});
     track.style.setProperty('--index-duration',`${Math.max(20,repeats*project.images.length*2.5)}s`);track.append(segment,segment.cloneNode(true));marquee.append(track);clip.append(marquee);preview.append(clip);row.append(preview);
     row.addEventListener('click',event=>{event.preventDefault();if(matchMedia('(hover:none)').matches&&!row.classList.contains('index-open')){index.querySelectorAll('.index-open').forEach(r=>r.classList.remove('index-open'));row.classList.add('index-open');return;}showProject(project,project.images[0]);});index.append(row);
   }

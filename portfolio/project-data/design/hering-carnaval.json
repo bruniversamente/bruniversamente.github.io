@@ -19,103 +19,279 @@
     }
   ],
   "area": "design",
-  "presentation": "boards",
   "media": [
     {
       "type": "image",
-      "alt": "Hering Kids · Carnaval 2023",
+      "src": "portfolio/assets/design/hering-carnaval-feed/01-capa-131b39fc0f/1280w.webp",
       "width": 1280,
-      "height": 953,
+      "height": 1919,
+      "srcset": "portfolio/assets/design/hering-carnaval-feed/01-capa-131b39fc0f/640w.webp 640w, portfolio/assets/design/hering-carnaval-feed/01-capa-131b39fc0f/1280w.webp 1280w, portfolio/assets/design/hering-carnaval-feed/01-capa-131b39fc0f/original.jpg 2001w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullWidth": 2800,
-      "fullHeight": 2084,
-      "src": "portfolio/assets/design/hering-carnaval/01-01-4d311c6daf/1280w.webp",
-      "fullSrc": "portfolio/assets/design/hering-carnaval/01-01-4d311c6daf/original.webp",
-      "srcset": "portfolio/assets/design/hering-carnaval/01-01-4d311c6daf/640w.webp 640w, portfolio/assets/design/hering-carnaval/01-01-4d311c6daf/1280w.webp 1280w, portfolio/assets/design/hering-carnaval/01-01-4d311c6daf/1920w.webp 1920w, portfolio/assets/design/hering-carnaval/01-01-4d311c6daf/original.webp 2800w"
+      "fullSrc": "portfolio/assets/design/hering-carnaval-feed/01-capa-131b39fc0f/original.jpg",
+      "fullWidth": 2001,
+      "fullHeight": 3000,
+      "id": "m001",
+      "alt": "Adereços de fitas coloridas em movimento na campanha Hering Kids"
     },
     {
       "type": "image",
-      "alt": "Hering Kids · Guizos e franjas",
-      "width": 1280,
-      "height": 806,
+      "src": "portfolio/assets/editorial/hering-carnaval/29-guizos-estudo-6916e4dc5a/original.jpg",
+      "width": 1687,
+      "height": 3000,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/29-guizos-estudo-6916e4dc5a/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/29-guizos-estudo-6916e4dc5a/original.jpg 1687w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullWidth": 2800,
-      "fullHeight": 1764,
-      "src": "portfolio/assets/design/hering-carnaval/02-02-6ef2ac2921/1280w.webp",
-      "fullSrc": "portfolio/assets/design/hering-carnaval/02-02-6ef2ac2921/original.webp",
-      "srcset": "portfolio/assets/design/hering-carnaval/02-02-6ef2ac2921/640w.webp 640w, portfolio/assets/design/hering-carnaval/02-02-6ef2ac2921/1280w.webp 1280w, portfolio/assets/design/hering-carnaval/02-02-6ef2ac2921/1920w.webp 1920w, portfolio/assets/design/hering-carnaval/02-02-6ef2ac2921/original.webp 2800w"
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/29-guizos-estudo-6916e4dc5a/original.jpg",
+      "fullWidth": 1687,
+      "fullHeight": 3000,
+      "id": "m002",
+      "alt": "Croqui e anotações de materiais"
     },
     {
       "type": "image",
-      "alt": "Hering Kids · Flores e borboletas",
-      "width": 1280,
-      "height": 806,
+      "src": "portfolio/assets/editorial/hering-carnaval/30-guizos-montagem-e850575566/original.jpg",
+      "width": 1687,
+      "height": 3000,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/30-guizos-montagem-e850575566/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/30-guizos-montagem-e850575566/original.jpg 1687w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullWidth": 2800,
-      "fullHeight": 1764,
-      "src": "portfolio/assets/design/hering-carnaval/03-03-a17c7bfd44/1280w.webp",
-      "fullSrc": "portfolio/assets/design/hering-carnaval/03-03-a17c7bfd44/original.webp",
-      "srcset": "portfolio/assets/design/hering-carnaval/03-03-a17c7bfd44/640w.webp 640w, portfolio/assets/design/hering-carnaval/03-03-a17c7bfd44/1280w.webp 1280w, portfolio/assets/design/hering-carnaval/03-03-a17c7bfd44/1920w.webp 1920w, portfolio/assets/design/hering-carnaval/03-03-a17c7bfd44/original.webp 2800w"
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/30-guizos-montagem-e850575566/original.jpg",
+      "fullWidth": 1687,
+      "fullHeight": 3000,
+      "id": "m003",
+      "alt": "Montagem no manequim"
     },
     {
       "type": "image",
-      "alt": "Hering Kids · Franjas coloridas",
+      "src": "portfolio/assets/design/hering-carnaval-feed/02-guizos-final-caca42dd88/1280w.webp",
       "width": 1280,
-      "height": 806,
+      "height": 1600,
+      "srcset": "portfolio/assets/design/hering-carnaval-feed/02-guizos-final-caca42dd88/640w.webp 640w, portfolio/assets/design/hering-carnaval-feed/02-guizos-final-caca42dd88/1280w.webp 1280w, portfolio/assets/design/hering-carnaval-feed/02-guizos-final-caca42dd88/original.jpg 2400w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullWidth": 2800,
-      "fullHeight": 1764,
-      "src": "portfolio/assets/design/hering-carnaval/04-04-eeefbcae3e/1280w.webp",
-      "fullSrc": "portfolio/assets/design/hering-carnaval/04-04-eeefbcae3e/original.webp",
-      "srcset": "portfolio/assets/design/hering-carnaval/04-04-eeefbcae3e/640w.webp 640w, portfolio/assets/design/hering-carnaval/04-04-eeefbcae3e/1280w.webp 1280w, portfolio/assets/design/hering-carnaval/04-04-eeefbcae3e/1920w.webp 1920w, portfolio/assets/design/hering-carnaval/04-04-eeefbcae3e/original.webp 2800w"
+      "fullSrc": "portfolio/assets/design/hering-carnaval-feed/02-guizos-final-caca42dd88/original.jpg",
+      "fullWidth": 2400,
+      "fullHeight": 3000,
+      "id": "m004",
+      "alt": "Peça usada na campanha"
     },
     {
       "type": "image",
-      "alt": "Hering Kids · Fitas",
-      "width": 1280,
-      "height": 861,
+      "src": "portfolio/assets/editorial/hering-carnaval/32-flor-estudo-0f3543ad07/original.jpg",
+      "width": 1687,
+      "height": 3000,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/32-flor-estudo-0f3543ad07/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/32-flor-estudo-0f3543ad07/original.jpg 1687w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullWidth": 2800,
-      "fullHeight": 1884,
-      "src": "portfolio/assets/design/hering-carnaval/05-05-be0e03e1c1/1280w.webp",
-      "fullSrc": "portfolio/assets/design/hering-carnaval/05-05-be0e03e1c1/original.webp",
-      "srcset": "portfolio/assets/design/hering-carnaval/05-05-be0e03e1c1/640w.webp 640w, portfolio/assets/design/hering-carnaval/05-05-be0e03e1c1/1280w.webp 1280w, portfolio/assets/design/hering-carnaval/05-05-be0e03e1c1/1920w.webp 1920w, portfolio/assets/design/hering-carnaval/05-05-be0e03e1c1/original.webp 2800w"
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/32-flor-estudo-0f3543ad07/original.jpg",
+      "fullWidth": 1687,
+      "fullHeight": 3000,
+      "id": "m005",
+      "alt": "Croqui do conjunto"
     },
     {
       "type": "image",
-      "alt": "Hering Kids · Pompons",
+      "src": "portfolio/assets/editorial/hering-carnaval/33-flor-detalhe-75eebd6a55/1280w.webp",
       "width": 1280,
-      "height": 806,
+      "height": 1919,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/33-flor-detalhe-75eebd6a55/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/33-flor-detalhe-75eebd6a55/1280w.webp 1280w, portfolio/assets/editorial/hering-carnaval/33-flor-detalhe-75eebd6a55/original.jpg 2001w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullWidth": 2800,
-      "fullHeight": 1764,
-      "src": "portfolio/assets/design/hering-carnaval/06-06-f976cbc9a7/1280w.webp",
-      "fullSrc": "portfolio/assets/design/hering-carnaval/06-06-f976cbc9a7/original.webp",
-      "srcset": "portfolio/assets/design/hering-carnaval/06-06-f976cbc9a7/640w.webp 640w, portfolio/assets/design/hering-carnaval/06-06-f976cbc9a7/1280w.webp 1280w, portfolio/assets/design/hering-carnaval/06-06-f976cbc9a7/1920w.webp 1920w, portfolio/assets/design/hering-carnaval/06-06-f976cbc9a7/original.webp 2800w"
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/33-flor-detalhe-75eebd6a55/original.jpg",
+      "fullWidth": 2001,
+      "fullHeight": 3000,
+      "id": "m006",
+      "alt": "Detalhe do adereço"
     },
     {
       "type": "image",
-      "alt": "Hering Kids · Tiara com olhos",
+      "src": "portfolio/assets/design/hering-carnaval-feed/03-flor-final-dbf3317522/1280w.webp",
       "width": 1280,
-      "height": 885,
+      "height": 1600,
+      "srcset": "portfolio/assets/design/hering-carnaval-feed/03-flor-final-dbf3317522/640w.webp 640w, portfolio/assets/design/hering-carnaval-feed/03-flor-final-dbf3317522/1280w.webp 1280w, portfolio/assets/design/hering-carnaval-feed/03-flor-final-dbf3317522/original.jpg 2400w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullWidth": 2800,
-      "fullHeight": 1936,
-      "src": "portfolio/assets/design/hering-carnaval/07-07-cd82bed037/1280w.webp",
-      "fullSrc": "portfolio/assets/design/hering-carnaval/07-07-cd82bed037/original.webp",
-      "srcset": "portfolio/assets/design/hering-carnaval/07-07-cd82bed037/640w.webp 640w, portfolio/assets/design/hering-carnaval/07-07-cd82bed037/1280w.webp 1280w, portfolio/assets/design/hering-carnaval/07-07-cd82bed037/1920w.webp 1920w, portfolio/assets/design/hering-carnaval/07-07-cd82bed037/original.webp 2800w"
+      "fullSrc": "portfolio/assets/design/hering-carnaval-feed/03-flor-final-dbf3317522/original.jpg",
+      "fullWidth": 2400,
+      "fullHeight": 3000,
+      "id": "m007",
+      "alt": "Adereço em uso"
     },
     {
       "type": "image",
-      "alt": "Hering Kids · Carnaval em grupo",
-      "width": 1280,
-      "height": 861,
+      "src": "portfolio/assets/editorial/hering-carnaval/35-ombreiras-estudo-75c47dcbf4/original.jpg",
+      "width": 1687,
+      "height": 3000,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/35-ombreiras-estudo-75c47dcbf4/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/35-ombreiras-estudo-75c47dcbf4/original.jpg 1687w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullWidth": 2800,
-      "fullHeight": 1884,
-      "src": "portfolio/assets/design/hering-carnaval/08-08-d4d37c45f6/1280w.webp",
-      "fullSrc": "portfolio/assets/design/hering-carnaval/08-08-d4d37c45f6/original.webp",
-      "srcset": "portfolio/assets/design/hering-carnaval/08-08-d4d37c45f6/640w.webp 640w, portfolio/assets/design/hering-carnaval/08-08-d4d37c45f6/1280w.webp 1280w, portfolio/assets/design/hering-carnaval/08-08-d4d37c45f6/1920w.webp 1920w, portfolio/assets/design/hering-carnaval/08-08-d4d37c45f6/original.webp 2800w"
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/35-ombreiras-estudo-75c47dcbf4/original.jpg",
+      "fullWidth": 1687,
+      "fullHeight": 3000,
+      "id": "m008",
+      "alt": "Croqui dos adereços"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-carnaval/36-aviamentos-550b2506c8/1280w.webp",
+      "width": 1280,
+      "height": 720,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/36-aviamentos-550b2506c8/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/36-aviamentos-550b2506c8/1280w.webp 1280w, portfolio/assets/editorial/hering-carnaval/36-aviamentos-550b2506c8/original.jpg 2400w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/36-aviamentos-550b2506c8/original.jpg",
+      "fullWidth": 2400,
+      "fullHeight": 1350,
+      "id": "m009",
+      "alt": "Seleção de aviamentos"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-carnaval/37-ombreiras-final-612d8b9a7a/1280w.webp",
+      "width": 1280,
+      "height": 1919,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/37-ombreiras-final-612d8b9a7a/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/37-ombreiras-final-612d8b9a7a/1280w.webp 1280w, portfolio/assets/editorial/hering-carnaval/37-ombreiras-final-612d8b9a7a/original.jpg 2001w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/37-ombreiras-final-612d8b9a7a/original.jpg",
+      "fullWidth": 2001,
+      "fullHeight": 3000,
+      "id": "m010",
+      "alt": "Adereços na campanha"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-carnaval/38-fitas-montagem-b5b5af4660/original.jpg",
+      "width": 1687,
+      "height": 3000,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/38-fitas-montagem-b5b5af4660/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/38-fitas-montagem-b5b5af4660/original.jpg 1687w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/38-fitas-montagem-b5b5af4660/original.jpg",
+      "fullWidth": 1687,
+      "fullHeight": 3000,
+      "id": "m011",
+      "alt": "Conjunto de fitas durante a preparação"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-carnaval/39-fitas-final-6e92f512ad/1280w.webp",
+      "width": 1280,
+      "height": 1600,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/39-fitas-final-6e92f512ad/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/39-fitas-final-6e92f512ad/1280w.webp 1280w, portfolio/assets/editorial/hering-carnaval/39-fitas-final-6e92f512ad/original.jpg 2400w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/39-fitas-final-6e92f512ad/original.jpg",
+      "fullWidth": 2400,
+      "fullHeight": 3000,
+      "id": "m012",
+      "alt": "As fitas em movimento"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-carnaval/40-pompons-montagem-f5a67db461/original.jpg",
+      "width": 1687,
+      "height": 3000,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/40-pompons-montagem-f5a67db461/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/40-pompons-montagem-f5a67db461/original.jpg 1687w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/40-pompons-montagem-f5a67db461/original.jpg",
+      "fullWidth": 1687,
+      "fullHeight": 3000,
+      "id": "m013",
+      "alt": "Pompons preparados"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-carnaval/41-pompons-final-429905664a/1280w.webp",
+      "width": 1280,
+      "height": 1919,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/41-pompons-final-429905664a/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/41-pompons-final-429905664a/1280w.webp 1280w, portfolio/assets/editorial/hering-carnaval/41-pompons-final-429905664a/original.jpg 2001w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/41-pompons-final-429905664a/original.jpg",
+      "fullWidth": 2001,
+      "fullHeight": 3000,
+      "id": "m014",
+      "alt": "Chapéu e aplicações"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-carnaval/42-pompons-detalhe-5ee2fdd0d7/1280w.webp",
+      "width": 1280,
+      "height": 1919,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/42-pompons-detalhe-5ee2fdd0d7/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/42-pompons-detalhe-5ee2fdd0d7/1280w.webp 1280w, portfolio/assets/editorial/hering-carnaval/42-pompons-detalhe-5ee2fdd0d7/original.jpg 2001w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/42-pompons-detalhe-5ee2fdd0d7/original.jpg",
+      "fullWidth": 2001,
+      "fullHeight": 3000,
+      "id": "m015",
+      "alt": "Detalhe durante a campanha"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-carnaval/43-tiara-olho-819baf3316/original.jpg",
+      "width": 1687,
+      "height": 3000,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/43-tiara-olho-819baf3316/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/43-tiara-olho-819baf3316/original.jpg 1687w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/43-tiara-olho-819baf3316/original.jpg",
+      "fullWidth": 1687,
+      "fullHeight": 3000,
+      "id": "m016",
+      "alt": "Preparação dos olhos"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-carnaval/44-tiara-haste-89deed7bce/original.jpg",
+      "width": 1687,
+      "height": 3000,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/44-tiara-haste-89deed7bce/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/44-tiara-haste-89deed7bce/original.jpg 1687w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/44-tiara-haste-89deed7bce/original.jpg",
+      "fullWidth": 1687,
+      "fullHeight": 3000,
+      "id": "m017",
+      "alt": "Montagem de uma haste"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-carnaval/45-tiara-montada-22b7cf9d4f/1280w.webp",
+      "width": 1280,
+      "height": 1280,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/45-tiara-montada-22b7cf9d4f/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/45-tiara-montada-22b7cf9d4f/1280w.webp 1280w, portfolio/assets/editorial/hering-carnaval/45-tiara-montada-22b7cf9d4f/original.jpg 2400w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/45-tiara-montada-22b7cf9d4f/original.jpg",
+      "fullWidth": 2400,
+      "fullHeight": 2400,
+      "id": "m018",
+      "alt": "Tiara montada"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-carnaval/46-tiara-final-e2ff450293/1280w.webp",
+      "width": 1280,
+      "height": 1919,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/46-tiara-final-e2ff450293/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/46-tiara-final-e2ff450293/1280w.webp 1280w, portfolio/assets/editorial/hering-carnaval/46-tiara-final-e2ff450293/original.jpg 2001w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/46-tiara-final-e2ff450293/original.jpg",
+      "fullWidth": 2001,
+      "fullHeight": 3000,
+      "id": "m019",
+      "alt": "Tiara usada na campanha"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-carnaval/47-grupo-74d0e9b2c2/1280w.webp",
+      "width": 1280,
+      "height": 1919,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/47-grupo-74d0e9b2c2/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/47-grupo-74d0e9b2c2/1280w.webp 1280w, portfolio/assets/editorial/hering-carnaval/47-grupo-74d0e9b2c2/original.jpg 2001w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/47-grupo-74d0e9b2c2/original.jpg",
+      "fullWidth": 2001,
+      "fullHeight": 3000,
+      "id": "m020",
+      "alt": "Os conjuntos no editorial"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-carnaval/48-folia-53f2175687/1280w.webp",
+      "width": 1280,
+      "height": 854,
+      "srcset": "portfolio/assets/editorial/hering-carnaval/48-folia-53f2175687/640w.webp 640w, portfolio/assets/editorial/hering-carnaval/48-folia-53f2175687/1280w.webp 1280w, portfolio/assets/editorial/hering-carnaval/48-folia-53f2175687/original.jpg 2400w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-carnaval/48-folia-53f2175687/original.jpg",
+      "fullWidth": 2400,
+      "fullHeight": 1601,
+      "id": "m021",
+      "alt": "Adereços durante a folia"
     }
   ],
   "sections": [
@@ -190,5 +366,276 @@
       "url": "https://www.behance.net/gallery/257787803/Hering-Kids-Carnaval-2023-Aderecos-e-figurino",
       "poster": "portfolio/assets/design/hering-carnaval-feed/01-capa-131b39fc0f/1280w.webp"
     }
-  ]
+  ],
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "chapters": [
+      {
+        "id": "aderecos-props-e-pecas-de-figurino",
+        "label": "Adereços, props e peças de figurino",
+        "title": "Adereços, props e peças de figurino",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Guizos, franjas, flores, fitas e pompons compõem os acessórios da campanha de Carnaval da Hering Kids. Os croquis e os registros de montagem acompanham aqui as fotografias das peças em uso."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "guizos-e-franjas",
+        "label": "Guizos e franjas",
+        "title": "Guizos e franjas",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O desenho orienta a trama de correntes, a distribuição dos guizos e as franjas vermelhas. O manequim permite acompanhar a montagem da estrutura."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002",
+                "caption": "Croqui e anotações de materiais"
+              },
+              {
+                "id": "m003",
+                "caption": "Montagem no manequim"
+              },
+              {
+                "id": "m004",
+                "caption": "Peça usada na campanha"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "flores-e-borboletas",
+        "label": "Flores e borboletas",
+        "title": "Flores e borboletas",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Croqui e fotografias do adereço com flor branca e borboletas suspensas."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m005",
+                "caption": "Croqui do conjunto"
+              },
+              {
+                "id": "m006",
+                "caption": "Detalhe do adereço"
+              },
+              {
+                "id": "m007",
+                "caption": "Adereço em uso"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "franjas-coloridas",
+        "label": "Franjas coloridas",
+        "title": "Franjas coloridas",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O estudo combina fitas, aviamentos e pompons. As tiras soltas acompanham os braços e o movimento da criança."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m008",
+                "caption": "Croqui dos adereços"
+              },
+              {
+                "id": "m009",
+                "caption": "Seleção de aviamentos"
+              },
+              {
+                "id": "m010",
+                "caption": "Adereços na campanha"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "fitas",
+        "label": "Fitas",
+        "title": "Fitas",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Tiras largas de várias cores formam os volumes dos dois braços."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m011",
+                "caption": "Conjunto de fitas durante a preparação"
+              },
+              {
+                "id": "m012",
+                "caption": "As fitas em movimento"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "pompons",
+        "label": "Pompons",
+        "title": "Pompons",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O cone e as aplicações retomam a figura do palhaço. Os registros mostram os pompons preparados e os detalhes do conjunto nas fotografias."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m013",
+                "caption": "Pompons preparados"
+              },
+              {
+                "id": "m014",
+                "caption": "Chapéu e aplicações"
+              },
+              {
+                "id": "m015",
+                "caption": "Detalhe durante a campanha"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "tiara-com-olhos",
+        "label": "Tiara com olhos",
+        "title": "Tiara com olhos",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Cada haste combina um olho móvel, pompons e uma base flexível. As fotos de bancada registram as partes e o adereço montado."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m016",
+                "caption": "Preparação dos olhos"
+              },
+              {
+                "id": "m017",
+                "caption": "Montagem de uma haste"
+              },
+              {
+                "id": "m018",
+                "caption": "Tiara montada"
+              },
+              {
+                "id": "m019",
+                "caption": "Tiara usada na campanha"
+              }
+            ],
+            "layout": "gallery"
+          }
+        ]
+      },
+      {
+        "id": "carnaval-em-grupo",
+        "label": "Carnaval em grupo",
+        "title": "Carnaval em grupo",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m020",
+                "caption": "Os conjuntos no editorial"
+              },
+              {
+                "id": "m021",
+                "caption": "Adereços durante a folia"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "construcao-e-campanha",
+        "label": "Construção e campanha",
+        "title": "Construção e campanha",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Um registro da bancada acompanha o filme final da Hering Kids."
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Registro do processo · 43 segundos"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Hering Kids · 24 segundos"
+            ]
+          },
+          {
+            "type": "films"
+          }
+        ]
+      }
+    ],
+    "deviceFrame": "portfolio/assets/editorial/shared/01-galaxy-s26-ultra-black-front-3545ed1389/original.webp",
+    "filmsInline": true,
+    "coverPosition": "50% 23%"
+  },
+  "cover": {
+    "type": "image",
+    "src": "portfolio/assets/design/hering-carnaval-feed/01-capa-131b39fc0f/1280w.webp",
+    "width": 1280,
+    "height": 1919,
+    "srcset": "portfolio/assets/design/hering-carnaval-feed/01-capa-131b39fc0f/640w.webp 640w, portfolio/assets/design/hering-carnaval-feed/01-capa-131b39fc0f/1280w.webp 1280w, portfolio/assets/design/hering-carnaval-feed/01-capa-131b39fc0f/original.jpg 2001w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+    "fullSrc": "portfolio/assets/design/hering-carnaval-feed/01-capa-131b39fc0f/original.jpg",
+    "fullWidth": 2001,
+    "fullHeight": 3000,
+    "id": "m001",
+    "alt": "Adereços de fitas coloridas em movimento na campanha Hering Kids"
+  }
 }

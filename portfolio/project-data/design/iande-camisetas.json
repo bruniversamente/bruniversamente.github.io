@@ -44,363 +44,408 @@
   "media": [
     {
       "type": "image",
-      "alt": "Peça 53 do projeto",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/01-iande-camisetas-53-bd388024be/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/01-iande-camisetas-53-bd388024be/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/01-iande-camisetas-53-bd388024be/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/01-iande-camisetas-53-bd388024be/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m001",
+      "alt": "Peça 53 do projeto"
     },
     {
       "type": "image",
-      "alt": "Peça 64 do projeto",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
-      "src": "portfolio/assets/design/iande-camisetas/02-iande-camisetas-64-9143110038/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/02-iande-camisetas-64-9143110038/original.webp",
-      "srcset": "portfolio/assets/design/iande-camisetas/02-iande-camisetas-64-9143110038/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
-    },
-    {
-      "type": "image",
-      "alt": "Peça 30 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/03-iande-camisetas-30-56aa44ee15/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/03-iande-camisetas-30-56aa44ee15/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/03-iande-camisetas-30-56aa44ee15/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/03-iande-camisetas-30-56aa44ee15/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m002",
+      "alt": "Peça 30 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 36 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/04-iande-camisetas-36-28d30be351/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/04-iande-camisetas-36-28d30be351/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/04-iande-camisetas-36-28d30be351/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/04-iande-camisetas-36-28d30be351/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m003",
+      "alt": "Peça 36 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 38 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/05-iande-camisetas-38-2bccde2d9d/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/05-iande-camisetas-38-2bccde2d9d/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/05-iande-camisetas-38-2bccde2d9d/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/05-iande-camisetas-38-2bccde2d9d/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m004",
+      "alt": "Peça 38 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 45 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/06-iande-camisetas-45-21a30fb613/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/06-iande-camisetas-45-21a30fb613/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/06-iande-camisetas-45-21a30fb613/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/06-iande-camisetas-45-21a30fb613/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m005",
+      "alt": "Peça 45 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 48 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/07-iande-camisetas-48-dc58e50aea/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/07-iande-camisetas-48-dc58e50aea/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/07-iande-camisetas-48-dc58e50aea/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/07-iande-camisetas-48-dc58e50aea/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m006",
+      "alt": "Peça 48 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 49 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/08-iande-camisetas-49-c9dcd0bc27/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/08-iande-camisetas-49-c9dcd0bc27/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/08-iande-camisetas-49-c9dcd0bc27/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/08-iande-camisetas-49-c9dcd0bc27/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m007",
+      "alt": "Peça 49 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 54 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/09-iande-camisetas-54-6cb74ec828/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/09-iande-camisetas-54-6cb74ec828/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/09-iande-camisetas-54-6cb74ec828/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/09-iande-camisetas-54-6cb74ec828/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m008",
+      "alt": "Peça 54 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 57 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/10-iande-camisetas-57-f1c2f23740/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/10-iande-camisetas-57-f1c2f23740/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/10-iande-camisetas-57-f1c2f23740/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/10-iande-camisetas-57-f1c2f23740/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m009",
+      "alt": "Peça 57 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 15 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/11-iande-camisetas-15-50afedc9b2/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/11-iande-camisetas-15-50afedc9b2/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/11-iande-camisetas-15-50afedc9b2/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/11-iande-camisetas-15-50afedc9b2/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m010",
+      "alt": "Peça 15 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 17 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/12-iande-camisetas-17-f366fcd05c/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/12-iande-camisetas-17-f366fcd05c/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/12-iande-camisetas-17-f366fcd05c/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/12-iande-camisetas-17-f366fcd05c/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m011",
+      "alt": "Peça 17 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 31 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/13-iande-camisetas-31-a838593820/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/13-iande-camisetas-31-a838593820/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/13-iande-camisetas-31-a838593820/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/13-iande-camisetas-31-a838593820/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m012",
+      "alt": "Peça 31 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 33 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/14-iande-camisetas-33-e5023afcae/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/14-iande-camisetas-33-e5023afcae/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/14-iande-camisetas-33-e5023afcae/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/14-iande-camisetas-33-e5023afcae/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m013",
+      "alt": "Peça 33 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 62 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/15-iande-camisetas-62-dc86c0802d/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/15-iande-camisetas-62-dc86c0802d/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/15-iande-camisetas-62-dc86c0802d/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/15-iande-camisetas-62-dc86c0802d/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m014",
+      "alt": "Peça 62 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 65 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/16-iande-camisetas-65-3114d70f26/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/16-iande-camisetas-65-3114d70f26/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/16-iande-camisetas-65-3114d70f26/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/16-iande-camisetas-65-3114d70f26/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m015",
+      "alt": "Peça 65 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 79 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/17-iande-camisetas-79-6297efe221/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/17-iande-camisetas-79-6297efe221/original.webp",
-      "srcset": "portfolio/assets/design/iande-camisetas/17-iande-camisetas-79-6297efe221/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
-    },
-    {
-      "type": "image",
-      "alt": "Peça 81 do acervo iande-camisetas",
       "width": 1000,
       "height": 1000,
+      "srcset": "portfolio/assets/design/iande-camisetas/17-iande-camisetas-79-6297efe221/original.webp 1000w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/17-iande-camisetas-79-6297efe221/original.webp",
       "fullWidth": 1000,
       "fullHeight": 1000,
-      "src": "portfolio/assets/design/iande-camisetas/18-iande-camisetas-81-636fef3f40/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/18-iande-camisetas-81-636fef3f40/original.webp",
-      "srcset": "portfolio/assets/design/iande-camisetas/18-iande-camisetas-81-636fef3f40/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "m016",
+      "alt": "Peça 79 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 02 do acervo iande-camisetas",
+      "src": "portfolio/assets/design/iande-camisetas/18-iande-camisetas-81-636fef3f40/original.webp",
+      "width": 1000,
+      "height": 1000,
+      "srcset": "portfolio/assets/design/iande-camisetas/18-iande-camisetas-81-636fef3f40/original.webp 1000w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/18-iande-camisetas-81-636fef3f40/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m017",
+      "alt": "Peça 81 do acervo iande-camisetas"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/design/iande-camisetas/19-iande-camisetas-02-953fef273b/original.webp",
       "width": 1002,
       "height": 1002,
+      "srcset": "portfolio/assets/design/iande-camisetas/19-iande-camisetas-02-953fef273b/original.webp 1002w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/19-iande-camisetas-02-953fef273b/original.webp",
       "fullWidth": 1002,
       "fullHeight": 1002,
-      "src": "portfolio/assets/design/iande-camisetas/19-iande-camisetas-02-953fef273b/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/19-iande-camisetas-02-953fef273b/original.webp",
-      "srcset": "portfolio/assets/design/iande-camisetas/19-iande-camisetas-02-953fef273b/original.webp 1002w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "m018",
+      "alt": "Peça 02 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 04 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/20-iande-camisetas-04-fd17c0c79e/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/20-iande-camisetas-04-fd17c0c79e/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/20-iande-camisetas-04-fd17c0c79e/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/20-iande-camisetas-04-fd17c0c79e/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m019",
+      "alt": "Peça 04 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 07 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/21-iande-camisetas-07-5d4a9bc9fa/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/21-iande-camisetas-07-5d4a9bc9fa/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/21-iande-camisetas-07-5d4a9bc9fa/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/21-iande-camisetas-07-5d4a9bc9fa/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m020",
+      "alt": "Peça 07 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 09 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/22-iande-camisetas-09-4fd0b67fe9/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/22-iande-camisetas-09-4fd0b67fe9/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/22-iande-camisetas-09-4fd0b67fe9/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/22-iande-camisetas-09-4fd0b67fe9/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m021",
+      "alt": "Peça 09 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 19 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/23-iande-camisetas-19-12d1f0c238/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/23-iande-camisetas-19-12d1f0c238/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/23-iande-camisetas-19-12d1f0c238/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/23-iande-camisetas-19-12d1f0c238/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m022",
+      "alt": "Peça 19 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 58 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/24-iande-camisetas-58-44207a3184/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/24-iande-camisetas-58-44207a3184/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/24-iande-camisetas-58-44207a3184/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/24-iande-camisetas-58-44207a3184/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m023",
+      "alt": "Peça 58 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 74 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/25-iande-camisetas-74-35f0ac3ff9/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/25-iande-camisetas-74-35f0ac3ff9/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/25-iande-camisetas-74-35f0ac3ff9/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/25-iande-camisetas-74-35f0ac3ff9/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m024",
+      "alt": "Peça 74 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 80 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/26-iande-camisetas-80-ab2e13d558/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/26-iande-camisetas-80-ab2e13d558/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/26-iande-camisetas-80-ab2e13d558/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/26-iande-camisetas-80-ab2e13d558/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m025",
+      "alt": "Peça 80 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 18 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/27-iande-camisetas-18-a5dca4fa78/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/27-iande-camisetas-18-a5dca4fa78/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/27-iande-camisetas-18-a5dca4fa78/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/27-iande-camisetas-18-a5dca4fa78/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m026",
+      "alt": "Peça 18 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 39 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/28-iande-camisetas-39-f394eb2575/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/28-iande-camisetas-39-f394eb2575/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/28-iande-camisetas-39-f394eb2575/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/28-iande-camisetas-39-f394eb2575/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m027",
+      "alt": "Peça 39 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 52 do acervo iande-camisetas",
-      "width": 1000,
-      "height": 1000,
-      "fullWidth": 1000,
-      "fullHeight": 1000,
       "src": "portfolio/assets/design/iande-camisetas/29-iande-camisetas-52-c00d44dba1/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/29-iande-camisetas-52-c00d44dba1/original.webp",
+      "width": 1000,
+      "height": 1000,
       "srcset": "portfolio/assets/design/iande-camisetas/29-iande-camisetas-52-c00d44dba1/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/29-iande-camisetas-52-c00d44dba1/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m028",
+      "alt": "Peça 52 do acervo iande-camisetas"
     },
     {
       "type": "image",
-      "alt": "Peça 78 do acervo iande-camisetas",
+      "src": "portfolio/assets/design/iande-camisetas/30-iande-camisetas-78-dbcd484f62/original.webp",
       "width": 1000,
       "height": 1000,
+      "srcset": "portfolio/assets/design/iande-camisetas/30-iande-camisetas-78-dbcd484f62/original.webp 1000w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/30-iande-camisetas-78-dbcd484f62/original.webp",
       "fullWidth": 1000,
       "fullHeight": 1000,
-      "src": "portfolio/assets/design/iande-camisetas/30-iande-camisetas-78-dbcd484f62/original.webp",
-      "fullSrc": "portfolio/assets/design/iande-camisetas/30-iande-camisetas-78-dbcd484f62/original.webp",
-      "srcset": "portfolio/assets/design/iande-camisetas/30-iande-camisetas-78-dbcd484f62/original.webp 1000w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "m029",
+      "alt": "Peça 78 do acervo iande-camisetas"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/shared/iande/02-iande-logo-preto-transparente-5aa70d0678/original.webp",
+      "width": 1254,
+      "height": 1254,
+      "srcset": "portfolio/assets/shared/iande/02-iande-logo-preto-transparente-5aa70d0678/640w.webp 640w, portfolio/assets/shared/iande/02-iande-logo-preto-transparente-5aa70d0678/original.webp 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/shared/iande/02-iande-logo-preto-transparente-5aa70d0678/original.webp",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "id": "m030",
+      "alt": "Símbolo da Iandê",
+      "kind": "logo",
+      "surface": "light"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/design/iande-camisetas/02-iande-camisetas-64-9143110038/original.webp",
+      "width": 1000,
+      "height": 1000,
+      "srcset": "portfolio/assets/design/iande-camisetas/02-iande-camisetas-64-9143110038/original.webp 1000w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/iande-camisetas/02-iande-camisetas-64-9143110038/original.webp",
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "id": "m031",
+      "alt": "Peça 64 do projeto"
     }
   ],
   "links": [
@@ -408,5 +453,250 @@
       "title": "Ver projeto publicado",
       "url": "https://www.behance.net/gallery/234981785/IANDE-T-shirt-Design"
     }
-  ]
+  ],
+  "cover": {
+    "type": "image",
+    "src": "portfolio/assets/design/iande-camisetas/01-iande-camisetas-53-bd388024be/original.webp",
+    "width": 1000,
+    "height": 1000,
+    "srcset": "portfolio/assets/design/iande-camisetas/01-iande-camisetas-53-bd388024be/original.webp 1000w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+    "fullSrc": "portfolio/assets/design/iande-camisetas/01-iande-camisetas-53-bd388024be/original.webp",
+    "fullWidth": 1000,
+    "fullHeight": 1000,
+    "id": "m001",
+    "alt": "Peça 53 do projeto"
+  },
+  "story": {
+    "editorial": true,
+    "navigation": false,
+    "galleryOrder": "source",
+    "chapters": [
+      {
+        "id": "criacao-e-gestao-da-producao",
+        "label": "Criação e gestão da produção",
+        "title": "Criação e gestão da produção",
+        "blocks": [
+          {
+            "type": "media",
+            "layout": "single",
+            "items": [
+              {
+                "id": "m030",
+                "caption": "Símbolo da Iandê",
+                "kind": "logo",
+                "surface": "light"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Como sócio e diretor criativo da Iandê Moda Responsável, criei as estampas originais da marca e gerenciei sua produção, desde o desenvolvimento das artes até a impressão nas camisetas."
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "single",
+            "items": [
+              {
+                "id": "m031",
+                "caption": "Peça 64 do projeto"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "folhas-flores-e-pequenos-bichos",
+        "label": "Folhas, flores e pequenos bichos",
+        "title": "Folhas, flores e pequenos bichos",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Motivos botânicos e ilustrações de animais aparecem em estampas localizadas e em padrões que cobrem a peça."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002",
+                "caption": "Peça 30 do acervo iande-camisetas"
+              },
+              {
+                "id": "m003",
+                "caption": "Peça 36 do acervo iande-camisetas"
+              },
+              {
+                "id": "m004",
+                "caption": "Peça 38 do acervo iande-camisetas"
+              },
+              {
+                "id": "m005",
+                "caption": "Peça 45 do acervo iande-camisetas"
+              },
+              {
+                "id": "m006",
+                "caption": "Peça 48 do acervo iande-camisetas"
+              },
+              {
+                "id": "m007",
+                "caption": "Peça 49 do acervo iande-camisetas"
+              },
+              {
+                "id": "m008",
+                "caption": "Peça 54 do acervo iande-camisetas"
+              },
+              {
+                "id": "m009",
+                "caption": "Peça 57 do acervo iande-camisetas"
+              }
+            ],
+            "layout": "gallery"
+          }
+        ]
+      },
+      {
+        "id": "cor-em-toda-a-superficie",
+        "label": "Cor em toda a superfície",
+        "title": "Cor em toda a superfície",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Marmorizados, linhas e formas abstratas exploram ritmo e continuidade na estampa."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m010",
+                "caption": "Peça 15 do acervo iande-camisetas"
+              },
+              {
+                "id": "m011",
+                "caption": "Peça 17 do acervo iande-camisetas"
+              },
+              {
+                "id": "m012",
+                "caption": "Peça 31 do acervo iande-camisetas"
+              },
+              {
+                "id": "m013",
+                "caption": "Peça 33 do acervo iande-camisetas"
+              },
+              {
+                "id": "m014",
+                "caption": "Peça 62 do acervo iande-camisetas"
+              },
+              {
+                "id": "m015",
+                "caption": "Peça 65 do acervo iande-camisetas"
+              },
+              {
+                "id": "m016",
+                "caption": "Peça 79 do acervo iande-camisetas"
+              },
+              {
+                "id": "m017",
+                "caption": "Peça 81 do acervo iande-camisetas"
+              }
+            ],
+            "layout": "gallery"
+          }
+        ]
+      },
+      {
+        "id": "o-desenho-muda-de-escala",
+        "label": "O desenho muda de escala",
+        "title": "O desenho muda de escala",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Aplicações concentradas no peito ou distribuídas pela camiseta permitem comparar proporções e áreas de respiro."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m018",
+                "caption": "Peça 02 do acervo iande-camisetas"
+              },
+              {
+                "id": "m019",
+                "caption": "Peça 04 do acervo iande-camisetas"
+              },
+              {
+                "id": "m020",
+                "caption": "Peça 07 do acervo iande-camisetas"
+              },
+              {
+                "id": "m021",
+                "caption": "Peça 09 do acervo iande-camisetas"
+              },
+              {
+                "id": "m022",
+                "caption": "Peça 19 do acervo iande-camisetas"
+              },
+              {
+                "id": "m023",
+                "caption": "Peça 58 do acervo iande-camisetas"
+              },
+              {
+                "id": "m024",
+                "caption": "Peça 74 do acervo iande-camisetas"
+              },
+              {
+                "id": "m025",
+                "caption": "Peça 80 do acervo iande-camisetas"
+              }
+            ],
+            "layout": "gallery"
+          }
+        ]
+      },
+      {
+        "id": "aproximacoes-da-arte",
+        "label": "Aproximações da arte",
+        "title": "Aproximações da arte",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Quatro detalhes complementam a seleção de camisetas e tornam mais visíveis as texturas e repetições."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m026",
+                "caption": "Peça 18 do acervo iande-camisetas"
+              },
+              {
+                "id": "m027",
+                "caption": "Peça 39 do acervo iande-camisetas"
+              },
+              {
+                "id": "m028",
+                "caption": "Peça 52 do acervo iande-camisetas"
+              },
+              {
+                "id": "m029",
+                "caption": "Peça 78 do acervo iande-camisetas"
+              }
+            ],
+            "layout": "gallery"
+          }
+        ]
+      }
+    ],
+    "deviceFrame": "portfolio/assets/editorial/shared/01-galaxy-s26-ultra-black-front-3545ed1389/original.webp",
+    "filmsInline": true
+  }
 }

@@ -1,6 +1,4 @@
 {
-  "release": "design-completo-20261103b",
-  "base_commit": "0bb5e4d79c6bd9a3945d81cf8b7a6d777bfe46c6",
   "areas": [
     "design",
     "arquitetura",
@@ -29,14 +27,11 @@
       "tfg"
     ]
   },
-  "added_project_ids": [
-    "easyaga-branding",
-    "rakestra-identidade",
-    "hering-carnaval",
-    "hering-fabula"
-  ],
-  "native_images_added": 30,
-  "image_files_added": 132,
-  "image_bytes_added": 108928686,
-  "films_on_existing_host": 3
+  "films_on_existing_host": 3,
+  "release": "editorial-20261103",
+  "base_commit": "7669aa14526dccbe03f9f056874de88b89898657",
+  "adapted_visual_cases": 10,
+  "preserved_data_cases": 5,
+  "individual_source_files": 148,
+  "original_files_preserved": true
 }

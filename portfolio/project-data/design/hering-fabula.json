@@ -19,79 +19,175 @@
     }
   ],
   "area": "design",
-  "presentation": "boards",
   "media": [
     {
       "type": "image",
-      "alt": "Hering Kids + Fábula · Fala, Bicho!",
-      "width": 1280,
-      "height": 870,
+      "src": "portfolio/assets/editorial/hering-fabula/49-papagaio-detalhe-26385deef2/original.jpg",
+      "width": 1800,
+      "height": 2700,
+      "srcset": "portfolio/assets/editorial/hering-fabula/49-papagaio-detalhe-26385deef2/640w.webp 640w, portfolio/assets/editorial/hering-fabula/49-papagaio-detalhe-26385deef2/original.jpg 1800w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullWidth": 2800,
-      "fullHeight": 1904,
-      "src": "portfolio/assets/design/hering-fabula/01-01-db75db5cce/1280w.webp",
-      "fullSrc": "portfolio/assets/design/hering-fabula/01-01-db75db5cce/original.webp",
-      "srcset": "portfolio/assets/design/hering-fabula/01-01-db75db5cce/640w.webp 640w, portfolio/assets/design/hering-fabula/01-01-db75db5cce/1280w.webp 1280w, portfolio/assets/design/hering-fabula/01-01-db75db5cce/1920w.webp 1920w, portfolio/assets/design/hering-fabula/01-01-db75db5cce/original.webp 2800w"
+      "fullSrc": "portfolio/assets/editorial/hering-fabula/49-papagaio-detalhe-26385deef2/original.jpg",
+      "fullWidth": 1800,
+      "fullHeight": 2700,
+      "id": "m001",
+      "alt": "Detalhe do capacete de papagaio usado na campanha"
     },
     {
       "type": "image",
-      "alt": "Hering Kids + Fábula · Orelhas e cauda de macaco",
-      "width": 1280,
-      "height": 790,
+      "src": "portfolio/assets/editorial/hering-fabula/50-macaco-estudo-bab2a56f7e/original.jpg",
+      "width": 1575,
+      "height": 2800,
+      "srcset": "portfolio/assets/editorial/hering-fabula/50-macaco-estudo-bab2a56f7e/640w.webp 640w, portfolio/assets/editorial/hering-fabula/50-macaco-estudo-bab2a56f7e/original.jpg 1575w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullWidth": 2800,
-      "fullHeight": 1728,
-      "src": "portfolio/assets/design/hering-fabula/02-02-2c29c8c231/1280w.webp",
-      "fullSrc": "portfolio/assets/design/hering-fabula/02-02-2c29c8c231/original.webp",
-      "srcset": "portfolio/assets/design/hering-fabula/02-02-2c29c8c231/640w.webp 640w, portfolio/assets/design/hering-fabula/02-02-2c29c8c231/1280w.webp 1280w, portfolio/assets/design/hering-fabula/02-02-2c29c8c231/1920w.webp 1920w, portfolio/assets/design/hering-fabula/02-02-2c29c8c231/original.webp 2800w"
+      "fullSrc": "portfolio/assets/editorial/hering-fabula/50-macaco-estudo-bab2a56f7e/original.jpg",
+      "fullWidth": 1575,
+      "fullHeight": 2800,
+      "id": "m002",
+      "alt": "Croqui das orelhas"
     },
     {
       "type": "image",
-      "alt": "Hering Kids + Fábula · Patas de jacaré",
-      "width": 1280,
-      "height": 790,
+      "src": "portfolio/assets/design/hering-fabula-feed/02-macaco-foto-62f371f7aa/original.jpg",
+      "width": 1800,
+      "height": 2700,
+      "srcset": "portfolio/assets/design/hering-fabula-feed/02-macaco-foto-62f371f7aa/640w.webp 640w, portfolio/assets/design/hering-fabula-feed/02-macaco-foto-62f371f7aa/original.jpg 1800w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullWidth": 2800,
-      "fullHeight": 1728,
-      "src": "portfolio/assets/design/hering-fabula/03-03-95f297bef8/1280w.webp",
-      "fullSrc": "portfolio/assets/design/hering-fabula/03-03-95f297bef8/original.webp",
-      "srcset": "portfolio/assets/design/hering-fabula/03-03-95f297bef8/640w.webp 640w, portfolio/assets/design/hering-fabula/03-03-95f297bef8/1280w.webp 1280w, portfolio/assets/design/hering-fabula/03-03-95f297bef8/1920w.webp 1920w, portfolio/assets/design/hering-fabula/03-03-95f297bef8/original.webp 2800w"
+      "fullSrc": "portfolio/assets/design/hering-fabula-feed/02-macaco-foto-62f371f7aa/original.jpg",
+      "fullWidth": 1800,
+      "fullHeight": 2700,
+      "id": "m003",
+      "alt": "Orelhas no editorial"
     },
     {
       "type": "image",
-      "alt": "Hering Kids + Fábula · Capacete de papagaio",
-      "width": 1280,
-      "height": 765,
+      "src": "portfolio/assets/editorial/hering-fabula/52-macaco-cauda-d41f081bad/original.jpg",
+      "width": 1800,
+      "height": 2700,
+      "srcset": "portfolio/assets/editorial/hering-fabula/52-macaco-cauda-d41f081bad/640w.webp 640w, portfolio/assets/editorial/hering-fabula/52-macaco-cauda-d41f081bad/original.jpg 1800w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullWidth": 2800,
-      "fullHeight": 1674,
-      "src": "portfolio/assets/design/hering-fabula/04-04-6de5f59048/1280w.webp",
-      "fullSrc": "portfolio/assets/design/hering-fabula/04-04-6de5f59048/original.webp",
-      "srcset": "portfolio/assets/design/hering-fabula/04-04-6de5f59048/640w.webp 640w, portfolio/assets/design/hering-fabula/04-04-6de5f59048/1280w.webp 1280w, portfolio/assets/design/hering-fabula/04-04-6de5f59048/1920w.webp 1920w, portfolio/assets/design/hering-fabula/04-04-6de5f59048/original.webp 2800w"
+      "fullSrc": "portfolio/assets/editorial/hering-fabula/52-macaco-cauda-d41f081bad/original.jpg",
+      "fullWidth": 1800,
+      "fullHeight": 2700,
+      "id": "m004",
+      "alt": "Cauda e conjunto em uso"
     },
     {
       "type": "image",
-      "alt": "Hering Kids + Fábula · Onça para vestir",
-      "width": 1280,
-      "height": 872,
+      "src": "portfolio/assets/editorial/hering-fabula/53-jacare-estudo-1214081b45/original.jpg",
+      "width": 1575,
+      "height": 2800,
+      "srcset": "portfolio/assets/editorial/hering-fabula/53-jacare-estudo-1214081b45/640w.webp 640w, portfolio/assets/editorial/hering-fabula/53-jacare-estudo-1214081b45/original.jpg 1575w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullWidth": 2800,
-      "fullHeight": 1908,
-      "src": "portfolio/assets/design/hering-fabula/05-05-96d12653d6/1280w.webp",
-      "fullSrc": "portfolio/assets/design/hering-fabula/05-05-96d12653d6/original.webp",
-      "srcset": "portfolio/assets/design/hering-fabula/05-05-96d12653d6/640w.webp 640w, portfolio/assets/design/hering-fabula/05-05-96d12653d6/1280w.webp 1280w, portfolio/assets/design/hering-fabula/05-05-96d12653d6/1920w.webp 1920w, portfolio/assets/design/hering-fabula/05-05-96d12653d6/original.webp 2800w"
+      "fullSrc": "portfolio/assets/editorial/hering-fabula/53-jacare-estudo-1214081b45/original.jpg",
+      "fullWidth": 1575,
+      "fullHeight": 2800,
+      "id": "m005",
+      "alt": "Estudo de forma e acabamento"
     },
     {
       "type": "image",
-      "alt": "Hering Kids + Fábula · Óculos de borboleta",
-      "width": 1280,
-      "height": 872,
+      "src": "portfolio/assets/editorial/hering-fabula/54-jacare-foto-3688c56db3/original.jpg",
+      "width": 1800,
+      "height": 2700,
+      "srcset": "portfolio/assets/editorial/hering-fabula/54-jacare-foto-3688c56db3/640w.webp 640w, portfolio/assets/editorial/hering-fabula/54-jacare-foto-3688c56db3/original.jpg 1800w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullWidth": 2800,
-      "fullHeight": 1908,
-      "src": "portfolio/assets/design/hering-fabula/06-06-8044a2c1ab/1280w.webp",
-      "fullSrc": "portfolio/assets/design/hering-fabula/06-06-8044a2c1ab/original.webp",
-      "srcset": "portfolio/assets/design/hering-fabula/06-06-8044a2c1ab/640w.webp 640w, portfolio/assets/design/hering-fabula/06-06-8044a2c1ab/1280w.webp 1280w, portfolio/assets/design/hering-fabula/06-06-8044a2c1ab/1920w.webp 1920w, portfolio/assets/design/hering-fabula/06-06-8044a2c1ab/original.webp 2800w"
+      "fullSrc": "portfolio/assets/editorial/hering-fabula/54-jacare-foto-3688c56db3/original.jpg",
+      "fullWidth": 1800,
+      "fullHeight": 2700,
+      "id": "m006",
+      "alt": "Patas usadas na campanha"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-fabula/55-jacare-detalhe-aa09391bd9/original.jpg",
+      "width": 1800,
+      "height": 2700,
+      "srcset": "portfolio/assets/editorial/hering-fabula/55-jacare-detalhe-aa09391bd9/640w.webp 640w, portfolio/assets/editorial/hering-fabula/55-jacare-detalhe-aa09391bd9/original.jpg 1800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-fabula/55-jacare-detalhe-aa09391bd9/original.jpg",
+      "fullWidth": 1800,
+      "fullHeight": 2700,
+      "id": "m007",
+      "alt": "Vista lateral das peças"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-fabula/56-papagaio-estudo-5441338737/original.jpg",
+      "width": 1280,
+      "height": 653,
+      "srcset": "portfolio/assets/editorial/hering-fabula/56-papagaio-estudo-5441338737/640w.webp 640w, portfolio/assets/editorial/hering-fabula/56-papagaio-estudo-5441338737/original.jpg 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-fabula/56-papagaio-estudo-5441338737/original.jpg",
+      "fullWidth": 1280,
+      "fullHeight": 653,
+      "id": "m008",
+      "alt": "Folha de estudos: capacete e proposta de máscara"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-feed/01-papagaio-foto-a981727548/original.jpg",
+      "width": 1800,
+      "height": 2700,
+      "srcset": "portfolio/assets/design/hering-fabula-feed/01-papagaio-foto-a981727548/640w.webp 640w, portfolio/assets/design/hering-fabula-feed/01-papagaio-foto-a981727548/original.jpg 1800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/hering-fabula-feed/01-papagaio-foto-a981727548/original.jpg",
+      "fullWidth": 1800,
+      "fullHeight": 2700,
+      "id": "m009",
+      "alt": "Vista frontal"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-fabula/58-onca-estudo-adf713e637/original.jpg",
+      "width": 1800,
+      "height": 1800,
+      "srcset": "portfolio/assets/editorial/hering-fabula/58-onca-estudo-adf713e637/640w.webp 640w, portfolio/assets/editorial/hering-fabula/58-onca-estudo-adf713e637/original.jpg 1800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-fabula/58-onca-estudo-adf713e637/original.jpg",
+      "fullWidth": 1800,
+      "fullHeight": 1800,
+      "id": "m010",
+      "alt": "Croqui da onça e anotações de construção"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-feed/03-onca-foto-20b4231067/original.jpg",
+      "width": 1800,
+      "height": 2700,
+      "srcset": "portfolio/assets/design/hering-fabula-feed/03-onca-foto-20b4231067/640w.webp 640w, portfolio/assets/design/hering-fabula-feed/03-onca-foto-20b4231067/original.jpg 1800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/hering-fabula-feed/03-onca-foto-20b4231067/original.jpg",
+      "fullWidth": 1800,
+      "fullHeight": 2700,
+      "id": "m011",
+      "alt": "Peça no editorial"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-fabula/60-borboleta-estudo-ba8ec48c98/original.jpg",
+      "width": 1280,
+      "height": 929,
+      "srcset": "portfolio/assets/editorial/hering-fabula/60-borboleta-estudo-ba8ec48c98/640w.webp 640w, portfolio/assets/editorial/hering-fabula/60-borboleta-estudo-ba8ec48c98/original.jpg 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-fabula/60-borboleta-estudo-ba8ec48c98/original.jpg",
+      "fullWidth": 1280,
+      "fullHeight": 929,
+      "id": "m012",
+      "alt": "Estudos de adereços"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/editorial/hering-fabula/61-borboleta-foto-4a785a25be/original.jpg",
+      "width": 1800,
+      "height": 2700,
+      "srcset": "portfolio/assets/editorial/hering-fabula/61-borboleta-foto-4a785a25be/640w.webp 640w, portfolio/assets/editorial/hering-fabula/61-borboleta-foto-4a785a25be/original.jpg 1800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/editorial/hering-fabula/61-borboleta-foto-4a785a25be/original.jpg",
+      "fullWidth": 1800,
+      "fullHeight": 2700,
+      "id": "m013",
+      "alt": "Óculos usados na campanha"
     }
   ],
   "sections": [
@@ -152,5 +248,204 @@
       "url": "https://www.behance.net/gallery/257744859/Hering-Kids-Fabula-Aderecos-e-props",
       "poster": "portfolio/assets/design/hering-fabula-feed/01-papagaio-foto-a981727548/original.jpg"
     }
-  ]
+  ],
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "chapters": [
+      {
+        "id": "fala-bicho",
+        "label": "Fala, Bicho!",
+        "title": "Fala, Bicho!",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Em 2022, Hering Kids e Fábula lançaram uma colaboração inspirada nos animais. Esta seleção reúne estudos dos adereços e fotografias das peças em uso."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "orelhas-e-cauda-de-macaco",
+        "label": "Orelhas e cauda de macaco",
+        "title": "Orelhas e cauda de macaco",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O estudo das orelhas aparece ao lado da peça usada na campanha. A fotografia de corpo inteiro mostra também a cauda."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002",
+                "caption": "Croqui das orelhas"
+              },
+              {
+                "id": "m003",
+                "caption": "Orelhas no editorial"
+              },
+              {
+                "id": "m004",
+                "caption": "Cauda e conjunto em uso"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "patas-de-jacare",
+        "label": "Patas de jacaré",
+        "title": "Patas de jacaré",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O desenho registra uma proposta inicial; nas fotos, a peça tem uma solução volumétrica diferente."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m005",
+                "caption": "Estudo de forma e acabamento"
+              },
+              {
+                "id": "m006",
+                "caption": "Patas usadas na campanha"
+              },
+              {
+                "id": "m007",
+                "caption": "Vista lateral das peças"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "capacete-de-papagaio",
+        "label": "Capacete de papagaio",
+        "title": "Capacete de papagaio",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Os detalhes das fotografias permitem observar as camadas, o bico e a aplicação de cor."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m008",
+                "caption": "Folha de estudos: capacete e proposta de máscara"
+              },
+              {
+                "id": "m009",
+                "caption": "Vista frontal"
+              },
+              {
+                "id": "m001",
+                "caption": "Vista lateral e acabamento"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "onca-para-vestir",
+        "label": "Onça para vestir",
+        "title": "Onça para vestir",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O croqui mostra a estrutura suspensa por cordas e suas referências de montagem. A foto apresenta a peça no corpo."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m010",
+                "caption": "Croqui da onça e anotações de construção"
+              },
+              {
+                "id": "m011",
+                "caption": "Peça no editorial"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "oculos-de-borboleta",
+        "label": "Óculos de borboleta",
+        "title": "Óculos de borboleta",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Na folha de estudos, os óculos dividem espaço com propostas para a cauda e as orelhas de macaco."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m012",
+                "caption": "Estudos de adereços"
+              },
+              {
+                "id": "m013",
+                "caption": "Óculos usados na campanha"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "filme-da-campanha",
+        "label": "Filme da campanha",
+        "title": "Filme da campanha",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Os adereços acompanham as crianças em movimento no filme da campanha."
+            ]
+          },
+          {
+            "type": "films"
+          }
+        ]
+      }
+    ],
+    "deviceFrame": "portfolio/assets/editorial/shared/01-galaxy-s26-ultra-black-front-3545ed1389/original.webp",
+    "filmsInline": true,
+    "coverPosition": "50% 23%"
+  },
+  "cover": {
+    "type": "image",
+    "src": "portfolio/assets/editorial/hering-fabula/49-papagaio-detalhe-26385deef2/original.jpg",
+    "width": 1800,
+    "height": 2700,
+    "srcset": "portfolio/assets/editorial/hering-fabula/49-papagaio-detalhe-26385deef2/640w.webp 640w, portfolio/assets/editorial/hering-fabula/49-papagaio-detalhe-26385deef2/original.jpg 1800w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+    "fullSrc": "portfolio/assets/editorial/hering-fabula/49-papagaio-detalhe-26385deef2/original.jpg",
+    "fullWidth": 1800,
+    "fullHeight": 2700,
+    "id": "m001",
+    "alt": "Detalhe do capacete de papagaio usado na campanha"
+  }
 }

@@ -2,12 +2,12 @@
   "area": "arquitetura",
   "id": "tfg",
   "title": "Território e moradia",
-  "subtitle": "TFG em Arquitetura e Urbanismo",
+  "subtitle": "Estudo urbano e plano de ocupação",
   "tags": [
     "Arquitetura e Urbanismo",
     "TFG"
   ],
-  "intro": "O trabalho reúne análise da realidade local, identificação do perfil do assentamento e definição de diretrizes para o uso e a ocupação do solo.",
+  "intro": "Metodologia para regularização de assentamentos precários, aplicada ao estudo da Vila 29 de Outubro, no Caximba, em Curitiba.",
   "sections": [
     {
       "title": "Uma leitura do território para orientar a proposta",
@@ -28,92 +28,112 @@
       ]
     }
   ],
-  "credits": [],
-  "credit": "TFG em Arquitetura e Urbanismo · Bruno Nascimento.",
+  "credits": [
+    {
+      "role": "Autor",
+      "names": "Bruno Nascimento"
+    },
+    {
+      "role": "Orientação",
+      "names": "Mariana G. Bonadio"
+    },
+    {
+      "role": "Curso e instituição",
+      "names": "Arquitetura e Urbanismo · Universidade Federal do Paraná · 2016"
+    }
+  ],
+  "credit": "",
   "media": [
     {
       "type": "image",
-      "alt": "Peça 07 do projeto",
-      "width": 3840,
-      "height": 5437,
-      "fullWidth": 3840,
-      "fullHeight": 5437,
-      "src": "portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/original.jpg",
-      "fullSrc": "portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/original.jpg",
-      "srcset": "portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/640w.webp 640w, portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/original.jpg 3840w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
-    },
-    {
-      "type": "image",
-      "alt": "Peça 01 do projeto",
+      "src": "portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/2560w.webp",
       "width": 2560,
       "height": 3625,
+      "srcset": "portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/640w.webp 640w, portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/2560w.webp 2560w, portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/original.jpg 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/original.jpg",
       "fullWidth": 3840,
       "fullHeight": 5437,
-      "src": "portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/2560w.webp",
-      "fullSrc": "portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/original.jpg",
-      "srcset": "portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/640w.webp 640w, portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/2560w.webp 2560w, portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/original.jpg 3840w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "sheet-1",
+      "alt": "Metodologia"
     },
     {
       "type": "image",
-      "alt": "Peça 02 do projeto",
+      "src": "portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/original.jpg",
       "width": 3840,
       "height": 5437,
+      "srcset": "portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/640w.webp 640w, portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/original.jpg 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/original.jpg",
       "fullWidth": 3840,
       "fullHeight": 5437,
-      "src": "portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/original.jpg",
-      "fullSrc": "portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/original.jpg",
-      "srcset": "portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/640w.webp 640w, portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/original.jpg 3840w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "sheet-2",
+      "alt": "Análise da realidade local"
     },
     {
       "type": "image",
-      "alt": "Peça 03 do projeto",
+      "src": "portfolio/assets/arquitetura/tfg/04-tfg-03-a283afb561/original.webp",
       "width": 1920,
       "height": 2719,
+      "srcset": "portfolio/assets/arquitetura/tfg/04-tfg-03-a283afb561/640w.webp 640w, portfolio/assets/arquitetura/tfg/04-tfg-03-a283afb561/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/04-tfg-03-a283afb561/original.webp",
       "fullWidth": 1920,
       "fullHeight": 2719,
-      "src": "portfolio/assets/arquitetura/tfg/04-tfg-03-a283afb561/original.webp",
-      "fullSrc": "portfolio/assets/arquitetura/tfg/04-tfg-03-a283afb561/original.webp",
-      "srcset": "portfolio/assets/arquitetura/tfg/04-tfg-03-a283afb561/640w.webp 640w, portfolio/assets/arquitetura/tfg/04-tfg-03-a283afb561/original.webp 1920w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "sheet-3",
+      "alt": "Perfil do assentamento e síntese"
     },
     {
       "type": "image",
-      "alt": "Peça 04 do projeto",
-      "width": 3840,
-      "height": 5437,
-      "fullWidth": 3840,
-      "fullHeight": 5437,
       "src": "portfolio/assets/arquitetura/tfg/05-tfg-04-cbc6ee85c3/original.jpg",
-      "fullSrc": "portfolio/assets/arquitetura/tfg/05-tfg-04-cbc6ee85c3/original.jpg",
+      "width": 3840,
+      "height": 5437,
       "srcset": "portfolio/assets/arquitetura/tfg/05-tfg-04-cbc6ee85c3/640w.webp 640w, portfolio/assets/arquitetura/tfg/05-tfg-04-cbc6ee85c3/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/05-tfg-04-cbc6ee85c3/original.jpg 3840w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/05-tfg-04-cbc6ee85c3/original.jpg",
+      "fullWidth": 3840,
+      "fullHeight": 5437,
+      "id": "sheet-4",
+      "alt": "Análise territorial"
     },
     {
       "type": "image",
-      "alt": "Peça 05 do projeto",
-      "width": 3840,
-      "height": 5437,
-      "fullWidth": 3840,
-      "fullHeight": 5437,
       "src": "portfolio/assets/arquitetura/tfg/06-tfg-05-771046d00e/original.jpg",
-      "fullSrc": "portfolio/assets/arquitetura/tfg/06-tfg-05-771046d00e/original.jpg",
+      "width": 3840,
+      "height": 5437,
       "srcset": "portfolio/assets/arquitetura/tfg/06-tfg-05-771046d00e/640w.webp 640w, portfolio/assets/arquitetura/tfg/06-tfg-05-771046d00e/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/06-tfg-05-771046d00e/original.jpg 3840w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/06-tfg-05-771046d00e/original.jpg",
+      "fullWidth": 3840,
+      "fullHeight": 5437,
+      "id": "sheet-5",
+      "alt": "Relações com o entorno"
     },
     {
       "type": "image",
-      "alt": "Peça 06 do projeto",
+      "src": "portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/original.jpg",
       "width": 3840,
       "height": 5437,
+      "srcset": "portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/640w.webp 640w, portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/original.jpg 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/original.jpg",
       "fullWidth": 3840,
       "fullHeight": 5437,
-      "src": "portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/original.jpg",
-      "fullSrc": "portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/original.jpg",
-      "srcset": "portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/640w.webp 640w, portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/original.jpg 3840w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "sheet-6",
+      "alt": "Estudo de viabilidade"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/original.jpg",
+      "width": 3840,
+      "height": 5437,
+      "srcset": "portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/640w.webp 640w, portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/original.jpg 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/original.jpg",
+      "fullWidth": 3840,
+      "fullHeight": 5437,
+      "id": "sheet-7",
+      "alt": "Plano de ocupação"
     }
   ],
   "links": [
@@ -121,5 +141,548 @@
       "title": "Ver projeto publicado",
       "url": "https://www.behance.net/gallery/234978399/TFG-Trabalho-Final-de-Graduacao"
     }
-  ]
+  ],
+  "cover": {
+    "type": "image",
+    "src": "portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/original.jpg",
+    "width": 3840,
+    "height": 5437,
+    "srcset": "portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/640w.webp 640w, portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/original.jpg 3840w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+    "fullSrc": "portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/original.jpg",
+    "fullWidth": 3840,
+    "fullHeight": 5437,
+    "id": "sheet-7",
+    "alt": "Plano de ocupação"
+  },
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "notice": "Trabalho Final de Graduação · UFPR · 2016",
+    "heroCrop": [
+      0.395,
+      0.122,
+      0.59,
+      0.282
+    ],
+    "chapters": [
+      {
+        "id": "metodo",
+        "label": "Método",
+        "title": "Da leitura do assentamento ao plano de ocupação",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O estudo aplica uma metodologia de regularização de assentamentos precários à Vila 29 de Outubro, no bairro Caximba, em Curitiba. A proposta acadêmica considera as condições de moradia, os riscos ambientais e a relação entre habitação, serviços e trabalho."
+            ]
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Construção do cenário",
+                "text": "Análise da realidade local e identificação do perfil do assentamento."
+              },
+              {
+                "title": "Caracterização do escopo",
+                "text": "Síntese da problemática, identificação de áreas e estudo de viabilidade."
+              },
+              {
+                "title": "Projeto e acompanhamento",
+                "text": "Plano de ocupação, intervenção, instrumentos urbanísticos e indicadores de acompanhamento."
+              }
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              "Análise da realidade local",
+              "Identificação do perfil do assentamento",
+              "Síntese da problemática",
+              "Identificação de áreas para reassentamento",
+              "Estudo de viabilidade das áreas de estudo",
+              "Definição do plano de ocupação",
+              "Desenvolvimento do projeto de intervenção",
+              "Detalhamento dos instrumentos urbanísticos",
+              "Definição de indicadores de acompanhamento"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O processo participativo atravessa as etapas, com diagnóstico, entrevistas, mapeamento, oficinas, audiências e acompanhamento."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "territorio",
+        "label": "Realidade local",
+        "title": "O assentamento e suas condições físicas",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A análise reúne o histórico de ocupação da Vila 29 de Outubro, a evolução do adensamento e o levantamento de riscos, processos minerários, equipamentos e serviços públicos."
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "single",
+            "items": [
+              {
+                "id": "sheet-2",
+                "caption": "Localização da Vila 29 de Outubro",
+                "crop": [
+                  0.012,
+                  0.13,
+                  0.665,
+                  0.15
+                ]
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "two",
+            "items": [
+              {
+                "id": "sheet-2",
+                "caption": "Evolução da mancha de adensamento",
+                "crop": [
+                  0.72,
+                  0.052,
+                  0.215,
+                  0.365
+                ]
+              },
+              {
+                "id": "sheet-2",
+                "caption": "Equipamentos e serviços públicos",
+                "crop": [
+                  0.72,
+                  0.448,
+                  0.265,
+                  0.268
+                ]
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "single",
+            "items": [
+              {
+                "id": "sheet-2",
+                "caption": "Mapeamento de riscos e processos minerários",
+                "crop": [
+                  0.012,
+                  0.66,
+                  0.665,
+                  0.273
+                ]
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "single",
+            "items": [
+              {
+                "id": "sheet-2",
+                "caption": "Recorrência de inundação",
+                "crop": [
+                  0.72,
+                  0.74,
+                  0.265,
+                  0.195
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "perfil",
+        "label": "Perfil e síntese",
+        "title": "Condições de moradia e deslocamentos",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O levantamento apresentado no TFG utiliza o diagnóstico da ONG TETO, de 2015, e relaciona características socioeconômicas, condições das habitações e deslocamentos casa-trabalho."
+            ]
+          },
+          {
+            "type": "metrics",
+            "items": [
+              {
+                "label": "Moradia de madeira",
+                "value": "80%",
+                "note": "Recorte do diagnóstico apresentado no TFG"
+              },
+              {
+                "label": "Renda mensal abaixo de R$ 880",
+                "value": "45%",
+                "note": "Valor de referência usado no estudo"
+              },
+              {
+                "label": "Transporte público até o trabalho",
+                "value": "48%",
+                "note": "Meio de transporte informado"
+              },
+              {
+                "label": "Viagens de menos de uma hora",
+                "value": "42%",
+                "note": "Deslocamento casa-trabalho"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "single",
+            "items": [
+              {
+                "id": "sheet-3",
+                "caption": "Deslocamentos e tempos de viagem",
+                "crop": [
+                  0.27,
+                  0.375,
+                  0.56,
+                  0.34
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A síntese considera o risco de enchentes, a falta de infraestrutura, as condições das moradias, o acesso a serviços e a distância do trabalho. O exercício desenvolve uma alternativa de reassentamento em área urbanizada."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "areas",
+        "label": "Áreas de interesse",
+        "title": "Serviços, transporte e vazios urbanos",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A seleção de áreas cruza equipamentos de educação, lazer, esporte e saúde com vazios urbanos. O estudo usa a recorrência dessas variáveis para reconhecer áreas de interesse."
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "two",
+            "items": [
+              {
+                "id": "sheet-4",
+                "caption": "Equipamentos municipais de educação",
+                "crop": [
+                  0.012,
+                  0.125,
+                  0.475,
+                  0.26
+                ]
+              },
+              {
+                "id": "sheet-4",
+                "caption": "Centros de educação infantil",
+                "crop": [
+                  0.51,
+                  0.125,
+                  0.475,
+                  0.26
+                ]
+              },
+              {
+                "id": "sheet-4",
+                "caption": "Lazer e esporte",
+                "crop": [
+                  0.012,
+                  0.397,
+                  0.475,
+                  0.265
+                ]
+              },
+              {
+                "id": "sheet-4",
+                "caption": "Equipamentos de saúde",
+                "crop": [
+                  0.51,
+                  0.397,
+                  0.475,
+                  0.265
+                ]
+              },
+              {
+                "id": "sheet-4",
+                "caption": "Vazios urbanos e lotes públicos",
+                "crop": [
+                  0.012,
+                  0.681,
+                  0.475,
+                  0.25
+                ]
+              },
+              {
+                "id": "sheet-4",
+                "caption": "Cruzamento das manchas de recorrência",
+                "crop": [
+                  0.51,
+                  0.681,
+                  0.475,
+                  0.25
+                ]
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "single",
+            "items": [
+              {
+                "id": "sheet-5",
+                "caption": "Macroáreas, locais de trabalho e transporte coletivo",
+                "crop": [
+                  0.2,
+                  0.082,
+                  0.785,
+                  0.26
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A validação relaciona as macroáreas aos locais de trabalho e à rede de transporte. O reconhecimento dos lotes considera dimensão, zoneamento e propriedade, conforme o recorte documentado no TFG."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "viabilidade",
+        "label": "Viabilidade",
+        "title": "Comparação entre alternativas de ocupação",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O estudo compara áreas, possibilidades de ocupação e pontos positivos e negativos. Na proposta acadêmica, a Área 01, em Campo Comprido, foi selecionada para desenvolver o plano."
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Comparação apresentada no TFG, com referências territoriais do período do estudo.",
+            "columns": [
+              "Área",
+              "Bairro",
+              "Distância do centro",
+              "Equipamentos em 1,5 km",
+              "Leitura da alternativa"
+            ],
+            "rows": [
+              [
+                "01",
+                "Campo Comprido",
+                "7 km",
+                "28",
+                "Área selecionada"
+              ],
+              [
+                "03",
+                "Cidade Industrial",
+                "9 km",
+                "18",
+                "Alternativa com apartamentos"
+              ],
+              [
+                "04",
+                "Pinheirinho",
+                "10 km",
+                "29",
+                "Capacidade inferior à demanda estudada"
+              ],
+              [
+                "05",
+                "Xaxim e Boqueirão",
+                "8,7 km",
+                "8",
+                "Menor oferta de equipamentos"
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "two",
+            "items": [
+              {
+                "id": "sheet-6",
+                "caption": "Área 01: localização e infraestrutura",
+                "crop": [
+                  0.012,
+                  0.108,
+                  0.466,
+                  0.205
+                ]
+              },
+              {
+                "id": "sheet-6",
+                "caption": "Área 03: localização e infraestrutura",
+                "crop": [
+                  0.012,
+                  0.322,
+                  0.466,
+                  0.204
+                ]
+              },
+              {
+                "id": "sheet-6",
+                "caption": "Área 04: localização e infraestrutura",
+                "crop": [
+                  0.012,
+                  0.537,
+                  0.466,
+                  0.204
+                ]
+              },
+              {
+                "id": "sheet-6",
+                "caption": "Área 05: localização e infraestrutura",
+                "crop": [
+                  0.012,
+                  0.746,
+                  0.466,
+                  0.195
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "plano",
+        "label": "Plano de ocupação",
+        "title": "Diretrizes para a área escolhida",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O plano articula condicionantes locais, diretrizes viárias, macrozoneamento e instrumentos urbanísticos. A distribuição combina habitação, comércio, serviços, equipamentos e espaços públicos."
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "two",
+            "items": [
+              {
+                "id": "sheet-7",
+                "caption": "Condições locais e principais diretrizes viárias",
+                "crop": [
+                  0.012,
+                  0.12,
+                  0.35,
+                  0.255
+                ]
+              },
+              {
+                "id": "sheet-7",
+                "caption": "Macrozoneamento e usos propostos",
+                "crop": [
+                  0.395,
+                  0.122,
+                  0.59,
+                  0.282
+                ]
+              }
+            ]
+          },
+          {
+            "type": "metrics",
+            "items": [
+              {
+                "label": "Capacidade proposta",
+                "value": "3.682",
+                "note": "Unidades habitacionais previstas no exercício acadêmico"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "single",
+            "items": [
+              {
+                "id": "sheet-7",
+                "caption": "Inserção na estrutura viária existente",
+                "crop": [
+                  0.658,
+                  0.426,
+                  0.326,
+                  0.17
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O trabalho aborda o desenvolvimento da intervenção, o detalhamento dos instrumentos e a definição de indicadores. O acompanhamento e a participação da comunidade fazem parte da metodologia proposta."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "documentos",
+        "label": "Pranchas completas",
+        "title": "Documentação do estudo",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Consulte as sete pranchas completas para ler os mapas, as legendas, as fontes e o desenvolvimento do trabalho."
+            ]
+          },
+          {
+            "type": "documents",
+            "items": [
+              {
+                "id": "sheet-1",
+                "label": "Metodologia"
+              },
+              {
+                "id": "sheet-2",
+                "label": "Análise da realidade local"
+              },
+              {
+                "id": "sheet-3",
+                "label": "Perfil do assentamento e síntese"
+              },
+              {
+                "id": "sheet-4",
+                "label": "Análise territorial"
+              },
+              {
+                "id": "sheet-5",
+                "label": "Relações com o entorno"
+              },
+              {
+                "id": "sheet-6",
+                "label": "Estudo de viabilidade"
+              },
+              {
+                "id": "sheet-7",
+                "label": "Plano de ocupação"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -37,195 +37,211 @@
   "media": [
     {
       "type": "image",
-      "alt": "Camiseta MELTED com estampa vertical nas costas",
+      "src": "portfolio/assets/design/melted/01-melted-12-9910de2508/original.webp",
       "width": 1062,
       "height": 1062,
+      "srcset": "portfolio/assets/design/melted/01-melted-12-9910de2508/original.webp 1062w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/melted/01-melted-12-9910de2508/original.webp",
       "fullWidth": 1062,
       "fullHeight": 1062,
-      "src": "portfolio/assets/design/melted/01-melted-12-9910de2508/original.webp",
-      "fullSrc": "portfolio/assets/design/melted/01-melted-12-9910de2508/original.webp",
-      "srcset": "portfolio/assets/design/melted/01-melted-12-9910de2508/original.webp 1062w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "m001",
+      "alt": "Camiseta MELTED com estampa vertical nas costas"
     },
     {
       "type": "image",
-      "alt": "Releitura de O lago de nenúfares, harmonia rosa, de Claude Monet, para a MELTED",
-      "width": 1296,
-      "height": 2304,
-      "fullWidth": 1296,
-      "fullHeight": 2304,
       "src": "portfolio/assets/design/melted/02-melted-02-3617f0cc1a/original.webp",
-      "fullSrc": "portfolio/assets/design/melted/02-melted-02-3617f0cc1a/original.webp",
+      "width": 1296,
+      "height": 2304,
       "srcset": "portfolio/assets/design/melted/02-melted-02-3617f0cc1a/original.webp 1296w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/melted/02-melted-02-3617f0cc1a/original.webp",
+      "fullWidth": 1296,
+      "fullHeight": 2304,
+      "id": "m002",
+      "alt": "Releitura de O lago de nenúfares, harmonia rosa, de Claude Monet, para a MELTED"
     },
     {
       "type": "image",
-      "alt": "Releitura de A grande onda de Kanagawa, de Katsushika Hokusai, para a MELTED",
-      "width": 1296,
-      "height": 2304,
-      "fullWidth": 1296,
-      "fullHeight": 2304,
       "src": "portfolio/assets/design/melted/03-melted-03-32dc51a547/original.webp",
-      "fullSrc": "portfolio/assets/design/melted/03-melted-03-32dc51a547/original.webp",
+      "width": 1296,
+      "height": 2304,
       "srcset": "portfolio/assets/design/melted/03-melted-03-32dc51a547/original.webp 1296w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/melted/03-melted-03-32dc51a547/original.webp",
+      "fullWidth": 1296,
+      "fullHeight": 2304,
+      "id": "m003",
+      "alt": "Releitura de A grande onda de Kanagawa, de Katsushika Hokusai, para a MELTED"
     },
     {
       "type": "image",
-      "alt": "Releitura de O beijo, de Gustav Klimt, para a MELTED",
-      "width": 1296,
-      "height": 2304,
-      "fullWidth": 1296,
-      "fullHeight": 2304,
       "src": "portfolio/assets/design/melted/04-melted-04-149ba0e4ce/original.webp",
-      "fullSrc": "portfolio/assets/design/melted/04-melted-04-149ba0e4ce/original.webp",
+      "width": 1296,
+      "height": 2304,
       "srcset": "portfolio/assets/design/melted/04-melted-04-149ba0e4ce/original.webp 1296w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/melted/04-melted-04-149ba0e4ce/original.webp",
+      "fullWidth": 1296,
+      "fullHeight": 2304,
+      "id": "m004",
+      "alt": "Releitura de O beijo, de Gustav Klimt, para a MELTED"
     },
     {
       "type": "image",
-      "alt": "Releitura de O grito, de Edvard Munch, para a MELTED",
-      "width": 1296,
-      "height": 2304,
-      "fullWidth": 1296,
-      "fullHeight": 2304,
       "src": "portfolio/assets/design/melted/05-melted-05-b37e0aafda/original.webp",
-      "fullSrc": "portfolio/assets/design/melted/05-melted-05-b37e0aafda/original.webp",
-      "srcset": "portfolio/assets/design/melted/05-melted-05-b37e0aafda/original.webp 1296w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
-    },
-    {
-      "type": "image",
-      "alt": "Releitura de O vinhedo vermelho em Arles, de Vincent van Gogh, para a MELTED",
       "width": 1296,
       "height": 2304,
+      "srcset": "portfolio/assets/design/melted/05-melted-05-b37e0aafda/original.webp 1296w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/melted/05-melted-05-b37e0aafda/original.webp",
       "fullWidth": 1296,
       "fullHeight": 2304,
-      "src": "portfolio/assets/design/melted/06-melted-06-c98a2816dc/original.webp",
-      "fullSrc": "portfolio/assets/design/melted/06-melted-06-c98a2816dc/original.webp",
-      "srcset": "portfolio/assets/design/melted/06-melted-06-c98a2816dc/original.webp 1296w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "m005",
+      "alt": "Releitura de O grito, de Edvard Munch, para a MELTED"
     },
     {
       "type": "image",
-      "alt": "Estampa das costas correspondente à releitura de Claude Monet",
+      "src": "portfolio/assets/design/melted/06-melted-06-c98a2816dc/original.webp",
+      "width": 1296,
+      "height": 2304,
+      "srcset": "portfolio/assets/design/melted/06-melted-06-c98a2816dc/original.webp 1296w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/melted/06-melted-06-c98a2816dc/original.webp",
+      "fullWidth": 1296,
+      "fullHeight": 2304,
+      "id": "m006",
+      "alt": "Releitura de O vinhedo vermelho em Arles, de Vincent van Gogh, para a MELTED"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/design/melted/07-melted-07-0ada71cad7/original.webp",
       "width": 1920,
       "height": 2509,
+      "srcset": "portfolio/assets/design/melted/07-melted-07-0ada71cad7/640w.webp 640w, portfolio/assets/design/melted/07-melted-07-0ada71cad7/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/melted/07-melted-07-0ada71cad7/original.webp",
       "fullWidth": 1920,
       "fullHeight": 2509,
-      "src": "portfolio/assets/design/melted/07-melted-07-0ada71cad7/original.webp",
-      "fullSrc": "portfolio/assets/design/melted/07-melted-07-0ada71cad7/original.webp",
-      "srcset": "portfolio/assets/design/melted/07-melted-07-0ada71cad7/640w.webp 640w, portfolio/assets/design/melted/07-melted-07-0ada71cad7/original.webp 1920w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "m007",
+      "alt": "Estampa das costas correspondente à releitura de Claude Monet"
     },
     {
       "type": "image",
-      "alt": "Estampa das costas correspondente à releitura de Katsushika Hokusai",
-      "width": 1280,
-      "height": 1672,
-      "fullWidth": 3840,
-      "fullHeight": 5017,
       "src": "portfolio/assets/design/melted/08-melted-08-b0d20e00e0/1280w.webp",
-      "fullSrc": "portfolio/assets/design/melted/08-melted-08-b0d20e00e0/original.webp",
+      "width": 1280,
+      "height": 1672,
       "srcset": "portfolio/assets/design/melted/08-melted-08-b0d20e00e0/640w.webp 640w, portfolio/assets/design/melted/08-melted-08-b0d20e00e0/1280w.webp 1280w, portfolio/assets/design/melted/08-melted-08-b0d20e00e0/original.webp 3840w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/melted/08-melted-08-b0d20e00e0/original.webp",
+      "fullWidth": 3840,
+      "fullHeight": 5017,
+      "id": "m008",
+      "alt": "Estampa das costas correspondente à releitura de Katsushika Hokusai"
     },
     {
       "type": "image",
-      "alt": "Estampa das costas correspondente à releitura de Gustav Klimt",
-      "width": 1280,
-      "height": 1672,
-      "fullWidth": 3840,
-      "fullHeight": 5017,
       "src": "portfolio/assets/design/melted/09-melted-09-d53bc6a7a1/1280w.webp",
-      "fullSrc": "portfolio/assets/design/melted/09-melted-09-d53bc6a7a1/original.webp",
+      "width": 1280,
+      "height": 1672,
       "srcset": "portfolio/assets/design/melted/09-melted-09-d53bc6a7a1/640w.webp 640w, portfolio/assets/design/melted/09-melted-09-d53bc6a7a1/1280w.webp 1280w, portfolio/assets/design/melted/09-melted-09-d53bc6a7a1/original.webp 3840w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/melted/09-melted-09-d53bc6a7a1/original.webp",
+      "fullWidth": 3840,
+      "fullHeight": 5017,
+      "id": "m009",
+      "alt": "Estampa das costas correspondente à releitura de Gustav Klimt"
     },
     {
       "type": "image",
-      "alt": "Estampa das costas correspondente à releitura de Edvard Munch",
-      "width": 1280,
-      "height": 1672,
-      "fullWidth": 3840,
-      "fullHeight": 5017,
       "src": "portfolio/assets/design/melted/10-melted-10-6573aef3b6/1280w.webp",
-      "fullSrc": "portfolio/assets/design/melted/10-melted-10-6573aef3b6/original.webp",
-      "srcset": "portfolio/assets/design/melted/10-melted-10-6573aef3b6/640w.webp 640w, portfolio/assets/design/melted/10-melted-10-6573aef3b6/1280w.webp 1280w, portfolio/assets/design/melted/10-melted-10-6573aef3b6/original.webp 3840w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
-    },
-    {
-      "type": "image",
-      "alt": "Estampa das costas correspondente à releitura de Vincent van Gogh",
       "width": 1280,
       "height": 1672,
+      "srcset": "portfolio/assets/design/melted/10-melted-10-6573aef3b6/640w.webp 640w, portfolio/assets/design/melted/10-melted-10-6573aef3b6/1280w.webp 1280w, portfolio/assets/design/melted/10-melted-10-6573aef3b6/original.webp 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/melted/10-melted-10-6573aef3b6/original.webp",
       "fullWidth": 3840,
       "fullHeight": 5017,
-      "src": "portfolio/assets/design/melted/11-melted-11-ca1d8f078a/1280w.webp",
-      "fullSrc": "portfolio/assets/design/melted/11-melted-11-ca1d8f078a/original.webp",
-      "srcset": "portfolio/assets/design/melted/11-melted-11-ca1d8f078a/640w.webp 640w, portfolio/assets/design/melted/11-melted-11-ca1d8f078a/1280w.webp 1280w, portfolio/assets/design/melted/11-melted-11-ca1d8f078a/2560w.webp 2560w, portfolio/assets/design/melted/11-melted-11-ca1d8f078a/original.webp 3840w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "m010",
+      "alt": "Estampa das costas correspondente à releitura de Edvard Munch"
     },
     {
       "type": "image",
-      "alt": "Camiseta da coleção MELTED em uso",
+      "src": "portfolio/assets/design/melted/11-melted-11-ca1d8f078a/1280w.webp",
+      "width": 1280,
+      "height": 1672,
+      "srcset": "portfolio/assets/design/melted/11-melted-11-ca1d8f078a/640w.webp 640w, portfolio/assets/design/melted/11-melted-11-ca1d8f078a/1280w.webp 1280w, portfolio/assets/design/melted/11-melted-11-ca1d8f078a/2560w.webp 2560w, portfolio/assets/design/melted/11-melted-11-ca1d8f078a/original.webp 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/melted/11-melted-11-ca1d8f078a/original.webp",
+      "fullWidth": 3840,
+      "fullHeight": 5017,
+      "id": "m011",
+      "alt": "Estampa das costas correspondente à releitura de Vincent van Gogh"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/design/melted/12-melted-14-976ec42028/original.webp",
       "width": 1029,
       "height": 1029,
+      "srcset": "portfolio/assets/design/melted/12-melted-14-976ec42028/original.webp 1029w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/melted/12-melted-14-976ec42028/original.webp",
       "fullWidth": 1029,
       "fullHeight": 1029,
-      "src": "portfolio/assets/design/melted/12-melted-14-976ec42028/original.webp",
-      "fullSrc": "portfolio/assets/design/melted/12-melted-14-976ec42028/original.webp",
-      "srcset": "portfolio/assets/design/melted/12-melted-14-976ec42028/original.webp 1029w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "m012",
+      "alt": "Camiseta da coleção MELTED em uso"
     },
     {
       "type": "image",
-      "alt": "Camiseta da coleção MELTED em uso",
+      "src": "portfolio/assets/design/melted/13-melted-15-a6af76c752/original.webp",
       "width": 993,
       "height": 993,
+      "srcset": "portfolio/assets/design/melted/13-melted-15-a6af76c752/original.webp 993w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/melted/13-melted-15-a6af76c752/original.webp",
       "fullWidth": 993,
       "fullHeight": 993,
-      "src": "portfolio/assets/design/melted/13-melted-15-a6af76c752/original.webp",
-      "fullSrc": "portfolio/assets/design/melted/13-melted-15-a6af76c752/original.webp",
-      "srcset": "portfolio/assets/design/melted/13-melted-15-a6af76c752/original.webp 993w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "m013",
+      "alt": "Camiseta da coleção MELTED em uso"
     },
     {
       "type": "image",
-      "alt": "Camiseta da coleção MELTED em uso",
+      "src": "portfolio/assets/design/melted/14-melted-17-a3ca6478dc/original.webp",
       "width": 1188,
       "height": 1188,
+      "srcset": "portfolio/assets/design/melted/14-melted-17-a3ca6478dc/original.webp 1188w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/melted/14-melted-17-a3ca6478dc/original.webp",
       "fullWidth": 1188,
       "fullHeight": 1188,
-      "src": "portfolio/assets/design/melted/14-melted-17-a3ca6478dc/original.webp",
-      "fullSrc": "portfolio/assets/design/melted/14-melted-17-a3ca6478dc/original.webp",
-      "srcset": "portfolio/assets/design/melted/14-melted-17-a3ca6478dc/original.webp 1188w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "m014",
+      "alt": "Camiseta da coleção MELTED em uso"
     },
     {
       "type": "image",
-      "alt": "Camiseta da coleção MELTED em uso",
+      "src": "portfolio/assets/design/melted/15-melted-16-b7b02c3ee2/original.webp",
       "width": 899,
       "height": 899,
+      "srcset": "portfolio/assets/design/melted/15-melted-16-b7b02c3ee2/original.webp 899w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/melted/15-melted-16-b7b02c3ee2/original.webp",
       "fullWidth": 899,
       "fullHeight": 899,
-      "src": "portfolio/assets/design/melted/15-melted-16-b7b02c3ee2/original.webp",
-      "fullSrc": "portfolio/assets/design/melted/15-melted-16-b7b02c3ee2/original.webp",
-      "srcset": "portfolio/assets/design/melted/15-melted-16-b7b02c3ee2/original.webp 899w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "m015",
+      "alt": "Camiseta da coleção MELTED em uso"
     },
     {
       "type": "image",
-      "alt": "Camiseta da coleção MELTED em uso",
+      "src": "portfolio/assets/design/melted/16-melted-19-7ee5330e0f/original.webp",
       "width": 1188,
       "height": 1188,
+      "srcset": "portfolio/assets/design/melted/16-melted-19-7ee5330e0f/original.webp 1188w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/melted/16-melted-19-7ee5330e0f/original.webp",
       "fullWidth": 1188,
       "fullHeight": 1188,
-      "src": "portfolio/assets/design/melted/16-melted-19-7ee5330e0f/original.webp",
-      "fullSrc": "portfolio/assets/design/melted/16-melted-19-7ee5330e0f/original.webp",
-      "srcset": "portfolio/assets/design/melted/16-melted-19-7ee5330e0f/original.webp 1188w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "m016",
+      "alt": "Camiseta da coleção MELTED em uso"
     }
   ],
   "links": [
@@ -233,5 +249,187 @@
       "title": "Ver projeto publicado",
       "url": "https://www.behance.net/gallery/234960945/MELTED-T-shirt-Design"
     }
-  ]
+  ],
+  "cover": {
+    "type": "image",
+    "src": "portfolio/assets/design/melted/01-melted-12-9910de2508/original.webp",
+    "width": 1062,
+    "height": 1062,
+    "srcset": "portfolio/assets/design/melted/01-melted-12-9910de2508/original.webp 1062w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+    "fullSrc": "portfolio/assets/design/melted/01-melted-12-9910de2508/original.webp",
+    "fullWidth": 1062,
+    "fullHeight": 1062,
+    "id": "m001",
+    "alt": "Camiseta MELTED com estampa vertical nas costas"
+  },
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "chapters": [
+      {
+        "id": "o-conceito",
+        "label": "O conceito",
+        "title": "O conceito",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Criei a MELTED a partir de cinco obras da história da arte. Vetorizei as imagens, refiz suas paletas e construí o efeito de derretimento pixel a pixel, alongando as cores em faixas verticais. Nas camisetas, mantive parte de cada obra reconhecível enquanto desfazia seus contornos em linhas."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cinco-referencias-para-a-colecao",
+        "label": "Cinco referências para a coleção",
+        "title": "Cinco referências para a coleção",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Cada estampa parte de uma obra diferente. Abaixo, as minhas releituras e os artistas que deram origem a elas."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002",
+                "caption": "O lago de nenúfares, harmonia rosa · Claude Monet"
+              },
+              {
+                "id": "m003",
+                "caption": "A grande onda de Kanagawa · Katsushika Hokusai"
+              },
+              {
+                "id": "m004",
+                "caption": "O beijo · Gustav Klimt"
+              },
+              {
+                "id": "m005",
+                "caption": "O grito · Edvard Munch"
+              },
+              {
+                "id": "m006",
+                "caption": "O vinhedo vermelho em Arles · Vincent van Gogh"
+              }
+            ],
+            "layout": "gallery"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Obras originais: Claude Monet, Katsushika Hokusai, Gustav Klimt, Edvard Munch e Vincent van Gogh. Conceito da coleção, vetorização, recoloração e intervenção gráfica: Bruno Nascimento."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "derretimento-pixel-a-pixel",
+        "label": "Derretimento pixel a pixel",
+        "title": "Derretimento pixel a pixel",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Depois de vetorizar e recolorir as obras, alonguei suas cores em linhas verticais. Usei essas mesmas faixas nas costas das camisetas, ligando os dois lados de cada peça."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m007",
+                "caption": "Claude Monet"
+              },
+              {
+                "id": "m008",
+                "caption": "Katsushika Hokusai"
+              },
+              {
+                "id": "m009",
+                "caption": "Gustav Klimt"
+              },
+              {
+                "id": "m010",
+                "caption": "Edvard Munch"
+              },
+              {
+                "id": "m011",
+                "caption": "Vincent van Gogh"
+              }
+            ],
+            "layout": "gallery"
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Vetorização",
+                "text": "Vetorizei as imagens para trabalhar suas formas."
+              },
+              {
+                "title": "Recoloração",
+                "text": "Criei novas combinações de cor para cada obra."
+              },
+              {
+                "title": "Derretimento",
+                "text": "Trabalhei a transição entre imagem e faixas, pixel a pixel."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "a-colecao-em-uso",
+        "label": "A coleção em uso",
+        "title": "A coleção em uso",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m012",
+                "caption": "Camiseta da coleção MELTED em uso"
+              },
+              {
+                "id": "m013",
+                "caption": "Camiseta da coleção MELTED em uso"
+              },
+              {
+                "id": "m014",
+                "caption": "Camiseta da coleção MELTED em uso"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "aplicacoes",
+        "label": "Aplicações",
+        "title": "Aplicações",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m015",
+                "caption": "Camiseta da coleção MELTED em uso"
+              },
+              {
+                "id": "m016",
+                "caption": "Camiseta da coleção MELTED em uso"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      }
+    ],
+    "deviceFrame": "portfolio/assets/editorial/shared/01-galaxy-s26-ultra-black-front-3545ed1389/original.webp",
+    "filmsInline": true
+  }
 }

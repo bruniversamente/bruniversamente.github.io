@@ -26,99 +26,107 @@
   "media": [
     {
       "type": "image",
-      "alt": "Peça 01 do projeto",
+      "src": "portfolio/assets/design/branding/01-branding-01-1cd9af0e11/original.webp",
       "width": 1920,
       "height": 1440,
+      "srcset": "portfolio/assets/design/branding/01-branding-01-1cd9af0e11/640w.webp 640w, portfolio/assets/design/branding/01-branding-01-1cd9af0e11/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/branding/01-branding-01-1cd9af0e11/original.webp",
       "fullWidth": 1920,
       "fullHeight": 1440,
-      "src": "portfolio/assets/design/branding/01-branding-01-1cd9af0e11/original.webp",
-      "fullSrc": "portfolio/assets/design/branding/01-branding-01-1cd9af0e11/original.webp",
-      "srcset": "portfolio/assets/design/branding/01-branding-01-1cd9af0e11/640w.webp 640w, portfolio/assets/design/branding/01-branding-01-1cd9af0e11/original.webp 1920w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "m001",
+      "alt": "Peça 01 do projeto"
     },
     {
       "type": "image",
-      "alt": "Peça 02 do acervo branding",
+      "src": "portfolio/assets/design/branding/02-branding-02-46d529f9f6/original.webp",
       "width": 2800,
       "height": 3200,
+      "srcset": "portfolio/assets/design/branding/02-branding-02-46d529f9f6/640w.webp 640w, portfolio/assets/design/branding/02-branding-02-46d529f9f6/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/branding/02-branding-02-46d529f9f6/original.webp",
       "fullWidth": 2800,
       "fullHeight": 3200,
-      "src": "portfolio/assets/design/branding/02-branding-02-46d529f9f6/original.webp",
-      "fullSrc": "portfolio/assets/design/branding/02-branding-02-46d529f9f6/original.webp",
-      "srcset": "portfolio/assets/design/branding/02-branding-02-46d529f9f6/640w.webp 640w, portfolio/assets/design/branding/02-branding-02-46d529f9f6/original.webp 2800w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "m002",
+      "alt": "Peça 02 do acervo branding"
     },
     {
       "type": "image",
-      "alt": "Peça 03 do acervo branding",
+      "src": "portfolio/assets/design/branding/03-branding-03-a091382293/1280w.webp",
       "width": 1280,
       "height": 960,
+      "srcset": "portfolio/assets/design/branding/03-branding-03-a091382293/640w.webp 640w, portfolio/assets/design/branding/03-branding-03-a091382293/1280w.webp 1280w, portfolio/assets/design/branding/03-branding-03-a091382293/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/branding/03-branding-03-a091382293/original.webp",
       "fullWidth": 2800,
       "fullHeight": 2100,
-      "src": "portfolio/assets/design/branding/03-branding-03-a091382293/1280w.webp",
-      "fullSrc": "portfolio/assets/design/branding/03-branding-03-a091382293/original.webp",
-      "srcset": "portfolio/assets/design/branding/03-branding-03-a091382293/640w.webp 640w, portfolio/assets/design/branding/03-branding-03-a091382293/1280w.webp 1280w, portfolio/assets/design/branding/03-branding-03-a091382293/original.webp 2800w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "m003",
+      "alt": "Peça 03 do acervo branding"
     },
     {
       "type": "image",
-      "alt": "Peça 04 do acervo branding",
+      "src": "portfolio/assets/design/branding/04-branding-04-20cc5562f7/original.webp",
       "width": 1920,
       "height": 1281,
+      "srcset": "portfolio/assets/design/branding/04-branding-04-20cc5562f7/640w.webp 640w, portfolio/assets/design/branding/04-branding-04-20cc5562f7/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/branding/04-branding-04-20cc5562f7/original.webp",
       "fullWidth": 1920,
       "fullHeight": 1281,
-      "src": "portfolio/assets/design/branding/04-branding-04-20cc5562f7/original.webp",
-      "fullSrc": "portfolio/assets/design/branding/04-branding-04-20cc5562f7/original.webp",
-      "srcset": "portfolio/assets/design/branding/04-branding-04-20cc5562f7/640w.webp 640w, portfolio/assets/design/branding/04-branding-04-20cc5562f7/original.webp 1920w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "m004",
+      "alt": "Peça 04 do acervo branding"
     },
     {
       "type": "image",
-      "alt": "Peça 05 do acervo branding",
-      "width": 1920,
-      "height": 1440,
-      "fullWidth": 1920,
-      "fullHeight": 1440,
       "src": "portfolio/assets/design/branding/05-branding-05-3133cd7ae2/original.webp",
-      "fullSrc": "portfolio/assets/design/branding/05-branding-05-3133cd7ae2/original.webp",
-      "srcset": "portfolio/assets/design/branding/05-branding-05-3133cd7ae2/640w.webp 640w, portfolio/assets/design/branding/05-branding-05-3133cd7ae2/original.webp 1920w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
-    },
-    {
-      "type": "image",
-      "alt": "Peça 06 do acervo branding",
       "width": 1920,
       "height": 1440,
+      "srcset": "portfolio/assets/design/branding/05-branding-05-3133cd7ae2/640w.webp 640w, portfolio/assets/design/branding/05-branding-05-3133cd7ae2/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/branding/05-branding-05-3133cd7ae2/original.webp",
       "fullWidth": 1920,
       "fullHeight": 1440,
+      "id": "m005",
+      "alt": "Peça 05 do acervo branding"
+    },
+    {
+      "type": "image",
       "src": "portfolio/assets/design/branding/06-branding-06-5d7b96cb7b/original.webp",
-      "fullSrc": "portfolio/assets/design/branding/06-branding-06-5d7b96cb7b/original.webp",
+      "width": 1920,
+      "height": 1440,
       "srcset": "portfolio/assets/design/branding/06-branding-06-5d7b96cb7b/640w.webp 640w, portfolio/assets/design/branding/06-branding-06-5d7b96cb7b/original.webp 1920w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/branding/06-branding-06-5d7b96cb7b/original.webp",
+      "fullWidth": 1920,
+      "fullHeight": 1440,
+      "id": "m006",
+      "alt": "Peça 06 do acervo branding"
     },
     {
       "type": "image",
-      "alt": "Peça 07 do acervo branding",
-      "width": 1920,
-      "height": 1229,
-      "fullWidth": 1920,
-      "fullHeight": 1229,
       "src": "portfolio/assets/design/branding/07-branding-07-b8e83f67a8/original.webp",
-      "fullSrc": "portfolio/assets/design/branding/07-branding-07-b8e83f67a8/original.webp",
+      "width": 1920,
+      "height": 1229,
       "srcset": "portfolio/assets/design/branding/07-branding-07-b8e83f67a8/original.webp 1920w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/branding/07-branding-07-b8e83f67a8/original.webp",
+      "fullWidth": 1920,
+      "fullHeight": 1229,
+      "id": "m007",
+      "alt": "Peça 07 do acervo branding"
     },
     {
       "type": "image",
-      "alt": "Peça 08 do acervo branding",
+      "src": "portfolio/assets/design/branding/08-branding-08-9880ccf07b/original.webp",
       "width": 1920,
       "height": 1229,
+      "srcset": "portfolio/assets/design/branding/08-branding-08-9880ccf07b/640w.webp 640w, portfolio/assets/design/branding/08-branding-08-9880ccf07b/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/design/branding/08-branding-08-9880ccf07b/original.webp",
       "fullWidth": 1920,
       "fullHeight": 1229,
-      "src": "portfolio/assets/design/branding/08-branding-08-9880ccf07b/original.webp",
-      "fullSrc": "portfolio/assets/design/branding/08-branding-08-9880ccf07b/original.webp",
-      "srcset": "portfolio/assets/design/branding/08-branding-08-9880ccf07b/640w.webp 640w, portfolio/assets/design/branding/08-branding-08-9880ccf07b/original.webp 1920w",
-      "sizes": "(max-width:700px) calc(100vw - 32px), (max-width:1300px) calc(100vw - 64px), 1200px"
+      "id": "m008",
+      "alt": "Peça 08 do acervo branding"
     }
   ],
   "links": [
@@ -126,5 +134,112 @@
       "title": "Ver projeto publicado",
       "url": "https://www.behance.net/gallery/235134877/Branding-Visual-Identity"
     }
-  ]
+  ],
+  "cover": {
+    "type": "image",
+    "src": "portfolio/assets/design/branding/01-branding-01-1cd9af0e11/original.webp",
+    "width": 1920,
+    "height": 1440,
+    "srcset": "portfolio/assets/design/branding/01-branding-01-1cd9af0e11/640w.webp 640w, portfolio/assets/design/branding/01-branding-01-1cd9af0e11/original.webp 1920w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+    "fullSrc": "portfolio/assets/design/branding/01-branding-01-1cd9af0e11/original.webp",
+    "fullWidth": 1920,
+    "fullHeight": 1440,
+    "id": "m001",
+    "alt": "Peça 01 do projeto"
+  },
+  "story": {
+    "editorial": true,
+    "navigation": false,
+    "galleryOrder": "source",
+    "chapters": [
+      {
+        "id": "identidade-visual",
+        "label": "Identidade visual",
+        "title": "Identidade visual",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Criação de marcas e aplicação em cartões de visita."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002",
+                "caption": "Peça 02 do acervo branding"
+              },
+              {
+                "id": "m003",
+                "caption": "Peça 03 do acervo branding"
+              },
+              {
+                "id": "m004",
+                "caption": "Peça 04 do acervo branding"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "cardapio-e-cartao-de-visita",
+        "label": "Cardápio e cartão de visita",
+        "title": "Cardápio e cartão de visita",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Cardápio para a DiCarly e cartão profissional para serviços de musicoterapia e ensino de música."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m005",
+                "caption": "Peça 05 do acervo branding"
+              },
+              {
+                "id": "m006",
+                "caption": "Peça 06 do acervo branding"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "portfolio-artistico",
+        "label": "Portfólio artístico",
+        "title": "Portfólio artístico",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Projeto gráfico e diagramação do portfólio da musicista Gisele Fontoura."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m007",
+                "caption": "Peça 07 do acervo branding"
+              },
+              {
+                "id": "m008",
+                "caption": "Peça 08 do acervo branding"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      }
+    ],
+    "deviceFrame": "portfolio/assets/editorial/shared/01-galaxy-s26-ultra-black-front-3545ed1389/original.webp",
+    "filmsInline": true
+  }
 }

@@ -1,0 +1,23 @@
+{
+  "area": "dados",
+  "id": "dados-04",
+  "title": "IA",
+  "subtitle": "estudo de dados e BI",
+  "tags": [
+    "Dados e BI"
+  ],
+  "intro": "IA · estudo de dados e BI.",
+  "sections": [],
+  "credits": [],
+  "credit": "IA · estudo de dados e BI.",
+  "media": [
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/8391d5fe574da07dafff.webp",
+      "width": 1440,
+      "height": 1120,
+      "alt": "IA"
+    }
+  ],
+  "links": []
+}

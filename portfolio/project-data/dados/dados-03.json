@@ -1,0 +1,23 @@
+{
+  "area": "dados",
+  "id": "dados-03",
+  "title": "Pipeline",
+  "subtitle": "estudo de dados e BI",
+  "tags": [
+    "Dados e BI"
+  ],
+  "intro": "Pipeline · estudo de dados e BI.",
+  "sections": [],
+  "credits": [],
+  "credit": "Pipeline · estudo de dados e BI.",
+  "media": [
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/b5162f959660720d441a.webp",
+      "width": 1440,
+      "height": 1120,
+      "alt": "Pipeline"
+    }
+  ],
+  "links": []
+}

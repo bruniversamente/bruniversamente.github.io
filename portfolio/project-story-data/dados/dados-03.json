@@ -1,0 +1,628 @@
+{
+  "area": "dados",
+  "id": "dados-03",
+  "title": "Pipeline",
+  "subtitle": "Qualidade antes da publicação em BI",
+  "tags": [
+    "Dados e BI"
+  ],
+  "intro": "Uma análise das regras que separam os pedidos prontos para o BI dos registros que precisam de revisão antes da publicação.",
+  "sections": [],
+  "credits": [],
+  "credit": "",
+  "media": [
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/b5162f959660720d441a.webp",
+      "width": 1440,
+      "height": 1120,
+      "alt": "Dashboard completo do estudo Pipeline",
+      "id": "dashboard",
+      "caption": "Registro da apresentação anterior. Abra a galeria para ampliar."
+    }
+  ],
+  "links": [],
+  "cover": {
+    "id": "analysis-cover",
+    "type": "image",
+    "src": "portfolio/assets/project/analysis-pipeline.svg",
+    "width": 1200,
+    "height": 600,
+    "alt": "Prontidão dos pedidos por origem · publicação completa bloqueada",
+    "caption": "Visualização de abertura derivada dos dados do estudo."
+  },
+  "analysisData": {
+    "publication_status": "Blocked",
+    "publication_reason": "9 falhas críticas encontradas; publicar apenas os marts Ready.",
+    "kpis": {
+      "raw_orders": 500,
+      "ready_orders": 495,
+      "review_orders": 5,
+      "critical_failures": 9,
+      "warning_failures": 95,
+      "quality_score": 0.982
+    },
+    "failed_rules": [
+      {
+        "rule_name": "payment_amount_mismatch",
+        "severity": "Critical",
+        "failed_records": 2
+      },
+      {
+        "rule_name": "completed_order_without_payment",
+        "severity": "Critical",
+        "failed_records": 1
+      },
+      {
+        "rule_name": "duplicate_customer_id",
+        "severity": "Critical",
+        "failed_records": 1
+      },
+      {
+        "rule_name": "duplicate_order_id",
+        "severity": "Critical",
+        "failed_records": 1
+      },
+      {
+        "rule_name": "duplicate_order_item_id",
+        "severity": "Critical",
+        "failed_records": 1
+      },
+      {
+        "rule_name": "invalid_quantity",
+        "severity": "Critical",
+        "failed_records": 1
+      },
+      {
+        "rule_name": "missing_customer_reference",
+        "severity": "Critical",
+        "failed_records": 1
+      },
+      {
+        "rule_name": "missing_product_reference",
+        "severity": "Critical",
+        "failed_records": 1
+      },
+      {
+        "rule_name": "inactive_customer_on_completed_order",
+        "severity": "Warning",
+        "failed_records": 94
+      },
+      {
+        "rule_name": "cancelled_order_with_captured_payment",
+        "severity": "Warning",
+        "failed_records": 1
+      }
+    ],
+    "source_quality": [
+      {
+        "source_system": "web",
+        "orders": 158,
+        "ready_orders": 158.0,
+        "ready_rate": 1.0
+      },
+      {
+        "source_system": "store",
+        "orders": 161,
+        "ready_orders": 159.0,
+        "ready_rate": 0.9876
+      },
+      {
+        "source_system": "marketplace",
+        "orders": 181,
+        "ready_orders": 178.0,
+        "ready_rate": 0.9834
+      }
+    ],
+    "revenue_ready": [
+      {
+        "source_system": "marketplace",
+        "completed_orders": 123,
+        "order_total": 437727.43,
+        "captured_payment_amount": 437727.25
+      },
+      {
+        "source_system": "web",
+        "completed_orders": 119,
+        "order_total": 393026.16,
+        "captured_payment_amount": 393026.0
+      },
+      {
+        "source_system": "store",
+        "completed_orders": 117,
+        "order_total": 379244.67,
+        "captured_payment_amount": 379244.43
+      }
+    ],
+    "review_records": [
+      {
+        "order_id": "O00017",
+        "order_date": "2026-02-12 00:00:00",
+        "customer_id": "C9999",
+        "order_status": "Completed",
+        "source_system": "marketplace",
+        "order_total": 77.5,
+        "captured_payment_amount": 77.5,
+        "issue_summary": "missing customer"
+      },
+      {
+        "order_id": "O00041",
+        "order_date": "2026-04-29 00:00:00",
+        "customer_id": "C0030",
+        "order_status": "Completed",
+        "source_system": "marketplace",
+        "order_total": 980.91,
+        "captured_payment_amount": 980.91,
+        "issue_summary": "missing product"
+      },
+      {
+        "order_id": "O00083",
+        "order_date": "2026-02-04 00:00:00",
+        "customer_id": "C0024",
+        "order_status": "Completed",
+        "source_system": "store",
+        "order_total": 5356.53,
+        "captured_payment_amount": 5281.53,
+        "issue_summary": "payment mismatch"
+      },
+      {
+        "order_id": "O00111",
+        "order_date": "2026-01-03 00:00:00",
+        "customer_id": "C0069",
+        "order_status": "Completed",
+        "source_system": "marketplace",
+        "order_total": 1610.01,
+        "captured_payment_amount": null,
+        "issue_summary": "missing payment, payment mismatch"
+      },
+      {
+        "order_id": "O00189",
+        "order_date": "2026-01-12 00:00:00",
+        "customer_id": "C0071",
+        "order_status": "Completed",
+        "source_system": "store",
+        "order_total": 0.0,
+        "captured_payment_amount": 0.0,
+        "issue_summary": "invalid item quantity"
+      }
+    ],
+    "category_metrics": [
+      {
+        "category": "Electronics",
+        "orders": 270,
+        "units": 871.0,
+        "net_revenue": 930251.37,
+        "gross_margin": 271801.37
+      },
+      {
+        "category": "Furniture",
+        "orders": 142,
+        "units": 320.0,
+        "net_revenue": 198336.48,
+        "gross_margin": 95936.48
+      },
+      {
+        "category": "Accessories",
+        "orders": 148,
+        "units": 350.0,
+        "net_revenue": 53465.88,
+        "gross_margin": 28965.88
+      },
+      {
+        "category": "Home",
+        "orders": 128,
+        "units": 289.0,
+        "net_revenue": 35843.48,
+        "gross_margin": 19948.48
+      }
+    ]
+  },
+  "story": {
+    "navigation": true,
+    "coverFit": "contain",
+    "notice": "Estudo de portfólio · dados sintéticos",
+    "chapters": [
+      {
+        "id": "contexto",
+        "label": "Contexto",
+        "title": "O que está pronto para alimentar o BI?",
+        "kicker": "01 · Problema de qualidade",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O pipeline simula a chegada de clientes, produtos, pedidos, itens e pagamentos em arquivos separados. O objetivo é conferir os vínculos e os valores antes de publicar os indicadores executivos."
+            ]
+          },
+          {
+            "type": "analysis",
+            "kind": "pipeline-gate"
+          },
+          {
+            "type": "reading",
+            "items": [
+              "O score de 98,2% supera a referência de 98%, mas nove ocorrências críticas ainda bloqueiam a publicação completa.",
+              "Há cinco pedidos distintos em revisão. Um mesmo pedido pode falhar em mais de uma regra; por isso nove ocorrências não significam nove pedidos."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "metodo",
+        "label": "Método",
+        "title": "Separar preparação, validação e liberação",
+        "kicker": "02 · Tratamento e regras",
+        "blocks": [
+          {
+            "type": "method",
+            "title": "Do arquivo recebido ao conjunto Ready",
+            "paragraphs": [
+              "As tabelas recebidas passam por preparação e checagens de referência, data, quantidade e conciliação. Os pedidos recebem o estado Ready ou Review conforme os problemas encontrados.",
+              "Totais de itens e de pagamentos são agregados separadamente antes da comparação. Isso evita multiplicar o pagamento quando um pedido tem vários itens. A tolerância de conciliação é 0,05 na unidade monetária da base."
+            ],
+            "flow": [
+              "CSV recebidos",
+              "Preparação",
+              "Regras de qualidade",
+              "Ready / Review",
+              "Bloqueio de publicação"
+            ],
+            "code": "receita_item = quantidade × preço_unitário × (1 - desconto)\ndiferença = abs(pagamentos_capturados - soma_itens)\nconciliação válida: diferença <= 0,05\nbloquear se: falhas_críticas > 0 OU score < 98% OU impacto_na_receita_pendente",
+            "files": [
+              "data-pipeline-quality-checks/docs/business_rules.md",
+              "data-pipeline-quality-checks/sql/03_data_quality_checks.sql",
+              "data-pipeline-quality-checks/sql/04_create_marts.sql"
+            ]
+          },
+          {
+            "type": "reading",
+            "items": [
+              "Os pedidos Ready podem alimentar as tabelas do subconjunto validado. Essa separação não equivale a aprovar a execução completa."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "diagnostico",
+        "label": "Diagnóstico",
+        "title": "Localizar a origem e a regra que falhou",
+        "kicker": "03 · Investigação das falhas",
+        "blocks": [
+          {
+            "type": "analysis",
+            "kind": "pipeline-sources"
+          },
+          {
+            "type": "analysis",
+            "kind": "pipeline-rules"
+          },
+          {
+            "type": "analysis",
+            "kind": "evidence",
+            "title": "Consultar somente o subconjunto Ready",
+            "tables": [
+              {
+                "key": "revenue_ready",
+                "title": "Receita pronta por origem",
+                "columns": [
+                  {
+                    "key": "source_system",
+                    "label": "Origem",
+                    "format": null
+                  },
+                  {
+                    "key": "completed_orders",
+                    "label": "Concluídos",
+                    "format": "number"
+                  },
+                  {
+                    "key": "order_total",
+                    "label": "Total dos itens",
+                    "format": "decimal"
+                  },
+                  {
+                    "key": "captured_payment_amount",
+                    "label": "Pagamento capturado",
+                    "format": "decimal"
+                  }
+                ],
+                "note": "Somente o subconjunto Ready. Valores monetários na unidade da base de origem; não representam aprovação da publicação completa."
+              },
+              {
+                "key": "category_metrics",
+                "title": "Categorias prontas para BI",
+                "columns": [
+                  {
+                    "key": "category",
+                    "label": "Categoria",
+                    "format": null
+                  },
+                  {
+                    "key": "orders",
+                    "label": "Pedidos",
+                    "format": "number"
+                  },
+                  {
+                    "key": "units",
+                    "label": "Unidades",
+                    "format": "number"
+                  },
+                  {
+                    "key": "net_revenue",
+                    "label": "Receita líquida",
+                    "format": "decimal"
+                  },
+                  {
+                    "key": "gross_margin",
+                    "label": "Margem bruta",
+                    "format": "decimal"
+                  }
+                ],
+                "note": "Somente o subconjunto Ready. Valores monetários na unidade da base de origem; não representam aprovação da publicação completa."
+              }
+            ]
+          },
+          {
+            "type": "reading",
+            "items": [
+              "A fila de revisão liga o problema à origem e ao pedido sintético, permitindo investigar a causa antes de repetir a execução.",
+              "O total de ocorrências por regra deve permanecer separado da quantidade de pedidos. Somar falhas de regras diferentes pode contar o mesmo pedido mais de uma vez."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "conclusoes",
+        "label": "Conclusões",
+        "title": "Conter o problema antes do reporte",
+        "kicker": "04 · Encaminhamento e evidências",
+        "blocks": [
+          {
+            "type": "decisions",
+            "items": [
+              {
+                "title": "Publicação completa",
+                "label": "Estado desta execução",
+                "body": "Bloqueada enquanto houver falha crítica ou impacto na receita ainda sem resolução."
+              },
+              {
+                "title": "Fila de revisão",
+                "label": "Próxima ação",
+                "body": "Direcionar os cinco pedidos em revisão à investigação dos vínculos, datas, produtos e pagamentos indicados nas regras."
+              },
+              {
+                "title": "Nova execução",
+                "label": "Critério de liberação",
+                "body": "Reexecutar as checagens após a correção e confirmar o estado de publicação; o score isolado não libera o conjunto."
+              }
+            ]
+          },
+          {
+            "type": "analysis",
+            "kind": "evidence",
+            "title": "Consultar os dados da análise",
+            "tables": [
+              {
+                "key": "kpis",
+                "title": "Indicadores gerais",
+                "columns": [
+                  {
+                    "key": "raw_orders",
+                    "label": "Pedidos recebidos",
+                    "format": "number"
+                  },
+                  {
+                    "key": "ready_orders",
+                    "label": "Prontos",
+                    "format": "number"
+                  },
+                  {
+                    "key": "review_orders",
+                    "label": "Pedidos em revisão",
+                    "format": "number"
+                  },
+                  {
+                    "key": "critical_failures",
+                    "label": "Falhas críticas",
+                    "format": "number"
+                  },
+                  {
+                    "key": "warning_failures",
+                    "label": "Alertas",
+                    "format": "number"
+                  },
+                  {
+                    "key": "quality_score",
+                    "label": "Score de qualidade",
+                    "format": "pct"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "failed_rules",
+                "title": "Falhas por regra",
+                "columns": [
+                  {
+                    "key": "rule_name",
+                    "label": "Regra",
+                    "format": null
+                  },
+                  {
+                    "key": "severity",
+                    "label": "Severidade",
+                    "format": null
+                  },
+                  {
+                    "key": "failed_records",
+                    "label": "Ocorrências",
+                    "format": "number"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "source_quality",
+                "title": "Prontidão por origem",
+                "columns": [
+                  {
+                    "key": "source_system",
+                    "label": "Origem",
+                    "format": null
+                  },
+                  {
+                    "key": "orders",
+                    "label": "Pedidos",
+                    "format": "number"
+                  },
+                  {
+                    "key": "ready_orders",
+                    "label": "Prontos",
+                    "format": "number"
+                  },
+                  {
+                    "key": "ready_rate",
+                    "label": "Prontidão",
+                    "format": "pct"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "revenue_ready",
+                "title": "Receita pronta por origem",
+                "columns": [
+                  {
+                    "key": "source_system",
+                    "label": "Origem",
+                    "format": null
+                  },
+                  {
+                    "key": "completed_orders",
+                    "label": "Concluídos",
+                    "format": "number"
+                  },
+                  {
+                    "key": "order_total",
+                    "label": "Total dos itens",
+                    "format": "decimal"
+                  },
+                  {
+                    "key": "captured_payment_amount",
+                    "label": "Pagamento capturado",
+                    "format": "decimal"
+                  }
+                ],
+                "note": "Somente o subconjunto Ready. Valores monetários na unidade da base de origem; não representam aprovação da publicação completa."
+              },
+              {
+                "key": "review_records",
+                "title": "Pedidos em revisão",
+                "columns": [
+                  {
+                    "key": "order_id",
+                    "label": "Pedido",
+                    "format": null
+                  },
+                  {
+                    "key": "order_date",
+                    "label": "Data",
+                    "format": null
+                  },
+                  {
+                    "key": "customer_id",
+                    "label": "Cliente",
+                    "format": null
+                  },
+                  {
+                    "key": "order_status",
+                    "label": "Estado",
+                    "format": null
+                  },
+                  {
+                    "key": "source_system",
+                    "label": "Origem",
+                    "format": null
+                  },
+                  {
+                    "key": "order_total",
+                    "label": "Total dos itens",
+                    "format": "decimal"
+                  },
+                  {
+                    "key": "captured_payment_amount",
+                    "label": "Pagamento capturado",
+                    "format": "decimal"
+                  },
+                  {
+                    "key": "issue_summary",
+                    "label": "Pendência",
+                    "format": null
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "category_metrics",
+                "title": "Categorias prontas para BI",
+                "columns": [
+                  {
+                    "key": "category",
+                    "label": "Categoria",
+                    "format": null
+                  },
+                  {
+                    "key": "orders",
+                    "label": "Pedidos",
+                    "format": "number"
+                  },
+                  {
+                    "key": "units",
+                    "label": "Unidades",
+                    "format": "number"
+                  },
+                  {
+                    "key": "net_revenue",
+                    "label": "Receita líquida",
+                    "format": "decimal"
+                  },
+                  {
+                    "key": "gross_margin",
+                    "label": "Margem bruta",
+                    "format": "decimal"
+                  }
+                ],
+                "note": "Somente o subconjunto Ready. Valores monetários na unidade da base de origem; não representam aprovação da publicação completa."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O dashboard completo e a documentação permitem aprofundar a leitura. A imagem abaixo registra a apresentação anterior; os gráficos e filtros deste artigo usam as mesmas saídas locais, adaptadas à nova interface."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "dashboard"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Explorar o dashboard completo",
+                "url": "https://bruniversamente.github.io/dashboards/?case=pipeline&lang=pt"
+              },
+              {
+                "title": "Consultar código e documentação",
+                "url": "https://github.com/bruniversamente/data-pipeline-quality-checks"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

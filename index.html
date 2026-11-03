@@ -1,487 +1,80 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Bruno Nascimento | Dados, BI e IA aplicada</title>
-  <meta name="description" content="Portfólio de Bruno Nascimento: projetos práticos de Dados, BI, Product Analytics, qualidade de dados e IA aplicada, com SQL, Python, DuckDB e Power BI." />
-  <meta name="author" content="Bruno Nascimento" />
-  <meta name="theme-color" content="#060812" />
-  <meta property="og:title" content="Bruno Nascimento | Dados, BI e IA aplicada" />
-  <meta property="og:description" content="Projetos de dados com problema de negócio, SQL, validações, documentação e entregas interativas." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://bruniversamente.github.io/" />
-  <link rel="canonical" href="https://bruniversamente.github.io/" />
-  <link rel="icon" href="assets/logo-bruno-nascimento.png" type="image/png" />
-  <link rel="stylesheet" href="styles.css?v=20260721-projects-ia" />
-  <link rel="stylesheet" href="assets/site-cursor.css?v=20260721-site-cursor" />
-  <script defer src="script.js?v=20260721-projects-ia"></script>
-  <script defer src="assets/site-cursor.js?v=20260721-site-cursor"></script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Bruno Nascimento",
-    "jobTitle": "Analista de Dados / BI Jr",
-    "address": {"@type": "PostalAddress", "addressLocality": "Curitiba", "addressRegion": "PR", "addressCountry": "BR"},
-    "email": "mailto:bruniversamente@gmail.com",
-    "url": "https://bruniversamente.github.io/",
-    "sameAs": ["https://github.com/bruniversamente", "https://linkedin.com/in/bruniversamente"],
-    "knowsAbout": ["SQL", "Power BI", "Python", "Business Intelligence", "Product Analytics", "Data Quality", "AI Applied to Analytics"]
-  }
-  </script>
-</head>
+<!DOCTYPE html>
+
+<html data-theme="dark" lang="pt-BR">
+<head><script defer="" src="portfolio/release-config.js?v=dados-bi-20261103"></script>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="dark light" name="color-scheme"/>
+<title>Bruno Nascimento · Portfólio</title>
+<link href="portfolio/home.css?v=dados-bi-20261103" rel="stylesheet"/>
+<link href="portfolio/area-feed.css?v=dados-bi-20261103" rel="stylesheet"/>
+<link href="portfolio/project-page.css?v=dados-bi-20261103" rel="stylesheet"/>
+<link href="portfolio/project-story.css?v=dados-bi-20261103" rel="stylesheet"/>
+
+<link href="portfolio/project-analysis.css?v=dados-bi-20261103" rel="stylesheet"/>
+<link href="portfolio/media-viewer.css?v=dados-bi-20261103" rel="stylesheet"/>
+<script defer="" src="portfolio/index-gallery.js?v=dados-bi-20261103"></script>
+<script defer="" src="portfolio/area-catalog.js?v=dados-bi-20261103"></script>
+<script defer="" src="portfolio/home.js?v=dados-bi-20261103"></script>
+<script defer="" src="portfolio/area-feed.js?v=dados-bi-20261103"></script>
+<script defer="" src="portfolio/media-viewer.js?v=dados-bi-20261103"></script>
+<script defer="" src="portfolio/project-analysis.js?v=dados-bi-20261103"></script><script defer="" src="portfolio/tennis-analysis.js?v=dados-bi-20261103"></script>
+<script defer="" src="portfolio/project-story.js?v=dados-bi-20261103"></script>
+<script defer="" src="portfolio/project-page.js?v=dados-bi-20261103"></script>
+<link href="portfolio/release.css?v=dados-bi-20261103" rel="stylesheet"/><meta content="Projetos de análise de dados, BI, Product Analytics, qualidade de dados, IA aplicada e análise esportiva de Bruno Nascimento." name="description"/><meta content="Bruno Nascimento" name="author"/><meta content="dados-bi-20261103" name="portfolio-release"/><meta content="#121212" name="theme-color"/><meta content="Bruno Nascimento · Dados e BI" property="og:title"/><meta content="Projetos de análise de dados, BI, Product Analytics, qualidade de dados, IA aplicada e análise esportiva de Bruno Nascimento." property="og:description"/><meta content="website" property="og:type"/><meta content="https://bruniversamente.github.io/" property="og:url"/><link href="https://bruniversamente.github.io/" rel="canonical"/><link href="/favicon.svg" rel="icon" type="image/svg+xml"/></head>
 <body>
-  <a class="skip-link" href="#cases">Pular para os projetos</a>
+<a class="skip-link" href="#areas">Ir para as áreas de atuação</a>
+<header class="header">
+<div class="header-panel">
+<a aria-label="Bruno Nascimento · início" class="button brand" href="/">Bruno Nascimento</a>
+<div class="header-right" data-menu-open="false">
+<nav aria-label="Navegação principal" class="primary-nav">
+<button class="button" data-view="feed" hidden="" id="area-view"></button>
+<button aria-current="page" class="button" data-view="grid">Áreas</button>
+<button class="button" data-view="index">Índice</button>
+</nav>
+<div aria-hidden="true" class="header-disclosure" id="menu" inert="">
+<nav aria-label="Informações e contato" class="disclosure-inner secondary-links">
+<button class="button" data-about="">Sobre</button>
+<a class="button" href="mailto:bruniversamente@gmail.com">Contato</a>
+</nav>
+</div>
+<div aria-hidden="true" class="header-disclosure" id="social-menu" inert="">
+<div class="disclosure-inner social-inner">
+<nav aria-label="Redes sociais" class="social-links">
+<a class="button" href="https://www.instagram.com/bruniversamente/" rel="noopener noreferrer" target="_blank">Instagram</a>
+<a class="button" href="https://www.linkedin.com/in/bruniversamente/" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+<a class="button" href="https://www.behance.net/bruniversamente" rel="noopener noreferrer" target="_blank">Behance</a>
+</nav>
+<button aria-label="Mudar para tema claro" class="icon-button theme-button" id="theme" title="Mudar para tema claro"><svg aria-hidden="true" class="sun-icon" viewbox="0 0 32 32"><circle cx="16" cy="16" r="5.5"></circle><path d="M16 3v4M16 25v4M3 16h4M25 16h4M7 7l3 3M22 22l3 3M7 25l3-3M22 10l3-3"></path></svg><svg aria-hidden="true" class="moon-icon" viewbox="0 0 32 32"><path d="M26 19a11 11 0 0 1-13-13A11 11 0 1 0 26 19Z"></path></svg></button>
+</div>
+</div>
+<div class="search-control">
+<input aria-label="Buscar uma área" hidden="" id="search" placeholder="Qual área você procura?" type="search"/>
+<button aria-controls="search" aria-expanded="false" aria-label="Abrir busca" class="icon-button search-button"><svg aria-hidden="true" viewbox="0 0 32 32"><circle cx="13.7" cy="13.7" r="7.5"></circle><path d="m19 19 7 7"></path></svg></button>
+</div>
+<button aria-controls="menu social-menu" aria-expanded="false" aria-label="Abrir menu" class="icon-button menu-button"><span class="menu-line"></span><span class="menu-line"></span><span class="menu-line"></span></button>
+</div>
+</div>
+</header>
+<main class="main" id="areas" tabindex="-1">
+<h1 class="sr-only">Áreas de atuação de Bruno Nascimento</h1>
+<div class="project-grid" id="project-grid">
 
-  <header class="site-header">
-    <div class="site-header-inner">
-      <a class="brand" href="#top" aria-label="Voltar ao início">
-        <span class="brand-mark" aria-hidden="true">
-          <img src="assets/logo-bruno-nascimento.png" alt="" width="42" height="42" />
-        </span>
-        <span class="brand-copy">
-          <strong>Bruno Nascimento</strong>
-          <small>Dados, BI e IA aplicada</small>
-        </span>
-      </a>
-      <nav class="nav" aria-label="Navegação principal">
-        <a href="projetos/" data-projects-nav>Projetos</a>
-        <a href="#contato">Contato</a>
-      </nav>
-      <div class="language-switcher" aria-label="Selecionar idioma">
-        <button type="button" data-lang-option="pt" aria-pressed="true">PT</button>
-        <button type="button" data-lang-option="en" aria-pressed="false">EN</button>
-        <button type="button" data-lang-option="es" aria-pressed="false">ES</button>
-      </div>
-      <a class="nav-cta" href="https://wa.me/5541999990367" target="_blank" rel="noreferrer" aria-label="Conversar pelo WhatsApp">
-        <img src="assets/whatsapp.svg" alt="" width="24" height="24" />
-      </a>
-      <button class="mobile-menu-toggle" type="button" aria-label="Abrir menu" aria-controls="mobile-menu" aria-expanded="false">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="mobile-menu-panel" id="mobile-menu" hidden>
-        <nav class="nav mobile-nav" aria-label="Navegação principal no mobile">
-          <a href="projetos/" data-projects-nav>Projetos</a>
-          <a href="#contato">Contato</a>
-        </nav>
-        <div class="language-switcher mobile-language-switcher" aria-label="Selecionar idioma">
-          <button type="button" data-lang-option="pt" aria-pressed="true">PT</button>
-          <button type="button" data-lang-option="en" aria-pressed="false">EN</button>
-          <button type="button" data-lang-option="es" aria-pressed="false">ES</button>
-        </div>
-      </div>
-    </div>
-  </header>
 
-  <main id="top">
-    <section class="hero">
-      <div class="hero-copy reveal">
-        <p class="role-line">Portfólio de Dados, BI, MIS, Produto e IA aplicada</p>
-        <h1>Análises confiáveis para decisões de negócio.</h1>
-        <p class="hero-text">
-          Sou Bruno Nascimento, de Curitiba/PR. Desenvolvo análises, consultas, validações e dashboards que conectam dados operacionais a indicadores úteis para áreas de negócio.
-        </p>
-        <div class="hero-actions" aria-label="Ações principais">
-          <a class="button primary" href="projetos/" data-projects-cta>Ver projetos</a>
-          <a class="button secondary" href="https://linkedin.com/in/bruniversamente" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a class="button ghost" href="https://github.com/bruniversamente" target="_blank" rel="noreferrer">GitHub</a>
-        </div>
-      </div>
 
-      <div class="hero-lab reveal" aria-label="Simulação visual de um fluxo de trabalho analítico">
-        <div class="lab-topbar">
-          <span></span>
-          <span></span>
-          <span></span>
-          <strong>analysis_workflow.py</strong>
-          <em>simulação</em>
-        </div>
-        <div class="workflow-lab">
-          <div class="workflow-steps" aria-hidden="true">
-            <span>briefing</span>
-            <span>python</span>
-            <span>resultado</span>
-            <span>dashboard</span>
-          </div>
-          <div class="workflow-status">
-            <span>pergunta</span>
-            <span>código</span>
-            <span>validação</span>
-            <span>visual</span>
-          </div>
 
-          <div class="workflow-main">
-            <section class="notebook-panel">
-              <div class="panel-label">
-                <small>notebook</small>
-                <strong>margem_analysis.ipynb</strong>
-              </div>
-              <p class="workflow-question">Pergunta: onde a margem cai antes da receita parecer um problema?</p>
-              <pre class="code-window"><code><span>import pandas as pd</span>
-<span>from pathlib import Path</span>
-<span>base = Path("data")</span>
-<span>arquivo = base / "mart_vendas.parquet"</span>
-<span>vendas = pd.read_parquet(arquivo)</span>
-<span>lucro = vendas["lucro"]</span>
-<span>receita = vendas["receita"]</span>
-<span>meta = vendas["meta_margem"]</span>
-<span>vendas["margem"] = lucro / receita</span>
-<span>vendas["gap"] = vendas["margem"] - meta</span>
-<span>risco = vendas[vendas.gap &lt; 0]</span>
-<span>resumo = risco.groupby("canal").agg(</span>
-<span>    receita=("receita", "sum"),</span>
-<span>    margem=("margem", "mean"),</span>
-<span>)</span>
-<span>saida = "outputs/canais_em_risco.csv"</span>
-<span>resumo.to_csv(saida)</span></code></pre>
-            </section>
+<a class="project-card" data-area="dados" href="?area=dados"><div class="project-image"><img alt="Dashboard do estudo Playzone" height="810" src="portfolio/assets/dados.webp" width="1440"/></div><h2>Dados e BI</h2><p class="project-description">Análises, dashboards e planilhas.</p></a>
 
-            <section class="result-panel">
-              <div class="panel-label">
-                <small>resultado</small>
-                <strong>3 sinais priorizados</strong>
-              </div>
-              <div class="result-table">
-                <div><span>canal</span><span>categoria</span><span>margem</span></div>
-                <div><span>Online</span><span>Eletrônicos</span><strong>12,4%</strong></div>
-                <div><span>App</span><span>Moda</span><strong>18,1%</strong></div>
-                <div><span>B2B</span><span>Casa</span><strong>21,8%</strong></div>
-              </div>
-            </section>
-          </div>
-
-          <aside class="workflow-side">
-            <div class="insight-card">
-              <small>insight</small>
-              <strong>pressão de margem antes da receita cair</strong>
-              <span>2 canais pedem revisão de mix e preço</span>
-            </div>
-            <div class="activity-log">
-              <small>validação</small>
-              <span>schema conferido</span>
-              <span>nulos revisados</span>
-              <span>métrica pronta</span>
-            </div>
-            <div class="mini-dashboard">
-              <div class="mini-dashboard-title">
-                <small>preview executivo</small>
-                <strong>92%</strong>
-              </div>
-              <div class="bars" aria-hidden="true">
-                <i style="--h: 42%"></i>
-                <i style="--h: 66%"></i>
-                <i style="--h: 51%"></i>
-                <i style="--h: 78%"></i>
-                <i style="--h: 88%"></i>
-                <i style="--h: 62%"></i>
-              </div>
-            </div>
-          </aside>
-
-        </div>
-      </div>
-    </section>
-
-    <section id="cases" class="section cases-section">
-      <div class="section-kicker reveal">
-        <span>Projetos em destaque</span>
-        <div class="case-topic-capsules" aria-label="Categorias dos projetos">
-          <span>Product Analytics</span>
-          <span>AI Quality</span>
-          <span>Pipeline Quality</span>
-          <span>Retail BI</span>
-          <span>Sports Analytics</span>
-        </div>
-      </div>
-
-      <article class="case-feature reveal">
-        <div class="case-visual playzone-visual" role="group" aria-label="Mapa analítico do funil Playzone, destacando perda de 64,8% antes do convite enviado.">
-          <div class="activation-map">
-            <div class="activation-map-head">
-              <span>Mapa de ativação</span>
-              <strong>Playzone</strong>
-            </div>
-            <div class="activation-summary">
-              <strong>O gargalo aparece antes do convite.</strong>
-              <span>O usuário chega ao app, mas a maior perda acontece antes da ação que cria valor para o grupo.</span>
-            </div>
-            <ol class="activation-funnel">
-              <li class="funnel-step" style="--level: 100%; --delay: 0.04s;" tabindex="0">
-                <div><span>01</span><strong>Abertura do app</strong><em>500 usuários</em></div>
-                <i></i>
-              </li>
-              <li class="funnel-step" style="--level: 81%; --delay: 0.12s;" tabindex="0">
-                <div><span>02</span><strong>Cadastro</strong><em>407 usuários</em></div>
-                <i></i>
-              </li>
-              <li class="funnel-step" style="--level: 68%; --delay: 0.20s;" tabindex="0">
-                <div><span>03</span><strong>Perfil completo</strong><em>340 usuários</em></div>
-                <i></i>
-              </li>
-              <li class="funnel-step" style="--level: 44%; --delay: 0.28s;" tabindex="0">
-                <div><span>04</span><strong>Busca realizada</strong><em>219 usuários</em></div>
-                <i></i>
-              </li>
-              <li class="funnel-step is-critical" style="--level: 16%; --delay: 0.36s;" tabindex="0">
-                <div><span>05</span><strong>Convite enviado</strong><em>78 usuários</em></div>
-                <i></i>
-              </li>
-              <li class="funnel-step" style="--level: 6%; --delay: 0.44s;" tabindex="0">
-                <div><span>06</span><strong>Reserva confirmada</strong><em>28 usuários</em></div>
-                <i></i>
-              </li>
-            </ol>
-            <div class="activation-callout">
-              <small>Principal achado</small>
-              <strong>64,8%</strong>
-              <span>da perda relevante ocorre antes do convite enviado</span>
-            </div>
-            <div class="activation-foot">
-              <span><strong>5,6%</strong><em>ativação completa</em></span>
-              <span><strong>35,7%</strong><em>retenção D30 entre ativados</em></span>
-            </div>
-          </div>
-        </div>
-        <div class="case-copy">
-          <div class="case-meta"><span>Projeto principal</span><span>Product Analytics</span><span>SQL + Python + Dashboard</span></div>
-          <h2>Playzone: aumentar ativação</h2>
-          <p>
-            Projeto de produto que diagnostica por que apenas 5,6% dos usuários chegam ao momento de valor e mostra que a primeira alavanca está antes do convite enviado, não no topo do funil.
-          </p>
-          <div class="case-proof-grid">
-            <div><strong>5,6%</strong><span>ativação ordenada até reserva confirmada</span></div>
-            <div><strong>64,8%</strong><span>perda na passagem para convite enviado</span></div>
-            <div><strong>62,2%</strong><span>confirmação depois que o convite acontece</span></div>
-            <div><strong>35,7%</strong><span>retenção D30 entre usuários ativados</span></div>
-          </div>
-          <div class="case-actions">
-            <a class="dashboard-cta" href="projetos/?project=playzone&amp;lang=pt" data-dashboard-case="playzone">Ver projeto</a>
-          </div>
-        </div>
-      </article>
-
-      <div class="case-carousel project-preview">
-        <div class="case-grid project-preview-grid" role="region" aria-label="Projetos em destaque">
-        <article class="case-card reveal">
-          <div class="card-visual mini-case-visual ai-mini" aria-hidden="true">
-            <div class="mini-visual-head">
-              <span>Qualidade IA</span>
-              <strong>500 respostas</strong>
-            </div>
-            <div class="mini-visual-body">
-              <div class="mini-ring" style="--score: 73%;">
-                <strong>3.67</strong>
-                <span>score</span>
-              </div>
-              <div class="mini-metric-grid">
-                <div><small>Release-ready</small><strong>41,0%</strong></div>
-                <div><small>Baseline</small><strong>v3</strong></div>
-              </div>
-            </div>
-            <div class="mini-bar-list">
-              <span style="--bar: 82%;"><small>clareza</small><i></i></span>
-              <span style="--bar: 64%;"><small>segurança</small><i></i></span>
-              <span style="--bar: 46%;"><small>prontidão</small><i></i></span>
-            </div>
-          </div>
-          <div class="card-body">
-            <div class="case-meta"><span>IA aplicada</span><span>Qualidade</span></div>
-            <h3>Governança de release para respostas de IA</h3>
-            <p>Avalia 500 respostas e separa qualidade média de prontidão operacional: 41,0% release-ready, v3 como melhor baseline e backlog por falha.</p>
-            <div class="case-actions">
-              <a class="dashboard-cta" href="projetos/?project=ai-quality&amp;lang=pt" data-dashboard-case="ai-quality">Ver projeto</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="case-card reveal">
-          <div class="card-visual mini-case-visual pipeline-mini" aria-hidden="true">
-            <div class="mini-visual-head">
-              <span>Qualidade do pipeline</span>
-              <strong>98,2%</strong>
-            </div>
-            <div class="mini-visual-body">
-              <div class="mini-status-block is-blocked">
-                <small>Status</small>
-                <strong>Bloqueado</strong>
-              </div>
-              <div class="mini-metric-grid">
-                <div><small>Falhas críticas</small><strong>9</strong></div>
-                <div><small>Pedidos prontos</small><strong>495</strong></div>
-              </div>
-            </div>
-            <div class="mini-bar-list">
-              <span style="--bar: 98%;"><small>score</small><i></i></span>
-              <span style="--bar: 91%;"><small>pedidos</small><i></i></span>
-              <span class="is-alert" style="--bar: 28%;"><small>risco</small><i></i></span>
-            </div>
-          </div>
-          <div class="card-body">
-            <div class="case-meta"><span>Data Quality</span><span>Pipeline</span></div>
-            <h3>Pipeline bloqueado mesmo com 98,2% de score</h3>
-            <p>Gate de qualidade para BI: 9 falhas críticas impedem publicação executiva, mesmo com score acima da meta e 495 pedidos prontos.</p>
-            <div class="case-actions">
-              <a class="dashboard-cta" href="projetos/?project=pipeline&amp;lang=pt" data-dashboard-case="pipeline">Ver projeto</a>
-            </div>
-          </div>
-        </article>
-
-        <article class="case-card reveal">
-          <div class="card-visual mini-case-visual retail-mini" aria-hidden="true">
-            <div class="mini-visual-head">
-              <span>Executivo BI</span>
-              <strong>R$ 1,08M</strong>
-            </div>
-            <div class="mini-visual-body">
-              <div class="mini-status-block">
-                <small>Margem</small>
-                <strong>31,0%</strong>
-              </div>
-              <div class="mini-metric-grid">
-                <div><small>Pedidos</small><strong>6.035</strong></div>
-                <div><small>Alerta</small><strong>2 canais</strong></div>
-              </div>
-            </div>
-            <div class="mini-bar-list">
-              <span style="--bar: 88%;"><small>receita</small><i></i></span>
-              <span style="--bar: 62%;"><small>margem</small><i></i></span>
-              <span class="is-alert" style="--bar: 44%;"><small>meta</small><i></i></span>
-            </div>
-          </div>
-          <div class="card-body">
-            <div class="case-meta"><span>BI / MIS</span><span>Vendas + margem</span></div>
-            <h3>Decisão executiva de receita, margem e metas</h3>
-            <p>BI aprovado para publicação: R$ 1,08M em receita, 31,0% de margem e alerta para proteger rentabilidade em categorias pressionadas.</p>
-            <div class="case-actions">
-              <a class="dashboard-cta" href="projetos/?project=retail&amp;lang=pt" data-dashboard-case="retail">Ver projeto</a>
-            </div>
-          </div>
-        </article>
-        <article class="case-card reveal">
-          <div class="card-visual mini-case-visual tennis-mini" aria-hidden="true">
-            <div class="mini-visual-head"><span>Tennis Pressure</span><strong>167 mil BP</strong></div>
-            <div class="mini-visual-body">
-              <div class="mini-status-block"><small>BP salvos</small><strong>58,7%</strong></div>
-              <div class="mini-metric-grid"><div><small>Outros saques</small><strong>62,2%</strong></div><div><small>Diferença</small><strong>-3,5 p.p.</strong></div></div>
-            </div>
-            <div class="mini-bar-list">
-              <span style="--bar: 59%;"><small>break point</small><i></i></span>
-              <span style="--bar: 62%;"><small>non-BP</small><i></i></span>
-              <span class="is-alert" style="--bar: 35%;"><small>incerteza</small><i></i></span>
-            </div>
-          </div>
-          <div class="card-body">
-            <div class="case-meta"><span>Sports Analytics</span><span>Incerteza</span></div>
-            <h3>Saque sob pressão nos break points</h3>
-            <p>Compara ATP e WTA sem esconder amostras desiguais: denominadores, intervalo Wilson de 95% e limitações da fonte acompanham cada leitura.</p>
-            <div class="case-actions"><a class="dashboard-cta" href="projetos/?project=tennis-pressure&amp;lang=pt" data-dashboard-case="tennis-pressure">Ver projeto</a></div>
-          </div>
-        </article>
-        <article class="case-card reveal">
-            <div class="card-visual mini-case-visual aga-mini" aria-hidden="true">
-              <div class="mini-visual-head"><span>AGA Studio</span><strong>Windows 0.2.4</strong></div>
-              <div class="aga-flow-mini">
-                <span><i>01</i><strong>Dados</strong></span>
-                <svg viewBox="0 0 24 14"><path d="M2 7h17m-4-4 4 4-4 4" /></svg>
-                <span><i>02</i><strong>Cálculo</strong></span>
-                <svg viewBox="0 0 24 14"><path d="M2 7h17m-4-4 4 4-4 4" /></svg>
-                <span><i>03</i><strong>Provas</strong></span>
-                <svg viewBox="0 0 24 14"><path d="M2 7h17m-4-4 4 4-4 4" /></svg>
-                <span><i>04</i><strong>Processo</strong></span>
-              </div>
-              <div class="aga-mini-proof"><span>54 testes do motor</span><span>465 verificações</span></div>
-            </div>
-            <div class="card-body">
-              <div class="case-meta"><span>Business Analysis</span><span>Automação</span></div>
-              <h3>Do processo técnico fragmentado a um fluxo rastreável</h3>
-              <p>Aplicativo Windows que conecta fontes, cálculo de viabilidade, evidências, relatório e preparação do processo OPEA.</p>
-              <div class="case-actions"><a class="dashboard-cta" href="cases/aga-studio/?lang=pt" data-aga-project>Ver projeto</a></div>
-            </div>
-        </article>
-        </div>
-      </div>
-      <div class="interactive-library-action reveal">
-        <span data-projects-index-copy>Todos os projetos, métodos e resultados em uma página.</span>
-        <a class="text-link" href="projetos/" data-projects-index>Ver todos os projetos</a>
-      </div>
-    </section>
-
-    <section id="metodo" class="section method-section">
-      <span id="stack" class="section-anchor" aria-hidden="true"></span>
-      <div class="method-copy reveal">
-        <span class="section-label">Método aplicado</span>
-        <h2>Do problema à decisão, com validação no caminho.</h2>
-        <p>
-          O portfólio foi organizado para mostrar raciocínio analítico completo: pergunta de negócio, métrica correta, consulta reproduzível, validação e entrega visual.
-        </p>
-        <div class="method-tools" aria-label="Ferramentas aplicadas nos projetos">
-          <span>SQL</span>
-          <span>Python</span>
-          <span>Power BI</span>
-          <span>DuckDB</span>
-          <span>Product Analytics</span>
-          <span>Data Quality</span>
-        </div>
-      </div>
-
-      <div class="method-proof reveal">
-        <div class="method-proof-flow" aria-label="Fluxo de trabalho analítico">
-          <article class="work-step">
-            <span>01</span>
-            <h3>Pergunta que muda decisão</h3>
-            <p>Parto da decisão que precisa ser tomada antes de escolher gráfico, métrica ou ferramenta.</p>
-          </article>
-          <article class="work-step">
-            <span>02</span>
-            <h3>Métrica e granularidade</h3>
-            <p>Defino unidade de análise, regras de cálculo, segmentações e critérios de comparação.</p>
-          </article>
-          <article class="work-step">
-            <span>03</span>
-            <h3>Validação antes do dashboard</h3>
-            <p>Confiro nulos, duplicidades, totais, desvios e coerência antes de transformar resultado em visual.</p>
-          </article>
-          <article class="work-step">
-            <span>04</span>
-            <h3>Insight com próxima ação</h3>
-            <p>Entrego leitura executiva: onde agir, qual risco observar e que evidência sustenta a decisão.</p>
-          </article>
-        </div>
-
-        <aside class="case-evidence-panel" aria-label="Evidências dos projetos">
-          <div class="panel-label">
-            <strong>Evidências por projeto</strong>
-          </div>
-          <div class="case-evidence-list">
-            <div><span>Playzone</span><strong>perda crítica antes do convite enviado</strong></div>
-            <div><span>AI Quality</span><strong>baseline v3 e prontidão operacional</strong></div>
-            <div><span>Pipeline</span><strong>bloqueio mesmo com 98,2% de score</strong></div>
-            <div><span>Retail BI</span><strong>margem, meta e alerta por canal</strong></div>
-            <div><span>Tennis Pressure</span><strong>pressão com amostra e incerteza visíveis</strong></div>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <section id="contato" class="contact-section">
-      <div class="contact-panel reveal">
-        <p>Curitiba/PR · remoto, híbrido ou presencial conforme oportunidade</p>
-        <h2>Se sua equipe precisa transformar dados e indicadores em análises claras, vamos conversar.</h2>
-        <div class="hero-actions center-actions">
-          <a class="button primary" href="mailto:bruniversamente@gmail.com">bruniversamente@gmail.com</a>
-          <a class="button secondary" href="https://linkedin.com/in/bruniversamente" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a class="button ghost" href="https://github.com/bruniversamente" target="_blank" rel="noreferrer">GitHub</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <p>© 2026 Bruno Nascimento. Portfólio estático publicado com GitHub Pages.</p>
-    <a href="#top">Voltar ao topo</a>
-  </footer>
-</body>
+</div>
+<p class="empty" hidden="">Nenhuma área encontrada.</p>
+<div class="area-feed" hidden="" id="area-feed"></div>
+<div class="project-grid index-view area-index" hidden="" id="area-index"></div>
+<article hidden="" id="project-page"></article>
+</main>
+<section aria-label="Filtrar áreas" class="filter-panel" hidden="" id="filters"><button aria-pressed="true" class="button" data-filter="all">Todas</button></section>
+<footer class="bottom-panel"><div class="bottom-inner"><div class="bottom-actions"><button aria-controls="filters" aria-expanded="false" class="button" id="filter-toggle">Filtrar</button><button aria-label="Aumentar imagens" class="icon-button zoom-button" id="larger"><svg aria-hidden="true" viewbox="0 0 32 32"><path d="M16 6v20M6 16h20"></path></svg></button><button aria-label="Diminuir imagens" class="icon-button zoom-button" id="smaller"><svg aria-hidden="true" viewbox="0 0 32 32"><path d="M6 16h20"></path></svg></button></div></div></footer>
+<dialog aria-labelledby="area-title" id="area-dialog"><div class="dialog-bar"><h2 id="area-title"></h2><button class="button" data-close="area-dialog">Fechar ×</button></div><img alt="" class="dialog-image" id="area-image"/><p id="area-description"></p><p class="credit" id="area-credit"></p><a class="button" id="area-link" rel="noopener" target="_blank">Ver projeto ↗</a></dialog>
+<dialog aria-labelledby="about-title" id="about-dialog"><div class="dialog-bar"><h2 id="about-title">Bruno Nascimento</h2><button class="button" data-close="about-dialog">Fechar ×</button></div><p>Portfólio de Bruno Nascimento. Estudos de análise de dados, BI, qualidade de dados, IA aplicada e análise esportiva.</p></dialog>
+<noscript>Ative o JavaScript para explorar os projetos e suas visualizações interativas.</noscript></body>
 </html>

@@ -1,0 +1,15 @@
+{
+  "release": "dados-bi-20261103",
+  "base_commit": "b0708be36f59e046e8d00bbfb01b73134426829b",
+  "areas": [
+    "dados"
+  ],
+  "projects": [
+    "dados-01",
+    "dados-02",
+    "dados-03",
+    "dados-04",
+    "dados-05"
+  ],
+  "new_payload_bytes": 2228628
+}

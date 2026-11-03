@@ -1,0 +1,23 @@
+{
+  "area": "dados",
+  "id": "dados-01",
+  "title": "Playzone",
+  "subtitle": "estudo de dados e BI",
+  "tags": [
+    "Dados e BI"
+  ],
+  "intro": "Playzone · estudo de dados e BI.",
+  "sections": [],
+  "credits": [],
+  "credit": "Playzone · estudo de dados e BI.",
+  "media": [
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/95847259f682705e29f6.webp",
+      "width": 1440,
+      "height": 1120,
+      "alt": "Playzone"
+    }
+  ],
+  "links": []
+}

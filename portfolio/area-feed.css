@@ -1,0 +1,23 @@
+/* Base Feed: .4rem gutters, 199:226 unit, horizontal cells span two units. */
+main[data-area]:not([data-area=""]){container-type:inline-size}
+.area-feed{--feed-gap:.4rem;--feed-units:6;--feed-unit:calc((100cqw - (var(--feed-units) - 1)*var(--feed-gap))/var(--feed-units));display:grid;container-type:inline-size;grid-template-columns:repeat(var(--feed-units),minmax(0,1fr));grid-auto-rows:calc(var(--feed-unit)*226/199);grid-auto-flow:row dense;gap:var(--feed-gap)}
+.feed-card{display:block;position:relative;min-width:0;min-height:0;overflow:hidden;border:1px solid var(--ink);background:var(--paper)}
+.feed-card[data-orientation=h]{grid-column:span 2}
+.feed-media{display:block;width:100%;height:100%}.feed-media img{display:block;width:100%;height:100%;object-fit:cover}
+.feed-media{transform:scale(1);transition:transform 350ms ease-out;transform-origin:center}
+.feed-overlay{position:absolute;inset:0;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:.8rem;padding:1.6rem;text-align:center;color:#eee;background:rgb(0 0 0 / 58%);opacity:0;transition:opacity 250ms ease-out;pointer-events:none}
+.feed-title{font-size:2.2rem;font-weight:400;line-height:1.05;text-transform:uppercase;text-wrap:balance;overflow-wrap:anywhere}
+.feed-subtitle{font-size:1.2rem;font-weight:400;line-height:1.3;text-wrap:balance;overflow-wrap:anywhere}
+.feed-card:focus-visible .feed-media{transform:scale(1.06)}.feed-card:focus-visible .feed-overlay{opacity:1}
+@media(hover:hover){.feed-card:hover .feed-media{transform:scale(1.06)}.feed-card:hover .feed-overlay{opacity:1}}
+@media(prefers-reduced-motion:reduce){.feed-card .feed-media{transform:none!important;transition:none}.feed-overlay{transition:none}}
+.main[data-area=arquitetura] .feed-media img,.main[data-area=dados] .feed-media img,.main[data-area=produtos] .feed-media img,.main[data-area=consultoria] .feed-media img{object-fit:contain}
+.main[data-area] .feed-card[data-orientation=h] .feed-media img{object-fit:cover}
+.main[data-area=beleza] .feed-card[data-orientation=h] .feed-media img{object-position:50% 35%}
+#area-view{max-width:33rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:block}
+.area-index .project-card{cursor:pointer}.area-index .project-description{padding-left:1.6rem}
+.detail-thumbnails{display:flex;gap:.8rem;margin-bottom:2.4rem;overflow:auto}
+.detail-thumbnail{width:8rem;height:8rem;flex-shrink:0;border:1px solid var(--ink)}.detail-thumbnail img{display:block;width:100%;height:100%;object-fit:cover}.detail-thumbnail[aria-pressed=true]{outline:2px solid var(--ink);outline-offset:2px}
+main[data-area]:not([data-area=""])~.filter-panel{max-height:45svh;overflow:auto}
+@media(max-width:1023.98px){.area-feed{--feed-units:2!important}.main[data-area]:not([data-area=""]){padding-inline:var(--margin-s)}#area-view{max-width:20rem}.area-index .project-description{padding-left:0}}
+@media(max-width:600px){#area-view{max-width:9rem}.header:has(#area-view:not([hidden])) .brand{max-width:9rem}.header:has(#area-view:not([hidden])) .primary-nav{margin-right:.4rem}.header:has(#area-view:not([hidden])) .primary-nav .button{padding-inline:.5rem}.header:has(#area-view:not([hidden])) .brand{font-size:1rem}}

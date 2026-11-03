@@ -1,23 +1,11 @@
-# Bruno Nascimento | Portfólio
+# Bruno Nascimento · Dados e BI
 
-Site estático de portfólio profissional para projetos de Dados, BI, Product Analytics, IA aplicada e qualidade de dados.
+Portfólio estático publicado em https://bruniversamente.github.io/ com Inter, índice, busca, filtros, páginas de projetos, visualizações interativas e galeria.
 
-## Projetos destacados
+## Publicação de 03/11/2026
 
-- [Case principal: Playzone Product Analytics](https://github.com/bruniversamente/product-analytics-funnel-retention) - ativação, funil ordenado, retenção e liquidez de marketplace
-- [AI Response Quality Analysis](https://github.com/bruniversamente/ai-response-quality-analysis) - governança de release para respostas de IA
-- [Data Pipeline Quality Checks](https://github.com/bruniversamente/data-pipeline-quality-checks) - gate de qualidade que bloqueia BI mesmo com score alto
-- [Dashboard Executivo de Vendas e Margem](https://github.com/bruniversamente/retail-bi-sales-dashboard) - decisão executiva de receita, margem e metas
-- [Tennis Pressure Analytics](https://github.com/bruniversamente/tennis-pressure-analytics) - Sports Analytics com amostras e intervalos de confiança visíveis
+Esta etapa mantém a home de áreas, exibindo somente Dados e BI. Ao entrar nessa área, o visitante encontra Playzone, Varejo, Pipeline, Qualidade de IA e Tennis Pressure Analytics. As demais áreas serão publicadas depois.
 
-## Site
+O novo leitor está em `portfolio/`. Os dashboards completos em `dashboards/` e os endereços anteriores em `projetos/` e `cases/` foram preservados para manter links existentes. Os quatro primeiros estudos usam dados sintéticos; Tennis Pressure utiliza a fonte colaborativa Match Charting Project com atribuição, cobertura e ressalvas visíveis.
 
-https://bruniversamente.github.io/
-
-## Dashboards interativos
-
-https://bruniversamente.github.io/dashboards/
-
-## Stack
-
-HTML, CSS e JavaScript leves, sem dependências externas.
+O Pages continua usando a branch `main` e a raiz, sem novas dependências ou mudanças no fluxo de publicação.

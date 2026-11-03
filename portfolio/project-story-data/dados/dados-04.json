@@ -1,0 +1,1039 @@
+{
+  "area": "dados",
+  "id": "dados-04",
+  "title": "Qualidade de IA",
+  "subtitle": "Da avaliação à prontidão para uso",
+  "tags": [
+    "Dados e BI"
+  ],
+  "intro": "Uma avaliação de respostas de IA que combina critérios de qualidade, severidade, retrabalho e prontidão para uso.",
+  "sections": [],
+  "credits": [],
+  "credit": "",
+  "media": [
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/8391d5fe574da07dafff.webp",
+      "width": 1440,
+      "height": 1120,
+      "alt": "Dashboard completo do estudo Qualidade de IA",
+      "id": "dashboard",
+      "caption": "Registro da apresentação anterior. Abra a galeria para ampliar."
+    }
+  ],
+  "links": [],
+  "cover": {
+    "id": "analysis-cover",
+    "type": "image",
+    "src": "portfolio/assets/project/analysis-ai-quality.svg",
+    "width": 1200,
+    "height": 600,
+    "alt": "Prontidão = aprovação + qualidade ≥ 4 + ausência de severidade alta",
+    "caption": "Visualização de abertura derivada dos dados do estudo."
+  },
+  "analysisData": {
+    "kpi_summary": [
+      {
+        "reviewed_responses": 500,
+        "avg_quality_score": 3.67,
+        "release_ready_rate": 0.41,
+        "rework_rate": 0.414,
+        "critical_issue_rate": 0.176,
+        "avg_review_time_minutes": 10.4,
+        "avg_latency_seconds": 3.45
+      }
+    ],
+    "prompt_version_performance": [
+      {
+        "prompt_version": "v1",
+        "reviewed_responses": 159,
+        "avg_quality_score": 3.21,
+        "release_ready_rate": 0.1824,
+        "rework_rate": 0.478,
+        "critical_issue_rate": 0.3396,
+        "avg_review_time_minutes": 10.12
+      },
+      {
+        "prompt_version": "v2",
+        "reviewed_responses": 168,
+        "avg_quality_score": 3.74,
+        "release_ready_rate": 0.4345,
+        "rework_rate": 0.4226,
+        "critical_issue_rate": 0.1429,
+        "avg_review_time_minutes": 10.61
+      },
+      {
+        "prompt_version": "v3",
+        "reviewed_responses": 173,
+        "avg_quality_score": 4.02,
+        "release_ready_rate": 0.5954,
+        "rework_rate": 0.3468,
+        "critical_issue_rate": 0.0578,
+        "avg_review_time_minutes": 10.45
+      }
+    ],
+    "quality_by_use_case": [
+      {
+        "use_case": "Ticket Summary",
+        "task_type": "Summarization",
+        "reviewed_responses": 116,
+        "avg_quality_score": 3.48,
+        "avg_accuracy": 3.57,
+        "avg_completeness": 3.2,
+        "avg_clarity": 3.63,
+        "avg_tone": 3.59,
+        "avg_actionability": 3.41,
+        "release_ready_rate": 0.3103,
+        "avg_review_time_minutes": 10.11
+      },
+      {
+        "use_case": "Data Explanation",
+        "task_type": "Analysis Support",
+        "reviewed_responses": 131,
+        "avg_quality_score": 3.67,
+        "avg_accuracy": 3.61,
+        "avg_completeness": 3.57,
+        "avg_clarity": 3.72,
+        "avg_tone": 3.75,
+        "avg_actionability": 3.68,
+        "release_ready_rate": 0.4198,
+        "avg_review_time_minutes": 10.47
+      },
+      {
+        "use_case": "Message Classification",
+        "task_type": "Classification",
+        "reviewed_responses": 119,
+        "avg_quality_score": 3.72,
+        "avg_accuracy": 3.66,
+        "avg_completeness": 3.8,
+        "avg_clarity": 3.65,
+        "avg_tone": 3.76,
+        "avg_actionability": 3.74,
+        "release_ready_rate": 0.4286,
+        "avg_review_time_minutes": 10.68
+      },
+      {
+        "use_case": "Report Drafting",
+        "task_type": "Drafting",
+        "reviewed_responses": 134,
+        "avg_quality_score": 3.79,
+        "avg_accuracy": 3.89,
+        "avg_completeness": 3.91,
+        "avg_clarity": 3.83,
+        "avg_tone": 3.67,
+        "avg_actionability": 3.63,
+        "release_ready_rate": 0.4701,
+        "avg_review_time_minutes": 10.32
+      }
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "Actionability",
+        "avg_score": 3.62
+      },
+      {
+        "dimension": "Completeness",
+        "avg_score": 3.63
+      },
+      {
+        "dimension": "Tone fit",
+        "avg_score": 3.69
+      },
+      {
+        "dimension": "Accuracy",
+        "avg_score": 3.69
+      },
+      {
+        "dimension": "Clarity",
+        "avg_score": 3.71
+      }
+    ],
+    "issue_distribution": [
+      {
+        "issue_type": "Missing Context",
+        "severity": "Medium",
+        "occurrences": 53,
+        "share_of_reviews": 0.1797
+      },
+      {
+        "issue_type": "Too Generic",
+        "severity": "Medium",
+        "occurrences": 38,
+        "share_of_reviews": 0.1288
+      },
+      {
+        "issue_type": "Low Actionability",
+        "severity": "Medium",
+        "occurrences": 35,
+        "share_of_reviews": 0.1186
+      },
+      {
+        "issue_type": "Format Issue",
+        "severity": "Medium",
+        "occurrences": 31,
+        "share_of_reviews": 0.1051
+      },
+      {
+        "issue_type": "Incomplete",
+        "severity": "Medium",
+        "occurrences": 26,
+        "share_of_reviews": 0.0881
+      },
+      {
+        "issue_type": "Wrong Category",
+        "severity": "Medium",
+        "occurrences": 24,
+        "share_of_reviews": 0.0814
+      },
+      {
+        "issue_type": "Incomplete",
+        "severity": "High",
+        "occurrences": 20,
+        "share_of_reviews": 0.0678
+      },
+      {
+        "issue_type": "Missing Context",
+        "severity": "High",
+        "occurrences": 20,
+        "share_of_reviews": 0.0678
+      },
+      {
+        "issue_type": "Low Actionability",
+        "severity": "High",
+        "occurrences": 16,
+        "share_of_reviews": 0.0542
+      },
+      {
+        "issue_type": "Format Issue",
+        "severity": "High",
+        "occurrences": 15,
+        "share_of_reviews": 0.0508
+      },
+      {
+        "issue_type": "Too Generic",
+        "severity": "High",
+        "occurrences": 12,
+        "share_of_reviews": 0.0407
+      },
+      {
+        "issue_type": "Wrong Category",
+        "severity": "High",
+        "occurrences": 5,
+        "share_of_reviews": 0.0169
+      }
+    ],
+    "monthly_quality_trend": [
+      {
+        "response_month": "2026-02",
+        "reviewed_responses": 87,
+        "avg_quality_score": 3.6,
+        "release_ready_rate": 0.3563,
+        "critical_issue_rate": 0.1954
+      },
+      {
+        "response_month": "2026-03",
+        "reviewed_responses": 130,
+        "avg_quality_score": 3.63,
+        "release_ready_rate": 0.4385,
+        "critical_issue_rate": 0.2
+      },
+      {
+        "response_month": "2026-04",
+        "reviewed_responses": 135,
+        "avg_quality_score": 3.62,
+        "release_ready_rate": 0.3556,
+        "critical_issue_rate": 0.1852
+      },
+      {
+        "response_month": "2026-05",
+        "reviewed_responses": 148,
+        "avg_quality_score": 3.79,
+        "release_ready_rate": 0.4662,
+        "critical_issue_rate": 0.1351
+      }
+    ],
+    "reviewer_calibration": [
+      {
+        "reviewer_id": "REV03",
+        "reviewed_responses": 165,
+        "avg_quality_score": 3.67,
+        "score_stddev": 0.82,
+        "avg_review_time_minutes": 10.16,
+        "rework_rate": 0.3636
+      },
+      {
+        "reviewer_id": "REV01",
+        "reviewed_responses": 112,
+        "avg_quality_score": 3.55,
+        "score_stddev": 0.73,
+        "avg_review_time_minutes": 9.97,
+        "rework_rate": 0.4911
+      },
+      {
+        "reviewer_id": "REV04",
+        "reviewed_responses": 112,
+        "avg_quality_score": 3.69,
+        "score_stddev": 0.78,
+        "avg_review_time_minutes": 11.04,
+        "rework_rate": 0.4107
+      },
+      {
+        "reviewer_id": "REV02",
+        "reviewed_responses": 111,
+        "avg_quality_score": 3.76,
+        "score_stddev": 0.7,
+        "avg_review_time_minutes": 10.54,
+        "rework_rate": 0.4144
+      }
+    ],
+    "improvement_backlog": [
+      {
+        "use_case": "Data Explanation",
+        "prompt_version": "v1",
+        "reviewed_responses": 44,
+        "avg_quality_score": 3.25,
+        "avg_actionability": 3.32,
+        "release_ready_rate": 0.1591,
+        "not_approved_cases": 37,
+        "avg_review_time_minutes": 10.39
+      },
+      {
+        "use_case": "Report Drafting",
+        "prompt_version": "v1",
+        "reviewed_responses": 39,
+        "avg_quality_score": 3.22,
+        "avg_actionability": 3.1,
+        "release_ready_rate": 0.1795,
+        "not_approved_cases": 32,
+        "avg_review_time_minutes": 9.79
+      },
+      {
+        "use_case": "Message Classification",
+        "prompt_version": "v1",
+        "reviewed_responses": 41,
+        "avg_quality_score": 3.2,
+        "avg_actionability": 3.34,
+        "release_ready_rate": 0.1951,
+        "not_approved_cases": 33,
+        "avg_review_time_minutes": 10.66
+      },
+      {
+        "use_case": "Ticket Summary",
+        "prompt_version": "v1",
+        "reviewed_responses": 35,
+        "avg_quality_score": 3.19,
+        "avg_actionability": 3.06,
+        "release_ready_rate": 0.2,
+        "not_approved_cases": 28,
+        "avg_review_time_minutes": 9.51
+      },
+      {
+        "use_case": "Ticket Summary",
+        "prompt_version": "v2",
+        "reviewed_responses": 45,
+        "avg_quality_score": 3.35,
+        "avg_actionability": 3.36,
+        "release_ready_rate": 0.2444,
+        "not_approved_cases": 34,
+        "avg_review_time_minutes": 10.29
+      },
+      {
+        "use_case": "Data Explanation",
+        "prompt_version": "v2",
+        "reviewed_responses": 45,
+        "avg_quality_score": 3.72,
+        "avg_actionability": 3.76,
+        "release_ready_rate": 0.4444,
+        "not_approved_cases": 25,
+        "avg_review_time_minutes": 11.0
+      },
+      {
+        "use_case": "Ticket Summary",
+        "prompt_version": "v3",
+        "reviewed_responses": 36,
+        "avg_quality_score": 3.91,
+        "avg_actionability": 3.81,
+        "release_ready_rate": 0.5,
+        "not_approved_cases": 18,
+        "avg_review_time_minutes": 10.47
+      },
+      {
+        "use_case": "Message Classification",
+        "prompt_version": "v2",
+        "reviewed_responses": 30,
+        "avg_quality_score": 4.0,
+        "avg_actionability": 3.93,
+        "release_ready_rate": 0.5,
+        "not_approved_cases": 15,
+        "avg_review_time_minutes": 10.7
+      },
+      {
+        "use_case": "Report Drafting",
+        "prompt_version": "v2",
+        "reviewed_responses": 48,
+        "avg_quality_score": 3.95,
+        "avg_actionability": 3.83,
+        "release_ready_rate": 0.5625,
+        "not_approved_cases": 21,
+        "avg_review_time_minutes": 10.48
+      },
+      {
+        "use_case": "Message Classification",
+        "prompt_version": "v3",
+        "reviewed_responses": 48,
+        "avg_quality_score": 4.0,
+        "avg_actionability": 3.96,
+        "release_ready_rate": 0.5833,
+        "not_approved_cases": 20,
+        "avg_review_time_minutes": 10.69
+      }
+    ],
+    "data_quality_summary": [
+      {
+        "rule_name": "response_without_evaluation",
+        "severity": "Critical",
+        "failed_records": 0
+      },
+      {
+        "rule_name": "evaluation_without_response",
+        "severity": "Critical",
+        "failed_records": 0
+      },
+      {
+        "rule_name": "score_outside_expected_range",
+        "severity": "Critical",
+        "failed_records": 0
+      },
+      {
+        "rule_name": "approved_with_high_severity",
+        "severity": "Critical",
+        "failed_records": 0
+      },
+      {
+        "rule_name": "duplicate_response_evaluation",
+        "severity": "Critical",
+        "failed_records": 0
+      },
+      {
+        "rule_name": "approved_but_below_threshold",
+        "severity": "Warning",
+        "failed_records": 0
+      }
+    ]
+  },
+  "story": {
+    "navigation": true,
+    "coverFit": "contain",
+    "notice": "Estudo de portfólio · dados sintéticos",
+    "chapters": [
+      {
+        "id": "contexto",
+        "label": "Contexto",
+        "title": "Qualidade suficiente para usar uma resposta?",
+        "kicker": "01 · Pergunta e avaliação",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O estudo simula uma operação de avaliação de respostas de IA para resumos, classificações, rascunhos e explicações de dados. A análise combina notas, retrabalho, severidade e prontidão para uso, em vez de resumir o resultado à nota média."
+            ]
+          },
+          {
+            "type": "analysis",
+            "kind": "overview",
+            "case": "ai-quality"
+          },
+          {
+            "type": "reading",
+            "items": [
+              "A qualidade média é de 3,67 em uma escala até cinco, mas somente 41% das respostas atendem à regra de prontidão para uso.",
+              "Os números representam avaliações sintéticas do estudo. A comparação entre versões não comprova um ganho de produção."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "metodo",
+        "label": "Método",
+        "title": "Uma rubrica com cinco dimensões e uma regra de uso",
+        "kicker": "02 · Critério e confiabilidade",
+        "blocks": [
+          {
+            "type": "method",
+            "title": "Nota média não substitui a prontidão",
+            "paragraphs": [
+              "Cada resposta deve ter uma avaliação. A qualidade resulta da média de exatidão, completude, clareza, tom e aplicabilidade, com notas entre um e cinco.",
+              "Para estar pronta para uso, a resposta precisa de aprovação, nota mínima quatro e ausência de severidade alta. O estudo também acompanha tempo de revisão, retrabalho e diferenças entre revisores."
+            ],
+            "flow": [
+              "Resposta",
+              "Avaliação",
+              "Cinco dimensões",
+              "Regra de prontidão",
+              "Fila de melhoria"
+            ],
+            "code": "qualidade = (exatidão + completude + clareza + tom + aplicabilidade) / 5\npronta = status Approved E qualidade >= 4 E severidade diferente de High\nprontidão = respostas prontas / respostas avaliadas\nproblemas críticos = casos de severidade alta / respostas avaliadas",
+            "files": [
+              "ai-response-quality-analysis/docs/business_rules.md",
+              "ai-response-quality-analysis/sql/03_quality_metrics.sql",
+              "ai-response-quality-analysis/sql/04_prompt_version_analysis.sql"
+            ]
+          },
+          {
+            "type": "analysis",
+            "kind": "evidence",
+            "title": "Conferir a avaliação e os revisores",
+            "tables": [
+              {
+                "key": "data_quality_summary",
+                "title": "Qualidade dos dados",
+                "columns": [
+                  {
+                    "key": "rule_name",
+                    "label": "Regra",
+                    "format": null
+                  },
+                  {
+                    "key": "severity",
+                    "label": "Severidade",
+                    "format": null
+                  },
+                  {
+                    "key": "failed_records",
+                    "label": "Ocorrências",
+                    "format": "number"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "reviewer_calibration",
+                "title": "Calibração de revisores",
+                "columns": [
+                  {
+                    "key": "reviewer_id",
+                    "label": "Revisor",
+                    "format": null
+                  },
+                  {
+                    "key": "reviewed_responses",
+                    "label": "Avaliações",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_quality_score",
+                    "label": "Qualidade média",
+                    "format": "number"
+                  },
+                  {
+                    "key": "score_stddev",
+                    "label": "Desvio da nota",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_review_time_minutes",
+                    "label": "Revisão (min)",
+                    "format": "number"
+                  },
+                  {
+                    "key": "rework_rate",
+                    "label": "Retrabalho",
+                    "format": "pct"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              }
+            ]
+          },
+          {
+            "type": "reading",
+            "items": [
+              "Diferenças de notas entre revisores pedem calibração dos critérios. Volume e dispersão precisam acompanhar a comparação; uma média isolada não identifica o motivo da diferença."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "diagnostico",
+        "label": "Diagnóstico",
+        "title": "Comparar versões e entender o que corrigir",
+        "kicker": "03 · Diagnóstico da qualidade",
+        "blocks": [
+          {
+            "type": "analysis",
+            "kind": "ai-versions"
+          },
+          {
+            "type": "analysis",
+            "kind": "ai-diagnosis"
+          },
+          {
+            "type": "analysis",
+            "kind": "ai-backlog"
+          },
+          {
+            "type": "analysis",
+            "kind": "evidence",
+            "title": "Problemas e evolução no tempo",
+            "tables": [
+              {
+                "key": "issue_distribution",
+                "title": "Distribuição de problemas",
+                "columns": [
+                  {
+                    "key": "issue_type",
+                    "label": "Problema",
+                    "format": null
+                  },
+                  {
+                    "key": "severity",
+                    "label": "Severidade",
+                    "format": null
+                  },
+                  {
+                    "key": "occurrences",
+                    "label": "Ocorrências",
+                    "format": "number"
+                  },
+                  {
+                    "key": "share_of_reviews",
+                    "label": "Participação na distribuição",
+                    "format": "pct"
+                  }
+                ],
+                "note": "Participação calculada dentro da distribuição de problemas registrada no estudo; não equivale à taxa global de problemas críticos."
+              },
+              {
+                "key": "monthly_quality_trend",
+                "title": "Evolução mensal",
+                "columns": [
+                  {
+                    "key": "response_month",
+                    "label": "Mês",
+                    "format": null
+                  },
+                  {
+                    "key": "reviewed_responses",
+                    "label": "Avaliações",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_quality_score",
+                    "label": "Qualidade média",
+                    "format": "number"
+                  },
+                  {
+                    "key": "release_ready_rate",
+                    "label": "Prontidão",
+                    "format": "pct"
+                  },
+                  {
+                    "key": "critical_issue_rate",
+                    "label": "Problemas críticos",
+                    "format": "pct"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              }
+            ]
+          },
+          {
+            "type": "reading",
+            "items": [
+              "A v3 apresenta 59,5% de prontidão, contra 18,2% da v1. As versões têm tamanhos e composições próprios; o resultado orienta uma revisão comparativa.",
+              "Ticket Summary tem a menor qualidade média por caso de uso. Aplicabilidade é a dimensão mais fraca da rubrica e falta de contexto lidera a distribuição de problemas registrada."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "conclusoes",
+        "label": "Conclusões",
+        "title": "Organizar a melhoria pelo problema observado",
+        "kicker": "04 · Melhoria e evidências",
+        "blocks": [
+          {
+            "type": "decisions",
+            "items": [
+              {
+                "title": "v3 como referência",
+                "label": "Próxima comparação",
+                "body": "Inspecionar os exemplos que atendem à regra de prontidão antes de adotar ou ampliar o uso da versão."
+              },
+              {
+                "title": "Contexto e aplicabilidade",
+                "label": "Prioridade da revisão",
+                "body": "Examinar os casos de Ticket Summary, os problemas de contexto e as respostas que ainda não orientam uma ação clara."
+              },
+              {
+                "title": "Revisão humana",
+                "label": "Critério de acompanhamento",
+                "body": "Manter rubrica, calibração e qualidade dos dados junto da análise de retrabalho e severidade."
+              }
+            ]
+          },
+          {
+            "type": "analysis",
+            "kind": "evidence",
+            "title": "Consultar os dados da análise",
+            "tables": [
+              {
+                "key": "kpi_summary",
+                "title": "Indicadores gerais",
+                "columns": [
+                  {
+                    "key": "reviewed_responses",
+                    "label": "Avaliações",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_quality_score",
+                    "label": "Qualidade média",
+                    "format": "number"
+                  },
+                  {
+                    "key": "release_ready_rate",
+                    "label": "Prontidão",
+                    "format": "pct"
+                  },
+                  {
+                    "key": "rework_rate",
+                    "label": "Retrabalho",
+                    "format": "pct"
+                  },
+                  {
+                    "key": "critical_issue_rate",
+                    "label": "Problemas críticos",
+                    "format": "pct"
+                  },
+                  {
+                    "key": "avg_review_time_minutes",
+                    "label": "Revisão (min)",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_latency_seconds",
+                    "label": "Latência (s)",
+                    "format": "number"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "prompt_version_performance",
+                "title": "Versões de prompt",
+                "columns": [
+                  {
+                    "key": "prompt_version",
+                    "label": "Versão",
+                    "format": null
+                  },
+                  {
+                    "key": "reviewed_responses",
+                    "label": "Avaliações",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_quality_score",
+                    "label": "Qualidade média",
+                    "format": "number"
+                  },
+                  {
+                    "key": "release_ready_rate",
+                    "label": "Prontidão",
+                    "format": "pct"
+                  },
+                  {
+                    "key": "rework_rate",
+                    "label": "Retrabalho",
+                    "format": "pct"
+                  },
+                  {
+                    "key": "critical_issue_rate",
+                    "label": "Problemas críticos",
+                    "format": "pct"
+                  },
+                  {
+                    "key": "avg_review_time_minutes",
+                    "label": "Revisão (min)",
+                    "format": "number"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "quality_by_use_case",
+                "title": "Casos de uso",
+                "columns": [
+                  {
+                    "key": "use_case",
+                    "label": "Caso de uso",
+                    "format": null
+                  },
+                  {
+                    "key": "task_type",
+                    "label": "Tarefa",
+                    "format": null
+                  },
+                  {
+                    "key": "reviewed_responses",
+                    "label": "Avaliações",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_quality_score",
+                    "label": "Qualidade média",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_accuracy",
+                    "label": "Exatidão",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_completeness",
+                    "label": "Completude",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_clarity",
+                    "label": "Clareza",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_tone",
+                    "label": "Tom",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_actionability",
+                    "label": "Aplicabilidade",
+                    "format": "number"
+                  },
+                  {
+                    "key": "release_ready_rate",
+                    "label": "Prontidão",
+                    "format": "pct"
+                  },
+                  {
+                    "key": "avg_review_time_minutes",
+                    "label": "Revisão (min)",
+                    "format": "number"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "dimension_scores",
+                "title": "Dimensões da qualidade",
+                "columns": [
+                  {
+                    "key": "dimension",
+                    "label": "Dimensão",
+                    "format": null
+                  },
+                  {
+                    "key": "avg_score",
+                    "label": "Nota média",
+                    "format": "number"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "issue_distribution",
+                "title": "Distribuição de problemas",
+                "columns": [
+                  {
+                    "key": "issue_type",
+                    "label": "Problema",
+                    "format": null
+                  },
+                  {
+                    "key": "severity",
+                    "label": "Severidade",
+                    "format": null
+                  },
+                  {
+                    "key": "occurrences",
+                    "label": "Ocorrências",
+                    "format": "number"
+                  },
+                  {
+                    "key": "share_of_reviews",
+                    "label": "Participação na distribuição",
+                    "format": "pct"
+                  }
+                ],
+                "note": "Participação calculada dentro da distribuição de problemas registrada no estudo; não equivale à taxa global de problemas críticos."
+              },
+              {
+                "key": "monthly_quality_trend",
+                "title": "Evolução mensal",
+                "columns": [
+                  {
+                    "key": "response_month",
+                    "label": "Mês",
+                    "format": null
+                  },
+                  {
+                    "key": "reviewed_responses",
+                    "label": "Avaliações",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_quality_score",
+                    "label": "Qualidade média",
+                    "format": "number"
+                  },
+                  {
+                    "key": "release_ready_rate",
+                    "label": "Prontidão",
+                    "format": "pct"
+                  },
+                  {
+                    "key": "critical_issue_rate",
+                    "label": "Problemas críticos",
+                    "format": "pct"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "reviewer_calibration",
+                "title": "Calibração de revisores",
+                "columns": [
+                  {
+                    "key": "reviewer_id",
+                    "label": "Revisor",
+                    "format": null
+                  },
+                  {
+                    "key": "reviewed_responses",
+                    "label": "Avaliações",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_quality_score",
+                    "label": "Qualidade média",
+                    "format": "number"
+                  },
+                  {
+                    "key": "score_stddev",
+                    "label": "Desvio da nota",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_review_time_minutes",
+                    "label": "Revisão (min)",
+                    "format": "number"
+                  },
+                  {
+                    "key": "rework_rate",
+                    "label": "Retrabalho",
+                    "format": "pct"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "improvement_backlog",
+                "title": "Fila de melhoria",
+                "columns": [
+                  {
+                    "key": "use_case",
+                    "label": "Caso de uso",
+                    "format": null
+                  },
+                  {
+                    "key": "prompt_version",
+                    "label": "Versão",
+                    "format": null
+                  },
+                  {
+                    "key": "reviewed_responses",
+                    "label": "Avaliações",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_quality_score",
+                    "label": "Qualidade média",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_actionability",
+                    "label": "Aplicabilidade",
+                    "format": "number"
+                  },
+                  {
+                    "key": "release_ready_rate",
+                    "label": "Prontidão",
+                    "format": "pct"
+                  },
+                  {
+                    "key": "not_approved_cases",
+                    "label": "Não aprovadas",
+                    "format": "number"
+                  },
+                  {
+                    "key": "avg_review_time_minutes",
+                    "label": "Revisão (min)",
+                    "format": "number"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "data_quality_summary",
+                "title": "Qualidade dos dados",
+                "columns": [
+                  {
+                    "key": "rule_name",
+                    "label": "Regra",
+                    "format": null
+                  },
+                  {
+                    "key": "severity",
+                    "label": "Severidade",
+                    "format": null
+                  },
+                  {
+                    "key": "failed_records",
+                    "label": "Ocorrências",
+                    "format": "number"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O dashboard completo e a documentação permitem aprofundar a leitura. A imagem abaixo registra a apresentação anterior; os gráficos e filtros deste artigo usam as mesmas saídas locais, adaptadas à nova interface."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "dashboard"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Explorar o dashboard completo",
+                "url": "https://bruniversamente.github.io/dashboards/?case=ai-quality&lang=pt"
+              },
+              {
+                "title": "Consultar código e documentação",
+                "url": "https://github.com/bruniversamente/ai-response-quality-analysis"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

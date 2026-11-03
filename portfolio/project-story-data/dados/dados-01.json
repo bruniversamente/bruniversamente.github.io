@@ -1,0 +1,1087 @@
+{
+  "area": "dados",
+  "id": "dados-01",
+  "title": "Playzone",
+  "subtitle": "Da abertura do app à reserva confirmada",
+  "tags": [
+    "Dados e BI"
+  ],
+  "intro": "Uma análise da jornada de ativação, do retorno dos usuários e da confirmação de convites em uma plataforma simulada de atividades.",
+  "sections": [],
+  "credits": [],
+  "credit": "",
+  "media": [
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/95847259f682705e29f6.webp",
+      "width": 1440,
+      "height": 1120,
+      "alt": "Dashboard completo do estudo Playzone",
+      "id": "dashboard",
+      "caption": "Registro da apresentação anterior. Abra a galeria para ampliar."
+    }
+  ],
+  "links": [],
+  "cover": {
+    "id": "analysis-cover",
+    "type": "image",
+    "src": "portfolio/assets/project/analysis-playzone.svg",
+    "width": 1200,
+    "height": 600,
+    "alt": "Usuários que percorrem as etapas em ordem temporal",
+    "caption": "Visualização de abertura derivada dos dados do estudo."
+  },
+  "analysisData": {
+    "kpi_summary": [
+      {
+        "total_users": 500,
+        "app_open_users": 500,
+        "signup_users": 447,
+        "profile_users": 340,
+        "search_users": 219,
+        "opportunity_view_users": 128,
+        "invitation_users": 45,
+        "activated_users": 28,
+        "activation_rate": 0.056,
+        "avg_hours_to_activation": 42.18,
+        "opportunities_created": 219,
+        "opportunities_invited": 45,
+        "confirmed_bookings": 28,
+        "confirmation_rate": 0.6222,
+        "avg_hours_to_confirmation": 41.89
+      }
+    ],
+    "ordered_funnel": [
+      {
+        "step_order": 1,
+        "step_label": "Abertura do app",
+        "users_at_step": 500,
+        "conversion_from_start": 1.0,
+        "conversion_from_previous": null,
+        "loss_from_previous": null
+      },
+      {
+        "step_order": 2,
+        "step_label": "Cadastro concluído",
+        "users_at_step": 447,
+        "conversion_from_start": 0.894,
+        "conversion_from_previous": 0.894,
+        "loss_from_previous": 0.106
+      },
+      {
+        "step_order": 3,
+        "step_label": "Perfil completo",
+        "users_at_step": 340,
+        "conversion_from_start": 0.68,
+        "conversion_from_previous": 0.7606,
+        "loss_from_previous": 0.2394
+      },
+      {
+        "step_order": 4,
+        "step_label": "Busca realizada",
+        "users_at_step": 219,
+        "conversion_from_start": 0.438,
+        "conversion_from_previous": 0.6441,
+        "loss_from_previous": 0.3559
+      },
+      {
+        "step_order": 5,
+        "step_label": "Oportunidade vista",
+        "users_at_step": 128,
+        "conversion_from_start": 0.256,
+        "conversion_from_previous": 0.5845,
+        "loss_from_previous": 0.4155
+      },
+      {
+        "step_order": 6,
+        "step_label": "Convite enviado",
+        "users_at_step": 45,
+        "conversion_from_start": 0.09,
+        "conversion_from_previous": 0.3516,
+        "loss_from_previous": 0.6484
+      },
+      {
+        "step_order": 7,
+        "step_label": "Reserva confirmada",
+        "users_at_step": 28,
+        "conversion_from_start": 0.056,
+        "conversion_from_previous": 0.6222,
+        "loss_from_previous": 0.3778
+      }
+    ],
+    "funnel_by_channel": [
+      {
+        "acquisition_channel": "Organic",
+        "step_order": 1,
+        "step_label": "Abertura do app",
+        "users_at_step": 118,
+        "conversion_from_start": 1.0
+      },
+      {
+        "acquisition_channel": "Organic",
+        "step_order": 2,
+        "step_label": "Cadastro concluído",
+        "users_at_step": 108,
+        "conversion_from_start": 0.9153
+      },
+      {
+        "acquisition_channel": "Organic",
+        "step_order": 3,
+        "step_label": "Perfil completo",
+        "users_at_step": 88,
+        "conversion_from_start": 0.7458
+      },
+      {
+        "acquisition_channel": "Organic",
+        "step_order": 4,
+        "step_label": "Busca realizada",
+        "users_at_step": 55,
+        "conversion_from_start": 0.4661
+      },
+      {
+        "acquisition_channel": "Organic",
+        "step_order": 5,
+        "step_label": "Oportunidade vista",
+        "users_at_step": 34,
+        "conversion_from_start": 0.2881
+      },
+      {
+        "acquisition_channel": "Organic",
+        "step_order": 6,
+        "step_label": "Convite enviado",
+        "users_at_step": 9,
+        "conversion_from_start": 0.0763
+      },
+      {
+        "acquisition_channel": "Organic",
+        "step_order": 7,
+        "step_label": "Reserva confirmada",
+        "users_at_step": 3,
+        "conversion_from_start": 0.0254
+      },
+      {
+        "acquisition_channel": "Paid Search",
+        "step_order": 1,
+        "step_label": "Abertura do app",
+        "users_at_step": 128,
+        "conversion_from_start": 1.0
+      },
+      {
+        "acquisition_channel": "Paid Search",
+        "step_order": 2,
+        "step_label": "Cadastro concluído",
+        "users_at_step": 113,
+        "conversion_from_start": 0.8828
+      },
+      {
+        "acquisition_channel": "Paid Search",
+        "step_order": 3,
+        "step_label": "Perfil completo",
+        "users_at_step": 78,
+        "conversion_from_start": 0.6094
+      },
+      {
+        "acquisition_channel": "Paid Search",
+        "step_order": 4,
+        "step_label": "Busca realizada",
+        "users_at_step": 45,
+        "conversion_from_start": 0.3516
+      },
+      {
+        "acquisition_channel": "Paid Search",
+        "step_order": 5,
+        "step_label": "Oportunidade vista",
+        "users_at_step": 31,
+        "conversion_from_start": 0.2422
+      },
+      {
+        "acquisition_channel": "Paid Search",
+        "step_order": 6,
+        "step_label": "Convite enviado",
+        "users_at_step": 8,
+        "conversion_from_start": 0.0625
+      },
+      {
+        "acquisition_channel": "Paid Search",
+        "step_order": 7,
+        "step_label": "Reserva confirmada",
+        "users_at_step": 6,
+        "conversion_from_start": 0.0469
+      },
+      {
+        "acquisition_channel": "Referral",
+        "step_order": 1,
+        "step_label": "Abertura do app",
+        "users_at_step": 144,
+        "conversion_from_start": 1.0
+      },
+      {
+        "acquisition_channel": "Referral",
+        "step_order": 2,
+        "step_label": "Cadastro concluído",
+        "users_at_step": 131,
+        "conversion_from_start": 0.9097
+      },
+      {
+        "acquisition_channel": "Referral",
+        "step_order": 3,
+        "step_label": "Perfil completo",
+        "users_at_step": 98,
+        "conversion_from_start": 0.6806
+      },
+      {
+        "acquisition_channel": "Referral",
+        "step_order": 4,
+        "step_label": "Busca realizada",
+        "users_at_step": 69,
+        "conversion_from_start": 0.4792
+      },
+      {
+        "acquisition_channel": "Referral",
+        "step_order": 5,
+        "step_label": "Oportunidade vista",
+        "users_at_step": 37,
+        "conversion_from_start": 0.2569
+      },
+      {
+        "acquisition_channel": "Referral",
+        "step_order": 6,
+        "step_label": "Convite enviado",
+        "users_at_step": 14,
+        "conversion_from_start": 0.0972
+      },
+      {
+        "acquisition_channel": "Referral",
+        "step_order": 7,
+        "step_label": "Reserva confirmada",
+        "users_at_step": 8,
+        "conversion_from_start": 0.0556
+      },
+      {
+        "acquisition_channel": "Social",
+        "step_order": 1,
+        "step_label": "Abertura do app",
+        "users_at_step": 110,
+        "conversion_from_start": 1.0
+      },
+      {
+        "acquisition_channel": "Social",
+        "step_order": 2,
+        "step_label": "Cadastro concluído",
+        "users_at_step": 95,
+        "conversion_from_start": 0.8636
+      },
+      {
+        "acquisition_channel": "Social",
+        "step_order": 3,
+        "step_label": "Perfil completo",
+        "users_at_step": 76,
+        "conversion_from_start": 0.6909
+      },
+      {
+        "acquisition_channel": "Social",
+        "step_order": 4,
+        "step_label": "Busca realizada",
+        "users_at_step": 50,
+        "conversion_from_start": 0.4545
+      },
+      {
+        "acquisition_channel": "Social",
+        "step_order": 5,
+        "step_label": "Oportunidade vista",
+        "users_at_step": 26,
+        "conversion_from_start": 0.2364
+      },
+      {
+        "acquisition_channel": "Social",
+        "step_order": 6,
+        "step_label": "Convite enviado",
+        "users_at_step": 14,
+        "conversion_from_start": 0.1273
+      },
+      {
+        "acquisition_channel": "Social",
+        "step_order": 7,
+        "step_label": "Reserva confirmada",
+        "users_at_step": 11,
+        "conversion_from_start": 0.1
+      }
+    ],
+    "retention_by_activation": [
+      {
+        "activation_status": "Ativados",
+        "users": 28,
+        "retention_d1": 0.5714,
+        "retention_d7": 0.4286,
+        "retention_d30": 0.3571
+      },
+      {
+        "activation_status": "Não ativados",
+        "users": 472,
+        "retention_d1": 0.3919,
+        "retention_d7": 0.2394,
+        "retention_d30": 0.1483
+      }
+    ],
+    "cohort_retention": [
+      {
+        "signup_month": "2026-01",
+        "week_number": 0,
+        "active_users": 126,
+        "users_in_cohort": 126,
+        "retention_rate": 1.0
+      },
+      {
+        "signup_month": "2026-01",
+        "week_number": 1,
+        "active_users": 30,
+        "users_in_cohort": 126,
+        "retention_rate": 0.2381
+      },
+      {
+        "signup_month": "2026-01",
+        "week_number": 2,
+        "active_users": 31,
+        "users_in_cohort": 126,
+        "retention_rate": 0.246
+      },
+      {
+        "signup_month": "2026-01",
+        "week_number": 3,
+        "active_users": 21,
+        "users_in_cohort": 126,
+        "retention_rate": 0.1667
+      },
+      {
+        "signup_month": "2026-01",
+        "week_number": 4,
+        "active_users": 23,
+        "users_in_cohort": 126,
+        "retention_rate": 0.1825
+      },
+      {
+        "signup_month": "2026-02",
+        "week_number": 0,
+        "active_users": 115,
+        "users_in_cohort": 115,
+        "retention_rate": 1.0
+      },
+      {
+        "signup_month": "2026-02",
+        "week_number": 1,
+        "active_users": 35,
+        "users_in_cohort": 115,
+        "retention_rate": 0.3043
+      },
+      {
+        "signup_month": "2026-02",
+        "week_number": 2,
+        "active_users": 21,
+        "users_in_cohort": 115,
+        "retention_rate": 0.1826
+      },
+      {
+        "signup_month": "2026-02",
+        "week_number": 3,
+        "active_users": 22,
+        "users_in_cohort": 115,
+        "retention_rate": 0.1913
+      },
+      {
+        "signup_month": "2026-02",
+        "week_number": 4,
+        "active_users": 19,
+        "users_in_cohort": 115,
+        "retention_rate": 0.1652
+      },
+      {
+        "signup_month": "2026-03",
+        "week_number": 0,
+        "active_users": 139,
+        "users_in_cohort": 139,
+        "retention_rate": 1.0
+      },
+      {
+        "signup_month": "2026-03",
+        "week_number": 1,
+        "active_users": 29,
+        "users_in_cohort": 139,
+        "retention_rate": 0.2086
+      },
+      {
+        "signup_month": "2026-03",
+        "week_number": 2,
+        "active_users": 25,
+        "users_in_cohort": 139,
+        "retention_rate": 0.1799
+      },
+      {
+        "signup_month": "2026-03",
+        "week_number": 3,
+        "active_users": 27,
+        "users_in_cohort": 139,
+        "retention_rate": 0.1942
+      },
+      {
+        "signup_month": "2026-03",
+        "week_number": 4,
+        "active_users": 24,
+        "users_in_cohort": 139,
+        "retention_rate": 0.1727
+      },
+      {
+        "signup_month": "2026-04",
+        "week_number": 0,
+        "active_users": 117,
+        "users_in_cohort": 117,
+        "retention_rate": 1.0
+      },
+      {
+        "signup_month": "2026-04",
+        "week_number": 1,
+        "active_users": 30,
+        "users_in_cohort": 117,
+        "retention_rate": 0.2564
+      },
+      {
+        "signup_month": "2026-04",
+        "week_number": 2,
+        "active_users": 31,
+        "users_in_cohort": 117,
+        "retention_rate": 0.265
+      },
+      {
+        "signup_month": "2026-04",
+        "week_number": 3,
+        "active_users": 25,
+        "users_in_cohort": 117,
+        "retention_rate": 0.2137
+      },
+      {
+        "signup_month": "2026-04",
+        "week_number": 4,
+        "active_users": 14,
+        "users_in_cohort": 117,
+        "retention_rate": 0.1197
+      },
+      {
+        "signup_month": "2026-05",
+        "week_number": 0,
+        "active_users": 3,
+        "users_in_cohort": 3,
+        "retention_rate": 1.0
+      },
+      {
+        "signup_month": "2026-05",
+        "week_number": 1,
+        "active_users": 1,
+        "users_in_cohort": 3,
+        "retention_rate": 0.3333
+      }
+    ],
+    "marketplace_category_metrics": [
+      {
+        "category": "Games",
+        "opportunities": 43,
+        "invitations_sent": 11,
+        "confirmed_bookings": 8,
+        "confirmation_rate": 0.7273,
+        "avg_hours_to_confirmation": 44.0
+      },
+      {
+        "category": "Education",
+        "opportunities": 54,
+        "invitations_sent": 9,
+        "confirmed_bookings": 6,
+        "confirmation_rate": 0.6667,
+        "avg_hours_to_confirmation": 36.5
+      },
+      {
+        "category": "Sports",
+        "opportunities": 45,
+        "invitations_sent": 11,
+        "confirmed_bookings": 7,
+        "confirmation_rate": 0.6364,
+        "avg_hours_to_confirmation": 42.86
+      },
+      {
+        "category": "Wellness",
+        "opportunities": 46,
+        "invitations_sent": 9,
+        "confirmed_bookings": 5,
+        "confirmation_rate": 0.5556,
+        "avg_hours_to_confirmation": 34.2
+      },
+      {
+        "category": "Music",
+        "opportunities": 31,
+        "invitations_sent": 5,
+        "confirmed_bookings": 2,
+        "confirmation_rate": 0.4,
+        "avg_hours_to_confirmation": 65.5
+      }
+    ],
+    "data_quality_summary": [
+      {
+        "rule_name": "duplicate_event_id",
+        "severity": "Critical",
+        "failed_records": 0
+      },
+      {
+        "rule_name": "event_without_valid_user",
+        "severity": "Critical",
+        "failed_records": 0
+      },
+      {
+        "rule_name": "event_outside_taxonomy",
+        "severity": "Critical",
+        "failed_records": 0
+      },
+      {
+        "rule_name": "opportunity_event_missing_id",
+        "severity": "Warning",
+        "failed_records": 0
+      },
+      {
+        "rule_name": "event_before_signup",
+        "severity": "Critical",
+        "failed_records": 0
+      },
+      {
+        "rule_name": "booking_before_invitation",
+        "severity": "Critical",
+        "failed_records": 0
+      }
+    ]
+  },
+  "story": {
+    "navigation": true,
+    "coverFit": "contain",
+    "notice": "Estudo de portfólio · dados sintéticos",
+    "chapters": [
+      {
+        "id": "contexto",
+        "label": "Contexto",
+        "title": "Onde a jornada perde usuários?",
+        "kicker": "01 · Problema e base",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A Playzone é uma plataforma simulada de experiências e atividades. O estudo acompanha a passagem da primeira abertura do app até a reserva confirmada e relaciona essa jornada ao retorno dos usuários e à confirmação dos convites.",
+              "A base sintética permite inspecionar cada etapa sem apresentar os números como resultado de uma operação real. O objetivo é localizar o gargalo e formular uma hipótese de produto verificável."
+            ]
+          },
+          {
+            "type": "analysis",
+            "kind": "overview",
+            "case": "playzone"
+          },
+          {
+            "type": "reading",
+            "items": [
+              "Ativação e confirmação respondem a perguntas diferentes: 28 de 500 usuários completam a jornada, enquanto 28 de 45 convites resultam em reserva.",
+              "As 219 oportunidades foram criadas na base; esse número não é a quantidade de usuários que visualizaram uma oportunidade."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "metodo",
+        "label": "Método",
+        "title": "Reconstruir a sequência antes de medir",
+        "kicker": "02 · Construção da análise",
+        "blocks": [
+          {
+            "type": "method",
+            "title": "Eventos em ordem temporal",
+            "paragraphs": [
+              "Uma pessoa só entra na etapa seguinte quando realizou a anterior antes dela. Contar eventos isoladamente permitiria registrar uma confirmação fora da jornada como ativação.",
+              "O funil usa usuários distintos. A retenção parte da data de cadastro e exige retorno com app_open; a liquidez acompanha oportunidades, convites e reservas."
+            ],
+            "flow": [
+              "CSV de eventos",
+              "Checagens",
+              "Funil por usuário",
+              "Agregados SQL",
+              "Leitura por etapa"
+            ],
+            "code": "ativação = usuários com booking_confirmed após as etapas anteriores / usuários iniciais\nconversão da etapa = usuários da etapa / usuários da etapa anterior\nperda = 1 - conversão da etapa\nretenção D7 = usuários com app_open no 7º dia após cadastro / usuários do grupo",
+            "files": [
+              "product-analytics-funnel-retention/docs/business_rules.md",
+              "product-analytics-funnel-retention/sql/03_funnel_analysis.sql",
+              "product-analytics-funnel-retention/sql/04_retention_cohorts.sql"
+            ]
+          },
+          {
+            "type": "reading",
+            "items": [
+              "A ordem dos eventos faz parte da definição da métrica. O filtro de canal mantém essa regra e altera somente o funil apresentado."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "funil",
+        "label": "Funil",
+        "title": "Da oportunidade ao convite",
+        "kicker": "03 · Diagnóstico de ativação",
+        "blocks": [
+          {
+            "type": "analysis",
+            "kind": "playzone-funnel"
+          },
+          {
+            "type": "reading",
+            "items": [
+              "A maior perda do funil completo ocorre entre ver uma oportunidade e enviar um convite: 83 dos 128 usuários não chegam à próxima etapa, uma perda de 64,8%.",
+              "O canal Social termina com 11 ativações em 110 usuários (10%). O volume de cada canal precisa acompanhar a taxa para evitar conclusões apoiadas apenas no percentual."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "retencao",
+        "label": "Retenção",
+        "title": "Quem ativa também retorna mais?",
+        "kicker": "04 · Qualidade da ativação",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A comparação separa ativados e não ativados e mantém o tamanho dos grupos visível. A coorte mensal acrescenta outra leitura: quanto cada grupo de cadastro retorna nas semanas seguintes."
+            ]
+          },
+          {
+            "type": "analysis",
+            "kind": "playzone-retention"
+          },
+          {
+            "type": "analysis",
+            "kind": "playzone-cohorts"
+          },
+          {
+            "type": "reading",
+            "items": [
+              "A retenção D30 é de 35,7% entre 28 ativados e de 14,8% entre 472 não ativados. A associação é descritiva e não demonstra que a ativação causou o retorno.",
+              "Coortes recentes têm menos tempo de observação. Uma semana ainda não disponível aparece como “Sem janela”, em vez de receber zero."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "liquidez",
+        "label": "Liquidez",
+        "title": "O convite encontra uma confirmação?",
+        "kicker": "05 · Oferta e confirmação",
+        "blocks": [
+          {
+            "type": "method",
+            "title": "Três volumes, uma taxa de confirmação",
+            "paragraphs": [
+              "Oportunidades indicam a oferta criada; convites indicam tentativas de conexão; reservas mostram confirmações. A taxa usa convites como denominador e o tempo mede o intervalo do convite até a confirmação."
+            ],
+            "flow": [
+              "Oportunidade",
+              "Convite enviado",
+              "Reserva confirmada"
+            ],
+            "code": "confirmação = reservas confirmadas / convites enviados\ntempo até confirmar = data da reserva - data do convite",
+            "files": [
+              "product-analytics-funnel-retention/sql/05_marketplace_metrics.sql"
+            ]
+          },
+          {
+            "type": "analysis",
+            "kind": "playzone-liquidity"
+          },
+          {
+            "type": "reading",
+            "items": [
+              "Música reúne apenas cinco convites e duas confirmações. Esse volume pequeno pede investigação antes de generalizar a diferença para outras categorias.",
+              "Mais oportunidades não significam automaticamente mais liquidez. A leitura combina oferta, convites, reservas e tempo até confirmar."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "qualidade",
+        "label": "Qualidade",
+        "title": "Conferir a base e os limites",
+        "kicker": "06 · Conferência",
+        "blocks": [
+          {
+            "type": "analysis",
+            "kind": "evidence",
+            "title": "Checagens de qualidade",
+            "tables": [
+              {
+                "key": "data_quality_summary",
+                "title": "Qualidade dos dados",
+                "columns": [
+                  {
+                    "key": "rule_name",
+                    "label": "Regra",
+                    "format": null
+                  },
+                  {
+                    "key": "severity",
+                    "label": "Severidade",
+                    "format": null
+                  },
+                  {
+                    "key": "failed_records",
+                    "label": "Ocorrências",
+                    "format": "number"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              }
+            ]
+          },
+          {
+            "type": "reading",
+            "items": [
+              "As seis regras da saída consultada registram zero falhas. Elas verificam eventos, vínculos, taxonomia e coerência temporal.",
+              "Uma base sem falhas nessas checagens continua sendo sintética. Os dados não comprovam melhoria implementada, causalidade ou resultado comercial."
+            ]
+          },
+          {
+            "type": "analysis",
+            "kind": "evidence",
+            "title": "Consultar todas as saídas do estudo",
+            "tables": [
+              {
+                "key": "kpi_summary",
+                "title": "Indicadores gerais",
+                "columns": [
+                  {
+                    "key": "total_users",
+                    "label": "Usuários",
+                    "format": "number"
+                  },
+                  {
+                    "key": "app_open_users",
+                    "label": "Abriram o app",
+                    "format": "number"
+                  },
+                  {
+                    "key": "signup_users",
+                    "label": "Cadastros",
+                    "format": "number"
+                  },
+                  {
+                    "key": "profile_users",
+                    "label": "Perfis completos",
+                    "format": "number"
+                  },
+                  {
+                    "key": "search_users",
+                    "label": "Fizeram busca",
+                    "format": "number"
+                  },
+                  {
+                    "key": "opportunity_view_users",
+                    "label": "Viram oportunidade",
+                    "format": "number"
+                  },
+                  {
+                    "key": "invitation_users",
+                    "label": "Enviaram convite",
+                    "format": "number"
+                  },
+                  {
+                    "key": "activated_users",
+                    "label": "Ativados",
+                    "format": "number"
+                  },
+                  {
+                    "key": "activation_rate",
+                    "label": "Ativação",
+                    "format": "pct"
+                  },
+                  {
+                    "key": "avg_hours_to_activation",
+                    "label": "Tempo até ativar (h)",
+                    "format": "number"
+                  },
+                  {
+                    "key": "opportunities_created",
+                    "label": "Oportunidades criadas",
+                    "format": "number"
+                  },
+                  {
+                    "key": "opportunities_invited",
+                    "label": "Oportunidades com convite",
+                    "format": "number"
+                  },
+                  {
+                    "key": "confirmed_bookings",
+                    "label": "Reservas",
+                    "format": "number"
+                  },
+                  {
+                    "key": "confirmation_rate",
+                    "label": "Confirmação",
+                    "format": "pct"
+                  },
+                  {
+                    "key": "avg_hours_to_confirmation",
+                    "label": "Tempo até confirmar (h)",
+                    "format": "number"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "ordered_funnel",
+                "title": "Funil ordenado",
+                "columns": [
+                  {
+                    "key": "step_order",
+                    "label": "Ordem",
+                    "format": "number"
+                  },
+                  {
+                    "key": "step_label",
+                    "label": "Etapa",
+                    "format": null
+                  },
+                  {
+                    "key": "users_at_step",
+                    "label": "Usuários",
+                    "format": "number"
+                  },
+                  {
+                    "key": "conversion_from_start",
+                    "label": "Conversão acumulada",
+                    "format": "pct"
+                  },
+                  {
+                    "key": "conversion_from_previous",
+                    "label": "Conversão anterior",
+                    "format": "pct"
+                  },
+                  {
+                    "key": "loss_from_previous",
+                    "label": "Perda anterior",
+                    "format": "pct"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "funnel_by_channel",
+                "title": "Funil por canal",
+                "columns": [
+                  {
+                    "key": "acquisition_channel",
+                    "label": "Canal",
+                    "format": null
+                  },
+                  {
+                    "key": "step_order",
+                    "label": "Ordem",
+                    "format": "number"
+                  },
+                  {
+                    "key": "step_label",
+                    "label": "Etapa",
+                    "format": null
+                  },
+                  {
+                    "key": "users_at_step",
+                    "label": "Usuários",
+                    "format": "number"
+                  },
+                  {
+                    "key": "conversion_from_start",
+                    "label": "Conversão acumulada",
+                    "format": "pct"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "retention_by_activation",
+                "title": "Retenção por ativação",
+                "columns": [
+                  {
+                    "key": "activation_status",
+                    "label": "Grupo",
+                    "format": null
+                  },
+                  {
+                    "key": "users",
+                    "label": "Usuários",
+                    "format": "number"
+                  },
+                  {
+                    "key": "retention_d1",
+                    "label": "D1",
+                    "format": "pct"
+                  },
+                  {
+                    "key": "retention_d7",
+                    "label": "D7",
+                    "format": "pct"
+                  },
+                  {
+                    "key": "retention_d30",
+                    "label": "D30",
+                    "format": "pct"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "cohort_retention",
+                "title": "Coortes semanais",
+                "columns": [
+                  {
+                    "key": "signup_month",
+                    "label": "Cadastro",
+                    "format": null
+                  },
+                  {
+                    "key": "week_number",
+                    "label": "Semana",
+                    "format": "number"
+                  },
+                  {
+                    "key": "active_users",
+                    "label": "Retornaram",
+                    "format": "number"
+                  },
+                  {
+                    "key": "users_in_cohort",
+                    "label": "Tamanho da coorte",
+                    "format": "number"
+                  },
+                  {
+                    "key": "retention_rate",
+                    "label": "Retenção",
+                    "format": "pct"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "marketplace_category_metrics",
+                "title": "Liquidez por categoria",
+                "columns": [
+                  {
+                    "key": "category",
+                    "label": "Categoria",
+                    "format": null
+                  },
+                  {
+                    "key": "opportunities",
+                    "label": "Oportunidades",
+                    "format": "number"
+                  },
+                  {
+                    "key": "invitations_sent",
+                    "label": "Convites",
+                    "format": "number"
+                  },
+                  {
+                    "key": "confirmed_bookings",
+                    "label": "Reservas",
+                    "format": "number"
+                  },
+                  {
+                    "key": "confirmation_rate",
+                    "label": "Confirmação",
+                    "format": "pct"
+                  },
+                  {
+                    "key": "avg_hours_to_confirmation",
+                    "label": "Tempo até confirmar (h)",
+                    "format": "number"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              },
+              {
+                "key": "data_quality_summary",
+                "title": "Qualidade dos dados",
+                "columns": [
+                  {
+                    "key": "rule_name",
+                    "label": "Regra",
+                    "format": null
+                  },
+                  {
+                    "key": "severity",
+                    "label": "Severidade",
+                    "format": null
+                  },
+                  {
+                    "key": "failed_records",
+                    "label": "Ocorrências",
+                    "format": "number"
+                  }
+                ],
+                "note": "Valores do agregado original; o seletor troca a tabela consultada e não recalcula outros gráficos."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "conclusoes",
+        "label": "Conclusões",
+        "title": "Transformar o gargalo em uma hipótese",
+        "kicker": "07 · Decisão e aprofundamento",
+        "blocks": [
+          {
+            "type": "decisions",
+            "items": [
+              {
+                "title": "Clareza da oportunidade",
+                "label": "Próxima investigação",
+                "body": "Examinar disponibilidade, detalhes e ações disponíveis antes de enviar um convite."
+              },
+              {
+                "title": "Convite mais simples",
+                "label": "Hipótese de produto",
+                "body": "Testar uma forma de reduzir fricção no convite e acompanhar a conversão da etapa, sem afirmar ganho antes do teste."
+              },
+              {
+                "title": "Ativação com qualidade",
+                "label": "Critério de acompanhamento",
+                "body": "Ler reserva confirmada, confirmação após convite e retenção junto da conversão para não otimizar apenas o início da jornada."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O dashboard completo e a documentação permitem aprofundar a leitura. A imagem abaixo registra a apresentação anterior; os gráficos e filtros deste artigo usam as mesmas saídas locais, adaptadas à nova interface."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "dashboard"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Explorar o dashboard completo",
+                "url": "https://bruniversamente.github.io/dashboards/?case=playzone&lang=pt"
+              },
+              {
+                "title": "Consultar código e documentação",
+                "url": "https://github.com/bruniversamente/product-analytics-funnel-retention"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

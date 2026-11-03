@@ -1,0 +1,894 @@
+{
+  "area": "dados",
+  "id": "dados-05",
+  "title": "Tennis Pressure Analytics",
+  "subtitle": "Saque sob pressão, amostras e incerteza",
+  "tags": [
+    "Sports Analytics",
+    "Python",
+    "SQL · DuckDB"
+  ],
+  "intro": "Uma comparação descritiva entre break points e demais pontos de saque, com amostras e intervalos de confiança visíveis.",
+  "sections": [],
+  "credits": [],
+  "credit": "",
+  "links": [],
+  "media": [
+    {
+      "id": "dashboard",
+      "type": "image",
+      "src": "portfolio/assets/project/0c6a8da64af03e7ab635.webp",
+      "width": 1440,
+      "height": 1120,
+      "alt": "Tennis Pressure Analytics: painel completo de saque sob pressão",
+      "caption": "Painel completo do estudo; a exploração por jogador permanece no dashboard interativo."
+    }
+  ],
+  "cover": {
+    "id": "cover",
+    "type": "image",
+    "src": "portfolio/assets/project/analysis-tennis-pressure.svg",
+    "width": 1200,
+    "height": 600,
+    "alt": "Pontos de saque vencidos: 58,7% em break points e 62,2% nos demais pontos"
+  },
+  "analysisData": {
+    "kpis": [
+      {
+        "matches": 11614,
+        "serve_points": 1835674.0,
+        "serve_points_won": 1135523.0,
+        "bp_serve_points": 167332.0,
+        "bp_serve_points_won": 98184.0,
+        "non_bp_serve_points": 1668342.0,
+        "non_bp_serve_points_won": 1037339.0,
+        "first_in": 1142016.0,
+        "bp_first_in": 102998.0,
+        "non_bp_first_in": 1039018.0,
+        "aces": 128294.0,
+        "bp_aces": 8301.0,
+        "non_bp_aces": 119993.0,
+        "service_winners": 163155.0,
+        "bp_service_winners": 31555.0,
+        "non_bp_service_winners": 131600.0,
+        "double_faults": 71753.0,
+        "bp_double_faults": 6565.0,
+        "non_bp_double_faults": 65188.0,
+        "bp_rally_won": 41232.0,
+        "bp_serve_win_rate": 0.5867616475,
+        "non_bp_serve_win_rate": 0.6217783884,
+        "pressure_delta": -0.0350167409,
+        "bp_ci_low": 0.5844003028,
+        "bp_ci_high": 0.5891190086,
+        "non_bp_ci_low": 0.621042233,
+        "non_bp_ci_high": 0.6225139829,
+        "delta_ci_low": -0.0381136802,
+        "delta_ci_high": -0.0319232244,
+        "bp_ci_width": 0.0047187059,
+        "sample_status": "robust",
+        "bp_first_in_rate": 0.615530801,
+        "bp_ace_rate": 0.049607965,
+        "bp_service_winner_rate": 0.1885771998,
+        "bp_double_fault_rate": 0.0392333803,
+        "non_bp_first_in_rate": 0.6227847767,
+        "non_bp_ace_rate": 0.0719235025,
+        "non_bp_service_winner_rate": 0.0788807091,
+        "non_bp_double_fault_rate": 0.0390735233
+      }
+    ],
+    "surface": [
+      {
+        "surface": "Clay",
+        "matches": 2749,
+        "serve_points": 431302.0,
+        "serve_points_won": 258130.0,
+        "bp_serve_points": 43338.0,
+        "bp_serve_points_won": 24818.0,
+        "non_bp_serve_points": 387964.0,
+        "non_bp_serve_points_won": 233312.0,
+        "first_in": 270785.0,
+        "bp_first_in": 27156.0,
+        "non_bp_first_in": 243629.0,
+        "aces": 19800.0,
+        "bp_aces": 1445.0,
+        "non_bp_aces": 18355.0,
+        "service_winners": 26036.0,
+        "bp_service_winners": 6545.0,
+        "non_bp_service_winners": 19491.0,
+        "double_faults": 15414.0,
+        "bp_double_faults": 1596.0,
+        "non_bp_double_faults": 13818.0,
+        "bp_rally_won": 11266.0,
+        "bp_serve_win_rate": 0.5726614057,
+        "non_bp_serve_win_rate": 0.6013753853,
+        "pressure_delta": -0.0287139797,
+        "bp_ci_low": 0.5679976267,
+        "bp_ci_high": 0.5773123041,
+        "non_bp_ci_low": 0.5998336989,
+        "non_bp_ci_high": 0.6029150641,
+        "delta_ci_low": -0.0349174375,
+        "delta_ci_high": -0.0225213949,
+        "bp_ci_width": 0.0093146774,
+        "sample_status": "robust"
+      },
+      {
+        "surface": "Grass",
+        "matches": 1282,
+        "serve_points": 229592.0,
+        "serve_points_won": 148189.0,
+        "bp_serve_points": 18086.0,
+        "bp_serve_points_won": 11119.0,
+        "non_bp_serve_points": 211506.0,
+        "non_bp_serve_points_won": 137070.0,
+        "first_in": 144491.0,
+        "bp_first_in": 11222.0,
+        "non_bp_first_in": 133269.0,
+        "aces": 19632.0,
+        "bp_aces": 1150.0,
+        "non_bp_aces": 18482.0,
+        "service_winners": 24437.0,
+        "bp_service_winners": 4227.0,
+        "non_bp_service_winners": 20210.0,
+        "double_faults": 9037.0,
+        "bp_double_faults": 631.0,
+        "non_bp_double_faults": 8406.0,
+        "bp_rally_won": 4507.0,
+        "bp_serve_win_rate": 0.6147849165,
+        "non_bp_serve_win_rate": 0.6480667215,
+        "pressure_delta": -0.033281805,
+        "bp_ci_low": 0.6076687729,
+        "bp_ci_high": 0.6218523082,
+        "non_bp_ci_low": 0.6460287193,
+        "non_bp_ci_high": 0.6500993451,
+        "delta_ci_low": -0.0424305723,
+        "delta_ci_high": -0.0241764111,
+        "bp_ci_width": 0.0141835353,
+        "sample_status": "robust"
+      },
+      {
+        "surface": "Hard",
+        "matches": 7583,
+        "serve_points": 1174780.0,
+        "serve_points_won": 729204.0,
+        "bp_serve_points": 105908.0,
+        "bp_serve_points_won": 62247.0,
+        "non_bp_serve_points": 1068872.0,
+        "non_bp_serve_points_won": 666957.0,
+        "first_in": 726740.0,
+        "bp_first_in": 64620.0,
+        "non_bp_first_in": 662120.0,
+        "aces": 88862.0,
+        "bp_aces": 5706.0,
+        "non_bp_aces": 83156.0,
+        "service_winners": 112682.0,
+        "bp_service_winners": 20783.0,
+        "non_bp_service_winners": 91899.0,
+        "double_faults": 47302.0,
+        "bp_double_faults": 4338.0,
+        "non_bp_double_faults": 42964.0,
+        "bp_rally_won": 25459.0,
+        "bp_serve_win_rate": 0.5877459682,
+        "non_bp_serve_win_rate": 0.6239821045,
+        "pressure_delta": -0.0362361363,
+        "bp_ci_low": 0.584778218,
+        "bp_ci_high": 0.590707353,
+        "non_bp_ci_low": 0.6230633626,
+        "non_bp_ci_high": 0.6248999552,
+        "delta_ci_low": -0.0401217372,
+        "delta_ci_high": -0.0323560096,
+        "bp_ci_width": 0.0059291351,
+        "sample_status": "robust"
+      }
+    ],
+    "tour": [
+      {
+        "tour": "ATP",
+        "matches": 7543,
+        "serve_points": 1269693.0,
+        "serve_points_won": 813280.0,
+        "bp_serve_points": 103435.0,
+        "bp_serve_points_won": 63197.0,
+        "non_bp_serve_points": 1166258.0,
+        "non_bp_serve_points_won": 750083.0,
+        "first_in": 787132.0,
+        "bp_first_in": 62872.0,
+        "non_bp_first_in": 724260.0,
+        "aces": 104865.0,
+        "bp_aces": 6255.0,
+        "non_bp_aces": 98610.0,
+        "service_winners": 135969.0,
+        "bp_service_winners": 21481.0,
+        "non_bp_service_winners": 114488.0,
+        "double_faults": 43982.0,
+        "bp_double_faults": 3501.0,
+        "non_bp_double_faults": 40481.0,
+        "bp_rally_won": 26437.0,
+        "bp_serve_win_rate": 0.6109827428,
+        "non_bp_serve_win_rate": 0.6431535732,
+        "pressure_delta": -0.0321708304,
+        "bp_ci_low": 0.6080075463,
+        "bp_ci_high": 0.6139496957,
+        "non_bp_ci_low": 0.6422836286,
+        "non_bp_ci_high": 0.6440225747,
+        "delta_ci_low": -0.0360150284,
+        "delta_ci_high": -0.0283339329,
+        "bp_ci_width": 0.0059421494,
+        "sample_status": "robust"
+      },
+      {
+        "tour": "WTA",
+        "matches": 4071,
+        "serve_points": 565981.0,
+        "serve_points_won": 322243.0,
+        "bp_serve_points": 63897.0,
+        "bp_serve_points_won": 34987.0,
+        "non_bp_serve_points": 502084.0,
+        "non_bp_serve_points_won": 287256.0,
+        "first_in": 354884.0,
+        "bp_first_in": 40126.0,
+        "non_bp_first_in": 314758.0,
+        "aces": 23429.0,
+        "bp_aces": 2046.0,
+        "non_bp_aces": 21383.0,
+        "service_winners": 27186.0,
+        "bp_service_winners": 10074.0,
+        "non_bp_service_winners": 17112.0,
+        "double_faults": 27771.0,
+        "bp_double_faults": 3064.0,
+        "non_bp_double_faults": 24707.0,
+        "bp_rally_won": 14795.0,
+        "bp_serve_win_rate": 0.5475530933,
+        "non_bp_serve_win_rate": 0.5721273731,
+        "pressure_delta": -0.0245742798,
+        "bp_ci_low": 0.5436910118,
+        "bp_ci_high": 0.5514094571,
+        "non_bp_ci_low": 0.5707582423,
+        "non_bp_ci_high": 0.5734954002,
+        "delta_ci_low": -0.0298043884,
+        "delta_ci_high": -0.0193487852,
+        "bp_ci_width": 0.0077184452,
+        "sample_status": "robust"
+      }
+    ],
+    "period": [
+      {
+        "period": "2010s",
+        "matches": 3524,
+        "serve_points": 534478.0,
+        "serve_points_won": 329905.0,
+        "bp_serve_points": 49391.0,
+        "bp_serve_points_won": 28910.0,
+        "non_bp_serve_points": 485087.0,
+        "non_bp_serve_points_won": 300995.0,
+        "first_in": 332941.0,
+        "bp_first_in": 30435.0,
+        "non_bp_first_in": 302506.0,
+        "aces": 37630.0,
+        "bp_aces": 2464.0,
+        "non_bp_aces": 35166.0,
+        "service_winners": 45247.0,
+        "bp_service_winners": 9229.0,
+        "non_bp_service_winners": 36018.0,
+        "double_faults": 20837.0,
+        "bp_double_faults": 1956.0,
+        "non_bp_double_faults": 18881.0,
+        "bp_rally_won": 11976.0,
+        "bp_serve_win_rate": 0.585329311,
+        "non_bp_serve_win_rate": 0.6204969418,
+        "pressure_delta": -0.0351676308,
+        "bp_ci_low": 0.5809778967,
+        "bp_ci_high": 0.5896674526,
+        "non_bp_ci_low": 0.6191303919,
+        "non_bp_ci_high": 0.6218615831,
+        "delta_ci_low": -0.0408836864,
+        "delta_ci_high": -0.0294629393,
+        "bp_ci_width": 0.0086895559,
+        "sample_status": "robust"
+      },
+      {
+        "period": "2020s",
+        "matches": 5727,
+        "serve_points": 876755.0,
+        "serve_points_won": 539910.0,
+        "bp_serve_points": 80793.0,
+        "bp_serve_points_won": 47090.0,
+        "non_bp_serve_points": 795962.0,
+        "non_bp_serve_points_won": 492820.0,
+        "first_in": 552309.0,
+        "bp_first_in": 50458.0,
+        "non_bp_first_in": 501851.0,
+        "aces": 59125.0,
+        "bp_aces": 3849.0,
+        "non_bp_aces": 55276.0,
+        "service_winners": 82497.0,
+        "bp_service_winners": 14986.0,
+        "non_bp_service_winners": 67511.0,
+        "double_faults": 35053.0,
+        "bp_double_faults": 3224.0,
+        "non_bp_double_faults": 31829.0,
+        "bp_rally_won": 19709.0,
+        "bp_serve_win_rate": 0.5828475239,
+        "non_bp_serve_win_rate": 0.6191501604,
+        "pressure_delta": -0.0363026365,
+        "bp_ci_low": 0.5794435445,
+        "bp_ci_high": 0.5862436251,
+        "non_bp_ci_low": 0.6180827834,
+        "non_bp_ci_high": 0.6202163873,
+        "delta_ci_low": -0.0407728428,
+        "delta_ci_high": -0.0318391583,
+        "bp_ci_width": 0.0068000805,
+        "sample_status": "robust"
+      },
+      {
+        "period": "Unknown",
+        "matches": 10,
+        "serve_points": 1293.0,
+        "serve_points_won": 758.0,
+        "bp_serve_points": 122.0,
+        "bp_serve_points_won": 64.0,
+        "non_bp_serve_points": 1171.0,
+        "non_bp_serve_points_won": 694.0,
+        "first_in": 809.0,
+        "bp_first_in": 80.0,
+        "non_bp_first_in": 729.0,
+        "aces": 43.0,
+        "bp_aces": 2.0,
+        "non_bp_aces": 41.0,
+        "service_winners": 49.0,
+        "bp_service_winners": 22.0,
+        "non_bp_service_winners": 27.0,
+        "double_faults": 55.0,
+        "bp_double_faults": 6.0,
+        "non_bp_double_faults": 49.0,
+        "bp_rally_won": 26.0,
+        "bp_serve_win_rate": 0.5245901639,
+        "non_bp_serve_win_rate": 0.5926558497,
+        "pressure_delta": -0.0680656858,
+        "bp_ci_low": 0.4365817093,
+        "bp_ci_high": 0.6110972776,
+        "non_bp_ci_low": 0.5642549865,
+        "non_bp_ci_high": 0.6204507645,
+        "delta_ci_low": -0.1838690552,
+        "delta_ci_high": 0.0468422911,
+        "bp_ci_width": 0.1745155684,
+        "sample_status": "directional"
+      },
+      {
+        "period": "to2009",
+        "matches": 2353,
+        "serve_points": 423148.0,
+        "serve_points_won": 264950.0,
+        "bp_serve_points": 37026.0,
+        "bp_serve_points_won": 22120.0,
+        "non_bp_serve_points": 386122.0,
+        "non_bp_serve_points_won": 242830.0,
+        "first_in": 255957.0,
+        "bp_first_in": 22025.0,
+        "non_bp_first_in": 233932.0,
+        "aces": 31496.0,
+        "bp_aces": 1986.0,
+        "non_bp_aces": 29510.0,
+        "service_winners": 35362.0,
+        "bp_service_winners": 7318.0,
+        "non_bp_service_winners": 28044.0,
+        "double_faults": 15808.0,
+        "bp_double_faults": 1379.0,
+        "non_bp_double_faults": 14429.0,
+        "bp_rally_won": 9521.0,
+        "bp_serve_win_rate": 0.5974180306,
+        "non_bp_serve_win_rate": 0.6288944945,
+        "pressure_delta": -0.0314764639,
+        "bp_ci_low": 0.5924127877,
+        "bp_ci_high": 0.6024030605,
+        "non_bp_ci_low": 0.6273694071,
+        "non_bp_ci_high": 0.6304170171,
+        "delta_ci_low": -0.0380042294,
+        "delta_ci_high": -0.0249663466,
+        "bp_ci_width": 0.0099902729,
+        "sample_status": "robust"
+      }
+    ],
+    "components": [
+      {
+        "tour": "WTA",
+        "matches": 3959,
+        "serve_points": 467173.0,
+        "serve_points_won": 270474.0,
+        "bp_serve_points": 49136.0,
+        "bp_serve_points_won": 26501.0,
+        "non_bp_serve_points": 418037.0,
+        "non_bp_serve_points_won": 243973.0,
+        "first_in": 290824.0,
+        "bp_first_in": 30332.0,
+        "non_bp_first_in": 260492.0,
+        "aces": 22524.0,
+        "bp_aces": 1812.0,
+        "non_bp_aces": 20712.0,
+        "service_winners": 26151.0,
+        "bp_service_winners": 6816.0,
+        "non_bp_service_winners": 19335.0,
+        "double_faults": 22867.0,
+        "bp_double_faults": 2379.0,
+        "non_bp_double_faults": 20488.0,
+        "bp_rally_won": 11811.0,
+        "bp_serve_win_rate": 0.5393397916,
+        "non_bp_serve_win_rate": 0.5836158043,
+        "pressure_delta": -0.0442760127,
+        "bp_ci_low": 0.5349295352,
+        "bp_ci_high": 0.5437438971,
+        "non_bp_ci_low": 0.5821206685,
+        "non_bp_ci_high": 0.5851094034,
+        "delta_ci_low": -0.0501798683,
+        "delta_ci_high": -0.0383767714,
+        "bp_ci_width": 0.0088143619,
+        "sample_status": "robust",
+        "bp_first_in_rate": 0.6173070661,
+        "bp_ace_rate": 0.0368772387,
+        "bp_service_winner_rate": 0.1387170303,
+        "bp_double_fault_rate": 0.0484166395,
+        "non_bp_first_in_rate": 0.6231314453,
+        "non_bp_ace_rate": 0.0495458536,
+        "non_bp_service_winner_rate": 0.0462518868,
+        "non_bp_double_fault_rate": 0.0490100159
+      },
+      {
+        "tour": "ATP",
+        "matches": 7528,
+        "serve_points": 1206574.0,
+        "serve_points_won": 777910.0,
+        "bp_serve_points": 94816.0,
+        "bp_serve_points_won": 57817.0,
+        "non_bp_serve_points": 1111758.0,
+        "non_bp_serve_points_won": 720093.0,
+        "first_in": 746689.0,
+        "bp_first_in": 57149.0,
+        "non_bp_first_in": 689540.0,
+        "aces": 104004.0,
+        "bp_aces": 6029.0,
+        "non_bp_aces": 97975.0,
+        "service_winners": 135038.0,
+        "bp_service_winners": 19334.0,
+        "non_bp_service_winners": 115704.0,
+        "double_faults": 41808.0,
+        "bp_double_faults": 3238.0,
+        "non_bp_double_faults": 38570.0,
+        "bp_rally_won": 24454.0,
+        "bp_serve_win_rate": 0.6097810496,
+        "non_bp_serve_win_rate": 0.6477066052,
+        "pressure_delta": -0.0379255556,
+        "bp_ci_low": 0.6066716988,
+        "bp_ci_high": 0.6128815049,
+        "non_bp_ci_low": 0.6468181384,
+        "non_bp_ci_high": 0.6485940513,
+        "delta_ci_low": -0.0419223525,
+        "delta_ci_high": -0.0339366334,
+        "bp_ci_width": 0.0062098061,
+        "sample_status": "robust",
+        "bp_first_in_rate": 0.6027358252,
+        "bp_ace_rate": 0.0635863145,
+        "bp_service_winner_rate": 0.2039107324,
+        "bp_double_fault_rate": 0.0341503544,
+        "non_bp_first_in_rate": 0.6202249051,
+        "non_bp_ace_rate": 0.0881261929,
+        "non_bp_service_winner_rate": 0.1040730087,
+        "non_bp_double_fault_rate": 0.0346928019
+      }
+    ],
+    "dq": [
+      {
+        "rule": "unique_match_id",
+        "severity": "warning",
+        "failed_records": 0,
+        "status": "pass"
+      },
+      {
+        "rule": "unique_player_match",
+        "severity": "critical",
+        "failed_records": 0,
+        "status": "pass"
+      },
+      {
+        "rule": "match_integrity",
+        "severity": "warning",
+        "failed_records": 0,
+        "status": "pass"
+      },
+      {
+        "rule": "bp_not_above_serve",
+        "severity": "critical",
+        "failed_records": 0,
+        "status": "pass"
+      },
+      {
+        "rule": "wins_not_above_points",
+        "severity": "critical",
+        "failed_records": 0,
+        "status": "pass"
+      },
+      {
+        "rule": "nonnegative_comparable_components",
+        "severity": "warning",
+        "failed_records": 0,
+        "status": "pass"
+      },
+      {
+        "rule": "unreturned_definition_conflict",
+        "severity": "warning",
+        "failed_records": 2136,
+        "status": "review"
+      },
+      {
+        "rule": "tour_domain",
+        "severity": "warning",
+        "failed_records": 0,
+        "status": "pass"
+      },
+      {
+        "rule": "date_missing",
+        "severity": "warning",
+        "failed_records": 20,
+        "status": "review"
+      }
+    ],
+    "coverage": [
+      {
+        "tour": "ATP",
+        "first_match": -302745600,
+        "last_match": 1779321600,
+        "matches": 7543,
+        "player_match_rows": 15086,
+        "surface_rows": 15086,
+        "bp_serve_points": 103435.0
+      },
+      {
+        "tour": "WTA",
+        "first_match": 307324800,
+        "last_match": 1779580800,
+        "matches": 4071,
+        "player_match_rows": 8142,
+        "surface_rows": 8142,
+        "bp_serve_points": 63897.0
+      }
+    ],
+    "source_commit": "2c59eef194967e688b69e73df344184a06322cd8"
+  },
+  "story": {
+    "navigation": true,
+    "coverFit": "contain",
+    "notice": "Estudo observacional · fonte pública colaborativa",
+    "chapters": [
+      {
+        "id": "contexto",
+        "label": "Contexto",
+        "title": "O saque muda em pontos de break?",
+        "kicker": "01 · Pergunta e cobertura",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O estudo compara pontos de saque vencidos em break points com os demais pontos de saque. A base externa e colaborativa cobre ATP e WTA; os resultados descrevem a amostra registrada, sem demonstrar um efeito causal da pressão."
+            ]
+          },
+          {
+            "type": "analysis",
+            "kind": "tennis-context"
+          },
+          {
+            "type": "reading",
+            "items": [
+              "A diferença geral é de −3,5 pontos percentuais. A leitura mantém numeradores, denominadores e incerteza junto das taxas.",
+              "A fonte não é um censo equilibrado do circuito. Jogadores, períodos e superfícies têm coberturas diferentes."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "metodo",
+        "label": "Método",
+        "title": "Separar contextos e preservar a precisão",
+        "kicker": "02 · Modelo e incerteza",
+        "blocks": [
+          {
+            "type": "method",
+            "title": "Pontos agregados antes das taxas",
+            "paragraphs": [
+              "O modelo parte de uma linha por circuito, partida e sacador. Totais de saque e de break points são conciliados entre as tabelas da fonte, com a referência usada para cada medida documentada.",
+              "As taxas agregadas são calculadas pela soma dos pontos vencidos dividida pela soma dos pontos disputados. O método não calcula a média dos percentuais dos jogadores."
+            ],
+            "flow": [
+              "Fonte com versão fixada",
+              "Conciliação",
+              "Fato por sacador e partida",
+              "Agregados",
+              "Taxas e intervalos"
+            ],
+            "code": "taxa BP = pontos vencidos em BP / pontos de saque em BP\ntaxa sem BP = (pontos vencidos - vencidos em BP) / (pontos de saque - pontos em BP)\ndiferença = taxa BP - taxa sem BP\nincerteza: intervalo de Wilson a 95% para cada taxa",
+            "files": [
+              "tennis-pressure-analytics/docs/metric_definitions.md",
+              "tennis-pressure-analytics/sql/01_model.sql",
+              "tennis-pressure-analytics/docs/validation_report.md"
+            ]
+          },
+          {
+            "type": "reading",
+            "items": [
+              "A precisão por jogador usa a largura do intervalo em BP: até 15 p.p. é robusta, entre 15 e 25 p.p. é direcional e acima de 25 p.p. é insuficiente.",
+              "O dashboard omite amostras insuficientes do gráfico comparativo e conserva essas linhas nas extrações para auditoria."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "diagnostico",
+        "label": "Diagnóstico",
+        "title": "Comparar sem misturar os recortes",
+        "kicker": "03 · Leitura dos resultados",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Taxas ponderadas pelos pontos. Intervalo de 95% de Wilson para a taxa em break points.",
+            "columns": [
+              "Circuito",
+              "Pontos BP",
+              "Vencidos em BP",
+              "Taxa BP",
+              "IC 95% BP",
+              "Taxa sem BP",
+              "Diferença"
+            ],
+            "rows": [
+              [
+                "ATP",
+                "103.435",
+                "63.197",
+                "61,1%",
+                "60,8% a 61,4%",
+                "64,3%",
+                "-3,2 p.p."
+              ],
+              [
+                "WTA",
+                "63.897",
+                "34.987",
+                "54,8%",
+                "54,4% a 55,1%",
+                "57,2%",
+                "-2,5 p.p."
+              ]
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Taxas ponderadas pelos pontos. Intervalo de 95% de Wilson para a taxa em break points.",
+            "columns": [
+              "Superfície",
+              "Pontos BP",
+              "Vencidos em BP",
+              "Taxa BP",
+              "IC 95% BP",
+              "Taxa sem BP",
+              "Diferença"
+            ],
+            "rows": [
+              [
+                "Saibro",
+                "43.338",
+                "24.818",
+                "57,3%",
+                "56,8% a 57,7%",
+                "60,1%",
+                "-2,9 p.p."
+              ],
+              [
+                "Grama",
+                "18.086",
+                "11.119",
+                "61,5%",
+                "60,8% a 62,2%",
+                "64,8%",
+                "-3,3 p.p."
+              ],
+              [
+                "Dura",
+                "105.908",
+                "62.247",
+                "58,8%",
+                "58,5% a 59,1%",
+                "62,4%",
+                "-3,6 p.p."
+              ]
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Taxas ponderadas pelos pontos. Intervalo de 95% de Wilson para a taxa em break points.",
+            "columns": [
+              "Período",
+              "Pontos BP",
+              "Vencidos em BP",
+              "Taxa BP",
+              "IC 95% BP",
+              "Taxa sem BP",
+              "Diferença"
+            ],
+            "rows": [
+              [
+                "2010s",
+                "49.391",
+                "28.910",
+                "58,5%",
+                "58,1% a 59,0%",
+                "62,0%",
+                "-3,5 p.p."
+              ],
+              [
+                "2020s",
+                "80.793",
+                "47.090",
+                "58,3%",
+                "57,9% a 58,6%",
+                "61,9%",
+                "-3,6 p.p."
+              ],
+              [
+                "Data desconhecida",
+                "122",
+                "64",
+                "52,5%",
+                "43,7% a 61,1%",
+                "59,3%",
+                "-6,8 p.p."
+              ],
+              [
+                "Até 2009",
+                "37.026",
+                "22.120",
+                "59,7%",
+                "59,2% a 60,2%",
+                "62,9%",
+                "-3,1 p.p."
+              ]
+            ]
+          },
+          {
+            "type": "reading",
+            "items": [
+              "Circuito, superfície e período são agregados independentes. Eles não simulam um filtro cruzado de jogador, piso e data.",
+              "Vinte linhas por sacador e partida têm data não interpretável. Elas ficam nos totais gerais e por circuito e aparecem como data desconhecida no recorte por período."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "qualidade",
+        "label": "Qualidade e conclusões",
+        "title": "Manter os limites dentro da decisão",
+        "kicker": "04 · Evidências e encaminhamento",
+        "blocks": [
+          {
+            "type": "table",
+            "caption": "Checagens da execução de origem. Alertas ficam visíveis e não são apresentados como zero.",
+            "columns": [
+              "Regra",
+              "Severidade",
+              "Ocorrências",
+              "Estado"
+            ],
+            "rows": [
+              [
+                "unique_match_id",
+                "warning",
+                "0",
+                "pass"
+              ],
+              [
+                "unique_player_match",
+                "critical",
+                "0",
+                "pass"
+              ],
+              [
+                "match_integrity",
+                "warning",
+                "0",
+                "pass"
+              ],
+              [
+                "bp_not_above_serve",
+                "critical",
+                "0",
+                "pass"
+              ],
+              [
+                "wins_not_above_points",
+                "critical",
+                "0",
+                "pass"
+              ],
+              [
+                "nonnegative_comparable_components",
+                "warning",
+                "0",
+                "pass"
+              ],
+              [
+                "unreturned_definition_conflict",
+                "warning",
+                "2.136",
+                "review"
+              ],
+              [
+                "tour_domain",
+                "warning",
+                "0",
+                "pass"
+              ],
+              [
+                "date_missing",
+                "warning",
+                "20",
+                "review"
+              ]
+            ]
+          },
+          {
+            "type": "reading",
+            "items": [
+              "Há uma divergência histórica de um ponto na conciliação entre tabelas de saque. A medida principal mantém a tabela de referência e a ocorrência fica no arquivo de revisão.",
+              "As medidas de saque não devolvido não conciliam com precisão suficiente em 2.136 linhas. O estudo não afirma uma comparação completa desse componente fora de BP.",
+              "A diferença serve como ponto de partida para análise de desempenho e seleção de exemplos; não sustenta um ranking causal de resistência à pressão."
+            ]
+          },
+          {
+            "type": "decisions",
+            "items": [
+              {
+                "title": "Comparação responsável",
+                "label": "Uso do resultado",
+                "body": "Examinar tamanho da amostra, contexto e intervalo de confiança antes de destacar uma diferença entre jogadores."
+              },
+              {
+                "title": "Conciliação visível",
+                "label": "Critério de qualidade",
+                "body": "Manter os conflitos de fonte documentados e as medidas de cobertura junto dos resultados."
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "dashboard"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Explorar jogadores no dashboard completo",
+                "url": "https://bruniversamente.github.io/dashboards/?case=tennis-pressure&lang=pt"
+              },
+              {
+                "title": "Código, método e arquivos de revisão",
+                "url": "https://github.com/bruniversamente/tennis-pressure-analytics"
+              },
+              {
+                "title": "Fonte: Match Charting Project",
+                "url": "https://github.com/JeffSackmann/tennis_MatchChartingProject/tree/2c59eef194967e688b69e73df344184a06322cd8"
+              },
+              {
+                "title": "Consultar os dados completos",
+                "url": "https://bruniversamente.github.io/dashboards/data/tennis-pressure.json"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Fonte dos dados: Match Charting Project, de Jeff Sackmann e colaboradores, na versão 2c59eef194967e688b69e73df344184a06322cd8. Termos da fonte: CC BY-NC-SA 4.0. O estudo é observacional e mantém as ressalvas de cobertura e conciliação."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

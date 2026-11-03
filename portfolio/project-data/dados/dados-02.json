@@ -1,0 +1,23 @@
+{
+  "area": "dados",
+  "id": "dados-02",
+  "title": "Varejo",
+  "subtitle": "estudo de dados e BI",
+  "tags": [
+    "Dados e BI"
+  ],
+  "intro": "Varejo · estudo de dados e BI.",
+  "sections": [],
+  "credits": [],
+  "credit": "Varejo · estudo de dados e BI.",
+  "media": [
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/df011f5df449e28b6a84.webp",
+      "width": 1440,
+      "height": 1120,
+      "alt": "Varejo"
+    }
+  ],
+  "links": []
+}

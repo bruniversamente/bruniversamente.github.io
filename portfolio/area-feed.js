@@ -12,7 +12,7 @@
   let active=null,view='feed',projectFilter='all',units=6;
   let homeView='grid';
   function element(tag,className,text){const el=document.createElement(tag);if(className)el.className=className;if(text)el.textContent=text;return el;}
-  function imageNode(image,lazy=true,sizes='(max-width:700px) 100vw, 50vw'){const img=element('img');img.src=image.src+(image.version?`?v=${image.version}`:'');if(image.srcset){img.srcset=image.srcset;img.sizes=sizes;}img.alt=image.alt||'';img.width=image.width;img.height=image.height;img.loading=lazy?'lazy':'eager';img.decoding='async';img.draggable=false;return img;}
+  function imageNode(image,lazy=true,sizes='(max-width:700px) 100vw, 50vw'){const img=element('img');img.src=image.src+(image.version?`?v=${image.version}`:'');if(image.srcset){img.srcset=image.srcset;img.sizes=sizes;}if(image.position)img.style.objectPosition=image.position;img.alt=image.alt||'';img.width=image.width;img.height=image.height;img.loading=lazy?'lazy':'eager';img.decoding='async';img.draggable=false;return img;}
   function matches(project){return (projectFilter==='all'||project.id===projectFilter)&&normalize(project.title+' '+project.credit).includes(normalize(search.value));}
   function showProject(project,image){
     if(window.projectPage){window.projectPage.open(active,project.id);return;}

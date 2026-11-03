@@ -175,7 +175,8 @@ window.AREA_CATALOG = {
           "width": 1800,
           "height": 2700,
           "src": "portfolio/assets/design/hering-fabula-feed/01-papagaio-foto-a981727548/640w.webp",
-          "srcset": "portfolio/assets/design/hering-fabula-feed/01-papagaio-foto-a981727548/640w.webp 640w, portfolio/assets/design/hering-fabula-feed/01-papagaio-foto-a981727548/original.jpg 1800w"
+          "srcset": "portfolio/assets/design/hering-fabula-feed/01-papagaio-foto-a981727548/640w.webp 640w, portfolio/assets/design/hering-fabula-feed/01-papagaio-foto-a981727548/original.jpg 1800w",
+          "position": "50% 12%"
         },
         {
           "type": "image",
@@ -183,7 +184,8 @@ window.AREA_CATALOG = {
           "width": 1800,
           "height": 2700,
           "src": "portfolio/assets/design/hering-fabula-feed/02-macaco-foto-62f371f7aa/640w.webp",
-          "srcset": "portfolio/assets/design/hering-fabula-feed/02-macaco-foto-62f371f7aa/640w.webp 640w, portfolio/assets/design/hering-fabula-feed/02-macaco-foto-62f371f7aa/original.jpg 1800w"
+          "srcset": "portfolio/assets/design/hering-fabula-feed/02-macaco-foto-62f371f7aa/640w.webp 640w, portfolio/assets/design/hering-fabula-feed/02-macaco-foto-62f371f7aa/original.jpg 1800w",
+          "position": "50% 22%"
         },
         {
           "type": "image",
@@ -191,7 +193,8 @@ window.AREA_CATALOG = {
           "width": 1800,
           "height": 2700,
           "src": "portfolio/assets/design/hering-fabula-feed/03-onca-foto-20b4231067/640w.webp",
-          "srcset": "portfolio/assets/design/hering-fabula-feed/03-onca-foto-20b4231067/640w.webp 640w, portfolio/assets/design/hering-fabula-feed/03-onca-foto-20b4231067/original.jpg 1800w"
+          "srcset": "portfolio/assets/design/hering-fabula-feed/03-onca-foto-20b4231067/640w.webp 640w, portfolio/assets/design/hering-fabula-feed/03-onca-foto-20b4231067/original.jpg 1800w",
+          "position": "50% 30%"
         }
       ]
     },

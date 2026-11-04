@@ -1,0 +1,1187 @@
+{
+  "area": "produtos",
+  "id": "produtos-03",
+  "title": "Rakestra Gestão",
+  "subtitle": "Encontrar uma quadra para jogar",
+  "tags": [
+    "UX/UI",
+    "Jornada de reserva",
+    "Web responsiva",
+    "Produto autoral"
+  ],
+  "intro": "Da procura por uma quadra à confirmação do horário, o cliente precisa entender o que está reservando. Este estudo conecta essa jornada ao Rakestra Gestão, onde a equipe do clube acompanha a ocupação, o atendimento e as pendências da mesma reserva.",
+  "sections": [],
+  "credits": [
+    {
+      "role": "Concepção do produto, fluxos e direção visual",
+      "names": "Bruno Nascimento"
+    },
+    {
+      "role": "Construção",
+      "names": "Desenvolvimento assistido por IA (vibe coding)"
+    },
+    {
+      "role": "Telas",
+      "names": "Rakestra · ambiente de desenvolvimento, com dados demonstrativos"
+    }
+  ],
+  "credit": "",
+  "media": [
+    {
+      "id": "cliente-agenda",
+      "type": "image",
+      "src": "portfolio/assets/rakestra-gestao/phone-cliente-agenda-view.webp",
+      "width": 390,
+      "height": 845,
+      "sizes": "(max-width:700px) 80vw, 290px",
+      "fullSrc": "portfolio/assets/rakestra-gestao/phone-cliente-agenda-full.webp",
+      "fullWidth": 390,
+      "fullHeight": 2471,
+      "alt": "Site de reservas: data, esporte, quadras e horários disponíveis para o cliente.",
+      "caption": "Cliente · escolha de quadra e horário. Tela demonstrativa.",
+      "presentation": "phone",
+      "kind": "phone",
+      "deviceFrame": "portfolio/assets/rakestra-gestao/rakestra-app-frame.png"
+    },
+    {
+      "id": "visao-clube",
+      "type": "image",
+      "src": "portfolio/assets/rakestra-gestao/visao-clube-960w.webp",
+      "width": 960,
+      "height": 600,
+      "srcset": "portfolio/assets/rakestra-gestao/visao-clube-640w.webp 640w, portfolio/assets/rakestra-gestao/visao-clube-960w.webp 960w, portfolio/assets/rakestra-gestao/visao-clube-1440w.webp 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/rakestra-gestao/visao-clube-full.webp",
+      "fullWidth": 1440,
+      "fullHeight": 900,
+      "alt": "Rakestra Gestão: visão geral do clube, reservas, pendências e atalhos da operação.",
+      "caption": "Clube · reservas e pendências em uma visão geral. Dados de demonstração."
+    },
+    {
+      "id": "busca",
+      "type": "image",
+      "src": "portfolio/assets/rakestra-gestao/phone-busca-view.webp",
+      "width": 390,
+      "height": 845,
+      "sizes": "(max-width:700px) 80vw, 290px",
+      "fullSrc": "portfolio/assets/rakestra-gestao/phone-busca-full.webp",
+      "fullWidth": 390,
+      "fullHeight": 1367,
+      "alt": "Busca pública de quadras por nome do clube, cidade e esporte.",
+      "caption": "Busca pública · clube ou cidade, modalidade e acesso aos horários.",
+      "presentation": "phone",
+      "kind": "phone",
+      "deviceFrame": "portfolio/assets/rakestra-gestao/rakestra-app-frame.png"
+    },
+    {
+      "id": "disponibilidade",
+      "type": "image",
+      "src": "portfolio/assets/rakestra-gestao/phone-disponibilidade-view.webp",
+      "width": 390,
+      "height": 845,
+      "sizes": "(max-width:700px) 80vw, 290px",
+      "fullSrc": "portfolio/assets/rakestra-gestao/phone-disponibilidade-full.webp",
+      "fullWidth": 390,
+      "fullHeight": 2471,
+      "alt": "Disponibilidade diária com filtros de data, horário, esporte, quadra e participantes.",
+      "caption": "Dia · horários agrupados por período; intervalos indisponíveis permanecem identificados.",
+      "presentation": "phone",
+      "kind": "phone",
+      "deviceFrame": "portfolio/assets/rakestra-gestao/rakestra-app-frame.png"
+    },
+    {
+      "id": "semana",
+      "type": "image",
+      "src": "portfolio/assets/rakestra-gestao/phone-semana-view.webp",
+      "width": 390,
+      "height": 845,
+      "sizes": "(max-width:700px) 80vw, 290px",
+      "fullSrc": "portfolio/assets/rakestra-gestao/phone-semana-full.webp",
+      "fullWidth": 390,
+      "fullHeight": 1611,
+      "alt": "Comparação semanal dos horários públicos de uma quadra, com opções disponíveis e indisponíveis.",
+      "caption": "Semana · detalhe da comparação entre dias. A galeria abre a tela completa.",
+      "presentation": "phone",
+      "kind": "phone",
+      "deviceFrame": "portfolio/assets/rakestra-gestao/rakestra-app-frame.png"
+    },
+    {
+      "id": "dados-reserva",
+      "type": "image",
+      "src": "portfolio/assets/rakestra-gestao/phone-dados-reserva-view.webp",
+      "width": 390,
+      "height": 845,
+      "sizes": "(max-width:700px) 80vw, 290px",
+      "fullSrc": "portfolio/assets/rakestra-gestao/phone-dados-reserva-full.webp",
+      "fullWidth": 390,
+      "fullHeight": 845,
+      "alt": "Painel lateral para concluir a reserva, com quadra, horário, dados de contato, valor e sinal.",
+      "caption": "Reserva · o painel mantém a escolha visível e reúne identificação e condições.",
+      "presentation": "phone",
+      "kind": "phone",
+      "deviceFrame": "portfolio/assets/rakestra-gestao/rakestra-app-frame.png"
+    },
+    {
+      "id": "confirmacao",
+      "type": "image",
+      "src": "portfolio/assets/rakestra-gestao/phone-confirmacao-view.webp",
+      "width": 390,
+      "height": 845,
+      "sizes": "(max-width:700px) 80vw, 290px",
+      "fullSrc": "portfolio/assets/rakestra-gestao/phone-confirmacao-full.webp",
+      "fullWidth": 390,
+      "fullHeight": 1703,
+      "alt": "Confirmação demonstrativa: clube, quadra, endereço, horário local, código e oitenta reais a pagar no local.",
+      "caption": "Confirmação · exemplo sem sinal, com R$ 80,00 a pagar no local.",
+      "presentation": "phone",
+      "kind": "phone",
+      "deviceFrame": "portfolio/assets/rakestra-gestao/rakestra-app-frame.png"
+    },
+    {
+      "id": "agenda-clube",
+      "type": "image",
+      "src": "portfolio/assets/rakestra-gestao/agenda-clube-900w.webp",
+      "width": 900,
+      "height": 810,
+      "srcset": "portfolio/assets/rakestra-gestao/agenda-clube-640w.webp 640w, portfolio/assets/rakestra-gestao/agenda-clube-900w.webp 900w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/rakestra-gestao/agenda-clube-full.webp",
+      "fullWidth": 1280,
+      "fullHeight": 1535,
+      "alt": "Agenda do Rakestra Gestão com período, quadra e tipos de ocupação: reserva, retenção, aulas e bloqueio.",
+      "caption": "Clube · detalhe dos filtros e do calendário de ocupação. Registro de desenvolvimento."
+    },
+    {
+      "id": "recepcao",
+      "type": "image",
+      "src": "portfolio/assets/rakestra-gestao/recepcao-960w.webp",
+      "width": 960,
+      "height": 600,
+      "srcset": "portfolio/assets/rakestra-gestao/recepcao-640w.webp 640w, portfolio/assets/rakestra-gestao/recepcao-960w.webp 960w, portfolio/assets/rakestra-gestao/recepcao-1440w.webp 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/rakestra-gestao/recepcao-full.webp",
+      "fullWidth": 1440,
+      "fullHeight": 900,
+      "alt": "Recepção do clube com chegadas, participantes, horário, quadra e situação de cobrança.",
+      "caption": "Recepção · presença, acesso e cobrança têm estados próprios. Dados demonstrativos."
+    }
+  ],
+  "cover": {
+    "id": "cover-gestao",
+    "type": "image",
+    "src": "portfolio/assets/rakestra-gestao/cover-gray-1440w.webp",
+    "width": 1440,
+    "height": 810,
+    "srcset": "portfolio/assets/rakestra-gestao/cover-gray-640w.webp 640w, portfolio/assets/rakestra-gestao/cover-gray-960w.webp 960w, portfolio/assets/rakestra-gestao/cover-gray-1440w.webp 1440w",
+    "sizes": "(max-width:700px) 90vw, 52vw",
+    "alt": "Rakestra Gestão · Encontrar uma quadra para jogar",
+    "fullSrc": "portfolio/assets/rakestra-gestao/cover-gray-1440w.webp",
+    "fullWidth": 1440,
+    "fullHeight": 810
+  },
+  "links": [],
+  "films": [],
+  "story": {
+    "navigation": true,
+    "notice": "Estudo de UX/UI · produto em desenvolvimento",
+    "role": "Recorte: reserva pública e atendimento do clube, da descoberta à chegada.",
+    "heroBoard": {
+      "type": "board",
+      "tree": {
+        "tag": "div",
+        "attrs": {
+          "class": "reservation-case-hero"
+        },
+        "children": [
+          {
+            "tag": "div",
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "class": "reservation-case-label"
+                },
+                "children": [
+                  "Cliente / encontrar e reservar"
+                ]
+              },
+              {
+                "media": "cliente-agenda"
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "children": [
+              {
+                "tag": "p",
+                "attrs": {
+                  "class": "reservation-case-label"
+                },
+                "children": [
+                  "Clube / organizar e acompanhar"
+                ]
+              },
+              {
+                "media": "visao-clube"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "chapters": [
+      {
+        "id": "contexto",
+        "label": "Problema e recorte",
+        "title": "Conseguir uma quadra disponível e entender a reserva",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Encontrar um clube é parte da tarefa. Para marcar um jogo, o cliente também precisa saber qual quadra está livre, em que horário pode jogar, quanto vai pagar e o que falta para garantir a reserva.",
+              "Do lado do clube, a equipe precisa conciliar a oferta pública com reservas, retenções temporárias, aulas e bloqueios. Um atendimento iniciado por telefone ou na recepção também precisa entrar nessa agenda."
+            ]
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "div",
+              "attrs": {
+                "class": "reservation-case-intent"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "attrs": {
+                        "class": "reservation-case-label"
+                      },
+                      "children": [
+                        "Cliente"
+                      ]
+                    },
+                    {
+                      "tag": "h3",
+                      "children": [
+                        "Encontrar e reservar"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Comparar opções sem perder a escolha ao passar para os dados pessoais e as condições da reserva."
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Dúvida central: este horário está disponível para mim e o que preciso fazer para confirmá-lo?"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "attrs": {
+                        "class": "reservation-case-label"
+                      },
+                      "children": [
+                        "Clube"
+                      ]
+                    },
+                    {
+                      "tag": "h3",
+                      "children": [
+                        "Organizar e acompanhar"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Consultar a ocupação, atender o cliente e distinguir horário reservado de valor recebido."
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Dúvida central: quem vai usar a quadra, quando e com quais pendências?"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Este case acompanha a jornada de reserva que conecta o site público ao Rakestra Gestão. O recorte inclui descoberta, disponibilidade, identificação, confirmação e atendimento no clube. Ensino, torneios e gestão de planos têm fluxos próprios e ficam fora desta leitura."
+            ]
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "aside",
+              "attrs": {
+                "class": "reservation-case-note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "children": [
+                    "Base do estudo"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "children": [
+                    "O problema orienta a análise do produto implementado. As telas usam dados de demonstração; a sequência ilustra etapas do serviço e não documenta uma única reserva real."
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "children": [
+                    "Entrevistas, testes de usabilidade e resultados comerciais ainda precisam de validação com clientes e equipes de clubes."
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "jornada",
+        "label": "Cliente e clube",
+        "title": "Acompanhar a mesma reserva dos dois lados",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O cliente decide a partir da oferta que o clube mantém. A equipe do clube acompanha o compromisso que o cliente está assumindo. Para organizar essa relação, o percurso mantém quadra, período e situação da reserva como referências entre as etapas."
+            ]
+          },
+          {
+            "type": "reservation-journey",
+            "title": "Uma reserva vista pelo cliente e pelo clube",
+            "steps": [
+              {
+                "label": "Encontrar",
+                "title": "Encontrar um lugar onde jogar",
+                "chapter": "descoberta",
+                "customer": "Busca um clube ou uma cidade e filtra a modalidade antes de consultar os horários.",
+                "club": "Disponibiliza sua oferta de quadras para consulta pública, com localização e modalidades.",
+                "handoff": "Clube, localização e esporte. O cliente ainda está comparando opções."
+              },
+              {
+                "label": "Escolher",
+                "title": "Escolher um horário que possa reservar",
+                "chapter": "disponibilidade",
+                "customer": "Compara datas e quadras, informa os participantes e consulta as condições do horário.",
+                "club": "Mantém a disponibilidade de acordo com a ocupação e as regras da unidade e da quadra.",
+                "handoff": "Quadra, início, término e participantes. A consulta ainda precisa de confirmação."
+              },
+              {
+                "label": "Reservar",
+                "title": "Conferir os dados antes de confirmar",
+                "chapter": "reserva",
+                "customer": "Confere sua identificação, o valor total, o eventual sinal e o saldo para o local.",
+                "club": "Acompanha a retenção ou a reserva e identifica se ainda existe uma cobrança pendente.",
+                "handoff": "Identificação, horário, situação da reserva e condições financeiras."
+              },
+              {
+                "label": "Chegar",
+                "title": "Usar a reserva no dia do jogo",
+                "chapter": "acompanhamento",
+                "customer": "Consulta a confirmação com endereço, horário local e referência da reserva.",
+                "club": "Localiza a chegada na recepção, registra presença e confere acesso e cobrança.",
+                "handoff": "A reserva continua como referência para o atendimento presencial."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A navegação pública começa pela procura de um local. Na gestão, a equipe entra por reservas, recepção ou financeiro conforme a tarefa. Cada pessoa vê as informações necessárias ao seu atendimento, sem precisar percorrer o painel da outra."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "descoberta",
+        "label": "Encontrar uma quadra",
+        "title": "Começar pelo local e pela modalidade",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O cliente pode procurar pelo nome do clube ou pela cidade e filtrar o esporte. Os resultados mostram localização, modalidades e quantidade de quadras, com uma ação direta para consultar os horários.",
+              "Essa entrada permite avaliar onde jogar antes de preencher dados pessoais. A escolha da quadra e as condições da reserva vêm na página do clube."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "busca"
+            ]
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Onde jogar",
+                "text": "Nome do clube ou cidade ajudam a delimitar a procura."
+              },
+              {
+                "title": "O que jogar",
+                "text": "A modalidade mantém a busca ligada à atividade desejada."
+              },
+              {
+                "title": "Quando jogar",
+                "text": "Ver horários leva à disponibilidade daquele clube."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A descoberta ainda precisa de avaliação com pessoas que não conhecem os clubes. Proximidade, fotos, características da quadra e condições de uso podem pesar na decisão; a importância de cada informação deve ser observada antes de ampliar os filtros."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "disponibilidade",
+        "label": "Escolher o horário",
+        "title": "Comparar opções sem confundir livre com confirmado",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Na página do clube, o cliente combina data, horário, modalidade e quadras. Ele também informa o total de participantes, porque convidados e regras do plano podem alterar a disponibilidade e o valor.",
+              "A visão diária agrupa os intervalos em manhã, tarde e noite. A visão semanal ajuda a comparar dias quando o cliente tem flexibilidade. Os horários indisponíveis continuam identificados, com a seleção desabilitada."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "disponibilidade",
+              "cliente-agenda"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O cliente escolhe um intervalo com início, término e nome da quadra. Antes de concluir, o sistema precisa conferir as condições atuais: outro atendimento pode ocupar o horário entre a consulta e a tentativa de reserva."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "semana"
+            ]
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "aside",
+              "attrs": {
+                "class": "reservation-case-note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "children": [
+                    "Decisão de interação"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "children": [
+                    "Manter os critérios acima da agenda permite ajustar a procura sem recomeçar pela lista de clubes. Selecionar um horário abre o painel da reserva, preservando o contexto da escolha."
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "reserva",
+        "label": "Dados e confirmação",
+        "title": "Mostrar a escolha, o valor e o próximo passo",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Ao escolher um horário, o cliente abre um painel com modalidade, quadra e período no topo. Quem já usa a Rakestra pode entrar na conta; o visitante informa nome e e-mail, com telefone opcional, e confirma o contato por código.",
+              "O resumo separa valor total, sinal para confirmar e saldo no local. A quantidade de participantes acompanha o valor para ajudar o cliente a perceber o que entrou no cálculo."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "dados-reserva",
+              "confirmacao"
+            ]
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "aside",
+              "attrs": {
+                "class": "reservation-case-note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "children": [
+                    "Condição da versão atual"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "children": [
+                    "O processamento de pagamentos online não está disponível nesta versão. O produto informa essa condição e orienta combinar pagamento ou devolução com quem recebe o dinheiro."
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "children": [
+                    "O exemplo de confirmação abaixo usa pagamento no local, sem sinal. A tela não representa um checkout online concluído."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Depois da confirmação, o cliente encontra clube, quadra, endereço, data, horário do clube e código da reserva. Os valores continuam separados para indicar o que já consta como sinal e o que ainda deve ser pago no local.",
+              "O visitante pode levar a reserva para a conta Rakestra. Essa opção aparece depois da confirmação, para acompanhar o compromisso no aplicativo."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operacao",
+        "label": "Reserva na gestão",
+        "title": "Atender o cliente com a agenda do clube como referência",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A equipe consulta a ocupação por período e quadra, alternando entre dia, semana e mês. A legenda distingue reserva, retenção, aulas e atividades e bloqueio. Essas situações ocupam a agenda por motivos diferentes e exigem ações diferentes.",
+              "Quando o cliente chega por telefone, WhatsApp ou recepção, a equipe também pode registrar a reserva. No fluxo atual de nova reserva, ela começa pela identificação do cliente, escolhe os dados da ocupação e revisa o resumo com a condição de cobrança."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "agenda-clube"
+            ]
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "div",
+              "attrs": {
+                "class": "reservation-case-wireflow"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "attrs": {
+                        "class": "reservation-case-label"
+                      },
+                      "children": [
+                        "Etapa 1"
+                      ]
+                    },
+                    {
+                      "tag": "h3",
+                      "children": [
+                        "Cliente"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Identificar a pessoa antes de associar o uso da quadra."
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "children": [
+                        "O atendimento contempla cliente externo, usuário Rakestra ou dependente."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "attrs": {
+                        "class": "reservation-case-label"
+                      },
+                      "children": [
+                        "Etapa 2"
+                      ]
+                    },
+                    {
+                      "tag": "h3",
+                      "children": [
+                        "Dados da reserva"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Escolher quadra, data, início e duração entre as opções disponíveis."
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Conferir o preço e as regras aplicáveis ao atendimento."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "attrs": {
+                        "class": "reservation-case-label"
+                      },
+                      "children": [
+                        "Etapa 3"
+                      ]
+                    },
+                    {
+                      "tag": "h3",
+                      "children": [
+                        "Resumo e cobrança"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Revisar cliente, período e valor antes de criar a reserva."
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "children": [
+                        "A ação indica se haverá sinal, cobrança posterior ou reserva gratuita."
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A equipe confere a pessoa antes de escolher a ocupação e revisa o período e o valor antes de concluir. Ao voltar uma etapa, ela pode corrigir a escolha dentro do mesmo atendimento."
+            ]
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "aside",
+              "attrs": {
+                "class": "reservation-case-note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "children": [
+                    "Reserva e recebimento"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "children": [
+                    "Criar uma reserva com cobrança pendente não comprova recebimento. A equipe precisa seguir o atendimento financeiro e confirmar o que recebeu antes de tratar o valor como pago."
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "acompanhamento",
+        "label": "Chegada e pendências",
+        "title": "Continuar o atendimento no dia do jogo",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Na recepção, a equipe procura o participante ou a quadra e acompanha as chegadas. O cartão reúne pessoa, horário e vínculo com a reserva. Os filtros separam atendimentos aguardando chegada dos concluídos.",
+              "Presença, termos, acesso e cobrança aparecem como situações próprias. A equipe pode registrar presença, atraso ou falta e identificar a necessidade de tratar uma cobrança. Marcar a chegada não equivale a receber dinheiro."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "recepcao"
+            ]
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "div",
+              "attrs": {
+                "class": "reservation-case-states"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "reservation-case-state"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "children": [
+                        "Reserva confirmada"
+                      ]
+                    },
+                    {
+                      "tag": "dl",
+                      "children": [
+                        {
+                          "tag": "dt",
+                          "children": [
+                            "Cliente"
+                          ]
+                        },
+                        {
+                          "tag": "dd",
+                          "children": [
+                            "Tem um horário para usar a quadra."
+                          ]
+                        },
+                        {
+                          "tag": "dt",
+                          "children": [
+                            "Clube"
+                          ]
+                        },
+                        {
+                          "tag": "dd",
+                          "children": [
+                            "Localiza o compromisso na agenda e na recepção."
+                          ]
+                        },
+                        {
+                          "tag": "dt",
+                          "children": [
+                            "Consequência"
+                          ]
+                        },
+                        {
+                          "tag": "dd",
+                          "children": [
+                            "Pode existir saldo para pagar no local."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "reservation-case-state"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "children": [
+                        "Cobrança pendente"
+                      ]
+                    },
+                    {
+                      "tag": "dl",
+                      "children": [
+                        {
+                          "tag": "dt",
+                          "children": [
+                            "Cliente"
+                          ]
+                        },
+                        {
+                          "tag": "dd",
+                          "children": [
+                            "Ainda precisa resolver um valor do atendimento."
+                          ]
+                        },
+                        {
+                          "tag": "dt",
+                          "children": [
+                            "Clube"
+                          ]
+                        },
+                        {
+                          "tag": "dd",
+                          "children": [
+                            "Consulta a cobrança e o que falta receber."
+                          ]
+                        },
+                        {
+                          "tag": "dt",
+                          "children": [
+                            "Consequência"
+                          ]
+                        },
+                        {
+                          "tag": "dd",
+                          "children": [
+                            "A equipe não deve apresentar o valor como recebido."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "reservation-case-state"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "children": [
+                        "Chegada registrada"
+                      ]
+                    },
+                    {
+                      "tag": "dl",
+                      "children": [
+                        {
+                          "tag": "dt",
+                          "children": [
+                            "Cliente"
+                          ]
+                        },
+                        {
+                          "tag": "dd",
+                          "children": [
+                            "Foi atendido no clube no dia do uso."
+                          ]
+                        },
+                        {
+                          "tag": "dt",
+                          "children": [
+                            "Clube"
+                          ]
+                        },
+                        {
+                          "tag": "dd",
+                          "children": [
+                            "Identifica presença, atraso ou falta."
+                          ]
+                        },
+                        {
+                          "tag": "dt",
+                          "children": [
+                            "Consequência"
+                          ]
+                        },
+                        {
+                          "tag": "dd",
+                          "children": [
+                            "Presença e situação financeira continuam separadas."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "reservation-case-state"
+                  },
+                  "children": [
+                    {
+                      "tag": "h3",
+                      "children": [
+                        "Recebimento confirmado"
+                      ]
+                    },
+                    {
+                      "tag": "dl",
+                      "children": [
+                        {
+                          "tag": "dt",
+                          "children": [
+                            "Cliente"
+                          ]
+                        },
+                        {
+                          "tag": "dd",
+                          "children": [
+                            "Pode consultar o comprovante do valor registrado."
+                          ]
+                        },
+                        {
+                          "tag": "dt",
+                          "children": [
+                            "Clube"
+                          ]
+                        },
+                        {
+                          "tag": "dd",
+                          "children": [
+                            "Confere origem, método, operador e horário."
+                          ]
+                        },
+                        {
+                          "tag": "dt",
+                          "children": [
+                            "Consequência"
+                          ]
+                        },
+                        {
+                          "tag": "dd",
+                          "children": [
+                            "O registro financeiro precisa corresponder ao recebimento."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Ao manter essas diferenças visíveis, a interface dá à equipe uma forma de explicar a pendência para o cliente. A avaliação com recepcionistas deve verificar se os rótulos ajudam a escolher a ação certa durante um atendimento."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "recuperacao",
+        "label": "Mudanças e falhas",
+        "title": "Explicar a consequência antes de repetir ou alterar",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A reserva depende de disponibilidade, identificação e resposta do sistema. O cliente pode perder a conexão depois de enviar uma ação, sem saber se ela terminou. A equipe também pode precisar remarcar ou cancelar um compromisso já registrado.",
+              "O produto trata a recusa conhecida de forma diferente da ausência de resposta. Se o resultado ainda é desconhecido, a interface oferece consulta ou retomada da tentativa, em vez de pedir outra reserva como se nada tivesse acontecido."
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Situações previstas no fluxo de reserva",
+            "columns": [
+              "Situação",
+              "Orientação na interface",
+              "O que preservar"
+            ],
+            "rows": [
+              [
+                "Horário ficou indisponível",
+                "Rever a disponibilidade e escolher uma opção válida.",
+                "O cliente entende por que a escolha não pôde continuar."
+              ],
+              [
+                "Código inválido ou expirado",
+                "Conferir o código e o estado da tentativa antes de prosseguir.",
+                "Identificação e horário ainda precisam de confirmação."
+              ],
+              [
+                "Resposta não chegou",
+                "Retomar a mesma tentativa ou consultar o resultado.",
+                "A ação original, sem criar uma segunda reserva por suposição."
+              ],
+              [
+                "Remarcação",
+                "Revisar o novo período, o motivo e uma eventual diferença de preço.",
+                "O compromisso anterior até a confirmação da mudança."
+              ],
+              [
+                "Cancelamento",
+                "Consultar a consequência antes de confirmar.",
+                "A diferença entre cancelar a reserva e devolver dinheiro."
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Na operação do clube, a remarcação pede motivo e apresenta as consequências relevantes, como alteração de valor. No lado do cliente, o cancelamento começa pela consulta da consequência. A pessoa deve entender o efeito antes de assumir a mudança.",
+              "Esses estados fazem parte da leitura do projeto porque mudam o atendimento: a equipe precisa saber quando corrigir um campo, quando consultar o resultado e quando aguardar uma confirmação."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "avaliacao",
+        "label": "Avaliação e próximos passos",
+        "title": "Validar a facilidade de reservar nos dois lados",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O produto já reúne busca pública, consulta de horários, identificação do cliente, confirmação demonstrativa e acompanhamento da ocupação e das chegadas. Este case organiza as decisões de interface que conectam essas tarefas.",
+              "A revisão de código e de telas sustenta a descrição do fluxo. Para avaliar a experiência de uso, o próximo passo é observar clientes e equipes de clubes realizando tarefas de reserva, com cenários que incluam dúvidas e interrupções."
+            ]
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "ol",
+              "attrs": {
+                "class": "reservation-case-review"
+              },
+              "children": [
+                {
+                  "tag": "li",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "children": [
+                        {
+                          "tag": "h3",
+                          "children": [
+                            "Encontrar uma opção viável"
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Pedir ao cliente que encontre uma quadra para uma modalidade e um período. Observar os critérios usados, as voltas na navegação e os pontos em que ele pede ajuda."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "children": [
+                        {
+                          "tag": "h3",
+                          "children": [
+                            "Explicar a condição da reserva"
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Antes de continuar, pedir que a pessoa diga o valor total, se existe sinal e o que pagará no local. Conferir também se ela sabe quando o horário está confirmado."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "children": [
+                        {
+                          "tag": "h3",
+                          "children": [
+                            "Resolver um atendimento no clube"
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Acompanhar a equipe criando uma reserva e localizando a chegada. Observar se ela distingue retenção, reserva, cobrança e recebimento sem depender de orientação externa."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "li",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "children": [
+                        {
+                          "tag": "h3",
+                          "children": [
+                            "Retomar depois de uma interrupção"
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "children": [
+                            "Observar se cliente e equipe conseguem conferir uma tentativa sem duplicá-la, e se compreendem a consequência de uma remarcação ou de um cancelamento."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Tempo para concluir a reserva, conclusão sem ajuda, erros de interpretação e tentativas duplicadas são medidas propostas para essa avaliação. Ainda não há resultados de usabilidade ou impacto comercial documentados neste case."
+            ]
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "aside",
+              "attrs": {
+                "class": "reservation-case-note"
+              },
+              "children": [
+                {
+                  "tag": "h3",
+                  "children": [
+                    "Síntese do recorte"
+                  ]
+                },
+                {
+                  "tag": "p",
+                  "children": [
+                    "A proposta conecta a escolha do cliente ao acompanhamento do clube por meio do horário, da quadra e da situação da reserva. A próxima rodada de validação deve mostrar onde essa continuidade funciona e onde o atendimento ainda exige explicação."
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "endnote": "Telas de desenvolvimento e registros demonstrativos. Valores, nomes e quantidades nas imagens ilustram a interface e não representam resultados do produto.",
+    "heroClassName": "reservation-case-opening"
+  }
+}

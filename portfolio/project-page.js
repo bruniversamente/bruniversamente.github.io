@@ -18,6 +18,7 @@
   }
   function mediaFigure(media,cover=false,mediaIndex=0){
     const figure=el('figure',cover?'case-cover':'case-figure');
+    if(media.presentation==='phone')figure.classList.add('reservation-handset');
     const trigger=el('button','case-media-trigger');trigger.type='button';trigger.dataset.video=String(media.type==='video');trigger.setAttribute('aria-label',`${media.type==='video'?'Reproduzir vídeo':'Ampliar imagem'}: ${media.alt||'Mídia do projeto'}`);trigger.setAttribute('aria-haspopup','dialog');
     if(media.type==='video'){
       const video=el('video');video.playsInline=true;video.preload='none';video.src=media.src;video.setAttribute('aria-hidden','true');video.tabIndex=-1;if(media.poster)video.poster=media.poster;trigger.append(video);

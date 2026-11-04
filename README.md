@@ -2,7 +2,13 @@
 
 Portfólio estático em https://bruniversamente.github.io/, com home de áreas, índice, busca, filtros, páginas de projeto, capítulos e galeria ampliada.
 
-## Publicação atual — 04/11/2026
+## Rakestra Gestão · Produtos digitais
+
+Bruno autorizou a publicação do Rakestra Gestão em Produtos digitais em 04/11/2026. A versão `gestao-uxui-20261104` reúne cinco áreas e 62 projetos, com dois em Produtos digitais. O case acompanha cliente e funcionário em nove capítulos, com seis telas móveis no mock original do Rakestra App, três prints desktop preservados e uma jornada interativa. A capa usa o cinza `#C5C7CC` da identidade visual. Endereço: https://bruniversamente.github.io/?area=produtos&project=produtos-03.
+
+Conteúdo em `portfolio/project-data/produtos/produtos-03.json`; módulo e estilos isolados em `portfolio/reservation-case.js` e `portfolio/reservation-case.css`. Os 61 projetos anteriores foram preservados. AGA Studio continua pendente. As seções abaixo registram as etapas anteriores.
+
+## Publicação anterior — 04/11/2026
 
 O site reúne cinco áreas e 61 projetos: Beleza (29), Design e direção criativa (10), Produtos digitais (1), Consultoria Aeronáutica (16) e Dados e BI (5). A Consultoria substitui a antiga entrada de Arquitetura e Urbanismo. O TFG Território e moradia está em Design, com sete pranchas completas. EasyAGA e Rakestra · Identidade visual também mantêm suas pranchas completas.
 

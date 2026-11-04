@@ -1,0 +1,80 @@
+/* Scoped modules for the new case. Typography and surfaces come from the approved UI. */
+.reservation-handset{border:0!important;background:transparent!important;width:min(29rem,100%);margin-inline:auto!important}
+.reservation-handset>.case-media-trigger{display:block;position:relative;aspect-ratio:1260/2604;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;isolation:isolate;overflow:visible}
+.reservation-handset>.case-media-trigger::before{content:'';position:absolute;inset:1.6129% 3.3333%;border-radius:8.16% / 3.81%;background:#101110;z-index:-1}
+.reservation-handset .editorial-device-screen{left:4.285714%;top:5.913978%;width:91.428572%;height:91.436252%;border-radius:0;background:#000}
+.reservation-handset .editorial-device-screen>img{object-fit:contain!important;object-position:top}
+.reservation-handset .editorial-device-frame{height:auto!important;object-fit:contain!important;border-radius:0;background:transparent}
+.reservation-handset .story-caption{border:0;padding-inline:0;font-size:1.2rem;line-height:1.4}
+.story-media:has(>.reservation-handset){justify-items:center}
+.story-media-row>.reservation-handset{outline:0!important;margin:0!important;background:transparent}
+.story-media-row>.reservation-handset>.case-media-trigger{aspect-ratio:auto!important}
+.story-media-row>.reservation-handset>.case-media-trigger>img{object-fit:contain!important}
+.reservation-case-hero{container-type:inline-size;--hero-screen-height:calc((100cqw - 2.4rem)*.65/1.6);display:grid;grid-template-columns:minmax(0,.35fr) minmax(0,.65fr);gap:2.4rem;margin-bottom:3.2rem}
+.reservation-case-hero .reservation-handset{width:calc(var(--hero-screen-height)*1260/2604);max-width:none;overflow:visible}
+.reservation-case-hero .reservation-handset>.case-media-trigger{height:var(--hero-screen-height)!important;aspect-ratio:auto}
+.reservation-case-hero .reservation-handset figcaption{border:0;padding-inline:0}
+.reservation-case-hero>div{min-width:0}
+.reservation-case-label{display:block;font-size:1.2rem;line-height:1.4;letter-spacing:.015em;text-transform:uppercase;color:var(--muted)}
+.reservation-case-hero .reservation-case-label{margin-bottom:1.2rem}
+.reservation-case-hero .case-figure{margin:0;overflow:hidden}
+.reservation-case-hero .case-media-trigger{aspect-ratio:1.6;display:block;background:transparent}
+.reservation-case-hero .case-media-trigger>img{width:100%;height:100%;object-fit:cover;object-position:top}
+.reservation-case-hero figcaption{font-size:1.2rem;line-height:1.4;min-height:8rem;padding:1rem 1.2rem;border-top:1px solid var(--ink)}
+.reservation-case-intent{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3.2rem}
+.reservation-case-intent>div{padding:2rem 0;border-top:1px solid var(--hover);min-width:0}
+.reservation-case-intent h3{font-size:2.6rem;font-weight:300;line-height:1.2;margin:1rem 0 1.6rem}
+.reservation-case-intent p:not(.reservation-case-label){font-size:1.7rem;line-height:1.55;max-width:36rem}
+.reservation-case-intent p+p{margin-top:1.2rem}
+.reservation-journey{border-block:1px solid var(--ink);padding-block:1.6rem 2.4rem}
+.reservation-journey-controls{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.6rem}
+.reservation-journey-button{justify-content:flex-start;gap:.8rem;white-space:normal;text-align:left;min-height:4.4rem;line-height:1.3;padding:.9rem 1.1rem}
+.reservation-journey-button[aria-pressed=true]{color:var(--paper);background:var(--ink)}
+.reservation-journey-number{font-size:1.1rem;font-variant-numeric:tabular-nums;opacity:.65}
+.reservation-journey-panel{padding-top:3.2rem;min-height:34rem}
+.reservation-journey-title{font-size:2.6rem;font-weight:300;line-height:1.2;max-width:48rem;margin-bottom:2.4rem}
+.reservation-journey-sides{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3.2rem}
+.reservation-journey-side p+p{font-size:1.6rem;line-height:1.5;margin-top:1.1rem;max-width:34rem}
+.reservation-journey-handoff{border-top:1px solid var(--hover);padding-top:1.6rem;margin:2.4rem 0}
+.reservation-journey-handoff p{font-size:1.5rem;line-height:1.5;margin-top:.6rem;max-width:66rem}
+.reservation-journey-panel>.button{min-height:4.4rem;white-space:normal;text-align:left;line-height:1.4}
+.reservation-case-wireflow{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:1px solid var(--ink)}
+.reservation-case-wireflow>div{min-width:0;padding:2rem 1.8rem 2rem 0}
+.reservation-case-wireflow>div+div{border-left:1px solid var(--hover);padding-left:1.8rem}
+.reservation-case-wireflow h3{font-size:2.1rem;font-weight:300;line-height:1.25;margin:1rem 0 1.6rem}
+.reservation-case-wireflow p:not(.reservation-case-label){font-size:1.5rem;line-height:1.5}
+.reservation-case-wireflow p+p{margin-top:1rem}
+.reservation-case-states{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:2.4rem}
+.reservation-case-state{border-block:1px solid var(--hover);padding-block:1.8rem 2rem;min-width:0}
+.reservation-case-state h3{font-size:2.2rem;font-weight:300;line-height:1.25;margin-bottom:1.6rem}
+.reservation-case-state dl{margin:0;display:grid;gap:.8rem}
+.reservation-case-state dt{font-size:1.1rem;color:var(--muted);text-transform:uppercase;line-height:1.4;margin-top:.8rem}
+.reservation-case-state dd{font-size:1.5rem;line-height:1.5;margin:0;max-width:34rem}
+.reservation-case-note{border-left:1px solid var(--ink);padding:0 0 0 2rem;max-width:66rem}
+.reservation-case-note h3{font-size:1.3rem;text-transform:uppercase;font-weight:400;margin-bottom:1rem;line-height:1.4}
+.reservation-case-note p{font-size:1.5rem;line-height:1.5;color:var(--muted)}
+.reservation-case-note p+p{margin-top:1rem}
+.reservation-case-review{list-style:none;margin:0;padding:0;counter-reset:reservation-question}
+.reservation-case-review li{counter-increment:reservation-question;border-top:1px solid var(--hover);padding:1.8rem 0;display:grid;grid-template-columns:3rem 1fr;gap:1rem}
+.reservation-case-review li::before{content:counter(reservation-question,decimal-leading-zero);font-size:1.2rem;color:var(--muted);padding-top:.5rem}
+.reservation-case-review h3{font-size:2rem;font-weight:300;line-height:1.3;margin-bottom:.8rem}
+.reservation-case-review p{font-size:1.5rem;line-height:1.5;max-width:62rem}
+@media(max-width:700px){
+  .reservation-case-hero{grid-template-columns:1fr;gap:2.4rem}
+  .reservation-case-hero .reservation-handset{width:min(29rem,100%)}
+  .reservation-case-hero .reservation-handset>.case-media-trigger{height:auto!important;aspect-ratio:1260/2604}
+  .reservation-case-hero figcaption{min-height:0}
+  .reservation-case-intent{grid-template-columns:1fr;gap:.8rem}
+  .reservation-case-intent h3{font-size:2.3rem}
+  .reservation-case-intent p:not(.reservation-case-label){font-size:1.6rem;max-width:none}
+  .reservation-journey-controls{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .reservation-journey-button{font-size:1.2rem}
+  .reservation-journey-panel{min-height:0;padding-top:2.4rem}
+  .reservation-journey-title{font-size:2.3rem}
+  .reservation-journey-sides{grid-template-columns:1fr;gap:2.4rem}
+  .reservation-journey-side p+p{max-width:none}
+  .reservation-case-wireflow{grid-template-columns:1fr}
+  .reservation-case-wireflow>div{padding:1.8rem 0}
+  .reservation-case-wireflow>div+div{border-left:0;border-top:1px solid var(--hover);padding-left:0}
+  .reservation-case-states{grid-template-columns:1fr;gap:1.6rem}
+}

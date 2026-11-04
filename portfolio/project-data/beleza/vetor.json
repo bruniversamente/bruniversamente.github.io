@@ -1,0 +1,331 @@
+{
+  "id": "vetor",
+  "area": "beleza",
+  "title": "Revista Vetor",
+  "subtitle": "Maquiagem e headpiece",
+  "intro": "",
+  "tags": [
+    "Maquiagem e construção de headpiece"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/vetor/retrato-4ed94cb6dc/image.avif",
+    "width": 1536,
+    "height": 1920,
+    "fullSrc": "portfolio/assets/beleza/vetor/retrato-4ed94cb6dc/image.avif",
+    "fullWidth": 1536,
+    "fullHeight": 1920,
+    "alt": "Retrato com adereço circular vermelho, preto e palha",
+    "srcset": "portfolio/assets/beleza/vetor/retrato-4ed94cb6dc/640w.avif 640w, portfolio/assets/beleza/vetor/retrato-4ed94cb6dc/image.avif 1536w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/vetor/retrato-4ed94cb6dc/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/vetor/retrato-4ed94cb6dc/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Retrato com adereço circular vermelho, preto e palha",
+      "srcset": "portfolio/assets/beleza/vetor/retrato-4ed94cb6dc/640w.avif 640w, portfolio/assets/beleza/vetor/retrato-4ed94cb6dc/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/vetor/corpo-fafd01431d/image.avif",
+      "width": 1453,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/vetor/corpo-fafd01431d/image.avif",
+      "fullWidth": 1453,
+      "fullHeight": 1920,
+      "alt": "Figura inteira com a headpiece e o figurino",
+      "srcset": "portfolio/assets/beleza/vetor/corpo-fafd01431d/640w.avif 640w, portfolio/assets/beleza/vetor/corpo-fafd01431d/image.avif 1453w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/vetor/plissado-selecao-09-459af940e4/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/vetor/plissado-selecao-09-459af940e4/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Montagem do plissado",
+      "srcset": "portfolio/assets/beleza/vetor/plissado-selecao-09-459af940e4/640w.avif 640w, portfolio/assets/beleza/vetor/plissado-selecao-09-459af940e4/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/vetor/penas-selecao-15-9ad18cf7f4/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/vetor/penas-selecao-15-9ad18cf7f4/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Aplicação das penas",
+      "srcset": "portfolio/assets/beleza/vetor/penas-selecao-15-9ad18cf7f4/640w.avif 640w, portfolio/assets/beleza/vetor/penas-selecao-15-9ad18cf7f4/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/vetor/pintura-selecao-18-b34302ecaf/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/vetor/pintura-selecao-18-b34302ecaf/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Acabamento das penas",
+      "srcset": "portfolio/assets/beleza/vetor/pintura-selecao-18-b34302ecaf/640w.avif 640w, portfolio/assets/beleza/vetor/pintura-selecao-18-b34302ecaf/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/vetor/maquiagem-metalica-retocada-97747a3441/image.avif",
+      "width": 941,
+      "height": 1672,
+      "fullSrc": "portfolio/assets/beleza/vetor/maquiagem-metalica-retocada-97747a3441/image.avif",
+      "fullWidth": 941,
+      "fullHeight": 1672,
+      "alt": "Aplicação do dourado",
+      "srcset": "portfolio/assets/beleza/vetor/maquiagem-metalica-retocada-97747a3441/640w.avif 640w, portfolio/assets/beleza/vetor/maquiagem-metalica-retocada-97747a3441/image.avif 941w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m007",
+      "type": "image",
+      "src": "portfolio/assets/beleza/vetor/maquiagem-olhos-retocada-f3a79c3634/image.avif",
+      "width": 941,
+      "height": 1672,
+      "fullSrc": "portfolio/assets/beleza/vetor/maquiagem-olhos-retocada-f3a79c3634/image.avif",
+      "fullWidth": 941,
+      "fullHeight": 1672,
+      "alt": "Detalhes dos olhos",
+      "srcset": "portfolio/assets/beleza/vetor/maquiagem-olhos-retocada-f3a79c3634/640w.avif 640w, portfolio/assets/beleza/vetor/maquiagem-olhos-retocada-f3a79c3634/image.avif 941w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m008",
+      "type": "image",
+      "src": "portfolio/assets/beleza/vetor/maquiagem-boca-retocada-978a1493d8/image.avif",
+      "width": 941,
+      "height": 1672,
+      "fullSrc": "portfolio/assets/beleza/vetor/maquiagem-boca-retocada-978a1493d8/image.avif",
+      "fullWidth": 941,
+      "fullHeight": 1672,
+      "alt": "Batom vermelho",
+      "srcset": "portfolio/assets/beleza/vetor/maquiagem-boca-retocada-978a1493d8/640w.avif 640w, portfolio/assets/beleza/vetor/maquiagem-boca-retocada-978a1493d8/image.avif 941w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m009",
+      "type": "image",
+      "src": "portfolio/assets/beleza/vetor/pagina-dupla-6a6127c472/1280w.avif",
+      "width": 1280,
+      "height": 800,
+      "fullSrc": "portfolio/assets/beleza/vetor/pagina-dupla-6a6127c472/image.avif",
+      "fullWidth": 1920,
+      "fullHeight": 1200,
+      "alt": "Página dupla com as fotografias finais da Revista Vetor",
+      "srcset": "portfolio/assets/beleza/vetor/pagina-dupla-6a6127c472/640w.avif 640w, portfolio/assets/beleza/vetor/pagina-dupla-6a6127c472/1280w.avif 1280w, portfolio/assets/beleza/vetor/pagina-dupla-6a6127c472/image.avif 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m010",
+      "type": "video",
+      "src": "portfolio/assets/beleza/vetor/editorial-final-2edb8babf5/video.mp4",
+      "width": 640,
+      "height": 1138,
+      "fullSrc": "portfolio/assets/beleza/vetor/editorial-final-2edb8babf5/video.mp4",
+      "fullWidth": 640,
+      "fullHeight": 1138,
+      "alt": "Peça final em movimento",
+      "poster": "portfolio/assets/beleza/vetor/headpiece-final-e38671226c/image.avif"
+    },
+    {
+      "id": "m011",
+      "type": "video",
+      "src": "portfolio/assets/beleza/vetor/backstage-completo-2e1be70704/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/vetor/backstage-completo-2e1be70704/video.mp4",
+      "fullWidth": 720,
+      "fullHeight": 1280,
+      "alt": "Making of completo",
+      "poster": "portfolio/assets/beleza/vetor/tecido-7ece6b9576/image.avif"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "maquiagem-e-headpiece",
+        "title": "Maquiagem e headpiece",
+        "label": "Maquiagem e headpiece",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m001"
+              },
+              {
+                "id": "m001"
+              },
+              {
+                "id": "m002"
+              }
+            ],
+            "layout": "gallery"
+          }
+        ]
+      },
+      {
+        "id": "construcao-da-headpiece",
+        "title": "Construção da headpiece",
+        "label": "Construção da headpiece",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m003",
+                "caption": "Montagem do plissado"
+              },
+              {
+                "id": "m004",
+                "caption": "Aplicação das penas"
+              },
+              {
+                "id": "m005",
+                "caption": "Acabamento das penas"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "maquiagem",
+        "title": "Maquiagem",
+        "label": "Maquiagem",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m006",
+                "caption": "Aplicação do dourado"
+              },
+              {
+                "id": "m007",
+                "caption": "Detalhes dos olhos"
+              },
+              {
+                "id": "m008",
+                "caption": "Batom vermelho"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "subversao-i",
+        "title": "Subversão I",
+        "label": "Subversão I",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Editorial da segunda edição da Revista Vetor."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m009"
+              }
+            ],
+            "layout": "single"
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Maquiagem e construção da headpiece",
+                "names": "Bruno Nascimento",
+                "links": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "videos-de-backstage",
+        "title": "Vídeos de backstage",
+        "label": "Vídeos de backstage",
+        "blocks": [
+          {
+            "type": "text",
+            "title": "Peça final em movimento",
+            "paragraphs": []
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m010"
+              }
+            ],
+            "layout": "single"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Registro final do editorial · 15 segundos"
+            ]
+          },
+          {
+            "type": "text",
+            "title": "Making of completo",
+            "paragraphs": []
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m011"
+              }
+            ],
+            "layout": "single"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Construção da headpiece, figurino, maquiagem e ensaio · 3 minutos e 49 segundos"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "id": "muraca-interplanetary",
+  "area": "beleza",
+  "title": "Interplanetary",
+  "subtitle": "Muraca",
+  "intro": "",
+  "tags": [
+    "Beleza experimental"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/muraca-interplanetary/05-contato-olho-de-peixe-356acee15d/image.avif",
+    "width": 1122,
+    "height": 1402,
+    "fullSrc": "portfolio/assets/beleza/muraca-interplanetary/05-contato-olho-de-peixe-356acee15d/image.avif",
+    "fullWidth": 1122,
+    "fullHeight": 1402,
+    "alt": "Recriação por IA: modelo com maquiagem iridescente, tranças esculturais e plumas pink em gesto de contato com lente olho de peixe",
+    "srcset": "portfolio/assets/beleza/muraca-interplanetary/05-contato-olho-de-peixe-356acee15d/640w.avif 640w, portfolio/assets/beleza/muraca-interplanetary/05-contato-olho-de-peixe-356acee15d/image.avif 1122w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/muraca-interplanetary/05-contato-olho-de-peixe-356acee15d/image.avif",
+      "width": 1122,
+      "height": 1402,
+      "fullSrc": "portfolio/assets/beleza/muraca-interplanetary/05-contato-olho-de-peixe-356acee15d/image.avif",
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Recriação por IA: modelo com maquiagem iridescente, tranças esculturais e plumas pink em gesto de contato com lente olho de peixe",
+      "srcset": "portfolio/assets/beleza/muraca-interplanetary/05-contato-olho-de-peixe-356acee15d/640w.avif 640w, portfolio/assets/beleza/muraca-interplanetary/05-contato-olho-de-peixe-356acee15d/image.avif 1122w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/muraca-interplanetary/01-retrato-lilas-193c044242/image.avif",
+      "width": 1122,
+      "height": 1402,
+      "fullSrc": "portfolio/assets/beleza/muraca-interplanetary/01-retrato-lilas-193c044242/image.avif",
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Recriação por IA: retrato com maquiagem iridescente e tranças esculturais sob luz lilás",
+      "srcset": "portfolio/assets/beleza/muraca-interplanetary/01-retrato-lilas-193c044242/640w.avif 640w, portfolio/assets/beleza/muraca-interplanetary/01-retrato-lilas-193c044242/image.avif 1122w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/muraca-interplanetary/02-projecoes-cromaticas-854e2425cf/image.avif",
+      "width": 1122,
+      "height": 1402,
+      "fullSrc": "portfolio/assets/beleza/muraca-interplanetary/02-projecoes-cromaticas-854e2425cf/image.avif",
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Recriação por IA: retrato em três quartos com luz azul, verde e violeta e plumas pink",
+      "srcset": "portfolio/assets/beleza/muraca-interplanetary/02-projecoes-cromaticas-854e2425cf/640w.avif 640w, portfolio/assets/beleza/muraca-interplanetary/02-projecoes-cromaticas-854e2425cf/image.avif 1122w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/muraca-interplanetary/look-obscuro-0019-79be2cead7/image.avif",
+      "width": 1024,
+      "height": 1536,
+      "fullSrc": "portfolio/assets/beleza/muraca-interplanetary/look-obscuro-0019-79be2cead7/image.avif",
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Retrato com maquiagem em manchas coloridas, lentes pretas, cabelo preto volumoso e gola de tule preto sobre fundo grafite",
+      "srcset": "portfolio/assets/beleza/muraca-interplanetary/look-obscuro-0019-79be2cead7/640w.avif 640w, portfolio/assets/beleza/muraca-interplanetary/look-obscuro-0019-79be2cead7/image.avif 1024w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/muraca-interplanetary/look-obscuro-0012-44aeb2f5a9/image.avif",
+      "width": 1024,
+      "height": 1536,
+      "fullSrc": "portfolio/assets/beleza/muraca-interplanetary/look-obscuro-0012-44aeb2f5a9/image.avif",
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Retrato com maquiagem em manchas coloridas, lentes pretas, cabelo preto volumoso e gola de tule preto sobre fundo grafite",
+      "srcset": "portfolio/assets/beleza/muraca-interplanetary/look-obscuro-0012-44aeb2f5a9/640w.avif 640w, portfolio/assets/beleza/muraca-interplanetary/look-obscuro-0012-44aeb2f5a9/image.avif 1024w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/muraca-interplanetary/06-original-181014-zoom-out-69818f69a1/image.avif",
+      "width": 941,
+      "height": 1672,
+      "fullSrc": "portfolio/assets/beleza/muraca-interplanetary/06-original-181014-zoom-out-69818f69a1/image.avif",
+      "fullWidth": 941,
+      "fullHeight": 1672,
+      "alt": "Perfil com glitter violeta e azul em enquadramento aberto na escuridão",
+      "srcset": "portfolio/assets/beleza/muraca-interplanetary/06-original-181014-zoom-out-69818f69a1/640w.avif 640w, portfolio/assets/beleza/muraca-interplanetary/06-original-181014-zoom-out-69818f69a1/image.avif 941w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m007",
+      "type": "image",
+      "src": "portfolio/assets/beleza/muraca-interplanetary/07-rosto-centralizado-97fa8a8b4a/image.avif",
+      "width": 1122,
+      "height": 1402,
+      "fullSrc": "portfolio/assets/beleza/muraca-interplanetary/07-rosto-centralizado-97fa8a8b4a/image.avif",
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Rosto centralizado com glitter violeta e azul cercado de escuridão",
+      "srcset": "portfolio/assets/beleza/muraca-interplanetary/07-rosto-centralizado-97fa8a8b4a/640w.avif 640w, portfolio/assets/beleza/muraca-interplanetary/07-rosto-centralizado-97fa8a8b4a/image.avif 1122w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": false,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "muraca",
+        "title": "Muraca",
+        "label": "Muraca",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              },
+              {
+                "id": "m004"
+              },
+              {
+                "id": "m005"
+              },
+              {
+                "id": "m006"
+              },
+              {
+                "id": "m007"
+              }
+            ],
+            "layout": "gallery"
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Modelo feminina",
+                "names": "Aline Souza · @alinesza_",
+                "links": [
+                  {
+                    "title": "Aline Souza · @alinesza_",
+                    "url": "https://www.instagram.com/alinesza_/"
+                  }
+                ]
+              },
+              {
+                "role": "Fotografia da produção original",
+                "names": "Muraca · @muraca___",
+                "links": [
+                  {
+                    "title": "Muraca · @muraca___",
+                    "url": "https://www.instagram.com/muraca___/"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,697 @@
+{
+  "id": "maquiagem-experimental-e-aderecos",
+  "area": "beleza",
+  "title": "Autoretratos",
+  "subtitle": "Maquiagem experimental",
+  "intro": "",
+  "tags": [
+    "Maquiagem experimental"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/flor-editorial-ia-76329e6f6a/image.avif",
+    "width": 1254,
+    "height": 1254,
+    "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/flor-editorial-ia-76329e6f6a/image.avif",
+    "fullWidth": 1254,
+    "fullHeight": 1254,
+    "alt": "Retrato com aplicações de pétalas azuis e laranjas",
+    "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/flor-editorial-ia-76329e6f6a/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/flor-editorial-ia-76329e6f6a/image.avif 1254w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/flor-editorial-ia-76329e6f6a/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/flor-editorial-ia-76329e6f6a/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato com aplicações de pétalas azuis e laranjas",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/flor-editorial-ia-76329e6f6a/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/flor-editorial-ia-76329e6f6a/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/geometria-5bc4019718/1280w.avif",
+      "width": 1280,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/geometria-5bc4019718/image.avif",
+      "fullWidth": 1920,
+      "fullHeight": 1920,
+      "alt": "Máscara geométrica colorida",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/geometria-5bc4019718/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/geometria-5bc4019718/1280w.avif 1280w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/geometria-5bc4019718/image.avif 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/mascara-d529f2e242/image.avif",
+      "width": 1024,
+      "height": 1024,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/mascara-d529f2e242/image.avif",
+      "fullWidth": 1024,
+      "fullHeight": 1024,
+      "alt": "Máscara de colagem sobre tecido de cetim claro",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/mascara-d529f2e242/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/mascara-d529f2e242/image.avif 1024w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/colagem-cadea6b229/1280w.avif",
+      "width": 1280,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/colagem-cadea6b229/image.avif",
+      "fullWidth": 1920,
+      "fullHeight": 1920,
+      "alt": "Máscara de colagem aplicada ao rosto",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/colagem-cadea6b229/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/colagem-cadea6b229/1280w.avif 1280w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/colagem-cadea6b229/image.avif 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/cascas-sem-bigode-ia-18e810ff92/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/cascas-sem-bigode-ia-18e810ff92/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato com maquiagem e fragmentos de cascas de ovos, incluindo a região acima dos lábios",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/cascas-sem-bigode-ia-18e810ff92/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/cascas-sem-bigode-ia-18e810ff92/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/pintura-41c5ed240c/image.avif",
+      "width": 1704,
+      "height": 1705,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/pintura-41c5ed240c/image.avif",
+      "fullWidth": 1704,
+      "fullHeight": 1705,
+      "alt": "Pintura facial com prótese de membrana de maracujá",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/pintura-41c5ed240c/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/pintura-41c5ed240c/image.avif 1704w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m007",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/perolas-frontal-editorial-ia-c0d0c33be5/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/perolas-frontal-editorial-ia-c0d0c33be5/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato frontal com pérolas e pedrarias, com iluminação editorial",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/perolas-frontal-editorial-ia-c0d0c33be5/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/perolas-frontal-editorial-ia-c0d0c33be5/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m008",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/perolas-tres-quartos-editorial-ia-60e4128474/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/perolas-tres-quartos-editorial-ia-60e4128474/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato em três quartos com pérolas e pedrarias, com iluminação editorial",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/perolas-tres-quartos-editorial-ia-60e4128474/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/perolas-tres-quartos-editorial-ia-60e4128474/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m009",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/grafismo-f8fbe4af6f/1280w.avif",
+      "width": 1280,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/grafismo-f8fbe4af6f/image.avif",
+      "fullWidth": 1920,
+      "fullHeight": 1920,
+      "alt": "CLOWN 1",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/grafismo-f8fbe4af6f/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/grafismo-f8fbe4af6f/1280w.avif 1280w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/grafismo-f8fbe4af6f/image.avif 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m010",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/estudo-clown-2-f74227434a/1280w.avif",
+      "width": 1280,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/estudo-clown-2-f74227434a/image.avif",
+      "fullWidth": 1920,
+      "fullHeight": 1920,
+      "alt": "CLOWN 2",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/estudo-clown-2-f74227434a/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/estudo-clown-2-f74227434a/1280w.avif 1280w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/estudo-clown-2-f74227434a/image.avif 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m011",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/bruninha-pele-editorial-ia-a637decbdd/image.avif",
+      "width": 1122,
+      "height": 1402,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/bruninha-pele-editorial-ia-a637decbdd/image.avif",
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Retrato com maquiagem gráfica branca, azul e vinho e pele retocada com iluminação editorial",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/bruninha-pele-editorial-ia-a637decbdd/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/bruninha-pele-editorial-ia-a637decbdd/image.avif 1122w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m012",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/bruninha-detalhe-8204ac4844/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/bruninha-detalhe-8204ac4844/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Aproximação da maquiagem branca com olhos azuis e vinho, pedrarias e lábios vermelhos",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/bruninha-detalhe-8204ac4844/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/bruninha-detalhe-8204ac4844/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m013",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/perolas-organicas-composicao-editorial-ia-19acd9ef7d/image.avif",
+      "width": 1774,
+      "height": 887,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/perolas-organicas-composicao-editorial-ia-19acd9ef7d/image.avif",
+      "fullWidth": 1774,
+      "fullHeight": 887,
+      "alt": "Composição horizontal com dois retratos de maquiagem com pérolas e colar, iluminação editorial e peito sem pelos",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/perolas-organicas-composicao-editorial-ia-19acd9ef7d/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/perolas-organicas-composicao-editorial-ia-19acd9ef7d/image.avif 1774w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m014",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/laranja-editorial-escolhida-ia-304118fd4b/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/laranja-editorial-escolhida-ia-304118fd4b/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato de perfil com maquiagem laranja, cabeça e barba sem pelos e pele de tonalidade natural",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/laranja-editorial-escolhida-ia-304118fd4b/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/laranja-editorial-escolhida-ia-304118fd4b/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m015",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/grafismo-perolas-editorial-ia-e4787b8fd1/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/grafismo-perolas-editorial-ia-e4787b8fd1/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato com maquiagem gráfica preta e branca, pérolas e brincos, retoque editorial e peito sem pelos",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/grafismo-perolas-editorial-ia-e4787b8fd1/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/grafismo-perolas-editorial-ia-e4787b8fd1/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m016",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/china-opera-editorial-ia-7d573c27ca/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/china-opera-editorial-ia-7d573c27ca/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato frontal com maquiagem de ópera chinesa e glitter dourado, iluminação editorial",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/china-opera-editorial-ia-7d573c27ca/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/china-opera-editorial-ia-7d573c27ca/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m017",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/gayxa-editorial-ia-bf1f98e756/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/gayxa-editorial-ia-bf1f98e756/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato com maquiagem branca, preta, rosa e azul, barba branca preservada e iluminação editorial",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/gayxa-editorial-ia-bf1f98e756/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/gayxa-editorial-ia-bf1f98e756/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m018",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/cirurgia-sem-barba-editorial-ia-1d82bef724/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/cirurgia-sem-barba-editorial-ia-1d82bef724/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato sem barba com gaze, maquiagem gráfica e plástico transparente, iluminação editorial",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/cirurgia-sem-barba-editorial-ia-1d82bef724/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/cirurgia-sem-barba-editorial-ia-1d82bef724/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m019",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/manequim-editorial-ouro-diamantes-ia-a804a5b66a/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/manequim-editorial-ouro-diamantes-ia-a804a5b66a/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato com maquiagem sob filme transparente, sem barba e pelos no peito, brinco pendente de ouro com diamantes e iluminação editorial",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/manequim-editorial-ouro-diamantes-ia-a804a5b66a/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/manequim-editorial-ouro-diamantes-ia-a804a5b66a/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m020",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/drag-1-original-contorno-preservado-ia-89de3fb93a/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/drag-1-original-contorno-preservado-ia-89de3fb93a/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato drag sem cabelo e pelos, mantendo o formato do queixo e o contorno vinho da maquiagem no maxilar",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/drag-1-original-contorno-preservado-ia-89de3fb93a/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/drag-1-original-contorno-preservado-ia-89de3fb93a/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m021",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/drag-2-definicao-editorial-ia-3c94ff8ea2/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/drag-2-definicao-editorial-ia-3c94ff8ea2/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato com maquiagem gráfica preta e rosa, pérola no lábio e definição refinada a partir do original",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/drag-2-definicao-editorial-ia-3c94ff8ea2/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/drag-2-definicao-editorial-ia-3c94ff8ea2/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m022",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/estudo-cotton-ia-887c0a7cf2/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/estudo-cotton-ia-887c0a7cf2/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Detalhe de maquiagem amarela com aplicações de algodão rosa e amarelo",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/estudo-cotton-ia-887c0a7cf2/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/estudo-cotton-ia-887c0a7cf2/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m023",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/dior-2000-sem-cabelo-editorial-ia-140badffd5/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/dior-2000-sem-cabelo-editorial-ia-140badffd5/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato com maquiagem verde, pérolas e fios decorativos, sem cabelo e com iluminação editorial",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/dior-2000-sem-cabelo-editorial-ia-140badffd5/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/dior-2000-sem-cabelo-editorial-ia-140badffd5/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m024",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/esotheryca-1-corpo-rosa-editorial-ia-ac40b1f509/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/esotheryca-1-corpo-rosa-editorial-ia-ac40b1f509/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato frontal com maquiagem rosa e olhos pintados, corpo no mesmo rosa do rosto, sem pelos no peito e iluminação editorial",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/esotheryca-1-corpo-rosa-editorial-ia-ac40b1f509/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/esotheryca-1-corpo-rosa-editorial-ia-ac40b1f509/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m025",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/esotheryca-2-corpo-rosa-editorial-ia-09c39e7eaf/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/esotheryca-2-corpo-rosa-editorial-ia-09c39e7eaf/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato com maquiagem rosa e olhos pintados, corpo no mesmo rosa do rosto, sem pelos no peito e iluminação editorial",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/esotheryca-2-corpo-rosa-editorial-ia-09c39e7eaf/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/esotheryca-2-corpo-rosa-editorial-ia-09c39e7eaf/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m026",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/face-flowers-careca-editorial-ia-cdbd8d571d/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/face-flowers-careca-editorial-ia-cdbd8d571d/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato com pintura floral no rosto, sem peruca e pelos no peito, com anatomia orientada por referência original careca",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/face-flowers-careca-editorial-ia-cdbd8d571d/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/face-flowers-careca-editorial-ia-cdbd8d571d/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m027",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/insinuosa-1-cores-luz-editorial-ia-7512e714b1/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/insinuosa-1-cores-luz-editorial-ia-7512e714b1/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato com maquiagem gráfica em branco, rosa, ocre e verde, sem pelos no peito, com cores e iluminação editorial refinadas",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/insinuosa-1-cores-luz-editorial-ia-7512e714b1/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/insinuosa-1-cores-luz-editorial-ia-7512e714b1/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m028",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/clown-du-soleil-editorial-ia-97fb624d36/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/clown-du-soleil-editorial-ia-97fb624d36/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato com maquiagem de clown dourada e colorida, sem pelos no peito e com qualidade e iluminação editorial refinadas",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/clown-du-soleil-editorial-ia-97fb624d36/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/clown-du-soleil-editorial-ia-97fb624d36/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m029",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/mascara-club-kid-editorial-petroleo-ia-ad1b42851d/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/mascara-club-kid-editorial-petroleo-ia-ad1b42851d/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato com máscara dourada de malha e pedrarias, sem pelos no peito, luz editorial conceitual e fundo azul-petróleo",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/mascara-club-kid-editorial-petroleo-ia-ad1b42851d/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/mascara-club-kid-editorial-petroleo-ia-ad1b42851d/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m030",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/furry-face-2-147a9e8c4a/1280w.avif",
+      "width": 1280,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/furry-face-2-147a9e8c4a/image.avif",
+      "fullWidth": 1920,
+      "fullHeight": 1920,
+      "alt": "Autorretrato com aplicações de fibras em tons de marrom, bege, ocre e branco sobre o rosto",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/furry-face-2-147a9e8c4a/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/furry-face-2-147a9e8c4a/1280w.avif 1280w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/furry-face-2-147a9e8c4a/image.avif 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m031",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/furry-face-1-4ce8c37cad/1280w.avif",
+      "width": 1280,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/furry-face-1-4ce8c37cad/image.avif",
+      "fullWidth": 1920,
+      "fullHeight": 1920,
+      "alt": "Autorretrato com aplicações de fibras em tons de marrom, bege, ocre e branco sobre o rosto",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/furry-face-1-4ce8c37cad/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/furry-face-1-4ce8c37cad/1280w.avif 1280w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/furry-face-1-4ce8c37cad/image.avif 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m032",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/quarentena-projetada-midia-ninja-2020-0ae3f0c6b9/1280w.avif",
+      "width": 1280,
+      "height": 853,
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/quarentena-projetada-midia-ninja-2020-0ae3f0c6b9/image.avif",
+      "fullWidth": 1920,
+      "fullHeight": 1280,
+      "alt": "Autorretrato de Bruno Nascimento projetado em fachada no projeto Quarentena Projetada, com identificação @muabruno",
+      "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/quarentena-projetada-midia-ninja-2020-0ae3f0c6b9/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/quarentena-projetada-midia-ninja-2020-0ae3f0c6b9/1280w.avif 1280w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/quarentena-projetada-midia-ninja-2020-0ae3f0c6b9/image.avif 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "mascaras",
+        "title": "Máscaras",
+        "label": "Máscaras",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Colagem de elementos no rosto e maquiagem sobre guardanapo de artesanato."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              },
+              {
+                "id": "m004"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "colagem-sobre-a-pele",
+        "title": "Colagem sobre a pele",
+        "label": "Colagem sobre a pele",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Aplicação de cascas de ovos e pintura facial com prótese de membrana de maracujá."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m005"
+              },
+              {
+                "id": "m006"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "perolas-e-aplicacoes",
+        "title": "Pérolas e aplicações",
+        "label": "Pérolas e aplicações",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Composições de pontos, contornos e volumes."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m007"
+              },
+              {
+                "id": "m008"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "desenho-e-cor",
+        "title": "Desenho e cor",
+        "label": "Desenho e cor",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudos de maquiagem gráfica, explorando linhas duras e orgânicas."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m009"
+              },
+              {
+                "id": "m010"
+              },
+              {
+                "id": "m011"
+              },
+              {
+                "id": "m012"
+              },
+              {
+                "id": "m013"
+              },
+              {
+                "id": "m014"
+              },
+              {
+                "id": "m015"
+              },
+              {
+                "id": "m016"
+              },
+              {
+                "id": "m017"
+              },
+              {
+                "id": "m018"
+              },
+              {
+                "id": "m019"
+              },
+              {
+                "id": "m020"
+              },
+              {
+                "id": "m021"
+              },
+              {
+                "id": "m022"
+              },
+              {
+                "id": "m023"
+              },
+              {
+                "id": "m024"
+              },
+              {
+                "id": "m025"
+              },
+              {
+                "id": "m026"
+              },
+              {
+                "id": "m027"
+              },
+              {
+                "id": "m028"
+              },
+              {
+                "id": "m029"
+              },
+              {
+                "id": "m030"
+              },
+              {
+                "id": "m031"
+              }
+            ],
+            "layout": "gallery"
+          }
+        ]
+      },
+      {
+        "id": "explosao-3d",
+        "title": "Explosão 3D",
+        "label": "Explosão 3D",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Pedro Camargo · 7 de outubro de 2020",
+              "“Utilizo uma metodologia de criação muito próxima daquela que aprendi no ensino da arquitetura.”",
+              "Bruno Nascimento, em entrevista à ELLE Brasil",
+              "Na reportagem, Bruno fala sobre a relação entre sua formação em Arquitetura e Urbanismo e a criação de estruturas e aplicações para maquiagem."
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Ler a matéria completa na ELLE →",
+                "url": "https://elle.com.br/beleza/explosao-3d"
+              }
+            ]
+          },
+          {
+            "type": "caption",
+            "text": "elle.com.br/beleza/explosao-3d"
+          }
+        ]
+      },
+      {
+        "id": "quarentena-projetada",
+        "title": "Quarentena Projetada",
+        "label": "Quarentena Projetada",
+        "blocks": [
+          {
+            "type": "caption",
+            "text": "Clipping"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Mídia NINJA + IMS 2020"
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m032"
+              }
+            ],
+            "layout": "single"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Bruno Nascimento (@muabruno) integrou a seleção de 342 artistas da Quarentena Projetada, iniciativa da Mídia NINJA com o Instituto Moreira Salles no Programa IMS Convida. Em julho de 2020, o projeto apresentou trabalhos em projeções sobre edifícios durante o isolamento social."
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Sobre o projeto · IMS →",
+                "url": "https://ims.com.br/convida/midia-ninja/"
+              }
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Lista de artistas selecionados · Mídia NINJA →",
+                "url": "https://midianinja.org/opiniao/conheca-os-selecionados-para-a-quarentena-projetada/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "id": "alexei-casa-de-criadores-2022",
+  "area": "beleza",
+  "title": "Alexei",
+  "subtitle": "Casa de Criadores 2022",
+  "intro": "",
+  "tags": [
+    "Beleza"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-04-03f7a0f019/image.avif",
+    "width": 1080,
+    "height": 1349,
+    "fullSrc": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-04-03f7a0f019/image.avif",
+    "fullWidth": 1080,
+    "fullHeight": 1349,
+    "alt": "Detalhe de beleza da Alexei: rosto branco, olhos azuis e blush rosa",
+    "srcset": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-04-03f7a0f019/640w.avif 640w, portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-04-03f7a0f019/image.avif 1080w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-04-03f7a0f019/image.avif",
+      "width": 1080,
+      "height": 1349,
+      "fullSrc": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-04-03f7a0f019/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1349,
+      "alt": "Detalhe de beleza da Alexei: rosto branco, olhos azuis e blush rosa",
+      "srcset": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-04-03f7a0f019/640w.avif 640w, portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-04-03f7a0f019/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-01-1753464b09/image.avif",
+      "width": 1080,
+      "height": 1348,
+      "fullSrc": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-01-1753464b09/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1348,
+      "alt": "Desfile da Alexei: vestido vermelho e maquiagem com olhos em azul e rosa",
+      "srcset": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-01-1753464b09/640w.avif 640w, portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-01-1753464b09/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-02-0763fec464/image.avif",
+      "width": 1080,
+      "height": 1348,
+      "fullSrc": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-02-0763fec464/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1348,
+      "alt": "Desfile da Alexei: look em preto e branco e maquiagem em rosa",
+      "srcset": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-02-0763fec464/640w.avif 640w, portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-02-0763fec464/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-03-f76e662590/image.avif",
+      "width": 1080,
+      "height": 1348,
+      "fullSrc": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-03-f76e662590/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1348,
+      "alt": "Desfile da Alexei: maquiagem branca, azul e vermelha e jaqueta com aplicações",
+      "srcset": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-03-f76e662590/640w.avif 640w, portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-03-f76e662590/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-05-586de7e839/image.avif",
+      "width": 1080,
+      "height": 1348,
+      "fullSrc": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-05-586de7e839/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1348,
+      "alt": "Desfile da Alexei: maquiagem branca e azul, renda verde e volumes de tule rosa",
+      "srcset": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-05-586de7e839/640w.avif 640w, portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-05-586de7e839/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/backstage-olhos-violeta-efe848e5bd/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/backstage-olhos-violeta-efe848e5bd/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Bastidores da Alexei: maquiagem em azul e violeta, sobrancelhas vermelhas e lábios metálicos",
+      "srcset": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/backstage-olhos-violeta-efe848e5bd/640w.avif 640w, portfolio/assets/beleza/alexei-casa-de-criadores-2022/backstage-olhos-violeta-efe848e5bd/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m007",
+      "type": "image",
+      "src": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/backstage-rosto-branco-475cbc7974/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/backstage-rosto-branco-475cbc7974/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Bastidores da Alexei: maquiagem branca, olhos azuis, blush rosa e lábios vermelhos",
+      "srcset": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/backstage-rosto-branco-475cbc7974/640w.avif 640w, portfolio/assets/beleza/alexei-casa-de-criadores-2022/backstage-rosto-branco-475cbc7974/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m008",
+      "type": "video",
+      "src": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-backstage-2022-512011ebfd/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-backstage-2022-512011ebfd/video.mp4",
+      "fullWidth": 720,
+      "fullHeight": 1280,
+      "alt": "Alexei",
+      "poster": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-backstage-poster-f6a5daab84/image.avif"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "casa-de-criadores-2022",
+        "title": "Casa de Criadores 2022",
+        "label": "Casa de Criadores 2022",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              },
+              {
+                "id": "m004"
+              },
+              {
+                "id": "m005"
+              }
+            ],
+            "layout": "gallery"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Bruno Nascimento",
+              "Max Weber",
+              "Alexei Leonardo Alexei"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "bastidores",
+        "title": "Bastidores",
+        "label": "Bastidores",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m006"
+              },
+              {
+                "id": "m007"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "beleza-nos-bastidores",
+        "title": "Beleza nos bastidores",
+        "label": "Beleza nos bastidores",
+        "blocks": [
+          {
+            "type": "caption",
+            "text": "Casa de Criadores · 2022"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Registro do look antes do desfile."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m008"
+              }
+            ],
+            "layout": "single"
+          }
+        ]
+      }
+    ]
+  }
+}

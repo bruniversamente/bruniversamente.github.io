@@ -1,0 +1,136 @@
+{
+  "id": "nara-beleza-editorial",
+  "area": "beleza",
+  "title": "Nara",
+  "subtitle": "Beleza editorial",
+  "intro": "",
+  "tags": [
+    "Beleza editorial"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/nara-beleza-editorial/capa-c58c868bf4/image.avif",
+    "width": 1371,
+    "height": 1920,
+    "fullSrc": "portfolio/assets/beleza/nara-beleza-editorial/capa-c58c868bf4/image.avif",
+    "fullWidth": 1371,
+    "fullHeight": 1920,
+    "alt": "Retrato próximo com sombra azul brilhante e lábios pretos com brilho",
+    "srcset": "portfolio/assets/beleza/nara-beleza-editorial/capa-c58c868bf4/640w.avif 640w, portfolio/assets/beleza/nara-beleza-editorial/capa-c58c868bf4/image.avif 1371w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/nara-beleza-editorial/capa-c58c868bf4/image.avif",
+      "width": 1371,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/nara-beleza-editorial/capa-c58c868bf4/image.avif",
+      "fullWidth": 1371,
+      "fullHeight": 1920,
+      "alt": "Retrato próximo com sombra azul brilhante e lábios pretos com brilho",
+      "srcset": "portfolio/assets/beleza/nara-beleza-editorial/capa-c58c868bf4/640w.avif 640w, portfolio/assets/beleza/nara-beleza-editorial/capa-c58c868bf4/image.avif 1371w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/nara-beleza-editorial/luz-01-2de012e0c5/image.avif",
+      "width": 1371,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/nara-beleza-editorial/luz-01-2de012e0c5/image.avif",
+      "fullWidth": 1371,
+      "fullHeight": 1920,
+      "alt": "Retrato com luz sobre o rosto e brilho na pele",
+      "srcset": "portfolio/assets/beleza/nara-beleza-editorial/luz-01-2de012e0c5/640w.avif 640w, portfolio/assets/beleza/nara-beleza-editorial/luz-01-2de012e0c5/image.avif 1371w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/nara-beleza-editorial/luz-02-8c8bffe71b/image.avif",
+      "width": 1371,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/nara-beleza-editorial/luz-02-8c8bffe71b/image.avif",
+      "fullWidth": 1371,
+      "fullHeight": 1920,
+      "alt": "Retrato com luz lateral e textura da pele em destaque",
+      "srcset": "portfolio/assets/beleza/nara-beleza-editorial/luz-02-8c8bffe71b/640w.avif 640w, portfolio/assets/beleza/nara-beleza-editorial/luz-02-8c8bffe71b/image.avif 1371w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/nara-beleza-editorial/azul-be55bdb32e/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/nara-beleza-editorial/azul-be55bdb32e/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato em luz azul com brilho no rosto e nos ombros",
+      "srcset": "portfolio/assets/beleza/nara-beleza-editorial/azul-be55bdb32e/640w.avif 640w, portfolio/assets/beleza/nara-beleza-editorial/azul-be55bdb32e/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/nara-beleza-editorial/brilho-a87177b42e/image.avif",
+      "width": 1371,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/nara-beleza-editorial/brilho-a87177b42e/image.avif",
+      "fullWidth": 1371,
+      "fullHeight": 1920,
+      "alt": "Retrato com olhos azuis brilhantes e lábios pretos",
+      "srcset": "portfolio/assets/beleza/nara-beleza-editorial/brilho-a87177b42e/640w.avif 640w, portfolio/assets/beleza/nara-beleza-editorial/brilho-a87177b42e/image.avif 1371w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": false,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "beleza-editorial",
+        "title": "Beleza editorial",
+        "label": "Beleza editorial",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              },
+              {
+                "id": "m004"
+              },
+              {
+                "id": "m005"
+              }
+            ],
+            "layout": "gallery"
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Fotografia",
+                "names": "Felipe Nogueira Queiroz",
+                "links": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

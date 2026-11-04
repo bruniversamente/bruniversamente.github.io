@@ -1,0 +1,167 @@
+{
+  "id": "headpieces-de-croche",
+  "area": "beleza",
+  "title": "Headpieces de crochê",
+  "subtitle": "Crochê e adereços",
+  "intro": "",
+  "tags": [
+    "Crochê e adereços"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/headpieces-de-croche/girassois-frontal-editorial-sem-pelos-3271e83f91/image.avif",
+    "width": 1254,
+    "height": 1254,
+    "fullSrc": "portfolio/assets/beleza/headpieces-de-croche/girassois-frontal-editorial-sem-pelos-3271e83f91/image.avif",
+    "fullWidth": 1254,
+    "fullHeight": 1254,
+    "alt": "Balaclava de crochê azul, preta e vermelha com girassóis amarelos ao redor dos olhos",
+    "srcset": "portfolio/assets/beleza/headpieces-de-croche/girassois-frontal-editorial-sem-pelos-3271e83f91/640w.avif 640w, portfolio/assets/beleza/headpieces-de-croche/girassois-frontal-editorial-sem-pelos-3271e83f91/image.avif 1254w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/headpieces-de-croche/girassois-frontal-editorial-sem-pelos-3271e83f91/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/headpieces-de-croche/girassois-frontal-editorial-sem-pelos-3271e83f91/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Balaclava de crochê azul, preta e vermelha com girassóis amarelos ao redor dos olhos",
+      "srcset": "portfolio/assets/beleza/headpieces-de-croche/girassois-frontal-editorial-sem-pelos-3271e83f91/640w.avif 640w, portfolio/assets/beleza/headpieces-de-croche/girassois-frontal-editorial-sem-pelos-3271e83f91/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/headpieces-de-croche/girassois-perfil-editorial-sem-pelos-2b7cddba68/image.avif",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/beleza/headpieces-de-croche/girassois-perfil-editorial-sem-pelos-2b7cddba68/image.avif",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Vista lateral da balaclava de crochê com aplicações de girassóis",
+      "srcset": "portfolio/assets/beleza/headpieces-de-croche/girassois-perfil-editorial-sem-pelos-2b7cddba68/640w.avif 640w, portfolio/assets/beleza/headpieces-de-croche/girassois-perfil-editorial-sem-pelos-2b7cddba68/image.avif 1254w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/headpieces-de-croche/volume-croche-sem-icone-e79bfe0de6/image.avif",
+      "width": 1024,
+      "height": 1024,
+      "fullSrc": "portfolio/assets/beleza/headpieces-de-croche/volume-croche-sem-icone-e79bfe0de6/image.avif",
+      "fullWidth": 1024,
+      "fullHeight": 1024,
+      "alt": "Adereço de crochê multicolorido com volume alongado sobre maquiagem branca e fundo azul",
+      "srcset": "portfolio/assets/beleza/headpieces-de-croche/volume-croche-sem-icone-e79bfe0de6/640w.avif 640w, portfolio/assets/beleza/headpieces-de-croche/volume-croche-sem-icone-e79bfe0de6/image.avif 1024w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/headpieces-de-croche/babados-tres-quartos-fundo-neutro-editorial-8defacd90e/image.avif",
+      "width": 1086,
+      "height": 1448,
+      "fullSrc": "portfolio/assets/beleza/headpieces-de-croche/babados-tres-quartos-fundo-neutro-editorial-8defacd90e/image.avif",
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Registro de ateliê em três quartos com balaclava preta e babados vermelhos de crochê",
+      "srcset": "portfolio/assets/beleza/headpieces-de-croche/babados-tres-quartos-fundo-neutro-editorial-8defacd90e/640w.avif 640w, portfolio/assets/beleza/headpieces-de-croche/babados-tres-quartos-fundo-neutro-editorial-8defacd90e/image.avif 1086w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/headpieces-de-croche/babados-frontal-fundo-neutro-editorial-4981628977/image.avif",
+      "width": 1086,
+      "height": 1448,
+      "fullSrc": "portfolio/assets/beleza/headpieces-de-croche/babados-frontal-fundo-neutro-editorial-4981628977/image.avif",
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Registro frontal de ateliê com balaclava preta e babados vermelhos de crochê",
+      "srcset": "portfolio/assets/beleza/headpieces-de-croche/babados-frontal-fundo-neutro-editorial-4981628977/640w.avif 640w, portfolio/assets/beleza/headpieces-de-croche/babados-frontal-fundo-neutro-editorial-4981628977/image.avif 1086w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "video",
+      "src": "portfolio/assets/beleza/headpieces-de-croche/headpieces-croche-timelapse-30s-catwalk-af3f1c1038/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/headpieces-de-croche/headpieces-croche-timelapse-30s-catwalk-af3f1c1038/video.mp4",
+      "fullWidth": 720,
+      "fullHeight": 1280,
+      "alt": "Timelapse da construção e maquiagem com balaclava de crochê",
+      "poster": "portfolio/assets/beleza/headpieces-de-croche/timelapse-croche-28ae91bcaa/image.avif"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "croche-e-aderecos",
+        "title": "Crochê e adereços",
+        "label": "Crochê e adereços",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "no-atelie",
+        "title": "No ateliê",
+        "label": "No ateliê",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m004"
+              },
+              {
+                "id": "m005"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "construcao-e-maquiagem",
+        "title": "Construção e maquiagem",
+        "label": "Construção e maquiagem",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m006"
+              }
+            ],
+            "layout": "single"
+          }
+        ]
+      }
+    ]
+  }
+}

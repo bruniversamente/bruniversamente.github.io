@@ -1,0 +1,158 @@
+{
+  "id": "yohan-beleza-editorial",
+  "area": "beleza",
+  "title": "Yohan",
+  "subtitle": "Beleza editorial",
+  "intro": "",
+  "tags": [
+    "Beleza editorial"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/yohan-beleza-editorial/foto-0389-ea42246402/image.avif",
+    "width": 1547,
+    "height": 1920,
+    "fullSrc": "portfolio/assets/beleza/yohan-beleza-editorial/foto-0389-ea42246402/image.avif",
+    "fullWidth": 1547,
+    "fullHeight": 1920,
+    "alt": "Retrato com maquiagem verde e lilás, pedrarias e adereço circular",
+    "srcset": "portfolio/assets/beleza/yohan-beleza-editorial/foto-0389-ea42246402/640w.avif 640w, portfolio/assets/beleza/yohan-beleza-editorial/foto-0389-ea42246402/image.avif 1547w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/yohan-beleza-editorial/foto-0389-ea42246402/image.avif",
+      "width": 1547,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/yohan-beleza-editorial/foto-0389-ea42246402/image.avif",
+      "fullWidth": 1547,
+      "fullHeight": 1920,
+      "alt": "Retrato com maquiagem verde e lilás, pedrarias e adereço circular",
+      "srcset": "portfolio/assets/beleza/yohan-beleza-editorial/foto-0389-ea42246402/640w.avif 640w, portfolio/assets/beleza/yohan-beleza-editorial/foto-0389-ea42246402/image.avif 1547w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/yohan-beleza-editorial/foto-0391-veludo-ia-v1-a9de19ea93/image.avif",
+      "width": 1024,
+      "height": 1536,
+      "fullSrc": "portfolio/assets/beleza/yohan-beleza-editorial/foto-0391-veludo-ia-v1-a9de19ea93/image.avif",
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Visual vermelho com sombra amarela, lábios vermelhos e adereços azuis",
+      "srcset": "portfolio/assets/beleza/yohan-beleza-editorial/foto-0391-veludo-ia-v1-a9de19ea93/640w.avif 640w, portfolio/assets/beleza/yohan-beleza-editorial/foto-0391-veludo-ia-v1-a9de19ea93/image.avif 1024w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/yohan-beleza-editorial/foto-0388-7513bce811/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/yohan-beleza-editorial/foto-0388-7513bce811/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Visual de base branca com blazer estampado e adereço em tons pastel",
+      "srcset": "portfolio/assets/beleza/yohan-beleza-editorial/foto-0388-7513bce811/640w.avif 640w, portfolio/assets/beleza/yohan-beleza-editorial/foto-0388-7513bce811/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "video",
+      "src": "portfolio/assets/beleza/yohan-beleza-editorial/backstage-01-ebb9633a58/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/yohan-beleza-editorial/backstage-01-ebb9633a58/video.mp4",
+      "fullWidth": 720,
+      "fullHeight": 1280,
+      "alt": "Primeiro visual",
+      "poster": "portfolio/assets/beleza/yohan-beleza-editorial/backstage-01-fbd1beac9b/image.avif"
+    },
+    {
+      "id": "m005",
+      "type": "video",
+      "src": "portfolio/assets/beleza/yohan-beleza-editorial/backstage-02-57fa44aac4/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/yohan-beleza-editorial/backstage-02-57fa44aac4/video.mp4",
+      "fullWidth": 720,
+      "fullHeight": 1280,
+      "alt": "Segundo visual",
+      "poster": "portfolio/assets/beleza/yohan-beleza-editorial/backstage-02-d06cff542a/image.avif"
+    },
+    {
+      "id": "m006",
+      "type": "video",
+      "src": "portfolio/assets/beleza/yohan-beleza-editorial/backstage-03-1598044fa7/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/yohan-beleza-editorial/backstage-03-1598044fa7/video.mp4",
+      "fullWidth": 720,
+      "fullHeight": 1280,
+      "alt": "Terceiro visual",
+      "poster": "portfolio/assets/beleza/yohan-beleza-editorial/backstage-03-b44660080b/image.avif"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "beleza-editorial",
+        "title": "Beleza editorial",
+        "label": "Beleza editorial",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m001"
+              },
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "nos-bastidores",
+        "title": "Nos bastidores",
+        "label": "Nos bastidores",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m004",
+                "caption": "Primeiro visual"
+              },
+              {
+                "id": "m005",
+                "caption": "Segundo visual"
+              },
+              {
+                "id": "m006",
+                "caption": "Terceiro visual"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      }
+    ]
+  }
+}

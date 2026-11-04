@@ -1,0 +1,216 @@
+{
+  "id": "sicky-mag-22",
+  "area": "beleza",
+  "title": "Dazzle",
+  "subtitle": "Muraca",
+  "intro": "",
+  "tags": [
+    "Maquiagem e acessórios"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/sicky-mag-22/retrato-ccdffca5fd/image.avif",
+    "width": 1280,
+    "height": 1920,
+    "fullSrc": "portfolio/assets/beleza/sicky-mag-22/retrato-ccdffca5fd/image.avif",
+    "fullWidth": 1280,
+    "fullHeight": 1920,
+    "alt": "Retrato com peruca vermelha e aplicações prateadas nos olhos",
+    "srcset": "portfolio/assets/beleza/sicky-mag-22/retrato-ccdffca5fd/640w.avif 640w, portfolio/assets/beleza/sicky-mag-22/retrato-ccdffca5fd/image.avif 1280w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/sicky-mag-22/retrato-ccdffca5fd/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/sicky-mag-22/retrato-ccdffca5fd/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato com peruca vermelha e aplicações prateadas nos olhos",
+      "srcset": "portfolio/assets/beleza/sicky-mag-22/retrato-ccdffca5fd/640w.avif 640w, portfolio/assets/beleza/sicky-mag-22/retrato-ccdffca5fd/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/sicky-mag-22/look-oculos-e3a7447a6e/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/sicky-mag-22/look-oculos-e3a7447a6e/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Look com óculos alaranjados e peças de vestuário texturizadas",
+      "srcset": "portfolio/assets/beleza/sicky-mag-22/look-oculos-e3a7447a6e/640w.avif 640w, portfolio/assets/beleza/sicky-mag-22/look-oculos-e3a7447a6e/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/sicky-mag-22/retrato-oculos-7d279048eb/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/sicky-mag-22/retrato-oculos-7d279048eb/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato frontal com óculos alaranjados",
+      "srcset": "portfolio/assets/beleza/sicky-mag-22/retrato-oculos-7d279048eb/640w.avif 640w, portfolio/assets/beleza/sicky-mag-22/retrato-oculos-7d279048eb/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/sicky-mag-22/pecas-finalizadas-f364721343/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/sicky-mag-22/pecas-finalizadas-f364721343/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Peças com aplicações prateadas sobre a bancada",
+      "srcset": "portfolio/assets/beleza/sicky-mag-22/pecas-finalizadas-f364721343/640w.avif 640w, portfolio/assets/beleza/sicky-mag-22/pecas-finalizadas-f364721343/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/sicky-mag-22/bastidor-colorido-06ca359a60/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/sicky-mag-22/bastidor-colorido-06ca359a60/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Registro do look colorido no set",
+      "srcset": "portfolio/assets/beleza/sicky-mag-22/bastidor-colorido-06ca359a60/640w.avif 640w, portfolio/assets/beleza/sicky-mag-22/bastidor-colorido-06ca359a60/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/sicky-mag-22/olhos-prateados-e94477b145/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/sicky-mag-22/olhos-prateados-e94477b145/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Detalhe das aplicações prateadas nos olhos",
+      "srcset": "portfolio/assets/beleza/sicky-mag-22/olhos-prateados-e94477b145/640w.avif 640w, portfolio/assets/beleza/sicky-mag-22/olhos-prateados-e94477b145/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m007",
+      "type": "image",
+      "src": "portfolio/assets/beleza/sicky-mag-22/retrato-colorido-23c3b7ff73/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/sicky-mag-22/retrato-colorido-23c3b7ff73/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato com aplicações coloridas e refletivas",
+      "srcset": "portfolio/assets/beleza/sicky-mag-22/retrato-colorido-23c3b7ff73/640w.avif 640w, portfolio/assets/beleza/sicky-mag-22/retrato-colorido-23c3b7ff73/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m008",
+      "type": "image",
+      "src": "portfolio/assets/beleza/sicky-mag-22/detalhe-colorido-ea2783be47/image.avif",
+      "width": 1535,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/sicky-mag-22/detalhe-colorido-ea2783be47/image.avif",
+      "fullWidth": 1535,
+      "fullHeight": 1920,
+      "alt": "Detalhe das aplicações coloridas no rosto",
+      "srcset": "portfolio/assets/beleza/sicky-mag-22/detalhe-colorido-ea2783be47/640w.avif 640w, portfolio/assets/beleza/sicky-mag-22/detalhe-colorido-ea2783be47/image.avif 1535w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "textura-e-brilho",
+        "title": "Textura e brilho",
+        "label": "Textura e brilho",
+        "blocks": [
+          {
+            "type": "caption",
+            "text": "Aplicações"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "pecas-preparadas-a-mao",
+        "title": "Peças preparadas à mão",
+        "label": "Peças preparadas à mão",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Recorte, organização dos materiais e montagem antes do ensaio."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m004"
+              },
+              {
+                "id": "m005"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "retratos",
+        "title": "Retratos",
+        "label": "Retratos",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Retratos e detalhes das aplicações utilizadas no ensaio."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m006"
+              },
+              {
+                "id": "m007"
+              },
+              {
+                "id": "m008"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      }
+    ]
+  }
+}

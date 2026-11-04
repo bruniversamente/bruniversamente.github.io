@@ -1,0 +1,366 @@
+{
+  "id": "bia-ferreira-boto-fe",
+  "area": "beleza",
+  "title": "Boto Fé",
+  "subtitle": "Bia Ferreira",
+  "intro": "",
+  "tags": [
+    "Videoclipe",
+    "Assistência de maquiagem"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-12-8730beeb45/image.avif",
+    "width": 1080,
+    "height": 1346,
+    "fullSrc": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-12-8730beeb45/image.avif",
+    "fullWidth": 1080,
+    "fullHeight": 1346,
+    "alt": "Retrato com maquiagem branca e dourada e cabelo afro",
+    "srcset": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-12-8730beeb45/640w.avif 640w, portfolio/assets/beleza/bia-ferreira-boto-fe/foto-12-8730beeb45/image.avif 1080w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-12-8730beeb45/image.avif",
+      "width": 1080,
+      "height": 1346,
+      "fullSrc": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-12-8730beeb45/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1346,
+      "alt": "Retrato com maquiagem branca e dourada e cabelo afro",
+      "srcset": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-12-8730beeb45/640w.avif 640w, portfolio/assets/beleza/bia-ferreira-boto-fe/foto-12-8730beeb45/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-08-142b0f5f7d/image.avif",
+      "width": 1080,
+      "height": 1350,
+      "fullSrc": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-08-142b0f5f7d/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1350,
+      "alt": "Retrato com brilho dourado e penteado escultural",
+      "srcset": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-08-142b0f5f7d/640w.avif 640w, portfolio/assets/beleza/bia-ferreira-boto-fe/foto-08-142b0f5f7d/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-10-eb624dbd8c/image.avif",
+      "width": 1080,
+      "height": 1350,
+      "fullSrc": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-10-eb624dbd8c/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1350,
+      "alt": "Retrato com maquiagem dourada e adereço de correntes",
+      "srcset": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-10-eb624dbd8c/640w.avif 640w, portfolio/assets/beleza/bia-ferreira-boto-fe/foto-10-eb624dbd8c/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-09-efea973dd3/image.avif",
+      "width": 1080,
+      "height": 1350,
+      "fullSrc": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-09-efea973dd3/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1350,
+      "alt": "Retrato do elenco em figurino bege",
+      "srcset": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-09-efea973dd3/640w.avif 640w, portfolio/assets/beleza/bia-ferreira-boto-fe/foto-09-efea973dd3/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-11-cacc8289e6/image.avif",
+      "width": 1080,
+      "height": 1350,
+      "fullSrc": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-11-cacc8289e6/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1350,
+      "alt": "Retrato em luz quente com maquiagem e cabelo em destaque",
+      "srcset": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-11-cacc8289e6/640w.avif 640w, portfolio/assets/beleza/bia-ferreira-boto-fe/foto-11-cacc8289e6/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-14-c1fa3ce654/image.avif",
+      "width": 1080,
+      "height": 1350,
+      "fullSrc": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-14-c1fa3ce654/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1350,
+      "alt": "Dupla do elenco com maquiagem e adereços",
+      "srcset": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-14-c1fa3ce654/640w.avif 640w, portfolio/assets/beleza/bia-ferreira-boto-fe/foto-14-c1fa3ce654/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m007",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-03-166a74d9a6/image.avif",
+      "width": 777,
+      "height": 777,
+      "fullSrc": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-03-166a74d9a6/image.avif",
+      "fullWidth": 777,
+      "fullHeight": 777,
+      "alt": "Aplicação da maquiagem no set",
+      "srcset": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-03-166a74d9a6/image.avif 777w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m008",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-04-1c25b75bef/image.avif",
+      "width": 777,
+      "height": 777,
+      "fullSrc": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-04-1c25b75bef/image.avif",
+      "fullWidth": 777,
+      "fullHeight": 777,
+      "alt": "Preparação da beleza diante do espelho",
+      "srcset": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-04-1c25b75bef/image.avif 777w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m009",
+      "type": "video",
+      "src": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-01-59aef1574f/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-01-59aef1574f/video.mp4",
+      "fullWidth": 720,
+      "fullHeight": 1280,
+      "alt": "Preparação da beleza",
+      "poster": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-01-4c5943c2aa/image.avif"
+    },
+    {
+      "id": "m010",
+      "type": "video",
+      "src": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-02-949d5c0f51/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-02-949d5c0f51/video.mp4",
+      "fullWidth": 720,
+      "fullHeight": 1280,
+      "alt": "Equipe no set",
+      "poster": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-02-ec29763222/image.avif"
+    },
+    {
+      "id": "m011",
+      "type": "video",
+      "src": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-03-569296c0d1/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-03-569296c0d1/video.mp4",
+      "fullWidth": 720,
+      "fullHeight": 1280,
+      "alt": "Elenco em cena",
+      "poster": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-03-8e840d00cf/image.avif"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "beleza-e-personagem",
+        "title": "Beleza e personagem",
+        "label": "Beleza e personagem",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Bruno Nascimento integrou a assistência de maquiagem de Boto Fé, ao lado de Mari Carom, com maquiagem de Alma Negrot."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "retratos-do-elenco",
+        "title": "Retratos do elenco",
+        "label": "Retratos do elenco",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m004"
+              },
+              {
+                "id": "m005"
+              },
+              {
+                "id": "m006"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "preparacao-no-set",
+        "title": "Preparação no set",
+        "label": "Preparação no set",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m007"
+              },
+              {
+                "id": "m008"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "nos-bastidores",
+        "title": "Nos bastidores",
+        "label": "Nos bastidores",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m009",
+                "caption": "Preparação da beleza"
+              },
+              {
+                "id": "m010",
+                "caption": "Equipe no set"
+              },
+              {
+                "id": "m011",
+                "caption": "Elenco em cena"
+              }
+            ],
+            "layout": "three"
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Maquiagem",
+                "names": "Alma Negrot",
+                "links": []
+              },
+              {
+                "role": "Assistência de maquiagem",
+                "names": "Bruno Nascimento · Mari Carom",
+                "links": []
+              },
+              {
+                "role": "Cabelo",
+                "names": "Josyas Barber",
+                "links": []
+              },
+              {
+                "role": "Direção",
+                "names": "Hanna Batista · Naná Prudencio",
+                "links": []
+              },
+              {
+                "role": "Direção de arte",
+                "names": "Luiz Becherini",
+                "links": []
+              },
+              {
+                "role": "Fotografia still",
+                "names": "Lets · Murilo Matheus",
+                "links": []
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Ficha técnica: créditos do acervo e publicação da Alma Preta ."
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "publicação da Alma Preta",
+                "url": "https://almapreta.com.br/sessao/agenda/bia-ferreira-lanca-nesta-semana-clipe-afro-futurista-da-musica-boto-fe/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "clipe-completo",
+        "title": "Clipe completo",
+        "label": "Clipe completo",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Assistir no canal oficial"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Assistir no canal oficial",
+                "url": "https://www.youtube.com/watch?v=kDPcv7uqXNA"
+              }
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Ver fonte original",
+                "url": "https://www.youtube.com/watch?v=kDPcv7uqXNA"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O player do YouTube não carregou nesta prévia. Acesse o clipe pelo canal oficial."
+            ]
+          },
+          {
+            "type": "embed",
+            "film": {
+              "title": "Boto Fé - clipe oficial",
+              "src": "https://www.youtube-nocookie.com/embed/kDPcv7uqXNA?si=IUTZTWq97YelA3Oq",
+              "url": "https://www.youtube.com/watch?v=kDPcv7uqXNA",
+              "poster": "portfolio/assets/beleza/bia-ferreira-boto-fe/clipe-oficial-poster-ac65413e82/image.avif",
+              "linkLabel": "Ver no canal oficial",
+              "aspectRatio": "16/9"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -56,6 +56,10 @@
         box.classList.add('story-media--aligned');if(entries.every(media=>media.kind==='phone'))box.classList.add('story-media--handsets');box.style.setProperty('--media-ratio-sum',Math.max(...rows.map(row=>row.reduce((sum,media)=>sum+ratio(media),0))));box.style.setProperty('--media-max-ratio',Math.max(...entries.map(ratio)));box.style.setProperty('--media-gap-count',Math.min(columns,entries.length)-1);
         rows.forEach(entries=>{const row=node('div','story-media-row');entries.forEach(media=>{const f=figure(media);f.style.setProperty('--media-ratio',ratio(media));row.append(f);});box.append(row);});return box;
       }
+      if(item.type==='embed')return window.projectFilms.render([item.film],'h3',false);
+      if(item.type==='credits'){
+        const list=node('dl','story-credits');item.items.forEach(credit=>{const group=node('div'),names=node('dd','',credit.names);group.append(node('dt','',credit.role),names);(credit.links||[]).forEach(link=>{const a=node('a','','↗');a.setAttribute('aria-label',`Abrir perfil: ${link.title}`);a.href=link.url;a.target='_blank';a.rel='noopener noreferrer';names.append(a);});list.append(group);});return list;
+      }
       if(item.type==='caption')return node('p','editorial-note',item.text);
       if(item.type==='films')return window.projectFilms.render(data.films||[],'h3',(data.films||[]).length>1);
       if(item.type==='palette'){

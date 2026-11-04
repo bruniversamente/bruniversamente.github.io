@@ -1,8 +1,8 @@
-/* This release exposes the three ready areas. */
+/* This release exposes the four ready areas. */
 (() => {
   const url=new URL(location.href);
   if(url.hash==='#cases'){url.searchParams.set('area','dados');url.hash='';history.replaceState(history.state,'',url);}
-  if(url.searchParams.has('area')&&!['dados','design','arquitetura'].includes(url.searchParams.get('area'))){
+  if(url.searchParams.has('area')&&!['dados','design','arquitetura','beleza'].includes(url.searchParams.get('area'))){
     url.searchParams.delete('area');url.searchParams.delete('project');url.searchParams.delete('view');
     history.replaceState(history.state,'',url);
   }else if(!url.searchParams.has('area')&&/^dados-0[1-5]$/.test(url.searchParams.get('project')||'')){

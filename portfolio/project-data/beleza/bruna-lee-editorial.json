@@ -1,0 +1,221 @@
+{
+  "id": "bruna-lee-editorial",
+  "area": "beleza",
+  "title": "Bruna Lee",
+  "subtitle": "Editorial de moda",
+  "intro": "",
+  "tags": [
+    "Beleza editorial"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/bruna-lee-editorial/capa-dbff289509/image.avif",
+    "width": 1536,
+    "height": 1920,
+    "fullSrc": "portfolio/assets/beleza/bruna-lee-editorial/capa-dbff289509/image.avif",
+    "fullWidth": 1536,
+    "fullHeight": 1920,
+    "alt": "Retrato com maquiagem gráfica preta, penteado escultural e mangas claras",
+    "srcset": "portfolio/assets/beleza/bruna-lee-editorial/capa-dbff289509/640w.avif 640w, portfolio/assets/beleza/bruna-lee-editorial/capa-dbff289509/image.avif 1536w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruna-lee-editorial/capa-dbff289509/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruna-lee-editorial/capa-dbff289509/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Retrato com maquiagem gráfica preta, penteado escultural e mangas claras",
+      "srcset": "portfolio/assets/beleza/bruna-lee-editorial/capa-dbff289509/640w.avif 640w, portfolio/assets/beleza/bruna-lee-editorial/capa-dbff289509/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruna-lee-editorial/preto-retrato-2ca7d3f44c/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruna-lee-editorial/preto-retrato-2ca7d3f44c/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato em look preto e vermelho com desenho preto ao redor dos olhos",
+      "srcset": "portfolio/assets/beleza/bruna-lee-editorial/preto-retrato-2ca7d3f44c/640w.avif 640w, portfolio/assets/beleza/bruna-lee-editorial/preto-retrato-2ca7d3f44c/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruna-lee-editorial/amarelo-retrato-57c0e65460/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruna-lee-editorial/amarelo-retrato-57c0e65460/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato com olhos gráficos, vestido amarelo e sombrinha lilás",
+      "srcset": "portfolio/assets/beleza/bruna-lee-editorial/amarelo-retrato-57c0e65460/640w.avif 640w, portfolio/assets/beleza/bruna-lee-editorial/amarelo-retrato-57c0e65460/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruna-lee-editorial/preto-look-8768302f1b/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruna-lee-editorial/preto-look-8768302f1b/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Look preto e vermelho em pose de corpo inteiro",
+      "srcset": "portfolio/assets/beleza/bruna-lee-editorial/preto-look-8768302f1b/640w.avif 640w, portfolio/assets/beleza/bruna-lee-editorial/preto-look-8768302f1b/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruna-lee-editorial/claro-look-b48939e4ad/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruna-lee-editorial/claro-look-b48939e4ad/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Look claro com mangas amplas e bordados",
+      "srcset": "portfolio/assets/beleza/bruna-lee-editorial/claro-look-b48939e4ad/640w.avif 640w, portfolio/assets/beleza/bruna-lee-editorial/claro-look-b48939e4ad/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruna-lee-editorial/amarelo-look-03f7b6af45/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruna-lee-editorial/amarelo-look-03f7b6af45/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Vestido amarelo e sombrinha lilás em corpo inteiro",
+      "srcset": "portfolio/assets/beleza/bruna-lee-editorial/amarelo-look-03f7b6af45/640w.avif 640w, portfolio/assets/beleza/bruna-lee-editorial/amarelo-look-03f7b6af45/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m007",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruna-lee-editorial/gesto-5486fe2b2b/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruna-lee-editorial/gesto-5486fe2b2b/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato com mãos em primeiro plano e maquiagem gráfica preta",
+      "srcset": "portfolio/assets/beleza/bruna-lee-editorial/gesto-5486fe2b2b/640w.avif 640w, portfolio/assets/beleza/bruna-lee-editorial/gesto-5486fe2b2b/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m008",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruna-lee-editorial/perfil-6b3226807c/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruna-lee-editorial/perfil-6b3226807c/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Perfil com penteado escultural e sombrinha lilás",
+      "srcset": "portfolio/assets/beleza/bruna-lee-editorial/perfil-6b3226807c/640w.avif 640w, portfolio/assets/beleza/bruna-lee-editorial/perfil-6b3226807c/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "desenho-dos-olhos",
+        "title": "Desenho dos olhos",
+        "label": "Desenho dos olhos",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "tres-looks",
+        "title": "Três looks",
+        "label": "Três looks",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m004"
+              },
+              {
+                "id": "m005"
+              },
+              {
+                "id": "m006"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "gesto-e-perfil",
+        "title": "Gesto e perfil",
+        "label": "Gesto e perfil",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m007"
+              },
+              {
+                "id": "m008"
+              }
+            ],
+            "layout": "two"
+          },
+          {
+            "type": "text",
+            "title": "TCC de Moda",
+            "paragraphs": []
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Ensaio da coleção de conclusão de curso de Bruna Lee."
+            ]
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Criação da coleção",
+                "names": "Bruna Lee",
+                "links": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

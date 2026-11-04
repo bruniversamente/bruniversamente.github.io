@@ -1,0 +1,309 @@
+{
+  "id": "roberto-pacurucu",
+  "area": "beleza",
+  "title": "Ensaios com Roberto Pacurucu",
+  "subtitle": "Beleza e adereços",
+  "intro": "",
+  "tags": [
+    "Maquiagem e adereços"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/roberto-pacurucu/flores-8a11417ee3/image.avif",
+    "width": 1269,
+    "height": 1903,
+    "fullSrc": "portfolio/assets/beleza/roberto-pacurucu/flores-8a11417ee3/image.avif",
+    "fullWidth": 1269,
+    "fullHeight": 1903,
+    "alt": "Retrato com aplicações florais e mechas",
+    "srcset": "portfolio/assets/beleza/roberto-pacurucu/flores-8a11417ee3/640w.avif 640w, portfolio/assets/beleza/roberto-pacurucu/flores-8a11417ee3/image.avif 1269w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/roberto-pacurucu/flores-8a11417ee3/image.avif",
+      "width": 1269,
+      "height": 1903,
+      "fullSrc": "portfolio/assets/beleza/roberto-pacurucu/flores-8a11417ee3/image.avif",
+      "fullWidth": 1269,
+      "fullHeight": 1903,
+      "alt": "Retrato com aplicações florais e mechas",
+      "srcset": "portfolio/assets/beleza/roberto-pacurucu/flores-8a11417ee3/640w.avif 640w, portfolio/assets/beleza/roberto-pacurucu/flores-8a11417ee3/image.avif 1269w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/roberto-pacurucu/flores-perfil-2c40273392/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/roberto-pacurucu/flores-perfil-2c40273392/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Detalhe das aplicações florais",
+      "srcset": "portfolio/assets/beleza/roberto-pacurucu/flores-perfil-2c40273392/640w.avif 640w, portfolio/assets/beleza/roberto-pacurucu/flores-perfil-2c40273392/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/roberto-pacurucu/flores-look-9db1a822cf/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/roberto-pacurucu/flores-look-9db1a822cf/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Look com aplicações florais",
+      "srcset": "portfolio/assets/beleza/roberto-pacurucu/flores-look-9db1a822cf/640w.avif 640w, portfolio/assets/beleza/roberto-pacurucu/flores-look-9db1a822cf/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/roberto-pacurucu/flores-processo-3e008b46d0/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/roberto-pacurucu/flores-processo-3e008b46d0/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Aplicações de flores e mechas no manequim",
+      "srcset": "portfolio/assets/beleza/roberto-pacurucu/flores-processo-3e008b46d0/640w.avif 640w, portfolio/assets/beleza/roberto-pacurucu/flores-processo-3e008b46d0/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/roberto-pacurucu/chapeu-corpo-4794a43ca8/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/roberto-pacurucu/chapeu-corpo-4794a43ca8/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Look completo com chapéu circular",
+      "srcset": "portfolio/assets/beleza/roberto-pacurucu/chapeu-corpo-4794a43ca8/640w.avif 640w, portfolio/assets/beleza/roberto-pacurucu/chapeu-corpo-4794a43ca8/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/roberto-pacurucu/chapeu-pose-a13aaa9f20/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/roberto-pacurucu/chapeu-pose-a13aaa9f20/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato com chapéu circular",
+      "srcset": "portfolio/assets/beleza/roberto-pacurucu/chapeu-pose-a13aaa9f20/640w.avif 640w, portfolio/assets/beleza/roberto-pacurucu/chapeu-pose-a13aaa9f20/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m007",
+      "type": "image",
+      "src": "portfolio/assets/beleza/roberto-pacurucu/croche-frente-4e42d98baf/image.avif",
+      "width": 1080,
+      "height": 1350,
+      "fullSrc": "portfolio/assets/beleza/roberto-pacurucu/croche-frente-4e42d98baf/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1350,
+      "alt": "Retrato frontal com balaclava",
+      "srcset": "portfolio/assets/beleza/roberto-pacurucu/croche-frente-4e42d98baf/640w.avif 640w, portfolio/assets/beleza/roberto-pacurucu/croche-frente-4e42d98baf/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m008",
+      "type": "image",
+      "src": "portfolio/assets/beleza/roberto-pacurucu/croche-corpo-1ec2e4024c/image.avif",
+      "width": 1080,
+      "height": 1350,
+      "fullSrc": "portfolio/assets/beleza/roberto-pacurucu/croche-corpo-1ec2e4024c/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1350,
+      "alt": "Look completo com balaclava",
+      "srcset": "portfolio/assets/beleza/roberto-pacurucu/croche-corpo-1ec2e4024c/640w.avif 640w, portfolio/assets/beleza/roberto-pacurucu/croche-corpo-1ec2e4024c/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m009",
+      "type": "image",
+      "src": "portfolio/assets/beleza/roberto-pacurucu/croche-verso-6e0fab8f59/image.avif",
+      "width": 1080,
+      "height": 1352,
+      "fullSrc": "portfolio/assets/beleza/roberto-pacurucu/croche-verso-6e0fab8f59/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1352,
+      "alt": "Retrato invertido com balaclava",
+      "srcset": "portfolio/assets/beleza/roberto-pacurucu/croche-verso-6e0fab8f59/640w.avif 640w, portfolio/assets/beleza/roberto-pacurucu/croche-verso-6e0fab8f59/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m010",
+      "type": "image",
+      "src": "portfolio/assets/beleza/roberto-pacurucu/chapeu-86dc26aae2/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/roberto-pacurucu/chapeu-86dc26aae2/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato em figurino vermelho e chapéu circular",
+      "srcset": "portfolio/assets/beleza/roberto-pacurucu/chapeu-86dc26aae2/640w.avif 640w, portfolio/assets/beleza/roberto-pacurucu/chapeu-86dc26aae2/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "aplicacoes-florais",
+        "title": "Aplicações florais",
+        "label": "Aplicações florais",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Usei pedrarias e mechas de cabelo para compor as peças."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              }
+            ],
+            "layout": "two"
+          },
+          {
+            "type": "media",
+            "layout": "single",
+            "items": [
+              {
+                "id": "m010"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "estudo-no-manequim",
+        "title": "Estudo no manequim",
+        "label": "Estudo no manequim",
+        "blocks": [
+          {
+            "type": "caption",
+            "text": "Construção"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Posicionamento e montagem das aplicações antes do ensaio."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m004"
+              }
+            ],
+            "layout": "single"
+          }
+        ]
+      },
+      {
+        "id": "emerges",
+        "title": "Emerges",
+        "label": "Emerges",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Criei a headpiece com espuma de enceradeira industrial e usei maquiagem artística para emoldurar o rosto."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m005"
+              },
+              {
+                "id": "m006"
+              }
+            ],
+            "layout": "two"
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Fotografia",
+                "names": "Roberto Pacurucu",
+                "links": []
+              },
+              {
+                "role": "Beleza",
+                "names": "Bruno Nascimento",
+                "links": []
+              },
+              {
+                "role": "Modelo",
+                "names": "@ayllahnogueira · @anotheragency_",
+                "links": []
+              },
+              {
+                "role": "Styling",
+                "names": "@marjorierabello",
+                "links": []
+              },
+              {
+                "role": "Luvas",
+                "names": "@b4bylon__",
+                "links": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "balaclava",
+        "title": "Balaclava",
+        "label": "Balaclava",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Balaclava de crochê com babados confeccionada por mim."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m007"
+              },
+              {
+                "id": "m008"
+              },
+              {
+                "id": "m009"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      }
+    ]
+  }
+}

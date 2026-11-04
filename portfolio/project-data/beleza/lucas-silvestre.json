@@ -1,0 +1,932 @@
+{
+  "id": "lucas-silvestre",
+  "area": "beleza",
+  "title": "Lucas Silvestre",
+  "subtitle": "Colaborações em beleza",
+  "intro": "",
+  "tags": [
+    "Beleza editorial"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/lucas-silvestre/deize-868346f065/image.avif",
+    "width": 1280,
+    "height": 1920,
+    "fullSrc": "portfolio/assets/beleza/lucas-silvestre/deize-868346f065/image.avif",
+    "fullWidth": 1280,
+    "fullHeight": 1920,
+    "alt": "Retrato de Deize Tigrona",
+    "srcset": "portfolio/assets/beleza/lucas-silvestre/deize-868346f065/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/deize-868346f065/image.avif 1280w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/deize-868346f065/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/deize-868346f065/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato de Deize Tigrona",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/deize-868346f065/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/deize-868346f065/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/deize-look-f293fae6c2/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/deize-look-f293fae6c2/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Look completo de Deize Tigrona",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/deize-look-f293fae6c2/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/deize-look-f293fae6c2/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/deize-close-bb6f7599f8/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/deize-close-bb6f7599f8/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Detalhe da maquiagem preta de Deize Tigrona",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/deize-close-bb6f7599f8/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/deize-close-bb6f7599f8/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/spartakus-look-6bf781427a/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/spartakus-look-6bf781427a/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Look completo de Spartakus",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/spartakus-look-6bf781427a/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/spartakus-look-6bf781427a/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/spartakus-08331b2df2/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/spartakus-08331b2df2/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Detalhe da beleza de Spartakus",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/spartakus-08331b2df2/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/spartakus-08331b2df2/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/tempestade-01-5b94b44263/image.avif",
+      "width": 1282,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/tempestade-01-5b94b44263/image.avif",
+      "fullWidth": 1282,
+      "fullHeight": 1920,
+      "alt": "Lucas Silvestre com maquiagem e cabelo brancos",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/tempestade-01-5b94b44263/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/tempestade-01-5b94b44263/image.avif 1282w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m007",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/tempestade-04-290f535d71/image.avif",
+      "width": 1282,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/tempestade-04-290f535d71/image.avif",
+      "fullWidth": 1282,
+      "fullHeight": 1920,
+      "alt": "Lucas Silvestre com maquiagem e cabelo brancos",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/tempestade-04-290f535d71/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/tempestade-04-290f535d71/image.avif 1282w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m008",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-gabriel-nogueira-187-8ec49ea576/image.avif",
+      "width": 1080,
+      "height": 1350,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-gabriel-nogueira-187-8ec49ea576/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1350,
+      "alt": "Gabriel Nogueira | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-gabriel-nogueira-187-8ec49ea576/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-gabriel-nogueira-187-8ec49ea576/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m009",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-gabriel-nogueira-189-002b8ae9a4/image.avif",
+      "width": 1080,
+      "height": 1620,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-gabriel-nogueira-189-002b8ae9a4/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1620,
+      "alt": "Gabriel Nogueira | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-gabriel-nogueira-189-002b8ae9a4/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-gabriel-nogueira-189-002b8ae9a4/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m010",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-gabriel-nogueira-190-7c7453f0d2/image.avif",
+      "width": 1080,
+      "height": 1620,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-gabriel-nogueira-190-7c7453f0d2/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1620,
+      "alt": "Gabriel Nogueira | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-gabriel-nogueira-190-7c7453f0d2/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-gabriel-nogueira-190-7c7453f0d2/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m011",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-hud-001-5a1e88bdfd/image.avif",
+      "width": 1080,
+      "height": 1350,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-hud-001-5a1e88bdfd/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1350,
+      "alt": "HUD | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-hud-001-5a1e88bdfd/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-hud-001-5a1e88bdfd/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m012",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-hud-002-6a2e3856e5/image.avif",
+      "width": 1080,
+      "height": 1350,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-hud-002-6a2e3856e5/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1350,
+      "alt": "HUD | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-hud-002-6a2e3856e5/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-hud-002-6a2e3856e5/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m013",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-joao-pedrosa-001-15ebdf0a9b/image.avif",
+      "width": 1080,
+      "height": 1620,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-joao-pedrosa-001-15ebdf0a9b/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1620,
+      "alt": "João Pedrosa | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-joao-pedrosa-001-15ebdf0a9b/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-joao-pedrosa-001-15ebdf0a9b/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m014",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-joao-pedrosa-004-8e1bd18d42/image.avif",
+      "width": 1080,
+      "height": 1620,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-joao-pedrosa-004-8e1bd18d42/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1620,
+      "alt": "João Pedrosa | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-joao-pedrosa-004-8e1bd18d42/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-joao-pedrosa-004-8e1bd18d42/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m015",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-joao-pedrosa-006-91496f2cc9/image.avif",
+      "width": 1080,
+      "height": 1620,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-joao-pedrosa-006-91496f2cc9/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1620,
+      "alt": "João Pedrosa | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-joao-pedrosa-006-91496f2cc9/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-joao-pedrosa-006-91496f2cc9/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m016",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-leandro-buenno-001-81ac9bf509/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-leandro-buenno-001-81ac9bf509/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Leandro Buenno | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-leandro-buenno-001-81ac9bf509/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-leandro-buenno-001-81ac9bf509/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m017",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-leandro-buenno-006-f3a8a1e93e/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-leandro-buenno-006-f3a8a1e93e/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Leandro Buenno | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-leandro-buenno-006-f3a8a1e93e/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-leandro-buenno-006-f3a8a1e93e/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m018",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-leandro-buenno-008-f66ec7d103/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-leandro-buenno-008-f66ec7d103/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Leandro Buenno | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-leandro-buenno-008-f66ec7d103/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-leandro-buenno-008-f66ec7d103/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m019",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-africa-001-66d61ca860/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-africa-001-66d61ca860/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "África | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-africa-001-66d61ca860/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-africa-001-66d61ca860/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m020",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-africa-003-0426ac5f11/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-africa-003-0426ac5f11/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "África | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-africa-003-0426ac5f11/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-africa-003-0426ac5f11/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m021",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-africa-004-bc8bbca175/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-africa-004-bc8bbca175/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "África | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-africa-004-bc8bbca175/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-africa-004-bc8bbca175/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m022",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-leao-001-293b76d0de/image.avif",
+      "width": 1440,
+      "height": 1800,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-leao-001-293b76d0de/image.avif",
+      "fullWidth": 1440,
+      "fullHeight": 1800,
+      "alt": "Leão | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-leao-001-293b76d0de/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-leao-001-293b76d0de/image.avif 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m023",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-leao-002-8fb9824611/image.avif",
+      "width": 1440,
+      "height": 1799,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-leao-002-8fb9824611/image.avif",
+      "fullWidth": 1440,
+      "fullHeight": 1799,
+      "alt": "Leão | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-leao-002-8fb9824611/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-leao-002-8fb9824611/image.avif 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m024",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-leao-003-431676cda9/image.avif",
+      "width": 1440,
+      "height": 1800,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-leao-003-431676cda9/image.avif",
+      "fullWidth": 1440,
+      "fullHeight": 1800,
+      "alt": "Leão | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-leao-003-431676cda9/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-leao-003-431676cda9/image.avif 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m025",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-coroa-dourada-003-1d578cc5f8/image.avif",
+      "width": 1282,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-coroa-dourada-003-1d578cc5f8/image.avif",
+      "fullWidth": 1282,
+      "fullHeight": 1920,
+      "alt": "Coroa dourada | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-coroa-dourada-003-1d578cc5f8/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-coroa-dourada-003-1d578cc5f8/image.avif 1282w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m026",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-coroa-dourada-004-8a6f2e0d0b/image.avif",
+      "width": 1282,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-coroa-dourada-004-8a6f2e0d0b/image.avif",
+      "fullWidth": 1282,
+      "fullHeight": 1920,
+      "alt": "Coroa dourada | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-coroa-dourada-004-8a6f2e0d0b/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-coroa-dourada-004-8a6f2e0d0b/image.avif 1282w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m027",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-coroa-dourada-006-ddb1c48528/image.avif",
+      "width": 1282,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-coroa-dourada-006-ddb1c48528/image.avif",
+      "fullWidth": 1282,
+      "fullHeight": 1920,
+      "alt": "Coroa dourada | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-coroa-dourada-006-ddb1c48528/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-coroa-dourada-006-ddb1c48528/image.avif 1282w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m028",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-palhacita-001-e027bd1e83/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-palhacita-001-e027bd1e83/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Palhacita | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-palhacita-001-e027bd1e83/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-palhacita-001-e027bd1e83/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m029",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-palhacita-004-38943ee5b5/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-palhacita-004-38943ee5b5/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Palhacita | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-palhacita-004-38943ee5b5/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-palhacita-004-38943ee5b5/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m030",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-palhacita-007-fdea831b9b/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-palhacita-007-fdea831b9b/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Palhacita | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-palhacita-007-fdea831b9b/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-palhacita-007-fdea831b9b/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m031",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-rocker-001-ce92fe4bd3/image.avif",
+      "width": 1282,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-rocker-001-ce92fe4bd3/image.avif",
+      "fullWidth": 1282,
+      "fullHeight": 1920,
+      "alt": "Rocker | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-rocker-001-ce92fe4bd3/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-rocker-001-ce92fe4bd3/image.avif 1282w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m032",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-rocker-006-e8c8947f5e/image.avif",
+      "width": 1282,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-rocker-006-e8c8947f5e/image.avif",
+      "fullWidth": 1282,
+      "fullHeight": 1920,
+      "alt": "Rocker | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-rocker-006-e8c8947f5e/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-rocker-006-e8c8947f5e/image.avif 1282w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m033",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-rocker-004-fac91c5669/image.avif",
+      "width": 1282,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-rocker-004-fac91c5669/image.avif",
+      "fullWidth": 1282,
+      "fullHeight": 1920,
+      "alt": "Rocker | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-rocker-004-fac91c5669/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-rocker-004-fac91c5669/image.avif 1282w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m034",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-vermelho-e-pedrarias-004-c37d40ea7d/image.avif",
+      "width": 1282,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-vermelho-e-pedrarias-004-c37d40ea7d/image.avif",
+      "fullWidth": 1282,
+      "fullHeight": 1920,
+      "alt": "Vermelho e pedrarias | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-vermelho-e-pedrarias-004-c37d40ea7d/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-vermelho-e-pedrarias-004-c37d40ea7d/image.avif 1282w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m035",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-vermelho-e-pedrarias-008-49d772464c/image.avif",
+      "width": 1282,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-vermelho-e-pedrarias-008-49d772464c/image.avif",
+      "fullWidth": 1282,
+      "fullHeight": 1920,
+      "alt": "Vermelho e pedrarias | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-vermelho-e-pedrarias-008-49d772464c/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-vermelho-e-pedrarias-008-49d772464c/image.avif 1282w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m036",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-vermelho-e-pedrarias-007-7339a1d703/image.avif",
+      "width": 1282,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-vermelho-e-pedrarias-007-7339a1d703/image.avif",
+      "fullWidth": 1282,
+      "fullHeight": 1920,
+      "alt": "Vermelho e pedrarias | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-vermelho-e-pedrarias-007-7339a1d703/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-vermelho-e-pedrarias-007-7339a1d703/image.avif 1282w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m037",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-xtra-glow-002-e75c9107e0/image.avif",
+      "width": 1440,
+      "height": 1799,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-xtra-glow-002-e75c9107e0/image.avif",
+      "fullWidth": 1440,
+      "fullHeight": 1799,
+      "alt": "Xtra Glow | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-xtra-glow-002-e75c9107e0/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-xtra-glow-002-e75c9107e0/image.avif 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m038",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-xtra-glow-004-170e6075c8/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-xtra-glow-004-170e6075c8/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Xtra Glow | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-xtra-glow-004-170e6075c8/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-xtra-glow-004-170e6075c8/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m039",
+      "type": "image",
+      "src": "portfolio/assets/beleza/lucas-silvestre/selected-xtra-glow-006-92eb0f1c2c/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/lucas-silvestre/selected-xtra-glow-006-92eb0f1c2c/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Xtra Glow | Maquiagem",
+      "srcset": "portfolio/assets/beleza/lucas-silvestre/selected-xtra-glow-006-92eb0f1c2c/640w.avif 640w, portfolio/assets/beleza/lucas-silvestre/selected-xtra-glow-006-92eb0f1c2c/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "deize-tigrona",
+        "title": "Deize Tigrona",
+        "label": "Deize Tigrona",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Retratos de Deize Tigrona para a Batekoo."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              }
+            ],
+            "layout": "two"
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Fotografia",
+                "names": "Lucas Silvestre",
+                "links": []
+              },
+              {
+                "role": "Maquiagem",
+                "names": "Bruno Nascimento",
+                "links": []
+              },
+              {
+                "role": "Cabelo",
+                "names": "@marigaridas",
+                "links": []
+              },
+              {
+                "role": "Direção e produção",
+                "names": "@artursantoro · @mafaldaltda",
+                "links": []
+              },
+              {
+                "role": "Realização",
+                "names": "Batekoo",
+                "links": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "spartakus",
+        "title": "Spartakus",
+        "label": "Spartakus",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Retratos da série Pride."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m004"
+              },
+              {
+                "id": "m005"
+              }
+            ],
+            "layout": "two"
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Fotografia",
+                "names": "Lucas Silvestre",
+                "links": []
+              },
+              {
+                "role": "Maquiagem",
+                "names": "Bruno Nascimento",
+                "links": []
+              },
+              {
+                "role": "Styling",
+                "names": "@membranv",
+                "links": []
+              },
+              {
+                "role": "Cabelo",
+                "names": "@brunodantte.sp · @taniasarahair_ · @corteicomadai",
+                "links": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "tempestade",
+        "title": "Tempestade",
+        "label": "Tempestade",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Retrato de Lucas Silvestre."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m006"
+              },
+              {
+                "id": "m007"
+              }
+            ],
+            "layout": "two"
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Fotografia",
+                "names": "@gudelgado",
+                "links": []
+              },
+              {
+                "role": "Maquiagem",
+                "names": "Bruno Nascimento",
+                "links": []
+              },
+              {
+                "role": "Cabelo",
+                "names": "@sttefone",
+                "links": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "gabriel-nogueira",
+        "title": "Gabriel Nogueira",
+        "label": "Gabriel Nogueira",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m008"
+              },
+              {
+                "id": "m009"
+              },
+              {
+                "id": "m010"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "hud",
+        "title": "HUD",
+        "label": "HUD",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m011"
+              },
+              {
+                "id": "m012"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "joao-pedrosa",
+        "title": "João Pedrosa",
+        "label": "João Pedrosa",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m013"
+              },
+              {
+                "id": "m014"
+              },
+              {
+                "id": "m015"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "leandro-buenno",
+        "title": "Leandro Buenno",
+        "label": "Leandro Buenno",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m016"
+              },
+              {
+                "id": "m017"
+              },
+              {
+                "id": "m018"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "africa",
+        "title": "África",
+        "label": "África",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m019"
+              },
+              {
+                "id": "m020"
+              },
+              {
+                "id": "m021"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "leao",
+        "title": "Leão",
+        "label": "Leão",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m022"
+              },
+              {
+                "id": "m023"
+              },
+              {
+                "id": "m024"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "coroa-dourada",
+        "title": "Coroa dourada",
+        "label": "Coroa dourada",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m025"
+              },
+              {
+                "id": "m026"
+              },
+              {
+                "id": "m027"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "palhacita",
+        "title": "Palhacita",
+        "label": "Palhacita",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m028"
+              },
+              {
+                "id": "m029"
+              },
+              {
+                "id": "m030"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "rocker",
+        "title": "Rocker",
+        "label": "Rocker",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m031"
+              },
+              {
+                "id": "m032"
+              },
+              {
+                "id": "m033"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "vermelho-e-pedrarias",
+        "title": "Vermelho e pedrarias",
+        "label": "Vermelho e pedrarias",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m034"
+              },
+              {
+                "id": "m035"
+              },
+              {
+                "id": "m036"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "xtra-glow",
+        "title": "Xtra Glow",
+        "label": "Xtra Glow",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m037"
+              },
+              {
+                "id": "m038"
+              },
+              {
+                "id": "m039"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      }
+    ]
+  }
+}

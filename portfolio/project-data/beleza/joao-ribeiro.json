@@ -1,0 +1,186 @@
+{
+  "id": "joao-ribeiro",
+  "area": "beleza",
+  "title": "João Ribeiro",
+  "subtitle": "Beleza editorial",
+  "intro": "",
+  "tags": [
+    "Beleza"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/joao-ribeiro/selecionada-02-9c69fadbd8/image.avif",
+    "width": 1536,
+    "height": 1920,
+    "fullSrc": "portfolio/assets/beleza/joao-ribeiro/selecionada-02-9c69fadbd8/image.avif",
+    "fullWidth": 1536,
+    "fullHeight": 1920,
+    "alt": "Primeiro look: detalhe dos olhos e das aplicações",
+    "srcset": "portfolio/assets/beleza/joao-ribeiro/selecionada-02-9c69fadbd8/640w.avif 640w, portfolio/assets/beleza/joao-ribeiro/selecionada-02-9c69fadbd8/image.avif 1536w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/joao-ribeiro/selecionada-02-9c69fadbd8/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/joao-ribeiro/selecionada-02-9c69fadbd8/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Primeiro look: detalhe dos olhos e das aplicações",
+      "srcset": "portfolio/assets/beleza/joao-ribeiro/selecionada-02-9c69fadbd8/640w.avif 640w, portfolio/assets/beleza/joao-ribeiro/selecionada-02-9c69fadbd8/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/joao-ribeiro/selecionada-66-449286f561/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/joao-ribeiro/selecionada-66-449286f561/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Croqui do primeiro look com correntes e pedras verdes",
+      "srcset": "portfolio/assets/beleza/joao-ribeiro/selecionada-66-449286f561/640w.avif 640w, portfolio/assets/beleza/joao-ribeiro/selecionada-66-449286f561/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/joao-ribeiro/selecionada-67-d7b17713e0/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/joao-ribeiro/selecionada-67-d7b17713e0/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Croqui do segundo look com pintura facial colorida",
+      "srcset": "portfolio/assets/beleza/joao-ribeiro/selecionada-67-d7b17713e0/640w.avif 640w, portfolio/assets/beleza/joao-ribeiro/selecionada-67-d7b17713e0/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/joao-ribeiro/selecionada-03-877935551e/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/joao-ribeiro/selecionada-03-877935551e/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Primeiro look: fotografia com o figurino verde claro",
+      "srcset": "portfolio/assets/beleza/joao-ribeiro/selecionada-03-877935551e/640w.avif 640w, portfolio/assets/beleza/joao-ribeiro/selecionada-03-877935551e/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/joao-ribeiro/selecionada-01-36eb5510da/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/joao-ribeiro/selecionada-01-36eb5510da/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Retrato final do primeiro look",
+      "srcset": "portfolio/assets/beleza/joao-ribeiro/selecionada-01-36eb5510da/640w.avif 640w, portfolio/assets/beleza/joao-ribeiro/selecionada-01-36eb5510da/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/joao-ribeiro/selecionada-04-d797e17859/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/joao-ribeiro/selecionada-04-d797e17859/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Segundo look: pintura facial e mãos ao redor do rosto",
+      "srcset": "portfolio/assets/beleza/joao-ribeiro/selecionada-04-d797e17859/640w.avif 640w, portfolio/assets/beleza/joao-ribeiro/selecionada-04-d797e17859/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m007",
+      "type": "image",
+      "src": "portfolio/assets/beleza/joao-ribeiro/selecionada-06-44c35c0ec9/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/joao-ribeiro/selecionada-06-44c35c0ec9/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Segundo look: retrato com as mãos sobrepostas",
+      "srcset": "portfolio/assets/beleza/joao-ribeiro/selecionada-06-44c35c0ec9/640w.avif 640w, portfolio/assets/beleza/joao-ribeiro/selecionada-06-44c35c0ec9/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "croquis",
+        "title": "Croquis",
+        "label": "Croquis",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002",
+                "caption": "Primeiro look"
+              },
+              {
+                "id": "m003",
+                "caption": "Segundo look"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "primeiro-look",
+        "title": "Primeiro look",
+        "label": "Primeiro look",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m004"
+              },
+              {
+                "id": "m005"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "segundo-look",
+        "title": "Segundo look",
+        "label": "Segundo look",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m006"
+              },
+              {
+                "id": "m007"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      }
+    ]
+  }
+}

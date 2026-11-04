@@ -1,0 +1,503 @@
+{
+  "id": "scandalous-guilherme-valente",
+  "area": "beleza",
+  "title": "Scandalous",
+  "subtitle": "Guilherme Valente",
+  "intro": "",
+  "tags": [
+    "Beleza editorial"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-51-683b14ffbf/image.avif",
+    "width": 1280,
+    "height": 1920,
+    "fullSrc": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-51-683b14ffbf/image.avif",
+    "fullWidth": 1280,
+    "fullHeight": 1920,
+    "alt": "Retrato com olhos e lábios pretos, ombros turquesa e mangas amarelas",
+    "srcset": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-51-683b14ffbf/640w.avif 640w, portfolio/assets/beleza/scandalous-guilherme-valente/foto-51-683b14ffbf/image.avif 1280w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-51-683b14ffbf/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-51-683b14ffbf/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato com olhos e lábios pretos, ombros turquesa e mangas amarelas",
+      "srcset": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-51-683b14ffbf/640w.avif 640w, portfolio/assets/beleza/scandalous-guilherme-valente/foto-51-683b14ffbf/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-57-8236d2d41e/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-57-8236d2d41e/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Perfil com sombra azul, cabelo verde e flores vermelhas e azuis",
+      "srcset": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-57-8236d2d41e/640w.avif 640w, portfolio/assets/beleza/scandalous-guilherme-valente/foto-57-8236d2d41e/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-59-36fc8f9647/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-59-36fc8f9647/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Perfil com maquiagem preta e volumes de tecido rosa",
+      "srcset": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-59-36fc8f9647/640w.avif 640w, portfolio/assets/beleza/scandalous-guilherme-valente/foto-59-36fc8f9647/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-01-b0a9d9f315/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-01-b0a9d9f315/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Look preto com ombros pontudos",
+      "srcset": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-01-b0a9d9f315/640w.avif 640w, portfolio/assets/beleza/scandalous-guilherme-valente/foto-01-b0a9d9f315/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-17-f7589fe8eb/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-17-f7589fe8eb/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Look preto e azul com cabelo afro",
+      "srcset": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-17-f7589fe8eb/640w.avif 640w, portfolio/assets/beleza/scandalous-guilherme-valente/foto-17-f7589fe8eb/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-24-c65cd5c603/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-24-c65cd5c603/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Vestido estampado rosa e azul com botas rosa",
+      "srcset": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-24-c65cd5c603/640w.avif 640w, portfolio/assets/beleza/scandalous-guilherme-valente/foto-24-c65cd5c603/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m007",
+      "type": "image",
+      "src": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-31-55e30a3b32/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-31-55e30a3b32/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Look de babados rosa e calça preta",
+      "srcset": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-31-55e30a3b32/640w.avif 640w, portfolio/assets/beleza/scandalous-guilherme-valente/foto-31-55e30a3b32/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m008",
+      "type": "image",
+      "src": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-48-74073edc7c/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-48-74073edc7c/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Saia ampla preta e dourada em movimento",
+      "srcset": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-48-74073edc7c/640w.avif 640w, portfolio/assets/beleza/scandalous-guilherme-valente/foto-48-74073edc7c/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m009",
+      "type": "image",
+      "src": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-22-6f7c217ec6/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-22-6f7c217ec6/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Dupla com looks preto e azul",
+      "srcset": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-22-6f7c217ec6/640w.avif 640w, portfolio/assets/beleza/scandalous-guilherme-valente/foto-22-6f7c217ec6/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m010",
+      "type": "image",
+      "src": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-42-094813e6d9/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-42-094813e6d9/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Dupla com saia preta e dourada e look amarelo e turquesa",
+      "srcset": "portfolio/assets/beleza/scandalous-guilherme-valente/foto-42-094813e6d9/640w.avif 640w, portfolio/assets/beleza/scandalous-guilherme-valente/foto-42-094813e6d9/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m011",
+      "type": "image",
+      "src": "portfolio/assets/beleza/scandalous-guilherme-valente/revista-01-c2d7b7b93d/image.avif",
+      "width": 1440,
+      "height": 1795,
+      "fullSrc": "portfolio/assets/beleza/scandalous-guilherme-valente/revista-01-c2d7b7b93d/image.avif",
+      "fullWidth": 1440,
+      "fullHeight": 1795,
+      "alt": "Revista aberta na matéria Menino prodígio sobre Guilherme Valente",
+      "srcset": "portfolio/assets/beleza/scandalous-guilherme-valente/revista-01-c2d7b7b93d/640w.avif 640w, portfolio/assets/beleza/scandalous-guilherme-valente/revista-01-c2d7b7b93d/image.avif 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m012",
+      "type": "image",
+      "src": "portfolio/assets/beleza/scandalous-guilherme-valente/revista-02-dcee4c3ac7/image.avif",
+      "width": 1369,
+      "height": 1707,
+      "fullSrc": "portfolio/assets/beleza/scandalous-guilherme-valente/revista-02-dcee4c3ac7/image.avif",
+      "fullWidth": 1369,
+      "fullHeight": 1707,
+      "alt": "Página da matéria Menino prodígio na Harper’s Bazaar",
+      "srcset": "portfolio/assets/beleza/scandalous-guilherme-valente/revista-02-dcee4c3ac7/640w.avif 640w, portfolio/assets/beleza/scandalous-guilherme-valente/revista-02-dcee4c3ac7/image.avif 1369w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m013",
+      "type": "image",
+      "src": "portfolio/assets/beleza/scandalous-guilherme-valente/revista-03-8de64cf422/image.avif",
+      "width": 1440,
+      "height": 1800,
+      "fullSrc": "portfolio/assets/beleza/scandalous-guilherme-valente/revista-03-8de64cf422/image.avif",
+      "fullWidth": 1440,
+      "fullHeight": 1800,
+      "alt": "Revista aberta no editorial Meu nome é Lucy, com peça de Guilherme Valente",
+      "srcset": "portfolio/assets/beleza/scandalous-guilherme-valente/revista-03-8de64cf422/640w.avif 640w, portfolio/assets/beleza/scandalous-guilherme-valente/revista-03-8de64cf422/image.avif 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m014",
+      "type": "image",
+      "src": "portfolio/assets/beleza/scandalous-guilherme-valente/revista-04-156e002337/image.avif",
+      "width": 1440,
+      "height": 1800,
+      "fullSrc": "portfolio/assets/beleza/scandalous-guilherme-valente/revista-04-156e002337/image.avif",
+      "fullWidth": 1440,
+      "fullHeight": 1800,
+      "alt": "Lucy Alves em look da coleção nas páginas da Harper’s Bazaar",
+      "srcset": "portfolio/assets/beleza/scandalous-guilherme-valente/revista-04-156e002337/640w.avif 640w, portfolio/assets/beleza/scandalous-guilherme-valente/revista-04-156e002337/image.avif 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "olhos-cor-e-contorno",
+        "title": "Olhos, cor e contorno",
+        "label": "Olhos, cor e contorno",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "preto-e-azul",
+        "title": "Preto e azul",
+        "label": "Preto e azul",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m004"
+              },
+              {
+                "id": "m005"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "volumes-e-movimento",
+        "title": "Volumes e movimento",
+        "label": "Volumes e movimento",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m006"
+              },
+              {
+                "id": "m007"
+              },
+              {
+                "id": "m008"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "em-conjunto",
+        "title": "Em conjunto",
+        "label": "Em conjunto",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m009"
+              },
+              {
+                "id": "m010"
+              }
+            ],
+            "layout": "two"
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Criação da coleção",
+                "names": "Guilherme Valente · @guilhermevalente________",
+                "links": [
+                  {
+                    "title": "@guilhermevalente________",
+                    "url": "https://www.instagram.com/guilhermevalente________/"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Guilherme Valente criou Scandalous a partir da vida noturna paulistana e da autoaceitação de pessoas afeminadas. A coleção integrou seu trabalho de conclusão do curso de Moda na Santa Marcelina.",
+              "Sobre a coleção: Harper’s Bazaar ."
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Harper’s Bazaar",
+                "url": "https://harpersbazaar.uol.com.br/moda/guilherme-valente-e-o-novo-nome-no-mapa-da-moda-nacional/"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "title": "Ficha técnica do ensaio",
+            "paragraphs": []
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Criação da coleção",
+                "names": "Guilherme Valente · @guilhermevalente________",
+                "links": [
+                  {
+                    "title": "Guilherme Valente",
+                    "url": "https://www.instagram.com/guilhermevalente________/"
+                  }
+                ]
+              },
+              {
+                "role": "Beleza",
+                "names": "Bruno Nascimento · @muabruno",
+                "links": [
+                  {
+                    "title": "Bruno Nascimento",
+                    "url": "https://www.instagram.com/muabruno/"
+                  }
+                ]
+              },
+              {
+                "role": "Fotografia",
+                "names": "@nab.ru",
+                "links": [
+                  {
+                    "title": "@nab.ru",
+                    "url": "https://www.instagram.com/nab.ru/"
+                  }
+                ]
+              },
+              {
+                "role": "Assistência de fotografia",
+                "names": "@renfoca",
+                "links": [
+                  {
+                    "title": "@renfoca",
+                    "url": "https://www.instagram.com/renfoca/"
+                  }
+                ]
+              },
+              {
+                "role": "Modelos",
+                "names": "@naiadelmar",
+                "links": [
+                  {
+                    "title": "@naiadelmar",
+                    "url": "https://www.instagram.com/naiadelmar/"
+                  }
+                ]
+              },
+              {
+                "role": "Modelos",
+                "names": "@oguiigui",
+                "links": [
+                  {
+                    "title": "@oguiigui",
+                    "url": "https://www.instagram.com/oguiigui/"
+                  }
+                ]
+              },
+              {
+                "role": "Produção de moda",
+                "names": "Georgia Hoshino · @georgiahoshino",
+                "links": [
+                  {
+                    "title": "Georgia Hoshino",
+                    "url": "https://www.instagram.com/georgiahoshino/"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Créditos publicados por Guilherme Valente. Publicação original"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Publicação original",
+                "url": "https://www.instagram.com/p/CmuuD9wv9og/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "scandalous-na-harpers-bazaar",
+        "title": "Scandalous na Harper’s Bazaar",
+        "label": "Scandalous na Harper’s Bazaar",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "“Menino prodígio” · texto de Guilherme de Beauharnais"
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m011"
+              },
+              {
+                "id": "m012"
+              }
+            ],
+            "layout": "two"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Harper’s Bazaar · dez. 2022/jan. 2023 · Registro publicado por Guilherme Valente"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Registro publicado por Guilherme Valente",
+                "url": "https://www.instagram.com/p/CmuuD9wv9og/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "pecas-da-colecao-em-revista",
+        "title": "Peças da coleção em revista",
+        "label": "Peças da coleção em revista",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Lucy Alves · editorial “Meu nome é Lucy”"
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m013"
+              },
+              {
+                "id": "m014"
+              }
+            ],
+            "layout": "two"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Harper’s Bazaar · dez. 2022/jan. 2023 · Registro publicado por Guilherme Valente"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Registro publicado por Guilherme Valente",
+                "url": "https://www.instagram.com/p/CmuuD9wv9og/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "id": "amanda-editorial-beleza",
+  "area": "beleza",
+  "title": "Amanda",
+  "subtitle": "Editorial de beleza",
+  "intro": "",
+  "tags": [
+    "Beleza editorial"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/amanda-editorial-beleza/capa-28e7db8881/image.avif",
+    "width": 1280,
+    "height": 1920,
+    "fullSrc": "portfolio/assets/beleza/amanda-editorial-beleza/capa-28e7db8881/image.avif",
+    "fullWidth": 1280,
+    "fullHeight": 1920,
+    "alt": "Retrato frontal com pintura gráfica branca, verde, azul, laranja e roxa",
+    "srcset": "portfolio/assets/beleza/amanda-editorial-beleza/capa-28e7db8881/640w.avif 640w, portfolio/assets/beleza/amanda-editorial-beleza/capa-28e7db8881/image.avif 1280w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/amanda-editorial-beleza/capa-28e7db8881/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/amanda-editorial-beleza/capa-28e7db8881/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato frontal com pintura gráfica branca, verde, azul, laranja e roxa",
+      "srcset": "portfolio/assets/beleza/amanda-editorial-beleza/capa-28e7db8881/640w.avif 640w, portfolio/assets/beleza/amanda-editorial-beleza/capa-28e7db8881/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/amanda-editorial-beleza/expressao-01-f279851e49/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/amanda-editorial-beleza/expressao-01-f279851e49/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato sorrindo com lábios vinho",
+      "srcset": "portfolio/assets/beleza/amanda-editorial-beleza/expressao-01-f279851e49/640w.avif 640w, portfolio/assets/beleza/amanda-editorial-beleza/expressao-01-f279851e49/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/amanda-editorial-beleza/expressao-02-51580cb493/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/amanda-editorial-beleza/expressao-02-51580cb493/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato com braços elevados e lábios vinho",
+      "srcset": "portfolio/assets/beleza/amanda-editorial-beleza/expressao-02-51580cb493/640w.avif 640w, portfolio/assets/beleza/amanda-editorial-beleza/expressao-02-51580cb493/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/amanda-editorial-beleza/azul-01-50d4dc8519/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/amanda-editorial-beleza/azul-01-50d4dc8519/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato frontal com sombra azul intensa",
+      "srcset": "portfolio/assets/beleza/amanda-editorial-beleza/azul-01-50d4dc8519/640w.avif 640w, portfolio/assets/beleza/amanda-editorial-beleza/azul-01-50d4dc8519/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/amanda-editorial-beleza/azul-02-2f8c49c0ef/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/amanda-editorial-beleza/azul-02-2f8c49c0ef/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato de perfil com sombra azul",
+      "srcset": "portfolio/assets/beleza/amanda-editorial-beleza/azul-02-2f8c49c0ef/640w.avif 640w, portfolio/assets/beleza/amanda-editorial-beleza/azul-02-2f8c49c0ef/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/amanda-editorial-beleza/grafica-01-11107f0df3/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/amanda-editorial-beleza/grafica-01-11107f0df3/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Pintura gráfica do rosto em vista de três quartos",
+      "srcset": "portfolio/assets/beleza/amanda-editorial-beleza/grafica-01-11107f0df3/640w.avif 640w, portfolio/assets/beleza/amanda-editorial-beleza/grafica-01-11107f0df3/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m007",
+      "type": "image",
+      "src": "portfolio/assets/beleza/amanda-editorial-beleza/grafica-02-31459a1334/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/amanda-editorial-beleza/grafica-02-31459a1334/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Pintura gráfica do rosto em vista lateral",
+      "srcset": "portfolio/assets/beleza/amanda-editorial-beleza/grafica-02-31459a1334/640w.avif 640w, portfolio/assets/beleza/amanda-editorial-beleza/grafica-02-31459a1334/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m008",
+      "type": "image",
+      "src": "portfolio/assets/beleza/amanda-editorial-beleza/processo-8424753d10/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/amanda-editorial-beleza/processo-8424753d10/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Registro de aplicação da maquiagem no ensaio",
+      "srcset": "portfolio/assets/beleza/amanda-editorial-beleza/processo-8424753d10/640w.avif 640w, portfolio/assets/beleza/amanda-editorial-beleza/processo-8424753d10/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m009",
+      "type": "image",
+      "src": "portfolio/assets/beleza/amanda-editorial-beleza/detalhe-2c81d38892/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/amanda-editorial-beleza/detalhe-2c81d38892/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Aproximação da pintura gráfica e dos olhos",
+      "srcset": "portfolio/assets/beleza/amanda-editorial-beleza/detalhe-2c81d38892/640w.avif 640w, portfolio/assets/beleza/amanda-editorial-beleza/detalhe-2c81d38892/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "editorial-de-beleza",
+        "title": "Editorial de beleza",
+        "label": "Editorial de beleza",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              },
+              {
+                "id": "m004"
+              },
+              {
+                "id": "m005"
+              },
+              {
+                "id": "m006"
+              },
+              {
+                "id": "m007"
+              }
+            ],
+            "layout": "gallery"
+          }
+        ]
+      },
+      {
+        "id": "detalhe-e-processo",
+        "title": "Detalhe e processo",
+        "label": "Detalhe e processo",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m008"
+              },
+              {
+                "id": "m009"
+              }
+            ],
+            "layout": "two"
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Modelo",
+                "names": "Amanda Stefanone",
+                "links": [
+                  {
+                    "title": "Amanda Stefanone",
+                    "url": "https://www.instagram.com/a_stefanone/"
+                  }
+                ]
+              },
+              {
+                "role": "Fotografia",
+                "names": "Roberto Martini",
+                "links": [
+                  {
+                    "title": "Roberto Martini",
+                    "url": "https://www.instagram.com/robertoamartini/"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

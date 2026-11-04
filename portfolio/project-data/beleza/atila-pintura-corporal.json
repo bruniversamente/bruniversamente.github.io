@@ -1,0 +1,171 @@
+{
+  "id": "atila-pintura-corporal",
+  "area": "beleza",
+  "title": "Átila",
+  "subtitle": "Pintura corporal e adereços",
+  "intro": "",
+  "tags": [
+    "Pintura corporal e adereços"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/atila-pintura-corporal/capa-49ac31a8c2/image.avif",
+    "width": 1280,
+    "height": 1920,
+    "fullSrc": "portfolio/assets/beleza/atila-pintura-corporal/capa-49ac31a8c2/image.avif",
+    "fullWidth": 1280,
+    "fullHeight": 1920,
+    "alt": "Retrato com pintura corporal roxa, olhos amarelos e adereços amarelos",
+    "srcset": "portfolio/assets/beleza/atila-pintura-corporal/capa-49ac31a8c2/640w.avif 640w, portfolio/assets/beleza/atila-pintura-corporal/capa-49ac31a8c2/image.avif 1280w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/atila-pintura-corporal/capa-49ac31a8c2/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/atila-pintura-corporal/capa-49ac31a8c2/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato com pintura corporal roxa, olhos amarelos e adereços amarelos",
+      "srcset": "portfolio/assets/beleza/atila-pintura-corporal/capa-49ac31a8c2/640w.avif 640w, portfolio/assets/beleza/atila-pintura-corporal/capa-49ac31a8c2/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/atila-pintura-corporal/retrato-9993266cf8/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/atila-pintura-corporal/retrato-9993266cf8/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato frontal com pintura roxa e peças amarelas em espiral",
+      "srcset": "portfolio/assets/beleza/atila-pintura-corporal/retrato-9993266cf8/640w.avif 640w, portfolio/assets/beleza/atila-pintura-corporal/retrato-9993266cf8/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/atila-pintura-corporal/detalhe-6c3c5e8211/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/atila-pintura-corporal/detalhe-6c3c5e8211/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Detalhe dos olhos e dos lábios com pintura corporal roxa e adereço amarelo",
+      "srcset": "portfolio/assets/beleza/atila-pintura-corporal/detalhe-6c3c5e8211/640w.avif 640w, portfolio/assets/beleza/atila-pintura-corporal/detalhe-6c3c5e8211/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/atila-pintura-corporal/volume-711f495c57/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/atila-pintura-corporal/volume-711f495c57/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Pintura corporal e adereços circulares nos ombros em perspectiva baixa",
+      "srcset": "portfolio/assets/beleza/atila-pintura-corporal/volume-711f495c57/640w.avif 640w, portfolio/assets/beleza/atila-pintura-corporal/volume-711f495c57/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/atila-pintura-corporal/torso-f46d487fb2/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/atila-pintura-corporal/torso-f46d487fb2/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Torso com pintura roxa e adereço amarelo em espiral",
+      "srcset": "portfolio/assets/beleza/atila-pintura-corporal/torso-f46d487fb2/640w.avif 640w, portfolio/assets/beleza/atila-pintura-corporal/torso-f46d487fb2/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "video",
+      "src": "portfolio/assets/beleza/atila-pintura-corporal/atila-timelapse-adereco-30s-catwalk-60b8567fa5/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/atila-pintura-corporal/atila-timelapse-adereco-30s-catwalk-60b8567fa5/video.mp4",
+      "fullWidth": 720,
+      "fullHeight": 1280,
+      "alt": "Construção do adereço",
+      "poster": "portfolio/assets/beleza/atila-pintura-corporal/timelapse-adereco-a9ff042c60/image.avif"
+    },
+    {
+      "id": "m007",
+      "type": "video",
+      "src": "portfolio/assets/beleza/atila-pintura-corporal/atila-timelapse-maquiagem-30s-catwalk-242a077da0/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/atila-pintura-corporal/atila-timelapse-maquiagem-30s-catwalk-242a077da0/video.mp4",
+      "fullWidth": 720,
+      "fullHeight": 1280,
+      "alt": "Maquiagem e pintura corporal",
+      "poster": "portfolio/assets/beleza/atila-pintura-corporal/timelapse-maquiagem-61a8a0d6f1/image.avif"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "pintura-corporal-e-aderecos",
+        "title": "Pintura corporal e adereços",
+        "label": "Pintura corporal e adereços",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              },
+              {
+                "id": "m004"
+              },
+              {
+                "id": "m005"
+              }
+            ],
+            "layout": "gallery"
+          }
+        ]
+      },
+      {
+        "id": "construcao-e-pintura",
+        "title": "Construção e pintura",
+        "label": "Construção e pintura",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m006",
+                "caption": "Construção do adereço"
+              },
+              {
+                "id": "m007",
+                "caption": "Maquiagem e pintura corporal"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      }
+    ]
+  }
+}

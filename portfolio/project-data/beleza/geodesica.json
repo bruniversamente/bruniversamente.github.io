@@ -1,0 +1,326 @@
+{
+  "id": "geodesica",
+  "area": "beleza",
+  "title": "Geodésica",
+  "subtitle": "Adereços e beleza editorial",
+  "intro": "",
+  "tags": [
+    "Construção de adereços · Maquiagem tridimensional"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/geodesica/final-3-7b662238d6/image.avif",
+    "width": 1537,
+    "height": 1920,
+    "fullSrc": "portfolio/assets/beleza/geodesica/final-3-7b662238d6/image.avif",
+    "fullWidth": 1537,
+    "fullHeight": 1920,
+    "alt": "Retrato com adereço radial prateado",
+    "srcset": "portfolio/assets/beleza/geodesica/final-3-7b662238d6/640w.avif 640w, portfolio/assets/beleza/geodesica/final-3-7b662238d6/image.avif 1537w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/geodesica/final-3-7b662238d6/image.avif",
+      "width": 1537,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/geodesica/final-3-7b662238d6/image.avif",
+      "fullWidth": 1537,
+      "fullHeight": 1920,
+      "alt": "Retrato com adereço radial prateado",
+      "srcset": "portfolio/assets/beleza/geodesica/final-3-7b662238d6/640w.avif 640w, portfolio/assets/beleza/geodesica/final-3-7b662238d6/image.avif 1537w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/geodesica/final-1-cd9dc935ba/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/geodesica/final-1-cd9dc935ba/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Máscara triangular vista lateral",
+      "srcset": "portfolio/assets/beleza/geodesica/final-1-cd9dc935ba/640w.avif 640w, portfolio/assets/beleza/geodesica/final-1-cd9dc935ba/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/geodesica/final-2-d41b7d7fc3/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/geodesica/final-2-d41b7d7fc3/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Máscara triangular vista frontal",
+      "srcset": "portfolio/assets/beleza/geodesica/final-2-d41b7d7fc3/640w.avif 640w, portfolio/assets/beleza/geodesica/final-2-d41b7d7fc3/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/geodesica/croqui-c7ce6cdbbc/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/geodesica/croqui-c7ce6cdbbc/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Esboço da máscara triangular",
+      "srcset": "portfolio/assets/beleza/geodesica/croqui-c7ce6cdbbc/640w.avif 640w, portfolio/assets/beleza/geodesica/croqui-c7ce6cdbbc/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/geodesica/triangulos-8adf69aa1a/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/geodesica/triangulos-8adf69aa1a/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Estrutura triangular em montagem",
+      "srcset": "portfolio/assets/beleza/geodesica/triangulos-8adf69aa1a/640w.avif 640w, portfolio/assets/beleza/geodesica/triangulos-8adf69aa1a/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/geodesica/montagem-a2056f2638/image.avif",
+      "width": 1437,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/geodesica/montagem-a2056f2638/image.avif",
+      "fullWidth": 1437,
+      "fullHeight": 1920,
+      "alt": "Construção da peça dourada",
+      "srcset": "portfolio/assets/beleza/geodesica/montagem-a2056f2638/640w.avif 640w, portfolio/assets/beleza/geodesica/montagem-a2056f2638/image.avif 1437w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m007",
+      "type": "image",
+      "src": "portfolio/assets/beleza/geodesica/final-4-b8abb5bdf9/image.avif",
+      "width": 1535,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/geodesica/final-4-b8abb5bdf9/image.avif",
+      "fullWidth": 1535,
+      "fullHeight": 1920,
+      "alt": "Detalhe do adereço radial",
+      "srcset": "portfolio/assets/beleza/geodesica/final-4-b8abb5bdf9/640w.avif 640w, portfolio/assets/beleza/geodesica/final-4-b8abb5bdf9/image.avif 1535w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m008",
+      "type": "image",
+      "src": "portfolio/assets/beleza/geodesica/hastes-ec65277c92/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/geodesica/hastes-ec65277c92/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Preparação das hastes",
+      "srcset": "portfolio/assets/beleza/geodesica/hastes-ec65277c92/640w.avif 640w, portfolio/assets/beleza/geodesica/hastes-ec65277c92/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m009",
+      "type": "image",
+      "src": "portfolio/assets/beleza/geodesica/radial-23a408aab3/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/geodesica/radial-23a408aab3/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Base circular em montagem",
+      "srcset": "portfolio/assets/beleza/geodesica/radial-23a408aab3/640w.avif 640w, portfolio/assets/beleza/geodesica/radial-23a408aab3/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m010",
+      "type": "image",
+      "src": "portfolio/assets/beleza/geodesica/final-5-4006095817/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/geodesica/final-5-4006095817/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Retrato com estrutura dourada",
+      "srcset": "portfolio/assets/beleza/geodesica/final-5-4006095817/640w.avif 640w, portfolio/assets/beleza/geodesica/final-5-4006095817/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m011",
+      "type": "image",
+      "src": "portfolio/assets/beleza/geodesica/esfera-b419284e0a/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/geodesica/esfera-b419284e0a/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Estrutura branca antes do acabamento",
+      "srcset": "portfolio/assets/beleza/geodesica/esfera-b419284e0a/640w.avif 640w, portfolio/assets/beleza/geodesica/esfera-b419284e0a/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m012",
+      "type": "image",
+      "src": "portfolio/assets/beleza/geodesica/final-6-7b36364e2c/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/geodesica/final-6-7b36364e2c/image.avif",
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Detalhe da estrutura e maquiagem em luz azul",
+      "srcset": "portfolio/assets/beleza/geodesica/final-6-7b36364e2c/640w.avif 640w, portfolio/assets/beleza/geodesica/final-6-7b36364e2c/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "triangulacao",
+        "title": "Triangulação",
+        "label": "Triangulação",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Na peça, os módulos triangulares acompanham o contorno do rosto. As áreas espelhadas deixam a maquiagem visível entre os vazios."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "desenho-e-montagem",
+        "title": "Desenho e montagem",
+        "label": "Desenho e montagem",
+        "blocks": [
+          {
+            "type": "caption",
+            "text": "Desenvolvimento dos adereços"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m004",
+                "caption": "Estudo de proporção"
+              },
+              {
+                "id": "m005",
+                "caption": "Montagem dos módulos"
+              },
+              {
+                "id": "m006",
+                "caption": "Aplicação do acabamento"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "hastes-e-ponto-de-apoio",
+        "title": "Hastes e ponto de apoio",
+        "label": "Hastes e ponto de apoio",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m007"
+              }
+            ],
+            "layout": "single"
+          },
+          {
+            "type": "caption",
+            "text": "Peça radial"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A construção parte de uma base circular. As hastes prateadas se distribuem ao redor de um dos olhos."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m008",
+                "caption": "Preparação das peças"
+              },
+              {
+                "id": "m009",
+                "caption": "Distribuição radial"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "estrutura-tridimensional",
+        "title": "Estrutura tridimensional",
+        "label": "Estrutura tridimensional",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Na peça dourada, barras e esferas formam uma malha que envolve a cabeça."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m010"
+              },
+              {
+                "id": "m011"
+              }
+            ],
+            "layout": "two"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Construção antes da pintura"
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m012"
+              }
+            ],
+            "layout": "single"
+          }
+        ]
+      }
+    ]
+  }
+}

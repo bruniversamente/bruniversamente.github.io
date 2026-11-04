@@ -1,5 +1,6 @@
 {
   "areas": [
+    "beleza",
     "design",
     "arquitetura",
     "dados"
@@ -25,15 +26,51 @@
     ],
     "arquitetura": [
       "tfg"
+    ],
+    "beleza": [
+      "geodesica",
+      "maquiagem-experimental-e-aderecos",
+      "editorial-de-alimentos-e-acessorios",
+      "sicky-mag-22",
+      "vetor",
+      "joao-ribeiro",
+      "fazenda-futuro-natal",
+      "jaloo",
+      "duma",
+      "roberto-pacurucu",
+      "bruno-urbno",
+      "arole-natureza-artificial",
+      "lucas-silvestre",
+      "publicidade",
+      "mascara-espelhada-bh",
+      "augusto-amparo-transmutacao-textil",
+      "bia-ferreira-boto-fe",
+      "scandalous-guilherme-valente",
+      "strobo-stromboli",
+      "bruna-lee-editorial",
+      "wallace-books-retratos",
+      "yohan-beleza-editorial",
+      "atila-pintura-corporal",
+      "nara-beleza-editorial",
+      "amanda-editorial-beleza",
+      "alexei-casa-de-criadores-2022",
+      "headpieces-de-croche",
+      "muraca-interplanetary",
+      "getulio-abelha"
     ]
   },
   "films_on_existing_host": 3,
-  "release": "aviamentos-vertical-20261103",
-  "base_commit": "96de7cfe105f871f0fd6ed3f13097d51fd7d8cdb",
-  "adapted_visual_cases": 10,
+  "release": "beleza-20261104",
+  "base_commit": "be06ca0c125edbbb648c69728f450436ce74beaa",
+  "adapted_visual_cases": 39,
   "preserved_data_cases": 5,
-  "individual_source_files": 148,
+  "individual_source_files": 507,
   "original_files_preserved": true,
   "equal_media_heights": true,
-  "aviamentos_rotation": 90
+  "aviamentos_rotation": 90,
+  "beauty_projects": 29,
+  "prepared_beauty_images": 339,
+  "local_beauty_videos": 20,
+  "beauty_official_embeds": 2,
+  "site_bytes_before_commit": 883355691
 }

@@ -1,0 +1,170 @@
+{
+  "id": "getulio-abelha",
+  "area": "beleza",
+  "title": "Getúlio Abelha",
+  "subtitle": "Beleza editorial",
+  "intro": "",
+  "tags": [
+    "Beleza"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/getulio-abelha/palco-7400b5f21d/image.avif",
+    "width": 1440,
+    "height": 1802,
+    "fullSrc": "portfolio/assets/beleza/getulio-abelha/palco-7400b5f21d/image.avif",
+    "fullWidth": 1440,
+    "fullHeight": 1802,
+    "alt": "Registro de palco com maquiagem gráfica e figurinos rosa e preto",
+    "srcset": "portfolio/assets/beleza/getulio-abelha/palco-7400b5f21d/640w.avif 640w, portfolio/assets/beleza/getulio-abelha/palco-7400b5f21d/image.avif 1440w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/getulio-abelha/palco-7400b5f21d/image.avif",
+      "width": 1440,
+      "height": 1802,
+      "fullSrc": "portfolio/assets/beleza/getulio-abelha/palco-7400b5f21d/image.avif",
+      "fullWidth": 1440,
+      "fullHeight": 1802,
+      "alt": "Registro de palco com maquiagem gráfica e figurinos rosa e preto",
+      "srcset": "portfolio/assets/beleza/getulio-abelha/palco-7400b5f21d/640w.avif 640w, portfolio/assets/beleza/getulio-abelha/palco-7400b5f21d/image.avif 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/getulio-abelha/polaroid-retrato-f2bd32d30b/image.avif",
+      "width": 1607,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/getulio-abelha/polaroid-retrato-f2bd32d30b/image.avif",
+      "fullWidth": 1607,
+      "fullHeight": 1920,
+      "alt": "Polaroid de retrato com maquiagem gráfica e figurino rosa com pontas",
+      "srcset": "portfolio/assets/beleza/getulio-abelha/polaroid-retrato-f2bd32d30b/640w.avif 640w, portfolio/assets/beleza/getulio-abelha/polaroid-retrato-f2bd32d30b/image.avif 1607w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/getulio-abelha/polaroid-dupla-a135d40782/image.avif",
+      "width": 1440,
+      "height": 1800,
+      "fullSrc": "portfolio/assets/beleza/getulio-abelha/polaroid-dupla-a135d40782/image.avif",
+      "fullWidth": 1440,
+      "fullHeight": 1800,
+      "alt": "Polaroid de apresentação com figurinos rosa e preto",
+      "srcset": "portfolio/assets/beleza/getulio-abelha/polaroid-dupla-a135d40782/640w.avif 640w, portfolio/assets/beleza/getulio-abelha/polaroid-dupla-a135d40782/image.avif 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/getulio-abelha/bastidores-ce98096397/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/getulio-abelha/bastidores-ce98096397/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Registro de bastidores com maquiagem gráfica rosa, branca e preta",
+      "srcset": "portfolio/assets/beleza/getulio-abelha/bastidores-ce98096397/640w.avif 640w, portfolio/assets/beleza/getulio-abelha/bastidores-ce98096397/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/getulio-abelha/prateado-frontal-editorial-1600ae715f/image.avif",
+      "width": 935,
+      "height": 1682,
+      "fullSrc": "portfolio/assets/beleza/getulio-abelha/prateado-frontal-editorial-1600ae715f/image.avif",
+      "fullWidth": 935,
+      "fullHeight": 1682,
+      "alt": "Retrato com pedrarias prateadas ao redor dos olhos e figurino metálico",
+      "srcset": "portfolio/assets/beleza/getulio-abelha/prateado-frontal-editorial-1600ae715f/640w.avif 640w, portfolio/assets/beleza/getulio-abelha/prateado-frontal-editorial-1600ae715f/image.avif 935w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/getulio-abelha/prateado-perfil-editorial-83277bdce3/image.avif",
+      "width": 994,
+      "height": 1583,
+      "fullSrc": "portfolio/assets/beleza/getulio-abelha/prateado-perfil-editorial-83277bdce3/image.avif",
+      "fullWidth": 994,
+      "fullHeight": 1583,
+      "alt": "Vista lateral da maquiagem com pedrarias prateadas",
+      "srcset": "portfolio/assets/beleza/getulio-abelha/prateado-perfil-editorial-83277bdce3/640w.avif 640w, portfolio/assets/beleza/getulio-abelha/prateado-perfil-editorial-83277bdce3/image.avif 994w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "beleza-editorial",
+        "title": "Beleza editorial",
+        "label": "Beleza editorial",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "bastidores",
+        "title": "Bastidores",
+        "label": "Bastidores",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Getúlio Abelha @getulioabelha"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "@getulioabelha",
+                "url": "https://www.instagram.com/getulioabelha/"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m004"
+              },
+              {
+                "id": "m005"
+              },
+              {
+                "id": "m006"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      }
+    ]
+  }
+}

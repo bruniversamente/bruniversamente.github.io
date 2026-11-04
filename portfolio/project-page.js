@@ -67,15 +67,16 @@
       const films=el('section','case-films');films.setAttribute('aria-label','Filmes do projeto');
       items.forEach(film=>{
         const card=el('div','case-film'),title=el(headingTag,'',film.title),frame=el('div','case-film-frame');
+        if(film.aspectRatio){frame.style.aspectRatio=film.aspectRatio;card.classList.add('case-film--landscape');}
         const play=el('button','case-film-play');play.type='button';play.setAttribute('aria-label',`Reproduzir: ${film.title}`);
         const poster=el('img');poster.src=film.poster;poster.alt='';poster.loading='lazy';poster.decoding='async';
         play.append(poster,el('span','button','Reproduzir ↗'));
         play.addEventListener('click',()=>{
           // The public campaign player is requested only after a visitor chooses it.
-          const embed=el('iframe');embed.title=film.title;embed.src=film.src;embed.allow='fullscreen; picture-in-picture';embed.allowFullscreen=true;embed.referrerPolicy='strict-origin-when-cross-origin';
+          const embed=el('iframe');embed.title=film.title;embed.src=film.src;embed.allow='fullscreen; picture-in-picture; encrypted-media';embed.allowFullscreen=true;embed.referrerPolicy='strict-origin-when-cross-origin';
           frame.replaceChildren(embed);embed.focus();
         });
-        const source=el('a','case-external','Ver no Behance ↗');source.href=film.url;source.target='_blank';source.rel='noopener noreferrer';
+        const source=el('a','case-external',(film.linkLabel||'Ver no Behance')+' ↗');source.href=film.url;source.target='_blank';source.rel='noopener noreferrer';
         frame.append(play);if(showTitle)card.append(title);card.append(frame,source);films.append(card);
       });return films;
     }

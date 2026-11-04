@@ -1,0 +1,602 @@
+{
+  "id": "publicidade",
+  "area": "beleza",
+  "title": "Publicidade",
+  "subtitle": "Seleção de filmes e campanhas",
+  "intro": "",
+  "tags": [
+    "Filmes e campanhas"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/publicidade/amaro-retrato-02-ia-86341e18e3/image.avif",
+    "width": 1086,
+    "height": 1448,
+    "fullSrc": "portfolio/assets/beleza/publicidade/amaro-retrato-02-ia-86341e18e3/image.avif",
+    "fullWidth": 1086,
+    "fullHeight": 1448,
+    "alt": "Duas modelos na campanha Amaro, imagem tratada com IA a pedido de Bruno",
+    "srcset": "portfolio/assets/beleza/publicidade/amaro-retrato-02-ia-86341e18e3/640w.avif 640w, portfolio/assets/beleza/publicidade/amaro-retrato-02-ia-86341e18e3/image.avif 1086w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/publicidade/amaro-retrato-02-ia-86341e18e3/image.avif",
+      "width": 1086,
+      "height": 1448,
+      "fullSrc": "portfolio/assets/beleza/publicidade/amaro-retrato-02-ia-86341e18e3/image.avif",
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Duas modelos na campanha Amaro, imagem tratada com IA a pedido de Bruno",
+      "srcset": "portfolio/assets/beleza/publicidade/amaro-retrato-02-ia-86341e18e3/640w.avif 640w, portfolio/assets/beleza/publicidade/amaro-retrato-02-ia-86341e18e3/image.avif 1086w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/publicidade/amaro-retrato-01-ia-14e5800d1f/image.avif",
+      "width": 1086,
+      "height": 1448,
+      "fullSrc": "portfolio/assets/beleza/publicidade/amaro-retrato-01-ia-14e5800d1f/image.avif",
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Modelo de azul na campanha Amaro",
+      "srcset": "portfolio/assets/beleza/publicidade/amaro-retrato-01-ia-14e5800d1f/640w.avif 640w, portfolio/assets/beleza/publicidade/amaro-retrato-01-ia-14e5800d1f/image.avif 1086w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/publicidade/amaro-retrato-03-ia-9941d69426/image.avif",
+      "width": 1086,
+      "height": 1448,
+      "fullSrc": "portfolio/assets/beleza/publicidade/amaro-retrato-03-ia-9941d69426/image.avif",
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Modelo de verde na campanha Amaro",
+      "srcset": "portfolio/assets/beleza/publicidade/amaro-retrato-03-ia-9941d69426/640w.avif 640w, portfolio/assets/beleza/publicidade/amaro-retrato-03-ia-9941d69426/image.avif 1086w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/publicidade/google-cabore-frame-final-3dcef9af64/image.avif",
+      "width": 1280,
+      "height": 720,
+      "fullSrc": "portfolio/assets/beleza/publicidade/google-cabore-frame-final-3dcef9af64/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 720,
+      "alt": "Patricia Ramos no frame final do filme do Google para o Premio Cabore 2022",
+      "srcset": "portfolio/assets/beleza/publicidade/google-cabore-frame-final-3dcef9af64/640w.avif 640w, portfolio/assets/beleza/publicidade/google-cabore-frame-final-3dcef9af64/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/publicidade/google-patricia-02-69e172589c/image.avif",
+      "width": 1280,
+      "height": 720,
+      "fullSrc": "portfolio/assets/beleza/publicidade/google-patricia-02-69e172589c/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 720,
+      "alt": "Patricia Ramos apresentando o filme do Google",
+      "srcset": "portfolio/assets/beleza/publicidade/google-patricia-02-69e172589c/640w.avif 640w, portfolio/assets/beleza/publicidade/google-patricia-02-69e172589c/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/publicidade/leao-1-9fb869fd6e/image.avif",
+      "width": 640,
+      "height": 1138,
+      "fullSrc": "portfolio/assets/beleza/publicidade/leao-1-9fb869fd6e/image.avif",
+      "fullWidth": 640,
+      "fullHeight": 1138,
+      "alt": "Lucas Silvestre no filme de aniversário de 120 anos da Leão",
+      "srcset": "portfolio/assets/beleza/publicidade/leao-1-9fb869fd6e/image.avif 640w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m007",
+      "type": "image",
+      "src": "portfolio/assets/beleza/publicidade/leao-beleza-close-ia-09de70fe07/image.avif",
+      "width": 941,
+      "height": 1672,
+      "fullSrc": "portfolio/assets/beleza/publicidade/leao-beleza-close-ia-09de70fe07/image.avif",
+      "fullWidth": 941,
+      "fullHeight": 1672,
+      "alt": "Lucas Silvestre em close com maquiagem dourada e flores junto aos olhos",
+      "srcset": "portfolio/assets/beleza/publicidade/leao-beleza-close-ia-09de70fe07/640w.avif 640w, portfolio/assets/beleza/publicidade/leao-beleza-close-ia-09de70fe07/image.avif 941w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m008",
+      "type": "image",
+      "src": "portfolio/assets/beleza/publicidade/leao-beleza-flores-ia-4fb995fd28/image.avif",
+      "width": 941,
+      "height": 1672,
+      "fullSrc": "portfolio/assets/beleza/publicidade/leao-beleza-flores-ia-4fb995fd28/image.avif",
+      "fullWidth": 941,
+      "fullHeight": 1672,
+      "alt": "Lucas Silvestre entre flores com maquiagem dourada",
+      "srcset": "portfolio/assets/beleza/publicidade/leao-beleza-flores-ia-4fb995fd28/640w.avif 640w, portfolio/assets/beleza/publicidade/leao-beleza-flores-ia-4fb995fd28/image.avif 941w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m009",
+      "type": "image",
+      "src": "portfolio/assets/beleza/publicidade/privalia-dia-dos-pais-01-8083426e75/image.avif",
+      "width": 640,
+      "height": 1138,
+      "fullSrc": "portfolio/assets/beleza/publicidade/privalia-dia-dos-pais-01-8083426e75/image.avif",
+      "fullWidth": 640,
+      "fullHeight": 1138,
+      "alt": "Fotograma do filme 1 da campanha de Dia dos Pais 2021 da Privalia",
+      "srcset": "portfolio/assets/beleza/publicidade/privalia-dia-dos-pais-01-8083426e75/image.avif 640w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m010",
+      "type": "image",
+      "src": "portfolio/assets/beleza/publicidade/privalia-dia-dos-pais-02-4a3305ce88/image.avif",
+      "width": 640,
+      "height": 1138,
+      "fullSrc": "portfolio/assets/beleza/publicidade/privalia-dia-dos-pais-02-4a3305ce88/image.avif",
+      "fullWidth": 640,
+      "fullHeight": 1138,
+      "alt": "Fotograma do filme 2 da campanha de Dia dos Pais 2021 da Privalia",
+      "srcset": "portfolio/assets/beleza/publicidade/privalia-dia-dos-pais-02-4a3305ce88/image.avif 640w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m011",
+      "type": "image",
+      "src": "portfolio/assets/beleza/publicidade/privalia-dia-dos-pais-03-6cddbc816b/image.avif",
+      "width": 640,
+      "height": 1138,
+      "fullSrc": "portfolio/assets/beleza/publicidade/privalia-dia-dos-pais-03-6cddbc816b/image.avif",
+      "fullWidth": 640,
+      "fullHeight": 1138,
+      "alt": "Fotograma do filme 3 da campanha de Dia dos Pais 2021 da Privalia",
+      "srcset": "portfolio/assets/beleza/publicidade/privalia-dia-dos-pais-03-6cddbc816b/image.avif 640w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m012",
+      "type": "image",
+      "src": "portfolio/assets/beleza/publicidade/hoegaarden-pessoas-mesa-8fd90572b8/image.avif",
+      "width": 1440,
+      "height": 1800,
+      "fullSrc": "portfolio/assets/beleza/publicidade/hoegaarden-pessoas-mesa-8fd90572b8/image.avif",
+      "fullWidth": 1440,
+      "fullHeight": 1800,
+      "alt": "Modelos na campanha de Hoegaarden, com maquiagem, cabelo e unhas visíveis",
+      "srcset": "portfolio/assets/beleza/publicidade/hoegaarden-pessoas-mesa-8fd90572b8/640w.avif 640w, portfolio/assets/beleza/publicidade/hoegaarden-pessoas-mesa-8fd90572b8/image.avif 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m013",
+      "type": "image",
+      "src": "portfolio/assets/beleza/publicidade/hoegaarden-modelo-poltrona-8d67b4fb38/image.avif",
+      "width": 1440,
+      "height": 1800,
+      "fullSrc": "portfolio/assets/beleza/publicidade/hoegaarden-modelo-poltrona-8d67b4fb38/image.avif",
+      "fullWidth": 1440,
+      "fullHeight": 1800,
+      "alt": "Modelo na poltrona no cenário da campanha de Hoegaarden",
+      "srcset": "portfolio/assets/beleza/publicidade/hoegaarden-modelo-poltrona-8d67b4fb38/640w.avif 640w, portfolio/assets/beleza/publicidade/hoegaarden-modelo-poltrona-8d67b4fb38/image.avif 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "amaro",
+        "title": "Amaro",
+        "label": "Amaro",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Beleza de Bruno Nascimento."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m001"
+              },
+              {
+                "id": "m003"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "premio-cabore-2022-google",
+        "title": "Prêmio Caboré 2022 - Google",
+        "label": "Prêmio Caboré 2022 - Google",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Filme institucional do Google com Patricia Ramos."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m004"
+              },
+              {
+                "id": "m005"
+              }
+            ],
+            "layout": "two"
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Maquiagem",
+                "names": "Bruno Nascimento",
+                "links": []
+              },
+              {
+                "role": "Direção",
+                "names": "Victor Versolato",
+                "links": []
+              },
+              {
+                "role": "Agência e produção",
+                "names": "Soko · VRSLT",
+                "links": []
+              },
+              {
+                "role": "Apresentação",
+                "names": "Patricia Ramos",
+                "links": []
+              },
+              {
+                "role": "Assistência de direção",
+                "names": "João Miro",
+                "links": []
+              },
+              {
+                "role": "Direção de fotografia",
+                "names": "Pedro Viana",
+                "links": []
+              },
+              {
+                "role": "Assistência de câmera",
+                "names": "Alice Sesoko · Giovanna Ferranti",
+                "links": []
+              },
+              {
+                "role": "Gaffer",
+                "names": "Diego Morcego",
+                "links": []
+              },
+              {
+                "role": "Som direto",
+                "names": "Pedro Rossi",
+                "links": []
+              },
+              {
+                "role": "Cor",
+                "names": "Natã Figueiredo",
+                "links": []
+              },
+              {
+                "role": "Figurino",
+                "names": "Olavo · @olavoides",
+                "links": []
+              },
+              {
+                "role": "Making of",
+                "names": "Carlos Pavarini",
+                "links": []
+              },
+              {
+                "role": "Edição do making of",
+                "names": "Jeff · @jeffilms___",
+                "links": []
+              },
+              {
+                "role": "Logger",
+                "names": "Mooluscos",
+                "links": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "leao",
+        "title": "Leão",
+        "label": "Leão",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "120 anos da Leão com Lucas Silvestre.",
+              "Beleza de Bruno Nascimento."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m006"
+              },
+              {
+                "id": "m007"
+              },
+              {
+                "id": "m008"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "privalia",
+        "title": "Privalia",
+        "label": "Privalia",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Dia dos Pais 2021"
+            ]
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Direção e fotografia",
+                "names": "Lucas Silvestre",
+                "links": []
+              },
+              {
+                "role": "Beleza",
+                "names": "Bruno Nascimento",
+                "links": []
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m009"
+              },
+              {
+                "id": "m010"
+              },
+              {
+                "id": "m011"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "hoegaarden",
+        "title": "Hoegaarden",
+        "label": "Hoegaarden",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Beleza de Bruno Nascimento e participação na produção da campanha."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m012"
+              },
+              {
+                "id": "m013"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "oasis-urbano",
+        "title": "Oásis urbano",
+        "label": "Oásis urbano",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A Ware Studio criou os cenários da campanha de Hoegaarden com referências a momentos de descanso, encontros e refeições."
+            ]
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Conceito criativo e produção",
+                "names": "Ware Studio",
+                "links": [
+                  {
+                    "title": "Ware Studio",
+                    "url": "https://www.instagram.com/warestudio.cc/"
+                  }
+                ]
+              },
+              {
+                "role": "Direção criativa e fotografia",
+                "names": "Eliza War",
+                "links": [
+                  {
+                    "title": "Eliza War",
+                    "url": "https://www.instagram.com/elizawar/"
+                  }
+                ]
+              },
+              {
+                "role": "Produção criativa e 1ª assistência de direção",
+                "names": "Amanda Rios",
+                "links": [
+                  {
+                    "title": "Amanda Rios",
+                    "url": "https://www.instagram.com/euamandarios/"
+                  }
+                ]
+              },
+              {
+                "role": "Direção de design",
+                "names": "Heitor Gois",
+                "links": [
+                  {
+                    "title": "Heitor Gois",
+                    "url": "https://www.instagram.com/heitorgois/"
+                  }
+                ]
+              },
+              {
+                "role": "2ª assistência de direção",
+                "names": "Luiza Perito",
+                "links": [
+                  {
+                    "title": "Luiza Perito",
+                    "url": "https://www.instagram.com/luizaperito/"
+                  }
+                ]
+              },
+              {
+                "role": "Produção executiva",
+                "names": "Chico Soll",
+                "links": [
+                  {
+                    "title": "Chico Soll",
+                    "url": "https://www.instagram.com/chicosoll/"
+                  }
+                ]
+              },
+              {
+                "role": "Direção de produção",
+                "names": "Patricia Soares",
+                "links": [
+                  {
+                    "title": "Patricia Soares",
+                    "url": "https://www.instagram.com/___patisoares/"
+                  }
+                ]
+              },
+              {
+                "role": "Iluminação",
+                "names": "Léo Eloy",
+                "links": [
+                  {
+                    "title": "Léo Eloy",
+                    "url": "https://www.instagram.com/leoeloy/"
+                  }
+                ]
+              },
+              {
+                "role": "Cenografia",
+                "names": "Rafael Triboli",
+                "links": [
+                  {
+                    "title": "Rafael Triboli",
+                    "url": "https://www.instagram.com/rafaeltriboli/"
+                  }
+                ]
+              },
+              {
+                "role": "Food styling",
+                "names": "Júlia Bissiato",
+                "links": [
+                  {
+                    "title": "Júlia Bissiato",
+                    "url": "https://www.instagram.com/juliafoodstylist/"
+                  }
+                ]
+              },
+              {
+                "role": "Mockup",
+                "names": "Lobo e Ricardo Nunes",
+                "links": [
+                  {
+                    "title": "Lobo e Ricardo Nunes",
+                    "url": "https://www.instagram.com/xricostax/"
+                  }
+                ]
+              },
+              {
+                "role": "Styling",
+                "names": "Georgia Hoshino",
+                "links": [
+                  {
+                    "title": "Georgia Hoshino",
+                    "url": "https://www.instagram.com/georgiahoshino/"
+                  }
+                ]
+              },
+              {
+                "role": "Beleza",
+                "names": "Bruno Nascimento",
+                "links": []
+              },
+              {
+                "role": "Tratamento de imagem",
+                "names": "Alt Retouch",
+                "links": [
+                  {
+                    "title": "Alt Retouch",
+                    "url": "https://www.instagram.com/altretouch/"
+                  }
+                ]
+              },
+              {
+                "role": "Making of",
+                "names": "Carolla",
+                "links": [
+                  {
+                    "title": "Carolla",
+                    "url": "https://www.instagram.com/carolla______/"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Ficha da campanha publicada pela Ware Studio",
+                "url": "https://www.instagram.com/warestudio.cc/p/C8VOd4mP7mR/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

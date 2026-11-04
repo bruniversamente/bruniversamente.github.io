@@ -1,0 +1,346 @@
+{
+  "id": "mascara-espelhada-bh",
+  "area": "beleza",
+  "title": "Máscara espelhada",
+  "subtitle": "Direção criativa, props e beleza",
+  "intro": "",
+  "tags": [
+    "Direção criativa · Props e beleza"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-03-triangular-e78b20521d/image.avif",
+    "width": 1089,
+    "height": 1444,
+    "fullSrc": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-03-triangular-e78b20521d/image.avif",
+    "fullWidth": 1089,
+    "fullHeight": 1444,
+    "alt": "Máscara espelhada com adereço triangular prateado; fotografia editada a pedido de Bruno",
+    "srcset": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-03-triangular-e78b20521d/640w.avif 640w, portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-03-triangular-e78b20521d/image.avif 1089w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-03-triangular-e78b20521d/image.avif",
+      "width": 1089,
+      "height": 1444,
+      "fullSrc": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-03-triangular-e78b20521d/image.avif",
+      "fullWidth": 1089,
+      "fullHeight": 1444,
+      "alt": "Máscara espelhada com adereço triangular prateado; fotografia editada a pedido de Bruno",
+      "srcset": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-03-triangular-e78b20521d/640w.avif 640w, portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-03-triangular-e78b20521d/image.avif 1089w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-02-ba92906934/image.avif",
+      "width": 1080,
+      "height": 1432,
+      "fullSrc": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-02-ba92906934/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1432,
+      "alt": "Fotografia 2 do editorial autoral da Ware Studio",
+      "srcset": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-02-ba92906934/640w.avif 640w, portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-02-ba92906934/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-04-6527cbd4f3/image.avif",
+      "width": 1080,
+      "height": 1432,
+      "fullSrc": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-04-6527cbd4f3/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1432,
+      "alt": "Fotografia 4 do editorial autoral da Ware Studio",
+      "srcset": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-04-6527cbd4f3/640w.avif 640w, portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-04-6527cbd4f3/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-04-aproximacao-ia-mascara-refinad-44a54a7b5e/image.avif",
+      "width": 1024,
+      "height": 1536,
+      "fullSrc": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-04-aproximacao-ia-mascara-refinad-44a54a7b5e/image.avif",
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Aproximação do editorial com máscara refinada por IA a partir das referências originais",
+      "srcset": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-04-aproximacao-ia-mascara-refinad-44a54a7b5e/640w.avif 640w, portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-04-aproximacao-ia-mascara-refinad-44a54a7b5e/image.avif 1024w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/mascara-espelhada-bh/ware-retrato-tramado-8ebf748461/image.avif",
+      "width": 1440,
+      "height": 1800,
+      "fullSrc": "portfolio/assets/beleza/mascara-espelhada-bh/ware-retrato-tramado-8ebf748461/image.avif",
+      "fullWidth": 1440,
+      "fullHeight": 1800,
+      "alt": "Retrato do editorial com tiras da fotografia entrelaçadas à mão",
+      "srcset": "portfolio/assets/beleza/mascara-espelhada-bh/ware-retrato-tramado-8ebf748461/640w.avif 640w, portfolio/assets/beleza/mascara-espelhada-bh/ware-retrato-tramado-8ebf748461/image.avif 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/mascara-espelhada-bh/molde-a0d9574941/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/mascara-espelhada-bh/molde-a0d9574941/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Modelagem com módulos de papelão",
+      "srcset": "portfolio/assets/beleza/mascara-espelhada-bh/molde-a0d9574941/640w.avif 640w, portfolio/assets/beleza/mascara-espelhada-bh/molde-a0d9574941/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m007",
+      "type": "image",
+      "src": "portfolio/assets/beleza/mascara-espelhada-bh/base-214b9f0dbc/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/mascara-espelhada-bh/base-214b9f0dbc/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Base da máscara montada",
+      "srcset": "portfolio/assets/beleza/mascara-espelhada-bh/base-214b9f0dbc/640w.avif 640w, portfolio/assets/beleza/mascara-espelhada-bh/base-214b9f0dbc/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m008",
+      "type": "image",
+      "src": "portfolio/assets/beleza/mascara-espelhada-bh/bancada-47627add00/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/mascara-espelhada-bh/bancada-47627add00/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Peça em montagem sobre a bancada",
+      "srcset": "portfolio/assets/beleza/mascara-espelhada-bh/bancada-47627add00/640w.avif 640w, portfolio/assets/beleza/mascara-espelhada-bh/bancada-47627add00/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m009",
+      "type": "image",
+      "src": "portfolio/assets/beleza/mascara-espelhada-bh/pronta-9a1f6860de/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/mascara-espelhada-bh/pronta-9a1f6860de/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Máscara finalizada sobre o manequim",
+      "srcset": "portfolio/assets/beleza/mascara-espelhada-bh/pronta-9a1f6860de/640w.avif 640w, portfolio/assets/beleza/mascara-espelhada-bh/pronta-9a1f6860de/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m010",
+      "type": "image",
+      "src": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-01-c772cfda7e/image.avif",
+      "width": 1024,
+      "height": 1365,
+      "fullSrc": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-01-c772cfda7e/image.avif",
+      "fullWidth": 1024,
+      "fullHeight": 1365,
+      "alt": "Aplicação impressa do editorial fotografada pela Ware Studio",
+      "srcset": "portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-01-c772cfda7e/640w.avif 640w, portfolio/assets/beleza/mascara-espelhada-bh/editorial-ware-01-c772cfda7e/image.avif 1024w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "editorial-autoral",
+        "title": "Editorial autoral",
+        "label": "Editorial autoral",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Neste editorial autoral da Ware Studio, a equipe explorou a solidão e a perda de referências em meio ao excesso de informação e conexões.",
+              "Direção criativa compartilhada, props e beleza de Bruno Nascimento."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              },
+              {
+                "id": "m004"
+              }
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "retrato-tramado",
+        "title": "Retrato tramado",
+        "label": "Retrato tramado",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A equipe da Ware Studio entrelaçou tiras da fotografia à mão para criar a trama deste retrato."
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Processo publicado pela Ware Studio",
+                "url": "https://www.instagram.com/warestudio.cc/p/C7U4bZDoYLJ/"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m005"
+              }
+            ],
+            "layout": "single"
+          }
+        ]
+      },
+      {
+        "id": "molde-e-base",
+        "title": "Molde e base",
+        "label": "Molde e base",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Modelagem sobre o manequim e preparação da estrutura antes do acabamento."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m006"
+              },
+              {
+                "id": "m007"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "montagem-do-acabamento",
+        "title": "Montagem do acabamento",
+        "label": "Montagem do acabamento",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Recortes espelhados aplicados à superfície da máscara."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m008"
+              },
+              {
+                "id": "m009"
+              }
+            ],
+            "layout": "two"
+          }
+        ]
+      },
+      {
+        "id": "equipe",
+        "title": "Equipe",
+        "label": "Equipe",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m010"
+              }
+            ],
+            "layout": "single"
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Conceito criativo e produção",
+                "names": "Ware Studio",
+                "links": []
+              },
+              {
+                "role": "Direção criativa",
+                "names": "Eliza War, Maria Candida Vecchi e Bruno Nascimento",
+                "links": []
+              },
+              {
+                "role": "Fotografia",
+                "names": "Eliza War",
+                "links": []
+              },
+              {
+                "role": "1ª assistência de direção",
+                "names": "Amanda Rios",
+                "links": []
+              },
+              {
+                "role": "Direção de design",
+                "names": "Heitor Gois",
+                "links": []
+              },
+              {
+                "role": "Iluminação",
+                "names": "Mauro Figa",
+                "links": []
+              },
+              {
+                "role": "Styling",
+                "names": "Maria Candida Vecchi",
+                "links": []
+              },
+              {
+                "role": "Props e beleza",
+                "names": "Bruno Nascimento",
+                "links": []
+              }
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Ficha publicada pela Ware Studio",
+                "url": "https://www.instagram.com/warestudio.cc/p/DaLM8jajItf/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

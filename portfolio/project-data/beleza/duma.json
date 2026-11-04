@@ -1,0 +1,179 @@
+{
+  "id": "duma",
+  "area": "beleza",
+  "title": "Duma",
+  "subtitle": "Maquiagem editorial",
+  "intro": "",
+  "tags": [
+    "Maquiagem editorial"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/duma/duma-frontal-00013-luz-editorial-5ad0ffba64/image.avif",
+    "width": 1086,
+    "height": 1448,
+    "fullSrc": "portfolio/assets/beleza/duma/duma-frontal-00013-luz-editorial-5ad0ffba64/image.avif",
+    "fullWidth": 1086,
+    "fullHeight": 1448,
+    "alt": "Raphael Dumaresq em retrato frontal com penas lilás, maquiagem amarela e rosa e figurino de renda branco",
+    "srcset": "portfolio/assets/beleza/duma/duma-frontal-00013-luz-editorial-5ad0ffba64/640w.avif 640w, portfolio/assets/beleza/duma/duma-frontal-00013-luz-editorial-5ad0ffba64/image.avif 1086w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/duma/duma-frontal-00013-luz-editorial-5ad0ffba64/image.avif",
+      "width": 1086,
+      "height": 1448,
+      "fullSrc": "portfolio/assets/beleza/duma/duma-frontal-00013-luz-editorial-5ad0ffba64/image.avif",
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Raphael Dumaresq em retrato frontal com penas lilás, maquiagem amarela e rosa e figurino de renda branco",
+      "srcset": "portfolio/assets/beleza/duma/duma-frontal-00013-luz-editorial-5ad0ffba64/640w.avif 640w, portfolio/assets/beleza/duma/duma-frontal-00013-luz-editorial-5ad0ffba64/image.avif 1086w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/duma/desenho-bb9fdbd8a9/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/duma/desenho-bb9fdbd8a9/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Desenho de beleza com penas lilás e área amarela nos olhos",
+      "srcset": "portfolio/assets/beleza/duma/desenho-bb9fdbd8a9/640w.avif 640w, portfolio/assets/beleza/duma/desenho-bb9fdbd8a9/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/duma/duma-pose-00011-luz-editorial-913a116137/image.avif",
+      "width": 1086,
+      "height": 1448,
+      "fullSrc": "portfolio/assets/beleza/duma/duma-pose-00011-luz-editorial-913a116137/image.avif",
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Retrato com a maquiagem aplicada",
+      "srcset": "portfolio/assets/beleza/duma/duma-pose-00011-luz-editorial-913a116137/640w.avif 640w, portfolio/assets/beleza/duma/duma-pose-00011-luz-editorial-913a116137/image.avif 1086w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/duma/duma-retrato-costas-luz-editorial-9cfe627348/image.avif",
+      "width": 1086,
+      "height": 1448,
+      "fullSrc": "portfolio/assets/beleza/duma/duma-retrato-costas-luz-editorial-9cfe627348/image.avif",
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Raphael Dumaresq olhando sobre o ombro com maquiagem amarela e rosa, penas lilás e figurino de renda branco",
+      "srcset": "portfolio/assets/beleza/duma/duma-retrato-costas-luz-editorial-9cfe627348/640w.avif 640w, portfolio/assets/beleza/duma/duma-retrato-costas-luz-editorial-9cfe627348/image.avif 1086w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/duma/duma-perfil-00014-luz-editorial-e4f0fbf5b6/image.avif",
+      "width": 1086,
+      "height": 1448,
+      "fullSrc": "portfolio/assets/beleza/duma/duma-perfil-00014-luz-editorial-e4f0fbf5b6/image.avif",
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Maquiagem em vista lateral",
+      "srcset": "portfolio/assets/beleza/duma/duma-perfil-00014-luz-editorial-e4f0fbf5b6/640w.avif 640w, portfolio/assets/beleza/duma/duma-perfil-00014-luz-editorial-e4f0fbf5b6/image.avif 1086w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": false,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "maquiagem-editorial",
+        "title": "Maquiagem editorial",
+        "label": "Maquiagem editorial",
+        "blocks": [
+          {
+            "type": "caption",
+            "text": "Estudo de beleza"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              }
+            ],
+            "layout": "two"
+          },
+          {
+            "type": "caption",
+            "text": "Ensaio"
+          },
+          {
+            "type": "caption",
+            "text": "Influenciador digital"
+          },
+          {
+            "type": "text",
+            "title": "Raphael Dumaresq",
+            "paragraphs": []
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "@raphaeldumaresq",
+                "url": "https://www.instagram.com/raphaeldumaresq/"
+              }
+            ]
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Maquiagem",
+                "names": "Bruno Nascimento",
+                "links": []
+              },
+              {
+                "role": "Figurino",
+                "names": "@officialyohan",
+                "links": []
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m004"
+              }
+            ],
+            "layout": "single"
+          },
+          {
+            "type": "media",
+            "layout": "single",
+            "items": [
+              {
+                "id": "m005"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,642 @@
+{
+  "id": "bruno-urbno",
+  "area": "beleza",
+  "title": "Urbno",
+  "subtitle": "Beleza para desfile",
+  "intro": "",
+  "tags": [
+    "Maquiagem para desfile"
+  ],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/bruno-urbno/detalhe-356b3e9916/1280w.avif",
+    "width": 1280,
+    "height": 853,
+    "fullSrc": "portfolio/assets/beleza/bruno-urbno/detalhe-356b3e9916/image.avif",
+    "fullWidth": 1920,
+    "fullHeight": 1280,
+    "alt": "Detalhe de maquiagem preta e rosa nos olhos",
+    "srcset": "portfolio/assets/beleza/bruno-urbno/detalhe-356b3e9916/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/detalhe-356b3e9916/1280w.avif 1280w, portfolio/assets/beleza/bruno-urbno/detalhe-356b3e9916/image.avif 1920w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/detalhe-356b3e9916/1280w.avif",
+      "width": 1280,
+      "height": 853,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/detalhe-356b3e9916/image.avif",
+      "fullWidth": 1920,
+      "fullHeight": 1280,
+      "alt": "Detalhe de maquiagem preta e rosa nos olhos",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/detalhe-356b3e9916/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/detalhe-356b3e9916/1280w.avif 1280w, portfolio/assets/beleza/bruno-urbno/detalhe-356b3e9916/image.avif 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-008-6bbe871c97/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-008-6bbe871c97/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Look com maquiagem rosa e preta",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-008-6bbe871c97/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-008-6bbe871c97/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-014-851fc1dbda/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-014-851fc1dbda/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato com maquiagem azul e dourada",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-014-851fc1dbda/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-014-851fc1dbda/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-017-9ae976d8aa/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-017-9ae976d8aa/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Look com corset e maquiagem rosa e preta",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-017-9ae976d8aa/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-017-9ae976d8aa/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-073-faa301b289/image.avif",
+      "width": 958,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-073-faa301b289/image.avif",
+      "fullWidth": 958,
+      "fullHeight": 1280,
+      "alt": "Registro do modelo com o croqui do look",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-073-faa301b289/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-073-faa301b289/image.avif 958w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-033-acfaa923c8/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-033-acfaa923c8/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato com maquiagem vermelha e adereço na cabeça",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-033-acfaa923c8/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-033-acfaa923c8/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m007",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-050-50b853a27a/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-050-50b853a27a/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato com maquiagem branca e preta",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-050-50b853a27a/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-050-50b853a27a/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m008",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-062-e5c227df2b/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-062-e5c227df2b/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato com maquiagem gráfica e figurino vermelho e preto",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-062-e5c227df2b/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-062-e5c227df2b/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m009",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-074-7062cd5c61/image.avif",
+      "width": 958,
+      "height": 1280,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-074-7062cd5c61/image.avif",
+      "fullWidth": 958,
+      "fullHeight": 1280,
+      "alt": "Registro do modelo durante a preparação, com o croqui ao lado",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-074-7062cd5c61/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-074-7062cd5c61/image.avif 958w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m010",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-066-7709ab5406/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-066-7709ab5406/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Look completo fotografado por Jorge Hynd",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-066-7709ab5406/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-066-7709ab5406/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m011",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-103-0339961c08/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-103-0339961c08/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Croqui de maquiagem",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-103-0339961c08/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-103-0339961c08/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m012",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-104-344aa76211/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-104-344aa76211/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Croqui de maquiagem",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-104-344aa76211/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-104-344aa76211/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m013",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-105-c6e1d0d689/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-105-c6e1d0d689/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Croqui de maquiagem",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-105-c6e1d0d689/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-105-c6e1d0d689/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m014",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-106-03303f649e/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-106-03303f649e/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Croqui de maquiagem",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-106-03303f649e/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-106-03303f649e/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m015",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-107-f0c5030ad6/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-107-f0c5030ad6/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Croqui de maquiagem",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-107-f0c5030ad6/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-107-f0c5030ad6/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m016",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-108-5d9ffa5be9/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-108-5d9ffa5be9/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Croqui de maquiagem",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-108-5d9ffa5be9/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-108-5d9ffa5be9/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m017",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-109-52acb21254/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-109-52acb21254/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Croqui de maquiagem",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-109-52acb21254/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-109-52acb21254/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m018",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-110-88942a322e/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-110-88942a322e/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Croqui de maquiagem",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-110-88942a322e/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-110-88942a322e/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m019",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-111-a6afc8f7c4/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-111-a6afc8f7c4/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Croqui de maquiagem",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-111-a6afc8f7c4/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-111-a6afc8f7c4/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m020",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-112-ab7da788aa/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-112-ab7da788aa/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Croqui de maquiagem",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-112-ab7da788aa/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-112-ab7da788aa/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m021",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-113-e2ff196776/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-113-e2ff196776/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Croqui de maquiagem",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-113-e2ff196776/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-113-e2ff196776/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m022",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-114-d5219404e9/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-114-d5219404e9/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Croqui de maquiagem",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-114-d5219404e9/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-114-d5219404e9/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m023",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-115-709fccc846/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-115-709fccc846/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Croqui de maquiagem",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-115-709fccc846/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-115-709fccc846/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m024",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-116-f3a145dca2/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-116-f3a145dca2/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Croqui de maquiagem",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-116-f3a145dca2/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-116-f3a145dca2/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m025",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-117-eedf2c9915/image.avif",
+      "width": 1080,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-117-eedf2c9915/image.avif",
+      "fullWidth": 1080,
+      "fullHeight": 1920,
+      "alt": "Croqui de maquiagem",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-117-eedf2c9915/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-117-eedf2c9915/image.avif 1080w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m026",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-123-c5dae3c3ab/1280w.avif",
+      "width": 1280,
+      "height": 853,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-123-c5dae3c3ab/image.avif",
+      "fullWidth": 1920,
+      "fullHeight": 1280,
+      "alt": "Aplicação de maquiagem nos bastidores",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-123-c5dae3c3ab/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-123-c5dae3c3ab/1280w.avif 1280w, portfolio/assets/beleza/bruno-urbno/selection-123-c5dae3c3ab/image.avif 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m027",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-385-1784f08888/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-385-1784f08888/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Retrato da maquiagem rosa e preta nos bastidores",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-385-1784f08888/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-385-1784f08888/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m028",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-394-c5c54f3489/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-394-c5c54f3489/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Registro do look com peça de crochê nos bastidores",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-394-c5c54f3489/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-394-c5c54f3489/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m029",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-495-78fe4dffe3/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-495-78fe4dffe3/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Aplicação da maquiagem durante a preparação",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-495-78fe4dffe3/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-495-78fe4dffe3/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m030",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-444-e083cabde5/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-444-e083cabde5/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Detalhe da maquiagem vermelha no rosto",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-444-e083cabde5/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-444-e083cabde5/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m031",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-464-c1594c861f/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-464-c1594c861f/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Detalhe do look com maquiagem vermelha e adereço",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-464-c1594c861f/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-464-c1594c861f/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m032",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-457-06e30e5fd4/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-457-06e30e5fd4/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Maquiagem azul e amarela vista de perfil",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-457-06e30e5fd4/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-457-06e30e5fd4/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m033",
+      "type": "image",
+      "src": "portfolio/assets/beleza/bruno-urbno/selection-566-44094f59eb/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullSrc": "portfolio/assets/beleza/bruno-urbno/selection-566-44094f59eb/image.avif",
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Detalhe da maquiagem branca e preta",
+      "srcset": "portfolio/assets/beleza/bruno-urbno/selection-566-44094f59eb/640w.avif 640w, portfolio/assets/beleza/bruno-urbno/selection-566-44094f59eb/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    }
+  ],
+  "links": [],
+  "credits": [],
+  "credit": "",
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "looks-e-preparacao",
+        "title": "Looks e preparação",
+        "label": "Looks e preparação",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m002"
+              },
+              {
+                "id": "m003"
+              },
+              {
+                "id": "m004"
+              },
+              {
+                "id": "m005"
+              }
+            ],
+            "layout": "gallery"
+          }
+        ]
+      },
+      {
+        "id": "beleza-e-figurino",
+        "title": "Beleza e figurino",
+        "label": "Beleza e figurino",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m006"
+              },
+              {
+                "id": "m007"
+              },
+              {
+                "id": "m008"
+              },
+              {
+                "id": "m009"
+              },
+              {
+                "id": "m010",
+                "caption": "Fotografia: Jorge Hynd"
+              }
+            ],
+            "layout": "gallery"
+          }
+        ]
+      },
+      {
+        "id": "croquis",
+        "title": "Croquis",
+        "label": "Croquis",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m011"
+              },
+              {
+                "id": "m012"
+              },
+              {
+                "id": "m013"
+              },
+              {
+                "id": "m014"
+              },
+              {
+                "id": "m015"
+              },
+              {
+                "id": "m016"
+              },
+              {
+                "id": "m017"
+              },
+              {
+                "id": "m018"
+              },
+              {
+                "id": "m019"
+              },
+              {
+                "id": "m020"
+              },
+              {
+                "id": "m021"
+              },
+              {
+                "id": "m022"
+              },
+              {
+                "id": "m023"
+              },
+              {
+                "id": "m024"
+              },
+              {
+                "id": "m025"
+              }
+            ],
+            "layout": "gallery"
+          }
+        ]
+      },
+      {
+        "id": "bastidores",
+        "title": "Bastidores",
+        "label": "Bastidores",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m026"
+              },
+              {
+                "id": "m027"
+              },
+              {
+                "id": "m028"
+              },
+              {
+                "id": "m029"
+              }
+            ],
+            "layout": "gallery"
+          }
+        ]
+      },
+      {
+        "id": "detalhes-de-maquiagem",
+        "title": "Detalhes de maquiagem",
+        "label": "Detalhes de maquiagem",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m030"
+              },
+              {
+                "id": "m031"
+              },
+              {
+                "id": "m032"
+              },
+              {
+                "id": "m033"
+              }
+            ],
+            "layout": "gallery"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Urbno, marca de Bruno Dalcheco."
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "@urbnobrand",
+                "url": "https://www.instagram.com/urbnobrand/"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

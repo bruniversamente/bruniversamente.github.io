@@ -28,11 +28,12 @@
     ]
   },
   "films_on_existing_host": 3,
-  "release": "alturas-20261103",
-  "base_commit": "42afb35c7c2584d52b1e63ec7e8b195bd4716828",
+  "release": "aviamentos-vertical-20261103",
+  "base_commit": "96de7cfe105f871f0fd6ed3f13097d51fd7d8cdb",
   "adapted_visual_cases": 10,
   "preserved_data_cases": 5,
   "individual_source_files": 148,
   "original_files_preserved": true,
-  "equal_media_heights": true
+  "equal_media_heights": true,
+  "aviamentos_rotation": 90
 }

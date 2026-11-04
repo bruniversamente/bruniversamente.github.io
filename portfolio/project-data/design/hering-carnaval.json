@@ -135,7 +135,8 @@
       "fullWidth": 2400,
       "fullHeight": 1350,
       "id": "m009",
-      "alt": "Seleção de aviamentos"
+      "alt": "Seleção de aviamentos",
+      "rotation": 90
     },
     {
       "type": "image",

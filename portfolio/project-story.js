@@ -52,7 +52,7 @@
         if(!entries.length||(entries.length<2&&item.layout!=='promo-devices')){entries.forEach(media=>box.append(figure(media)));return box;}
         const columns=item.layout==='three'?3:2,rows=[];
         for(let i=0;i<entries.length;i+=columns)rows.push(entries.slice(i,i+columns));
-        const ratio=media=>media.kind==='phone'?1260/2604:(media.fullWidth||media.width)*(media.crop?.[2]||1)/((media.fullHeight||media.height)*(media.crop?.[3]||1));
+        const ratio=media=>{const value=media.kind==='phone'?1260/2604:(media.fullWidth||media.width)*(media.crop?.[2]||1)/((media.fullHeight||media.height)*(media.crop?.[3]||1));return media.rotation===90?1/value:value;};
         box.classList.add('story-media--aligned');if(entries.every(media=>media.kind==='phone'))box.classList.add('story-media--handsets');box.style.setProperty('--media-ratio-sum',Math.max(...rows.map(row=>row.reduce((sum,media)=>sum+ratio(media),0))));box.style.setProperty('--media-max-ratio',Math.max(...entries.map(ratio)));box.style.setProperty('--media-gap-count',Math.min(columns,entries.length)-1);
         rows.forEach(entries=>{const row=node('div','story-media-row');entries.forEach(media=>{const f=figure(media);f.style.setProperty('--media-ratio',ratio(media));row.append(f);});box.append(row);});return box;
       }

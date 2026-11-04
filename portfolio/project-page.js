@@ -27,6 +27,7 @@
     }else trigger.append(picture(media,cover,media.sizes));
     if(media.kind==='logo')figure.classList.add('editorial-logo');
     if(media.surface==='light')figure.classList.add('editorial-surface-light');
+    if(media.rotation===90){const img=trigger.querySelector('img'),ratio=(media.fullWidth||media.width)/(media.fullHeight||media.height);trigger.classList.add('case-media-rotated');trigger.style.aspectRatio=String(1/ratio);img.style.width=`${ratio*100}%`;img.style.height=`${100/ratio}%`;}
     if(media.crop){const [x,y,w,h]=media.crop,img=trigger.querySelector('img');trigger.classList.add('editorial-crop');trigger.style.aspectRatio=String((media.fullWidth||media.width)*w/((media.fullHeight||media.height)*h));
       img.sizes='200vw';img.style.width=`${100/w}%`;img.style.height=`${100/h}%`;img.style.left=`${-100*x/w}%`;img.style.top=`${-100*y/h}%`;
     }

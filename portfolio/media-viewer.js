@@ -21,11 +21,12 @@
   function updateZoom(){
     const media=items[position],image=stage.querySelector('.viewer-image');
     if(!image||!media)return;
-    const width=stage.clientWidth,height=stage.clientHeight,ratio=media.width/media.height;
+    const width=stage.clientWidth,height=stage.clientHeight,rotation=media.rotation===90?90:0,ratio=rotation?media.height/media.width:media.width/media.height;
     const fittedWidth=Math.min(width,height*ratio),fittedHeight=Math.min(height,width/ratio);
     const limitX=Math.max(0,(fittedWidth*zoom-width)/2),limitY=Math.max(0,(fittedHeight*zoom-height)/2);
     panX=Math.max(-limitX,Math.min(limitX,panX));panY=Math.max(-limitY,Math.min(limitY,panY));
-    image.style.transform=`translate(${panX}px,${panY}px) scale(${zoom})`;
+    if(rotation){image.style.width=`${fittedHeight}px`;image.style.height=`${fittedWidth}px`;image.style.maxWidth='none';image.style.maxHeight='none';}
+    image.style.transform=`translate(${panX}px,${panY}px) scale(${zoom}) rotate(${rotation}deg)`;
     stage.dataset.zoomed=String(zoom>1);smaller.disabled=zoom===1;larger.disabled=zoom===4;fit.disabled=zoom===1;
   }
   function changeZoom(step){if(items[position]?.type==='video')return;zoom=Math.max(1,Math.min(4,zoom+step));if(zoom===1){panX=0;panY=0;}updateZoom();}

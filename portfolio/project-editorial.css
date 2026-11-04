@@ -39,6 +39,8 @@
 @media(max-width:700px){.editorial-media--three{grid-template-columns:1fr}.editorial-steps{grid-template-columns:1fr}.editorial-promotions{grid-template-columns:1fr;gap:4rem}.editorial-promotion{max-width:40rem}.editorial-promotion h3{min-height:0}.editorial-media--hero-devices>.case-figure:first-child{width:40%}.editorial-media--hero-devices>.case-figure:last-child{width:55%}.editorial-media--devices>.case-figure{flex-basis:26rem}.editorial-palette{grid-template-columns:repeat(2,minmax(0,1fr))}.editorial-weights p{gap:1.6rem;font-size:2rem}}
 
 .viewer-stage[data-surface=light] .viewer-image{background:#f3f3f3}.editorial-weights p span:first-child{min-width:9rem}
+.case-media-rotated{position:relative;overflow:hidden}
+.case-media-rotated>img{position:absolute;left:50%;top:50%;max-width:none;transform:translate(-50%,-50%) rotate(90deg);object-fit:contain}
 
 /* Equal image heights, with proportional widths and complete artwork. */
 .story-media.story-media--aligned{display:flex;flex-direction:column;align-items:stretch;container-type:inline-size;gap:1.6rem;max-width:100%}

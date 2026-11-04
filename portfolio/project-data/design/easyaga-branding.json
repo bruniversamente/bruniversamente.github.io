@@ -18,175 +18,87 @@
   "media": [
     {
       "type": "image",
-      "src": "portfolio/assets/design/easyaga-branding-feed/01-site-home-desktop-ea7eed273f/original.jpg",
-      "width": 1354,
-      "height": 782,
-      "srcset": "portfolio/assets/design/easyaga-branding-feed/01-site-home-desktop-ea7eed273f/original.jpg 1354w",
+      "alt": "EasyAGA · Identidade para uma consultoria aeronáutica",
+      "width": 1280,
+      "height": 987,
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/easyaga-branding-feed/01-site-home-desktop-ea7eed273f/original.jpg",
-      "fullWidth": 1354,
-      "fullHeight": 782,
-      "id": "m001",
-      "alt": "Página inicial do website EasyAGA"
+      "fullWidth": 2800,
+      "fullHeight": 2160,
+      "src": "portfolio/assets/design/easyaga-branding/01-01-0716a9ac0c/1280w.webp",
+      "fullSrc": "portfolio/assets/design/easyaga-branding/01-01-0716a9ac0c/original.webp",
+      "srcset": "portfolio/assets/design/easyaga-branding/01-01-0716a9ac0c/640w.webp 640w, portfolio/assets/design/easyaga-branding/01-01-0716a9ac0c/1280w.webp 1280w, portfolio/assets/design/easyaga-branding/01-01-0716a9ac0c/1920w.webp 1920w, portfolio/assets/design/easyaga-branding/01-01-0716a9ac0c/original.webp 2800w"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/easyaga-branding/03-easyaga-logo-com-icone-d4df36b49f/original.webp",
-      "width": 680,
-      "height": 126,
-      "srcset": "portfolio/assets/editorial/easyaga-branding/03-easyaga-logo-com-icone-d4df36b49f/original.webp 680w",
+      "alt": "EasyAGA · Contexto e marca",
+      "width": 2800,
+      "height": 1200,
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/easyaga-branding/03-easyaga-logo-com-icone-d4df36b49f/original.webp",
-      "fullWidth": 680,
-      "fullHeight": 126,
-      "id": "m002",
-      "alt": "Logo EasyAGA com símbolo",
-      "kind": "logo",
-      "surface": "light"
+      "fullWidth": 2800,
+      "fullHeight": 1200,
+      "src": "portfolio/assets/design/easyaga-branding/02-02-8cf3862967/original.webp",
+      "fullSrc": "portfolio/assets/design/easyaga-branding/02-02-8cf3862967/original.webp",
+      "srcset": "portfolio/assets/design/easyaga-branding/02-02-8cf3862967/640w.webp 640w, portfolio/assets/design/easyaga-branding/02-02-8cf3862967/original.webp 2800w"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/easyaga-branding/easyaga-icone-azul-escuro-d75648ec00d2.svg",
-      "width": 1536,
-      "height": 1382,
-      "fullSrc": "portfolio/assets/editorial/easyaga-branding/easyaga-icone-azul-escuro-d75648ec00d2.svg",
-      "fullWidth": 1536,
-      "fullHeight": 1382,
-      "id": "m003",
-      "alt": "Símbolo EasyAGA",
-      "kind": "logo",
-      "surface": "light"
-    },
-    {
-      "type": "image",
-      "src": "portfolio/assets/editorial/easyaga-branding/easyaga-logo-consultoria-e-treinamentos-branca-e2f28e928d89.svg",
-      "width": 680,
-      "height": 126,
-      "fullSrc": "portfolio/assets/editorial/easyaga-branding/easyaga-logo-consultoria-e-treinamentos-branca-e2f28e928d89.svg",
-      "fullWidth": 680,
-      "fullHeight": 126,
-      "id": "m004",
-      "alt": "Logo branca",
-      "kind": "logo"
-    },
-    {
-      "type": "image",
-      "src": "portfolio/assets/editorial/easyaga-branding/easyaga-logo-apenas-texto-branca-31fe2f624a5c.svg",
-      "width": 500,
-      "height": 85,
-      "fullSrc": "portfolio/assets/editorial/easyaga-branding/easyaga-logo-apenas-texto-branca-31fe2f624a5c.svg",
-      "fullWidth": 500,
-      "fullHeight": 85,
-      "id": "m005",
-      "alt": "Assinatura tipográfica",
-      "kind": "logo"
-    },
-    {
-      "type": "image",
-      "src": "portfolio/assets/editorial/easyaga-branding/07-site-home-mobile-35b0aa4078/original.jpg",
-      "width": 375,
-      "height": 845,
-      "srcset": "portfolio/assets/editorial/easyaga-branding/07-site-home-mobile-35b0aa4078/original.jpg 375w",
+      "alt": "EasyAGA · Tipografia e cor",
+      "width": 2800,
+      "height": 2640,
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/easyaga-branding/07-site-home-mobile-35b0aa4078/original.jpg",
-      "fullWidth": 375,
-      "fullHeight": 845,
-      "id": "m006",
-      "alt": "Home em celular",
-      "kind": "phone"
+      "fullWidth": 2800,
+      "fullHeight": 2640,
+      "src": "portfolio/assets/design/easyaga-branding/03-03-f65e6cc741/original.webp",
+      "fullSrc": "portfolio/assets/design/easyaga-branding/03-03-f65e6cc741/original.webp",
+      "srcset": "portfolio/assets/design/easyaga-branding/03-03-f65e6cc741/640w.webp 640w, portfolio/assets/design/easyaga-branding/03-03-f65e6cc741/original.webp 2800w"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/easyaga-branding/08-site-helipontos-mobile-5414a390ab/original.jpg",
-      "width": 375,
-      "height": 845,
-      "srcset": "portfolio/assets/editorial/easyaga-branding/08-site-helipontos-mobile-5414a390ab/original.jpg 375w",
+      "alt": "EasyAGA · Website",
+      "width": 1280,
+      "height": 1335,
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/easyaga-branding/08-site-helipontos-mobile-5414a390ab/original.jpg",
-      "fullWidth": 375,
-      "fullHeight": 845,
-      "id": "m007",
-      "alt": "Página de helipontos em celular",
-      "kind": "phone"
+      "fullWidth": 2800,
+      "fullHeight": 2920,
+      "src": "portfolio/assets/design/easyaga-branding/04-04-aa6ca2cb36/1280w.webp",
+      "fullSrc": "portfolio/assets/design/easyaga-branding/04-04-aa6ca2cb36/original.webp",
+      "srcset": "portfolio/assets/design/easyaga-branding/04-04-aa6ca2cb36/640w.webp 640w, portfolio/assets/design/easyaga-branding/04-04-aa6ca2cb36/1280w.webp 1280w, portfolio/assets/design/easyaga-branding/04-04-aa6ca2cb36/1920w.webp 1920w, portfolio/assets/design/easyaga-branding/04-04-aa6ca2cb36/original.webp 2800w"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/easyaga-branding/09-site-portfolio-desktop-b9cea84c7d/original.jpg",
-      "width": 1354,
-      "height": 782,
-      "srcset": "portfolio/assets/editorial/easyaga-branding/09-site-portfolio-desktop-b9cea84c7d/original.jpg 1354w",
+      "alt": "EasyAGA · Telas responsivas",
+      "width": 1280,
+      "height": 1600,
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/easyaga-branding/09-site-portfolio-desktop-b9cea84c7d/original.jpg",
-      "fullWidth": 1354,
-      "fullHeight": 782,
-      "id": "m008",
-      "alt": "Serviços, projetos e contato também no celular."
+      "fullWidth": 2800,
+      "fullHeight": 3500,
+      "src": "portfolio/assets/design/easyaga-branding/05-05-778bc86c90/1280w.webp",
+      "fullSrc": "portfolio/assets/design/easyaga-branding/05-05-778bc86c90/original.webp",
+      "srcset": "portfolio/assets/design/easyaga-branding/05-05-778bc86c90/640w.webp 640w, portfolio/assets/design/easyaga-branding/05-05-778bc86c90/1280w.webp 1280w, portfolio/assets/design/easyaga-branding/05-05-778bc86c90/1920w.webp 1920w, portfolio/assets/design/easyaga-branding/05-05-778bc86c90/original.webp 2800w"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/easyaga-branding/10-cover-technical-blueprint-final-21cdc26115/original.webp",
-      "width": 1024,
-      "height": 1536,
-      "srcset": "portfolio/assets/editorial/easyaga-branding/10-cover-technical-blueprint-final-21cdc26115/640w.webp 640w, portfolio/assets/editorial/easyaga-branding/10-cover-technical-blueprint-final-21cdc26115/original.webp 1024w",
+      "alt": "EasyAGA · Aplicações em relatórios",
+      "width": 1280,
+      "height": 1417,
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/easyaga-branding/10-cover-technical-blueprint-final-21cdc26115/original.webp",
-      "fullWidth": 1024,
-      "fullHeight": 1536,
-      "id": "m009",
-      "alt": "A identidade nas entregas da consultoria."
+      "fullWidth": 2800,
+      "fullHeight": 3100,
+      "src": "portfolio/assets/design/easyaga-branding/06-06-741c629884/1280w.webp",
+      "fullSrc": "portfolio/assets/design/easyaga-branding/06-06-741c629884/original.webp",
+      "srcset": "portfolio/assets/design/easyaga-branding/06-06-741c629884/640w.webp 640w, portfolio/assets/design/easyaga-branding/06-06-741c629884/1280w.webp 1280w, portfolio/assets/design/easyaga-branding/06-06-741c629884/1920w.webp 1920w, portfolio/assets/design/easyaga-branding/06-06-741c629884/original.webp 2800w"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/easyaga-branding/11-papel-timbrado-a4-premium-compacto-6127452172/original.webp",
-      "width": 2480,
-      "height": 3508,
-      "srcset": "portfolio/assets/editorial/easyaga-branding/11-papel-timbrado-a4-premium-compacto-6127452172/640w.webp 640w, portfolio/assets/editorial/easyaga-branding/11-papel-timbrado-a4-premium-compacto-6127452172/original.webp 2480w",
+      "alt": "EasyAGA · E-mail e aplicações institucionais",
+      "width": 1280,
+      "height": 1298,
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/easyaga-branding/11-papel-timbrado-a4-premium-compacto-6127452172/original.webp",
-      "fullWidth": 2480,
-      "fullHeight": 3508,
-      "id": "m010",
-      "alt": "A identidade nas entregas da consultoria."
-    },
-    {
-      "type": "image",
-      "src": "portfolio/assets/editorial/easyaga-branding/12-easyaga-logo-cabecalho-zoho-cee175cbd4/original.webp",
-      "width": 680,
-      "height": 150,
-      "srcset": "portfolio/assets/editorial/easyaga-branding/12-easyaga-logo-cabecalho-zoho-cee175cbd4/original.webp 680w",
-      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/easyaga-branding/12-easyaga-logo-cabecalho-zoho-cee175cbd4/original.webp",
-      "fullWidth": 680,
-      "fullHeight": 150,
-      "id": "m011",
-      "alt": "Cabeçalho usado na prospecção",
-      "kind": "logo"
-    },
-    {
-      "type": "image",
-      "src": "portfolio/assets/editorial/easyaga-branding/easyaga-logo-rodape-completo-9bf06e5ff2ad.svg",
-      "width": 280,
-      "height": 90,
-      "fullSrc": "portfolio/assets/editorial/easyaga-branding/easyaga-logo-rodape-completo-9bf06e5ff2ad.svg",
-      "fullWidth": 280,
-      "fullHeight": 90,
-      "id": "m012",
-      "alt": "Marca no rodapé",
-      "kind": "logo",
-      "surface": "light"
-    },
-    {
-      "type": "image",
-      "src": "portfolio/assets/design/easyaga-branding-feed/03-cartao-visita-frente-33b059dd83/original.webp",
-      "width": 1063,
-      "height": 591,
-      "srcset": "portfolio/assets/design/easyaga-branding-feed/03-cartao-visita-frente-33b059dd83/640w.webp 640w, portfolio/assets/design/easyaga-branding-feed/03-cartao-visita-frente-33b059dd83/original.webp 1063w",
-      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/easyaga-branding-feed/03-cartao-visita-frente-33b059dd83/original.webp",
-      "fullWidth": 1063,
-      "fullHeight": 591,
-      "id": "m013",
-      "alt": "Apresentação por e-mail"
+      "fullWidth": 2800,
+      "fullHeight": 2840,
+      "src": "portfolio/assets/design/easyaga-branding/07-07-07fde0951c/1280w.webp",
+      "fullSrc": "portfolio/assets/design/easyaga-branding/07-07-07fde0951c/original.webp",
+      "srcset": "portfolio/assets/design/easyaga-branding/07-07-07fde0951c/640w.webp 640w, portfolio/assets/design/easyaga-branding/07-07-07fde0951c/1280w.webp 1280w, portfolio/assets/design/easyaga-branding/07-07-07fde0951c/original.webp 2800w"
     }
   ],
   "sections": [
@@ -272,412 +184,5 @@
       "url": "https://easyaga.com"
     }
   ],
-  "cover": {
-    "type": "image",
-    "src": "portfolio/assets/design/easyaga-branding-feed/01-site-home-desktop-ea7eed273f/original.jpg",
-    "width": 1354,
-    "height": 782,
-    "srcset": "portfolio/assets/design/easyaga-branding-feed/01-site-home-desktop-ea7eed273f/original.jpg 1354w",
-    "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-    "fullSrc": "portfolio/assets/design/easyaga-branding-feed/01-site-home-desktop-ea7eed273f/original.jpg",
-    "fullWidth": 1354,
-    "fullHeight": 782,
-    "id": "m001",
-    "alt": "Página inicial do website EasyAGA"
-  },
-  "story": {
-    "editorial": true,
-    "navigation": true,
-    "galleryOrder": "source",
-    "chapters": [
-      {
-        "id": "uma-presenca-propria-para-a-easyaga",
-        "label": "Contexto",
-        "title": "Uma presença própria para a EasyAGA.",
-        "blocks": [
-          {
-            "type": "text",
-            "paragraphs": [
-              "A EasyAGA presta consultoria aeronáutica para obras, aeroportos e helipontos. Criei a marca e o website para apresentar esse trabalho, explicar os serviços e facilitar o primeiro contato."
-            ]
-          }
-        ]
-      },
-      {
-        "id": "a-marca-e-suas-versoes",
-        "label": "Marca",
-        "title": "A marca e suas versões",
-        "blocks": [
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m002",
-                "caption": "Logo EasyAGA com símbolo",
-                "kind": "logo",
-                "surface": "light"
-              },
-              {
-                "id": "m003",
-                "caption": "Símbolo EasyAGA",
-                "kind": "logo",
-                "surface": "light"
-              },
-              {
-                "id": "m004",
-                "caption": "Logo branca",
-                "kind": "logo"
-              },
-              {
-                "id": "m005",
-                "caption": "Assinatura tipográfica",
-                "kind": "logo"
-              }
-            ],
-            "layout": "gallery"
-          },
-          {
-            "type": "text",
-            "paragraphs": [],
-            "title": "Uma assinatura com variações de uso."
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "O traço fino de “Easy” e o peso de “AGA” aparecem nas versões da assinatura. No site, a versão tipográfica ocupa o cabeçalho; nos materiais institucionais, uso também o símbolo."
-            ]
-          }
-        ]
-      },
-      {
-        "id": "tipografia-e-cor",
-        "label": "Tipografia e cor",
-        "title": "Tipografia e cor",
-        "blocks": [
-          {
-            "type": "typography",
-            "family": "Inter",
-            "weights": [
-              400,
-              500,
-              700
-            ],
-            "sample": "Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn 0123456789 / + %"
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Tipografia de interface e apoio. A assinatura da marca usa o desenho original."
-            ]
-          },
-          {
-            "type": "palette",
-            "items": [
-              {
-                "color": "#00205b",
-                "label": "Azul EasyAGA #00205B"
-              },
-              {
-                "color": "#00aec7",
-                "label": "Ciano #00AEC7"
-              },
-              {
-                "color": "#007c95",
-                "label": "Ciano escuro #007C95"
-              },
-              {
-                "color": "#010d24",
-                "label": "#010D24"
-              },
-              {
-                "color": "#071a3d",
-                "label": "#071A3D"
-              },
-              {
-                "color": "#011333",
-                "label": "#011333"
-              },
-              {
-                "color": "#070b11",
-                "label": "#070B11"
-              },
-              {
-                "color": "#505d74",
-                "label": "#505D74"
-              },
-              {
-                "color": "#e5eaf2",
-                "label": "#E5EAF2"
-              },
-              {
-                "color": "#f2f5f9",
-                "label": "Superfície · #F2F5F9"
-              },
-              {
-                "color": "#fff",
-                "label": "Branco · #FFFFFF"
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Paleta do kit da marca e do website, incluindo tons de apoio para fundos, textos e divisórias."
-            ]
-          }
-        ]
-      },
-      {
-        "id": "comecar-pelo-problema-de-quem-chega",
-        "label": "Website",
-        "title": "Começar pelo problema de quem chega.",
-        "blocks": [
-          {
-            "type": "text",
-            "paragraphs": [
-              "Na página inicial, o visitante encontra caminhos para obras, terrenos e helipontos antes de entrar no detalhe dos serviços."
-            ]
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m001"
-              }
-            ],
-            "layout": "single"
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Cenários na página inicial",
-              "Escopo e etapas de análise",
-              "Casos da consultoria",
-              "Contato e envio do caso"
-            ]
-          },
-          {
-            "type": "caption",
-            "text": "Captura do website publicado em easyaga.com."
-          }
-        ]
-      },
-      {
-        "id": "servicos-projetos-e-contato-tambem-no-celular",
-        "label": "Responsivo",
-        "title": "Serviços, projetos e contato também no celular.",
-        "blocks": [
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m006",
-                "caption": "Home em celular",
-                "kind": "phone"
-              },
-              {
-                "id": "m007",
-                "caption": "Página de helipontos em celular",
-                "kind": "phone"
-              }
-            ],
-            "layout": "devices"
-          },
-          {
-            "type": "text",
-            "paragraphs": [],
-            "title": "Mesma identidade, outra escala."
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "O menu recolhido, os títulos e os botões preservam a hierarquia em telas menores.",
-              "Nas páginas de serviço, a equipe apresenta o contexto técnico e as informações necessárias para iniciar uma análise."
-            ]
-          },
-          {
-            "type": "caption",
-            "text": "Telas reais do site, sem redesenho da interface."
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m008"
-              }
-            ],
-            "layout": "single"
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "No portfólio, os cards reúnem imagem, localização e tipo de projeto para dar contexto a cada caso."
-            ]
-          }
-        ]
-      },
-      {
-        "id": "a-identidade-nas-entregas-da-consultoria",
-        "label": "Relatórios",
-        "title": "A identidade nas entregas da consultoria.",
-        "blocks": [
-          {
-            "type": "text",
-            "paragraphs": [
-              "Nos relatórios do AGA Studio, a marca aparece na capa, no cabeçalho e no rodapé, com espaço para textos, mapas e tabelas."
-            ]
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m009"
-              },
-              {
-                "id": "m004",
-                "kind": "logo"
-              }
-            ],
-            "layout": "two"
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "RELATÓRIO TÉCNICO"
-            ]
-          },
-          {
-            "type": "text",
-            "paragraphs": [],
-            "title": "Plano Básico de Zona de Proteção de Heliponto"
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Modelo de apresentação",
-              "APLICAÇÃO DEMONSTRATIVA Sem dados de clientes"
-            ]
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m010"
-              }
-            ],
-            "layout": "single"
-          },
-          {
-            "type": "text",
-            "paragraphs": [],
-            "title": "Organização do relatório"
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Esta página demonstra a aplicação da identidade visual em um documento técnico. O conteúdo serve apenas para apresentar a composição."
-            ]
-          },
-          {
-            "type": "text",
-            "paragraphs": [],
-            "title": "Hierarquia e leitura"
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Títulos, divisórias e recuos ajudam a localizar as informações. A área central permanece disponível para os materiais de cada projeto.",
-              "Capa com a arte técnica utilizada no aplicativo.",
-              "Papel timbrado com marca, contatos e área de leitura."
-            ]
-          },
-          {
-            "type": "caption",
-            "text": "Composições demonstrativas a partir dos arquivos e modelos existentes. Nenhum relatório de cliente foi reproduzido."
-          }
-        ]
-      },
-      {
-        "id": "apresentacao-por-e-mail",
-        "label": "Comunicação",
-        "title": "Apresentação por e-mail",
-        "blocks": [
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m011",
-                "caption": "Cabeçalho usado na prospecção",
-                "kind": "logo"
-              }
-            ],
-            "layout": "single"
-          },
-          {
-            "type": "text",
-            "paragraphs": [],
-            "title": "Consultoria aeronáutica para o seu projeto."
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Conheça a atuação da EasyAGA em estudos, documentação e apoio técnico para empreendimentos com interface com a aviação.",
-              "Consulte os serviços e o portfólio da empresa."
-            ]
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m012",
-                "caption": "Marca no rodapé",
-                "kind": "logo",
-                "surface": "light"
-              }
-            ],
-            "layout": "single"
-          },
-          {
-            "type": "caption",
-            "text": "Aplicação demonstrativa com os PNGs usados nos e-mails de prospecção."
-          },
-          {
-            "type": "text",
-            "paragraphs": [],
-            "title": "Assinaturas preparadas para cada fundo."
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Cabeçalho escuro e rodapé claro mantêm o nome legível nas duas aplicações."
-            ]
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m011",
-                "kind": "logo"
-              },
-              {
-                "id": "m012",
-                "kind": "logo",
-                "surface": "light"
-              },
-              {
-                "id": "m013"
-              }
-            ],
-            "layout": "three"
-          },
-          {
-            "type": "caption",
-            "text": "Aplicação institucional do kit da marca."
-          }
-        ]
-      }
-    ],
-    "deviceFrame": "portfolio/assets/editorial/shared/01-galaxy-s26-ultra-black-front-3545ed1389/original.webp",
-    "filmsInline": true
-  }
+  "presentation": "boards"
 }

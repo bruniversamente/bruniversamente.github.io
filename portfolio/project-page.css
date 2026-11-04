@@ -39,6 +39,10 @@
 .case-board-project .case-cover{aspect-ratio:auto}
 .case-board-project .case-cover>.case-media-trigger{height:auto}
 .case-board-project .case-cover img{height:auto;object-fit:contain}
+.case-board-project .case-boards{gap:0;margin-top:0}
+.case-board-project .case-boards>.case-figure{border:0;margin:0;background:transparent}
+.case-board-project .case-boards .case-media-trigger{height:auto;aspect-ratio:auto}
+.case-board-project .case-boards img{display:block;width:100%;height:auto;object-fit:contain}
 .case-films{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3.2rem;margin-top:6.4rem}
 .case-film{min-width:0}.case-film h2{font-size:2.4rem;font-weight:300;line-height:1.2;margin:0 0 1.6rem}
 .case-film-frame{position:relative;width:100%;max-width:38rem;aspect-ratio:9/16;margin:1.6rem 0;background:#080808;border:1px solid var(--ink);overflow:hidden}

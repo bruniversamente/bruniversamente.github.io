@@ -82,8 +82,16 @@
     }
 
   function render(data){
-    article.replaceChildren();article.classList.toggle('editorial-project',data.story?.editorial===true);let title;
-    if(data.story){const rendered=window.projectStory.render(data,mediaFigure);title=rendered.title;article.append(...rendered.fragments);}
+    article.replaceChildren();article.classList.toggle('editorial-project',data.story?.editorial===true);article.classList.toggle('case-board-project',data.presentation==='boards');let title;
+    if(data.presentation==='boards'){
+      window.mediaViewer.setCollection(`${data.title} · ${data.subtitle}`,data.media);
+      const hero=el('section','case-hero');title=el('h1','case-headline');title.tabIndex=-1;title.append(el('span','case-client',data.title),el('span','case-title',data.subtitle));hero.append(title);
+      const tags=el('div','case-tags');data.tags.forEach(tag=>tags.append(el('span','case-tag',tag)));hero.append(tags);
+      const boards=el('section','case-gallery case-boards');boards.setAttribute('aria-label','Pranchas completas do projeto');
+      data.media.forEach((media,index)=>{const figure=mediaFigure(media,false,index);if(index===0){const image=figure.querySelector('img');image.loading='eager';image.fetchPriority='high';}boards.append(figure);});
+      hero.append(boards);article.append(hero);
+    }
+    else if(data.story){const rendered=window.projectStory.render(data,mediaFigure);title=rendered.title;article.append(...rendered.fragments);}
     else{
 const hero=el('section','case-hero');
     const sourceCover=data.cover||data.media.find(media=>media.type==='image');

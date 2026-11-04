@@ -8,6 +8,8 @@ Quatro áreas, 44 projetos: Beleza (29), Design e direção criativa (9), Arquit
 
 Os casos visuais usam fotografias e artes individuais, textos e créditos em HTML, mantendo o padrão Inter e as linhas finas do site. Os blocos de imagens compartilham altura e alinham as legendas. No celular, fotografias são empilhadas; grupos de aparelhos mantêm sua composição. A foto de aviamentos da Hering permanece girada 90° à direita.
 
+Na EasyAGA, a apresentação usa as sete pranchas completas do Behance em sequência contínua, conforme a preferência de Bruno para este projeto. As composições, cores e agrupamentos originais ficam preservados, com ampliação na galeria. A divisão em capítulos da adaptação anterior foi retirada desse caso.
+
 ## Beleza
 
 Versão `beleza-20261104b`: os 29 projetos do catálogo local foram incorporados com suas seleções de fotografias, processo, créditos e links. São 339 arquivos de imagem preparados, incluindo capas de vídeos e uma marca vetorial, 20 vídeos locais e acessos aos dois clipes oficiais no YouTube. Calma usa o player incorporado; Boto Fé abre o canal oficial, pois o YouTube recusou a reprodução incorporada na conferência. Os três players Hering já publicados continuam disponíveis.

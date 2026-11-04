@@ -60,8 +60,8 @@
     ]
   },
   "films_on_existing_host": 3,
-  "release": "beleza-20261104b",
-  "base_commit": "be06ca0c125edbbb648c69728f450436ce74beaa",
+  "release": "easyaga-pranchas-20261104",
+  "base_commit": "91c216c9f899710a98dbc3f53bd202873636aa1d",
   "adapted_visual_cases": 39,
   "preserved_data_cases": 5,
   "individual_source_files": 507,
@@ -73,5 +73,9 @@
   "local_beauty_videos": 20,
   "beauty_official_embeds": 1,
   "site_bytes_before_commit": 883355691,
-  "beauty_official_video_links": 1
+  "beauty_official_video_links": 1,
+  "project_presentations": {
+    "design/easyaga-branding": "boards"
+  },
+  "easyaga_full_boards": 7
 }

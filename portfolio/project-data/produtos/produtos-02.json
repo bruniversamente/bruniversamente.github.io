@@ -1,0 +1,562 @@
+{
+  "area": "produtos",
+  "id": "produtos-02",
+  "title": "AGAStudio",
+  "subtitle": "Do terreno à decisão de projeto",
+  "tags": [
+    "UX/UI",
+    "Software técnico",
+    "Geoprocessamento",
+    "Produto autoral"
+  ],
+  "intro": "Um ambiente de trabalho para analisar as restrições aeronáuticas de um empreendimento. O case acompanha o especialista na preparação dos dados, na conferência das alturas e na comunicação do resultado ao cliente.",
+  "sections": [],
+  "credits": [
+    {
+      "role": "Concepção, fluxos e direção de interface",
+      "names": "Bruno Nascimento"
+    },
+    {
+      "role": "Construção",
+      "names": "Desenvolvimento assistido por IA (vibe coding)"
+    },
+    {
+      "role": "Base desta apresentação",
+      "names": "Código e interface do AGAStudio, documentação técnica e cópia de estudo existente."
+    }
+  ],
+  "credit": "",
+  "media": [
+    {
+      "id": "modelo-3d",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/modelo-3d-hd-960w.webp",
+      "width": 960,
+      "height": 491,
+      "fullSrc": "portfolio/assets/agastudio/modelo-3d-hd-full.webp",
+      "fullWidth": 1921,
+      "fullHeight": 983,
+      "alt": "AGAStudio: modelo 3D do terreno, pista e superfícies da análise, com controles de vistas e camadas.",
+      "caption": "Provas técnicas · modelo da rodada salva, com relevo de contexto identificado como aproximado.",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "srcset": "portfolio/assets/agastudio/modelo-3d-hd-640w.webp 640w, portfolio/assets/agastudio/modelo-3d-hd-960w.webp 960w, portfolio/assets/agastudio/modelo-3d-hd-1440w.webp 1440w, portfolio/assets/agastudio/modelo-3d-hd-1920w.webp 1920w, portfolio/assets/agastudio/modelo-3d-hd-full.webp 1921w"
+    },
+    {
+      "id": "mapa",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/mapa-hd-960w.webp",
+      "width": 960,
+      "height": 491,
+      "fullSrc": "portfolio/assets/agastudio/mapa-hd-full.webp",
+      "fullWidth": 1921,
+      "fullHeight": 983,
+      "alt": "Mapa do empreendimento próximo à pista, com camadas do projeto e resumo da viabilidade.",
+      "caption": "Viabilidade · empreendimento, camadas e resultado na mesma área de trabalho. Base cartográfica Esri.",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "srcset": "portfolio/assets/agastudio/mapa-hd-640w.webp 640w, portfolio/assets/agastudio/mapa-hd-960w.webp 960w, portfolio/assets/agastudio/mapa-hd-1440w.webp 1440w, portfolio/assets/agastudio/mapa-hd-1920w.webp 1920w, portfolio/assets/agastudio/mapa-hd-full.webp 1921w"
+    },
+    {
+      "id": "dados",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/dados-hd-960w.webp",
+      "width": 960,
+      "height": 491,
+      "fullSrc": "portfolio/assets/agastudio/dados-hd-full.webp",
+      "fullWidth": 1921,
+      "fullHeight": 983,
+      "alt": "Janela de preparação da análise: seções do estudo, plano considerado, espaçamento da malha e cotas dos vértices.",
+      "caption": "Antes do cálculo · dados técnicos, referências e conferências no mesmo fluxo.",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "srcset": "portfolio/assets/agastudio/dados-hd-640w.webp 640w, portfolio/assets/agastudio/dados-hd-960w.webp 960w, portfolio/assets/agastudio/dados-hd-1440w.webp 1440w, portfolio/assets/agastudio/dados-hd-1920w.webp 1920w, portfolio/assets/agastudio/dados-hd-full.webp 1921w"
+    },
+    {
+      "id": "resultado",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/resultado-hd-960w.webp",
+      "width": 960,
+      "height": 491,
+      "fullSrc": "portfolio/assets/agastudio/resultado-hd-full.webp",
+      "fullWidth": 1921,
+      "fullHeight": 983,
+      "alt": "Tabela da viabilidade com tipo de ponto, estado, altitude limite, altura máxima e margem.",
+      "caption": "Resultado da rodada · vértices, pontos de borda e amostras internas com papéis próprios.",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "srcset": "portfolio/assets/agastudio/resultado-hd-640w.webp 640w, portfolio/assets/agastudio/resultado-hd-960w.webp 960w, portfolio/assets/agastudio/resultado-hd-1440w.webp 1440w, portfolio/assets/agastudio/resultado-hd-1920w.webp 1920w, portfolio/assets/agastudio/resultado-hd-full.webp 1921w"
+    },
+    {
+      "id": "pontos",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/pontos-hd-960w.webp",
+      "width": 960,
+      "height": 491,
+      "fullSrc": "portfolio/assets/agastudio/pontos-hd-full.webp",
+      "fullWidth": 1921,
+      "fullHeight": 983,
+      "alt": "Prova técnica do AGAStudio com representações da altura máxima em cada ponto analisado.",
+      "caption": "Conferência individual · base, altitude limite e altura máxima em uma leitura por ponto.",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "srcset": "portfolio/assets/agastudio/pontos-hd-640w.webp 640w, portfolio/assets/agastudio/pontos-hd-960w.webp 960w, portfolio/assets/agastudio/pontos-hd-1440w.webp 1440w, portfolio/assets/agastudio/pontos-hd-1920w.webp 1920w, portfolio/assets/agastudio/pontos-hd-full.webp 1921w"
+    },
+    {
+      "id": "consulta-3d",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/consulta-3d-hd-960w.webp",
+      "width": 960,
+      "height": 491,
+      "fullSrc": "portfolio/assets/agastudio/consulta-3d-hd-full.webp",
+      "fullWidth": 1921,
+      "fullHeight": 983,
+      "alt": "Modelo 3D com consulta de ponto mostrando terreno, topo proposto, limite, margem e superfície.",
+      "caption": "Consulta no modelo · o ponto conserva sua identificação de origem e os valores da rodada.",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "srcset": "portfolio/assets/agastudio/consulta-3d-hd-640w.webp 640w, portfolio/assets/agastudio/consulta-3d-hd-960w.webp 960w, portfolio/assets/agastudio/consulta-3d-hd-1440w.webp 1440w, portfolio/assets/agastudio/consulta-3d-hd-1920w.webp 1920w, portfolio/assets/agastudio/consulta-3d-hd-full.webp 1921w"
+    },
+    {
+      "id": "superficies",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/superficies-hd-960w.webp",
+      "width": 960,
+      "height": 491,
+      "fullSrc": "portfolio/assets/agastudio/superficies-hd-full.webp",
+      "fullWidth": 1921,
+      "fullHeight": 983,
+      "alt": "Menu de superfícies do modelo 3D, com indicação das condições mais restritivas no projeto.",
+      "caption": "Controle de visibilidade · todas as superfícies, somente as mais restritivas ou seleção individual.",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "srcset": "portfolio/assets/agastudio/superficies-hd-640w.webp 640w, portfolio/assets/agastudio/superficies-hd-960w.webp 960w, portfolio/assets/agastudio/superficies-hd-1440w.webp 1440w, portfolio/assets/agastudio/superficies-hd-1920w.webp 1920w, portfolio/assets/agastudio/superficies-hd-full.webp 1921w"
+    },
+    {
+      "id": "relatorio",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/relatorio-hd-960w.webp",
+      "width": 960,
+      "height": 491,
+      "fullSrc": "portfolio/assets/agastudio/relatorio-hd-full.webp",
+      "fullWidth": 1921,
+      "fullHeight": 983,
+      "alt": "Editor do relatório técnico no AGAStudio, com navegação entre capítulos e opções de exportação.",
+      "caption": "Relatório · síntese, fontes e resultados para revisão e comunicação ao cliente.",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "srcset": "portfolio/assets/agastudio/relatorio-hd-640w.webp 640w, portfolio/assets/agastudio/relatorio-hd-960w.webp 960w, portfolio/assets/agastudio/relatorio-hd-1440w.webp 1440w, portfolio/assets/agastudio/relatorio-hd-1920w.webp 1920w, portfolio/assets/agastudio/relatorio-hd-full.webp 1921w"
+    },
+    {
+      "id": "perfil",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/perfil-tecnico-original.svg",
+      "width": 1120,
+      "height": 760,
+      "fullSrc": "portfolio/assets/agastudio/perfil-tecnico-original.svg",
+      "fullWidth": 1120,
+      "fullHeight": 760,
+      "alt": "Perfil técnico original da rodada: pista, terreno, edificações e superfícies de restrição.",
+      "caption": "Detalhe vetorial · perfil original do estudo salvo, preservado sem redesenhar os valores."
+    }
+  ],
+  "cover": {
+    "id": "cover-agastudio",
+    "type": "image",
+    "src": "portfolio/assets/agastudio/cover-960w.webp",
+    "width": 960,
+    "height": 540,
+    "srcset": "portfolio/assets/agastudio/cover-640w.webp 640w, portfolio/assets/agastudio/cover-960w.webp 960w, portfolio/assets/agastudio/cover-1440w.webp 1440w",
+    "fullSrc": "portfolio/assets/agastudio/cover-1440w.webp",
+    "fullWidth": 1440,
+    "fullHeight": 810,
+    "sizes": "(max-width:700px) calc(100vw - 48px), 50vw",
+    "alt": "AGAStudio · Do terreno à decisão de projeto. Capa com vista real do modelo 3D do estudo.",
+    "caption": "AGAStudio · estudo de UX/UI de viabilidade aeronáutica."
+  },
+  "links": [],
+  "films": [],
+  "story": {
+    "navigation": true,
+    "heroClassName": "agastudio-opening",
+    "galleryOrder": "source",
+    "notice": "Estudo de UX/UI · software técnico em desenvolvimento",
+    "role": "Recorte: viabilidade OPEA, das referências de entrada ao relatório para revisão.",
+    "heroBoard": {
+      "type": "board",
+      "tree": {
+        "tag": "div",
+        "children": [
+          {
+            "media": "modelo-3d"
+          }
+        ],
+        "attrs": {
+          "class": "agastudio-case-hero"
+        }
+      }
+    },
+    "chapters": [
+      {
+        "id": "contexto",
+        "label": "Problema e recorte",
+        "title": "Entender o limite antes de avançar com o projeto",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Quem projeta uma edificação precisa entender como as restrições aeronáuticas afetam a altura pretendida. O profissional que conduz o estudo cruza a geometria do empreendimento, as cotas do terreno, os dados da pista e os planos aplicáveis. O cliente precisa compreender o que o resultado permite concluir sobre aquele cenário.",
+              "Este case examina o percurso entre receber os dados de um empreendimento e apresentar uma conclusão técnica conferível. O recorte concentra a operação no especialista; o cliente recebe a explicação e o relatório."
+            ]
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "div",
+              "children": [
+                {
+                  "tag": "div",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Profissional"
+                      ],
+                      "attrs": {
+                        "class": "agastudio-label"
+                      }
+                    },
+                    {
+                      "tag": "h3",
+                      "children": [
+                        "Conferir e fundamentar"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Identificar os dados usados, localizar os pontos determinantes e explicar como chegou à conclusão."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "children": [
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Cliente"
+                      ],
+                      "attrs": {
+                        "class": "agastudio-label"
+                      }
+                    },
+                    {
+                      "tag": "h3",
+                      "children": [
+                        "Entender o efeito no projeto"
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "children": [
+                        "Reconhecer a altura analisada, os limites encontrados e as condições que precisam permanecer válidas."
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "attrs": {
+                "class": "agastudio-intent"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A hipótese de UX é que a troca entre arquivos, mapas e resultados exige esforço para manter essa leitura coerente. O AGAStudio reúne essas etapas em um projeto, com navegação entre viabilidade, provas técnicas e relatório."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jornada",
+        "label": "Jornada do estudo",
+        "title": "Acompanhar a decisão, da área ao documento",
+        "blocks": [
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Preparar a área e os dados",
+                "text": "Informar ou importar a geometria, conferir coordenadas e cotas e identificar as fontes técnicas."
+              },
+              {
+                "title": "Analisar os limites",
+                "text": "Identificar os planos relacionados à área e conferir o resultado calculado para os pontos do estudo."
+              },
+              {
+                "title": "Interpretar e verificar",
+                "text": "Relacionar números, mapa, perfis e modelo 3D para compreender a condição mais restritiva."
+              },
+              {
+                "title": "Comunicar e revisar",
+                "text": "Organizar a conclusão no relatório e reconhecer quando uma alteração exige nova análise."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A faixa superior mantém as áreas do projeto acessíveis e identifica o estado de cada etapa. Dentro da área ativa, a interface reúne as ações daquele trabalho. O especialista pode conferir uma prova e voltar aos dados sem criar outro estudo."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "entradas",
+        "label": "Dados e referências",
+        "title": "Preparar os dados com sua origem à vista",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O especialista pode inserir coordenadas, desenhar sobre o mapa ou importar arquivos. Depois, organiza as camadas do empreendimento e consulta os planos e documentos associados à análise. A lista lateral mantém a relação entre o item selecionado e sua posição no mapa.",
+              "Antes do cálculo, a janela de revisão reúne os dados dos pontos, as referências de coordenadas e altitude, o aeródromo, a pista e seu perfil. As pendências ajudam a identificar o que falta; o especialista precisa conferir os dados técnicos para continuar."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "dados"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O estudo usado nas capturas contém 20 vértices, 82 pontos de borda e 218 pontos internos. Essas quantidades descrevem a amostragem desta demonstração. A interface distingue os vértices do projeto das amostras complementares da área."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "analise",
+        "label": "Mapa e análise",
+        "title": "Separar a localização do plano do resultado calculado",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "No mapa, o especialista confere o empreendimento, as camadas e os planos relacionados à área. No painel de resultado, consulta a superfície determinante, a altitude limite, a altura máxima e a margem da proposta analisada.",
+              "A interface separa a interseção geométrica do resultado normativo. Um plano encontrado sobre a área ainda precisa ser avaliado com os dados do estudo. Essa distinção evita tratar a presença do plano como conclusão sobre a edificação."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "mapa"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Ao abrir o resultado, o especialista encontra os pontos organizados com seu tipo, estado e valores. A leitura por margem permite localizar as condições que merecem atenção, preservando a consulta dos demais pontos."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "resultado"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "leitura",
+        "label": "Ler uma altura",
+        "title": "Relacionar terreno, topo, limite e margem",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Altitude e altura respondem a perguntas diferentes. A altitude situa o terreno, o topo e o limite em uma referência comum. A altura mede a distância a partir da base. Na interface, o especialista precisa distinguir esses valores para explicar o que pode concluir sobre a proposta.",
+              "No exemplo abaixo, os três vértices têm a mesma base e a mesma altura proposta. O limite muda conforme a posição do ponto. Selecione um vértice para acompanhar essa diferença nos valores da rodada salva."
+            ]
+          },
+          {
+            "type": "agastudio-reading",
+            "points": [
+              {
+                "id": "V1",
+                "originId": "P19",
+                "base": 27,
+                "top": 37.5,
+                "limit": 49.116,
+                "height": 10.5,
+                "maxHeight": 22.116,
+                "margin": 11.616,
+                "status": "VIAVEL"
+              },
+              {
+                "id": "V2",
+                "originId": "P20",
+                "base": 27,
+                "top": 37.5,
+                "limit": 57.748,
+                "height": 10.5,
+                "maxHeight": 30.748,
+                "margin": 20.248,
+                "status": "VIAVEL"
+              },
+              {
+                "id": "V3",
+                "originId": "P21",
+                "base": 27,
+                "top": 37.5,
+                "limit": 61.207,
+                "height": 10.5,
+                "maxHeight": 34.207,
+                "margin": 23.707,
+                "status": "VIAVEL"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "No vértice V1, identificado na origem como P19, a base está em 27,00 m e o topo proposto em 37,50 m. O resultado registra altitude limite de 49,12 m, altura máxima de 22,12 m e margem de 11,62 m. Esses valores descrevem esse ponto e essa rodada; a leitura do conjunto depende dos demais resultados."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "provas",
+        "label": "Conferência técnica",
+        "title": "Conferir a conclusão por outras vistas",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A lista de provas técnicas oferece mapa, perfil, análise individual e tabelas da mesma rodada. O especialista escolhe a representação que ajuda a verificar uma dúvida, mantendo o vínculo com os dados analisados.",
+              "O perfil relaciona pista, terreno, edificações e superfícies em um corte. Na análise por ponto, a representação vertical aproxima a altitude limite da altura disponível a partir da base."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "perfil"
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "pontos"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O perfil acima é o arquivo vetorial original do estudo salvo. A apresentação preserva seus valores e sua composição; a galeria permite ampliá-lo para conferência."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "modelo",
+        "label": "Exploração em 3D",
+        "title": "Explorar as relações espaciais sem alterar o cálculo",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O modelo 3D permite orbitar a cena, alternar vistas e consultar pontos. O especialista pode aproximar o empreendimento, comparar sua posição com as superfícies e voltar ao enquadramento geral.",
+              "Os controles de camadas e superfícies ajudam a reduzir a sobreposição visual. A opção de mostrar apenas as mais restritivas concentra a leitura nas condições que determinam os menores limites do projeto."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "consulta-3d"
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "superficies"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A consulta exibe os valores da rodada. A navegação e a visibilidade das camadas mudam a apresentação, preservando o cálculo. Nesta demonstração, o relevo de contexto permanece identificado como aproximado e tem função de visualização."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "relatorio",
+        "label": "Conclusão e revisão",
+        "title": "Levar uma conclusão conferível ao cliente",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "No relatório, o especialista reúne identificação do estudo, fontes, premissas, método, resultados e provas que sustentam a conclusão. A navegação por capítulos permite revisar partes do documento antes de imprimir ou exportar.",
+              "O profissional pode revisar os textos narrativos previstos no relatório. Os valores calculados continuam vinculados à rodada. Quando uma entrada técnica muda, precisa reconhecer o resultado anterior como histórico e gerar as entregas da nova análise."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "relatorio"
+            ]
+          },
+          {
+            "type": "table",
+            "caption": "Informações que precisam continuar claras durante a revisão",
+            "columns": [
+              "Situação",
+              "Orientação para o especialista"
+            ],
+            "rows": [
+              [
+                "Dados incompletos",
+                "Conferir as pendências e suas fontes antes de calcular."
+              ],
+              [
+                "Resultado disponível",
+                "Identificar os dados e as condições daquela rodada."
+              ],
+              [
+                "Dados técnicos alterados",
+                "Recalcular e revisar as entregas que dependiam dos valores anteriores."
+              ],
+              [
+                "Relatório preparado",
+                "Conferir a conclusão, as premissas e as provas antes da emissão."
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "avaliacao",
+        "label": "Aprendizados e avaliação",
+        "title": "Avaliar se o especialista consegue explicar a decisão",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O recorte reúne três decisões de interface: manter os dados e suas referências acessíveis, oferecer formas complementares de conferir o resultado e conservar a relação entre análise e relatório.",
+              "As capturas demonstram o fluxo existente em uma cópia de estudo salvo. A avaliação com profissionais ainda é uma etapa a realizar, com atenção às interpretações que podem mudar a decisão."
+            ]
+          },
+          {
+            "type": "list",
+            "items": [
+              "Preparar um estudo e localizar uma pendência sem perder os dados já informados.",
+              "Explicar a diferença entre interseção geométrica e resultado calculado.",
+              "Identificar a altura máxima, a altitude limite e a margem de um ponto.",
+              "Relacionar o mesmo ponto na tabela e no modelo 3D, reconhecendo seu identificador de origem.",
+              "Reconhecer uma alteração que exige recálculo e revisar a conclusão destinada ao cliente."
+            ]
+          }
+        ]
+      }
+    ],
+    "endnote": "Capturas de uma cópia de estudo existente. Os resultados exibidos se limitam aos dados daquela rodada. O relevo de contexto do modelo 3D tem função de visualização e permanece identificado como aproximado."
+  }
+}

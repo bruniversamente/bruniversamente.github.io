@@ -34,6 +34,7 @@
       const mobile=node('details','story-nav-mobile'),summary=node('summary','','Capítulos'),label=node('span','story-current-label',story.chapters[0].label);currentLabels.push(label);summary.append(label);mobile.append(summary,createLinks());aside.append(desktop,mobile);layout.append(aside);
     }
     function block(item){
+      if(item.type==='agastudio-reading')return window.agastudioCase.renderReading(item,events.signal);
       if(item.type==='reservation-journey')return window.reservationCase.renderJourney(item,events.signal);
       if(['analysis','method','reading','decisions'].includes(item.type))return window.projectAnalysis.render(item,data.analysisData,events.signal);
       if(item.type==='board'){

@@ -1,0 +1,33 @@
+/* AGAStudio case: the portfolio's Inter, hairlines and rectangular controls. */
+.agastudio-opening{margin:3.2rem 0 0}
+.agastudio-case-hero .case-figure{margin:0}
+.agastudio-case-hero .case-media-trigger{aspect-ratio:8/5}
+.agastudio-case-hero img{object-fit:contain!important}
+.agastudio-intent{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3.2rem;margin:3.2rem 0;border-block:1px solid var(--muted);padding:2.4rem 0}
+.agastudio-label{font-size:1.2rem;line-height:1.4;text-transform:uppercase;color:var(--muted);margin:0 0 1.2rem}
+.agastudio-intent h3{font-size:2.4rem;font-weight:400;line-height:1.2;margin:0 0 1.6rem}
+.agastudio-intent p:not(.agastudio-label){font-size:1.7rem;line-height:1.55;max-width:35rem}
+.agastudio-reading{margin:3.2rem 0 4rem;border:1px solid var(--muted);padding:2.4rem;--aga-cyan:#61b3c7;--aga-amber:#d6a65d}
+.agastudio-reading-heading h3{font-size:2.6rem;line-height:1.2;font-weight:400;margin:0 0 2.4rem}
+.agastudio-point-controls{display:flex;flex-wrap:wrap;gap:.6rem;padding-bottom:2.4rem;border-bottom:1px solid var(--muted)}
+.agastudio-point-controls .button{min-height:3.8rem;font-size:1.2rem}
+.agastudio-point-controls .button[aria-pressed=true]{background:var(--ink);color:var(--paper)}
+.agastudio-reading-body{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(19rem,1fr);gap:3.2rem;align-items:center;padding:2.4rem 0}
+.agastudio-height-figure{margin:0;min-width:0}
+.agastudio-height-figure svg{display:block;width:100%;height:auto;overflow:visible}
+.agastudio-height-figure svg line{fill:none;stroke-width:1.6}
+.aga-ground,.aga-top{stroke:var(--muted)}
+.aga-limit{stroke:var(--aga-cyan);stroke-dasharray:8 5}
+.aga-building{fill:color-mix(in srgb,var(--ink) 12%,transparent);stroke:var(--ink);stroke-width:1.4}
+.aga-margin{stroke:var(--aga-amber)}
+.aga-svg-label{font:18px Inter,Arial,sans-serif;fill:var(--ink)}
+.aga-margin-label{fill:var(--aga-amber)}
+.agastudio-current-point{font-size:1.3rem;color:var(--muted);margin:0 0 1.2rem}
+.agastudio-values{margin:0}
+.agastudio-values>div{border-top:1px solid var(--muted);padding:1.2rem 0}
+.agastudio-values dt{font-size:1.3rem;line-height:1.4;color:var(--muted);margin-bottom:.6rem}
+.agastudio-values dd{font-size:2.5rem;line-height:1.1;margin:0;font-variant-numeric:tabular-nums}
+.agastudio-value-context,.agastudio-reading-note{font-size:1.3rem!important;line-height:1.5!important;color:var(--muted);margin:1rem 0 0}
+.agastudio-reading-note{padding-top:1.6rem;border-top:1px solid var(--muted)}
+@media(max-width:1000px){.agastudio-reading-body{grid-template-columns:1fr;gap:1.6rem}.agastudio-values{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.6rem}.agastudio-values dd{font-size:2.3rem}}
+@media(max-width:700px){.agastudio-intent{grid-template-columns:1fr;gap:2.4rem}.agastudio-intent p:not(.agastudio-label){max-width:none}.agastudio-reading{padding:1.6rem}.agastudio-reading-heading h3{font-size:2.3rem}.agastudio-point-controls{padding-bottom:1.6rem}.agastudio-values{grid-template-columns:1fr}.agastudio-values>div{display:flex;justify-content:space-between;align-items:center;gap:1rem}.agastudio-values dt{margin:0;max-width:15rem}.agastudio-values dd{font-size:2.4rem;white-space:nowrap}.aga-svg-label{font-size:28px}.agastudio-height-figure{margin-inline:-.3rem}}

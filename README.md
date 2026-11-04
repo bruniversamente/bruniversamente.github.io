@@ -2,6 +2,12 @@
 
 Portfólio estático em https://bruniversamente.github.io/, com home de áreas, índice, busca, filtros, páginas de projeto, capítulos e galeria ampliada.
 
+## AGAStudio · Produtos digitais
+
+Bruno autorizou a publicação do case AGAStudio em 04/11/2026. A versão `agastudio-uxui-20261104` reúne cinco áreas e 63 projetos, com três em Produtos digitais. O case “Do terreno à decisão de projeto” tem nove capítulos, oito capturas nativas de 1921 × 983 pixels, um perfil vetorial original e uma leitura interativa de três vértices da mesma análise salva. As imagens ampliadas usam WebP sem perdas. Endereço: https://bruniversamente.github.io/?area=produtos&project=produtos-02.
+
+Conteúdo em `portfolio/project-data/produtos/produtos-02.json`; módulo e estilos em `portfolio/agastudio-case.js` e `portfolio/agastudio-case.css`. Os outros 62 projetos do catálogo e o estudo original foram preservados. Esta publicação inclui a apresentação do projeto no portfólio. As seções abaixo registram publicações anteriores.
+
 ## Rakestra Gestão · Produtos digitais
 
 Bruno autorizou a publicação do Rakestra Gestão em Produtos digitais em 04/11/2026. A versão `gestao-uxui-20261104` reúne cinco áreas e 62 projetos, com dois em Produtos digitais. O case acompanha cliente e funcionário em nove capítulos, com seis telas móveis no mock original do Rakestra App, três prints desktop preservados e uma jornada interativa. A capa usa o cinza `#C5C7CC` da identidade visual. Endereço: https://bruniversamente.github.io/?area=produtos&project=produtos-03.

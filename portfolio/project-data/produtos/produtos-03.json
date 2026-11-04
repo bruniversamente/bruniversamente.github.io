@@ -18,7 +18,7 @@
     },
     {
       "role": "Construção",
-      "names": "Desenvolvimento assistido por IA (vibe coding)"
+      "names": "Bruno Nascimento · desenvolvimento full stack assistido por IA (vibe coding)"
     },
     {
       "role": "Telas",
@@ -179,7 +179,12 @@
     "fullWidth": 1440,
     "fullHeight": 810
   },
-  "links": [],
+  "links": [
+    {
+      "title": "Ver desenvolvimento do produto",
+      "url": "?area=software&project=rakestra-plataforma"
+    }
+  ],
   "films": [],
   "story": {
     "navigation": true,

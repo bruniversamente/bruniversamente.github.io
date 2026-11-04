@@ -41,7 +41,7 @@ html{margin:0;padding:0;background:var(--paper);color:var(--ink);font:10px Inter
   .project-grid[data-fit-viewport=true]:not(.index-view) .project-card{height:100%;min-height:0;display:flex;flex-direction:column;align-self:stretch}
   .project-grid[data-fit-viewport=true]:not(.index-view) .project-image{flex:1;min-height:0;aspect-ratio:auto}
   .project-grid[data-fit-viewport=true]:not(.index-view) .project-card h2{flex-shrink:0}
-  .project-grid[data-fit-viewport=true]:not(.index-view) .project-description{flex-shrink:0;min-height:1.56rem}
+  .project-grid[data-fit-viewport=true]:not(.index-view) .project-description{flex-shrink:0;height:1.56rem;min-height:1.56rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 }
 .bottom-panel{height:var(--bottom);position:fixed;inset:auto 0 0;z-index:30;padding-block:var(--margin-s);background:var(--paper)}
 .bottom-inner{height:100%;margin-inline:var(--margin-s);padding-top:var(--margin-s);border-top:1px solid var(--ink);display:flex;align-items:center;justify-content:space-between}

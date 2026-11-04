@@ -1,3 +1,15 @@
+# Seis áreas · 04/11/2026
+
+Versão `seis-areas-20261104`: Beleza; Design e direção criativa; UX/UI e Web Design; Desenvolvimento de software; Dados e BI; Consultoria Aeronáutica. A organização foi aprovada por Bruno para publicação.
+
+Desenvolvimento apresenta Rakestra (App e Gestão), AGAStudio e website EasyAGA em três cases técnicos. UX/UI preserva os três estudos existentes e acrescenta o Web Design da EasyAGA. As pranchas de identidade visual permanecem em Design. O catálogo tem 67 apresentações; os produtos compartilhados entre áreas estão identificados por recorte e conectados por links. Essas apresentações não representam 67 produtos distintos.
+
+A porta 8776 acompanha a versão publicada. Trabalhos ainda em revisão usam outra prévia; depois da publicação, a base canônica avança para o mesmo commit do Pages.
+
+Os registros abaixo são históricos.
+
+---
+
 # Bruno Nascimento · Portfólio
 
 Portfólio estático em https://bruniversamente.github.io/, com home de áreas, índice, busca, filtros, páginas de projeto, capítulos e galeria ampliada.

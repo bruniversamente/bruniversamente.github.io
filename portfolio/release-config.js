@@ -6,7 +6,7 @@
     url.hash='';history.replaceState(history.state,'',url);
   }
   if(url.hash==='#cases'){url.searchParams.set('area','dados');url.hash='';history.replaceState(history.state,'',url);}
-  if(url.searchParams.has('area')&&!['dados','design','consultoria','beleza','produtos'].includes(url.searchParams.get('area'))){
+  if(url.searchParams.has('area')&&!['dados','design','consultoria','beleza','produtos','software'].includes(url.searchParams.get('area'))){
     url.searchParams.delete('area');url.searchParams.delete('project');url.searchParams.delete('view');
     history.replaceState(history.state,'',url);
   }else if(!url.searchParams.has('area')&&/^dados-0[1-5]$/.test(url.searchParams.get('project')||'')){

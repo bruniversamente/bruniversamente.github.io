@@ -18,7 +18,7 @@
     },
     {
       "role": "Construção",
-      "names": "Desenvolvimento assistido por IA (vibe coding)"
+      "names": "Bruno Nascimento · desenvolvimento full stack assistido por IA (vibe coding)"
     },
     {
       "role": "Base desta apresentação",
@@ -166,7 +166,12 @@
     "alt": "AGAStudio · Do terreno à decisão de projeto. Capa com vista real do modelo 3D do estudo.",
     "caption": "AGAStudio · estudo de UX/UI de viabilidade aeronáutica."
   },
-  "links": [],
+  "links": [
+    {
+      "title": "Ver desenvolvimento do produto",
+      "url": "?area=software&project=agastudio-software"
+    }
+  ],
   "films": [],
   "story": {
     "navigation": true,

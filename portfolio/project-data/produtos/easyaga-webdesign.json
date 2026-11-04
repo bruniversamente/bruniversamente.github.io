@@ -1,0 +1,181 @@
+{
+  "area": "produtos",
+  "id": "easyaga-webdesign",
+  "title": "EasyAGA",
+  "subtitle": "Do cenário do visitante ao serviço adequado",
+  "tags": [
+    "Web Design",
+    "UX/UI",
+    "Web responsiva"
+  ],
+  "intro": "O Web Design da EasyAGA organiza serviços técnicos para quem chega com uma necessidade de obra, terreno ou heliponto. Este recorte apresenta a estrutura da navegação, a hierarquia das páginas e sua adaptação ao celular.",
+  "sections": [],
+  "credits": [
+    {
+      "role": "Web Design e conteúdo",
+      "names": "Bruno Nascimento"
+    }
+  ],
+  "credit": "",
+  "media": [
+    {
+      "type": "image",
+      "alt": "EasyAGA · Branding e Web Design",
+      "width": 1354,
+      "height": 782,
+      "src": "portfolio/assets/design/easyaga-branding-feed/01-site-home-desktop-ea7eed273f/original.jpg",
+      "srcset": "portfolio/assets/design/easyaga-branding-feed/01-site-home-desktop-ea7eed273f/original.jpg 1354w",
+      "id": "web-0",
+      "caption": "Website EasyAGA · captura da interface implementada."
+    },
+    {
+      "type": "image",
+      "alt": "EasyAGA · Branding e Web Design",
+      "width": 1354,
+      "height": 782,
+      "src": "portfolio/assets/design/easyaga-branding-feed/02-site-helipontos-desktop-3e646d479b/original.jpg",
+      "srcset": "portfolio/assets/design/easyaga-branding-feed/02-site-helipontos-desktop-3e646d479b/original.jpg 1354w",
+      "id": "web-1",
+      "caption": "Website EasyAGA · captura da interface implementada."
+    },
+    {
+      "id": "mobile-0",
+      "type": "image",
+      "src": "portfolio/assets/editorial/easyaga-branding/07-site-home-mobile-35b0aa4078/original.jpg",
+      "width": 375,
+      "height": 845,
+      "alt": "Website EasyAGA no celular",
+      "caption": "Website EasyAGA · navegação e conteúdo em tela menor."
+    },
+    {
+      "id": "mobile-1",
+      "type": "image",
+      "src": "portfolio/assets/editorial/easyaga-branding/08-site-helipontos-mobile-5414a390ab/original.jpg",
+      "width": 375,
+      "height": 845,
+      "alt": "Website EasyAGA no celular",
+      "caption": "Website EasyAGA · navegação e conteúdo em tela menor."
+    }
+  ],
+  "cover": {
+    "type": "image",
+    "alt": "EasyAGA · Branding e Web Design",
+    "width": 1354,
+    "height": 782,
+    "src": "portfolio/assets/design/easyaga-branding-feed/01-site-home-desktop-ea7eed273f/original.jpg",
+    "srcset": "portfolio/assets/design/easyaga-branding-feed/01-site-home-desktop-ea7eed273f/original.jpg 1354w",
+    "id": "web-0",
+    "caption": "Website EasyAGA · captura da interface implementada."
+  },
+  "links": [
+    {
+      "title": "EasyAGA · desenvolvimento web",
+      "url": "?area=software&project=easyaga-website"
+    },
+    {
+      "title": "EasyAGA · identidade visual",
+      "url": "?area=design&project=easyaga-branding"
+    }
+  ],
+  "films": [],
+  "story": {
+    "navigation": true,
+    "notice": "Website implementado · estudo de Web Design",
+    "role": "Bruno Nascimento · organização do conteúdo, fluxos e direção visual.",
+    "chapters": [
+      {
+        "id": "contexto",
+        "label": "Cenários de entrada",
+        "title": "Começar pela necessidade do visitante",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A página inicial apresenta caminhos relacionados aos cenários de quem procura a consultoria. O visitante pode reconhecer seu problema antes de se aprofundar nos nomes técnicos dos serviços.",
+              "O recorte examina essa organização e a interface implementada. Os materiais não registram pesquisa com usuários ou resultados de testes de usabilidade."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "navegacao",
+        "label": "Navegação",
+        "title": "Aproximar cenário, serviço e contato",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A organização permite começar pelo contexto e consultar escopo, etapas e projetos. A página de serviço reúne informações para orientar o primeiro contato com a consultoria."
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              "Reconhecer o cenário na página inicial.",
+              "Consultar o serviço relacionado.",
+              "Entender escopo e etapas.",
+              "Ver exemplos de projetos.",
+              "Entrar em contato para apresentar o caso."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "web-0",
+              "web-1"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "hierarquia",
+        "label": "Hierarquia visual",
+        "title": "Dar espaço à informação técnica",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Títulos, textos de apoio e botões organizam o percurso de leitura. A marca e sua paleta mantêm a relação com os documentos e a comunicação institucional.",
+              "As pranchas de identidade visual permanecem na área de Design e direção criativa. Aqui, as telas apresentam a experiência de navegação do website."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "celular",
+        "label": "Uso no celular",
+        "title": "Conservar os caminhos em uma tela menor",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O menu recolhido, os títulos e os blocos de serviço acomodam a navegação no celular. O conteúdo mantém sua hierarquia e os caminhos de contato."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "mobile-0",
+              "mobile-1"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "avaliacao",
+        "label": "Avaliação",
+        "title": "Conferir compreensão e navegação",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Uma próxima avaliação com visitantes deve examinar se reconhecem seu cenário, entendem qual serviço consultar e encontram as informações para iniciar o contato.",
+              "Essas perguntas orientam a avaliação do design. A apresentação não presume que a interface já foi validada por participantes."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

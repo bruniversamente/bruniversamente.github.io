@@ -1,0 +1,203 @@
+{
+  "area": "software",
+  "id": "rakestra-plataforma",
+  "title": "Rakestra",
+  "subtitle": "Aplicativo, gestão e serviços conectados",
+  "tags": [
+    "Full stack",
+    "Aplicativos",
+    "APIs",
+    "React Native",
+    "Next.js"
+  ],
+  "intro": "Criei o Rakestra para conectar a experiência de quem joga à operação de clubes e academias. O desenvolvimento reúne um aplicativo móvel, interfaces web de gestão e serviços que organizam usuários, reservas e informações operacionais. Este case apresenta a construção dessas partes com desenvolvimento assistido por IA.",
+  "sections": [],
+  "credits": [
+    {
+      "role": "Concepção e desenvolvimento",
+      "names": "Bruno Nascimento · desenvolvimento assistido por IA (vibe coding)"
+    }
+  ],
+  "credit": "",
+  "media": [
+    {
+      "id": "rakestra-tech-0",
+      "type": "image",
+      "src": "portfolio/assets/rakestra-gestao/visao-clube-960w.webp",
+      "width": 960,
+      "height": 600,
+      "srcset": "portfolio/assets/rakestra-gestao/visao-clube-640w.webp 640w, portfolio/assets/rakestra-gestao/visao-clube-960w.webp 960w, portfolio/assets/rakestra-gestao/visao-clube-1440w.webp 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/rakestra-gestao/visao-clube-full.webp",
+      "fullWidth": 1440,
+      "fullHeight": 900,
+      "alt": "Rakestra Gestão: visão geral do clube, reservas, pendências e atalhos da operação.",
+      "caption": "Clube · reservas e pendências em uma visão geral. Dados de demonstração."
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/8fd3b93d27a4732220d5-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "rakestra-tech-1",
+      "alt": "Atletas · Simples",
+      "caption": "Atletas · Simples"
+    },
+    {
+      "id": "rakestra-tech-2",
+      "type": "image",
+      "src": "portfolio/assets/rakestra-gestao/recepcao-960w.webp",
+      "width": 960,
+      "height": 600,
+      "srcset": "portfolio/assets/rakestra-gestao/recepcao-640w.webp 640w, portfolio/assets/rakestra-gestao/recepcao-960w.webp 960w, portfolio/assets/rakestra-gestao/recepcao-1440w.webp 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/rakestra-gestao/recepcao-full.webp",
+      "fullWidth": 1440,
+      "fullHeight": 900,
+      "alt": "Recepção do clube com chegadas, participantes, horário, quadra e situação de cobrança.",
+      "caption": "Recepção · presença, acesso e cobrança têm estados próprios. Dados demonstrativos."
+    }
+  ],
+  "cover": {
+    "id": "rakestra-tech-0",
+    "type": "image",
+    "src": "portfolio/assets/rakestra-gestao/visao-clube-960w.webp",
+    "width": 960,
+    "height": 600,
+    "srcset": "portfolio/assets/rakestra-gestao/visao-clube-640w.webp 640w, portfolio/assets/rakestra-gestao/visao-clube-960w.webp 960w, portfolio/assets/rakestra-gestao/visao-clube-1440w.webp 1440w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+    "fullSrc": "portfolio/assets/rakestra-gestao/visao-clube-full.webp",
+    "fullWidth": 1440,
+    "fullHeight": 900,
+    "alt": "Rakestra Gestão: visão geral do clube, reservas, pendências e atalhos da operação.",
+    "caption": "Clube · reservas e pendências em uma visão geral. Dados de demonstração."
+  },
+  "links": [
+    {
+      "title": "Rakestra App · estudo de UX/UI",
+      "url": "?area=produtos&project=produtos-01"
+    },
+    {
+      "title": "Rakestra Gestão · estudo de UX/UI",
+      "url": "?area=produtos&project=produtos-03"
+    }
+  ],
+  "films": [],
+  "story": {
+    "navigation": true,
+    "notice": "Projeto autoral · desenvolvimento de software",
+    "role": "Bruno Nascimento · concepção do produto, interfaces e desenvolvimento full stack assistido por IA.",
+    "chapters": [
+      {
+        "id": "produto",
+        "label": "Produto e atuação",
+        "title": "Construir as partes de uma plataforma",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O aplicativo e a gestão atendem pessoas com necessidades diferentes. O jogador consulta informações e organiza sua atividade; a equipe do clube precisa acompanhar o estabelecimento. A construção exige relacionar as telas às regras e aos dados de cada operação.",
+              "Minha atuação reúne concepção do produto, definição de requisitos e fluxos, direção visual e desenvolvimento assistido por IA. O recorte técnico aqui acompanha a ligação entre interfaces, API e persistência. Os estudos de UX/UI apresentam as jornadas em detalhe."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "rakestra-tech-1"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "arquitetura",
+        "label": "Arquitetura",
+        "title": "Do aplicativo e da web aos serviços",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O aplicativo usa React Native e Expo. A experiência web usa React e Next.js. O servidor expõe rotas para as interfaces e organiza operações por módulos. O código de usuários e reservas consultado utiliza MongoDB.",
+              "Essa separação permite explicar onde uma ação começa, quais dados ela envia e qual parte do sistema precisa conferir o pedido. Cada cliente apresenta sua interface, enquanto a API aplica os controles necessários à operação."
+            ]
+          },
+          {
+            "type": "list",
+            "ordered": true,
+            "items": [
+              "Interface móvel ou web: recebe a ação e apresenta seu estado.",
+              "Camada de serviço: prepara a solicitação e chama a API.",
+              "Servidor: confere autorização, parâmetros e regras da operação.",
+              "Persistência: consulta ou atualiza os registros relacionados.",
+              "Resposta: devolve os dados para a interface apresentar o resultado."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "api",
+        "label": "API e acesso",
+        "title": "Consultar reservas dentro do clube autorizado",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A rota de consulta de reservas recebe a identificação do clube. Antes de consultar os registros, chama a autorização para o escopo reservations:read e vincula a operação ao estabelecimento solicitado.",
+              "A consulta utiliza limite e cursor, ordena os registros e devolve uma resposta paginada. O retorno identifica clube, arena, quadra, estado, origem, início, fim, fuso horário, valor e moeda. Esses campos permitem que outra parte da plataforma interprete a reserva sem depender da composição visual de uma tela.",
+              "Esse percurso está implementado em server/app/api/v1/clubs/[clubId]/reservations/route.ts. A implementação diferencia o ambiente de demonstração e encaminha falhas para o tratamento de erros da API."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dados",
+        "label": "Dados e integração",
+        "title": "Relacionar a reserva à operação",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O modelo de reserva relaciona estabelecimento, arena e quadra. Horários carregam início, fim e fuso; valores usam centavos e uma moeda identificada. A interface precisa interpretar esses dados de acordo com o contexto apresentado ao usuário.",
+              "No fluxo do cliente, a escolha de quadra e horário precisa chegar ao atendimento do clube com identificação suficiente para acompanhamento. As telas a seguir registram essa experiência. A apresentação técnica distingue o contrato de dados do desenho da jornada."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "rakestra-tech-0",
+              "rakestra-tech-2"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "falhas",
+        "label": "Validações e falhas",
+        "title": "Tratar o caminho além da resposta esperada",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O servidor de usuários contém leitura e validação do pedido, autenticação e atualização dos dados. Na consulta de reservas, a autorização e a paginação antecedem a leitura. As respostas de erro precisam conservar um significado que a interface consiga apresentar.",
+              "A revisão do produto considera carregamento, recusa conhecida e falha de comunicação como estados diferentes. Comprovar resistência a concorrência, comportamento em dispositivos e desempenho exige verificações específicas; a existência das rotas não representa aprovação global do sistema."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "entrega",
+        "label": "Entrega e continuidade",
+        "title": "Manter o produto verificável",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A evolução envolve conferir contratos entre aplicativo, web e servidor e registrar o que foi alterado. Um ajuste em uma tela pode exigir mudanças em validações ou nas informações retornadas pela API.",
+              "Os recortes de UX/UI vinculados abaixo mostram descoberta e convite no App e reserva no Gestão. Aqui, o foco é a construção da plataforma. Esta apresentação não atribui usuários ativos, receita ou ganhos de desempenho sem medição."
+            ]
+          }
+        ]
+      }
+    ],
+    "endnote": "Apresentação baseada no código e nos materiais do projeto. As telas demonstrativas documentam o produto; resultados de desempenho ou adoção dependem de medições próprias."
+  }
+}

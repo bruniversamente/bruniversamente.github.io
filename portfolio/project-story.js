@@ -48,7 +48,13 @@
       if(item.type==='list'){const list=node(item.ordered?'ol':'ul','story-list');item.items.forEach(text=>list.append(node('li','',text)));return list;}
       if(item.type==='media'){
         const box=node('div',`story-media${item.items.length>1?' story-media--pair':''}${item.screens?' story-media--screens':''}${item.layout?' editorial-media--'+item.layout:''}`);
-        item.items.forEach(value=>{const info=typeof value==='string'?{id:value}:value,media=data.media.find(m=>m.id===info.id);if(media)box.append(figure({...media,...info}));});return box;
+        const entries=item.items.map(value=>{const info=typeof value==='string'?{id:value}:value,media=data.media.find(m=>m.id===info.id);return media?{...media,...info}:null;}).filter(Boolean);
+        if(!entries.length||(entries.length<2&&item.layout!=='promo-devices')){entries.forEach(media=>box.append(figure(media)));return box;}
+        const columns=item.layout==='three'?3:2,rows=[];
+        for(let i=0;i<entries.length;i+=columns)rows.push(entries.slice(i,i+columns));
+        const ratio=media=>media.kind==='phone'?1260/2604:(media.fullWidth||media.width)*(media.crop?.[2]||1)/((media.fullHeight||media.height)*(media.crop?.[3]||1));
+        box.classList.add('story-media--aligned');if(entries.every(media=>media.kind==='phone'))box.classList.add('story-media--handsets');box.style.setProperty('--media-ratio-sum',Math.max(...rows.map(row=>row.reduce((sum,media)=>sum+ratio(media),0))));box.style.setProperty('--media-max-ratio',Math.max(...entries.map(ratio)));box.style.setProperty('--media-gap-count',Math.min(columns,entries.length)-1);
+        rows.forEach(entries=>{const row=node('div','story-media-row');entries.forEach(media=>{const f=figure(media);f.style.setProperty('--media-ratio',ratio(media));row.append(f);});box.append(row);});return box;
       }
       if(item.type==='caption')return node('p','editorial-note',item.text);
       if(item.type==='films')return window.projectFilms.render(data.films||[],'h3',(data.films||[]).length>1);

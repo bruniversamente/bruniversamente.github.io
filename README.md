@@ -14,6 +14,8 @@ Os cinco casos de Dados e BI mantêm seu conteúdo e seus controles: Playzone, V
 
 ## Publicação
 
-Versão `editorial-20261103`. O Pages usa a branch `main` e a raiz, sem novas dependências. O leitor está em `portfolio/`. Os dashboards em `dashboards/` e os endereços anteriores em `projetos/` e `cases/` continuam disponíveis. Os arquivos de apresentações anteriores também foram preservados para manter links existentes.
+Versão `alturas-20261103`. As galerias de projetos alinham imagens e legendas em altura, com larguras proporcionais e sem novos cortes nas fontes. No celular, fotografias são organizadas verticalmente; agrupamentos de aparelhos mantêm sua composição lado a lado.
+
+O Pages usa a branch `main` e a raiz, sem novas dependências. O leitor está em `portfolio/`. Os dashboards em `dashboards/` e os endereços anteriores em `projetos/` e `cases/` continuam disponíveis. Os arquivos de apresentações anteriores também foram preservados para manter links existentes.
 
 Os JSONs em `portfolio/project-data/` são a fonte das páginas publicadas. O protótipo de seis áreas contém conteúdo experimental e não deve substituir este catálogo.

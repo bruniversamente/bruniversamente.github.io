@@ -1,0 +1,144 @@
+{
+  "videos": [
+    {
+      "file": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-backstage-2022-512011ebfd/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 10.833333,
+      "sha256": "70aa2b5b7127923c8cdb1d807a6a1e2bcbb18523b204457a69fda95dae260dae"
+    },
+    {
+      "file": "portfolio/assets/beleza/arole-natureza-artificial/natureza-artificial-01-d5fe22fd78/video.mp4",
+      "width": 640,
+      "height": 1138,
+      "duration": 30.04517,
+      "sha256": "5c36638daf5c8f14d0456fc9916e593863273348166b0c7602b1ed70c4bcf9e4"
+    },
+    {
+      "file": "portfolio/assets/beleza/arole-natureza-artificial/natureza-artificial-02-698c921d45/video.mp4",
+      "width": 640,
+      "height": 1138,
+      "duration": 14.633333,
+      "sha256": "8a0049ed4802b58470fa3d5c8b2c23bff2194bdf08f226c4c8610dfbf43dcd54"
+    },
+    {
+      "file": "portfolio/assets/beleza/arole-natureza-artificial/natureza-artificial-backstage-8e1055fd5a/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 14.953401,
+      "sha256": "3edbcc8ad6999bac2d0f2e2e21b528a10540e26eab14339864fb725ec1abf884"
+    },
+    {
+      "file": "portfolio/assets/beleza/atila-pintura-corporal/atila-timelapse-adereco-30s-catwalk-60b8567fa5/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 30.016,
+      "sha256": "0a43549a873161d8df2f1eb50b537069f4c551326737614ce1e24efd32045267"
+    },
+    {
+      "file": "portfolio/assets/beleza/atila-pintura-corporal/atila-timelapse-maquiagem-30s-catwalk-242a077da0/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 30.016,
+      "sha256": "2e1f943e128bce89ce7dc19cb84137b1d54c636b58c3087b0166f2bba165d187"
+    },
+    {
+      "file": "portfolio/assets/beleza/augusto-amparo-transmutacao-textil/backstage-beleza-2accf64494/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 45.68,
+      "sha256": "fd2fc712e46374eb4b23025f356e46e37c463531358540b0c9e6d70f7b3b0725"
+    },
+    {
+      "file": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-01-59aef1574f/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 15.396599,
+      "sha256": "6fe2c01153d5b1826a942910847f574b50d0387d649f657567d8772b29643550"
+    },
+    {
+      "file": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-02-949d5c0f51/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 15.341622,
+      "sha256": "849f77304cc9daa65a93b8e7685068f7e8453ca97d54332c8a7bc894e3d05a98"
+    },
+    {
+      "file": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-03-569296c0d1/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 15.40019,
+      "sha256": "7b6ee608ef555ecfe81ef83491fef416fcb0f9bdb6359692ce1fb55f11aa8b80"
+    },
+    {
+      "file": "portfolio/assets/beleza/headpieces-de-croche/headpieces-croche-timelapse-30s-catwalk-af3f1c1038/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 30.058667,
+      "sha256": "5e0e8a8af099438d703d2e9cf0d12718f9e5b618eb91ba19450cf90cb7006560"
+    },
+    {
+      "file": "portfolio/assets/beleza/strobo-stromboli/filme-strobo-e5621e1854/video.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 89.814785,
+      "sha256": "a531ac850bacdf011dcab6c85e6357d02b76314143faab4d8bbbdbc849286ba3"
+    },
+    {
+      "file": "portfolio/assets/beleza/strobo-stromboli/no-set-4daf508ac2/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 20.366667,
+      "sha256": "989d82d7eff0ea7463166c6ea1a12ab09bb70ec87e006ed6d8bb03dbbf1b9685"
+    },
+    {
+      "file": "portfolio/assets/beleza/strobo-stromboli/stop-motion-01dd42f48c/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 15.0,
+      "sha256": "bf9a2db2047c4c0c470556c15350062b030367e680364b4e4b8110f108ec9825"
+    },
+    {
+      "file": "portfolio/assets/beleza/strobo-stromboli/timelapse-beleza-c112afc3ff/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 78.900998,
+      "sha256": "1dfffceee6baee2ca073aa3dbbabd69fce87ba15214d8b6af2ca7d4a028d3fdb"
+    },
+    {
+      "file": "portfolio/assets/beleza/vetor/backstage-completo-2e1be70704/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 229.436009,
+      "sha256": "8ccd23c59a30bfa59f74adfa5ac364d5e7351e96af72923dfe3c8c79179904fb"
+    },
+    {
+      "file": "portfolio/assets/beleza/vetor/editorial-final-2edb8babf5/video.mp4",
+      "width": 640,
+      "height": 1138,
+      "duration": 15.045011,
+      "sha256": "e54608dd80c2c6538cac58067844afb4b1bd62aed254cec668ce5b74afb262be"
+    },
+    {
+      "file": "portfolio/assets/beleza/yohan-beleza-editorial/backstage-01-ebb9633a58/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 21.858604,
+      "sha256": "1656230182e468df941bcfc4331f64dc112f22f728e24b98038cfd233a76758b"
+    },
+    {
+      "file": "portfolio/assets/beleza/yohan-beleza-editorial/backstage-02-57fa44aac4/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 15.142979,
+      "sha256": "9b502a90b0ec6810263a0712d8ee1c5a3ea2bbac6313cc915e801a5525f2d220"
+    },
+    {
+      "file": "portfolio/assets/beleza/yohan-beleza-editorial/backstage-03-1598044fa7/video.mp4",
+      "width": 720,
+      "height": 1280,
+      "duration": 16.796604,
+      "sha256": "1b6b9ce2102fb5c690babd840e306d4b11c0477931b4621491f9edb53ea67473"
+    }
+  ]
+}

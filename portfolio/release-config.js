@@ -1,6 +1,14 @@
 /* This release exposes the five ready areas. */
 (() => {
   const url=new URL(location.href);
+
+  if(url.searchParams.get('area')==='design'&&url.searchParams.get('project')==='rakestra-identidade'){
+    url.searchParams.set('area','produtos');history.replaceState(history.state,'',url);
+  }
+  if(['easyaga-branding','easyaga-website'].includes(url.searchParams.get('project'))){
+    url.searchParams.set('area','produtos');url.searchParams.set('project','easyaga-webdesign');
+    history.replaceState(history.state,'',url);
+  }
   if(url.searchParams.get('area')==='arquitetura'){
     url.searchParams.set('area',url.searchParams.get('project')==='tfg'?'design':'consultoria');
     url.hash='';history.replaceState(history.state,'',url);

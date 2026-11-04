@@ -1,0 +1,1070 @@
+{
+  "area": "software",
+  "id": "rakestra-gestao",
+  "title": "Rakestra Gestão",
+  "subtitle": "Sistema de gestão para clubes e arenas esportivas",
+  "tags": [
+    "Desenvolvimento web",
+    "Backend",
+    "TypeScript",
+    "Produto autoral"
+  ],
+  "intro": "Construção de uma plataforma que conecta a reserva do cliente à agenda, ao atendimento e ao financeiro do estabelecimento.",
+  "credit": "Concepção do produto e direção visual: Bruno Nascimento. Desenvolvimento assistido por IA.",
+  "credits": [],
+  "sections": [],
+  "links": [],
+  "cover": {
+    "id": "cover",
+    "type": "image",
+    "src": "portfolio/assets/software/rakestra-gestao/cover.webp",
+    "width": 1919,
+    "height": 1080,
+    "alt": "Rakestra Gestão: operação desktop e reserva pelo cliente no celular."
+  },
+  "media": [
+    {
+      "id": "overview",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-gestao/overview-960w.webp",
+      "width": 960,
+      "height": 600,
+      "srcset": "portfolio/assets/software/rakestra-gestao/overview-640w.webp 640w, portfolio/assets/software/rakestra-gestao/overview-960w.webp 960w, portfolio/assets/software/rakestra-gestao/overview-1440w.webp 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/rakestra-gestao/overview-full.webp",
+      "fullWidth": 1440,
+      "fullHeight": 900,
+      "alt": "Visão geral do clube",
+      "caption": "Reservas, pendências e atalhos da operação."
+    },
+    {
+      "id": "schedule",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-gestao/schedule-960w.webp",
+      "width": 960,
+      "height": 720,
+      "srcset": "portfolio/assets/software/rakestra-gestao/schedule-640w.webp 640w, portfolio/assets/software/rakestra-gestao/schedule-960w.webp 960w, portfolio/assets/software/rakestra-gestao/schedule-1280w.webp 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/rakestra-gestao/schedule-full.webp",
+      "fullWidth": 1280,
+      "fullHeight": 2335,
+      "alt": "Agenda de ocupação",
+      "caption": "Reservas, bloqueios e horários na agenda do estabelecimento."
+    },
+    {
+      "id": "reception",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-gestao/reception-960w.webp",
+      "width": 960,
+      "height": 600,
+      "srcset": "portfolio/assets/software/rakestra-gestao/reception-640w.webp 640w, portfolio/assets/software/rakestra-gestao/reception-960w.webp 960w, portfolio/assets/software/rakestra-gestao/reception-1440w.webp 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/rakestra-gestao/reception-full.webp",
+      "fullWidth": 1440,
+      "fullHeight": 900,
+      "alt": "Recepção do clube",
+      "caption": "Chegadas, presença e pendências de atendimento."
+    },
+    {
+      "id": "members",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-gestao/members-960w.webp",
+      "width": 960,
+      "height": 720,
+      "srcset": "portfolio/assets/software/rakestra-gestao/members-640w.webp 640w, portfolio/assets/software/rakestra-gestao/members-960w.webp 960w, portfolio/assets/software/rakestra-gestao/members-1280w.webp 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/rakestra-gestao/members-full.webp",
+      "fullWidth": 1280,
+      "fullHeight": 1189,
+      "alt": "Planos de associação",
+      "caption": "Categorias de sócios, condições e estado do plano."
+    },
+    {
+      "id": "membership",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-gestao/membership-960w.webp",
+      "width": 960,
+      "height": 720,
+      "srcset": "portfolio/assets/software/rakestra-gestao/membership-640w.webp 640w, portfolio/assets/software/rakestra-gestao/membership-960w.webp 960w, portfolio/assets/software/rakestra-gestao/membership-1280w.webp 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/rakestra-gestao/membership-full.webp",
+      "fullWidth": 1280,
+      "fullHeight": 1148,
+      "alt": "Vínculo do sócio",
+      "caption": "Identificação do vínculo e das condições de acesso."
+    },
+    {
+      "id": "teaching",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-gestao/teaching-960w.webp",
+      "width": 960,
+      "height": 667,
+      "srcset": "portfolio/assets/software/rakestra-gestao/teaching-640w.webp 640w, portfolio/assets/software/rakestra-gestao/teaching-960w.webp 960w, portfolio/assets/software/rakestra-gestao/teaching-1440w.webp 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/rakestra-gestao/teaching-full.webp",
+      "fullWidth": 1440,
+      "fullHeight": 1000,
+      "alt": "Alunos no módulo de ensino",
+      "caption": "Consulta e acompanhamento de alunos no estabelecimento."
+    },
+    {
+      "id": "lesson",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-gestao/lesson-960w.webp",
+      "width": 960,
+      "height": 720,
+      "srcset": "portfolio/assets/software/rakestra-gestao/lesson-640w.webp 640w, portfolio/assets/software/rakestra-gestao/lesson-960w.webp 960w, portfolio/assets/software/rakestra-gestao/lesson-1440w.webp 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/rakestra-gestao/lesson-full.webp",
+      "fullWidth": 1440,
+      "fullHeight": 1100,
+      "alt": "Configuração de atividade de ensino",
+      "caption": "Professor, serviço e informações de uma atividade."
+    },
+    {
+      "id": "competition",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-gestao/competition-960w.webp",
+      "width": 960,
+      "height": 667,
+      "srcset": "portfolio/assets/software/rakestra-gestao/competition-640w.webp 640w, portfolio/assets/software/rakestra-gestao/competition-960w.webp 960w, portfolio/assets/software/rakestra-gestao/competition-1440w.webp 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/rakestra-gestao/competition-full.webp",
+      "fullWidth": 1440,
+      "fullHeight": 1000,
+      "alt": "Pagamentos de torneios na gestão",
+      "caption": "Inscrições consultadas na origem, com seus estados financeiros preservados."
+    },
+    {
+      "id": "ranking",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-gestao/ranking-960w.webp",
+      "width": 960,
+      "height": 540,
+      "srcset": "portfolio/assets/software/rakestra-gestao/ranking-640w.webp 640w, portfolio/assets/software/rakestra-gestao/ranking-960w.webp 960w, portfolio/assets/software/rakestra-gestao/ranking-1280w.webp 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/rakestra-gestao/ranking-full.webp",
+      "fullWidth": 1280,
+      "fullHeight": 720,
+      "alt": "Ranking interno do clube",
+      "caption": "Consulta da classificação no contexto da categoria."
+    },
+    {
+      "id": "finance",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-gestao/finance-960w.webp",
+      "width": 960,
+      "height": 720,
+      "srcset": "portfolio/assets/software/rakestra-gestao/finance-640w.webp 640w, portfolio/assets/software/rakestra-gestao/finance-960w.webp 960w, portfolio/assets/software/rakestra-gestao/finance-1440w.webp 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/rakestra-gestao/finance-full.webp",
+      "fullWidth": 1440,
+      "fullHeight": 1100,
+      "alt": "Configuração financeira de reservas",
+      "caption": "Definição da forma de cobrança e das condições da reserva."
+    },
+    {
+      "id": "receipt",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-gestao/receipt-960w.webp",
+      "width": 960,
+      "height": 720,
+      "srcset": "portfolio/assets/software/rakestra-gestao/receipt-640w.webp 640w, portfolio/assets/software/rakestra-gestao/receipt-960w.webp 960w, portfolio/assets/software/rakestra-gestao/receipt-1280w.webp 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/rakestra-gestao/receipt-full.webp",
+      "fullWidth": 1280,
+      "fullHeight": 2740,
+      "alt": "Origem do recebimento",
+      "caption": "Identificação da cobrança no percurso operacional."
+    },
+    {
+      "id": "reports",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-gestao/reports-960w.webp",
+      "width": 960,
+      "height": 720,
+      "srcset": "portfolio/assets/software/rakestra-gestao/reports-640w.webp 640w, portfolio/assets/software/rakestra-gestao/reports-960w.webp 960w, portfolio/assets/software/rakestra-gestao/reports-1440w.webp 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/rakestra-gestao/reports-full.webp",
+      "fullWidth": 1440,
+      "fullHeight": 1100,
+      "alt": "Relatório salvo",
+      "caption": "Período, unidades e critérios do relatório operacional."
+    },
+    {
+      "id": "staff",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-gestao/staff-960w.webp",
+      "width": 960,
+      "height": 540,
+      "srcset": "portfolio/assets/software/rakestra-gestao/staff-640w.webp 640w, portfolio/assets/software/rakestra-gestao/staff-960w.webp 960w, portfolio/assets/software/rakestra-gestao/staff-1280w.webp 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/rakestra-gestao/staff-full.webp",
+      "fullWidth": 1280,
+      "fullHeight": 720,
+      "alt": "Equipe do estabelecimento",
+      "caption": "Convite profissional, função e contexto de atuação."
+    },
+    {
+      "id": "brand",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-gestao/brand-960w.webp",
+      "width": 960,
+      "height": 540,
+      "srcset": "portfolio/assets/software/rakestra-gestao/brand-640w.webp 640w, portfolio/assets/software/rakestra-gestao/brand-960w.webp 960w, portfolio/assets/software/rakestra-gestao/brand-1280w.webp 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/rakestra-gestao/brand-full.webp",
+      "fullWidth": 1280,
+      "fullHeight": 720,
+      "alt": "Site de reservas do clube",
+      "caption": "Personalização da apresentação pública do estabelecimento."
+    },
+    {
+      "id": "communication",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-gestao/communication-960w.webp",
+      "width": 960,
+      "height": 651,
+      "srcset": "portfolio/assets/software/rakestra-gestao/communication-640w.webp 640w, portfolio/assets/software/rakestra-gestao/communication-960w.webp 960w, portfolio/assets/software/rakestra-gestao/communication-1280w.webp 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/rakestra-gestao/communication-full.webp",
+      "fullWidth": 1280,
+      "fullHeight": 868,
+      "alt": "Comunicações do clube",
+      "caption": "Detalhes e estado de uma campanha no ambiente controlado."
+    },
+    {
+      "id": "configuration",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-gestao/configuration-960w.webp",
+      "width": 960,
+      "height": 720,
+      "srcset": "portfolio/assets/software/rakestra-gestao/configuration-640w.webp 640w, portfolio/assets/software/rakestra-gestao/configuration-960w.webp 960w, portfolio/assets/software/rakestra-gestao/configuration-1280w.webp 1280w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/rakestra-gestao/configuration-full.webp",
+      "fullWidth": 1280,
+      "fullHeight": 1498,
+      "alt": "Configuração do estabelecimento",
+      "caption": "Acesso às configurações de operação e equipe."
+    },
+    {
+      "id": "public-busca",
+      "type": "image",
+      "src": "portfolio/assets/rakestra-gestao/phone-busca-view.webp",
+      "width": 390,
+      "height": 845,
+      "sizes": "(max-width:700px) 80vw, 290px",
+      "fullSrc": "portfolio/assets/rakestra-gestao/phone-busca-full.webp",
+      "fullWidth": 390,
+      "fullHeight": 1367,
+      "alt": "Busca pública de quadras por nome do clube, cidade e esporte.",
+      "caption": "Busca pública · clube ou cidade, modalidade e acesso aos horários.",
+      "presentation": "phone",
+      "kind": "phone",
+      "deviceFrame": "portfolio/assets/rakestra-gestao/rakestra-app-frame.png"
+    },
+    {
+      "id": "public-disponibilidade",
+      "type": "image",
+      "src": "portfolio/assets/rakestra-gestao/phone-disponibilidade-view.webp",
+      "width": 390,
+      "height": 845,
+      "sizes": "(max-width:700px) 80vw, 290px",
+      "fullSrc": "portfolio/assets/rakestra-gestao/phone-disponibilidade-full.webp",
+      "fullWidth": 390,
+      "fullHeight": 2471,
+      "alt": "Disponibilidade diária com filtros de data, horário, esporte, quadra e participantes.",
+      "caption": "Dia · horários agrupados por período; intervalos indisponíveis permanecem identificados.",
+      "presentation": "phone",
+      "kind": "phone",
+      "deviceFrame": "portfolio/assets/rakestra-gestao/rakestra-app-frame.png"
+    },
+    {
+      "id": "public-dados-reserva",
+      "type": "image",
+      "src": "portfolio/assets/rakestra-gestao/phone-dados-reserva-view.webp",
+      "width": 390,
+      "height": 845,
+      "sizes": "(max-width:700px) 80vw, 290px",
+      "fullSrc": "portfolio/assets/rakestra-gestao/phone-dados-reserva-full.webp",
+      "fullWidth": 390,
+      "fullHeight": 845,
+      "alt": "Painel lateral para concluir a reserva, com quadra, horário, dados de contato, valor e sinal.",
+      "caption": "Reserva · o painel mantém a escolha visível e reúne identificação e condições.",
+      "presentation": "phone",
+      "kind": "phone",
+      "deviceFrame": "portfolio/assets/rakestra-gestao/rakestra-app-frame.png"
+    },
+    {
+      "id": "public-confirmacao",
+      "type": "image",
+      "src": "portfolio/assets/rakestra-gestao/phone-confirmacao-view.webp",
+      "width": 390,
+      "height": 845,
+      "sizes": "(max-width:700px) 80vw, 290px",
+      "fullSrc": "portfolio/assets/rakestra-gestao/phone-confirmacao-full.webp",
+      "fullWidth": 390,
+      "fullHeight": 1703,
+      "alt": "Confirmação demonstrativa: clube, quadra, endereço, horário local, código e oitenta reais a pagar no local.",
+      "caption": "Confirmação · exemplo sem sinal, com R$ 80,00 a pagar no local.",
+      "presentation": "phone",
+      "kind": "phone",
+      "deviceFrame": "portfolio/assets/rakestra-gestao/rakestra-app-frame.png"
+    },
+    {
+      "id": "architecture",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-gestao/architecture.svg",
+      "width": 1440,
+      "height": 950,
+      "alt": "Interfaces, regras e dados do Rakestra Gestão",
+      "caption": "Visão lógica das interfaces, da API, das regras e da persistência."
+    }
+  ],
+  "story": {
+    "navigation": true,
+    "notice": "Desenvolvimento de software · plataforma completa",
+    "role": "Produto autoral · interfaces, backend e dados · desenvolvimento assistido por IA",
+    "chapters": [
+      {
+        "id": "produto",
+        "label": "O sistema",
+        "title": "Uma operação esportiva conectada",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O cliente precisa encontrar uma quadra e reservar com facilidade. A equipe precisa conciliar horários, atender participantes e acompanhar o que falta receber. O Rakestra Gestão reúne essas tarefas em um sistema para clubes e arenas esportivas.",
+              "A plataforma inclui gestão web, site público de reservas e uma aplicação profissional mobile separada. Reservas, ensino, associações, competições e financeiro se conectam por referências de clube, unidade, espaço e participante."
+            ]
+          },
+          {
+            "type": "software-atlas",
+            "wide": true,
+            "label": "Explorar os módulos do Rakestra Gestão",
+            "modules": [
+              {
+                "name": "Reservas",
+                "context": "Organizar o uso das quadras",
+                "description": "Disponibilidade, retenções temporárias, reservas e bloqueios compartilham a agenda do estabelecimento.",
+                "connections": [
+                  "Unidade → quadra → horário",
+                  "Consulta → retenção → confirmação"
+                ],
+                "media": "schedule",
+                "chapter": "agenda"
+              },
+              {
+                "name": "Recepção",
+                "context": "Atender a operação do dia",
+                "description": "A equipe acompanha chegadas, participantes e pendências, mantendo o atendimento ligado à reserva e à origem da cobrança.",
+                "connections": [
+                  "Reserva → chegada e presença",
+                  "Atendimento → pendência financeira"
+                ],
+                "media": "reception",
+                "chapter": "operacao"
+              },
+              {
+                "name": "Sócios",
+                "context": "Aplicar condições de associação",
+                "description": "Planos e vínculos definem condições de acesso, dependentes e convidados dentro do contexto do clube.",
+                "connections": [
+                  "Plano → vínculo e condições",
+                  "Sócio → reserva e convidados"
+                ],
+                "media": "members",
+                "chapter": "socios"
+              },
+              {
+                "name": "Ensino",
+                "context": "Organizar atividades esportivas",
+                "description": "Professores, alunos, serviços e horários se relacionam com os espaços e com as condições da atividade.",
+                "connections": [
+                  "Atividade → professor e alunos",
+                  "Horário → ocupação na agenda"
+                ],
+                "media": "teaching",
+                "chapter": "ensino"
+              },
+              {
+                "name": "Competições",
+                "context": "Organizar participação e resultados",
+                "description": "Torneios e ranking interno conservam categorias, participantes e regras próprias de acompanhamento.",
+                "connections": [
+                  "Categoria → inscrição e confrontos",
+                  "Resultado → contexto da competição"
+                ],
+                "media": "ranking",
+                "chapter": "competicao"
+              },
+              {
+                "name": "Financeiro",
+                "context": "Conservar a origem de cada valor",
+                "description": "A operação distingue cobrança, recebimento e devolução e mantém as referências necessárias para consultar o que originou um valor.",
+                "connections": [
+                  "Reserva → cobrança identificada",
+                  "Recebimento → registro e relatório"
+                ],
+                "media": "finance",
+                "chapter": "financeiro"
+              },
+              {
+                "name": "Equipe",
+                "context": "Definir quem pode operar",
+                "description": "Funções, permissões e unidades autorizadas delimitam a atuação de cada profissional.",
+                "connections": [
+                  "Conta → vínculo profissional",
+                  "Clube e unidade → permissões"
+                ],
+                "media": "staff",
+                "chapter": "administracao"
+              },
+              {
+                "name": "Site do clube",
+                "context": "Publicar a experiência de reserva",
+                "description": "A apresentação pública leva o cliente à escolha de quadra e horário; a equipe configura a identidade e a operação do estabelecimento.",
+                "connections": [
+                  "Identidade do clube → página pública",
+                  "Cliente → reserva → equipe"
+                ],
+                "media": "brand",
+                "chapter": "cliente"
+              }
+            ]
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Cliente",
+                "text": "Consulta as opções, escolhe as condições e acompanha sua reserva pelo site do clube."
+              },
+              {
+                "title": "Funcionário",
+                "text": "Atende o participante, consulta a ocupação e trata as pendências da operação."
+              },
+              {
+                "title": "Gestor",
+                "text": "Define regras e acessos e acompanha a atividade do estabelecimento."
+              }
+            ]
+          },
+          {
+            "type": "caption",
+            "text": "As capturas desta apresentação vêm de cenários demonstrativos e ambientes controlados de desenvolvimento em 2026. Nomes de teste, valores e indicadores das telas não representam clientes ou resultados comerciais."
+          }
+        ]
+      },
+      {
+        "id": "participacao",
+        "label": "Origem e participação",
+        "title": "Da proposta de produto à construção do sistema",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O Gestão amplia o ecossistema Rakestra pelo lado de quem organiza a prática esportiva. A experiência do atleta se conecta à disponibilidade e às condições oferecidas pelo estabelecimento; a equipe precisa trabalhar com os mesmos registros que orientam o cliente.",
+              "Bruno Nascimento conduz a concepção, os fluxos e a direção visual. A construção utiliza desenvolvimento assistido por IA, com definição e revisão das funcionalidades entre interface, backend e dados."
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Responsabilidade",
+              "Participação"
+            ],
+            "rows": [
+              [
+                "Produto",
+                "Definição dos públicos, módulos e relações com o Rakestra App."
+              ],
+              [
+                "Interface",
+                "Fluxos de reserva, atendimento, configuração e consulta."
+              ],
+              [
+                "Construção",
+                "Desenvolvimento assistido por IA nas interfaces, regras e integrações."
+              ],
+              [
+                "Revisão",
+                "Conferência dos comportamentos e ajustes a partir dos problemas observados."
+              ]
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Ver o estudo de UX/UI do Gestão",
+                "url": "?area=produtos&project=produtos-03"
+              },
+              {
+                "title": "Conhecer o Rakestra App",
+                "url": "?area=software&project=rakestra-app"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "agenda",
+        "label": "Agenda e reservas",
+        "title": "Uma agenda compartilhada por atividades diferentes",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Uma quadra pode receber uma reserva, uma aula ou um bloqueio de operação. A consulta precisa considerar a unidade, a quadra e o intervalo de tempo, incluindo ocupações parciais e horários consecutivos.",
+              "O cliente consulta as opções disponíveis; a confirmação depende das regras do servidor. A implementação relaciona retenções temporárias, ocupação da agenda e criação da reserva, conferindo também quem pode executar a operação."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "schedule"
+            ]
+          },
+          {
+            "type": "gestao-availability"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O exemplo executa uma função compartilhada do produto sobre dados fictícios. Ele mostra como a consulta exclui quadras ocupadas ou fora de operação. A disputa entre gravações simultâneas e a confirmação transacional pertencem ao backend, cuja implementação está documentada no repositório."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cliente",
+        "label": "Reserva pelo cliente",
+        "title": "Do horário disponível ao acompanhamento da reserva",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O site público do clube oferece a busca por estabelecimento e a escolha das condições do encontro. No celular, o cliente consulta data, modalidade, quadra e horário, informa os dados necessários e acompanha o resultado da solicitação.",
+              "As telas preservam o contexto da escolha durante a passagem para identificação e confirmação. O valor total, o sinal e o saldo no local têm significados próprios. O contrato da cotação associa os valores à quadra, ao responsável, ao período e à versão da regra."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "public-busca",
+              "public-disponibilidade"
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "public-dados-reserva",
+              "public-confirmacao"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estas capturas apresentam o website responsivo dentro do mock de celular aprovado para o Rakestra. A confirmação demonstrativa mostra um exemplo sem sinal, com valor a pagar no local. A reserva e sua situação podem então ser consultadas pela equipe."
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Explorar o percurso de UX/UI",
+                "url": "?area=produtos&project=produtos-03"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "operacao",
+        "label": "Recepção e operação",
+        "title": "Atender sem perder a referência do que aconteceu",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A recepção organiza as chegadas, a presença e as pendências do dia. O funcionário precisa reconhecer a reserva, os participantes e a situação do atendimento antes de executar a ação adequada.",
+              "Presença, ocupação e pagamento são informações distintas. O percurso de cobrança conserva a identidade da reserva e da fatura para que o recebimento corresponda à obrigação consultada."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "reception"
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Parte da operação",
+              "Informação que precisa continuar identificada"
+            ],
+            "rows": [
+              [
+                "Chegada e presença",
+                "Participante, reserva, quadra e contexto do atendimento."
+              ],
+              [
+                "Cobrança na recepção",
+                "Clube, unidade, reserva e origem do valor."
+              ],
+              [
+                "Serviços complementares",
+                "Ponto de venda e encordoamento têm capacidades e permissões próprias."
+              ],
+              [
+                "Interfaces do estabelecimento",
+                "Quiosque e telas têm configuração e responsabilidades específicas."
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O servidor trata cobranças presenciais com estados e registros próprios, incluindo confirmação e devolução. A apresentação técnica acompanha essas responsabilidades sem reduzir a operação a um botão de pagamento."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "socios",
+        "label": "Sócios e planos",
+        "title": "Condições de acesso que acompanham a pessoa",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A associação organiza o vínculo do cliente com o clube. Planos, validade, dependentes e convidados definem condições que precisam acompanhar as consultas e as operações pertinentes.",
+              "O módulo diferencia o plano configurado, o vínculo do sócio e os direitos aplicáveis. Alterar uma definição que já tem pessoas vinculadas exige preservar as condições e o histórico correspondentes."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "members"
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "membership"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Na versão registrada nas capturas, a associação ativa libera o uso das quadras nas condições do plano, enquanto aulas têm contratação separada. A própria interface informa que a mensalidade não é cobrada nessa área; o case conserva esse limite da versão."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "ensino",
+        "label": "Ensino",
+        "title": "Professores, alunos e espaços na mesma operação",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O módulo de ensino reúne alunos, professores, serviços, turmas e programação. Uma atividade conecta participantes a um período e aos espaços necessários para sua realização.",
+              "A agenda ajuda a relacionar a atividade à ocupação das quadras. As informações de atendimento, presença e financeiro conservam o contexto do serviço em vez de tratar toda ocupação como uma reserva avulsa."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "teaching"
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "lesson"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A gestão do estabelecimento e o painel individual do treinador têm responsabilidades diferentes no ecossistema. Aqui, o foco está na organização do ensino pelo clube e nas relações entre atividade, participantes e recursos."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "competicao",
+        "label": "Competições",
+        "title": "Organizar categorias, participação e resultados",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A administração de torneios reúne categorias, participantes, confrontos e resultados. A competição tem sua própria estrutura de inscrições e decisões, conectada à consulta de quem participa.",
+              "O ranking interno também conserva categoria, formato e período. Uma classificação precisa ser lida dentro dessas regras; ela não equivale a qualquer indicador esportivo apresentado no perfil do atleta."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "competition"
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "ranking"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A documentação identifica as áreas de torneios e ranking como módulos relacionados, com regras próprias. As telas deste capítulo mostram registros controlados de desenvolvimento."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "financeiro",
+        "label": "Financeiro e análises",
+        "title": "Conservar a origem de cada valor",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O financeiro precisa ligar o que o clube espera receber ao que foi cobrado e ao que foi registrado como pagamento. Reserva, fatura, recebimento e devolução têm identidades e estados diferentes.",
+              "O percurso da recepção carrega a origem da cobrança. O leitor de dados confere clube, reserva, tipo de obrigação, fatura e valores antes de aceitar a apresentação, evitando aproveitar uma resposta que pertença a outro contexto."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "finance"
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "receipt"
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Informação",
+              "Leitura correta"
+            ],
+            "rows": [
+              [
+                "Valor previsto",
+                "Condição calculada para uma escolha ou operação."
+              ],
+              [
+                "Cobrança",
+                "Obrigação identificada, com origem e saldo."
+              ],
+              [
+                "Recebimento",
+                "Pagamento registrado e relacionado à obrigação pertinente."
+              ],
+              [
+                "Relatório",
+                "Consulta com período, unidades e critérios definidos."
+              ]
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "reports"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A leitura de um relatório depende do período e do critério escolhido. O valor recebido não substitui a receita prevista, e a ocupação disponível não representa atividade realizada. O repositório inclui testes do contrato monetário e da origem da cobrança; esses testes não efetuam pagamentos."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "administracao",
+        "label": "Equipe e unidades",
+        "title": "Contexto profissional, permissões e configuração",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O profissional entra no contexto de gestão e atua conforme seu vínculo, suas permissões e suas unidades autorizadas. Ter acesso à agenda não significa poder consultar todo o financeiro ou administrar a equipe.",
+              "A navegação aplica requisitos de capacidade, liberação operacional e permissão. O backend repete as verificações pertinentes antes das operações; ocultar uma entrada na interface não substitui essa autorização."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "staff"
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "configuration"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A configuração do clube inclui unidades e recursos, regras de uso e apresentação pública. A personalização do site de reservas conecta a identidade do estabelecimento à experiência do cliente. Comunicações e interfaces do local completam a administração conforme as capacidades disponíveis."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "brand"
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "communication"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "arquitetura",
+        "label": "Arquitetura",
+        "title": "Interfaces diferentes, responsabilidades compartilhadas",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A gestão web utiliza React, Next.js e TypeScript. O site público atende o cliente do estabelecimento. O Gestão Mobile tem entrada e navegação profissionais próprias, separadas do aplicativo social do atleta.",
+              "A API concentra regras e acesso aos registros persistidos em MongoDB. Identidades de clube, unidade, quadra e participante conectam agenda, reservas, atividades e financeiro."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "architecture"
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Parte",
+              "Responsabilidade"
+            ],
+            "rows": [
+              [
+                "Gestão web",
+                "Operação e administração pelo profissional."
+              ],
+              [
+                "Site público",
+                "Consulta e reserva pelo cliente em interface responsiva."
+              ],
+              [
+                "Gestão Mobile",
+                "Experiência profissional com contexto e capacidades da versão mobile."
+              ],
+              [
+                "API e regras",
+                "Autorizar ações, conferir condições e registrar efeitos."
+              ],
+              [
+                "Dados e integrações",
+                "Persistência, histórico, pagamentos e processamento associado."
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Uma reserva liga o responsável à quadra e ao período; os registros financeiros conservam a origem da obrigação. A equipe opera dentro de clube e unidade. Esse mapa explica a função das referências que reaparecem nas telas e nos validadores."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "engenharia",
+        "label": "Decisões técnicas",
+        "title": "Decisões que podem ser examinadas",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Os aprofundamentos conectam situações da operação a escolhas de implementação. Os módulos executáveis conservam a lógica do produto; os arquivos de referência do backend permanecem separados, com seus requisitos identificados."
+            ]
+          },
+          {
+            "type": "text",
+            "title": "Disputa pelo mesmo horário",
+            "paragraphs": [
+              "A consulta calcula a disponibilidade considerando sobreposição de intervalos e estado da quadra. No servidor, a ocupação e a confirmação usam registros e transações próprios. Uma consulta livre não é uma garantia de que outra pessoa deixará o horário livre até a confirmação."
+            ]
+          },
+          {
+            "type": "text",
+            "title": "Reserva e financeiro",
+            "paragraphs": [
+              "Os valores são tratados em centavos inteiros. O contrato exige que total, sinal e saldo no local sejam consistentes e associados à mesma intenção de reserva. Uma resposta de preço de outra quadra ou de outro responsável é recusada."
+            ]
+          },
+          {
+            "type": "text",
+            "title": "Permissões por clube e unidade",
+            "paragraphs": [
+              "O acesso combina capacidade contratada, liberação da função, permissão profissional e contexto de unidade. O pacote permite reproduzir decisões da política de rotas. Os arquivos do backend mostram onde as operações verificam o acesso aos registros."
+            ]
+          },
+          {
+            "type": "software-recovery",
+            "label": "Cenários de recuperação de uma operação do Gestão",
+            "scenarios": [
+              {
+                "title": "Resultado confirmado",
+                "steps": [
+                  {
+                    "label": "Identificar",
+                    "text": "A operação recebe uma chave e conserva clube, autor e conteúdo."
+                  },
+                  {
+                    "label": "Registrar",
+                    "text": "O servidor associa o efeito e seu resultado ao histórico da operação."
+                  },
+                  {
+                    "label": "Consultar",
+                    "text": "A mesma operação pode recuperar o resultado registrado."
+                  }
+                ],
+                "result": "O repositório mostra a implementação de identificação e recuperação no backend. O diagrama explica esse mecanismo; não executa uma gravação."
+              },
+              {
+                "title": "Conteúdo diferente",
+                "steps": [
+                  {
+                    "label": "Mesma chave",
+                    "text": "Uma nova tentativa apresenta a identidade de uma operação anterior."
+                  },
+                  {
+                    "label": "Conferir",
+                    "text": "O servidor compara o tipo da operação e o conteúdo associado."
+                  },
+                  {
+                    "label": "Recusar",
+                    "text": "A chave não pode representar uma alteração diferente da original."
+                  }
+                ],
+                "result": "A implementação trata a reutilização da chave com conteúdo divergente como conflito, preservando a identidade da operação registrada."
+              },
+              {
+                "title": "Confirmação perdida",
+                "steps": [
+                  {
+                    "label": "Interrupção",
+                    "text": "A interface deixa de receber a confirmação de uma alteração."
+                  },
+                  {
+                    "label": "Recuperar",
+                    "text": "O percurso de configuração consulta o resultado vinculado ao autor e à tentativa."
+                  },
+                  {
+                    "label": "Revalidar",
+                    "text": "A leitura confere permissões e a identidade do recurso antes de devolver a confirmação."
+                  }
+                ],
+                "result": "A recuperação da configuração consulta o resultado existente e revalida o contexto. A prova completa do percurso exige servidor, banco e interface na mesma versão."
+              }
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Examinar as decisões e o código",
+                "url": "https://github.com/bruniversamente/rakestra-gestao-engineering"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "qualidade",
+        "label": "Qualidade e entrega",
+        "title": "Evidências com o alcance identificado",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O pacote técnico desta apresentação reúne oito módulos executáveis extraídos do produto e cinco arquivos de referência do backend. As adaptações dos módulos executáveis são de caminhos de importação; o manifesto registra os arquivos de origem e seus hashes.",
+              "Os 24 testes passaram localmente com Node.js 24.14.0 em 4 de novembro de 2026. O leitor pode executar os mesmos cenários sem instalar dependências, acessar contas ou conectar um banco de dados."
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Verificação",
+              "Evidência",
+              "Alcance"
+            ],
+            "rows": [
+              [
+                "Agenda e tempo",
+                "8 cenários de ocupação, sobreposição, fuso e limite de horário.",
+                "Funções compartilhadas, em memória."
+              ],
+              [
+                "Acesso e contexto",
+                "7 cenários de função, liberação, unidade e navegação.",
+                "Política de rota; não substitui os testes da autorização da API."
+              ],
+              [
+                "Cotação e cobrança",
+                "9 cenários de valores, contexto, origem e respostas divergentes.",
+                "Contratos e leitores; sem movimentação financeira."
+              ],
+              [
+                "Backend",
+                "Código de referência da ocupação, confirmação, acesso e recuperação.",
+                "Não executado pelo pacote público."
+              ],
+              [
+                "Apresentação",
+                "Capturas de desenvolvimento, mapa e exemplos interativos.",
+                "Mostram interfaces e regras selecionadas; não certificam o produto completo."
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A edição usa a execução de TypeScript do Node para verificar comportamento. A validação completa do produto inclui banco, integrações e percursos na interface, além da verificação estática de tipos e dos builds pertinentes. As evidências desta edição não são uma declaração de prontidão para produção."
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Examinar o projeto no GitHub",
+                "url": "https://github.com/bruniversamente/rakestra-gestao-engineering"
+              },
+              {
+                "title": "Baixar código, documentação e testes",
+                "url": "portfolio/downloads/rakestra-gestao-engineering.zip"
+              },
+              {
+                "title": "Ver o estudo de UX/UI",
+                "url": "?area=produtos&project=produtos-03"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "endnote": "Rakestra Gestão · concepção e direção de Bruno Nascimento, com desenvolvimento assistido por IA. As capturas apresentam cenários controlados de desenvolvimento; o capítulo de qualidade identifica o alcance das verificações."
+  }
+}

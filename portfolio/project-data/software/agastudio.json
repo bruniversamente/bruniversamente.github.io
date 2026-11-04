@@ -1,0 +1,951 @@
+{
+  "area": "software",
+  "id": "agastudio",
+  "title": "AGAStudio",
+  "subtitle": "Software desktop para análise aeronáutica e produção técnica",
+  "tags": [
+    "Aplicação desktop",
+    "Python",
+    "TypeScript",
+    "Produto autoral"
+  ],
+  "intro": "Construção de um ambiente que conecta dados geoespaciais, cálculo, provas e documentação em um projeto com histórico e referências de origem.",
+  "credit": "Desenvolvimento desktop e motor técnico",
+  "credits": [
+    {
+      "role": "Concepção, fluxos e direção visual",
+      "names": "Bruno Nascimento"
+    },
+    {
+      "role": "Construção",
+      "names": "Bruno Nascimento · desenvolvimento assistido por IA"
+    }
+  ],
+  "sections": [],
+  "links": [],
+  "films": [],
+  "cover": {
+    "id": "cover",
+    "type": "image",
+    "src": "portfolio/assets/software/agastudio/cover.webp",
+    "width": 1919,
+    "height": 1080,
+    "alt": "AGAStudio: análise aeronáutica e produção técnica."
+  },
+  "media": [
+    {
+      "id": "modelo-3d",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/modelo-3d-hd-960w.webp",
+      "width": 960,
+      "height": 491,
+      "fullSrc": "portfolio/assets/agastudio/modelo-3d-hd-full.webp",
+      "fullWidth": 1921,
+      "fullHeight": 983,
+      "alt": "AGAStudio: modelo 3D do terreno, pista e superfícies da análise, com controles de vistas e camadas.",
+      "caption": "Provas técnicas · modelo da rodada salva, com relevo de contexto identificado como aproximado.",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "srcset": "portfolio/assets/agastudio/modelo-3d-hd-640w.webp 640w, portfolio/assets/agastudio/modelo-3d-hd-960w.webp 960w, portfolio/assets/agastudio/modelo-3d-hd-1440w.webp 1440w, portfolio/assets/agastudio/modelo-3d-hd-1920w.webp 1920w, portfolio/assets/agastudio/modelo-3d-hd-full.webp 1921w"
+    },
+    {
+      "id": "mapa",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/mapa-hd-960w.webp",
+      "width": 960,
+      "height": 491,
+      "fullSrc": "portfolio/assets/agastudio/mapa-hd-full.webp",
+      "fullWidth": 1921,
+      "fullHeight": 983,
+      "alt": "Mapa do empreendimento próximo à pista, com camadas do projeto e resumo da viabilidade.",
+      "caption": "Viabilidade · empreendimento, camadas e resultado na mesma área de trabalho. Base cartográfica Esri.",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "srcset": "portfolio/assets/agastudio/mapa-hd-640w.webp 640w, portfolio/assets/agastudio/mapa-hd-960w.webp 960w, portfolio/assets/agastudio/mapa-hd-1440w.webp 1440w, portfolio/assets/agastudio/mapa-hd-1920w.webp 1920w, portfolio/assets/agastudio/mapa-hd-full.webp 1921w"
+    },
+    {
+      "id": "dados",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/dados-hd-960w.webp",
+      "width": 960,
+      "height": 491,
+      "fullSrc": "portfolio/assets/agastudio/dados-hd-full.webp",
+      "fullWidth": 1921,
+      "fullHeight": 983,
+      "alt": "Janela de preparação da análise: seções do estudo, plano considerado, espaçamento da malha e cotas dos vértices.",
+      "caption": "Antes do cálculo · dados técnicos, referências e conferências no mesmo fluxo.",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "srcset": "portfolio/assets/agastudio/dados-hd-640w.webp 640w, portfolio/assets/agastudio/dados-hd-960w.webp 960w, portfolio/assets/agastudio/dados-hd-1440w.webp 1440w, portfolio/assets/agastudio/dados-hd-1920w.webp 1920w, portfolio/assets/agastudio/dados-hd-full.webp 1921w"
+    },
+    {
+      "id": "resultado",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/resultado-hd-960w.webp",
+      "width": 960,
+      "height": 491,
+      "fullSrc": "portfolio/assets/agastudio/resultado-hd-full.webp",
+      "fullWidth": 1921,
+      "fullHeight": 983,
+      "alt": "Tabela da viabilidade com tipo de ponto, estado, altitude limite, altura máxima e margem.",
+      "caption": "Resultado da rodada · vértices, pontos de borda e amostras internas com papéis próprios.",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "srcset": "portfolio/assets/agastudio/resultado-hd-640w.webp 640w, portfolio/assets/agastudio/resultado-hd-960w.webp 960w, portfolio/assets/agastudio/resultado-hd-1440w.webp 1440w, portfolio/assets/agastudio/resultado-hd-1920w.webp 1920w, portfolio/assets/agastudio/resultado-hd-full.webp 1921w"
+    },
+    {
+      "id": "pontos",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/pontos-hd-960w.webp",
+      "width": 960,
+      "height": 491,
+      "fullSrc": "portfolio/assets/agastudio/pontos-hd-full.webp",
+      "fullWidth": 1921,
+      "fullHeight": 983,
+      "alt": "Prova técnica do AGAStudio com representações da altura máxima em cada ponto analisado.",
+      "caption": "Conferência individual · base, altitude limite e altura máxima em uma leitura por ponto.",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "srcset": "portfolio/assets/agastudio/pontos-hd-640w.webp 640w, portfolio/assets/agastudio/pontos-hd-960w.webp 960w, portfolio/assets/agastudio/pontos-hd-1440w.webp 1440w, portfolio/assets/agastudio/pontos-hd-1920w.webp 1920w, portfolio/assets/agastudio/pontos-hd-full.webp 1921w"
+    },
+    {
+      "id": "consulta-3d",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/consulta-3d-hd-960w.webp",
+      "width": 960,
+      "height": 491,
+      "fullSrc": "portfolio/assets/agastudio/consulta-3d-hd-full.webp",
+      "fullWidth": 1921,
+      "fullHeight": 983,
+      "alt": "Modelo 3D com consulta de ponto mostrando terreno, topo proposto, limite, margem e superfície.",
+      "caption": "Consulta no modelo · o ponto conserva sua identificação de origem e os valores da rodada.",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "srcset": "portfolio/assets/agastudio/consulta-3d-hd-640w.webp 640w, portfolio/assets/agastudio/consulta-3d-hd-960w.webp 960w, portfolio/assets/agastudio/consulta-3d-hd-1440w.webp 1440w, portfolio/assets/agastudio/consulta-3d-hd-1920w.webp 1920w, portfolio/assets/agastudio/consulta-3d-hd-full.webp 1921w"
+    },
+    {
+      "id": "superficies",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/superficies-hd-960w.webp",
+      "width": 960,
+      "height": 491,
+      "fullSrc": "portfolio/assets/agastudio/superficies-hd-full.webp",
+      "fullWidth": 1921,
+      "fullHeight": 983,
+      "alt": "Menu de superfícies do modelo 3D, com indicação das condições mais restritivas no projeto.",
+      "caption": "Controle de visibilidade · todas as superfícies, somente as mais restritivas ou seleção individual.",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "srcset": "portfolio/assets/agastudio/superficies-hd-640w.webp 640w, portfolio/assets/agastudio/superficies-hd-960w.webp 960w, portfolio/assets/agastudio/superficies-hd-1440w.webp 1440w, portfolio/assets/agastudio/superficies-hd-1920w.webp 1920w, portfolio/assets/agastudio/superficies-hd-full.webp 1921w"
+    },
+    {
+      "id": "relatorio",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/relatorio-hd-960w.webp",
+      "width": 960,
+      "height": 491,
+      "fullSrc": "portfolio/assets/agastudio/relatorio-hd-full.webp",
+      "fullWidth": 1921,
+      "fullHeight": 983,
+      "alt": "Editor do relatório técnico no AGAStudio, com navegação entre capítulos e opções de exportação.",
+      "caption": "Relatório · síntese, fontes e resultados para revisão e comunicação ao cliente.",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "srcset": "portfolio/assets/agastudio/relatorio-hd-640w.webp 640w, portfolio/assets/agastudio/relatorio-hd-960w.webp 960w, portfolio/assets/agastudio/relatorio-hd-1440w.webp 1440w, portfolio/assets/agastudio/relatorio-hd-1920w.webp 1920w, portfolio/assets/agastudio/relatorio-hd-full.webp 1921w"
+    },
+    {
+      "id": "perfil",
+      "type": "image",
+      "src": "portfolio/assets/agastudio/perfil-tecnico-original.svg",
+      "width": 1120,
+      "height": 760,
+      "fullSrc": "portfolio/assets/agastudio/perfil-tecnico-original.svg",
+      "fullWidth": 1120,
+      "fullHeight": 760,
+      "alt": "Perfil técnico original da rodada: pista, terreno, edificações e superfícies de restrição.",
+      "caption": "Detalhe vetorial · perfil original do estudo salvo, preservado sem redesenhar os valores."
+    },
+    {
+      "id": "start",
+      "type": "image",
+      "src": "portfolio/assets/software/agastudio/start-960w.webp",
+      "width": 960,
+      "height": 540,
+      "srcset": "portfolio/assets/software/agastudio/start-640w.webp 640w, portfolio/assets/software/agastudio/start-960w.webp 960w, portfolio/assets/software/agastudio/start-1440w.webp 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/agastudio/start-full.webp",
+      "fullWidth": 1920,
+      "fullHeight": 1080,
+      "alt": "Início do AGAStudio",
+      "caption": "Entrada do programa · projetos OPEA e Heliponto/PBZPH."
+    },
+    {
+      "id": "heliport-study",
+      "type": "image",
+      "src": "portfolio/assets/software/agastudio/heliport-study-0b00404addac-960w.webp",
+      "width": 960,
+      "height": 540,
+      "srcset": "portfolio/assets/software/agastudio/heliport-study-0b00404addac-640w.webp 640w, portfolio/assets/software/agastudio/heliport-study-0b00404addac-960w.webp 960w, portfolio/assets/software/agastudio/heliport-study-0b00404addac-1440w.webp 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/agastudio/heliport-study-0b00404addac-full.webp",
+      "fullWidth": 1920,
+      "fullHeight": 1080,
+      "alt": "Preparação do estudo PBZPH",
+      "caption": "Heliponto fictício · etapas, dados e alternativas com pendências identificadas."
+    },
+    {
+      "id": "heliport-plan",
+      "type": "image",
+      "src": "portfolio/assets/software/agastudio/heliport-plan-960w.webp",
+      "width": 960,
+      "height": 540,
+      "srcset": "portfolio/assets/software/agastudio/heliport-plan-640w.webp 640w, portfolio/assets/software/agastudio/heliport-plan-960w.webp 960w, portfolio/assets/software/agastudio/heliport-plan-1440w.webp 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/agastudio/heliport-plan-full.webp",
+      "fullWidth": 1920,
+      "fullHeight": 1080,
+      "alt": "Mapa técnico PBZPH do exemplo fictício",
+      "caption": "Mapa técnico do exemplo salvo · superfícies e entorno; não equivale à aprovação do projeto."
+    },
+    {
+      "id": "process-files",
+      "type": "image",
+      "src": "portfolio/assets/software/agastudio/process-files-960w.webp",
+      "width": 960,
+      "height": 540,
+      "srcset": "portfolio/assets/software/agastudio/process-files-640w.webp 640w, portfolio/assets/software/agastudio/process-files-960w.webp 960w, portfolio/assets/software/agastudio/process-files-1440w.webp 1440w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), 74vw",
+      "fullSrc": "portfolio/assets/software/agastudio/process-files-full.webp",
+      "fullWidth": 1920,
+      "fullHeight": 1080,
+      "alt": "Conferência de arquivos do processo",
+      "caption": "Exemplo fictício · arquivos ausentes e condições para a revisão do pacote."
+    },
+    {
+      "id": "architecture",
+      "type": "image",
+      "src": "portfolio/assets/software/agastudio/architecture.svg",
+      "width": 1440,
+      "height": 1010,
+      "alt": "Arquitetura do AGAStudio",
+      "caption": "Diagrama lógico das responsabilidades do programa desktop."
+    },
+    {
+      "id": "cad-pipeline",
+      "type": "image",
+      "src": "portfolio/assets/software/agastudio/cad-pipeline.svg",
+      "width": 1440,
+      "height": 610,
+      "alt": "Fluxo de preparação e conferência de desenhos",
+      "caption": "Fluxo explicativo · a entrega CAD exige conferir o arquivo e a renderização da versão avaliada."
+    },
+    {
+      "id": "assistant-flow",
+      "type": "image",
+      "src": "portfolio/assets/software/agastudio/assistant-flow.svg",
+      "width": 1440,
+      "height": 810,
+      "alt": "Contexto, adaptadores e ferramentas dos assistentes",
+      "caption": "Diagrama da integração · os adaptadores propõem ações às ferramentas controladas pelo programa."
+    }
+  ],
+  "story": {
+    "navigation": true,
+    "coverFit": "contain",
+    "notice": "Desenvolvimento de software · apresentação do programa completo",
+    "role": "Produto autoral · aplicação desktop, motor e dados · desenvolvimento assistido por IA",
+    "chapters": [
+      {
+        "id": "produto",
+        "label": "O programa",
+        "title": "Um ambiente para conduzir o trabalho técnico",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O profissional precisa relacionar coordenadas, cotas, planos, cálculos e documentos e identificar quais entregas continuam válidas quando uma entrada muda. O AGAStudio reúne esse trabalho em um projeto com fontes, rodadas de análise e entregas vinculadas.",
+              "O programa conecta uma interface desktop ao motor técnico Python, ao catálogo de referências e às ferramentas de documentação e assistência por IA. Os modos OPEA e Heliponto/PBZPH compartilham o ambiente e conservam regras próprias."
+            ]
+          },
+          {
+            "type": "software-atlas",
+            "wide": true,
+            "label": "Explorar as áreas do AGAStudio",
+            "modules": [
+              {
+                "name": "Dados",
+                "context": "Preparar as referências",
+                "description": "Geometria, coordenadas, cotas e fontes organizadas antes da análise.",
+                "connections": [
+                  "Arquivo → geometria e origem",
+                  "Referência → dado conferido"
+                ],
+                "media": "dados",
+                "chapter": "dados"
+              },
+              {
+                "name": "OPEA",
+                "context": "Analisar a proposta",
+                "description": "Entradas, motor Python e leitura dos resultados de viabilidade e do fluxo formal.",
+                "connections": [
+                  "Entrada → rodada de cálculo",
+                  "Ponto → limite e margem"
+                ],
+                "media": "mapa",
+                "chapter": "opea"
+              },
+              {
+                "name": "Helipontos",
+                "context": "Preparar o PBZPH",
+                "description": "Modo de projeto com ficha, superfícies e verificações próprias do heliponto.",
+                "connections": [
+                  "Ficha → alternativas",
+                  "Rodada → provas técnicas"
+                ],
+                "media": "heliport-plan",
+                "chapter": "helipontos"
+              },
+              {
+                "name": "Provas técnicas",
+                "context": "Conferir o resultado",
+                "description": "Mapas, tabelas, perfis e modelo 3D ligados aos dados da rodada.",
+                "connections": [
+                  "Rodada → representações",
+                  "Ponto → valores de origem"
+                ],
+                "media": "modelo-3d",
+                "chapter": "provas"
+              },
+              {
+                "name": "Relatórios",
+                "context": "Organizar a entrega",
+                "description": "Resultados e fontes reunidos com textos revisáveis e valores calculados protegidos.",
+                "connections": [
+                  "Análise → relatório",
+                  "Revisão → exportação"
+                ],
+                "media": "relatorio",
+                "chapter": "relatorios"
+              },
+              {
+                "name": "Desenhos",
+                "context": "Compor e conferir",
+                "description": "Geometria e informações técnicas relacionadas à preparação de plantas e perfis.",
+                "connections": [
+                  "Dados → componentes CAD",
+                  "Prancha → conferência visual"
+                ],
+                "media": "cad-pipeline",
+                "chapter": "cad"
+              },
+              {
+                "name": "Processo",
+                "context": "Preparar documentos",
+                "description": "Checklist, dados e pacotes para revisão do profissional no percurso assistido.",
+                "connections": [
+                  "Documento → conferência",
+                  "Pacote → revisão do operador"
+                ],
+                "media": "process-files",
+                "chapter": "processo"
+              },
+              {
+                "name": "Assistentes",
+                "context": "Operar com contexto",
+                "description": "Integração de IA com ferramentas, pastas e decisões controladas pelo programa.",
+                "connections": [
+                  "Projeto e canal → contexto",
+                  "Ação → permissão e resultado"
+                ],
+                "media": "assistant-flow",
+                "chapter": "assistentes"
+              }
+            ]
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Preparar",
+                "text": "Organizar geometria, referências, arquivos e condições do estudo."
+              },
+              {
+                "title": "Analisar e conferir",
+                "text": "Executar o motor e relacionar os resultados às provas da mesma rodada."
+              },
+              {
+                "title": "Documentar e revisar",
+                "text": "Preparar as entregas e reconhecer o que precisa de atualização."
+              }
+            ]
+          },
+          {
+            "type": "caption",
+            "text": "A apresentação combina o estudo salvo já aprovado no case de UX/UI e um projeto fictício de heliponto. São cenários distintos, identificados nas legendas; as capturas não representam aprovação normativa ou resultados comerciais."
+          }
+        ]
+      },
+      {
+        "id": "participacao",
+        "label": "Origem e participação",
+        "title": "Do trabalho na consultoria à construção do programa",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Bruno Nascimento conduz a concepção, os fluxos e a direção de interface a partir das necessidades do trabalho em consultoria aeronáutica. A construção utiliza desenvolvimento assistido por IA entre a aplicação desktop, os contratos de dados, o motor e as integrações.",
+              "A apresentação acompanha as escolhas de implementação e a forma de conferir os resultados. Bibliotecas de geometria, mapas, CAD e interface têm responsabilidades identificadas na arquitetura."
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Responsabilidade",
+              "Participação"
+            ],
+            "rows": [
+              [
+                "Domínio e produto",
+                "Definição das tarefas e das relações entre dados, cálculo e entregas."
+              ],
+              [
+                "Interface",
+                "Fluxos de preparação, análise, conferência e documentação."
+              ],
+              [
+                "Construção",
+                "Desenvolvimento assistido por IA, com definição e revisão de funcionalidades."
+              ],
+              [
+                "Verificação",
+                "Seleção de cenários e conferência do resultado dentro do alcance documentado."
+              ]
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Ver o estudo de UX/UI",
+                "url": "?area=produtos&project=produtos-02"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "dados",
+        "label": "Dados e referências",
+        "title": "Conferir o que entra antes de interpretar o resultado",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O especialista pode informar pontos e geometrias e trabalhar com arquivos de origem. A preparação reúne referências de coordenadas e altitude, cotas, dados da pista e planos associados ao empreendimento.",
+              "O modelo distingue o plano encontrado na pesquisa, sua interseção geométrica e a restrição avaliada no cálculo. Encontrar uma geometria sobre a área é uma etapa da análise, com estado e origem próprios."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "dados"
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Informação",
+              "Responsabilidade"
+            ],
+            "rows": [
+              [
+                "Geometria e identificação",
+                "Manter a relação entre o arquivo de origem, o objeto e seus pontos."
+              ],
+              [
+                "Referências e unidades",
+                "Distinguir coordenadas horizontais, altitude, altura e cota de base."
+              ],
+              [
+                "Planos e documentos",
+                "Registrar a fonte e o papel da referência na análise."
+              ],
+              [
+                "Dados ausentes",
+                "Apresentar a pendência sem transformar ausência em valor zero."
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "opea",
+        "label": "Motor e análise OPEA",
+        "title": "Da solicitação ao resultado de cada ponto",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A interface organiza a solicitação; o motor Python aplica os parâmetros e as funções geométricas da análise. O retorno conserva resultados por ponto e informações para localizar a superfície determinante, a altitude limite, a altura máxima e a margem.",
+              "Os pontos amostrais da viabilidade e os vértices oficiais do percurso formal cumprem papéis distintos. Os relatórios e pacotes precisam conservar essa distinção ao apresentar e reutilizar os resultados."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "mapa",
+              "resultado"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O código também separa o limite calculado, a política própria de reserva da EasyAGA e a exibição dos valores. O pacote de apoio testa a aplicação de 0,10 m uma única vez e a formatação conservadora. Essa política não é apresentada como exigência do órgão regulador; os oito testes numéricos não validam o motor normativo completo."
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Camada",
+              "O que precisa permanecer coerente"
+            ],
+            "rows": [
+              [
+                "Entrada",
+                "Geometria, cotas, parâmetros e referências."
+              ],
+              [
+                "Rodada",
+                "Identidade dos dados usados e versão da análise."
+              ],
+              [
+                "Resultado",
+                "Limites, margens e estados produzidos pelo motor."
+              ],
+              [
+                "Apresentação",
+                "Valores da rodada e critérios de formatação."
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "helipontos",
+        "label": "Helipontos e PBZPH",
+        "title": "Um modo de projeto com preparação e verificações próprias",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O modo de heliponto reúne ficha, posição de referência, aeronave crítica, condições de operação e dados do entorno. O profissional percorre a preparação, compara alternativas e consulta as superfícies e provas ligadas ao cenário selecionado.",
+              "A captura usa o projeto fictício de teste do produto. Seu mapa mostra uma alternativa salva; a preparação ainda contém pendências e a triagem não constitui um projeto aprovado. Essa condição permanece identificada durante a leitura do exemplo."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "heliport-study"
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "heliport-plan"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O motor e os contratos de PBZPH têm validações específicas de geometria, parâmetros e referências. O repositório público inclui arquivos de referência para consulta; esta edição não executa sua suíte normativa completa."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "provas",
+        "label": "Provas e modelo 3D",
+        "title": "Ler os mesmos valores em representações diferentes",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Nas provas técnicas, o especialista consulta mapa, perfil, tabelas e modelo 3D da rodada escolhida. A seleção do ponto conserva a relação entre sua identificação e os valores calculados.",
+              "A navegação, a câmera e a visibilidade das camadas alteram a leitura espacial. O cálculo continua associado à rodada. O relevo de contexto permanece identificado como aproximado quando tem apenas função visual."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "consulta-3d",
+              "superficies"
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "perfil"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A vista 3D navegável pertence às provas técnicas. O profissional pode escolher uma imagem para inserir em um relatório; essa inclusão é explícita e conserva referências da vista e da rodada. O perfil vetorial acima pertence ao estudo salvo usado no case de UX/UI e mantém sua composição original."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "relatorios",
+        "label": "Relatórios e documentos",
+        "title": "Manter a relação entre uma afirmação e sua fonte",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O relatório reúne identificação, fontes, premissas, método, resultados e provas. O profissional pode revisar os textos narrativos previstos no contrato; os valores técnicos permanecem ligados ao resultado que originou o documento.",
+              "A leitura documental usa evidências de extração com origem, campo, valor e estado de revisão. Um valor extraído precisa passar pelas etapas de conferência e confirmação antes de alimentar os dados técnicos do projeto."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "relatorio"
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Conteúdo",
+              "Tratamento no produto"
+            ],
+            "rows": [
+              [
+                "Valores da análise",
+                "Derivados da rodada e conferidos pelo contrato do relatório."
+              ],
+              [
+                "Narrativas editáveis",
+                "Objetivo, premissas, metodologia e ressalvas nos campos previstos."
+              ],
+              [
+                "Extração de documentos",
+                "Evidências com transições de extração, revisão e confirmação."
+              ],
+              [
+                "Mudança nos dados",
+                "Revisão das entregas ligadas à versão anterior."
+              ]
+            ]
+          }
+        ]
+      },
+      {
+        "id": "cad",
+        "label": "Desenhos técnicos",
+        "title": "Relacionar geometria, composição e conferência da prancha",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A preparação de desenhos conecta os dados técnicos aos componentes, camadas e informações da prancha. O editor oferece navegação do Paper Space e caminhos de exportação dos arquivos disponíveis.",
+              "A qualidade de uma entrega CAD exige conferir o arquivo e sua renderização, incluindo fontes, entidades e referências. Um desenho gerado ou uma prévia na tela ainda pode exigir correções antes da entrega."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "cad-pipeline"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Nesta edição, o cenário PBZPH permitiu gerar uma prévia no editor. A composição carregou uma base cartográfica com aviso de credencial; por isso, essa imagem não entra como prova de prancha final. O diagrama apresenta o fluxo de implementação e a conferência que permanece necessária."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "processo",
+        "label": "Preparação do processo",
+        "title": "Conferir os documentos antes de preparar a operação",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O programa reúne dados, documentos, checklist e pacotes no contexto do projeto. Arquivos ausentes, condições de formato e referências de origem continuam visíveis para revisão do profissional.",
+              "O percurso assistido relaciona pacote, projeto e rodada e conserva estados de validação e simulação. A execução e a revisão do operador têm responsabilidades próprias; a presença de um botão ou de um pacote não comprova envio de um processo."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "process-files"
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "No exemplo fictício, o checklist conserva os documentos ausentes e a condição de conferência do desenho. A preparação desta apresentação não acessa ou movimenta processos reais."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "assistentes",
+        "label": "Assistentes e ferramentas",
+        "title": "Dar contexto à IA e conferir a ação solicitada",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O AGAStudio integra assistentes aos canais de trabalho do projeto. A interface comum organiza mensagens e eventos, enquanto os adaptadores tratam a comunicação com os fornecedores presentes na versão.",
+              "As ferramentas do aplicativo conferem a pasta autorizada, os caminhos, os parâmetros e as condições da operação. A camada de arquivos recusa saídas da raiz e nomes protegidos; alterações que exigem confirmação permanecem pendentes até a decisão do operador."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "assistant-flow"
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Situação verificada",
+              "Resultado no módulo selecionado"
+            ],
+            "rows": [
+              [
+                "Ler um texto da pasta do exemplo",
+                "Retorna o trecho solicitado."
+              ],
+              [
+                "Usar um caminho com saída da pasta",
+                "Recusa a operação."
+              ],
+              [
+                "Ler um nome de arquivo protegido",
+                "Recusa a leitura."
+              ],
+              [
+                "Substituir conteúdo existente sem aprovação",
+                "Pede confirmação e preserva os bytes originais."
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Esses cenários passaram em arquivos fictícios temporários, usando o código de arquivos do produto. Eles não executam uma conversa com um fornecedor de IA nem certificam toda a integração. O uso de IA na construção do programa e sua integração como funcionalidade têm papéis distintos nesta apresentação."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "projeto",
+        "label": "Arquivo .aga e histórico",
+        "title": "Guardar a origem e reconhecer o que mudou",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O arquivo .aga reúne um pacote versionado com manifesto, dados do projeto, anexos e registros SHA-256. Ao abrir, o leitor confere formato, versão e integridade antes de restaurar o conteúdo.",
+              "O modelo central conserva fontes, rodadas e entregas. Quando uma entrada técnica muda, a implementação mantém o histórico e marca os produtos dependentes para atualização. O conteúdo salvo e a cópia de recuperação também têm papéis distintos."
+            ]
+          },
+          {
+            "type": "aga-package"
+          },
+          {
+            "type": "software-recovery",
+            "label": "Dados, histórico e atualização das entregas",
+            "scenarios": [
+              {
+                "title": "Rodada preservada",
+                "steps": [
+                  {
+                    "label": "Entrada",
+                    "text": "O projeto registra fontes e condições usadas no cálculo."
+                  },
+                  {
+                    "label": "Rodada",
+                    "text": "O resultado conserva a identidade e a referência dos dados analisados."
+                  },
+                  {
+                    "label": "Entrega",
+                    "text": "O relatório ou a prova referencia a rodada correspondente."
+                  }
+                ],
+                "result": "A consulta relaciona a entrega à versão da análise que a originou."
+              },
+              {
+                "title": "Dado técnico alterado",
+                "steps": [
+                  {
+                    "label": "Mudança",
+                    "text": "Uma entrada técnica deixa de corresponder à análise anterior."
+                  },
+                  {
+                    "label": "Histórico",
+                    "text": "A rodada concluída continua guardada como histórico."
+                  },
+                  {
+                    "label": "Atualização",
+                    "text": "As entregas dependentes recebem o estado desatualizado."
+                  }
+                ],
+                "result": "A implementação distingue a consulta do histórico da preparação de uma entrega atual. Diagrama explicativo do modelo; não recalcula o estudo."
+              },
+              {
+                "title": "Recuperação de trabalho",
+                "steps": [
+                  {
+                    "label": "Trabalho",
+                    "text": "Uma cópia separada guarda alterações ainda não confirmadas no arquivo."
+                  },
+                  {
+                    "label": "Retomada",
+                    "text": "O operador escolhe recuperar essa versão de trabalho."
+                  },
+                  {
+                    "label": "Salvar",
+                    "text": "O arquivo existente só recebe as alterações mediante salvamento."
+                  }
+                ],
+                "result": "O teste selecionado restaurou a cópia de recuperação e conservou os bytes do arquivo salvo."
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O pacote técnico testa a abertura, a recusa de conteúdo divergente e o salvamento com cópias de segurança. Os exemplos do contêiner usam uma estrutura reduzida; a validação integral de um estudo envolve também os contratos de domínio e o motor."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "arquitetura",
+        "label": "Arquitetura",
+        "title": "Conectar interface, motor, arquivos e serviços",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A aplicação desktop usa Electron para integrar janela, arquivos e serviços locais. A interface utiliza Next.js, React e TypeScript. O motor técnico Python/FastAPI processa os contratos e as funções de análise.",
+              "O catálogo SQLite e seus arquivos fornecem referências para o trabalho. O projeto .aga conserva a versão do estudo e os vínculos entre os produtos derivados. Mapas e assistentes podem depender de serviços externos e das configurações de acesso aplicáveis."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "architecture"
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Parte",
+              "Responsabilidade"
+            ],
+            "rows": [
+              [
+                "Interface",
+                "Preparação, navegação, consulta e revisão."
+              ],
+              [
+                "Motor técnico",
+                "Validações, geometria, cálculo e produtos técnicos."
+              ],
+              [
+                "Modelo do projeto",
+                "Fontes, versões, resultados e relações entre entregas."
+              ],
+              [
+                "Integração desktop",
+                "Arquivos, recuperação e execução dos serviços."
+              ],
+              [
+                "Adaptadores",
+                "Comunicação com serviços externos e eventos da tarefa."
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Os arquivos de referência no GitHub permitem consultar as relações do modelo, o contrato do relatório e partes dos motores e da visualização. Dependem do restante do produto; os testes públicos executam somente os módulos selecionados."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "qualidade",
+        "label": "Qualidade e código",
+        "title": "Evidências que o leitor pode conferir",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O pacote desta apresentação contém seis módulos executáveis selecionados e cinco arquivos de referência. A lógica dos módulos selecionados permanece igual à origem; o leitor do .aga aponta para uma cópia da biblioteca fflate 0.8.2, incluída com sua licença MIT.",
+              "Os 30 testes passaram em 4 de novembro de 2026: 22 em Node.js e oito em Python. O pacote não exige instalação de bibliotecas para executar esses cenários. Os comandos e seus registros acompanham o código."
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Grupo",
+              "Verificação",
+              "Alcance"
+            ],
+            "rows": [
+              [
+                "Formato e revisão",
+                "12 cenários de pacote, conteúdo, versões e marcadores de mudança.",
+                "Contêiner e funções selecionadas."
+              ],
+              [
+                "Arquivos e recuperação",
+                "10 cenários de backup, recuperação, leitura e confirmação.",
+                "Pastas fictícias temporárias; sem projetos de cliente."
+              ],
+              [
+                "Política numérica",
+                "8 cenários de limite adotado e exibição.",
+                "Regra própria EasyAGA; não valida o motor normativo inteiro."
+              ],
+              [
+                "Referências de engenharia",
+                "Modelo, relatório, superfícies, heliponto e visualizador.",
+                "Código para consulta; não executado pelo pacote."
+              ],
+              [
+                "Interface demonstrada",
+                "Capturas aprovadas e fixture fictícia PBZPH.",
+                "Representação da interface e de seus estados, sem certificação de entrega."
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "As limitações ficam ligadas ao que foi demonstrado: o heliponto conserva pendências, a prévia CAD precisa de revisão da base e da renderização, e os assistentes dependem do contexto e do acesso do aplicativo desktop. Não há medição de ganho de tempo ou declaração de prontidão global nesta edição."
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Examinar o projeto no GitHub",
+                "url": "https://github.com/bruniversamente/agastudio-engineering"
+              },
+              {
+                "title": "Baixar código, documentação e testes",
+                "url": "portfolio/downloads/agastudio-engineering.zip"
+              },
+              {
+                "title": "Ver o estudo de UX/UI",
+                "url": "?area=produtos&project=produtos-02"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "closing": "AGAStudio · concepção e direção de Bruno Nascimento, com desenvolvimento assistido por IA. Estudos, capturas e verificações têm seu alcance identificado nesta apresentação."
+  }
+}

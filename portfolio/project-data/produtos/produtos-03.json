@@ -179,12 +179,7 @@
     "fullWidth": 1440,
     "fullHeight": 810
   },
-  "links": [
-    {
-      "title": "Ver desenvolvimento do produto",
-      "url": "?area=software&project=rakestra-plataforma"
-    }
-  ],
+  "links": [],
   "films": [],
   "story": {
     "navigation": true,

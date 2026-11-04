@@ -128,6 +128,8 @@ const hero=el('section','case-hero');
   }
   async function open(area,id,push=true,restoreScroll=0){
     const project=catalog[area]?.find(project=>project.id===id);if(!project)return;
+    document.querySelector('#filters').hidden=true;
+    document.querySelector('#filter-toggle').setAttribute('aria-expanded','false');
     window.mediaViewer?.close(false);
     window.projectStory?.reset();
     if(window.areaFeed.active!==area)window.areaFeed.navigate(area,false);

@@ -166,12 +166,7 @@
     "alt": "AGAStudio · Do terreno à decisão de projeto. Capa com vista real do modelo 3D do estudo.",
     "caption": "AGAStudio · estudo de UX/UI de viabilidade aeronáutica."
   },
-  "links": [
-    {
-      "title": "Ver desenvolvimento do produto",
-      "url": "?area=software&project=agastudio-software"
-    }
-  ],
+  "links": [],
   "films": [],
   "story": {
     "navigation": true,

@@ -1,9 +1,13 @@
 {
+  "release": "software-app-gestao-agastudio-20261104",
+  "date": "2026-11-04",
   "areas": [
-    "beleza",
+    "dados",
     "design",
-    "arquitetura",
-    "dados"
+    "beleza",
+    "consultoria",
+    "produtos",
+    "software"
   ],
   "projects": {
     "dados": [
@@ -14,17 +18,13 @@
       "dados-05"
     ],
     "design": [
-      "easyaga-branding",
-      "rakestra-identidade",
       "hering-carnaval",
       "hering-fabula",
       "flyers",
       "branding",
       "iande",
       "iande-camisetas",
-      "melted"
-    ],
-    "arquitetura": [
+      "melted",
       "tfg"
     ],
     "beleza": [
@@ -57,25 +57,51 @@
       "headpieces-de-croche",
       "muraca-interplanetary",
       "getulio-abelha"
+    ],
+    "consultoria": [
+      "2026-edificio-residencial-da-construtora-hype",
+      "2026-cinco-edificios-residenciais-da-construtora-embraed",
+      "2026-complexo-eolico-gran-sul",
+      "2026-ampliacao-do-terminal-de-passageiros-do-aeroporto-hercilio-luz",
+      "2025-estudos-aeronauticos-para-corumba-ponta-pora-e-campo-grande",
+      "2025-heliponto-no-edificio-armani-casa-residences-by-embraed",
+      "2025-heliponto-privado-no-aeroporto-de-guarulhos",
+      "2025-hangar-temporario-de-helicopteros-no-aeroporto-de-macae",
+      "2023-helipontos-privados-bcw2-e-bcw3-no-parque-beto-carrero-world",
+      "2023-hangar-de-aeronaves-no-aeroporto-bacacheri",
+      "2023-parque-residencial-proximo-ao-aeroporto-de-vitoria",
+      "2023-alteracao-cadastral-de-aeroportos-da-motiva-aeroportos",
+      "2022-aerodromo-privado-fazenda-cabeceira-do-pontal",
+      "2022-nova-pista-de-pouso-e-decolagem-no-aeroporto-de-macae",
+      "2021-heliponto-privado-no-hospital-santo-antonio-hsan",
+      "2021-papi-da-cabeceira-20-do-aeroporto-de-vitoria"
+    ],
+    "produtos": [
+      "produtos-01",
+      "produtos-02",
+      "produtos-03",
+      "easyaga-webdesign",
+      "rakestra-identidade"
+    ],
+    "software": [
+      "rakestra-app",
+      "rakestra-gestao",
+      "agastudio"
     ]
   },
-  "films_on_existing_host": 3,
-  "release": "easyaga-pranchas-20261104",
-  "base_commit": "91c216c9f899710a98dbc3f53bd202873636aa1d",
-  "adapted_visual_cases": 39,
-  "preserved_data_cases": 5,
-  "individual_source_files": 507,
-  "original_files_preserved": true,
-  "equal_media_heights": true,
-  "aviamentos_rotation": 90,
-  "beauty_projects": 29,
-  "prepared_beauty_images": 339,
-  "local_beauty_videos": 20,
-  "beauty_official_embeds": 1,
-  "site_bytes_before_commit": 883355691,
-  "beauty_official_video_links": 1,
-  "project_presentations": {
-    "design/easyaga-branding": "boards"
+  "area_counts": {
+    "dados": 5,
+    "design": 8,
+    "beleza": 29,
+    "consultoria": 16,
+    "produtos": 5,
+    "software": 3
   },
-  "easyaga_full_boards": 7
+  "active_projects": 66,
+  "software_projects": [
+    "rakestra-app",
+    "rakestra-gestao",
+    "agastudio"
+  ],
+  "pending_beauty_review_excluded": true
 }

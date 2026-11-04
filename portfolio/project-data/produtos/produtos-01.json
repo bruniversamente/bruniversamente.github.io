@@ -203,12 +203,7 @@
       "caption": "Conversa entre jogadores"
     }
   ],
-  "links": [
-    {
-      "title": "Ver desenvolvimento do produto",
-      "url": "?area=software&project=rakestra-plataforma"
-    }
-  ],
+  "links": [],
   "cover": {
     "type": "image",
     "src": "portfolio/assets/produtos.webp",

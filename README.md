@@ -1,10 +1,34 @@
+# Bruno Nascimento · Portfólio
+
+Portfólio em https://bruniversamente.github.io/, com seis áreas e 66 apresentações.
+
+## Desenvolvimento de software
+
+A versão `software-app-gestao-agastudio-20261104` inclui três projetos construídos e revisados individualmente:
+
+- **Rakestra App:** aplicativo completo, em 12 capítulos, com mapa de módulos, arquitetura e apresentação dos fluxos de comunicação e recuperação.
+- **Rakestra Gestão:** sistema de gestão de clubes, em 13 capítulos, com operação desktop, reserva pelo celular, arquitetura e demonstração de disponibilidade.
+- **AGAStudio:** programa desktop de análise aeronáutica e produção técnica, em 13 capítulos, com motor, visualizações, documentação, assistentes e arquivo de projeto.
+
+Cada projeto liga a apresentação ao seu repositório público de apoio e oferece um pacote para download. Esses materiais contêm módulos selecionados e verificações com alcance identificado; não distribuem os produtos completos. Os textos distinguem as decisões de Bruno, o desenvolvimento assistido por IA e as capacidades demonstradas.
+
+A classificação mantém EasyAGA Web Design e Rakestra Identidade em UX/UI e Web Design. Os estudos de design dos três produtos continuam separados das apresentações de software. O mapa PBZPH do AGAStudio usa a captura corrigida com base Satélite/Esri e atribuição preservada.
+
+## Publicação e trabalho local
+
+GitHub Pages publica a raiz da branch `main`, sem novas dependências. O catálogo e os JSONs em `portfolio/project-data/` compõem as páginas. Dashboards e endereços anteriores permanecem disponíveis. A porta 8776 serve a pasta canônica local. As páginas de revisão e os ajustes de miniaturas de Beleza em andamento não integram esta publicação.
+
+Os registros abaixo são históricos.
+
+---
+
 # Seis áreas · 04/11/2026
 
 Versão `seis-areas-20261104`: Beleza; Design e direção criativa; UX/UI e Web Design; Desenvolvimento de software; Dados e BI; Consultoria Aeronáutica. A organização foi aprovada por Bruno para publicação.
 
 Desenvolvimento apresenta Rakestra (App e Gestão), AGAStudio e website EasyAGA em três cases técnicos. UX/UI preserva os três estudos existentes e acrescenta o Web Design da EasyAGA. As pranchas de identidade visual permanecem em Design. O catálogo tem 67 apresentações; os produtos compartilhados entre áreas estão identificados por recorte e conectados por links. Essas apresentações não representam 67 produtos distintos.
 
-A porta 8776 acompanha a versão publicada. Trabalhos ainda em revisão usam outra prévia; depois da publicação, a base canônica avança para o mesmo commit do Pages.
+A porta 8776 é o único servidor local do portfólio e apresenta as correções em andamento. O local pode divergir da publicação até Bruno solicitar o envio ao GitHub. Essa regra substitui o fluxo anterior com outra porta para revisão.
 
 Os registros abaixo são históricos.
 

@@ -1,0 +1,1052 @@
+{
+  "area": "software",
+  "id": "rakestra-app",
+  "title": "Rakestra App",
+  "subtitle": "Um aplicativo para esportes de raquete",
+  "tags": [
+    "Desenvolvimento mobile",
+    "Backend",
+    "TypeScript",
+    "Produto autoral"
+  ],
+  "intro": "Da descoberta de um parceiro à vida em comunidade: construção de um aplicativo que conecta atletas, partidas, conteúdo, serviços e competição.",
+  "credit": "Concepção do produto e direção visual: Bruno Nascimento. Desenvolvimento assistido por IA.",
+  "credits": [],
+  "sections": [],
+  "links": [],
+  "media": [
+    {
+      "id": "social",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/social-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/social-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Feed e stories",
+      "caption": "Publicações e stories no feed. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "id": "messages",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/messages-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/messages-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Conversa entre atletas",
+      "caption": "Mensagens entre participantes. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "id": "notifications",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/notifications-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/notifications-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Notificações",
+      "caption": "Atualizações de relações e atividades. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "id": "groups",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/groups-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/groups-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Grupo esportivo",
+      "caption": "Identidade e navegação de um grupo. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "id": "group-feed",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/group-feed-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/group-feed-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Atividade no grupo",
+      "caption": "Publicações e atividades na comunidade. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "id": "group-ranking",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/group-ranking-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/group-ranking-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Ranking do grupo",
+      "caption": "Classificação dentro do grupo. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "id": "reservations",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/reservations-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/reservations-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Encontrar uma quadra",
+      "caption": "Espaços, modalidades e acesso à disponibilidade. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "id": "my-reservations",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/my-reservations-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/my-reservations-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Acompanhar reservas",
+      "caption": "Reservas na experiência mobile do atleta. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "id": "coach",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/coach-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/coach-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Perfil do treinador",
+      "caption": "Conteúdo e identidade do profissional. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "id": "coach-services",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/coach-services-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/coach-services-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Serviços do treinador",
+      "caption": "Catálogo do profissional. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "id": "coach-agenda",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/coach-agenda-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/coach-agenda-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Agenda do treinador",
+      "caption": "Agenda no painel mobile do profissional. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "id": "coach-students",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/coach-students-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/coach-students-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Alunos do treinador",
+      "caption": "Acompanhamento no painel mobile do profissional. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "id": "tournaments",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/tournaments-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/tournaments-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Encontrar torneios",
+      "caption": "Lista de competições. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "id": "tournament-detail",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/tournament-detail-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/tournament-detail-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Participar de um torneio",
+      "caption": "Informações de uma competição. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "id": "brackets",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/brackets-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/brackets-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Chaves e confrontos",
+      "caption": "Estrutura de confrontos no torneio. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "id": "profile",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/profile-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/profile-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Perfil esportivo",
+      "caption": "Identidade, relações e trajetória do atleta. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "id": "history",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/history-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/history-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Histórico de partidas",
+      "caption": "Partidas registradas na trajetória esportiva. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "id": "achievements",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/achievements-640w.webp",
+      "width": 640,
+      "height": 1323,
+      "fullSrc": "portfolio/assets/software/rakestra-app/achievements-device.svg",
+      "fullWidth": 1260,
+      "fullHeight": 2604,
+      "kind": "phone",
+      "alt": "Conquistas",
+      "caption": "Conquistas apresentadas no perfil. Captura demonstrativa de desenvolvimento, 2026; personagens e indicadores fictícios."
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/8fd3b93d27a4732220d5-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "play",
+      "alt": "Atletas · Simples",
+      "caption": "Atletas · Simples. Interface de desenvolvimento; dados demonstrativos.",
+      "kind": "phone"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/6a6246272ddeaee73448-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "preferences",
+      "alt": "Preferências",
+      "caption": "Preferências. Interface de desenvolvimento; dados demonstrativos.",
+      "kind": "phone"
+    },
+    {
+      "id": "proposal",
+      "type": "image",
+      "src": "portfolio/assets/project/969de1170450c3816a6d.svg",
+      "width": 1260,
+      "height": 2604,
+      "alt": "Marcar jogo · Tipo de jogo — captura demonstrativa de setembro de 2026 no mock premium das peças de loja",
+      "caption": "Marcar jogo · Tipo de jogo. Interface de desenvolvimento; dados demonstrativos.",
+      "kind": "phone"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/9a68fe4969b8c8075edd-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "schedule",
+      "alt": "Data, horário e local",
+      "caption": "Data, horário e local. Interface de desenvolvimento; dados demonstrativos.",
+      "kind": "phone"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/11dbaf98354c6e1fd423-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "sent",
+      "alt": "Convite de jogo enviado",
+      "caption": "Convite de jogo enviado. Interface de desenvolvimento; dados demonstrativos.",
+      "kind": "phone"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/7878711bb5f10b012773-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "received",
+      "alt": "Propostas recebidas",
+      "caption": "Propostas recebidas. Interface de desenvolvimento; dados demonstrativos.",
+      "kind": "phone"
+    },
+    {
+      "id": "accepted",
+      "type": "image",
+      "src": "portfolio/assets/project/6cc86fb2c075df4d94dc.svg",
+      "width": 1260,
+      "height": 2604,
+      "alt": "Aceito",
+      "caption": "Aceito. Interface de desenvolvimento; dados demonstrativos.",
+      "kind": "phone"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/f2a64333f1d0d6bef868-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "pending",
+      "alt": "Convite com envio pendente",
+      "caption": "Convite com envio pendente. Interface de desenvolvimento; dados demonstrativos.",
+      "kind": "phone"
+    },
+    {
+      "id": "architecture",
+      "type": "image",
+      "src": "portfolio/assets/software/rakestra-app/architecture.svg",
+      "width": 1440,
+      "height": 850,
+      "alt": "Diagrama lógico do Rakestra App: aplicativo, API e dados.",
+      "caption": "Visão lógica das responsabilidades. Relações simplificadas para leitura do produto."
+    }
+  ],
+  "cover": {
+    "id": "cover",
+    "type": "image",
+    "src": "portfolio/assets/software/rakestra-app/cover.webp",
+    "width": 1920,
+    "height": 1080,
+    "alt": "Rakestra App · Desenvolvimento mobile e backend. Visão de atletas, comunidade e competição."
+  },
+  "story": {
+    "navigation": true,
+    "role": "Produto autoral · aplicativo mobile e API · desenvolvimento assistido por IA",
+    "notice": "Desenvolvimento de software · apresentação do produto completo",
+    "chapters": [
+      {
+        "id": "produto",
+        "label": "O aplicativo",
+        "title": "Uma vida esportiva conectada",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O Rakestra App reúne a descoberta de parceiros, a organização de partidas e a participação em uma comunidade de esportes de raquete. Feed, mensagens, grupos, reservas, treinadores e torneios ampliam o percurso entre querer jogar e manter uma rotina esportiva.",
+              "A construção envolve o aplicativo mobile, a API e os dados que conectam essas experiências. Esta apresentação percorre o produto inteiro e aprofunda decisões de implementação em pontos que exigem consistência entre interface, identidade e registros."
+            ]
+          },
+          {
+            "type": "software-atlas",
+            "modules": [
+              {
+                "name": "Atletas e partidas",
+                "context": "Encontrar e combinar",
+                "chapter": "jogar",
+                "media": "play",
+                "description": "Preferências, localização e perfil ajudam a escolher um parceiro. A proposta reúne participantes e condições da partida, e cada resposta tem um estado próprio.",
+                "connections": [
+                  "Perfil esportivo → descoberta",
+                  "Atleta → proposta → resposta",
+                  "Partida → agenda e histórico"
+                ]
+              },
+              {
+                "name": "Feed e mensagens",
+                "context": "Manter o contato",
+                "chapter": "social",
+                "media": "social",
+                "description": "Publicações, stories, conversas e notificações dão continuidade às relações que começam dentro e fora da quadra.",
+                "connections": [
+                  "Publicação → perfil do autor",
+                  "Conversa → participantes",
+                  "Notificação → atividade de origem"
+                ]
+              },
+              {
+                "name": "Grupos e clubes",
+                "context": "Praticar em comunidade",
+                "chapter": "comunidade",
+                "media": "groups",
+                "description": "Os grupos reúnem participantes, conteúdo, conversas e atividades esportivas numa identidade comum.",
+                "connections": [
+                  "Participante → vínculo com o grupo",
+                  "Grupo → conteúdo e conversa",
+                  "Grupo → torneios e classificação"
+                ]
+              },
+              {
+                "name": "Reservas",
+                "context": "Encontrar onde jogar",
+                "chapter": "reservas",
+                "media": "reservations",
+                "description": "O atleta consulta espaços e disponibilidade e acompanha suas reservas no aplicativo. A operação do estabelecimento se conecta ao sistema de gestão.",
+                "connections": [
+                  "Espaço → modalidade e horários",
+                  "Reserva → participante e situação",
+                  "Aplicativo → operação do clube"
+                ]
+              },
+              {
+                "name": "Treinadores e alunos",
+                "context": "Aprender e acompanhar",
+                "chapter": "treinadores",
+                "media": "coach",
+                "description": "O perfil profissional apresenta conteúdo e serviços. O aplicativo também oferece ao treinador uma área de agenda e acompanhamento de alunos.",
+                "connections": [
+                  "Aluno → profissional e serviço",
+                  "Agendamento → disponibilidade",
+                  "Treinador → agenda e alunos"
+                ]
+              },
+              {
+                "name": "Torneios",
+                "context": "Participar da competição",
+                "chapter": "competicao",
+                "media": "brackets",
+                "description": "Uma competição reúne informações, categorias, participantes, confrontos e resultados. O usuário acompanha essas partes dentro do aplicativo.",
+                "connections": [
+                  "Competição → categorias",
+                  "Participação → confrontos",
+                  "Confrontos → resultados e classificação"
+                ]
+              },
+              {
+                "name": "Perfil e evolução",
+                "context": "Construir a trajetória",
+                "chapter": "evolucao",
+                "media": "profile",
+                "description": "O perfil reúne identidade esportiva, relações, histórico e conquistas. Os indicadores precisam conservar o contexto das partidas e da modalidade.",
+                "connections": [
+                  "Identidade → presença nas outras áreas",
+                  "Histórico → partidas registradas",
+                  "Indicadores → contexto esportivo"
+                ]
+              },
+              {
+                "name": "Acesso e privacidade",
+                "context": "A base do produto",
+                "chapter": "arquitetura",
+                "media": "preferences",
+                "description": "Sessão, identidade e permissões acompanham as áreas do aplicativo. Uma conta ou resposta antiga não deve ocupar o lugar da identidade atual.",
+                "connections": [
+                  "Conta → perfil e sessão",
+                  "Bloqueio → visibilidade e interação",
+                  "Permissão → acesso a cada operação"
+                ]
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "As imagens apresentam cenários demonstrativos do desenvolvimento em 2026. Pessoas, valores, classificações e indicadores das telas são exemplos. Algumas capturas conservam a identidade PlayZone utilizada durante o desenvolvimento."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "autoria",
+        "label": "Origem e participação",
+        "title": "Da experiência em quadra à construção do produto",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A experiência de Bruno em quadras públicas motivou o projeto. Encontrar parceiros dependia da aproximação com pessoas e grupos que já frequentavam os espaços. A proposta do aplicativo é tornar visíveis as informações e as possibilidades de contato necessárias para iniciar uma partida.",
+              "Bruno Nascimento conduz a concepção do produto, os fluxos e a direção visual. A construção utiliza desenvolvimento assistido por IA, com definição e revisão das funcionalidades. A participação inclui transformar necessidades do produto em decisões de interface e implementação, acompanhando as relações entre os módulos."
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Responsabilidade",
+              "Participação no projeto"
+            ],
+            "rows": [
+              [
+                "Produto",
+                "Definição das experiências de descoberta, prática esportiva e comunidade."
+              ],
+              [
+                "Interface",
+                "Fluxos, identidade visual e composição das telas."
+              ],
+              [
+                "Construção",
+                "Desenvolvimento assistido por IA no aplicativo e no backend."
+              ],
+              [
+                "Revisão",
+                "Conferência dos comportamentos e ajustes a partir de problemas observados."
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O estudo de UX/UI relacionado examina as escolhas de experiência. Aqui, a apresentação inclui a organização do software e mecanismos que sustentam seu comportamento."
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Ver o estudo de UX/UI",
+                "url": "?area=produtos&project=produtos-01"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "jogar",
+        "label": "Atletas e partidas",
+        "title": "Encontrar um parceiro e organizar o encontro",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A descoberta começa pela modalidade, pelas preferências e pela localização. Cartões e mapa oferecem formas de explorar atletas e consultar seu contexto antes do contato. O servidor considera os critérios da busca e as regras de visibilidade; o aplicativo organiza o retorno para a apresentação.",
+              "O convite reúne participantes, tipo de jogo, data e local. O recebimento e a resposta dão continuidade à proposta. A agenda e o histórico representam momentos distintos dessa relação: um convite enviado ainda não significa uma partida aceita ou realizada."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "play",
+              "preferences",
+              "proposal"
+            ],
+            "layout": "three"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "As etapas compartilham identidades de atleta e partida. O aplicativo mantém essas referências ao trocar de tela e trata carregamento, ausência de candidatos, erros de consulta e propostas pendentes com estados próprios."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "received",
+              "accepted",
+              "history"
+            ],
+            "layout": "three"
+          }
+        ]
+      },
+      {
+        "id": "social",
+        "label": "Feed e comunicação",
+        "title": "A relação continua entre as partidas",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O feed e os stories permitem compartilhar a prática esportiva. Publicações e perfis oferecem contexto para conhecer outras pessoas; as conversas permitem alinhar os detalhes do encontro. As notificações direcionam a atenção para atividades e respostas relacionadas ao usuário.",
+              "No software, conteúdo, autoria, participantes e atividade de origem precisam conservar suas referências. As permissões e os bloqueios acompanham essas interações, além do que aparece na composição visual de uma tela."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "social",
+              "messages",
+              "notifications"
+            ],
+            "layout": "three"
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Parte",
+              "Responsabilidade"
+            ],
+            "rows": [
+              [
+                "Conteúdo",
+                "Associar publicação, mídia e autoria."
+              ],
+              [
+                "Conversa",
+                "Manter participantes e acesso ao histórico da interação."
+              ],
+              [
+                "Notificação",
+                "Apresentar o acontecimento e permitir consultar seu contexto."
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A captura registra a aparência do cenário demonstrativo. Ela não comprova entrega de mensagens ou notificações em produção. As verificações reproduzíveis desta edição técnica estão identificadas no capítulo de qualidade."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "comunidade",
+        "label": "Grupos e clubes",
+        "title": "Uma identidade compartilhada para jogar",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Os grupos organizam relações que vão além de um encontro individual. Identidade, participantes, publicações, conversa e atividades esportivas ficam reunidos num contexto comum. Clubes e espaços acrescentam a ligação com a prática organizada.",
+              "Essa estrutura exige distinguir o perfil da pessoa, seu vínculo com o grupo e as funções que ela pode exercer naquele contexto. Uma mesma identidade pode aparecer como participante, autora de conteúdo ou integrante de uma atividade, sem transformar esses papéis em equivalentes."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "groups",
+              "group-feed",
+              "group-ranking"
+            ],
+            "layout": "three"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "As ligações entre comunidade, competição e perfil fazem parte do mapa do produto. O ranking do grupo conserva seu contexto; ele não deve ser confundido com qualquer outro indicador esportivo exibido no aplicativo."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "reservas",
+        "label": "Reservas",
+        "title": "Conectar a intenção de jogar a um espaço",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "A área de reservas permite explorar espaços por modalidade e consultar a oferta disponível. O atleta acompanha suas reservas na experiência mobile, enquanto a operação do estabelecimento se relaciona com o Rakestra Gestão.",
+              "O contexto da reserva precisa permanecer associado ao espaço, ao participante, ao horário e à situação apresentada. Reserva, presença e cobrança representam informações diferentes; a interface deve permitir reconhecer o significado de cada uma."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "reservations",
+              "my-reservations"
+            ],
+            "layout": "pair"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Neste projeto, o foco é a participação do atleta pelo aplicativo e a conexão com os dados da operação. O case específico do Rakestra Gestão aprofunda a experiência de atendimento e organização do clube."
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Ver Rakestra Gestão em UX/UI",
+                "url": "?area=produtos&project=produtos-03"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "treinadores",
+        "label": "Treinadores e alunos",
+        "title": "O mesmo aplicativo, responsabilidades diferentes",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O perfil do treinador reúne identidade profissional, conteúdo e catálogo de serviços. Para o aluno, essa apresentação ajuda a conhecer a oferta e iniciar o contato ou o agendamento disponível.",
+              "O profissional também tem uma área de trabalho no aplicativo: agenda, serviços e acompanhamento de alunos. A navegação precisa conservar a identidade da pessoa e distinguir as responsabilidades de quem procura uma aula e de quem organiza o atendimento."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "coach",
+              "coach-services"
+            ],
+            "layout": "pair"
+          },
+          {
+            "type": "media",
+            "items": [
+              "coach-agenda",
+              "coach-students"
+            ],
+            "layout": "pair"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Os valores e os compromissos das capturas pertencem ao cenário demonstrativo. A apresentação do painel evidencia a abrangência do produto; a prontidão de cada operação exige verificações próprias."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "competicao",
+        "label": "Torneios",
+        "title": "Do interesse pela competição ao acompanhamento dos jogos",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Os torneios reúnem informações da competição, categorias, participantes, confrontos e resultados. O aplicativo oferece a consulta e a participação nesse contexto, com navegação entre as partes do evento.",
+              "Uma inscrição, a presença de um participante na chave e o resultado de um confronto representam etapas diferentes. A organização do software precisa conservar essas relações para que a pessoa reconheça sua participação e acompanhe a competição."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "tournaments",
+              "tournament-detail",
+              "brackets"
+            ],
+            "layout": "three"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "As telas mostram competições e resultados fictícios preparados para apresentação. Não representam torneios realizados, volume de inscritos reais ou resultados comerciais do produto."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "evolucao",
+        "label": "Perfil e evolução",
+        "title": "Uma trajetória que atravessa os módulos",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O perfil reúne a identidade esportiva, as relações, as partidas e as conquistas apresentadas pelo aplicativo. Ele funciona como ponto de consulta para informações que também aparecem na descoberta, nas conversas e nas atividades.",
+              "Os indicadores precisam conservar o contexto de modalidade, formato e origem. Consultar um histórico é diferente de confirmar um resultado; apresentar uma conquista é diferente de comprovar que uma operação foi concluída."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "profile",
+              "history",
+              "achievements"
+            ],
+            "layout": "three"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Os módulos extraídos para o repositório incluem leitores e validadores utilizados para conferir identidades e dados de partidas. Eles permitem examinar uma parte dessa fronteira entre o que o aplicativo recebe e o que aceita apresentar."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "arquitetura",
+        "label": "Arquitetura",
+        "title": "Aplicativo, serviços e dados trabalham em conjunto",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O aplicativo utiliza React Native, Expo e TypeScript. A navegação separa as experiências, enquanto serviços de acesso a dados conectam a interface à API. O backend em Node.js/Next.js concentra operações e regras; o MongoDB persiste os registros e suas relações.",
+              "Sessão, identidade, privacidade, mídia e comunicação atravessam vários módulos. A separação entre tela, serviço e validação ajuda a tratar essas responsabilidades sem atribuir à aparência da interface uma decisão que cabe ao servidor."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "architecture"
+            ],
+            "layout": "pair"
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Camada",
+              "Papel no produto",
+              "Exemplo"
+            ],
+            "rows": [
+              [
+                "Aplicativo",
+                "Interação, navegação e estado de apresentação.",
+                "Preferências, proposta e leitura do histórico."
+              ],
+              [
+                "Serviços do cliente",
+                "Preparação, consulta e conferência das respostas.",
+                "Identidade do perfil e comprovante de uma tentativa."
+              ],
+              [
+                "API",
+                "Autenticação e regras da operação.",
+                "Visibilidade da descoberta e criação da partida."
+              ],
+              [
+                "Persistência",
+                "Registros e vínculos que continuam existindo entre as telas.",
+                "Atleta, grupo, partida, reserva e torneio."
+              ],
+              [
+                "Integrações",
+                "Recursos do dispositivo e serviços de apoio.",
+                "Localização, mídia e notificações."
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O diagrama apresenta responsabilidades lógicas. Ele não representa uma declaração de escala, topologia de produção ou garantia de disponibilidade."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "engenharia",
+        "label": "Decisões técnicas",
+        "title": "Decisões que podem ser examinadas",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Os aprofundamentos conectam situações concretas às escolhas de implementação. Os arquivos selecionados conservam a lógica do produto; o pacote técnico identifica sua origem e as adaptações necessárias para execução isolada."
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Uma interrupção pode acontecer antes do registro no servidor ou depois dele, quando a resposta já não chega ao celular. O aplicativo preserva a tentativa e consulta um comprovante vinculado ao autor e ao conteúdo original. O reenvio depende de uma ação explícita e conserva a identificação da tentativa."
+            ],
+            "title": "Conferir um envio antes de repeti-lo"
+          },
+          {
+            "type": "software-recovery",
+            "scenarios": [
+              {
+                "title": "Resposta recebida",
+                "steps": [
+                  {
+                    "label": "Aplicativo",
+                    "text": "Registra a identificação da tentativa e envia a proposta."
+                  },
+                  {
+                    "label": "Servidor",
+                    "text": "Valida o pedido e registra partida, comprovante e convites na transação."
+                  },
+                  {
+                    "label": "Aplicativo",
+                    "text": "Confere o comprovante e a identidade do convite retornado."
+                  }
+                ],
+                "result": "O aplicativo reconhece o convite registrado e pode encerrar a tentativa pendente."
+              },
+              {
+                "title": "Resposta perdida",
+                "steps": [
+                  {
+                    "label": "Registro concluído",
+                    "text": "O servidor conclui o registro, mas a confirmação não chega ao celular."
+                  },
+                  {
+                    "label": "Verificar envio",
+                    "text": "A ação de recuperação consulta o comprovante da tentativa original."
+                  },
+                  {
+                    "label": "Mesmo convite",
+                    "text": "A leitura recupera a identidade já registrada e consulta seu estado atual."
+                  }
+                ],
+                "result": "A consulta recupera o convite existente. Ela não cria outra proposta nem restaura uma versão antiga dos detalhes."
+              },
+              {
+                "title": "Pedido não registrado",
+                "steps": [
+                  {
+                    "label": "Interrupção",
+                    "text": "A tentativa fica preservada no celular, sem registro confirmado no servidor."
+                  },
+                  {
+                    "label": "Conferência",
+                    "text": "O aplicativo verifica o comprovante e apresenta a revisão do convite original."
+                  },
+                  {
+                    "label": "Ação explícita",
+                    "text": "Quando cabe reenviar, utiliza a mesma identificação e o mesmo conteúdo da tentativa."
+                  }
+                ],
+                "result": "O usuário decide o reenvio após a conferência. Consultar um envio pendente não inicia uma criação automaticamente."
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              "pending"
+            ],
+            "layout": "pair"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A rota de consulta de comprovante não cria uma partida. O registro da partida e dos convites utiliza uma transação no servidor. Os testes locais publicados conferem o contrato e a identidade do comprovante; a prova da transação completa com banco e dispositivo tem um escopo diferente."
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Uma resposta atrasada ou um registro com identidade inconsistente não deve substituir o perfil esperado. Os validadores conferem identificadores e campos antes de aceitar a leitura. Uma proposta sem placar também utiliza um contrato próprio, distinto do registro de uma partida com resultado."
+            ],
+            "title": "Manter identidade e significado entre os módulos"
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "pre",
+              "attrs": {
+                "class": "software-code"
+              },
+              "children": [
+                {
+                  "tag": "code",
+                  "attrs": {},
+                  "children": [
+                    "if (!publicHistoryId(userId) || exactProfileId(value) !== userId\n    || typeof value.name !== 'string') {\n  throw new Error('Invalid athlete profile response');\n}\n// Trecho da validação; o arquivo completo está no pacote técnico."
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O trecho resume a conferência de identidade do leitor de perfil. Os testes do pacote exercitam também a autoria da proposta, participantes repetidos, conteúdo indevido e divergência entre pedido e comprovante."
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "O aceite pode estar completo ou ainda depender de outros participantes. O módulo compartilhado prepara essa informação e oferece sua apresentação em português, inglês e espanhol. A mensagem preserva participantes e contexto, em vez de tratar qualquer resposta como partida confirmada."
+            ],
+            "title": "Compartilhar o significado das atualizações"
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "As transições dos cartões têm estados e identidades próprios. O código coordena o conteúdo visível, a confirmação da troca e o cancelamento das animações ao sair da tela. Essa implementação pode ser examinada; esta edição não apresenta uma medição de FPS ou uma comparação de desempenho."
+            ],
+            "title": "Relacionar movimento e estado do aplicativo"
+          }
+        ]
+      },
+      {
+        "id": "qualidade",
+        "label": "Qualidade e estado atual",
+        "title": "Evidências com uma abrangência definida",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O pacote técnico foi executado localmente com Node.js 24.14.0 em 4 de novembro de 2026. Os 17 testes passaram. Eles verificam módulos selecionados com dados fictícios e armazenamento substituído nos testes de sessão, sem conexão com contas, pagamentos ou serviços do produto."
+            ]
+          },
+          {
+            "type": "table",
+            "columns": [
+              "Verificação",
+              "Evidência desta edição",
+              "Abrangência"
+            ],
+            "rows": [
+              [
+                "Sessão",
+                "8 testes de leitura, migração, falha, timeout e saída.",
+                "Política do módulo, com adaptadores de armazenamento de teste."
+              ],
+              [
+                "Contratos e notificações",
+                "9 testes de proposta, identidade, comprovante e apresentação.",
+                "Funções extraídas; não envia convites nem notificações."
+              ],
+              [
+                "Fluxo original de convites",
+                "15 testes passaram no código do produto.",
+                "API e armazenamento controlados no ambiente de teste; sem banco real ou aparelho."
+              ],
+              [
+                "Aplicativo completo",
+                "Mapa de módulos, código de referência e capturas de desenvolvimento.",
+                "A apresentação não equivale a aprovação funcional de todos os módulos."
+              ],
+              [
+                "Desempenho",
+                "Código de interação documentado.",
+                "Sem benchmark publicado nesta edição."
+              ]
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A edição pública do código utiliza a remoção nativa de tipos do Node para executar os recortes. Esse comando executa testes de comportamento e não substitui uma verificação estática de tipos nem um build do aplicativo.",
+              "A evolução do produto exige conferir os percursos no aparelho, as integrações e os estados de falha de cada operação. O repositório mantém o escopo das evidências junto ao material, permitindo distinguir o que a demonstração mostra do que um teste verificou."
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Examinar o projeto no GitHub",
+                "url": "https://github.com/bruniversamente/rakestra-app-engineering"
+              },
+              {
+                "title": "Baixar código, documentação e testes",
+                "url": "portfolio/downloads/rakestra-app-engineering.zip"
+              },
+              {
+                "title": "Ver estudo de UX/UI",
+                "url": "?area=produtos&project=produtos-01"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "endnote": "Rakestra App · concepção e direção de Bruno Nascimento, com desenvolvimento assistido por IA. Capturas de desenvolvimento com dados demonstrativos; escopo das verificações identificado nesta apresentação."
+  }
+}

@@ -343,20 +343,15 @@
             ]
           },
           {
-            "type": "text",
-            "paragraphs": [
-              "O player do YouTube não carregou nesta prévia. Acesse o clipe pelo canal oficial."
-            ]
-          },
-          {
             "type": "embed",
             "film": {
               "title": "Boto Fé - clipe oficial",
-              "src": "https://www.youtube-nocookie.com/embed/kDPcv7uqXNA?si=IUTZTWq97YelA3Oq",
+              "src": "https://www.youtube.com/embed/kDPcv7uqXNA",
               "url": "https://www.youtube.com/watch?v=kDPcv7uqXNA",
               "poster": "portfolio/assets/beleza/bia-ferreira-boto-fe/clipe-oficial-poster-ac65413e82/image.avif",
               "linkLabel": "Ver no canal oficial",
-              "aspectRatio": "16/9"
+              "aspectRatio": "16/9",
+              "external": true
             }
           }
         ]

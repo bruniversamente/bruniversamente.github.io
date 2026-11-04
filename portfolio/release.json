@@ -60,7 +60,7 @@
     ]
   },
   "films_on_existing_host": 3,
-  "release": "beleza-20261104",
+  "release": "beleza-20261104b",
   "base_commit": "be06ca0c125edbbb648c69728f450436ce74beaa",
   "adapted_visual_cases": 39,
   "preserved_data_cases": 5,
@@ -71,6 +71,7 @@
   "beauty_projects": 29,
   "prepared_beauty_images": 339,
   "local_beauty_videos": 20,
-  "beauty_official_embeds": 2,
-  "site_bytes_before_commit": 883355691
+  "beauty_official_embeds": 1,
+  "site_bytes_before_commit": 883355691,
+  "beauty_official_video_links": 1
 }

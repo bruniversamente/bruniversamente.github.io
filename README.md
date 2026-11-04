@@ -10,7 +10,7 @@ Os casos visuais usam fotografias e artes individuais, textos e créditos em HTM
 
 ## Beleza
 
-Versão `beleza-20261104`: os 29 projetos do catálogo local foram incorporados com suas seleções de fotografias, processo, créditos e links. São 339 arquivos de imagem preparados, incluindo capas de vídeos e uma marca vetorial, 20 vídeos locais e dois players oficiais do YouTube. Os três players Hering já publicados continuam disponíveis.
+Versão `beleza-20261104b`: os 29 projetos do catálogo local foram incorporados com suas seleções de fotografias, processo, créditos e links. São 339 arquivos de imagem preparados, incluindo capas de vídeos e uma marca vetorial, 20 vídeos locais e acessos aos dois clipes oficiais no YouTube. Calma usa o player incorporado; Boto Fé abre o canal oficial, pois o YouTube recusou a reprodução incorporada na conferência. Os três players Hering já publicados continuam disponíveis.
 
 As imagens têm variantes AVIF para web, com perfis de cor preservados, sem novos retoques e sem ampliar imagens pequenas. A versão ampliada tem até 1920 px no lado maior. A compressão foi conferida contra a imagem de referência na mesma dimensão; ela não é anunciada como cópia sem perdas dos arquivos originais. Os vídeos usam H.264 e áudio AAC, mantendo a duração e a orientação, com o lado maior limitado a 1280 px. A navegação carrega os vídeos somente quando o visitante abre o visualizador ou escolhe reproduzir.
 

@@ -1,0 +1,113 @@
+{
+  "id": "2022-aerodromo-privado-fazenda-cabeceira-do-pontal",
+  "area": "consultoria",
+  "title": "Aeródromo da Fazenda Cabeceira do Pontal",
+  "subtitle": "PBZPA e cadastro",
+  "tags": [
+    "Aeródromos e aeroportos",
+    "Viabilidade",
+    "Planos de proteção",
+    "Cadastro"
+  ],
+  "intro": "Viabilidade, PBZPA e cadastro de aeródromo privado.",
+  "media": [
+    {
+      "id": "cover",
+      "type": "image",
+      "src": "portfolio/assets/consultoria/2022-aerodromo-privado-fazenda-cabeceira-do-pontal/1280w.webp",
+      "width": 1280,
+      "height": 720,
+      "srcset": "portfolio/assets/consultoria/2022-aerodromo-privado-fazenda-cabeceira-do-pontal/640w.webp 640w, portfolio/assets/consultoria/2022-aerodromo-privado-fazenda-cabeceira-do-pontal/1280w.webp 1280w, portfolio/assets/consultoria/2022-aerodromo-privado-fazenda-cabeceira-do-pontal/image.webp 1672w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/consultoria/2022-aerodromo-privado-fazenda-cabeceira-do-pontal/image.webp",
+      "fullWidth": 1672,
+      "fullHeight": 941,
+      "alt": "Imagem de capa do projeto Aeródromo da Fazenda Cabeceira do Pontal em Alto Taquari-MT.",
+      "caption": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA."
+    }
+  ],
+  "cover": {
+    "id": "cover",
+    "type": "image",
+    "src": "portfolio/assets/consultoria/2022-aerodromo-privado-fazenda-cabeceira-do-pontal/1280w.webp",
+    "width": 1280,
+    "height": 720,
+    "srcset": "portfolio/assets/consultoria/2022-aerodromo-privado-fazenda-cabeceira-do-pontal/640w.webp 640w, portfolio/assets/consultoria/2022-aerodromo-privado-fazenda-cabeceira-do-pontal/1280w.webp 1280w, portfolio/assets/consultoria/2022-aerodromo-privado-fazenda-cabeceira-do-pontal/image.webp 1672w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+    "fullSrc": "portfolio/assets/consultoria/2022-aerodromo-privado-fazenda-cabeceira-do-pontal/image.webp",
+    "fullWidth": 1672,
+    "fullHeight": 941,
+    "alt": "Imagem de capa do projeto Aeródromo da Fazenda Cabeceira do Pontal em Alto Taquari-MT.",
+    "caption": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA."
+  },
+  "sections": [],
+  "credits": [
+    {
+      "role": "Consultoria aeronáutica",
+      "names": "EasyAGA"
+    },
+    {
+      "role": "Participação na EasyAGA",
+      "names": "Bruno Nascimento"
+    }
+  ],
+  "credit": "",
+  "links": [],
+  "story": {
+    "editorial": true,
+    "navigation": false,
+    "notice": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA.",
+    "chapters": [
+      {
+        "id": "projeto",
+        "label": "Projeto",
+        "title": "Sobre o projeto",
+        "blocks": [
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Ano",
+                "names": "2022"
+              },
+              {
+                "role": "Local",
+                "names": "Alto Taquari-MT"
+              },
+              {
+                "role": "Escopo",
+                "names": "PBZPA e cadastro"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "atuacao",
+        "label": "Atuação",
+        "title": "Atuação na EasyAGA",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudo AGA, elaboração do PBZPA e cadastro junto ao DECEA e à ANAC."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "resultado",
+        "label": "Resultado",
+        "title": "Resultado",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Aeródromo privado inscrito no cadastro de aeródromos do DECEA e da ANAC (ICAO SJD2)."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

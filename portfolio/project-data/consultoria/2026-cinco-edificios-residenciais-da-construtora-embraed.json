@@ -1,0 +1,111 @@
+{
+  "id": "2026-cinco-edificios-residenciais-da-construtora-embraed",
+  "area": "consultoria",
+  "title": "Cinco torres da EMBRAED em Balneário Camboriú",
+  "subtitle": "AGA para edificações altas",
+  "tags": [
+    "Edificações",
+    "OPEA"
+  ],
+  "intro": "Assessoria AGA para cinco torres residenciais entre 137 e 286 metros.",
+  "media": [
+    {
+      "id": "cover",
+      "type": "image",
+      "src": "portfolio/assets/consultoria/2026-cinco-edificios-residenciais-da-construtora-embraed/1280w.webp",
+      "width": 1280,
+      "height": 720,
+      "srcset": "portfolio/assets/consultoria/2026-cinco-edificios-residenciais-da-construtora-embraed/640w.webp 640w, portfolio/assets/consultoria/2026-cinco-edificios-residenciais-da-construtora-embraed/1280w.webp 1280w, portfolio/assets/consultoria/2026-cinco-edificios-residenciais-da-construtora-embraed/image.webp 1672w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/consultoria/2026-cinco-edificios-residenciais-da-construtora-embraed/image.webp",
+      "fullWidth": 1672,
+      "fullHeight": 941,
+      "alt": "Imagem de capa do projeto Cinco torres da EMBRAED em Balneário Camboriú-SC.",
+      "caption": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA."
+    }
+  ],
+  "cover": {
+    "id": "cover",
+    "type": "image",
+    "src": "portfolio/assets/consultoria/2026-cinco-edificios-residenciais-da-construtora-embraed/1280w.webp",
+    "width": 1280,
+    "height": 720,
+    "srcset": "portfolio/assets/consultoria/2026-cinco-edificios-residenciais-da-construtora-embraed/640w.webp 640w, portfolio/assets/consultoria/2026-cinco-edificios-residenciais-da-construtora-embraed/1280w.webp 1280w, portfolio/assets/consultoria/2026-cinco-edificios-residenciais-da-construtora-embraed/image.webp 1672w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+    "fullSrc": "portfolio/assets/consultoria/2026-cinco-edificios-residenciais-da-construtora-embraed/image.webp",
+    "fullWidth": 1672,
+    "fullHeight": 941,
+    "alt": "Imagem de capa do projeto Cinco torres da EMBRAED em Balneário Camboriú-SC.",
+    "caption": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA."
+  },
+  "sections": [],
+  "credits": [
+    {
+      "role": "Consultoria aeronáutica",
+      "names": "EasyAGA"
+    },
+    {
+      "role": "Participação na EasyAGA",
+      "names": "Bruno Nascimento"
+    }
+  ],
+  "credit": "",
+  "links": [],
+  "story": {
+    "editorial": true,
+    "navigation": false,
+    "notice": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA.",
+    "chapters": [
+      {
+        "id": "projeto",
+        "label": "Projeto",
+        "title": "Sobre o projeto",
+        "blocks": [
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Ano",
+                "names": "2026"
+              },
+              {
+                "role": "Local",
+                "names": "Balneário Camboriú-SC"
+              },
+              {
+                "role": "Escopo",
+                "names": "AGA para edificações altas"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "atuacao",
+        "label": "Atuação",
+        "title": "Atuação na EasyAGA",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Adequação de projetos arquitetônicos e processos OPEA."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "resultado",
+        "label": "Resultado",
+        "title": "Resultado",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Deliberação favorável do COMAER."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

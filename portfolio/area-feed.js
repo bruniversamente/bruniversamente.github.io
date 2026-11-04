@@ -9,11 +9,11 @@
   const filters=document.querySelector('#filters');
   const homeFilters=[...filters.children];
   const main=document.querySelector('main');
-  let active=null,view='feed',projectFilter='all',units=6;
+  let active=null,view='feed',tagFilter=null,units=6;
   let homeView='grid';
   function element(tag,className,text){const el=document.createElement(tag);if(className)el.className=className;if(text)el.textContent=text;return el;}
   function imageNode(image,lazy=true,sizes='(max-width:700px) 100vw, 50vw'){const img=element('img');img.src=image.src+(image.version?`?v=${image.version}`:'');if(image.srcset){img.srcset=image.srcset;img.sizes=sizes;}if(image.position)img.style.objectPosition=image.position;img.alt=image.alt||'';img.width=image.width;img.height=image.height;img.loading=lazy?'lazy':'eager';img.decoding='async';img.draggable=false;return img;}
-  function matches(project){return (projectFilter==='all'||project.id===projectFilter)&&normalize(project.title+' '+project.credit).includes(normalize(search.value));}
+  function matches(project){const tags=project.tags||[];return (tagFilter===null||tags.includes(tagFilter))&&normalize([project.title,project.credit,...tags].join(' ')).includes(normalize(search.value));}
   function showProject(project,image){
     if(window.projectPage){window.projectPage.open(active,project.id);return;}
     document.querySelector('#area-title').textContent=project.title;
@@ -60,14 +60,18 @@
       ordered.forEach(project=>{const image=project.images[round];if(image)feedCard(project,image,false);});
     }
     filters.replaceChildren();
-    const addFilter=(id,title)=>{const button=element('button','button',title);button.type='button';button.setAttribute('aria-pressed',String(projectFilter===id));button.addEventListener('click',()=>{projectFilter=id;[...filters.children].forEach(b=>b.setAttribute('aria-pressed',String(b===button)));update();});filters.append(button);};
-    addFilter('all','Todos');projects.forEach(p=>addFilter(p.id,p.title));
+    const addFilter=(tag,title)=>{const button=element('button','button',title);button.type='button';button.setAttribute('aria-pressed',String(tagFilter===tag));button.addEventListener('click',()=>{tagFilter=tag;[...filters.children].forEach(b=>b.setAttribute('aria-pressed',String(b===button)));update();});filters.append(button);};
+    const tags=[...new Set(projects.flatMap(project=>project.tags||[]))].sort((a,b)=>a.localeCompare(b,'pt-BR'));
+    addFilter(null,'Todos');tags.forEach(tag=>addFilter(tag,tag));
     update();updateZoom();
   }
   function update(){
     if(!active)return;
     const visible=new Set(catalog[active].filter(matches).map(p=>p.id));
-    [...feed.children,...index.children].forEach(card=>card.hidden=!visible.has(card.dataset.project));
+    const unique=tagFilter!==null||search.value.trim()!=='';
+    const shown=new Set();
+    [...feed.children].forEach(card=>{const id=card.dataset.project;card.hidden=!visible.has(id)||(unique&&shown.has(id));if(!card.hidden)shown.add(id);});
+    [...index.children].forEach(card=>card.hidden=!visible.has(card.dataset.project));
     empty.hidden=visible.size>0;empty.textContent='Nenhum projeto encontrado.';
     distributeModules();
   }
@@ -103,6 +107,7 @@
   }
   function updateZoom(){feed.style.setProperty('--feed-units',String(units));feed.style.setProperty('--release-columns',String(units/2));document.querySelector('#larger').disabled=units===4;document.querySelector('#smaller').disabled=units===8;distributeModules();}
   function changeView(next,push=true){
+    window.aboutPage?.close();
     window.projectPage?.close(false);
     if(next==='grid'){navigate(null);return;}
     view=next==='index'?'index':'feed';feed.hidden=view!=='feed';index.hidden=view!=='index';
@@ -112,21 +117,22 @@
     window.scrollTo(0,0);
   }
   function navigate(key,push=true){
+    window.aboutPage?.close();
     window.projectPage?.close(false);
     const next=catalog[key]?key:null;
     if(next&&!active)homeView=grid.classList.contains('index-view')?'index':'grid';
-    active=next;projectFilter='all';search.value='';setMenu(false);search.hidden=true;document.querySelector('.search-button').setAttribute('aria-expanded','false');document.querySelector('.search-button').setAttribute('aria-label','Abrir busca');
+    active=next;tagFilter=null;search.value='';setMenu(false);search.hidden=true;document.querySelector('.search-button').setAttribute('aria-expanded','false');document.querySelector('.search-button').setAttribute('aria-label','Abrir busca');
     filters.hidden=true;document.querySelector('#filter-toggle').setAttribute('aria-expanded','false');
     grid.hidden=Boolean(active);areaButton.hidden=!active;main.dataset.area=active||'';
     if(active){
       const title=entries[active].title;areaButton.textContent=title;areaButton.title=title;heading.textContent=title;document.title=`${title} · Bruno Nascimento`;
-      search.placeholder=`Buscar em ${title}`;search.setAttribute('aria-label',`Buscar projetos em ${title}`);filters.setAttribute('aria-label','Filtrar projetos');
+      search.placeholder=`Buscar em ${title}`;search.setAttribute('aria-label',`Buscar projetos em ${title}`);filters.setAttribute('aria-label',`Filtrar ${title} por tags`);
       units=6;render();changeView(new URL(location.href).searchParams.get('view')==='index'&&!push?'index':'feed',false);
     }else{
       feed.hidden=true;index.hidden=true;filters.replaceChildren(...homeFilters);filters.setAttribute('aria-label','Filtrar áreas');heading.textContent='Áreas de atuação de Bruno Nascimento';document.title='Bruno Nascimento · Portfólio';search.placeholder='Qual área você procura?';search.setAttribute('aria-label','Buscar uma área');empty.textContent='Nenhuma área encontrada.';
       grid.classList.toggle('index-view',homeView==='index');document.querySelectorAll('[data-view]').forEach(b=>{if(b.dataset.view===homeView)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});responsive();updateCards();if(homeView==='index')prepareIndexGalleries();
     }
-    if(push){const url=new URL(location.href);url.hash='';url.searchParams.delete('view');url.searchParams.delete('project');if(active)url.searchParams.set('area',active);else url.searchParams.delete('area');history.pushState({},'',url);}
+    if(push){const url=new URL(location.href);url.hash='';url.searchParams.delete('page');url.searchParams.delete('view');url.searchParams.delete('project');if(active)url.searchParams.set('area',active);else url.searchParams.delete('area');history.pushState({},'',url);}
     window.scrollTo(0,0);
   }
   window.areaFeed={get active(){return active;},navigate,view:changeView,update,zoom(delta){units=Math.max(4,Math.min(8,units+delta*2));updateZoom();}};

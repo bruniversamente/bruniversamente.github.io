@@ -5,4 +5,5 @@
 @media(max-width:1023.98px){.main[data-area=dados] .area-feed{grid-template-columns:1fr;gap:2rem}.main[data-area=dados] .feed-card{max-height:none;aspect-ratio:16/10}}
 
 /* Keep the complete technical drawing visible, including wide modules. */
-.main[data-area=arquitetura] .feed-card .feed-media img,.main[data-area=arquitetura] .case-cover img{object-fit:contain;object-position:center}
+.main[data-area=design] .feed-card[data-project=tfg] .feed-media img{object-fit:contain;object-position:center}
+.main[data-area=consultoria] .feed-card .feed-media img{object-fit:cover}

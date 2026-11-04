@@ -6,7 +6,8 @@
   function node(tag,className,text){const el=document.createElement(tag);if(className)el.className=className;if(text)el.textContent=text;return el;}
   function button(text,label,className='button'){const el=node('button',className,text);el.type='button';el.setAttribute('aria-label',label);return el;}
   const header=node('div','viewer-header'),title=node('h2','viewer-title');title.id='media-viewer-title';
-  const closeButton=button('Fechar ×','Fechar galeria');header.append(title,closeButton);
+  const closeButton=button('','Fechar galeria','icon-button viewer-close');
+  for(let i=0;i<3;i++){const line=node('span','menu-line');line.setAttribute('aria-hidden','true');closeButton.append(line);}header.append(title,closeButton);
   const stage=node('div','viewer-stage');
   const footer=node('div','viewer-footer'),navigation=node('div','viewer-navigation');
   const previous=button('←','Mídia anterior','icon-button viewer-arrow'),next=button('→','Próxima mídia','icon-button viewer-arrow');

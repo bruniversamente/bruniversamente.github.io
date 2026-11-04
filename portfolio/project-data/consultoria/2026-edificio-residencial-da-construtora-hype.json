@@ -1,0 +1,136 @@
+{
+  "id": "2026-edificio-residencial-da-construtora-hype",
+  "area": "consultoria",
+  "title": "Edifício da HYPE em Curitiba",
+  "subtitle": "OPEA para edificação urbana",
+  "tags": [
+    "Edificações",
+    "OPEA"
+  ],
+  "intro": "OPEA para edifício residencial de 109,84 metros.",
+  "media": [
+    {
+      "id": "cover",
+      "type": "image",
+      "src": "portfolio/assets/consultoria/2026-edificio-residencial-da-construtora-hype/1280w.webp",
+      "width": 1280,
+      "height": 720,
+      "srcset": "portfolio/assets/consultoria/2026-edificio-residencial-da-construtora-hype/640w.webp 640w, portfolio/assets/consultoria/2026-edificio-residencial-da-construtora-hype/1280w.webp 1280w, portfolio/assets/consultoria/2026-edificio-residencial-da-construtora-hype/image.webp 1672w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/consultoria/2026-edificio-residencial-da-construtora-hype/image.webp",
+      "fullWidth": 1672,
+      "fullHeight": 941,
+      "alt": "Imagem de capa do projeto Edifício da HYPE em Curitiba-PR.",
+      "caption": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA."
+    }
+  ],
+  "cover": {
+    "id": "cover",
+    "type": "image",
+    "src": "portfolio/assets/consultoria/2026-edificio-residencial-da-construtora-hype/1280w.webp",
+    "width": 1280,
+    "height": 720,
+    "srcset": "portfolio/assets/consultoria/2026-edificio-residencial-da-construtora-hype/640w.webp 640w, portfolio/assets/consultoria/2026-edificio-residencial-da-construtora-hype/1280w.webp 1280w, portfolio/assets/consultoria/2026-edificio-residencial-da-construtora-hype/image.webp 1672w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+    "fullSrc": "portfolio/assets/consultoria/2026-edificio-residencial-da-construtora-hype/image.webp",
+    "fullWidth": 1672,
+    "fullHeight": 941,
+    "alt": "Imagem de capa do projeto Edifício da HYPE em Curitiba-PR.",
+    "caption": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA."
+  },
+  "sections": [],
+  "credits": [
+    {
+      "role": "Consultoria aeronáutica",
+      "names": "EasyAGA"
+    },
+    {
+      "role": "Participação na EasyAGA",
+      "names": "Bruno Nascimento"
+    }
+  ],
+  "credit": "",
+  "links": [],
+  "story": {
+    "editorial": true,
+    "navigation": false,
+    "notice": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA.",
+    "chapters": [
+      {
+        "id": "projeto",
+        "label": "Projeto",
+        "title": "Sobre o projeto",
+        "blocks": [
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Ano",
+                "names": "2026"
+              },
+              {
+                "role": "Local",
+                "names": "Curitiba-PR"
+              },
+              {
+                "role": "Escopo",
+                "names": "OPEA para edificação urbana"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "atuacao",
+        "label": "Atuação",
+        "title": "Atuação na EasyAGA",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Adequação do projeto arquitetônico e processo OPEA."
+            ]
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Localização",
+                "text": "Centro de Curitiba-PR, em contexto urbano."
+              },
+              {
+                "title": "Altura",
+                "text": "Edifício residencial com 109,84 metros."
+              },
+              {
+                "title": "Projeto",
+                "text": "Compatibilização do projeto arquitetônico com a análise OPEA."
+              },
+              {
+                "title": "Processo",
+                "text": "Assessoria técnica AGA para aprovação junto ao COMAER."
+              },
+              {
+                "title": "Deliberação",
+                "text": "OPEA aprovado em fevereiro de 2026."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "resultado",
+        "label": "Resultado",
+        "title": "Resultado",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Deliberação favorável do COMAER."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

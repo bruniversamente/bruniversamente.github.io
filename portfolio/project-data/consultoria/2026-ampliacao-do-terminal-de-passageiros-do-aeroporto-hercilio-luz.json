@@ -1,0 +1,112 @@
+{
+  "id": "2026-ampliacao-do-terminal-de-passageiros-do-aeroporto-hercilio-luz",
+  "area": "consultoria",
+  "title": "Guindaste no terminal do Aeroporto Hercílio Luz",
+  "subtitle": "OPEA para equipamento temporário",
+  "tags": [
+    "Aeródromos e aeroportos",
+    "OPEA",
+    "Equipamentos temporários"
+  ],
+  "intro": "OPEA para guindaste temporário em terminal aeroportuário.",
+  "media": [
+    {
+      "id": "cover",
+      "type": "image",
+      "src": "portfolio/assets/consultoria/2026-ampliacao-do-terminal-de-passageiros-do-aeroporto-hercilio-luz/1280w.webp",
+      "width": 1280,
+      "height": 720,
+      "srcset": "portfolio/assets/consultoria/2026-ampliacao-do-terminal-de-passageiros-do-aeroporto-hercilio-luz/640w.webp 640w, portfolio/assets/consultoria/2026-ampliacao-do-terminal-de-passageiros-do-aeroporto-hercilio-luz/1280w.webp 1280w, portfolio/assets/consultoria/2026-ampliacao-do-terminal-de-passageiros-do-aeroporto-hercilio-luz/image.webp 1672w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/consultoria/2026-ampliacao-do-terminal-de-passageiros-do-aeroporto-hercilio-luz/image.webp",
+      "fullWidth": 1672,
+      "fullHeight": 941,
+      "alt": "Imagem de capa do projeto Guindaste no terminal do Aeroporto Hercílio Luz em Florianópolis-SC.",
+      "caption": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA."
+    }
+  ],
+  "cover": {
+    "id": "cover",
+    "type": "image",
+    "src": "portfolio/assets/consultoria/2026-ampliacao-do-terminal-de-passageiros-do-aeroporto-hercilio-luz/1280w.webp",
+    "width": 1280,
+    "height": 720,
+    "srcset": "portfolio/assets/consultoria/2026-ampliacao-do-terminal-de-passageiros-do-aeroporto-hercilio-luz/640w.webp 640w, portfolio/assets/consultoria/2026-ampliacao-do-terminal-de-passageiros-do-aeroporto-hercilio-luz/1280w.webp 1280w, portfolio/assets/consultoria/2026-ampliacao-do-terminal-de-passageiros-do-aeroporto-hercilio-luz/image.webp 1672w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+    "fullSrc": "portfolio/assets/consultoria/2026-ampliacao-do-terminal-de-passageiros-do-aeroporto-hercilio-luz/image.webp",
+    "fullWidth": 1672,
+    "fullHeight": 941,
+    "alt": "Imagem de capa do projeto Guindaste no terminal do Aeroporto Hercílio Luz em Florianópolis-SC.",
+    "caption": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA."
+  },
+  "sections": [],
+  "credits": [
+    {
+      "role": "Consultoria aeronáutica",
+      "names": "EasyAGA"
+    },
+    {
+      "role": "Participação na EasyAGA",
+      "names": "Bruno Nascimento"
+    }
+  ],
+  "credit": "",
+  "links": [],
+  "story": {
+    "editorial": true,
+    "navigation": false,
+    "notice": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA.",
+    "chapters": [
+      {
+        "id": "projeto",
+        "label": "Projeto",
+        "title": "Sobre o projeto",
+        "blocks": [
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Ano",
+                "names": "2026"
+              },
+              {
+                "role": "Local",
+                "names": "Florianópolis-SC"
+              },
+              {
+                "role": "Escopo",
+                "names": "OPEA para equipamento temporário"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "atuacao",
+        "label": "Atuação",
+        "title": "Atuação na EasyAGA",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudo aeronáutico para equipamento temporário com mitigação operacional."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "resultado",
+        "label": "Resultado",
+        "title": "Resultado",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "OPEA de equipamento temporário aprovado."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

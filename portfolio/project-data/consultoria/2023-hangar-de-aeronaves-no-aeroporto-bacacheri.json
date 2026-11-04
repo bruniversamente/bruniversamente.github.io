@@ -1,0 +1,112 @@
+{
+  "id": "2023-hangar-de-aeronaves-no-aeroporto-bacacheri",
+  "area": "consultoria",
+  "title": "Hangar no Aeroporto Bacacheri",
+  "subtitle": "OPEA em área de aeródromo",
+  "tags": [
+    "Aeródromos e aeroportos",
+    "OPEA",
+    "Equipamentos temporários"
+  ],
+  "intro": "Estudo aeronáutico para equipamento temporário em área de aeródromo.",
+  "media": [
+    {
+      "id": "cover",
+      "type": "image",
+      "src": "portfolio/assets/consultoria/2023-hangar-de-aeronaves-no-aeroporto-bacacheri/1280w.webp",
+      "width": 1280,
+      "height": 720,
+      "srcset": "portfolio/assets/consultoria/2023-hangar-de-aeronaves-no-aeroporto-bacacheri/640w.webp 640w, portfolio/assets/consultoria/2023-hangar-de-aeronaves-no-aeroporto-bacacheri/1280w.webp 1280w, portfolio/assets/consultoria/2023-hangar-de-aeronaves-no-aeroporto-bacacheri/image.webp 1672w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/consultoria/2023-hangar-de-aeronaves-no-aeroporto-bacacheri/image.webp",
+      "fullWidth": 1672,
+      "fullHeight": 941,
+      "alt": "Imagem de capa do projeto Hangar no Aeroporto Bacacheri em Curitiba-PR.",
+      "caption": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA."
+    }
+  ],
+  "cover": {
+    "id": "cover",
+    "type": "image",
+    "src": "portfolio/assets/consultoria/2023-hangar-de-aeronaves-no-aeroporto-bacacheri/1280w.webp",
+    "width": 1280,
+    "height": 720,
+    "srcset": "portfolio/assets/consultoria/2023-hangar-de-aeronaves-no-aeroporto-bacacheri/640w.webp 640w, portfolio/assets/consultoria/2023-hangar-de-aeronaves-no-aeroporto-bacacheri/1280w.webp 1280w, portfolio/assets/consultoria/2023-hangar-de-aeronaves-no-aeroporto-bacacheri/image.webp 1672w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+    "fullSrc": "portfolio/assets/consultoria/2023-hangar-de-aeronaves-no-aeroporto-bacacheri/image.webp",
+    "fullWidth": 1672,
+    "fullHeight": 941,
+    "alt": "Imagem de capa do projeto Hangar no Aeroporto Bacacheri em Curitiba-PR.",
+    "caption": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA."
+  },
+  "sections": [],
+  "credits": [
+    {
+      "role": "Consultoria aeronáutica",
+      "names": "EasyAGA"
+    },
+    {
+      "role": "Participação na EasyAGA",
+      "names": "Bruno Nascimento"
+    }
+  ],
+  "credit": "",
+  "links": [],
+  "story": {
+    "editorial": true,
+    "navigation": false,
+    "notice": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA.",
+    "chapters": [
+      {
+        "id": "projeto",
+        "label": "Projeto",
+        "title": "Sobre o projeto",
+        "blocks": [
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Ano",
+                "names": "2023"
+              },
+              {
+                "role": "Local",
+                "names": "Curitiba-PR"
+              },
+              {
+                "role": "Escopo",
+                "names": "OPEA em área de aeródromo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "atuacao",
+        "label": "Atuação",
+        "title": "Atuação na EasyAGA",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudo aeronáutico e processo OPEA para uso temporário com mitigação operacional."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "resultado",
+        "label": "Resultado",
+        "title": "Resultado",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Deliberação favorável do COMAER para OPEA de equipamento temporário."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

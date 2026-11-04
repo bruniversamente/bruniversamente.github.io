@@ -1,0 +1,111 @@
+{
+  "id": "2026-complexo-eolico-gran-sul",
+  "area": "consultoria",
+  "title": "Complexo Eólico Gran Sul",
+  "subtitle": "Estudo Aeronáutico",
+  "tags": [
+    "Energia eólica",
+    "Estudos aeronáuticos"
+  ],
+  "intro": "Estudo aeronáutico para aerogeradores e torres anemométricas.",
+  "media": [
+    {
+      "id": "cover",
+      "type": "image",
+      "src": "portfolio/assets/consultoria/2026-complexo-eolico-gran-sul/1280w.webp",
+      "width": 1280,
+      "height": 720,
+      "srcset": "portfolio/assets/consultoria/2026-complexo-eolico-gran-sul/640w.webp 640w, portfolio/assets/consultoria/2026-complexo-eolico-gran-sul/1280w.webp 1280w, portfolio/assets/consultoria/2026-complexo-eolico-gran-sul/image.webp 1672w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/consultoria/2026-complexo-eolico-gran-sul/image.webp",
+      "fullWidth": 1672,
+      "fullHeight": 940,
+      "alt": "Imagem de capa do projeto Complexo Eólico Gran Sul em Rio Grande do Sul.",
+      "caption": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA."
+    }
+  ],
+  "cover": {
+    "id": "cover",
+    "type": "image",
+    "src": "portfolio/assets/consultoria/2026-complexo-eolico-gran-sul/1280w.webp",
+    "width": 1280,
+    "height": 720,
+    "srcset": "portfolio/assets/consultoria/2026-complexo-eolico-gran-sul/640w.webp 640w, portfolio/assets/consultoria/2026-complexo-eolico-gran-sul/1280w.webp 1280w, portfolio/assets/consultoria/2026-complexo-eolico-gran-sul/image.webp 1672w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+    "fullSrc": "portfolio/assets/consultoria/2026-complexo-eolico-gran-sul/image.webp",
+    "fullWidth": 1672,
+    "fullHeight": 940,
+    "alt": "Imagem de capa do projeto Complexo Eólico Gran Sul em Rio Grande do Sul.",
+    "caption": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA."
+  },
+  "sections": [],
+  "credits": [
+    {
+      "role": "Consultoria aeronáutica",
+      "names": "EasyAGA"
+    },
+    {
+      "role": "Participação na EasyAGA",
+      "names": "Bruno Nascimento"
+    }
+  ],
+  "credit": "",
+  "links": [],
+  "story": {
+    "editorial": true,
+    "navigation": false,
+    "notice": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA.",
+    "chapters": [
+      {
+        "id": "projeto",
+        "label": "Projeto",
+        "title": "Sobre o projeto",
+        "blocks": [
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Ano",
+                "names": "2026"
+              },
+              {
+                "role": "Local",
+                "names": "Rio Grande do Sul"
+              },
+              {
+                "role": "Escopo",
+                "names": "Estudo Aeronáutico"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "atuacao",
+        "label": "Atuação",
+        "title": "Atuação na EasyAGA",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Assessoria AGA e elaboração de estudo aeronáutico."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "resultado",
+        "label": "Resultado",
+        "title": "Resultado",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudo concluído e entregue."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

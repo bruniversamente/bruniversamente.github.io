@@ -1,0 +1,2039 @@
+{
+  "area": "produtos",
+  "id": "produtos-01",
+  "title": "Rakestra App",
+  "subtitle": "Encontrar pessoas para jogar",
+  "tags": [
+    "UX/UI",
+    "Produto autoral",
+    "Descoberta e convite"
+  ],
+  "intro": "Aplicativo para encontrar parceiros em esportes de raquete e organizar partidas. Este estudo examina o percurso entre a descoberta de um atleta e o envio de um convite, com atenção às informações necessárias para escolher o parceiro e definir as condições do encontro.",
+  "sections": [],
+  "credits": [
+    {
+      "role": "Concepção do produto, fluxos e direção visual",
+      "names": "Bruno Nascimento"
+    },
+    {
+      "role": "Construção",
+      "names": "Desenvolvimento assistido por IA (vibe coding)"
+    }
+  ],
+  "credit": "",
+  "media": [
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/8fd3b93d27a4732220d5-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "8fd3b93d27a4732220d5",
+      "alt": "Atletas · Simples",
+      "caption": "Atletas · Simples"
+    },
+    {
+      "id": "848719cc0f3a5739be5d",
+      "type": "image",
+      "src": "portfolio/assets/project/848719cc0f3a5739be5d.svg",
+      "width": 1260,
+      "height": 2604,
+      "alt": "Mapa de atletas — captura demonstrativa de setembro de 2026 no mock premium das peças de loja",
+      "caption": "Mapa de atletas"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/6a6246272ddeaee73448-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "6a6246272ddeaee73448",
+      "alt": "Preferências",
+      "caption": "Preferências"
+    },
+    {
+      "id": "e5cf36991d243d009e69",
+      "type": "image",
+      "src": "portfolio/assets/project/e5cf36991d243d009e69.svg",
+      "width": 1260,
+      "height": 2604,
+      "alt": "Mapa de atletas · Ana Lima — captura demonstrativa de setembro de 2026 no mock premium das peças de loja",
+      "caption": "Mapa de atletas · Ana Lima"
+    },
+    {
+      "id": "f1465180a1ed2cda505b",
+      "type": "image",
+      "src": "portfolio/assets/project/f1465180a1ed2cda505b.svg",
+      "width": 1260,
+      "height": 2604,
+      "alt": "Perfil de Ana Lima · Beach Tennis Simples — captura demonstrativa de setembro de 2026 no mock premium das peças de loja",
+      "caption": "Perfil de Ana Lima · Beach Tennis Simples"
+    },
+    {
+      "id": "969de1170450c3816a6d",
+      "type": "image",
+      "src": "portfolio/assets/project/969de1170450c3816a6d.svg",
+      "width": 1260,
+      "height": 2604,
+      "alt": "Marcar jogo · Tipo de jogo — captura demonstrativa de setembro de 2026 no mock premium das peças de loja",
+      "caption": "Marcar jogo · Tipo de jogo"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/9a68fe4969b8c8075edd-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "9a68fe4969b8c8075edd",
+      "alt": "Data, horário e local",
+      "caption": "Data, horário e local"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/6cc1fb31df4a40578196-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "6cc1fb31df4a40578196",
+      "alt": "Head to Head",
+      "caption": "Head to Head"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/11dbaf98354c6e1fd423-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "11dbaf98354c6e1fd423",
+      "alt": "Convite de jogo enviado",
+      "caption": "Convite de jogo enviado"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/7878711bb5f10b012773-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "7878711bb5f10b012773",
+      "alt": "Propostas recebidas",
+      "caption": "Propostas recebidas"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/ef738698a6607c00f303-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "ef738698a6607c00f303",
+      "alt": "Conversa antes do aceite",
+      "caption": "Conversa antes do aceite"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/c8d1efb38afb074b01b1-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "c8d1efb38afb074b01b1",
+      "alt": "Aceitar · escolha de horário",
+      "caption": "Aceitar · escolha de horário"
+    },
+    {
+      "id": "6cc86fb2c075df4d94dc",
+      "type": "image",
+      "src": "portfolio/assets/project/6cc86fb2c075df4d94dc.svg",
+      "width": 1260,
+      "height": 2604,
+      "alt": "Aceito",
+      "caption": "Aceito"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/8298c98fea88dcb2f84e-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "8298c98fea88dcb2f84e",
+      "alt": "Ninguém por perto",
+      "caption": "Ninguém por perto"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/d3fe72af5853a61d401f-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "d3fe72af5853a61d401f",
+      "alt": "Tentar novamente",
+      "caption": "Tentar novamente"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/f26232c62db9d353f46b-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "f26232c62db9d353f46b",
+      "alt": "Local · Obrigatório",
+      "caption": "Local · Obrigatório"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/f2a64333f1d0d6bef868-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "f2a64333f1d0d6bef868",
+      "alt": "Convite com envio pendente",
+      "caption": "Convite com envio pendente"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/project/fb051566cb89728a25f3-alpha.webp",
+      "width": 1260,
+      "height": 2604,
+      "id": "fb051566cb89728a25f3",
+      "alt": "Convite enviado · chat indisponível",
+      "caption": "Convite enviado · chat indisponível"
+    },
+    {
+      "id": "ffd098b41f05300542e5",
+      "type": "image",
+      "src": "portfolio/assets/project/ffd098b41f05300542e5.svg",
+      "width": 1260,
+      "height": 2604,
+      "alt": "Publicações no feed do aplicativo — captura demonstrativa de setembro de 2026 no mock premium das peças de loja",
+      "caption": "Publicações no feed do aplicativo"
+    },
+    {
+      "id": "40eb7e5b2bd963d476c5",
+      "type": "image",
+      "src": "portfolio/assets/project/40eb7e5b2bd963d476c5.svg",
+      "width": 1260,
+      "height": 2604,
+      "alt": "Conversa entre jogadores — captura demonstrativa de setembro de 2026 no mock premium das peças de loja",
+      "caption": "Conversa entre jogadores"
+    }
+  ],
+  "links": [],
+  "cover": {
+    "type": "image",
+    "src": "portfolio/assets/produtos.webp",
+    "width": 1440,
+    "height": 810,
+    "alt": "Rakestra: encontrar pessoas para jogar"
+  },
+  "story": {
+    "navigation": true,
+    "coverFit": "contain",
+    "notice": "Projeto autoral · desde março de 2026",
+    "role": "Recorte: descoberta, escolha e convite para jogar. As telas apresentam um cenário demonstrativo; a avaliação com jogadores integra a próxima etapa documentada no estudo.",
+    "sources": [
+      "docs/portfolio/pesquisa-ux-ui-2026-10-29/rakestra-app/montagem-v1/index.html"
+    ],
+    "composition": "rakestra-boards",
+    "heroBoard": {
+      "type": "board",
+      "tree": {
+        "tag": "section",
+        "attrs": {
+          "id": "apresentacao",
+          "class": "hero rakestra-board"
+        },
+        "children": [
+          {
+            "tag": "div",
+            "attrs": {
+              "class": "hero-copy"
+            },
+            "children": [
+              {
+                "tag": "span",
+                "attrs": {
+                  "class": "eyebrow"
+                },
+                "children": [
+                  "Rakestra App · UI / UX"
+                ]
+              },
+              {
+                "tag": "h1",
+                "attrs": {},
+                "children": [
+                  "Encontrar pessoas para jogar"
+                ]
+              },
+              {
+                "tag": "p",
+                "attrs": {
+                  "class": "intro"
+                },
+                "children": [
+                  "Aplicativo para encontrar parceiros em esportes de raquete e organizar partidas. Este estudo examina o percurso entre a descoberta de um atleta e o envio de um convite, com atenção às informações necessárias para escolher o parceiro e definir as condições do encontro."
+                ]
+              },
+              {
+                "tag": "dl",
+                "attrs": {
+                  "class": "facts"
+                },
+                "children": [
+                  {
+                    "tag": "div",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tag": "dt",
+                        "attrs": {},
+                        "children": [
+                          "Projeto"
+                        ]
+                      },
+                      {
+                        "tag": "dd",
+                        "attrs": {},
+                        "children": [
+                          "Autoral · desde março de 2026"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tag": "dt",
+                        "attrs": {},
+                        "children": [
+                          "Participação"
+                        ]
+                      },
+                      {
+                        "tag": "dd",
+                        "attrs": {},
+                        "children": [
+                          "Concepção do produto, fluxos e direção visual"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tag": "dt",
+                        "attrs": {},
+                        "children": [
+                          "Construção"
+                        ]
+                      },
+                      {
+                        "tag": "dd",
+                        "attrs": {},
+                        "children": [
+                          "Desenvolvimento assistido por IA (vibe coding)"
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "tag": "div",
+                    "attrs": {},
+                    "children": [
+                      {
+                        "tag": "dt",
+                        "attrs": {},
+                        "children": [
+                          "Recorte deste caso"
+                        ]
+                      },
+                      {
+                        "tag": "dd",
+                        "attrs": {},
+                        "children": [
+                          "Descoberta, escolha e convite para jogar"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tag": "div",
+            "attrs": {
+              "class": "hero-visual"
+            },
+            "children": [
+              {
+                "media": "8fd3b93d27a4732220d5",
+                "class": "screen delivered-screen"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "introInBoard": true,
+    "chapters": [
+      {
+        "id": "contexto",
+        "label": "Contexto",
+        "title": "Origem e recorte do estudo",
+        "blocks": [
+          {
+            "type": "board",
+            "tree": {
+              "tag": "section",
+              "attrs": {
+                "id": "origem",
+                "class": "section origin rakestra-board"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "section-head"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "attrs": {},
+                      "children": [
+                        "Origem do projeto e contexto de uso"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "origin-text"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Minha experiência em quadras públicas motivou a criação do Rakestra. Encontrar parceiros dependia da aproximação com jogadores que já frequentavam esses espaços, muitas vezes organizados em grupos com vínculos estabelecidos. A timidez tornava essa aproximação uma dificuldade pessoal e limitava minhas oportunidades de participar das partidas."
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Nesse contexto, também observava o receio de iniciantes diante de jogadores mais experientes e a dificuldade de encontrar parceiros sem integrar a rede de um clube. Mesmo para quem optava pelo aluguel de quadras, a disponibilidade do espaço não resolvia a busca por companhia. Os jogadores recorriam a diferentes grupos de WhatsApp, inclusive para um mesmo espaço esportivo, o que dispersava as conversas e dificultava o contato entre possíveis parceiros. Alguns participantes também percebiam limitações de interação e privacidade nesses grupos."
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "A partir dessas experiências, iniciei o desenvolvimento de um aplicativo dedicado ao encontro entre praticantes de esportes de raquete. O objetivo é permitir que o jogador conheça possíveis parceiros, consulte informações sobre sua prática esportiva e proponha uma partida."
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Como parte da investigação do problema e da validação da proposta, o Rakestra disponibiliza em seu site uma pesquisa sobre os hábitos dos praticantes, a busca por parceiros e o uso de quadras. Essa iniciativa complementa as experiências que motivaram o projeto."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "span",
+                  "attrs": {
+                    "class": "observation-label"
+                  },
+                  "children": [
+                    "Situações relatadas na origem do projeto"
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "observations"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "svg",
+                          "attrs": {
+                            "class": "observation-icon",
+                            "aria-hidden": "true",
+                            "viewBox": "0 0 32 32",
+                            "fill": "none",
+                            "stroke": "currentColor",
+                            "stroke-width": "1.6",
+                            "stroke-linecap": "round",
+                            "stroke-linejoin": "round"
+                          },
+                          "children": [
+                            {
+                              "tag": "circle",
+                              "attrs": {
+                                "cx": "12",
+                                "cy": "10",
+                                "r": "4"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "path",
+                              "attrs": {
+                                "d": "M4 26v-3a7 7 0 0 1 14 0v3M24 8v10M19 13h10"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "h3",
+                          "attrs": {},
+                          "children": [
+                            "Aproximação"
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "Entrar em um grupo de pessoas que já se conhecem."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "svg",
+                          "attrs": {
+                            "class": "observation-icon",
+                            "aria-hidden": "true",
+                            "viewBox": "0 0 32 32",
+                            "fill": "none",
+                            "stroke": "currentColor",
+                            "stroke-width": "1.6",
+                            "stroke-linecap": "round",
+                            "stroke-linejoin": "round"
+                          },
+                          "children": [
+                            {
+                              "tag": "path",
+                              "attrs": {
+                                "d": "M5 26V16h5v10M13.5 26V10h5v16M22 26V4h5v22M3 28h26"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "h3",
+                          "attrs": {},
+                          "children": [
+                            "Nível de jogo"
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "Encontrar parceiros para uma partida compatível com a experiência de cada um."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "svg",
+                          "attrs": {
+                            "class": "observation-icon",
+                            "aria-hidden": "true",
+                            "viewBox": "0 0 32 32",
+                            "fill": "none",
+                            "stroke": "currentColor",
+                            "stroke-width": "1.6",
+                            "stroke-linecap": "round",
+                            "stroke-linejoin": "round"
+                          },
+                          "children": [
+                            {
+                              "tag": "circle",
+                              "attrs": {
+                                "cx": "16",
+                                "cy": "6",
+                                "r": "3.5"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "circle",
+                              "attrs": {
+                                "cx": "6",
+                                "cy": "24",
+                                "r": "3.5"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "circle",
+                              "attrs": {
+                                "cx": "26",
+                                "cy": "24",
+                                "r": "3.5"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "path",
+                              "attrs": {
+                                "d": "M14.2 9.2 7.8 20.8M17.8 9.2l6.4 11.6M9.5 24h13"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "h3",
+                          "attrs": {},
+                          "children": [
+                            "Rede de parceiros"
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "Ter com quem jogar ao usar quadras públicas ou alugadas."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {},
+                      "children": [
+                        {
+                          "tag": "svg",
+                          "attrs": {
+                            "class": "observation-icon",
+                            "aria-hidden": "true",
+                            "viewBox": "0 0 32 32",
+                            "fill": "none",
+                            "stroke": "currentColor",
+                            "stroke-width": "1.6",
+                            "stroke-linecap": "round",
+                            "stroke-linejoin": "round"
+                          },
+                          "children": [
+                            {
+                              "tag": "path",
+                              "attrs": {
+                                "d": "M13 24H8l-5 4V7a3 3 0 0 1 3-3h18a3 3 0 0 1 3 3v5M8 10h13M8 15h6"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "rect",
+                              "attrs": {
+                                "width": "11",
+                                "height": "9",
+                                "rx": "2",
+                                "x": "18",
+                                "y": "20"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "path",
+                              "attrs": {
+                                "d": "M20.5 20v-3a3 3 0 0 1 6 0v3"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "h3",
+                          "attrs": {},
+                          "children": [
+                            "Contato e privacidade"
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "Combinar encontros em conversas dispersas, com as limitações percebidas nos grupos."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "section",
+              "attrs": {
+                "id": "percurso",
+                "class": "section rakestra-board"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "section-head"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "attrs": {},
+                      "children": [
+                        "Recorte do estudo"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "body-copy"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "A organização de uma partida envolve decisões que começam antes do primeiro contato. O jogador precisa identificar o esporte e a modalidade, avaliar a proximidade de nível e considerar o deslocamento. Após escolher um possível parceiro, precisa negociar as condições do encontro. Este estudo acompanha essas decisões para examinar a relação entre descoberta, escolha e convite."
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "O cenário de apresentação considera uma pessoa com cadastro preenchido que procura uma partida na modalidade Simples e prepara um convite com a opção Amistoso. O percurso inclui a consulta de atletas, o acesso ao perfil e as etapas de Marcar jogo. Torneios, aulas e reservas integram o produto, mas envolvem outras tarefas e permanecem fora do recorte principal."
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Mensagens, publicações e grupos oferecem outras possibilidades de aproximação. Uma conversa ou publicação pode anteceder a consulta ao perfil, por exemplo. A sequência apresentada permite analisar uma tarefa completa, preservando a possibilidade de diferentes percursos de uso."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "flow"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "flow-item"
+                      },
+                      "children": [
+                        {
+                          "tag": "svg",
+                          "attrs": {
+                            "class": "observation-icon",
+                            "aria-hidden": "true",
+                            "viewBox": "0 0 32 32",
+                            "fill": "none",
+                            "stroke": "currentColor",
+                            "stroke-width": "1.6",
+                            "stroke-linecap": "round",
+                            "stroke-linejoin": "round"
+                          },
+                          "children": [
+                            {
+                              "tag": "circle",
+                              "attrs": {
+                                "cx": "12",
+                                "cy": "10",
+                                "r": "4"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "path",
+                              "attrs": {
+                                "d": "M4 27v-3a8 8 0 0 1 11-7"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "circle",
+                              "attrs": {
+                                "cx": "22",
+                                "cy": "21",
+                                "r": "5"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "path",
+                              "attrs": {
+                                "d": "m26 25 4 4"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            "Consultar atletas"
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "Definir o contexto e percorrer os perfis disponíveis."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "flow-item"
+                      },
+                      "children": [
+                        {
+                          "tag": "svg",
+                          "attrs": {
+                            "class": "observation-icon",
+                            "aria-hidden": "true",
+                            "viewBox": "0 0 32 32",
+                            "fill": "none",
+                            "stroke": "currentColor",
+                            "stroke-width": "1.6",
+                            "stroke-linecap": "round",
+                            "stroke-linejoin": "round"
+                          },
+                          "children": [
+                            {
+                              "tag": "rect",
+                              "attrs": {
+                                "width": "24",
+                                "height": "26",
+                                "rx": "3",
+                                "x": "4",
+                                "y": "3"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "circle",
+                              "attrs": {
+                                "cx": "13",
+                                "cy": "11",
+                                "r": "3"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "path",
+                              "attrs": {
+                                "d": "M8 22v-2a5 5 0 0 1 8-4M19 20l3 3 5-6"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            "Escolher o parceiro"
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "Consultar informações e decidir se quer convidar."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "flow-item"
+                      },
+                      "children": [
+                        {
+                          "tag": "svg",
+                          "attrs": {
+                            "class": "observation-icon",
+                            "aria-hidden": "true",
+                            "viewBox": "0 0 32 32",
+                            "fill": "none",
+                            "stroke": "currentColor",
+                            "stroke-width": "1.6",
+                            "stroke-linecap": "round",
+                            "stroke-linejoin": "round"
+                          },
+                          "children": [
+                            {
+                              "tag": "rect",
+                              "attrs": {
+                                "width": "24",
+                                "height": "23",
+                                "rx": "3",
+                                "x": "4",
+                                "y": "6"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "path",
+                              "attrs": {
+                                "d": "M10 3v6M22 3v6M4 13h24M11 21h10M16 16v10"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            "Preparar o convite"
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "Definir Tipo de jogo e propor as condições."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "flow-item"
+                      },
+                      "children": [
+                        {
+                          "tag": "svg",
+                          "attrs": {
+                            "class": "observation-icon",
+                            "aria-hidden": "true",
+                            "viewBox": "0 0 32 32",
+                            "fill": "none",
+                            "stroke": "currentColor",
+                            "stroke-width": "1.6",
+                            "stroke-linecap": "round",
+                            "stroke-linejoin": "round"
+                          },
+                          "children": [
+                            {
+                              "tag": "path",
+                              "attrs": {
+                                "d": "M29 14a11 11 0 0 1-11 11h-5l-8 4v-8a10 10 0 0 1-3-7A11 11 0 0 1 13 3h5a11 11 0 0 1 11 11Z"
+                              },
+                              "children": []
+                            },
+                            {
+                              "tag": "path",
+                              "attrs": {
+                                "d": "m10 14 4 4 8-8"
+                              },
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "strong",
+                          "attrs": {},
+                          "children": [
+                            "Acompanhar a resposta"
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "Entender o estado da proposta e a ação seguinte."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "satellites"
+                  },
+                  "children": [
+                    {
+                      "tag": "span",
+                      "attrs": {
+                        "class": "label"
+                      },
+                      "children": [
+                        "Outras entradas ou conexões:"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        "Perfil"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        "Mensagens"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        "Grupos"
+                      ]
+                    },
+                    {
+                      "tag": "span",
+                      "attrs": {},
+                      "children": [
+                        "Publicações"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "descoberta",
+        "label": "Descoberta",
+        "title": "Encontrar e escolher um parceiro",
+        "blocks": [
+          {
+            "type": "board",
+            "tree": {
+              "tag": "section",
+              "attrs": {
+                "id": "preferencias",
+                "class": "section lime-strip rakestra-board"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "split preferences-layout"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "section-head"
+                      },
+                      "children": [
+                        {
+                          "tag": "h2",
+                          "attrs": {},
+                          "children": [
+                            "Preferências e Mapa de atletas"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "copy"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "A dificuldade de encontrar parceiros de nível semelhante, presente no relato de origem, orienta a análise dos critérios de descoberta. Em Preferências, os controles Esportes, Nível e Modalidade permitem delimitar a prática desejada. Localização de busca e Distância máxima acrescentam uma condição prática à escolha: a possibilidade de realizar o deslocamento para a partida."
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "O aplicativo oferece a tela Preferências e o Mapa de atletas. O jogador pode consultar a distribuição dos atletas na região, selecionar uma pessoa e acessar informações sobre seu perfil. A partir desse contexto, pode aprofundar a consulta ou iniciar um convite, ampliando a busca para além dos contatos que já conhece. O mapa também exibe o status online ou offline dos atletas, ajudando a identificar possíveis parceiros próximos para propor uma partida naquele momento."
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "A interface identifica a localização dos atletas como aproximada. Esse tratamento permite considerar a proximidade sem expor um endereço exato como referência de encontro. O jogador define o local da partida durante a elaboração da proposta, separando a localização usada na descoberta do espaço escolhido para jogar."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "visual visual-stack"
+                      },
+                      "children": [
+                        {
+                          "media": "848719cc0f3a5739be5d",
+                          "class": "screen"
+                        },
+                        {
+                          "media": "6a6246272ddeaee73448",
+                          "class": "screen delivered-screen"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "section",
+              "attrs": {
+                "id": "escolha",
+                "class": "section dark rakestra-board"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "split partner-layout"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "section-head"
+                      },
+                      "children": [
+                        {
+                          "tag": "h2",
+                          "attrs": {},
+                          "children": [
+                            "Informações para a escolha do parceiro"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "copy"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "A aproximação entre jogadores envolve informações que nem sempre estão disponíveis antes da conversa. No Rakestra, esporte, modalidade, nível e região compõem uma primeira consulta ao possível parceiro. O cartão permite percorrer as opções, enquanto o perfil oferece informações adicionais antes do contato."
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "Essa organização distribui o conteúdo entre uma leitura inicial e uma consulta detalhada. O jogador pode avaliar os dados do cartão e, conforme sua necessidade, acessar publicações e informações da prática esportiva no perfil. A passagem entre essas duas visualizações permite aprofundar a escolha sem exigir a leitura do perfil completo de cada atleta."
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "Nível, Ranking e histórico apresentam perspectivas distintas sobre o jogador. A avaliação proposta deverá identificar quais informações contribuem para a escolha do parceiro e quais acrescentam conteúdo sem auxiliar essa decisão. Os indicadores das imagens pertencem a um cenário demonstrativo e não comprovam compatibilidade entre os atletas."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "visual visual-stack"
+                      },
+                      "children": [
+                        {
+                          "media": "e5cf36991d243d009e69",
+                          "class": "screen"
+                        },
+                        {
+                          "media": "f1465180a1ed2cda505b",
+                          "class": "screen"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "convite",
+        "label": "Convite",
+        "title": "Preparar as condições da partida",
+        "blocks": [
+          {
+            "type": "board",
+            "tree": {
+              "tag": "section",
+              "attrs": {
+                "id": "convidar",
+                "class": "section lime-strip rakestra-board"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "split reverse"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "copy"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attrs": {
+                            "class": "section-head"
+                          },
+                          "children": [
+                            {
+                              "tag": "h2",
+                              "attrs": {},
+                              "children": [
+                                "Marcar jogo: Tipo de jogo"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "Após consultar o atleta, o jogador pode iniciar um convite pela ação Play, que abre o fluxo Marcar jogo. O botão recebe destaque na área de descoberta e permanece associado ao contexto do possível parceiro. Essa relação entre informação e ação permite iniciar o convite a partir da pessoa selecionada."
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "Na primeira etapa, Tipo de jogo, a interface mantém o destinatário visível e apresenta as opções Amistoso e Ranqueado. Amistoso permite combinar a partida e registrar estatísticas sem alterar a pontuação competitiva. Quando o jogo atende às condições de validade, Ranqueado conta para Troféus no Circuito Rakestra e Rating no Ranking Rakestra."
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "O preenchimento segue três etapas: Tipo de jogo; Data, horário e local; e Head to Head. O jogador avança pela ação Próximo e conclui o envio em Confirmar. Essa divisão organiza as decisões necessárias à proposta e permite examinar cada uma em seu contexto. A avaliação com jogadores deverá verificar a compreensão da ação Play e das consequências associadas às opções de Tipo de jogo."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "visual"
+                      },
+                      "children": [
+                        {
+                          "media": "969de1170450c3816a6d",
+                          "class": "screen"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "section",
+              "attrs": {
+                "id": "detalhes",
+                "class": "section rakestra-board"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "split"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "copy"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attrs": {
+                            "class": "section-head"
+                          },
+                          "children": [
+                            {
+                              "tag": "h2",
+                              "attrs": {},
+                              "children": [
+                                "Data, horário e local"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "A escolha do parceiro precisa ser acompanhada de condições viáveis para o encontro. Na etapa Data, horário e local, o jogador consulta a Disponibilidade em comum e preenche Proponha uma data, Proponha até 3 horários e Local."
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "A inclusão de alternativas no mesmo convite oferece ao destinatário possibilidades concretas de resposta. Quem elabora a proposta pode apresentar mais de um horário, enquanto a outra pessoa avalia as opções recebidas. A definição do local complementa essa análise, pois a disponibilidade de tempo também depende das condições de deslocamento."
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "Para avançar, o jogador precisa informar o local e ao menos um horário válido. O aplicativo verifica se os horários propostos ainda estão no futuro. A avaliação dessa etapa deverá considerar a compreensão dos campos obrigatórios, das alternativas de horário e das orientações apresentadas para corrigir o preenchimento."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "visual"
+                      },
+                      "children": [
+                        {
+                          "media": "9a68fe4969b8c8075edd",
+                          "class": "screen delivered-screen"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "section",
+              "attrs": {
+                "id": "revisao",
+                "class": "section dark rakestra-board"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "review-layout"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "visual"
+                      },
+                      "children": [
+                        {
+                          "media": "6cc1fb31df4a40578196",
+                          "class": "screen delivered-screen"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "copy"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attrs": {
+                            "class": "section-head"
+                          },
+                          "children": [
+                            {
+                              "tag": "h2",
+                              "attrs": {},
+                              "children": [
+                                "Head to Head e confirmação"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "Após definir as condições da partida, o jogador acessa Head to Head. A interface reúne informações dos atletas, comparações esportivas e análises relacionadas ao confronto, oferecendo conteúdo adicional antes do envio da proposta pela ação Confirmar."
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "A organização desses elementos exige uma hierarquia que preserve a compreensão da tarefa. O jogador precisa reconhecer os participantes e a consequência de acionar Confirmar, além de consultar os dados complementares que considerar relevantes. A quantidade de informações comparativas pode disputar atenção com o envio, questão que ainda requer avaliação durante o uso."
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "O estudo considera esses indicadores como parte da solução implementada. A avaliação proposta deverá registrar as informações consultadas e sua relação com a decisão de enviar o convite. As probabilidades demonstrativas das imagens não constituem previsões validadas neste caso."
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "resposta",
+        "label": "Resposta",
+        "title": "Envio e resposta ao convite",
+        "blocks": [
+          {
+            "type": "board",
+            "tree": {
+              "tag": "section",
+              "attrs": {
+                "id": "resposta",
+                "class": "section rakestra-board"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "section-head"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "attrs": {},
+                      "children": [
+                        "Envio e resposta ao convite"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "response-layout"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "body-copy"
+                      },
+                      "children": [
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "Após o envio, o autor consulta Convite de jogo enviado e acompanha a resposta. Em Mensagens, na aba Propostas e Solicitações, o destinatário encontra o convite em Propostas recebidas. No card, pode consultar as condições sugeridas e usar os ícones para aceitar, recusar, abrir uma conversa ou ampliar os detalhes em Convite de jogo recebido."
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "O chat permite que os jogadores se conheçam e alinhem as condições do encontro antes de confirmar uma proposta."
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "Ao aceitar um convite com várias alternativas de horário, o destinatário seleciona uma das opções oferecidas. As ações Aceitar e Recusar incluem uma confirmação antes do registro da resposta. O aceite formaliza as condições da partida; o registro do resultado pertence a uma etapa posterior à sua realização."
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "O registro da partida preserva o confronto com aquele oponente no histórico pessoal. Após o registro e a confirmação do resultado, essas informações alimentam as estatísticas e permitem acompanhar o desempenho ao longo do tempo."
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "O aplicativo também permite registrar partidas já realizadas, inclusive aquelas combinadas por mensagem ou fora da plataforma. Pela opção ‘Registrar jogo’, disponível na Home, o jogador pode incorporar esses encontros ao seu histórico."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "states",
+                        "aria-label": "Diagrama das etapas de uma proposta"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attrs": {
+                            "class": "state"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "class": "num"
+                              },
+                              "children": [
+                                "ENVIO"
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "attrs": {},
+                              "children": [
+                                "Proposta criada"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "attrs": {},
+                              "children": [
+                                "O jogador encaminha as condições de jogo para a outra pessoa."
+                              ]
+                            },
+                            {
+                              "tag": "small",
+                              "attrs": {},
+                              "children": [
+                                "Não equivale a um aceite."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attrs": {
+                            "class": "state"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "class": "num"
+                              },
+                              "children": [
+                                "RESPOSTA"
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "attrs": {},
+                              "children": [
+                                "Aceito"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "attrs": {},
+                              "children": [
+                                "O destinatário responde ao convite e às opções disponíveis."
+                              ]
+                            },
+                            {
+                              "tag": "small",
+                              "attrs": {},
+                              "children": [
+                                "Estado diferente do resultado da partida."
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "attrs": {
+                            "class": "state"
+                          },
+                          "children": [
+                            {
+                              "tag": "div",
+                              "attrs": {
+                                "class": "num"
+                              },
+                              "children": [
+                                "DEPOIS DO JOGO"
+                              ]
+                            },
+                            {
+                              "tag": "h3",
+                              "attrs": {},
+                              "children": [
+                                "Resultado confirmado"
+                              ]
+                            },
+                            {
+                              "tag": "p",
+                              "attrs": {},
+                              "children": [
+                                "O registro do resultado pertence a outra etapa do produto."
+                              ]
+                            },
+                            {
+                              "tag": "small",
+                              "attrs": {},
+                              "children": [
+                                "Fora do fechamento principal deste recorte."
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pending-grid"
+                  },
+                  "children": [
+                    {
+                      "media": "11dbaf98354c6e1fd423",
+                      "class": "screen delivered-screen"
+                    },
+                    {
+                      "media": "7878711bb5f10b012773",
+                      "class": "screen delivered-screen"
+                    },
+                    {
+                      "media": "ef738698a6607c00f303",
+                      "class": "screen delivered-screen"
+                    },
+                    {
+                      "media": "c8d1efb38afb074b01b1",
+                      "class": "screen delivered-screen"
+                    },
+                    {
+                      "media": "6cc86fb2c075df4d94dc",
+                      "class": "screen delivered-screen"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "recuperacao",
+        "label": "Erros e recuperação",
+        "title": "Tratamento de erros e recuperação",
+        "blocks": [
+          {
+            "type": "board",
+            "tree": {
+              "tag": "section",
+              "attrs": {
+                "id": "correcoes",
+                "class": "section origin rakestra-board"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "section-head"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "attrs": {},
+                      "children": [
+                        "Tratamento de erros e recuperação"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "body-copy"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "O Rakestra oferece orientações e alternativas para que o jogador possa continuar a tarefa diante de uma dificuldade. A interface distingue a ausência de atletas nos critérios escolhidos, os problemas de preenchimento e as falhas de comunicação, pois cada situação exige uma resposta diferente."
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Na descoberta, quando a busca não encontra atletas, o jogador recebe a mensagem Ninguém por perto e pode acionar Limpar Filtros para ampliar as opções. Quando ocorre uma falha no carregamento, a interface apresenta a ação Tentar novamente. Essa diferenciação ajuda a compreender quando revisar Preferências e quando repetir a consulta."
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Durante Marcar jogo, o aplicativo verifica o preenchimento de Local e a validade dos horários. Ao identificar uma informação ausente ou um horário passado, indica o que precisa de correção antes de permitir o avanço. O jogador pode ajustar a proposta na etapa Data, horário e local."
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "O envio exige um cuidado adicional: uma interrupção na comunicação pode deixar o jogador sem saber se o convite foi registrado. Para essa situação, o aplicativo mantém a identificação da tentativa e apresenta Convite com envio pendente, com a ação Verificar envio. Quando cabe um reenvio, a ação Reenviar este convite utiliza o mesmo convite, em vez de criar uma nova proposta."
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "O aplicativo também trata separadamente a criação do convite e a abertura da conversa. Se a proposta já foi registrada e ocorrer uma falha no chat, preserva o convite e comunica a indisponibilidade da conversa, sem solicitar um novo envio. Esses tratamentos permitem orientar a continuidade da tarefa sem confundir uma dificuldade de comunicação com a perda de uma ação já concluída."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "pending-grid"
+                  },
+                  "children": [
+                    {
+                      "media": "8298c98fea88dcb2f84e",
+                      "class": "screen delivered-screen"
+                    },
+                    {
+                      "media": "d3fe72af5853a61d401f",
+                      "class": "screen delivered-screen"
+                    },
+                    {
+                      "media": "f26232c62db9d353f46b",
+                      "class": "screen delivered-screen"
+                    },
+                    {
+                      "media": "f2a64333f1d0d6bef868",
+                      "class": "screen delivered-screen"
+                    },
+                    {
+                      "media": "fb051566cb89728a25f3",
+                      "class": "screen delivered-screen"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "social",
+        "label": "Recursos sociais",
+        "title": "Outras formas de aproximação",
+        "blocks": [
+          {
+            "type": "board",
+            "tree": {
+              "tag": "section",
+              "attrs": {
+                "id": "social",
+                "class": "section rakestra-board"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "split"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "copy"
+                      },
+                      "children": [
+                        {
+                          "tag": "div",
+                          "attrs": {
+                            "class": "section-head"
+                          },
+                          "children": [
+                            {
+                              "tag": "h2",
+                              "attrs": {},
+                              "children": [
+                                "Recursos sociais na busca por parceiros"
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "A descoberta de um parceiro também pode começar por uma publicação ou pela participação em um grupo. As publicações oferecem contexto sobre a prática esportiva de um atleta; os grupos permitem conhecer participantes com interesses em comum. Esses recursos acrescentam possibilidades de aproximação aos critérios de Preferências."
+                          ]
+                        },
+                        {
+                          "tag": "p",
+                          "attrs": {},
+                          "children": [
+                            "O chat permite aprofundar esse contato e alinhar as condições de uma partida antes da confirmação. Assim, o jogador pode iniciar a mesma tarefa pela consulta a um perfil ou por uma conversa. O papel dos recursos sociais neste caso é apoiar a escolha do parceiro e a combinação do encontro."
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "visual visual-stack"
+                      },
+                      "children": [
+                        {
+                          "media": "ffd098b41f05300542e5",
+                          "class": "screen"
+                        },
+                        {
+                          "media": "40eb7e5b2bd963d476c5",
+                          "class": "screen"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "avaliacao",
+        "label": "Avaliação",
+        "title": "Sistema visual e avaliação",
+        "blocks": [
+          {
+            "type": "board",
+            "tree": {
+              "tag": "section",
+              "attrs": {
+                "id": "sistema",
+                "class": "section dark rakestra-board"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "section-head"
+                  },
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "attrs": {},
+                      "children": [
+                        "Sistema visual e avaliação"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "body-copy"
+                  },
+                  "children": [
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "A interface reúne fotografias dos atletas, informações esportivas e ações de contato. Na versão escura apresentada, o verde da marca destaca Play e outros controles, enquanto os tons de cinza diferenciam fundos, superfícies e textos de apoio. A variação entre essas superfícies organiza a leitura dos blocos de conteúdo."
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "Cartões, seletores, campos e botões reaparecem ao longo do percurso. A consistência desses componentes deve permitir reconhecer a relação entre aparência e comportamento. A revisão visual também precisa considerar seleção, indisponibilidade e erro, além das telas com preenchimento completo."
+                      ]
+                    },
+                    {
+                      "tag": "p",
+                      "attrs": {},
+                      "children": [
+                        "O caso documenta a origem do projeto e a solução implementada para descoberta e convite. A próxima etapa consiste em acompanhar jogadores durante a tarefa, registrar dúvidas e observar a escolha do parceiro, a preparação da proposta e a compreensão dos estados. Essas observações permitirão discutir ajustes com base em evidências de uso."
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "palette"
+                  },
+                  "children": [
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "swatch",
+                        "style": "background:#9dfd45;color:#000"
+                      },
+                      "children": [
+                        {
+                          "tag": "b",
+                          "attrs": {},
+                          "children": [
+                            "Verde da marca"
+                          ]
+                        },
+                        {
+                          "tag": "code",
+                          "attrs": {},
+                          "children": [
+                            "#9DFD45"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "swatch",
+                        "style": "background:#000;color:#fff"
+                      },
+                      "children": [
+                        {
+                          "tag": "b",
+                          "attrs": {},
+                          "children": [
+                            "Fundo"
+                          ]
+                        },
+                        {
+                          "tag": "code",
+                          "attrs": {},
+                          "children": [
+                            "#000000"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "swatch",
+                        "style": "background:#0f0f0f;color:#fff"
+                      },
+                      "children": [
+                        {
+                          "tag": "b",
+                          "attrs": {},
+                          "children": [
+                            "Superfície"
+                          ]
+                        },
+                        {
+                          "tag": "code",
+                          "attrs": {},
+                          "children": [
+                            "#0F0F0F"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "swatch",
+                        "style": "background:#1f1f1f;color:#fff"
+                      },
+                      "children": [
+                        {
+                          "tag": "b",
+                          "attrs": {},
+                          "children": [
+                            "Contorno"
+                          ]
+                        },
+                        {
+                          "tag": "code",
+                          "attrs": {},
+                          "children": [
+                            "#1F1F1F"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "attrs": {
+                        "class": "swatch",
+                        "style": "background:#a0a0a0;color:#000"
+                      },
+                      "children": [
+                        {
+                          "tag": "b",
+                          "attrs": {},
+                          "children": [
+                            "Texto de apoio"
+                          ]
+                        },
+                        {
+                          "tag": "code",
+                          "attrs": {},
+                          "children": [
+                            "#A0A0A0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "endnote": "Projeto autoral com concepção do produto, fluxos e direção visual, além de construção assistida por IA. Capturas de desenvolvimento com personagens e indicadores demonstrativos."
+  }
+}

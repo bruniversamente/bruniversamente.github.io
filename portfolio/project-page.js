@@ -140,7 +140,11 @@ const hero=el('section','case-hero');
       // Reserve the complete footer from its first render, using each case's own title and subtitle.
       await Promise.allSettled(recommendations(area,id).map(project=>loadProject(area,project.id,signal)));
       if(request!==version)return;render(data);article.removeAttribute('aria-busy');window.scrollTo(0,restoreScroll);
-      if(!restoreScroll&&location.hash.startsWith('#chapter-')){const chapter=document.getElementById(location.hash.slice(1));if(chapter&&article.contains(chapter))chapter.scrollIntoView({block:'start'});}
+      if(!restoreScroll&&location.hash.startsWith('#chapter-')){
+        // A chapter's position depends on the case fonts, especially in long mobile layouts.
+        await document.fonts.ready;if(request!==version)return;
+        const chapter=document.getElementById(location.hash.slice(1));if(chapter&&article.contains(chapter))chapter.scrollIntoView({block:'start'});
+      }
     }catch(error){if(error.name==='AbortError'||request!==version)return;console.error('Falha ao carregar o projeto',error);article.removeAttribute('aria-busy');article.replaceChildren(el('h1','case-headline',project.title),el('p','case-error','Não foi possível carregar este projeto. Volte à área e tente novamente.'));}
   }
   function emptyState(hidden){document.querySelector('.empty').hidden=hidden;}

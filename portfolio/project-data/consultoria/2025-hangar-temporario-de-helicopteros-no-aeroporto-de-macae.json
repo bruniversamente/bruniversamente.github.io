@@ -1,0 +1,112 @@
+{
+  "id": "2025-hangar-temporario-de-helicopteros-no-aeroporto-de-macae",
+  "area": "consultoria",
+  "title": "Hangar temporário de helicópteros no Aeroporto de Macaé",
+  "subtitle": "OPEA em área de aeródromo",
+  "tags": [
+    "Aeródromos e aeroportos",
+    "OPEA",
+    "Equipamentos temporários"
+  ],
+  "intro": "Estudo aeronáutico para equipamento temporário em área aeroportuária.",
+  "media": [
+    {
+      "id": "cover",
+      "type": "image",
+      "src": "portfolio/assets/consultoria/2025-hangar-temporario-de-helicopteros-no-aeroporto-de-macae/1280w.webp",
+      "width": 1280,
+      "height": 720,
+      "srcset": "portfolio/assets/consultoria/2025-hangar-temporario-de-helicopteros-no-aeroporto-de-macae/640w.webp 640w, portfolio/assets/consultoria/2025-hangar-temporario-de-helicopteros-no-aeroporto-de-macae/1280w.webp 1280w, portfolio/assets/consultoria/2025-hangar-temporario-de-helicopteros-no-aeroporto-de-macae/image.webp 1672w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/consultoria/2025-hangar-temporario-de-helicopteros-no-aeroporto-de-macae/image.webp",
+      "fullWidth": 1672,
+      "fullHeight": 941,
+      "alt": "Imagem de capa do projeto Hangar temporário de helicópteros no Aeroporto de Macaé em Macaé-RJ.",
+      "caption": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA."
+    }
+  ],
+  "cover": {
+    "id": "cover",
+    "type": "image",
+    "src": "portfolio/assets/consultoria/2025-hangar-temporario-de-helicopteros-no-aeroporto-de-macae/1280w.webp",
+    "width": 1280,
+    "height": 720,
+    "srcset": "portfolio/assets/consultoria/2025-hangar-temporario-de-helicopteros-no-aeroporto-de-macae/640w.webp 640w, portfolio/assets/consultoria/2025-hangar-temporario-de-helicopteros-no-aeroporto-de-macae/1280w.webp 1280w, portfolio/assets/consultoria/2025-hangar-temporario-de-helicopteros-no-aeroporto-de-macae/image.webp 1672w",
+    "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+    "fullSrc": "portfolio/assets/consultoria/2025-hangar-temporario-de-helicopteros-no-aeroporto-de-macae/image.webp",
+    "fullWidth": 1672,
+    "fullHeight": 941,
+    "alt": "Imagem de capa do projeto Hangar temporário de helicópteros no Aeroporto de Macaé em Macaé-RJ.",
+    "caption": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA."
+  },
+  "sections": [],
+  "credits": [
+    {
+      "role": "Consultoria aeronáutica",
+      "names": "EasyAGA"
+    },
+    {
+      "role": "Participação na EasyAGA",
+      "names": "Bruno Nascimento"
+    }
+  ],
+  "credit": "",
+  "links": [],
+  "story": {
+    "editorial": true,
+    "navigation": false,
+    "notice": "Imagem ilustrativa utilizada na apresentação do caso no portfólio da EasyAGA.",
+    "chapters": [
+      {
+        "id": "projeto",
+        "label": "Projeto",
+        "title": "Sobre o projeto",
+        "blocks": [
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Ano",
+                "names": "2025"
+              },
+              {
+                "role": "Local",
+                "names": "Macaé-RJ"
+              },
+              {
+                "role": "Escopo",
+                "names": "OPEA em área de aeródromo"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "atuacao",
+        "label": "Atuação",
+        "title": "Atuação na EasyAGA",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Estudo aeronáutico e processo OPEA com medidas de mitigação."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "resultado",
+        "label": "Resultado",
+        "title": "Resultado",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Deliberação favorável do COMAER para OPEA."
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -18,176 +18,111 @@
   "media": [
     {
       "type": "image",
-      "src": "portfolio/assets/design/rakestra-identidade-feed/03-performance-6113853726/original.webp",
-      "width": 1200,
-      "height": 2670,
-      "srcset": "portfolio/assets/design/rakestra-identidade-feed/03-performance-6113853726/640w.webp 640w, portfolio/assets/design/rakestra-identidade-feed/03-performance-6113853726/original.webp 1200w",
+      "alt": "Rakestra · Design para esportes de raquete",
+      "width": 1280,
+      "height": 960,
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/rakestra-identidade-feed/03-performance-6113853726/original.webp",
-      "fullWidth": 1200,
-      "fullHeight": 2670,
-      "id": "m001",
-      "alt": "Rakestra",
-      "kind": "phone"
+      "fullWidth": 2800,
+      "fullHeight": 2100,
+      "src": "portfolio/assets/design/rakestra-identidade/01-01-7a53db5966/1280w.webp",
+      "fullSrc": "portfolio/assets/design/rakestra-identidade/01-01-7a53db5966/original.webp",
+      "srcset": "portfolio/assets/design/rakestra-identidade/01-01-7a53db5966/640w.webp 640w, portfolio/assets/design/rakestra-identidade/01-01-7a53db5966/1280w.webp 1280w, portfolio/assets/design/rakestra-identidade/01-01-7a53db5966/1920w.webp 1920w, portfolio/assets/design/rakestra-identidade/01-01-7a53db5966/original.webp 2800w"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/rakestra-identidade/16-players-0d04e55f56/original.webp",
-      "width": 1200,
-      "height": 2670,
-      "srcset": "portfolio/assets/editorial/rakestra-identidade/16-players-0d04e55f56/640w.webp 640w, portfolio/assets/editorial/rakestra-identidade/16-players-0d04e55f56/original.webp 1200w",
+      "alt": "Rakestra · O projeto e a participação",
+      "width": 1280,
+      "height": 923,
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/rakestra-identidade/16-players-0d04e55f56/original.webp",
-      "fullWidth": 1200,
-      "fullHeight": 2670,
-      "id": "m002",
-      "alt": "Rakestra",
-      "kind": "phone"
+      "fullWidth": 2800,
+      "fullHeight": 2020,
+      "src": "portfolio/assets/design/rakestra-identidade/02-02-7d95e38600/1280w.webp",
+      "fullSrc": "portfolio/assets/design/rakestra-identidade/02-02-7d95e38600/original.webp",
+      "srcset": "portfolio/assets/design/rakestra-identidade/02-02-7d95e38600/640w.webp 640w, portfolio/assets/design/rakestra-identidade/02-02-7d95e38600/1280w.webp 1280w, portfolio/assets/design/rakestra-identidade/02-02-7d95e38600/1920w.webp 1920w, portfolio/assets/design/rakestra-identidade/02-02-7d95e38600/original.webp 2800w"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/design/rakestra-identidade-feed/02-management-04cc0cbf8c/original.webp",
-      "width": 1440,
-      "height": 900,
-      "srcset": "portfolio/assets/design/rakestra-identidade-feed/02-management-04cc0cbf8c/original.webp 1440w",
+      "alt": "Rakestra · Marca, cores e aplicações",
+      "width": 1280,
+      "height": 1783,
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/rakestra-identidade-feed/02-management-04cc0cbf8c/original.webp",
-      "fullWidth": 1440,
-      "fullHeight": 900,
-      "id": "m003",
-      "alt": "Visão geral do painel Rakestra Gestão"
+      "fullWidth": 2800,
+      "fullHeight": 3900,
+      "src": "portfolio/assets/design/rakestra-identidade/03-03-4b27c08998/1280w.webp",
+      "fullSrc": "portfolio/assets/design/rakestra-identidade/03-03-4b27c08998/original.webp",
+      "srcset": "portfolio/assets/design/rakestra-identidade/03-03-4b27c08998/640w.webp 640w, portfolio/assets/design/rakestra-identidade/03-03-4b27c08998/1280w.webp 1280w, portfolio/assets/design/rakestra-identidade/03-03-4b27c08998/original.webp 2800w"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/rakestra-identidade/logo-eba4c6f19e62.svg",
-      "width": 1763,
-      "height": 379,
-      "fullSrc": "portfolio/assets/editorial/rakestra-identidade/logo-eba4c6f19e62.svg",
-      "fullWidth": 1763,
-      "fullHeight": 379,
-      "id": "m004",
-      "alt": "Assinatura principal · Esportes de raquete",
-      "kind": "logo"
-    },
-    {
-      "type": "image",
-      "src": "portfolio/assets/editorial/rakestra-identidade/symbol-da005dbf34bc.svg",
-      "width": 808,
-      "height": 556,
-      "fullSrc": "portfolio/assets/editorial/rakestra-identidade/symbol-da005dbf34bc.svg",
-      "fullWidth": 808,
-      "fullHeight": 556,
-      "id": "m005",
-      "alt": "Símbolo · R, atleta e raquete",
-      "kind": "logo",
-      "surface": "light"
-    },
-    {
-      "type": "image",
-      "src": "portfolio/assets/editorial/rakestra-identidade/20-reserve-94ff7fe1ac/original.webp",
-      "width": 1200,
-      "height": 2670,
-      "srcset": "portfolio/assets/editorial/rakestra-identidade/20-reserve-94ff7fe1ac/640w.webp 640w, portfolio/assets/editorial/rakestra-identidade/20-reserve-94ff7fe1ac/original.webp 1200w",
+      "alt": "Rakestra · Interfaces do aplicativo",
+      "width": 1280,
+      "height": 1253,
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/rakestra-identidade/20-reserve-94ff7fe1ac/original.webp",
-      "fullWidth": 1200,
-      "fullHeight": 2670,
-      "id": "m006",
-      "alt": "Encontrar parceiros e organizar o jogo",
-      "kind": "phone"
+      "fullWidth": 2800,
+      "fullHeight": 2740,
+      "src": "portfolio/assets/design/rakestra-identidade/04-04-cac70944cf/1280w.webp",
+      "fullSrc": "portfolio/assets/design/rakestra-identidade/04-04-cac70944cf/original.webp",
+      "srcset": "portfolio/assets/design/rakestra-identidade/04-04-cac70944cf/640w.webp 640w, portfolio/assets/design/rakestra-identidade/04-04-cac70944cf/1280w.webp 1280w, portfolio/assets/design/rakestra-identidade/04-04-cac70944cf/1920w.webp 1920w, portfolio/assets/design/rakestra-identidade/04-04-cac70944cf/original.webp 2800w"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/rakestra-identidade/21-reception-05c4767614/original.webp",
-      "width": 1440,
-      "height": 900,
-      "srcset": "portfolio/assets/editorial/rakestra-identidade/21-reception-05c4767614/original.webp 1440w",
+      "alt": "Rakestra · Painel de gestão",
+      "width": 1280,
+      "height": 1957,
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/rakestra-identidade/21-reception-05c4767614/original.webp",
-      "fullWidth": 1440,
-      "fullHeight": 900,
-      "id": "m007",
-      "alt": "Reservas e recepção no painel de gestão"
+      "fullWidth": 2800,
+      "fullHeight": 4280,
+      "src": "portfolio/assets/design/rakestra-identidade/05-05-e64245b55b/1280w.webp",
+      "fullSrc": "portfolio/assets/design/rakestra-identidade/05-05-e64245b55b/original.webp",
+      "srcset": "portfolio/assets/design/rakestra-identidade/05-05-e64245b55b/640w.webp 640w, portfolio/assets/design/rakestra-identidade/05-05-e64245b55b/1280w.webp 1280w, portfolio/assets/design/rakestra-identidade/05-05-e64245b55b/1920w.webp 1920w, portfolio/assets/design/rakestra-identidade/05-05-e64245b55b/original.webp 2800w"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/design/rakestra-identidade-feed/01-site-real-desktop-rakestra-20261030-a6390e0e83/original.jpg",
-      "width": 1385,
-      "height": 900,
-      "srcset": "portfolio/assets/design/rakestra-identidade-feed/01-site-real-desktop-rakestra-20261030-a6390e0e83/original.jpg 1385w",
+      "alt": "Rakestra · Website em desktop e celular",
+      "width": 1280,
+      "height": 1362,
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/rakestra-identidade-feed/01-site-real-desktop-rakestra-20261030-a6390e0e83/original.jpg",
-      "fullWidth": 1385,
-      "fullHeight": 900,
-      "id": "m008",
-      "alt": "Home do site Rakestra em desktop"
+      "fullWidth": 2800,
+      "fullHeight": 2980,
+      "src": "portfolio/assets/design/rakestra-identidade/06-06-1d4f19e23d/1280w.webp",
+      "fullSrc": "portfolio/assets/design/rakestra-identidade/06-06-1d4f19e23d/original.webp",
+      "srcset": "portfolio/assets/design/rakestra-identidade/06-06-1d4f19e23d/640w.webp 640w, portfolio/assets/design/rakestra-identidade/06-06-1d4f19e23d/1280w.webp 1280w, portfolio/assets/design/rakestra-identidade/06-06-1d4f19e23d/1920w.webp 1920w, portfolio/assets/design/rakestra-identidade/06-06-1d4f19e23d/original.webp 2800w"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/rakestra-identidade/23-site-real-mobile-rakestra-20261030-20bbedf443/original.jpg",
-      "width": 415,
-      "height": 933,
-      "srcset": "portfolio/assets/editorial/rakestra-identidade/23-site-real-mobile-rakestra-20261030-20bbedf443/original.jpg 415w",
+      "alt": "Rakestra · Torneios",
+      "width": 1280,
+      "height": 1737,
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/rakestra-identidade/23-site-real-mobile-rakestra-20261030-20bbedf443/original.jpg",
-      "fullWidth": 415,
-      "fullHeight": 933,
-      "id": "m009",
-      "alt": "Home do site Rakestra no celular",
-      "kind": "phone"
+      "fullWidth": 2800,
+      "fullHeight": 3800,
+      "src": "portfolio/assets/design/rakestra-identidade/07-07-0a0e707e0d/1280w.webp",
+      "fullSrc": "portfolio/assets/design/rakestra-identidade/07-07-0a0e707e0d/original.webp",
+      "srcset": "portfolio/assets/design/rakestra-identidade/07-07-0a0e707e0d/640w.webp 640w, portfolio/assets/design/rakestra-identidade/07-07-0a0e707e0d/1280w.webp 1280w, portfolio/assets/design/rakestra-identidade/07-07-0a0e707e0d/1920w.webp 1920w, portfolio/assets/design/rakestra-identidade/07-07-0a0e707e0d/original.webp 2800w"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/rakestra-identidade/24-torneios-lista-bea49e3a5a/original.jpg",
-      "width": 1354,
-      "height": 782,
-      "srcset": "portfolio/assets/editorial/rakestra-identidade/24-torneios-lista-bea49e3a5a/original.jpg 1354w",
+      "alt": "Rakestra · Peças de divulgação",
+      "width": 1280,
+      "height": 1207,
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/rakestra-identidade/24-torneios-lista-bea49e3a5a/original.jpg",
-      "fullWidth": 1354,
-      "fullHeight": 782,
-      "id": "m010",
-      "alt": "Os torneios têm um espaço próprio no site"
+      "fullWidth": 2800,
+      "fullHeight": 2640,
+      "src": "portfolio/assets/design/rakestra-identidade/08-08-22fbbf4c1b/1280w.webp",
+      "fullSrc": "portfolio/assets/design/rakestra-identidade/08-08-22fbbf4c1b/original.webp",
+      "srcset": "portfolio/assets/design/rakestra-identidade/08-08-22fbbf4c1b/640w.webp 640w, portfolio/assets/design/rakestra-identidade/08-08-22fbbf4c1b/1280w.webp 1280w, portfolio/assets/design/rakestra-identidade/08-08-22fbbf4c1b/1920w.webp 1920w, portfolio/assets/design/rakestra-identidade/08-08-22fbbf4c1b/original.webp 2800w"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/rakestra-identidade/25-torneio-detalhe-dceb421b9c/original.jpg",
-      "width": 1354,
-      "height": 782,
-      "srcset": "portfolio/assets/editorial/rakestra-identidade/25-torneio-detalhe-dceb421b9c/original.jpg 1354w",
+      "alt": "Rakestra · Créditos e contexto das imagens",
+      "width": 2800,
+      "height": 1520,
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/rakestra-identidade/25-torneio-detalhe-dceb421b9c/original.jpg",
-      "fullWidth": 1354,
-      "fullHeight": 782,
-      "id": "m011",
-      "alt": "Os torneios têm um espaço próprio no site"
-    },
-    {
-      "type": "image",
-      "src": "portfolio/assets/editorial/rakestra-identidade/26-torneio-chaves-1fd1b8ea74/original.jpg",
-      "width": 1354,
-      "height": 782,
-      "srcset": "portfolio/assets/editorial/rakestra-identidade/26-torneio-chaves-1fd1b8ea74/640w.webp 640w, portfolio/assets/editorial/rakestra-identidade/26-torneio-chaves-1fd1b8ea74/original.jpg 1354w",
-      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/rakestra-identidade/26-torneio-chaves-1fd1b8ea74/original.jpg",
-      "fullWidth": 1354,
-      "fullHeight": 782,
-      "id": "m012",
-      "alt": "Os torneios têm um espaço próprio no site"
-    },
-    {
-      "type": "image",
-      "src": "portfolio/assets/editorial/rakestra-identidade/27-store-map-source-56f7ef39a0/original.webp",
-      "width": 1200,
-      "height": 2670,
-      "srcset": "portfolio/assets/editorial/rakestra-identidade/27-store-map-source-56f7ef39a0/640w.webp 640w, portfolio/assets/editorial/rakestra-identidade/27-store-map-source-56f7ef39a0/original.webp 1200w",
-      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/rakestra-identidade/27-store-map-source-56f7ef39a0/original.webp",
-      "fullWidth": 1200,
-      "fullHeight": 2670,
-      "id": "m013",
-      "alt": "Captura real da interface",
-      "kind": "phone"
+      "fullWidth": 2800,
+      "fullHeight": 1520,
+      "src": "portfolio/assets/design/rakestra-identidade/09-09-6940c38ac7/original.webp",
+      "fullSrc": "portfolio/assets/design/rakestra-identidade/09-09-6940c38ac7/original.webp",
+      "srcset": "portfolio/assets/design/rakestra-identidade/09-09-6940c38ac7/640w.webp 640w, portfolio/assets/design/rakestra-identidade/09-09-6940c38ac7/original.webp 2800w"
     }
   ],
   "sections": [
@@ -263,620 +198,5 @@
       "url": "https://www.behance.net/gallery/257683555/Rakestra-Identidade-visual-e-aplicacoes-digitais"
     }
   ],
-  "cover": {
-    "type": "image",
-    "src": "portfolio/assets/editorial/rakestra-identidade/16-players-0d04e55f56/original.webp",
-    "width": 1200,
-    "height": 2670,
-    "srcset": "portfolio/assets/editorial/rakestra-identidade/16-players-0d04e55f56/640w.webp 640w, portfolio/assets/editorial/rakestra-identidade/16-players-0d04e55f56/original.webp 1200w",
-    "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-    "fullSrc": "portfolio/assets/editorial/rakestra-identidade/16-players-0d04e55f56/original.webp",
-    "fullWidth": 1200,
-    "fullHeight": 2670,
-    "id": "m002",
-    "alt": "Rakestra",
-    "kind": "phone"
-  },
-  "story": {
-    "editorial": true,
-    "navigation": true,
-    "galleryOrder": "source",
-    "chapters": [
-      {
-        "id": "um-projeto-para-jogadores-clubes-e-academias",
-        "label": "Projeto",
-        "title": "Um projeto para jogadores, clubes e academias",
-        "blocks": [
-          {
-            "type": "text",
-            "paragraphs": [],
-            "title": "Rakestra App"
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Jogadores encontram parceiros e combinam partidas por modalidade, nível e localização."
-            ]
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m002",
-                "caption": "Cartões de atletas no Rakestra App"
-              }
-            ],
-            "layout": "single"
-          },
-          {
-            "type": "text",
-            "paragraphs": [],
-            "title": "Rakestra Gestão"
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Equipes de clubes e academias acompanham reservas, recepção e pendências."
-            ]
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m003",
-                "caption": "Visão geral do painel Rakestra Gestão"
-              }
-            ],
-            "layout": "single"
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Concepção do produto, fluxos e direção visual, com desenvolvimento assistido por IA (vibe coding)."
-            ]
-          }
-        ]
-      },
-      {
-        "id": "a-marca-em-detalhe",
-        "label": "Identidade",
-        "title": "A marca em detalhe",
-        "blocks": [
-          {
-            "type": "media",
-            "layout": "two",
-            "items": [
-              {
-                "id": "m004",
-                "caption": "Assinatura principal · Esportes de raquete",
-                "kind": "logo"
-              },
-              {
-                "id": "m005",
-                "caption": "Símbolo · R, atleta e raquete",
-                "kind": "logo",
-                "surface": "light"
-              }
-            ]
-          },
-          {
-            "type": "typography",
-            "family": "Inter",
-            "weights": [
-              400,
-              500,
-              700,
-              900
-            ],
-            "sample": "Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz 0123456789 á é í ó ú ç"
-          },
-          {
-            "type": "palette",
-            "items": [
-              {
-                "color": "#9DFD45",
-                "label": "Verde Rakestra #9DFD45"
-              },
-              {
-                "color": "#FF5B29",
-                "label": "Laranja #FF5B29"
-              },
-              {
-                "color": "#4285F4",
-                "label": "Azul #4285F4"
-              },
-              {
-                "color": "#E1F615",
-                "label": "Amarelo #E1F615"
-              },
-              {
-                "color": "#8338EC",
-                "label": "Roxo #8338EC"
-              }
-            ]
-          },
-          {
-            "type": "palette",
-            "items": [
-              {
-                "gradient": [
-                  "#9DFD45",
-                  "#4AFFC4"
-                ],
-                "label": "Degradê da marca · #9DFD45 → #4AFFC4"
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "paragraphs": [],
-            "title": "Neutros e superfícies"
-          },
-          {
-            "type": "palette",
-            "items": [
-              {
-                "color": "#000000",
-                "label": "#000000"
-              },
-              {
-                "color": "#050505",
-                "label": "#050505"
-              },
-              {
-                "color": "#0A0A0A",
-                "label": "#0A0A0A"
-              },
-              {
-                "color": "#0F0F0F",
-                "label": "#0F0F0F"
-              },
-              {
-                "color": "#111111",
-                "label": "#111111"
-              },
-              {
-                "color": "#161616",
-                "label": "#161616"
-              },
-              {
-                "color": "#1F1F1F",
-                "label": "#1F1F1F"
-              },
-              {
-                "color": "#606060",
-                "label": "#606060"
-              },
-              {
-                "color": "#A0A0A0",
-                "label": "#A0A0A0"
-              },
-              {
-                "color": "#C5C7CC",
-                "label": "#C5C7CC"
-              },
-              {
-                "color": "#E0E0E0",
-                "label": "#E0E0E0"
-              },
-              {
-                "color": "#FFFFFF",
-                "label": "#FFFFFF"
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Fundos, bordas e níveis de texto."
-            ],
-            "title": "Tema claro"
-          },
-          {
-            "type": "palette",
-            "items": [
-              {
-                "color": "#F4F7FB",
-                "label": "Fundo #F4F7FB"
-              },
-              {
-                "color": "#F5F5F7",
-                "label": "Campos #F5F5F7"
-              },
-              {
-                "color": "#DADDE3",
-                "label": "Bordas #DADDE3"
-              },
-              {
-                "color": "#697386",
-                "label": "Texto de apoio #697386"
-              },
-              {
-                "color": "#344054",
-                "label": "Texto secundário #344054"
-              },
-              {
-                "color": "#101828",
-                "label": "Texto principal #101828"
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Paleta da área de treinadores."
-            ],
-            "title": "Coach"
-          },
-          {
-            "type": "palette",
-            "items": [
-              {
-                "color": "#9FF5D1",
-                "label": "Mint #9FF5D1"
-              },
-              {
-                "color": "#2FBF8F",
-                "label": "Jade #2FBF8F"
-              },
-              {
-                "color": "#0F5F49",
-                "label": "Deep #0F5F49"
-              },
-              {
-                "color": "#061813",
-                "label": "Ink #061813"
-              }
-            ]
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Mensagens da interface."
-            ],
-            "title": "Estados"
-          },
-          {
-            "type": "palette",
-            "items": [
-              {
-                "color": "#EF4444",
-                "label": "Erro · escuro #EF4444"
-              },
-              {
-                "color": "#DC2626",
-                "label": "Erro · claro #DC2626"
-              },
-              {
-                "color": "#F59E0B",
-                "label": "Atenção #F59E0B"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "encontrar-parceiros-e-organizar-o-jogo",
-        "label": "Aplicativo",
-        "title": "Encontrar parceiros e organizar o jogo",
-        "blocks": [
-          {
-            "type": "text",
-            "paragraphs": [
-              "Estas telas mostram três tarefas do app: escolher com quem jogar, consultar quadras e acompanhar o desempenho."
-            ]
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m002",
-                "kind": "phone"
-              }
-            ],
-            "layout": "devices"
-          },
-          {
-            "type": "text",
-            "paragraphs": [],
-            "title": "01 · Encontrar parceiros"
-          },
-          {
-            "type": "caption",
-            "text": "Você consulta modalidade, nível e localização no cartão do atleta."
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m006",
-                "kind": "phone"
-              }
-            ],
-            "layout": "devices"
-          },
-          {
-            "type": "text",
-            "paragraphs": [],
-            "title": "02 · Descobrir quadras"
-          },
-          {
-            "type": "caption",
-            "text": "Ao buscar uma quadra, você vê as imagens do local e consulta os horários."
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m001",
-                "kind": "phone"
-              }
-            ],
-            "layout": "devices"
-          },
-          {
-            "type": "text",
-            "paragraphs": [],
-            "title": "03 · Acompanhar o jogo"
-          },
-          {
-            "type": "caption",
-            "text": "No painel de desempenho, o jogador consulta indicadores e o histórico do próprio jogo."
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Capturas de desenvolvimento com perfis, clubes, valores e indicadores demonstrativos."
-            ]
-          }
-        ]
-      },
-      {
-        "id": "reservas-e-recepcao-no-painel-de-gestao",
-        "label": "Gestão",
-        "title": "Reservas e recepção no painel de gestão",
-        "blocks": [
-          {
-            "type": "text",
-            "paragraphs": [
-              "Organizei o painel por áreas de trabalho, com atalhos para as consultas frequentes. Na recepção, a equipe distingue chegadas, cobranças e pendências de acesso."
-            ]
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m003"
-              }
-            ],
-            "layout": "single"
-          },
-          {
-            "type": "caption",
-            "text": "Na visão geral, a equipe encontra indicadores de reservas e atalhos para a operação."
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m007"
-              }
-            ],
-            "layout": "single"
-          },
-          {
-            "type": "caption",
-            "text": "Na recepção, cores e rótulos ajudam a identificar o que falta resolver em cada atendimento."
-          }
-        ]
-      },
-      {
-        "id": "o-site-em-diferentes-telas",
-        "label": "Website",
-        "title": "O site em diferentes telas",
-        "blocks": [
-          {
-            "type": "text",
-            "paragraphs": [
-              "Na home, a marca acompanha a apresentação do Rakestra, com cenas esportivas, personagens e acessos para o aplicativo e os torneios. No celular, a composição reorganiza esses elementos para a leitura vertical."
-            ]
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m008",
-                "caption": "Home do site Rakestra em desktop"
-              },
-              {
-                "id": "m009",
-                "caption": "Home do site Rakestra no celular",
-                "kind": "phone"
-              }
-            ],
-            "layout": "two"
-          },
-          {
-            "type": "caption",
-            "text": "A apresentação mantém a mesma identidade em desktop e celular, com acesso aos torneios, à área para clubes e ao aplicativo."
-          }
-        ]
-      },
-      {
-        "id": "os-torneios-tem-um-espaco-proprio-no-site",
-        "label": "Torneios",
-        "title": "Os torneios têm um espaço próprio no site",
-        "blocks": [
-          {
-            "type": "text",
-            "paragraphs": [
-              "Quem procura um torneio pode filtrar por modalidade e status. Na página do evento, organizei informações, categorias, inscritos, chaves e jogos em abas."
-            ]
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m010"
-              }
-            ],
-            "layout": "single"
-          },
-          {
-            "type": "caption",
-            "text": "Busca, filtros e cartões de eventos."
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m011"
-              }
-            ],
-            "layout": "single"
-          },
-          {
-            "type": "caption",
-            "text": "Identidade do evento e navegação por abas."
-          },
-          {
-            "type": "text",
-            "paragraphs": [],
-            "title": "Acompanhamento das partidas"
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m012"
-              }
-            ],
-            "layout": "single"
-          },
-          {
-            "type": "caption",
-            "text": "Nas chaves, o público consulta placares e acompanha a sequência de confrontos entre as rodadas."
-          }
-        ]
-      },
-      {
-        "id": "as-pecas-de-divulgacao-mostram-o-aplicativo-em-uso",
-        "label": "Divulgação",
-        "title": "As peças de divulgação mostram o aplicativo em uso",
-        "blocks": [
-          {
-            "type": "text",
-            "paragraphs": [
-              "Cada peça apresenta um recurso com uma chamada curta. As telas ocupam o centro da composição, e os acentos verdes mantêm a unidade da série."
-            ]
-          },
-          {
-            "type": "promotions",
-            "items": [
-              {
-                "type": "promotion",
-                "title": "Seu próximo parceiro de quadra.",
-                "items": [
-                  {
-                    "id": "m013",
-                    "caption": "Captura real da interface",
-                    "kind": "phone"
-                  },
-                  {
-                    "id": "m002",
-                    "caption": "Captura real da interface",
-                    "kind": "phone"
-                  }
-                ]
-              },
-              {
-                "type": "promotion",
-                "title": "Sua quadra. Seu horário.",
-                "items": [
-                  {
-                    "id": "m006",
-                    "caption": "Captura real da interface",
-                    "kind": "phone"
-                  }
-                ]
-              },
-              {
-                "type": "promotion",
-                "title": "Veja seu jogo evoluir.",
-                "items": [
-                  {
-                    "id": "m001",
-                    "caption": "Captura real da interface",
-                    "kind": "phone"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "caption",
-            "text": "Estudos de peças verticais para lojas de aplicativos, com capturas Android em mockups e dados demonstrativos."
-          }
-        ]
-      },
-      {
-        "id": "sobre-o-desenvolvimento",
-        "label": "Participação",
-        "title": "Sobre o desenvolvimento",
-        "blocks": [
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m004",
-                "kind": "logo"
-              }
-            ],
-            "layout": "single"
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Este recorte do Rakestra reúne trabalhos de interface e comunicação visual que desenvolvi no projeto. O material mostra como apliquei a identidade no app, no site e no painel de gestão."
-            ]
-          },
-          {
-            "type": "text",
-            "paragraphs": [],
-            "title": "Bruno Nascimento"
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Projeto autoral · concepção do produto, fluxos, direção visual e construção das interfaces com apoio de IA."
-            ]
-          },
-          {
-            "type": "text",
-            "paragraphs": [],
-            "title": "Sobre as imagens"
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Capturas de desenvolvimento com dados e personagens demonstrativos. O acervo inclui imagens produzidas com IA; os indicadores ilustram a interface."
-            ]
-          }
-        ]
-      }
-    ],
-    "deviceFrame": "portfolio/assets/editorial/shared/01-galaxy-s26-ultra-black-front-3545ed1389/original.webp",
-    "filmsInline": true,
-    "heroItems": [
-      {
-        "id": "m001",
-        "kind": "phone"
-      },
-      {
-        "id": "m002",
-        "kind": "phone"
-      }
-    ],
-    "role": "Projeto autoral: concepção do produto, fluxos e direção visual, com desenvolvimento assistido por IA (vibe coding)."
-  }
+  "presentation": "boards"
 }

@@ -1,0 +1,146 @@
+{
+  "area": "design",
+  "id": "tfg",
+  "title": "Território e moradia",
+  "subtitle": "Estudo urbano e plano de ocupação",
+  "tags": [
+    "Arquitetura e Urbanismo",
+    "TFG"
+  ],
+  "intro": "Metodologia para regularização de assentamentos precários, aplicada ao estudo da Vila 29 de Outubro, no Caximba, em Curitiba.",
+  "sections": [
+    {
+      "title": "Uma leitura do território para orientar a proposta",
+      "paragraphs": [
+        "O trabalho reúne análise da realidade local, identificação do perfil do assentamento e definição de diretrizes para o uso e a ocupação do solo."
+      ]
+    },
+    {
+      "title": "Ler o contexto",
+      "paragraphs": [
+        "Histórico da ocupação, condicionantes físicos e serviços existentes."
+      ]
+    },
+    {
+      "title": "O estudo completo, por etapas",
+      "paragraphs": [
+        "As pranchas originais estão reunidas na sequência de leitura. Clique em cada uma para consultar os textos, mapas e diagramas em resolução maior."
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "role": "Autor",
+      "names": "Bruno Nascimento"
+    },
+    {
+      "role": "Orientação",
+      "names": "Mariana G. Bonadio"
+    },
+    {
+      "role": "Curso e instituição",
+      "names": "Arquitetura e Urbanismo · Universidade Federal do Paraná · 2016"
+    }
+  ],
+  "credit": "",
+  "media": [
+    {
+      "type": "image",
+      "src": "portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/2560w.webp",
+      "width": 2560,
+      "height": 3625,
+      "srcset": "portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/640w.webp 640w, portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/2560w.webp 2560w, portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/original.jpg 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/02-tfg-01-4c6e2caf62/original.jpg",
+      "fullWidth": 3840,
+      "fullHeight": 5437,
+      "id": "sheet-1",
+      "alt": "Metodologia"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/original.jpg",
+      "width": 3840,
+      "height": 5437,
+      "srcset": "portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/640w.webp 640w, portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/original.jpg 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/03-tfg-02-46dcd3b16a/original.jpg",
+      "fullWidth": 3840,
+      "fullHeight": 5437,
+      "id": "sheet-2",
+      "alt": "Análise da realidade local"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/arquitetura/tfg/04-tfg-03-a283afb561/original.webp",
+      "width": 1920,
+      "height": 2719,
+      "srcset": "portfolio/assets/arquitetura/tfg/04-tfg-03-a283afb561/640w.webp 640w, portfolio/assets/arquitetura/tfg/04-tfg-03-a283afb561/original.webp 1920w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/04-tfg-03-a283afb561/original.webp",
+      "fullWidth": 1920,
+      "fullHeight": 2719,
+      "id": "sheet-3",
+      "alt": "Perfil do assentamento e síntese"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/arquitetura/tfg/05-tfg-04-cbc6ee85c3/original.jpg",
+      "width": 3840,
+      "height": 5437,
+      "srcset": "portfolio/assets/arquitetura/tfg/05-tfg-04-cbc6ee85c3/640w.webp 640w, portfolio/assets/arquitetura/tfg/05-tfg-04-cbc6ee85c3/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/05-tfg-04-cbc6ee85c3/original.jpg 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/05-tfg-04-cbc6ee85c3/original.jpg",
+      "fullWidth": 3840,
+      "fullHeight": 5437,
+      "id": "sheet-4",
+      "alt": "Análise territorial"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/arquitetura/tfg/06-tfg-05-771046d00e/original.jpg",
+      "width": 3840,
+      "height": 5437,
+      "srcset": "portfolio/assets/arquitetura/tfg/06-tfg-05-771046d00e/640w.webp 640w, portfolio/assets/arquitetura/tfg/06-tfg-05-771046d00e/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/06-tfg-05-771046d00e/original.jpg 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/06-tfg-05-771046d00e/original.jpg",
+      "fullWidth": 3840,
+      "fullHeight": 5437,
+      "id": "sheet-5",
+      "alt": "Relações com o entorno"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/original.jpg",
+      "width": 3840,
+      "height": 5437,
+      "srcset": "portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/640w.webp 640w, portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/original.jpg 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/07-tfg-06-88892d4ea5/original.jpg",
+      "fullWidth": 3840,
+      "fullHeight": 5437,
+      "id": "sheet-6",
+      "alt": "Estudo de viabilidade"
+    },
+    {
+      "type": "image",
+      "src": "portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/original.jpg",
+      "width": 3840,
+      "height": 5437,
+      "srcset": "portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/640w.webp 640w, portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/1280w.webp 1280w, portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/original.jpg 3840w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
+      "fullSrc": "portfolio/assets/arquitetura/tfg/01-tfg-07-4f3b347467/original.jpg",
+      "fullWidth": 3840,
+      "fullHeight": 5437,
+      "id": "sheet-7",
+      "alt": "Plano de ocupação"
+    }
+  ],
+  "links": [
+    {
+      "title": "Ver projeto publicado",
+      "url": "https://www.behance.net/gallery/234978399/TFG-Trabalho-Final-de-Graduacao"
+    }
+  ],
+  "presentation": "boards"
+}

@@ -11,8 +11,17 @@
   const main=document.querySelector('main');
   let active=null,view='feed',tagFilter=null,units=6;
   let homeView='grid';
+  const feedImages=new WeakMap();
   function element(tag,className,text){const el=document.createElement(tag);if(className)el.className=className;if(text)el.textContent=text;return el;}
-  function imageNode(image,lazy=true,sizes='(max-width:700px) 100vw, 50vw'){const img=element('img');img.src=image.src+(image.version?`?v=${image.version}`:'');if(image.srcset){img.srcset=image.srcset;img.sizes=sizes;}if(image.position)img.style.objectPosition=image.position;img.alt=image.alt||'';img.width=image.width;img.height=image.height;img.loading=lazy?'lazy':'eager';img.decoding='async';img.draggable=false;return img;}
+  function applyImage(img,image,orientation='v',sizes='(max-width:700px) 100vw, 50vw'){
+    const photo=image.formats?.[orientation]||image;
+    img.width=photo.width;img.height=photo.height;img.alt=photo.alt||'';
+    if(photo.srcset){img.srcset=photo.srcset;img.sizes=sizes;}else{img.removeAttribute('srcset');img.removeAttribute('sizes');}
+    img.src=photo.src+(photo.version?`?v=${photo.version}`:'');
+    if(photo.position)img.style.objectPosition=photo.position;
+    if(image.formats){img.style.objectFit=photo.fit;img.style.transform=`scale(${photo.zoom/100})`;img.dataset.thumbOrientation=orientation;}
+  }
+  function imageNode(image,lazy=true,sizes='(max-width:700px) 100vw, 50vw'){const img=element('img');applyImage(img,image,'v',sizes);img.loading=lazy?'lazy':'eager';img.decoding='async';img.draggable=false;return img;}
   function matches(project){const tags=project.tags||[];return (tagFilter===null||tags.includes(tagFilter))&&normalize([project.title,project.credit,...tags].join(' ')).includes(normalize(search.value));}
   function showProject(project,image){
     if(window.projectPage){window.projectPage.open(active,project.id);return;}
@@ -30,6 +39,7 @@
   }
   function feedCard(project,image,wide){
     const card=element('a','feed-card');card.href=`?area=${active}&project=${project.id}`;card.dataset.project=project.id;card.dataset.orientation=wide?'h':'v';card.setAttribute('aria-label',project.title);
+    feedImages.set(card,image);if(image.thumbSlot)card.dataset.thumbSlot=String(image.thumbSlot);
     const media=element('span','feed-media');
     media.append(imageNode(image,feed.children.length>5));
     const overlay=element('span','feed-overlay');overlay.setAttribute('aria-hidden','true');
@@ -101,6 +111,8 @@
       for(const span of pattern){
         const card=visible[position++];if(!card)break;
         card.dataset.orientation=span===2?'h':'v';card.dataset.layoutRow=String(row);
+        const image=feedImages.get(card),img=card.querySelector('.feed-media img');
+        if(image?.formats&&img.dataset.thumbOrientation!==card.dataset.orientation)applyImage(img,image,card.dataset.orientation);
       }
       row++;
     }

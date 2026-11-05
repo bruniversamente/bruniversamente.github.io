@@ -1,8 +1,4 @@
-/* Document previews need the full frame; zoom still changes the column count. */
-.main[data-area=dados] .area-feed{grid-template-columns:repeat(var(--release-columns,3),minmax(0,1fr));grid-auto-rows:auto;gap:3rem 3.2rem}
-.main[data-area=dados] .feed-card{grid-column:auto;aspect-ratio:16/10;max-height:calc((100svh - var(--header) - var(--bottom) - 12rem)/2)}
-.main[data-area=dados] .feed-card .feed-media img{object-fit:contain}
-@media(max-width:1023.98px){.main[data-area=dados] .area-feed{grid-template-columns:1fr;gap:2rem}.main[data-area=dados] .feed-card{max-height:none;aspect-ratio:16/10}}
+/* Data/BI thumbnails now use the shared portrait/landscape mosaic. */
 
 /* Keep the complete technical drawing visible, including wide modules. */
 .main[data-area=design] .feed-card[data-project=tfg] .feed-media img{object-fit:contain;object-position:center}

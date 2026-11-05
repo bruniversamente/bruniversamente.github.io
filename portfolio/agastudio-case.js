@@ -1,6 +1,6 @@
 /* Read an existing analysis round. This figure never runs an aviation calculation. */
 (() => {
-  const moneylessNumber=new Intl.NumberFormat('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
+  const moneylessNumber=new Intl.NumberFormat((window.portfolioI18n?.locale||'pt-BR'),{minimumFractionDigits:2,maximumFractionDigits:2});
   const fmt=value=>moneylessNumber.format(value)+' m';
   function el(tag,cls,text){const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;}
   function renderReading(item,signal){

@@ -1,7 +1,7 @@
 /* Reading components for the analytics cases. All values come from their local outputs. */
 (() => {
-  const number=new Intl.NumberFormat('pt-BR',{maximumFractionDigits:2}),percentage=new Intl.NumberFormat('pt-BR',{maximumFractionDigits:1}),integer=new Intl.NumberFormat('pt-BR',{maximumFractionDigits:0});
-  const money=new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL',maximumFractionDigits:0}),decimal=new Intl.NumberFormat('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
+  const number=new Intl.NumberFormat((window.portfolioI18n?.locale||'pt-BR'),{maximumFractionDigits:2}),percentage=new Intl.NumberFormat((window.portfolioI18n?.locale||'pt-BR'),{maximumFractionDigits:1}),integer=new Intl.NumberFormat((window.portfolioI18n?.locale||'pt-BR'),{maximumFractionDigits:0});
+  const money=new Intl.NumberFormat((window.portfolioI18n?.locale||'pt-BR'),{style:'currency',currency:'BRL',maximumFractionDigits:0}),decimal=new Intl.NumberFormat((window.portfolioI18n?.locale||'pt-BR'),{minimumFractionDigits:2,maximumFractionDigits:2});
   const pct=v=>percentage.format(Number(v)*100)+'%',count=v=>integer.format(v),currency=v=>money.format(v);
   const labels={Organic:'Orgânico',Referral:'Indicação','Paid Search':'Busca paga',Social:'Social',Store:'Loja física',Games:'Jogos',Education:'Educação',Sports:'Esportes',Wellness:'Bem-estar',Music:'Música',High:'Alta',Medium:'Média',Low:'Baixa',Critical:'Crítica',Warning:'Alerta',Accuracy:'Exatidão',Completeness:'Completude',Clarity:'Clareza',Tone:'Tom',Actionability:'Aplicabilidade',Blocked:'Bloqueada',Approved:'Aprovada'};
   labels['Tone fit']='Adequação do tom';

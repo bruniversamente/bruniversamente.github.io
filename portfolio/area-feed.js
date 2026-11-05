@@ -22,7 +22,7 @@
     if(image.formats){img.style.objectFit=photo.fit;img.style.transform=`scale(${photo.zoom/100})`;img.dataset.thumbOrientation=orientation;}
   }
   function imageNode(image,lazy=true,sizes='(max-width:700px) 100vw, 50vw'){const img=element('img');applyImage(img,image,'v',sizes);img.loading=lazy?'lazy':'eager';img.decoding='async';img.draggable=false;return img;}
-  function matches(project){const tags=project.tags||[];return (tagFilter===null||tags.includes(tagFilter))&&normalize([project.title,project.credit,...tags].join(' ')).includes(normalize(search.value));}
+  function matches(project){const tags=project.tags||[],copy=[project.title,project.credit,...tags];return (tagFilter===null||tags.includes(tagFilter))&&normalize([...copy,...copy.map(text=>window.portfolioI18n?.t(text)||text)].join(' ')).includes(normalize(search.value));}
   function showProject(project,image){
     if(window.projectPage){window.projectPage.open(active,project.id);return;}
     document.querySelector('#area-title').textContent=project.title;
@@ -71,7 +71,7 @@
     }
     filters.replaceChildren();
     const addFilter=(tag,title)=>{const button=element('button','button',title);button.type='button';button.setAttribute('aria-pressed',String(tagFilter===tag));button.addEventListener('click',()=>{tagFilter=tag;[...filters.children].forEach(b=>b.setAttribute('aria-pressed',String(b===button)));update();});filters.append(button);};
-    const tags=[...new Set(projects.flatMap(project=>project.tags||[]))].sort((a,b)=>a.localeCompare(b,'pt-BR'));
+    const tags=[...new Set(projects.flatMap(project=>project.tags||[]))].sort((a,b)=>a.localeCompare(b,(window.portfolioI18n?.locale||'pt-BR')));
     addFilter(null,'Todos');tags.forEach(tag=>addFilter(tag,tag));
     update();updateZoom();
   }
@@ -82,7 +82,7 @@
     const shown=new Set();
     [...feed.children].forEach(card=>{const id=card.dataset.project;card.hidden=!visible.has(id)||(unique&&shown.has(id));if(!card.hidden)shown.add(id);});
     [...index.children].forEach(card=>card.hidden=!visible.has(card.dataset.project));
-    empty.hidden=visible.size>0;empty.textContent='Nenhum projeto encontrado.';
+    empty.hidden=visible.size>0;empty.textContent=active==='software'&&catalog[active].length===0?'Projetos em preparação.':'Nenhum projeto encontrado.';
     distributeModules();
   }
   function distributeModules(){

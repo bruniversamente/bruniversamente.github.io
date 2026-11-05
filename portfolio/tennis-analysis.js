@@ -1,7 +1,7 @@
 /* Extension for the already-published observational tennis case. */
 (() => {
   const original=window.projectAnalysis.render;
-  const fmt=new Intl.NumberFormat('pt-BR',{maximumFractionDigits:0}),pct=v=>(v*100).toLocaleString('pt-BR',{maximumFractionDigits:1})+'%',pp=v=>(v*100).toLocaleString('pt-BR',{maximumFractionDigits:1,signDisplay:'always'})+' p.p.';
+  const fmt=new Intl.NumberFormat((window.portfolioI18n?.locale||'pt-BR'),{maximumFractionDigits:0}),pct=v=>(v*100).toLocaleString((window.portfolioI18n?.locale||'pt-BR'),{maximumFractionDigits:1})+'%',pp=v=>(v*100).toLocaleString((window.portfolioI18n?.locale||'pt-BR'),{maximumFractionDigits:1,signDisplay:'always'})+' p.p.';
   function el(tag,cls,text){const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=text;return n;}
   window.projectAnalysis.render=(item,data,signal)=>{
     if(item.kind!=='tennis-context')return original(item,data,signal);

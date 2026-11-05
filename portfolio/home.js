@@ -10,7 +10,7 @@ function updateViewportFit(){grid.dataset.zoomColumns=String(columns);grid.datas
 function updateCards(){
   if(window.areaFeed?.active){window.areaFeed.update();return;}
   const query = normalize(search.value);
-  cards.forEach(card=>{const entry=entries[card.dataset.area];card.hidden=!(filter==='all'||entry.group===filter)||!normalize(entry.title+' '+entry.description).includes(query);});
+  cards.forEach(card=>{const entry=entries[card.dataset.area],copy=entry.title+' '+entry.description,translated=(window.portfolioI18n?.t(entry.title)||entry.title)+' '+(window.portfolioI18n?.t(entry.description)||entry.description);card.hidden=!(filter==='all'||entry.group===filter)||!normalize(copy+' '+translated).includes(query);});
   document.querySelector('.empty').hidden=cards.some(card=>!card.hidden);
   updateViewportFit();
 }

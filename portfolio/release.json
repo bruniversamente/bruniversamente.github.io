@@ -1,5 +1,5 @@
 {
-  "release": "social-preview-20261106",
+  "release": "curriculos-20261106",
   "date": "2026-11-06",
   "areas": [
     "dados",
@@ -112,5 +112,9 @@
     "consultoria",
     "software"
   ],
-  "review_tools_published": false
+  "review_tools_published": false,
+  "public_resume_languages": [
+    "pt"
+  ],
+  "public_resume_count": 5
 }

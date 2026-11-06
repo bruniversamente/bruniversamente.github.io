@@ -1,5 +1,5 @@
 {
-  "release": "home-motion-20261105",
+  "release": "home-motion-software-20261106",
   "width": 960,
   "height": 540,
   "fps": 24,
@@ -120,6 +120,64 @@
         15,
         11,
         12
+      ]
+    },
+    "software": {
+      "src": "portfolio/assets/home-motion/software-acc125cfb3a7.mp4",
+      "poster": "portfolio/assets/home-motion/software-7ee9c455cd9a.webp",
+      "sha256": "acc125cfb3a7dedb24e1ea00cbd59c287c7d8f31d80f511e1260629c5f83fc73",
+      "bytes": 1841646,
+      "duration": 27,
+      "languages": [
+        "pt"
+      ],
+      "selectedImages": [
+        1,
+        11,
+        16,
+        19,
+        35,
+        40,
+        48,
+        58,
+        59,
+        61,
+        63,
+        70,
+        81
+      ],
+      "boards": [
+        [
+          1
+        ],
+        [
+          11,
+          16,
+          19
+        ],
+        [
+          35
+        ],
+        [
+          40
+        ],
+        [
+          48
+        ],
+        [
+          58,
+          59,
+          61
+        ],
+        [
+          63
+        ],
+        [
+          70
+        ],
+        [
+          81
+        ]
       ]
     }
   }

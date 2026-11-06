@@ -22,7 +22,7 @@
   },{threshold:[0,.02]});
   function refresh(){for(const video of players.keys()){if(document.hidden||reduced.matches||connection?.saveData)stop(video,reduced.matches||connection?.saveData);else play(video);}}
   document.addEventListener('visibilitychange',refresh);reduced.addEventListener('change',refresh);connection?.addEventListener?.('change',refresh);
-  fetch('portfolio/assets/home-motion/manifest.json?v=home-motion-20261105').then(response=>{
+  fetch('portfolio/assets/home-motion/manifest.json?v=home-motion-software-20261106').then(response=>{
     if(!response.ok)throw Error('Motion manifest unavailable');return response.json();
   }).then(manifest=>{
     const lang=window.portfolioI18n?.lang||'pt';

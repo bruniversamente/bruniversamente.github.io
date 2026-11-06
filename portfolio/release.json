@@ -1,6 +1,6 @@
 {
-  "release": "home-motion-20261105",
-  "date": "2026-11-05",
+  "release": "home-motion-software-20261106",
+  "date": "2026-11-06",
   "areas": [
     "dados",
     "design",
@@ -109,7 +109,8 @@
     "design",
     "produtos",
     "dados",
-    "consultoria"
+    "consultoria",
+    "software"
   ],
   "review_tools_published": false
 }

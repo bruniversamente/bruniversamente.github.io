@@ -1,0 +1,126 @@
+{
+  "release": "home-motion-20261105",
+  "width": 960,
+  "height": 540,
+  "fps": 24,
+  "areas": {
+    "beleza": {
+      "src": "portfolio/assets/home-motion/beleza-cbadd56353eb.mp4",
+      "poster": "portfolio/assets/home-motion/beleza-0a40c8c7ba2c.webp",
+      "sha256": "cbadd56353eb41c3277d6b2f21af5e53408dc971bef121f6a1e65b8c47a0a19b",
+      "bytes": 3968904,
+      "duration": 36,
+      "languages": [
+        "pt",
+        "en",
+        "es"
+      ],
+      "selectedImages": [
+        1,
+        14,
+        57,
+        66,
+        79,
+        106,
+        155,
+        210,
+        227,
+        275,
+        277,
+        309
+      ]
+    },
+    "design": {
+      "src": "portfolio/assets/home-motion/design-74119f487769.mp4",
+      "poster": "portfolio/assets/home-motion/design-5ee754ed204d.webp",
+      "sha256": "74119f48776989dc95f6b88b0f9b23584075930416c37eae9143c3c76cb46640",
+      "bytes": 3828321,
+      "duration": 36,
+      "languages": [
+        "pt",
+        "en",
+        "es"
+      ],
+      "selectedImages": [
+        4,
+        37,
+        65,
+        100,
+        14,
+        43,
+        54,
+        81,
+        102,
+        22,
+        48,
+        34
+      ]
+    },
+    "produtos": {
+      "src": "portfolio/assets/home-motion/produtos-926d11589c99.mp4",
+      "poster": "portfolio/assets/home-motion/produtos-eda2c7ee0d1c.webp",
+      "sha256": "926d11589c992c0eb7be4eebc0d680c3f274ba6475859e8523cbae8c30d7f9fc",
+      "bytes": 1585873,
+      "duration": 30,
+      "languages": [
+        "pt"
+      ],
+      "selectedImages": [
+        1,
+        7,
+        31,
+        34,
+        42,
+        49,
+        57,
+        65,
+        74,
+        72
+      ]
+    },
+    "dados": {
+      "src": "portfolio/assets/home-motion/dados-67148013771d.mp4",
+      "poster": "portfolio/assets/home-motion/dados-584d8ede2d05.webp",
+      "sha256": "67148013771d58dd12f2cff3c713a1c4efe74bb035f7365c7213e0c6b8f82880",
+      "bytes": 1799787,
+      "duration": 30,
+      "languages": [
+        "pt"
+      ],
+      "selectedImages": [
+        1,
+        10,
+        15,
+        24,
+        29,
+        31,
+        22,
+        17,
+        8,
+        3
+      ]
+    },
+    "consultoria": {
+      "src": "portfolio/assets/home-motion/consultoria-c7a2d3cd9111.mp4",
+      "poster": "portfolio/assets/home-motion/consultoria-35c4fa2648b2.webp",
+      "sha256": "c7a2d3cd91110336259c84116ffde21f658865d1c28ac8cc636eea58bf9178df",
+      "bytes": 3523920,
+      "duration": 24,
+      "languages": [
+        "pt",
+        "en",
+        "es"
+      ],
+      "selectedImages": [
+        1,
+        4,
+        6,
+        8,
+        9,
+        15,
+        11,
+        12
+      ]
+    }
+  }
+}

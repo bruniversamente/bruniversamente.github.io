@@ -1,5 +1,5 @@
 {
-  "release": "curriculos-20261106",
+  "release": "books-michel-20261106",
   "date": "2026-11-06",
   "areas": [
     "dados",
@@ -61,7 +61,6 @@
     "consultoria": [
       "2026-edificio-residencial-da-construtora-hype",
       "2026-cinco-edificios-residenciais-da-construtora-embraed",
-      "2026-complexo-eolico-gran-sul",
       "2026-ampliacao-do-terminal-de-passageiros-do-aeroporto-hercilio-luz",
       "2025-estudos-aeronauticos-para-corumba-ponta-pora-e-campo-grande",
       "2025-heliponto-no-edificio-armani-casa-residences-by-embraed",
@@ -93,11 +92,11 @@
     "dados": 5,
     "design": 8,
     "beleza": 29,
-    "consultoria": 16,
+    "consultoria": 15,
     "produtos": 5,
     "software": 3
   },
-  "active_projects": 66,
+  "active_projects": 65,
   "software_projects": [
     "rakestra-app",
     "rakestra-gestao",

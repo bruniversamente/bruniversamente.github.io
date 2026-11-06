@@ -15,7 +15,7 @@
     const tags=node('div','case-tags');data.tags.forEach(tag=>tags.append(node('span','case-tag',tag)));hero.append(tags);
     if(story.heroBoard){const boards=node('div',story.heroClassName||'rakestra-boards no-notes');boards.append(block(story.heroBoard));hero.append(boards);}
     else if(story.heroItems){hero.append(block({type:'media',layout:'hero-devices',items:story.heroItems}));}
-    else if(cover){const f=figure({...cover,...(story.heroCrop?{crop:story.heroCrop}:{})},true);if(story.coverPosition)f.querySelector('img').style.objectPosition=story.coverPosition;if(story.coverFit==='contain')f.classList.add('story-cover--contain');hero.append(f);}
+    else if(cover&&!story.hideCover){const f=figure({...cover,...(story.heroCrop?{crop:story.heroCrop}:{})},true);if(story.coverPosition)f.querySelector('img').style.objectPosition=story.coverPosition;if(story.coverFit==='contain')f.classList.add('story-cover--contain');hero.append(f);}
     const intro=node('div','story-intro');if(story.notice)intro.append(node('p','story-notice',story.notice));intro.append(node('p','story-lead',data.intro));
     if(story.role)intro.append(node('p','story-role',story.role));if(!story.introInBoard)hero.append(intro);fragments.push(hero);
     const layout=node('div',story.navigation?'story-layout':'story-visual'),body=node('div','story-content');

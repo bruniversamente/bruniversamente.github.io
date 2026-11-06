@@ -254,6 +254,318 @@
       "alt": "Vini — fotografia de Wallace Domingues",
       "srcset": "portfolio/assets/beleza/wallace-books-retratos/vini-retrato-03ec05ad1c/640w.avif 640w, portfolio/assets/beleza/wallace-books-retratos/vini-retrato-03ec05ad1c/image.avif 1484w",
       "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "michel-f8b1c61f0e54ba16",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-f8b1c61f0e54ba16/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-f8b1c61f0e54ba16/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Alice — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-f8b1c61f0e54ba16/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-f8b1c61f0e54ba16/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-ad049cb142af06a0",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-ad049cb142af06a0/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-ad049cb142af06a0/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Alice — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-ad049cb142af06a0/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-ad049cb142af06a0/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-4584e8734487a7c8",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-4584e8734487a7c8/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-4584e8734487a7c8/image.avif",
+      "width": 1440,
+      "height": 1800,
+      "fullWidth": 1440,
+      "fullHeight": 1800,
+      "alt": "Aline — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-4584e8734487a7c8/640w.avif 512w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-4584e8734487a7c8/image.avif 1440w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-630894794dc266a8",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-630894794dc266a8/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-630894794dc266a8/image.avif",
+      "width": 1440,
+      "height": 1800,
+      "fullWidth": 1440,
+      "fullHeight": 1800,
+      "alt": "Aline — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-630894794dc266a8/640w.avif 512w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-630894794dc266a8/image.avif 1440w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-e6a69bb5c2446b05",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-e6a69bb5c2446b05/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-e6a69bb5c2446b05/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Amanda — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-e6a69bb5c2446b05/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-e6a69bb5c2446b05/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-a893209706f037a6",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-a893209706f037a6/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-a893209706f037a6/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Amanda — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-a893209706f037a6/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-a893209706f037a6/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-97ade11edbe3975f",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-97ade11edbe3975f/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-97ade11edbe3975f/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Bela Carfer — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-97ade11edbe3975f/640w.avif 512w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-97ade11edbe3975f/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-ac096c7edd4f2e96",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-ac096c7edd4f2e96/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-ac096c7edd4f2e96/image.avif",
+      "width": 1536,
+      "height": 1920,
+      "fullWidth": 1536,
+      "fullHeight": 1920,
+      "alt": "Bela Carfer — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-ac096c7edd4f2e96/640w.avif 512w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-ac096c7edd4f2e96/image.avif 1536w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-23eaf80e15e4ac41",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-23eaf80e15e4ac41/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-23eaf80e15e4ac41/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Carlos — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-23eaf80e15e4ac41/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-23eaf80e15e4ac41/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-808d647b85cb1474",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-808d647b85cb1474/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-808d647b85cb1474/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Carlos — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-808d647b85cb1474/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-808d647b85cb1474/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-843c481c552a851b",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-843c481c552a851b/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-843c481c552a851b/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Dani Almeida — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-843c481c552a851b/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-843c481c552a851b/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-dc4e78d5317dc8fe",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-dc4e78d5317dc8fe/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-dc4e78d5317dc8fe/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Dani Almeida — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-dc4e78d5317dc8fe/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-dc4e78d5317dc8fe/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-9d3115c947b08a0d",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-9d3115c947b08a0d/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-9d3115c947b08a0d/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Giulia — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-9d3115c947b08a0d/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-9d3115c947b08a0d/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-c23390d48a2c182b",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-c23390d48a2c182b/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-c23390d48a2c182b/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Giulia — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-c23390d48a2c182b/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-c23390d48a2c182b/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-48313c530b59986d",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-48313c530b59986d/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-48313c530b59986d/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Luisa — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-48313c530b59986d/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-48313c530b59986d/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-148445ed742a9bed",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-148445ed742a9bed/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-148445ed742a9bed/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Luisa — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-148445ed742a9bed/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-148445ed742a9bed/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-4ab649ae41ea83a0",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-4ab649ae41ea83a0/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-4ab649ae41ea83a0/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Manuela — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-4ab649ae41ea83a0/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-4ab649ae41ea83a0/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-ddc8ef99d7e587e0",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-ddc8ef99d7e587e0/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-ddc8ef99d7e587e0/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Manuela — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-ddc8ef99d7e587e0/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-ddc8ef99d7e587e0/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-971f88b2e1800a6c",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-971f88b2e1800a6c/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-971f88b2e1800a6c/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Melissa — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-971f88b2e1800a6c/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-971f88b2e1800a6c/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-4ad6d27e9579418e",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-4ad6d27e9579418e/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-4ad6d27e9579418e/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Melissa — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-4ad6d27e9579418e/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-4ad6d27e9579418e/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-d9f9b296cf7bb907",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-d9f9b296cf7bb907/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-d9f9b296cf7bb907/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Taina — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-d9f9b296cf7bb907/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-d9f9b296cf7bb907/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-c20df342efab4acd",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-c20df342efab4acd/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-c20df342efab4acd/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Taina — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-c20df342efab4acd/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-c20df342efab4acd/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-922f7cd9f375d3c5",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-922f7cd9f375d3c5/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-922f7cd9f375d3c5/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Vitória — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-922f7cd9f375d3c5/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-922f7cd9f375d3c5/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
+    },
+    {
+      "id": "michel-d91afd65b084e735",
+      "type": "image",
+      "src": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-d91afd65b084e735/image.avif",
+      "fullSrc": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-d91afd65b084e735/image.avif",
+      "width": 1280,
+      "height": 1920,
+      "fullWidth": 1280,
+      "fullHeight": 1920,
+      "alt": "Vitória — fotografia de Michel Rodrigues",
+      "srcset": "portfolio/assets/beleza/wallace-books-retratos/michel/michel-d91afd65b084e735/640w.avif 427w, portfolio/assets/beleza/wallace-books-retratos/michel/michel-d91afd65b084e735/image.avif 1280w",
+      "sizes": "(max-width:700px) calc(50vw - 32px), 35vw"
     }
   ],
   "links": [],
@@ -570,7 +882,416 @@
             "layout": "two"
           }
         ]
+      },
+      {
+        "id": "michel-alice",
+        "title": "Alice",
+        "label": "Alice",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Fotografia Michel Rodrigues"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Michel Rodrigues",
+                "url": "https://www.instagram.com/__michelrodrigues__/"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "two",
+            "items": [
+              {
+                "id": "michel-f8b1c61f0e54ba16"
+              },
+              {
+                "id": "michel-ad049cb142af06a0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "michel-aline",
+        "title": "Aline",
+        "label": "Aline",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Fotografia Michel Rodrigues"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Michel Rodrigues",
+                "url": "https://www.instagram.com/__michelrodrigues__/"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "two",
+            "items": [
+              {
+                "id": "michel-4584e8734487a7c8"
+              },
+              {
+                "id": "michel-630894794dc266a8"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "michel-amanda",
+        "title": "Amanda",
+        "label": "Amanda",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Fotografia Michel Rodrigues"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Michel Rodrigues",
+                "url": "https://www.instagram.com/__michelrodrigues__/"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "two",
+            "items": [
+              {
+                "id": "michel-e6a69bb5c2446b05"
+              },
+              {
+                "id": "michel-a893209706f037a6"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "michel-bela-carfer",
+        "title": "Bela Carfer",
+        "label": "Bela Carfer",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Fotografia Michel Rodrigues"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Michel Rodrigues",
+                "url": "https://www.instagram.com/__michelrodrigues__/"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "two",
+            "items": [
+              {
+                "id": "michel-97ade11edbe3975f"
+              },
+              {
+                "id": "michel-ac096c7edd4f2e96"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "michel-carlos",
+        "title": "Carlos",
+        "label": "Carlos",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Fotografia Michel Rodrigues"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Michel Rodrigues",
+                "url": "https://www.instagram.com/__michelrodrigues__/"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "two",
+            "items": [
+              {
+                "id": "michel-23eaf80e15e4ac41"
+              },
+              {
+                "id": "michel-808d647b85cb1474"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "michel-dani-almeida",
+        "title": "Dani Almeida",
+        "label": "Dani Almeida",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Fotografia Michel Rodrigues"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Michel Rodrigues",
+                "url": "https://www.instagram.com/__michelrodrigues__/"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "two",
+            "items": [
+              {
+                "id": "michel-843c481c552a851b"
+              },
+              {
+                "id": "michel-dc4e78d5317dc8fe"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "michel-giulia",
+        "title": "Giulia",
+        "label": "Giulia",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Fotografia Michel Rodrigues"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Michel Rodrigues",
+                "url": "https://www.instagram.com/__michelrodrigues__/"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "two",
+            "items": [
+              {
+                "id": "michel-9d3115c947b08a0d"
+              },
+              {
+                "id": "michel-c23390d48a2c182b"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "michel-luisa",
+        "title": "Luisa",
+        "label": "Luisa",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Fotografia Michel Rodrigues"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Michel Rodrigues",
+                "url": "https://www.instagram.com/__michelrodrigues__/"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "two",
+            "items": [
+              {
+                "id": "michel-48313c530b59986d"
+              },
+              {
+                "id": "michel-148445ed742a9bed"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "michel-manuela",
+        "title": "Manuela",
+        "label": "Manuela",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Fotografia Michel Rodrigues"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Michel Rodrigues",
+                "url": "https://www.instagram.com/__michelrodrigues__/"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "two",
+            "items": [
+              {
+                "id": "michel-4ab649ae41ea83a0"
+              },
+              {
+                "id": "michel-ddc8ef99d7e587e0"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "michel-melissa",
+        "title": "Melissa",
+        "label": "Melissa",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Fotografia Michel Rodrigues"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Michel Rodrigues",
+                "url": "https://www.instagram.com/__michelrodrigues__/"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "two",
+            "items": [
+              {
+                "id": "michel-971f88b2e1800a6c"
+              },
+              {
+                "id": "michel-4ad6d27e9579418e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "michel-taina",
+        "title": "Taina",
+        "label": "Taina",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Fotografia Michel Rodrigues"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Michel Rodrigues",
+                "url": "https://www.instagram.com/__michelrodrigues__/"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "two",
+            "items": [
+              {
+                "id": "michel-d9f9b296cf7bb907"
+              },
+              {
+                "id": "michel-c20df342efab4acd"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "michel-vitoria",
+        "title": "Vitória",
+        "label": "Vitória",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Fotografia Michel Rodrigues"
+            ]
+          },
+          {
+            "type": "links",
+            "items": [
+              {
+                "title": "Michel Rodrigues",
+                "url": "https://www.instagram.com/__michelrodrigues__/"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "two",
+            "items": [
+              {
+                "id": "michel-922f7cd9f375d3c5"
+              },
+              {
+                "id": "michel-d91afd65b084e735"
+              }
+            ]
+          }
+        ]
       }
-    ]
+    ],
+    "hideCover": true
   }
 }

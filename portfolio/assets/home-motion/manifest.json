@@ -1,5 +1,5 @@
 {
-  "release": "home-motion-software-20261106",
+  "release": "home-hover-still-20261106",
   "width": 960,
   "height": 540,
   "fps": 24,
@@ -28,7 +28,25 @@
         275,
         277,
         309
-      ]
+      ],
+      "hoverStills": {
+        "stepSeconds": 3,
+        "switchOffsetSeconds": 1,
+        "images": [
+          "portfolio/assets/home-motion/beleza-still-01-fc4ff3d29454.webp",
+          "portfolio/assets/home-motion/beleza-still-02-124a0e5a1e4c.webp",
+          "portfolio/assets/home-motion/beleza-still-03-b60ca910c0a4.webp",
+          "portfolio/assets/home-motion/beleza-still-04-9dde5c0778b7.webp",
+          "portfolio/assets/home-motion/beleza-still-05-c64c61748784.webp",
+          "portfolio/assets/home-motion/beleza-still-06-4b56dff9b48e.webp",
+          "portfolio/assets/home-motion/beleza-still-07-229ef3a75447.webp",
+          "portfolio/assets/home-motion/beleza-still-08-5f24184d2784.webp",
+          "portfolio/assets/home-motion/beleza-still-09-b9b15c510226.webp",
+          "portfolio/assets/home-motion/beleza-still-10-5fd2f507b9a3.webp",
+          "portfolio/assets/home-motion/beleza-still-11-4a2aa9576947.webp",
+          "portfolio/assets/home-motion/beleza-still-12-aac11ee90dbe.webp"
+        ]
+      }
     },
     "design": {
       "src": "portfolio/assets/home-motion/design-74119f487769.mp4",
@@ -54,7 +72,25 @@
         22,
         48,
         34
-      ]
+      ],
+      "hoverStills": {
+        "stepSeconds": 3,
+        "switchOffsetSeconds": 1,
+        "images": [
+          "portfolio/assets/home-motion/design-still-01-640ef65f5568.webp",
+          "portfolio/assets/home-motion/design-still-02-ba7d0f506ff7.webp",
+          "portfolio/assets/home-motion/design-still-03-cead3b8412d5.webp",
+          "portfolio/assets/home-motion/design-still-04-0d549c61644c.webp",
+          "portfolio/assets/home-motion/design-still-05-867f9663ea6a.webp",
+          "portfolio/assets/home-motion/design-still-06-50955c354eb9.webp",
+          "portfolio/assets/home-motion/design-still-07-039dd962eced.webp",
+          "portfolio/assets/home-motion/design-still-08-abf2fbbe9413.webp",
+          "portfolio/assets/home-motion/design-still-09-de67c52f19d9.webp",
+          "portfolio/assets/home-motion/design-still-10-db25dff70121.webp",
+          "portfolio/assets/home-motion/design-still-11-c8248a8d0f24.webp",
+          "portfolio/assets/home-motion/design-still-12-5d24fd12c0e6.webp"
+        ]
+      }
     },
     "produtos": {
       "src": "portfolio/assets/home-motion/produtos-926d11589c99.mp4",
@@ -76,7 +112,23 @@
         65,
         74,
         72
-      ]
+      ],
+      "hoverStills": {
+        "stepSeconds": 3,
+        "switchOffsetSeconds": 1,
+        "images": [
+          "portfolio/assets/home-motion/produtos-still-01-fe6de7f28e60.webp",
+          "portfolio/assets/home-motion/produtos-still-02-0f8bce24700f.webp",
+          "portfolio/assets/home-motion/produtos-still-03-56c3230f039f.webp",
+          "portfolio/assets/home-motion/produtos-still-04-e9407edd8afd.webp",
+          "portfolio/assets/home-motion/produtos-still-05-e3a9d2085788.webp",
+          "portfolio/assets/home-motion/produtos-still-06-827015bc306b.webp",
+          "portfolio/assets/home-motion/produtos-still-07-ea8c595e8fa9.webp",
+          "portfolio/assets/home-motion/produtos-still-08-bfac719783d3.webp",
+          "portfolio/assets/home-motion/produtos-still-09-39413dfd1672.webp",
+          "portfolio/assets/home-motion/produtos-still-10-c146ffff9377.webp"
+        ]
+      }
     },
     "dados": {
       "src": "portfolio/assets/home-motion/dados-67148013771d.mp4",
@@ -98,7 +150,23 @@
         17,
         8,
         3
-      ]
+      ],
+      "hoverStills": {
+        "stepSeconds": 3,
+        "switchOffsetSeconds": 1,
+        "images": [
+          "portfolio/assets/home-motion/dados-still-01-e62324796d85.webp",
+          "portfolio/assets/home-motion/dados-still-02-3e398ce495d4.webp",
+          "portfolio/assets/home-motion/dados-still-03-ec8cedb733ca.webp",
+          "portfolio/assets/home-motion/dados-still-04-fcd382ad0cf8.webp",
+          "portfolio/assets/home-motion/dados-still-05-39dbe1b87fbf.webp",
+          "portfolio/assets/home-motion/dados-still-06-37b96e53d7ea.webp",
+          "portfolio/assets/home-motion/dados-still-07-5d26836ffc8d.webp",
+          "portfolio/assets/home-motion/dados-still-08-da5cf301fb92.webp",
+          "portfolio/assets/home-motion/dados-still-09-2bf8f52a2c8d.webp",
+          "portfolio/assets/home-motion/dados-still-10-53551294065c.webp"
+        ]
+      }
     },
     "consultoria": {
       "src": "portfolio/assets/home-motion/consultoria-c7a2d3cd9111.mp4",
@@ -120,7 +188,21 @@
         15,
         11,
         12
-      ]
+      ],
+      "hoverStills": {
+        "stepSeconds": 3,
+        "switchOffsetSeconds": 1,
+        "images": [
+          "portfolio/assets/home-motion/consultoria-still-01-16425f09aa90.webp",
+          "portfolio/assets/home-motion/consultoria-still-02-61fad9a0c79f.webp",
+          "portfolio/assets/home-motion/consultoria-still-03-a439ecd91c23.webp",
+          "portfolio/assets/home-motion/consultoria-still-04-138dd0173b3a.webp",
+          "portfolio/assets/home-motion/consultoria-still-05-49271b63906f.webp",
+          "portfolio/assets/home-motion/consultoria-still-06-42de142e1505.webp",
+          "portfolio/assets/home-motion/consultoria-still-07-877515bb9a62.webp",
+          "portfolio/assets/home-motion/consultoria-still-08-09197b08e762.webp"
+        ]
+      }
     },
     "software": {
       "src": "portfolio/assets/home-motion/software-acc125cfb3a7.mp4",
@@ -178,7 +260,22 @@
         [
           81
         ]
-      ]
+      ],
+      "hoverStills": {
+        "stepSeconds": 3,
+        "switchOffsetSeconds": 1,
+        "images": [
+          "portfolio/assets/home-motion/software-still-01-2fc255a5e120.webp",
+          "portfolio/assets/home-motion/software-still-02-0b82424b31f7.webp",
+          "portfolio/assets/home-motion/software-still-03-49a54387d9e9.webp",
+          "portfolio/assets/home-motion/software-still-04-316c7188a985.webp",
+          "portfolio/assets/home-motion/software-still-05-d2bf5ee7f1c7.webp",
+          "portfolio/assets/home-motion/software-still-06-6083faca7e9b.webp",
+          "portfolio/assets/home-motion/software-still-07-b2f3b8232584.webp",
+          "portfolio/assets/home-motion/software-still-08-b62c38d6ef29.webp",
+          "portfolio/assets/home-motion/software-still-09-cb0a85bc3c8b.webp"
+        ]
+      }
     }
   }
 }

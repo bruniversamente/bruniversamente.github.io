@@ -74,10 +74,12 @@ dialog{color:var(--ink);background:var(--paper);border:1px solid var(--ink);padd
 @media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 
 .project-image--empty{display:grid;place-items:center;color:var(--muted);font-size:1.3rem;text-transform:uppercase}
-.area-cover-motion{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;pointer-events:none;opacity:0;scale:1;transition:scale 350ms ease-out}
+.area-cover-motion{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;pointer-events:none;opacity:0;scale:1}
 .motion-playing .area-cover-motion{opacity:1}
-#project-grid:not(.index-view) .project-card:focus-visible .area-cover-motion{scale:1.06}
-@media(hover:hover){#project-grid:not(.index-view) .project-card:hover .area-cover-motion{scale:1.06}}
+.area-cover-still{position:absolute;inset:0;pointer-events:none;opacity:0;object-fit:cover!important}
+#project-grid:not(.index-view) .project-image .area-cover-still{transition:opacity 180ms ease-out}
+.motion-held.motion-still-ready .area-cover-still{opacity:1}
+#project-grid:not(.index-view) .project-card.has-area-motion:is(:hover,:focus-visible) .project-image img{scale:1}
 @media(prefers-reduced-motion:reduce){.area-cover-motion{display:none;transition:none;scale:none!important}}
 .language-switch{position:relative;margin-left:.8rem;flex-shrink:0}
 .language-switch .button{min-width:3.2rem;padding:0 .6rem;font-size:1.1rem}

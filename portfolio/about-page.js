@@ -14,11 +14,11 @@
     page.hidden=false;main.classList.add('about-mode');document.title='Sobre · Bruno Nascimento';
     document.querySelectorAll('[data-view]').forEach(button=>button.removeAttribute('aria-current'));
     document.querySelectorAll('[data-about]').forEach(link=>link.setAttribute('aria-current','page'));
-    if(push){const url=new URL(location.href);url.search='';url.hash='';url.searchParams.set('page','sobre');history.pushState({},'',url);}
+    if(push){const url=window.portfolioRoutes.read();url.search='';url.hash='';url.searchParams.set('page','sobre');history.pushState({},'',url);}
     window.scrollTo(0,0);document.querySelector('#about-title').focus({preventScroll:true});
   }
   page.querySelector('[data-about-areas]').addEventListener('click',event=>{if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;event.preventDefault();window.areaFeed.navigate(null);});
   window.aboutPage={open,close,get active(){return active;}};
-  window.addEventListener('popstate',()=>{if(new URL(location.href).searchParams.get('page')==='sobre')open(false);else close();});
-  if(new URL(location.href).searchParams.get('page')==='sobre')open(false);
+  window.addEventListener('popstate',()=>{if(window.portfolioRoutes.read().searchParams.get('page')==='sobre')open(false);else close();});
+  if(window.portfolioRoutes.read().searchParams.get('page')==='sobre')open(false);
 })();

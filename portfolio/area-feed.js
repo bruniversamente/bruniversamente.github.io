@@ -125,13 +125,14 @@
     view=next==='index'?'index':'feed';feed.hidden=view!=='feed';index.hidden=view!=='index';
     document.querySelectorAll('[data-view]').forEach(b=>{if(b.dataset.view===view)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
     index.querySelectorAll('.index-open').forEach(row=>row.classList.remove('index-open'));
-    if(push){const url=new URL(location.href);url.searchParams.delete('project');if(view==='index')url.searchParams.set('view','index');else url.searchParams.delete('view');history.replaceState({},'',url);}
+    if(push){const url=window.portfolioRoutes.read();url.searchParams.delete('project');if(view==='index')url.searchParams.set('view','index');else url.searchParams.delete('view');history.replaceState({},'',url);}
     window.scrollTo(0,0);
   }
   function navigate(key,push=true){
     window.aboutPage?.close();
     window.projectPage?.close(false);
     const next=catalog[key]?key:null;
+    if(!next&&!push)homeView=window.portfolioRoutes.read().searchParams.get('view')==='index'?'index':'grid';
     if(next&&!active)homeView=grid.classList.contains('index-view')?'index':'grid';
     active=next;tagFilter=null;search.value='';setMenu(false);search.hidden=true;document.querySelector('.search-button').setAttribute('aria-expanded','false');document.querySelector('.search-button').setAttribute('aria-label','Abrir busca');
     filters.hidden=true;document.querySelector('#filter-toggle').setAttribute('aria-expanded','false');
@@ -139,18 +140,18 @@
     if(active){
       const title=entries[active].title;areaButton.textContent=title;areaButton.title=title;heading.textContent=title;document.title=`${title} · Bruno Nascimento`;
       search.placeholder=`Buscar em ${title}`;search.setAttribute('aria-label',`Buscar projetos em ${title}`);filters.setAttribute('aria-label',`Filtrar ${title} por tags`);
-      units=6;render();changeView(new URL(location.href).searchParams.get('view')==='index'&&!push?'index':'feed',false);
+      units=6;render();changeView(window.portfolioRoutes.read().searchParams.get('view')==='index'&&!push?'index':'feed',false);
     }else{
       feed.hidden=true;index.hidden=true;filters.replaceChildren(...homeFilters);filters.setAttribute('aria-label','Filtrar áreas');heading.textContent='Áreas de atuação de Bruno Nascimento';document.title='Bruno Nascimento · Portfólio';search.placeholder='Qual área você procura?';search.setAttribute('aria-label','Buscar uma área');empty.textContent='Nenhuma área encontrada.';
       grid.classList.toggle('index-view',homeView==='index');document.querySelectorAll('[data-view]').forEach(b=>{if(b.dataset.view===homeView)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});responsive();updateCards();if(homeView==='index')prepareIndexGalleries();
     }
-    if(push){const url=new URL(location.href);url.hash='';url.searchParams.delete('page');url.searchParams.delete('view');url.searchParams.delete('project');if(active)url.searchParams.set('area',active);else url.searchParams.delete('area');history.pushState({},'',url);}
+    if(push){const url=window.portfolioRoutes.read();url.hash='';url.searchParams.delete('page');url.searchParams.delete('view');url.searchParams.delete('project');if(active)url.searchParams.set('area',active);else url.searchParams.delete('area');history.pushState({},'',url);}
     window.scrollTo(0,0);
   }
   window.areaFeed={get active(){return active;},navigate,view:changeView,update,zoom(delta){units=Math.max(4,Math.min(8,units+delta*2));updateZoom();}};
-  window.addEventListener('popstate',()=>navigate(new URL(location.href).searchParams.get('area'),false));
+  window.addEventListener('popstate',()=>navigate(window.portfolioRoutes.read().searchParams.get('area'),false));
   mobile.addEventListener('change',()=>{if(active)updateZoom();});
   document.addEventListener('keydown',event=>{if(event.key==='Escape')index.querySelectorAll('.index-open').forEach(r=>r.classList.remove('index-open'));});
-  const initial=new URL(location.href).searchParams.get('area');
+  const initial=window.portfolioRoutes.read().searchParams.get('area');
   if(catalog[initial])navigate(initial,false);
 })();

@@ -25,7 +25,7 @@
       story.chapters.forEach(chapter=>{const a=node('a','story-chapter-link',chapter.label||chapter.title);a.href=`#chapter-${chapter.id}`;a.addEventListener('click',event=>{
         if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;event.preventDefault();
         const section=body.querySelector(`#chapter-${chapter.id}`);if(!section)return;
-        const url=new URL(location.href);url.hash=section.id;history.replaceState({...history.state},'',url);
+        const url=window.portfolioRoutes.read();url.hash=section.id;history.replaceState({...history.state},'',url);
         layout.querySelectorAll('details').forEach(details=>details.open=false);section.focus({preventScroll:true});
         section.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth',block:'start'});
       },{signal:events.signal});allLinks.push({a,id:chapter.id});nav.append(a);});return nav;};

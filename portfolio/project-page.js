@@ -14,7 +14,7 @@
     article.querySelectorAll('video').forEach(video=>video.pause());
     article.hidden=true;main.classList.remove('project-mode');heading.hidden=false;bottom.hidden=false;
     if(window.areaFeed?.active)document.title=`${entries[window.areaFeed.active].title} · Bruno Nascimento`;
-    if(restore&&window.areaFeed?.active){const isIndex=new URL(location.href).searchParams.get('view')==='index';feed.hidden=isIndex;index.hidden=!isIndex;}
+    if(restore&&window.areaFeed?.active){const isIndex=window.portfolioRoutes.read().searchParams.get('view')==='index';feed.hidden=isIndex;index.hidden=!isIndex;}
   }
   function mediaFigure(media,cover=false,mediaIndex=0){
     const figure=el('figure',cover?'case-cover':'case-figure');
@@ -134,7 +134,7 @@ const hero=el('section','case-hero');
     window.projectStory?.reset();
     if(window.areaFeed.active!==area)window.areaFeed.navigate(area,false);
     controller?.abort();controller=new AbortController();const request=++version;current={area,id};
-    if(push){history.replaceState({...history.state,scrollY:window.scrollY},'',location.href);const url=new URL(location.href);url.hash='';url.searchParams.set('area',area);url.searchParams.set('project',id);history.pushState({},'',url);}
+    if(push){history.replaceState({...history.state,scrollY:window.scrollY},'',location.href);const url=window.portfolioRoutes.read();url.hash='';url.searchParams.set('area',area);url.searchParams.set('project',id);history.pushState({},'',url);}
     feed.hidden=true;index.hidden=true;grid.hidden=true;heading.hidden=true;emptyState(true);bottom.hidden=true;main.classList.add('project-mode');article.hidden=false;article.setAttribute('aria-busy','true');article.replaceChildren(el('p','case-loading','Carregando projeto…'));
     document.querySelectorAll('[data-view]').forEach(button=>button.removeAttribute('aria-current'));document.title=`${project.title} · Bruno Nascimento`;window.scrollTo(0,0);
     try{
@@ -143,17 +143,18 @@ const hero=el('section','case-hero');
       // Reserve the complete footer from its first render, using each case's own title and subtitle.
       await Promise.allSettled(recommendations(area,id).map(project=>loadProject(area,project.id,signal)));
       if(request!==version)return;render(data);article.removeAttribute('aria-busy');window.scrollTo(0,restoreScroll);
-      if(!restoreScroll&&location.hash.startsWith('#chapter-')){
+      const chapterHash=window.portfolioRoutes.read().hash;
+      if(!restoreScroll&&chapterHash.startsWith('#chapter-')){
         // A chapter's position depends on the case fonts, especially in long mobile layouts.
         await document.fonts.ready;if(request!==version)return;
-        const chapter=document.getElementById(location.hash.slice(1));if(chapter&&article.contains(chapter))chapter.scrollIntoView({block:'start'});
+        const chapter=document.getElementById(decodeURIComponent(chapterHash.slice(1)));if(chapter&&article.contains(chapter))chapter.scrollIntoView({block:'start'});
       }
     }catch(error){if(error.name==='AbortError'||request!==version)return;console.error('Falha ao carregar o projeto',error);article.removeAttribute('aria-busy');article.replaceChildren(el('h1','case-headline',project.title),el('p','case-error','Não foi possível carregar este projeto. Volte à área e tente novamente.'));}
   }
   function emptyState(hidden){document.querySelector('.empty').hidden=hidden;}
   window.projectFilms={render:renderFilms};
   window.projectPage={open,close,get active(){return current;}};
-  window.addEventListener('popstate',event=>{const url=new URL(location.href),area=url.searchParams.get('area'),id=url.searchParams.get('project');if(id)open(area,id,false,event.state?.scrollY||0);else window.scrollTo(0,event.state?.scrollY||0);});
+  window.addEventListener('popstate',event=>{const url=window.portfolioRoutes.read(),area=url.searchParams.get('area'),id=url.searchParams.get('project');if(id)open(area,id,false,event.state?.scrollY||0);else window.scrollTo(0,event.state?.scrollY||0);});
   search.addEventListener('input',()=>{if(current)window.areaFeed.view('feed');});
-  const url=new URL(location.href);if(url.searchParams.has('project'))open(url.searchParams.get('area'),url.searchParams.get('project'),false);
+  const url=window.portfolioRoutes.read();if(url.searchParams.has('project'))open(url.searchParams.get('area'),url.searchParams.get('project'),false);
 })();

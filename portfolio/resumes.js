@@ -13,12 +13,12 @@
   section.querySelector('.resume-intro').textContent=copy.intro;
   document.querySelectorAll('[data-resumes]').forEach(link=>{
     link.textContent=copy.title;
-    link.href='?page=sobre&lang='+lang+'#curriculos';
+    link.href=window.portfolioRoutes.href('?page=sobre&lang='+lang+'#curriculos',lang);
     link.addEventListener('click',event=>{
       if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
       event.preventDefault();
       window.aboutPage.open();
-      const url=new URL(location.href);url.hash='curriculos';
+      const url=window.portfolioRoutes.read();url.hash='curriculos';
       history.replaceState({},'',url);
       showSection();
     });
@@ -49,7 +49,7 @@
     section.scrollIntoView({block:'start'});
   }
   function followHash(){
-    if(new URL(location.href).searchParams.get('page')==='sobre'&&location.hash==='#curriculos'){
+    if(window.portfolioRoutes.read().searchParams.get('page')==='sobre'&&window.portfolioRoutes.read().hash==='#curriculos'){
       window.aboutPage.open(false);showSection();
     }
   }

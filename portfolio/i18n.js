@@ -2,7 +2,7 @@
 (() => {
   'use strict';
   const supported = ['pt', 'en', 'es'];
-  const requested = new URL(location.href).searchParams.get('lang');
+  const requested = window.portfolioRoutes.read().searchParams.get('lang');
   let saved = 'pt';
   try { saved = localStorage.getItem('portfolio-language') || 'pt'; } catch {}
   const lang = supported.includes(requested) ? requested : supported.includes(saved) ? saved : 'pt';
@@ -62,18 +62,13 @@
 
   // Keep the active language in navigation, including SPA history and copied project links.
   function localURL(value) {
-    if (!value || value.startsWith('#')) return value;
-    try {
-      const url = new URL(value, location.href);
-      if (url.origin !== location.origin || !/\/(?:index\.html)?$/.test(url.pathname)) return value;
-      url.searchParams.set('lang', lang);
-      return url.pathname + url.search + url.hash;
-    } catch { return value; }
+    return window.portfolioRoutes.href(value, lang);
   }
   for (const method of ['pushState', 'replaceState']) {
     const original = history[method].bind(history);
-    history[method] = (state, unused, url) => original(state, unused, url ? localURL(String(url)) : url);
+    history[method] = (state, unused, url) => {const result=original(state, unused, url ? localURL(String(url)) : url);window.portfolioRoutes.syncMetadata();return result;};
   }
+  window.addEventListener('popstate',()=>window.portfolioRoutes.syncMetadata());
   const texts = new WeakMap();
   const attributes = new WeakMap();
   const skip = 'script,style,code,pre,textarea,[data-i18n-skip],.language-switch';
@@ -151,7 +146,7 @@
   function changeLanguage(next) {
     if (!supported.includes(next) || next === lang) return;
     try { localStorage.setItem('portfolio-language', next); } catch {}
-    const url = new URL(location.href); url.searchParams.set('lang', next); location.assign(url);
+    const url = window.portfolioRoutes.read(); url.searchParams.set('lang', next); location.assign(window.portfolioRoutes.href(url,next));
   }
   document.querySelectorAll('.language-switch [data-language]').forEach(button => button.addEventListener('click', () => changeLanguage(button.dataset.language)));
   const toggle = document.querySelector('.language-toggle'), options = document.querySelector('.language-options');

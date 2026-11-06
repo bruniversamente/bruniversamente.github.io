@@ -51,7 +51,7 @@
       const section = document.getElementById(link.hash.slice(1));
       if (!section) return;
       event.preventDefault();
-      const url = new URL(location.href);
+      const url = window.portfolioRoutes.read();
       url.hash = section.id;
       history.replaceState({...history.state}, '', url);
       section.focus({preventScroll: true});

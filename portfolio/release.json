@@ -1,5 +1,5 @@
 {
-  "release": "pequenos-exploradores-20261108",
+  "release": "design-revisao-20261108",
   "date": "2026-11-08",
   "areas": [
     "dados",
@@ -25,8 +25,7 @@
       "branding",
       "iande",
       "iande-camisetas",
-      "melted",
-      "tfg"
+      "melted"
     ],
     "beleza": [
       "geodesica",

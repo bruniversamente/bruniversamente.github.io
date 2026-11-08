@@ -1,6 +1,6 @@
 {
-  "release": "links-curtos-20261106",
-  "date": "2026-11-06",
+  "release": "pequenos-exploradores-20261108",
+  "date": "2026-11-08",
   "areas": [
     "dados",
     "design",
@@ -20,6 +20,7 @@
     "design": [
       "hering-carnaval",
       "hering-fabula",
+      "hering-pequenos-exploradores",
       "flyers",
       "branding",
       "iande",

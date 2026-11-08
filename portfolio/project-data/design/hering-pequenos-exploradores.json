@@ -1,0 +1,171 @@
+{
+  "id": "hering-pequenos-exploradores",
+  "area": "design",
+  "title": "Hering Kids",
+  "subtitle": "Pequenos exploradores",
+  "tags": [
+    "Produção de props",
+    "Campanha de moda infantil"
+  ],
+  "intro": "Produção de props para Pequenos exploradores, campanha da Hering Kids de 2023.",
+  "credits": [
+    {
+      "role": "Marca",
+      "names": "Hering Kids"
+    },
+    {
+      "role": "Produção de props",
+      "names": "Bruno Nascimento"
+    },
+    {
+      "role": "Publicações de origem",
+      "names": "302.estudio"
+    }
+  ],
+  "cover": {
+    "id": "m002",
+    "type": "image",
+    "src": "portfolio/assets/design/hering-pequenos-exploradores/02/original.jpg",
+    "width": 1440,
+    "height": 1800,
+    "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/02/original.jpg",
+    "fullWidth": 1440,
+    "fullHeight": 1800,
+    "alt": "Crianças na paisagem de montanha"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/01/original.jpg",
+      "width": 1440,
+      "height": 1800,
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/01/original.jpg",
+      "fullWidth": 1440,
+      "fullHeight": 1800,
+      "alt": "Rádio e equipamento de exploração em papelão"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/02/original.jpg",
+      "width": 1440,
+      "height": 1800,
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/02/original.jpg",
+      "fullWidth": 1440,
+      "fullHeight": 1800,
+      "alt": "Crianças na paisagem de montanha"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/05/radio-recorte.svg",
+      "width": 720,
+      "height": 1080,
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/05/radio-recorte.svg",
+      "fullWidth": 720,
+      "fullHeight": 1080,
+      "alt": "Menino com rádio e comunicador na campanha Pequenos exploradores"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/06/original.jpg",
+      "width": 1440,
+      "height": 1800,
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/06/original.jpg",
+      "fullWidth": 1440,
+      "fullHeight": 1800,
+      "alt": "Leitura e lanterna dentro da barraca"
+    },
+    {
+      "id": "m012",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/12/original.jpg",
+      "width": 1440,
+      "height": 1800,
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/12/original.jpg",
+      "fullWidth": 1440,
+      "fullHeight": 1800,
+      "alt": "Retrato com fones sob céu estrelado"
+    },
+    {
+      "id": "m013",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/13/fones-recorte.svg",
+      "width": 720,
+      "height": 1080,
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/13/fones-recorte.svg",
+      "fullWidth": 720,
+      "fullHeight": 1080,
+      "alt": "Retrato em preto e branco com capacete, fones e antenas"
+    },
+    {
+      "id": "m015",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/15/original.jpg",
+      "width": 720,
+      "height": 900,
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/15/original.jpg",
+      "fullWidth": 720,
+      "fullHeight": 900,
+      "alt": "Retrato circular com comunicador"
+    },
+    {
+      "id": "filme",
+      "type": "video",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/filme/pequenos-exploradores.mp4",
+      "poster": "portfolio/assets/design/hering-pequenos-exploradores/filme/poster.jpg",
+      "width": 1920,
+      "height": 1080,
+      "alt": "Pequenos exploradores · Filme da campanha Hering Kids",
+      "caption": "Filme da campanha Hering Kids. Publicação de Lucas Vidal no Vimeo."
+    }
+  ],
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverPosition": "50% 50%",
+    "chapters": [
+      {
+        "id": "objetos-de-exploracao",
+        "label": "Objetos de exploração",
+        "title": "Objetos de exploração",
+        "blocks": [
+          {
+            "type": "media",
+            "layout": "three",
+            "items": [
+              "m001",
+              "m005",
+              "m006",
+              "m012",
+              "m015",
+              "m013"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "filme-da-campanha",
+        "label": "Filme da campanha",
+        "title": "Filme da campanha",
+        "blocks": [
+          {
+            "type": "media",
+            "items": [
+              "filme"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "links": [
+    {
+      "title": "Filme no Vimeo · Lucas Vidal",
+      "url": "https://vimeo.com/817973117"
+    }
+  ]
+}

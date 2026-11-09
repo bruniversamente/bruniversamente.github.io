@@ -1,6 +1,6 @@
 {
-  "release": "design-revisao-20261108",
-  "date": "2026-11-08",
+  "release": "portfolio-20261109",
+  "date": "2026-11-09",
   "areas": [
     "dados",
     "design",
@@ -25,7 +25,8 @@
       "branding",
       "iande",
       "iande-camisetas",
-      "melted"
+      "melted",
+      "cenografia-objetos-de-cena"
     ],
     "beleza": [
       "geodesica",
@@ -56,7 +57,8 @@
       "alexei-casa-de-criadores-2022",
       "headpieces-de-croche",
       "muraca-interplanetary",
-      "getulio-abelha"
+      "getulio-abelha",
+      "halloween"
     ],
     "consultoria": [
       "2026-edificio-residencial-da-construtora-hype",
@@ -90,13 +92,13 @@
   },
   "area_counts": {
     "dados": 5,
-    "design": 8,
-    "beleza": 29,
+    "design": 9,
+    "beleza": 30,
     "consultoria": 15,
     "produtos": 5,
     "software": 3
   },
-  "active_projects": 65,
+  "active_projects": 67,
   "software_projects": [
     "rakestra-app",
     "rakestra-gestao",

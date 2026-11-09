@@ -23,38 +23,27 @@
     }
   ],
   "cover": {
-    "id": "m002",
+    "id": "capa-horizontal-ia",
     "type": "image",
-    "src": "portfolio/assets/design/hering-pequenos-exploradores/02/original.jpg",
-    "width": 1440,
-    "height": 1800,
-    "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/02/original.jpg",
-    "fullWidth": 1440,
-    "fullHeight": 1800,
-    "alt": "Crianças na paisagem de montanha"
+    "src": "portfolio/assets/design/hering-pequenos-exploradores/capa-horizontal-ia/capa-horizontal-ia-v1.png",
+    "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/capa-horizontal-ia/capa-horizontal-ia-v1.png",
+    "width": 1672,
+    "height": 941,
+    "fullWidth": 1672,
+    "fullHeight": 941,
+    "alt": "Hering Kids ? r?dio e comunicador ? capa horizontal adaptada por IA"
   },
   "media": [
     {
-      "id": "m001",
+      "id": "capa-horizontal-ia",
       "type": "image",
-      "src": "portfolio/assets/design/hering-pequenos-exploradores/01/original.jpg",
-      "width": 1440,
-      "height": 1800,
-      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/01/original.jpg",
-      "fullWidth": 1440,
-      "fullHeight": 1800,
-      "alt": "Rádio e equipamento de exploração em papelão"
-    },
-    {
-      "id": "m002",
-      "type": "image",
-      "src": "portfolio/assets/design/hering-pequenos-exploradores/02/original.jpg",
-      "width": 1440,
-      "height": 1800,
-      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/02/original.jpg",
-      "fullWidth": 1440,
-      "fullHeight": 1800,
-      "alt": "Crianças na paisagem de montanha"
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/capa-horizontal-ia/capa-horizontal-ia-v1.png",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/capa-horizontal-ia/capa-horizontal-ia-v1.png",
+      "width": 1672,
+      "height": 941,
+      "fullWidth": 1672,
+      "fullHeight": 941,
+      "alt": "Hering Kids ? r?dio e comunicador ? capa horizontal adaptada por IA"
     },
     {
       "id": "m005",
@@ -68,50 +57,6 @@
       "alt": "Menino com rádio e comunicador na campanha Pequenos exploradores"
     },
     {
-      "id": "m006",
-      "type": "image",
-      "src": "portfolio/assets/design/hering-pequenos-exploradores/06/original.jpg",
-      "width": 1440,
-      "height": 1800,
-      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/06/original.jpg",
-      "fullWidth": 1440,
-      "fullHeight": 1800,
-      "alt": "Leitura e lanterna dentro da barraca"
-    },
-    {
-      "id": "m012",
-      "type": "image",
-      "src": "portfolio/assets/design/hering-pequenos-exploradores/12/original.jpg",
-      "width": 1440,
-      "height": 1800,
-      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/12/original.jpg",
-      "fullWidth": 1440,
-      "fullHeight": 1800,
-      "alt": "Retrato com fones sob céu estrelado"
-    },
-    {
-      "id": "m013",
-      "type": "image",
-      "src": "portfolio/assets/design/hering-pequenos-exploradores/13/fones-recorte.svg",
-      "width": 720,
-      "height": 1080,
-      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/13/fones-recorte.svg",
-      "fullWidth": 720,
-      "fullHeight": 1080,
-      "alt": "Retrato em preto e branco com capacete, fones e antenas"
-    },
-    {
-      "id": "m015",
-      "type": "image",
-      "src": "portfolio/assets/design/hering-pequenos-exploradores/15/original.jpg",
-      "width": 720,
-      "height": 900,
-      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/15/original.jpg",
-      "fullWidth": 720,
-      "fullHeight": 900,
-      "alt": "Retrato circular com comunicador"
-    },
-    {
       "id": "filme",
       "type": "video",
       "src": "portfolio/assets/design/hering-pequenos-exploradores/filme/pequenos-exploradores.mp4",
@@ -120,6 +65,61 @@
       "height": 1080,
       "alt": "Pequenos exploradores · Filme da campanha Hering Kids",
       "caption": "Filme da campanha Hering Kids. Publicação de Lucas Vidal no Vimeo."
+    },
+    {
+      "id": "ia-01",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/reconstrucoes-ia/01-comunicador-retrato-reconstrucao-ia-v1.png",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/reconstrucoes-ia/01-comunicador-retrato-reconstrucao-ia-v1.png",
+      "width": 1122,
+      "height": 1402,
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Retrato com comunicador · reconstrução por IA a partir de print da campanha"
+    },
+    {
+      "id": "ia-02",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/reconstrucoes-ia/02-capacete-antenas-reconstrucao-ia-v1.png",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/reconstrucoes-ia/02-capacete-antenas-reconstrucao-ia-v1.png",
+      "width": 1122,
+      "height": 1402,
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Capacete com fones e antenas · reconstrução por IA a partir de print da campanha"
+    },
+    {
+      "id": "ia-03",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/reconstrucoes-ia/03-capa-metalizada-salto-reconstrucao-ia-v1.png",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/reconstrucoes-ia/03-capa-metalizada-salto-reconstrucao-ia-v1.png",
+      "width": 1122,
+      "height": 1402,
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Salto com capa metalizada · reconstrução por IA a partir de print da campanha"
+    },
+    {
+      "id": "ia-04",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/reconstrucoes-ia/04-capacete-na-mao-reconstrucao-ia-v1.png",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/reconstrucoes-ia/04-capacete-na-mao-reconstrucao-ia-v1.png",
+      "width": 1122,
+      "height": 1402,
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Exploração com capacete na mão · reconstrução por IA a partir de print da campanha"
+    },
+    {
+      "id": "ia-05",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/reconstrucoes-ia/05-lupa-rocha-reconstrucao-ia-v1.png",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/reconstrucoes-ia/05-lupa-rocha-reconstrucao-ia-v1.png",
+      "width": 1122,
+      "height": 1402,
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Lupa e rocha cenográfica · reconstrução por IA a partir de print da campanha"
     }
   ],
   "story": {
@@ -137,13 +137,14 @@
             "type": "media",
             "layout": "three",
             "items": [
-              "m001",
               "m005",
-              "m006",
-              "m012",
-              "m015",
-              "m013"
-            ]
+              "ia-01",
+              "ia-02",
+              "ia-03",
+              "ia-04",
+              "ia-05"
+            ],
+            "alignEdges": true
           }
         ]
       },

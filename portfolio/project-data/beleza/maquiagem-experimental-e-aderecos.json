@@ -160,7 +160,7 @@
       "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/bruninha-pele-editorial-ia-a637decbdd/image.avif",
       "fullWidth": 1122,
       "fullHeight": 1402,
-      "alt": "Retrato com maquiagem gráfica branca, azul e vinho e pele retocada com iluminação editorial",
+      "alt": "Retrato com maquiagem gráfica branca, azul e vinho",
       "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/bruninha-pele-editorial-ia-a637decbdd/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/bruninha-pele-editorial-ia-a637decbdd/image.avif 1122w",
       "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
     },
@@ -212,7 +212,7 @@
       "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/grafismo-perolas-editorial-ia-e4787b8fd1/image.avif",
       "fullWidth": 1254,
       "fullHeight": 1254,
-      "alt": "Retrato com maquiagem gráfica preta e branca, pérolas e brincos, retoque editorial e peito sem pelos",
+      "alt": "Retrato com maquiagem gráfica preta e branca, pérolas e brincos",
       "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/grafismo-perolas-editorial-ia-e4787b8fd1/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/grafismo-perolas-editorial-ia-e4787b8fd1/image.avif 1254w",
       "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
     },
@@ -290,7 +290,7 @@
       "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/drag-2-definicao-editorial-ia-3c94ff8ea2/image.avif",
       "fullWidth": 1254,
       "fullHeight": 1254,
-      "alt": "Retrato com maquiagem gráfica preta e rosa, pérola no lábio e definição refinada a partir do original",
+      "alt": "Retrato com maquiagem gráfica preta e rosa, pérola no lábio",
       "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/drag-2-definicao-editorial-ia-3c94ff8ea2/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/drag-2-definicao-editorial-ia-3c94ff8ea2/image.avif 1254w",
       "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
     },
@@ -355,7 +355,7 @@
       "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/face-flowers-careca-editorial-ia-cdbd8d571d/image.avif",
       "fullWidth": 1254,
       "fullHeight": 1254,
-      "alt": "Retrato com pintura floral no rosto, sem peruca e pelos no peito, com anatomia orientada por referência original careca",
+      "alt": "Retrato com pintura floral no rosto, sem peruca e pelos no peito",
       "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/face-flowers-careca-editorial-ia-cdbd8d571d/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/face-flowers-careca-editorial-ia-cdbd8d571d/image.avif 1254w",
       "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
     },
@@ -368,7 +368,7 @@
       "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/insinuosa-1-cores-luz-editorial-ia-7512e714b1/image.avif",
       "fullWidth": 1254,
       "fullHeight": 1254,
-      "alt": "Retrato com maquiagem gráfica em branco, rosa, ocre e verde, sem pelos no peito, com cores e iluminação editorial refinadas",
+      "alt": "Retrato com maquiagem gráfica em branco, rosa, ocre e verde, sem pelos no peito",
       "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/insinuosa-1-cores-luz-editorial-ia-7512e714b1/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/insinuosa-1-cores-luz-editorial-ia-7512e714b1/image.avif 1254w",
       "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
     },
@@ -381,7 +381,7 @@
       "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/clown-du-soleil-editorial-ia-97fb624d36/image.avif",
       "fullWidth": 1254,
       "fullHeight": 1254,
-      "alt": "Retrato com maquiagem de clown dourada e colorida, sem pelos no peito e com qualidade e iluminação editorial refinadas",
+      "alt": "Retrato com maquiagem de clown dourada e colorida, sem pelos no peito",
       "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/clown-du-soleil-editorial-ia-97fb624d36/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/clown-du-soleil-editorial-ia-97fb624d36/image.avif 1254w",
       "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
     },
@@ -436,6 +436,226 @@
       "alt": "Autorretrato de Bruno Nascimento projetado em fachada no projeto Quarentena Projetada, com identificação @muabruno",
       "srcset": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/quarentena-projetada-midia-ninja-2020-0ae3f0c6b9/640w.avif 640w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/quarentena-projetada-midia-ninja-2020-0ae3f0c6b9/1280w.avif 1280w, portfolio/assets/beleza/maquiagem-experimental-e-aderecos/quarentena-projetada-midia-ninja-2020-0ae3f0c6b9/image.avif 1920w",
       "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
+    },
+    {
+      "id": "m033",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/etevaldo-quadrado-ia-32a2b44fc3/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/etevaldo-quadrado-ia-32a2b44fc3/image.webp",
+      "width": 1000,
+      "height": 1000,
+      "fullWidth": 1000,
+      "fullHeight": 1000,
+      "alt": "Autorretrato com máscara geométrica de glitter rosa, azul, preto e dourado"
+    },
+    {
+      "id": "m034",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/etevaldo-processo-8775735996/1280w.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/etevaldo-processo-8775735996/original.webp",
+      "width": 2250,
+      "height": 2250,
+      "fullWidth": 2250,
+      "fullHeight": 2250,
+      "alt": "Desenho e materiais do processo de criação da máscara geométrica"
+    },
+    {
+      "id": "m035",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/primeira-maquiagem-editorial-ia-b174c53b70/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/primeira-maquiagem-editorial-ia-b174c53b70/image.webp",
+      "width": 1086,
+      "height": 1448,
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Primeira maquiagem de Bruno Nascimento, com pintura facial verde, preta, coral e pontos amarelos"
+    },
+    {
+      "id": "m036",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/japa-editorial-ia-b4e48c5fe6/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/japa-editorial-ia-b4e48c5fe6/image.webp",
+      "width": 1122,
+      "height": 1402,
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Autorretrato com maquiagem branca, grafismos pretos, sombras vinho e amarelas e cabelo preso"
+    },
+    {
+      "id": "m037",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/grafico-m037-ia-eec53011cf/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/grafico-m037-ia-eec53011cf/image.webp",
+      "width": 1254,
+      "height": 1254,
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Autorretrato frontal com maquiagem gráfica preta, branca, azul, amarela e vermelha"
+    },
+    {
+      "id": "m038",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/grafico-m038-ia-25b4b0cff0/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/grafico-m038-ia-25b4b0cff0/image.webp",
+      "width": 1254,
+      "height": 1254,
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Autorretrato de três quartos com maquiagem gráfica preta, branca, azul, amarela e vermelha"
+    },
+    {
+      "id": "m039",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/v-editorial-ia-a7092a1b8a/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/v-editorial-ia-a7092a1b8a/image.webp",
+      "width": 1254,
+      "height": 1254,
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Autorretrato com maquiagem gráfica branca e preta, detalhes turquesa e fundo preto"
+    },
+    {
+      "id": "m040",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/azul-painel-editorial-ia-ee8c32e6ff/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/azul-painel-editorial-ia-ee8c32e6ff/image.webp",
+      "width": 1254,
+      "height": 1254,
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Autorretrato com pintura azul, verde e preta e placa quadrada sobre o rosto"
+    },
+    {
+      "id": "m041",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/colorido-gemini-frontal-543a759d40/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/colorido-gemini-frontal-543a759d40/image.webp",
+      "width": 921,
+      "height": 1152,
+      "fullWidth": 921,
+      "fullHeight": 1152,
+      "alt": "Autorretrato frontal com maquiagem colorida, barba esculpida e adereços"
+    },
+    {
+      "id": "m042",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/colorido-gemini-tres-quartos-c5c03e1cf5/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/colorido-gemini-tres-quartos-c5c03e1cf5/image.webp",
+      "width": 921,
+      "height": 1152,
+      "fullWidth": 921,
+      "fullHeight": 1152,
+      "alt": "Autorretrato de três quartos com maquiagem colorida, barba esculpida e adereços"
+    },
+    {
+      "id": "m043",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/rosa-estrelas-original-65ad568d42/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/rosa-estrelas-original-65ad568d42/image.webp",
+      "width": 1080,
+      "height": 1080,
+      "fullWidth": 1080,
+      "fullHeight": 1080,
+      "alt": "Autorretrato de três quartos com maquiagem rosa e branca, barba rosa, grafismos ocres e estrelas prateadas; fotografia original"
+    },
+    {
+      "id": "m044",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/rosa-estrelas-original-635ee08a6c/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/rosa-estrelas-original-635ee08a6c/image.webp",
+      "width": 1080,
+      "height": 1080,
+      "fullWidth": 1080,
+      "fullHeight": 1080,
+      "alt": "Autorretrato frontal com maquiagem rosa e branca, barba rosa, grafismos ocres e estrelas prateadas; fotografia original"
+    },
+    {
+      "id": "m045",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/zombie-original-eefcafd6cc/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/zombie-original-eefcafd6cc/image.webp",
+      "width": 1944,
+      "height": 2592,
+      "fullWidth": 1944,
+      "fullHeight": 2592,
+      "alt": "Autorretrato com maquiagem de efeitos especiais de zumbi em vermelho e preto, aplicada à cabeça, pescoço e busto; fotografia original"
+    },
+    {
+      "id": "m046",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/estrutura-eterea-ia-95de582c93/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/estrutura-eterea-ia-95de582c93/image.webp",
+      "width": 1123,
+      "height": 1401,
+      "fullWidth": 1123,
+      "fullHeight": 1401,
+      "alt": "Estrutura geométrica metálica construída por Bruno sobre o rosto, com pintura corporal branca e luz etérea"
+    },
+    {
+      "id": "m047",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/estrutura-producao-44a12625b5/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/estrutura-producao-44a12625b5/image.webp",
+      "width": 720,
+      "height": 1280,
+      "fullWidth": 720,
+      "fullHeight": 1280,
+      "alt": "Estrutura geométrica metálica completa, segurada durante a produção da peça"
+    },
+    {
+      "id": "m048",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/estrutura-producao-59c244b8ff/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/estrutura-producao-59c244b8ff/image.webp",
+      "width": 720,
+      "height": 1280,
+      "fullWidth": 720,
+      "fullHeight": 1280,
+      "alt": "Montagem da estrutura geométrica metálica sobre a bancada de trabalho"
+    },
+    {
+      "id": "m049",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/estrutura-producao-7c635db754/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/estrutura-producao-7c635db754/image.webp",
+      "width": 720,
+      "height": 1280,
+      "fullWidth": 720,
+      "fullHeight": 1280,
+      "alt": "Teste da estrutura geométrica metálica sobre o rosto durante a produção"
+    },
+    {
+      "id": "m050",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/dr-freeze-aacee88dbf/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/dr-freeze-aacee88dbf/image.webp",
+      "width": 1254,
+      "height": 1254,
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Autorretrato com maquiagem em azul-gelo e branco perolado, linhas gráficas azuis e lábios pretos sobre fundo preto"
+    },
+    {
+      "id": "m051",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/hair-gogh-1bd3f7d146/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/hair-gogh-1bd3f7d146/image.webp",
+      "width": 1122,
+      "height": 1402,
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Autorretrato em três quartos com mechas coloridas pintadas sobre a cabeça e o pescoço, maquiagem gráfica e barba branca sobre fundo cinza"
+    },
+    {
+      "id": "m052",
+      "type": "image",
+      "src": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/hair-gogh-bc90a94477/image.webp",
+      "fullSrc": "portfolio/assets/beleza/maquiagem-experimental-e-aderecos/hair-gogh-bc90a94477/image.webp",
+      "width": 1122,
+      "height": 1402,
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Autorretrato frontal com mechas coloridas pintadas sobre a cabeça e o pescoço, maquiagem gráfica e barba branca sobre fundo cinza"
     }
   ],
   "links": [],
@@ -465,10 +685,28 @@
                 "id": "m002"
               },
               {
+                "id": "m034"
+              },
+              {
+                "id": "m033"
+              },
+              {
                 "id": "m003"
               },
               {
                 "id": "m004"
+              },
+              {
+                "id": "m046"
+              },
+              {
+                "id": "m047"
+              },
+              {
+                "id": "m048"
+              },
+              {
+                "id": "m049"
               }
             ],
             "layout": "three"
@@ -540,6 +778,9 @@
             "type": "media",
             "items": [
               {
+                "id": "m035"
+              },
+              {
                 "id": "m009"
               },
               {
@@ -607,6 +848,45 @@
               },
               {
                 "id": "m031"
+              },
+              {
+                "id": "m036"
+              },
+              {
+                "id": "m037"
+              },
+              {
+                "id": "m038"
+              },
+              {
+                "id": "m039"
+              },
+              {
+                "id": "m040"
+              },
+              {
+                "id": "m041"
+              },
+              {
+                "id": "m042"
+              },
+              {
+                "id": "m043"
+              },
+              {
+                "id": "m044"
+              },
+              {
+                "id": "m045"
+              },
+              {
+                "id": "m050"
+              },
+              {
+                "id": "m051"
+              },
+              {
+                "id": "m052"
               }
             ],
             "layout": "gallery"

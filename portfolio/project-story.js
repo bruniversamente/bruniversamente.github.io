@@ -60,7 +60,8 @@
         for(let i=0;i<entries.length;i+=columns)rows.push(entries.slice(i,i+columns));
         const ratio=media=>{if(media.presentation==='phone')return 1260/2604;const value=media.kind==='phone'?1260/2604:(media.fullWidth||media.width)*(media.crop?.[2]||1)/((media.fullHeight||media.height)*(media.crop?.[3]||1));return media.rotation===90?1/value:value;};
         box.classList.add('story-media--aligned');if(entries.every(media=>media.kind==='phone'))box.classList.add('story-media--handsets');box.style.setProperty('--media-ratio-sum',Math.max(...rows.map(row=>row.reduce((sum,media)=>sum+ratio(media),0))));box.style.setProperty('--media-max-ratio',Math.max(...entries.map(ratio)));box.style.setProperty('--media-gap-count',Math.min(columns,entries.length)-1);
-        rows.forEach(entries=>{const row=node('div','story-media-row');entries.forEach(media=>{const f=figure(media);f.style.setProperty('--media-ratio',ratio(media));row.append(f);});box.append(row);});return box;
+        if(item.alignEdges)box.classList.add('story-media--align-edges');
+        rows.forEach(entries=>{const row=node('div','story-media-row');if(item.alignEdges)row.style.setProperty('--media-row-ratio-sum',entries.reduce((sum,media)=>sum+ratio(media),0));entries.forEach(media=>{const f=figure(media);f.style.setProperty('--media-ratio',ratio(media));row.append(f);});box.append(row);});return box;
       }
       if(item.type==='embed')return window.projectFilms.render([item.film],'h3',false);
       if(item.type==='credits'){

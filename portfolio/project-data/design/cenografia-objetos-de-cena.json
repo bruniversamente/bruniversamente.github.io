@@ -1,0 +1,91 @@
+{
+  "id": "cenografia-objetos-de-cena",
+  "area": "design",
+  "title": "Cenografia e Objetos de cena",
+  "subtitle": "",
+  "tags": [
+    "Cenografia",
+    "Objetos de cena",
+    "Props"
+  ],
+  "intro": "Seleção de trabalhos de cenografia e objetos de cena.",
+  "credits": [],
+  "links": [],
+  "cover": {
+    "id": "03-cenario-apresentacao",
+    "type": "image",
+    "src": "portfolio/assets/design/cenografia-objetos-de-cena/03-cenario-apresentacao-ia-v1.webp",
+    "fullSrc": "portfolio/assets/design/cenografia-objetos-de-cena/03-cenario-apresentacao-ia-v1.webp",
+    "width": 1122,
+    "height": 1402,
+    "fullWidth": 1122,
+    "fullHeight": 1402,
+    "alt": "Vista do cenário durante uma apresentação musical · reconstrução e expansão por IA"
+  },
+  "media": [
+    {
+      "id": "01-sanfona-cenografica",
+      "type": "image",
+      "src": "portfolio/assets/design/cenografia-objetos-de-cena/01-sanfona-cenografica-ia-v1.webp",
+      "fullSrc": "portfolio/assets/design/cenografia-objetos-de-cena/01-sanfona-cenografica-ia-v1.webp",
+      "width": 1122,
+      "height": 1402,
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Sanfona cenográfica de tecidos florais ao fundo de um violonista · reconstrução e expansão por IA"
+    },
+    {
+      "id": "02-objetos-e-ambientacao",
+      "type": "image",
+      "src": "portfolio/assets/design/cenografia-objetos-de-cena/02-objetos-e-ambientacao-ia-v1.webp",
+      "fullSrc": "portfolio/assets/design/cenografia-objetos-de-cena/02-objetos-e-ambientacao-ia-v1.webp",
+      "width": 1122,
+      "height": 1402,
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Lanternas de vidro, tapete trançado, flores e mesa na ambientação · reconstrução e expansão por IA"
+    },
+    {
+      "id": "03-cenario-apresentacao",
+      "type": "image",
+      "src": "portfolio/assets/design/cenografia-objetos-de-cena/03-cenario-apresentacao-ia-v1.webp",
+      "fullSrc": "portfolio/assets/design/cenografia-objetos-de-cena/03-cenario-apresentacao-ia-v1.webp",
+      "width": 1122,
+      "height": 1402,
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Vista do cenário durante uma apresentação musical · reconstrução e expansão por IA"
+    }
+  ],
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "hideCover": true,
+    "galleryOrder": "source",
+    "chapters": [
+      {
+        "id": "ambientacao-musical",
+        "label": "Forró d’Açucena",
+        "title": "Forró d’Açucena",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Tecidos florais, lanternas de vidro, plantas e um tapete trançado compõem a ambientação do Forró d’Açucena."
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "three",
+            "alignEdges": true,
+            "items": [
+              "01-sanfona-cenografica",
+              "02-objetos-e-ambientacao",
+              "03-cenario-apresentacao"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

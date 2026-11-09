@@ -26,168 +26,142 @@
   "media": [
     {
       "type": "image",
-      "src": "portfolio/assets/design/iande/01-iande-05-652fecb0ca/original.webp",
-      "width": 3500,
-      "height": 3500,
-      "srcset": "portfolio/assets/design/iande/01-iande-05-652fecb0ca/640w.webp 640w, portfolio/assets/design/iande/01-iande-05-652fecb0ca/original.webp 3500w",
+      "src": "portfolio/assets/design/iande/sem-moldura/m001-6428ad95c1/1280w.webp",
+      "width": 3456,
+      "height": 3456,
+      "srcset": "portfolio/assets/design/iande/sem-moldura/m001-6428ad95c1/640w.webp 640w, portfolio/assets/design/iande/sem-moldura/m001-6428ad95c1/1280w.webp 1280w, portfolio/assets/design/iande/sem-moldura/m001-6428ad95c1/1920w.webp 1920w, portfolio/assets/design/iande/sem-moldura/m001-6428ad95c1/original.webp 3456w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/iande/01-iande-05-652fecb0ca/original.webp",
-      "fullWidth": 3500,
-      "fullHeight": 3500,
+      "fullSrc": "portfolio/assets/design/iande/sem-moldura/m001-6428ad95c1/original.webp",
+      "fullWidth": 3456,
+      "fullHeight": 3456,
       "id": "m001",
       "alt": "Peça 05 do projeto"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/design/iande/02-iande-01-ec2f354347/1280w.webp",
-      "width": 1280,
-      "height": 1280,
-      "srcset": "portfolio/assets/design/iande/02-iande-01-ec2f354347/640w.webp 640w, portfolio/assets/design/iande/02-iande-01-ec2f354347/1280w.webp 1280w, portfolio/assets/design/iande/02-iande-01-ec2f354347/original.webp 3500w",
+      "src": "portfolio/assets/design/iande/sem-moldura/m001-6428ad95c1/1280w.webp",
+      "width": 3456,
+      "height": 3456,
+      "srcset": "portfolio/assets/design/iande/sem-moldura/m001-6428ad95c1/640w.webp 640w, portfolio/assets/design/iande/sem-moldura/m001-6428ad95c1/1280w.webp 1280w, portfolio/assets/design/iande/sem-moldura/m001-6428ad95c1/1920w.webp 1920w, portfolio/assets/design/iande/sem-moldura/m001-6428ad95c1/original.webp 3456w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/iande/02-iande-01-ec2f354347/original.webp",
-      "fullWidth": 3500,
-      "fullHeight": 3500,
+      "fullSrc": "portfolio/assets/design/iande/sem-moldura/m001-6428ad95c1/original.webp",
+      "fullWidth": 3456,
+      "fullHeight": 3456,
       "id": "m002",
-      "alt": "Peça 01 do acervo iande"
+      "alt": "Modelo com camiseta branca da coleção Flores de Pedra"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/design/iande/03-iande-03-4fbde57893/original.webp",
-      "width": 3500,
-      "height": 3500,
-      "srcset": "portfolio/assets/design/iande/03-iande-03-4fbde57893/640w.webp 640w, portfolio/assets/design/iande/03-iande-03-4fbde57893/original.webp 3500w",
+      "src": "portfolio/assets/design/iande/sem-moldura/m003-78bba80f59/1280w.webp",
+      "width": 2940,
+      "height": 2940,
+      "srcset": "portfolio/assets/design/iande/sem-moldura/m003-78bba80f59/640w.webp 640w, portfolio/assets/design/iande/sem-moldura/m003-78bba80f59/1280w.webp 1280w, portfolio/assets/design/iande/sem-moldura/m003-78bba80f59/1920w.webp 1920w, portfolio/assets/design/iande/sem-moldura/m003-78bba80f59/original.webp 2940w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/iande/03-iande-03-4fbde57893/original.webp",
-      "fullWidth": 3500,
-      "fullHeight": 3500,
+      "fullSrc": "portfolio/assets/design/iande/sem-moldura/m003-78bba80f59/original.webp",
+      "fullWidth": 2940,
+      "fullHeight": 2940,
       "id": "m003",
       "alt": "Peça 03 do acervo iande"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/design/iande/04-iande-06-97a2ff522e/original.webp",
-      "width": 3500,
-      "height": 3500,
-      "srcset": "portfolio/assets/design/iande/04-iande-06-97a2ff522e/640w.webp 640w, portfolio/assets/design/iande/04-iande-06-97a2ff522e/original.webp 3500w",
+      "src": "portfolio/assets/design/iande/sem-moldura/m004-2fc5541342/1280w.webp",
+      "width": 3456,
+      "height": 3456,
+      "srcset": "portfolio/assets/design/iande/sem-moldura/m004-2fc5541342/640w.webp 640w, portfolio/assets/design/iande/sem-moldura/m004-2fc5541342/1280w.webp 1280w, portfolio/assets/design/iande/sem-moldura/m004-2fc5541342/1920w.webp 1920w, portfolio/assets/design/iande/sem-moldura/m004-2fc5541342/original.webp 3456w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/iande/04-iande-06-97a2ff522e/original.webp",
-      "fullWidth": 3500,
-      "fullHeight": 3500,
+      "fullSrc": "portfolio/assets/design/iande/sem-moldura/m004-2fc5541342/original.webp",
+      "fullWidth": 3456,
+      "fullHeight": 3456,
       "id": "m004",
       "alt": "Peça 06 do acervo iande"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/design/iande/05-iande-02-fad947c8aa/original.webp",
-      "width": 3500,
-      "height": 3500,
-      "srcset": "portfolio/assets/design/iande/05-iande-02-fad947c8aa/640w.webp 640w, portfolio/assets/design/iande/05-iande-02-fad947c8aa/original.webp 3500w",
+      "src": "portfolio/assets/design/iande/sem-moldura/m006-818b0a23c2/1280w.webp",
+      "width": 2448,
+      "height": 3264,
+      "srcset": "portfolio/assets/design/iande/sem-moldura/m006-818b0a23c2/640w.webp 640w, portfolio/assets/design/iande/sem-moldura/m006-818b0a23c2/1280w.webp 1280w, portfolio/assets/design/iande/sem-moldura/m006-818b0a23c2/1920w.webp 1920w, portfolio/assets/design/iande/sem-moldura/m006-818b0a23c2/original.webp 2448w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/iande/05-iande-02-fad947c8aa/original.webp",
-      "fullWidth": 3500,
-      "fullHeight": 3500,
-      "id": "m005",
-      "alt": "Peça 02 do acervo iande"
-    },
-    {
-      "type": "image",
-      "src": "portfolio/assets/design/iande/06-iande-04-dcf58f662b/original.webp",
-      "width": 3500,
-      "height": 3500,
-      "srcset": "portfolio/assets/design/iande/06-iande-04-dcf58f662b/640w.webp 640w, portfolio/assets/design/iande/06-iande-04-dcf58f662b/original.webp 3500w",
-      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/iande/06-iande-04-dcf58f662b/original.webp",
-      "fullWidth": 3500,
-      "fullHeight": 3500,
+      "fullSrc": "portfolio/assets/design/iande/sem-moldura/m006-818b0a23c2/original.webp",
+      "fullWidth": 2448,
+      "fullHeight": 3264,
       "id": "m006",
-      "alt": "Peça 04 do acervo iande"
+      "alt": "Impressão em amarelo de uma gravura em papel no ateliê"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/design/iande/07-iande-08-4278928382/original.webp",
-      "width": 3500,
-      "height": 3500,
-      "srcset": "portfolio/assets/design/iande/07-iande-08-4278928382/640w.webp 640w, portfolio/assets/design/iande/07-iande-08-4278928382/original.webp 3500w",
+      "src": "portfolio/assets/design/iande/sem-moldura/m007-77d496f612/1280w.webp",
+      "width": 2250,
+      "height": 4000,
+      "srcset": "portfolio/assets/design/iande/sem-moldura/m007-77d496f612/640w.webp 640w, portfolio/assets/design/iande/sem-moldura/m007-77d496f612/1280w.webp 1280w, portfolio/assets/design/iande/sem-moldura/m007-77d496f612/1920w.webp 1920w, portfolio/assets/design/iande/sem-moldura/m007-77d496f612/original.webp 2250w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/iande/07-iande-08-4278928382/original.webp",
-      "fullWidth": 3500,
-      "fullHeight": 3500,
+      "fullSrc": "portfolio/assets/design/iande/sem-moldura/m007-77d496f612/original.webp",
+      "fullWidth": 2250,
+      "fullHeight": 4000,
       "id": "m007",
       "alt": "Peça 08 do acervo iande"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/design/iande/08-iande-10-b61c353dad/original.webp",
-      "width": 3500,
-      "height": 3500,
-      "srcset": "portfolio/assets/design/iande/08-iande-10-b61c353dad/640w.webp 640w, portfolio/assets/design/iande/08-iande-10-b61c353dad/original.webp 3500w",
+      "src": "portfolio/assets/design/iande/sem-moldura/m008-1ae1a470cd/original.webp",
+      "width": 960,
+      "height": 1280,
+      "srcset": "portfolio/assets/design/iande/sem-moldura/m008-1ae1a470cd/640w.webp 640w, portfolio/assets/design/iande/sem-moldura/m008-1ae1a470cd/original.webp 960w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/iande/08-iande-10-b61c353dad/original.webp",
-      "fullWidth": 3500,
-      "fullHeight": 3500,
+      "fullSrc": "portfolio/assets/design/iande/sem-moldura/m008-1ae1a470cd/original.webp",
+      "fullWidth": 960,
+      "fullHeight": 1280,
       "id": "m008",
-      "alt": "Peça 10 do acervo iande"
+      "alt": "Preparação da matriz para impressão da gravura em papel"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/design/iande/09-iande-07-eb003533f1/original.webp",
-      "width": 3500,
-      "height": 3500,
-      "srcset": "portfolio/assets/design/iande/09-iande-07-eb003533f1/640w.webp 640w, portfolio/assets/design/iande/09-iande-07-eb003533f1/original.webp 3500w",
+      "src": "portfolio/assets/design/iande/sem-moldura/m010-f6fef5b1d2/1280w.webp",
+      "width": 3000,
+      "height": 4000,
+      "srcset": "portfolio/assets/design/iande/sem-moldura/m010-f6fef5b1d2/640w.webp 640w, portfolio/assets/design/iande/sem-moldura/m010-f6fef5b1d2/1280w.webp 1280w, portfolio/assets/design/iande/sem-moldura/m010-f6fef5b1d2/1920w.webp 1920w, portfolio/assets/design/iande/sem-moldura/m010-f6fef5b1d2/original.webp 3000w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/iande/09-iande-07-eb003533f1/original.webp",
-      "fullWidth": 3500,
-      "fullHeight": 3500,
-      "id": "m009",
-      "alt": "Peça 07 do acervo iande"
-    },
-    {
-      "type": "image",
-      "src": "portfolio/assets/design/iande/10-iande-09-7e13841048/original.webp",
-      "width": 3500,
-      "height": 3500,
-      "srcset": "portfolio/assets/design/iande/10-iande-09-7e13841048/640w.webp 640w, portfolio/assets/design/iande/10-iande-09-7e13841048/original.webp 3500w",
-      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/iande/10-iande-09-7e13841048/original.webp",
-      "fullWidth": 3500,
-      "fullHeight": 3500,
+      "fullSrc": "portfolio/assets/design/iande/sem-moldura/m010-f6fef5b1d2/original.webp",
+      "fullWidth": 3000,
+      "fullHeight": 4000,
       "id": "m010",
       "alt": "Peça 09 do acervo iande"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/design/iande/11-iande-11-4d3437b3d5/original.webp",
-      "width": 3500,
-      "height": 3500,
-      "srcset": "portfolio/assets/design/iande/11-iande-11-4d3437b3d5/640w.webp 640w, portfolio/assets/design/iande/11-iande-11-4d3437b3d5/original.webp 3500w",
+      "src": "portfolio/assets/design/iande/sem-moldura/m011-5dbd10f572/1280w.webp",
+      "width": 3456,
+      "height": 3456,
+      "srcset": "portfolio/assets/design/iande/sem-moldura/m011-5dbd10f572/640w.webp 640w, portfolio/assets/design/iande/sem-moldura/m011-5dbd10f572/1280w.webp 1280w, portfolio/assets/design/iande/sem-moldura/m011-5dbd10f572/1920w.webp 1920w, portfolio/assets/design/iande/sem-moldura/m011-5dbd10f572/original.webp 3456w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/iande/11-iande-11-4d3437b3d5/original.webp",
-      "fullWidth": 3500,
-      "fullHeight": 3500,
+      "fullSrc": "portfolio/assets/design/iande/sem-moldura/m011-5dbd10f572/original.webp",
+      "fullWidth": 3456,
+      "fullHeight": 3456,
       "id": "m011",
       "alt": "Peça 11 do acervo iande"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/design/iande/12-iande-12-a1f732e0ed/original.webp",
-      "width": 3500,
-      "height": 3500,
-      "srcset": "portfolio/assets/design/iande/12-iande-12-a1f732e0ed/640w.webp 640w, portfolio/assets/design/iande/12-iande-12-a1f732e0ed/original.webp 3500w",
+      "src": "portfolio/assets/design/iande/sem-moldura/m012-6d31708fde/1280w.webp",
+      "width": 2874,
+      "height": 2874,
+      "srcset": "portfolio/assets/design/iande/sem-moldura/m012-6d31708fde/640w.webp 640w, portfolio/assets/design/iande/sem-moldura/m012-6d31708fde/1280w.webp 1280w, portfolio/assets/design/iande/sem-moldura/m012-6d31708fde/1920w.webp 1920w, portfolio/assets/design/iande/sem-moldura/m012-6d31708fde/original.webp 2874w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/iande/12-iande-12-a1f732e0ed/original.webp",
-      "fullWidth": 3500,
-      "fullHeight": 3500,
+      "fullSrc": "portfolio/assets/design/iande/sem-moldura/m012-6d31708fde/original.webp",
+      "fullWidth": 2874,
+      "fullHeight": 2874,
       "id": "m012",
       "alt": "Peça 12 do acervo iande"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/design/iande/13-iande-13-fe2fabc37b/original.webp",
+      "src": "portfolio/assets/design/iande/sem-moldura/m013-ce4f7c7aa4/1280w.webp",
       "width": 2250,
       "height": 4000,
-      "srcset": "portfolio/assets/design/iande/13-iande-13-fe2fabc37b/640w.webp 640w, portfolio/assets/design/iande/13-iande-13-fe2fabc37b/original.webp 2250w",
+      "srcset": "portfolio/assets/design/iande/sem-moldura/m013-ce4f7c7aa4/640w.webp 640w, portfolio/assets/design/iande/sem-moldura/m013-ce4f7c7aa4/1280w.webp 1280w, portfolio/assets/design/iande/sem-moldura/m013-ce4f7c7aa4/1920w.webp 1920w, portfolio/assets/design/iande/sem-moldura/m013-ce4f7c7aa4/original.webp 2250w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/iande/13-iande-13-fe2fabc37b/original.webp",
+      "fullSrc": "portfolio/assets/design/iande/sem-moldura/m013-ce4f7c7aa4/original.webp",
       "fullWidth": 2250,
       "fullHeight": 4000,
       "id": "m013",
@@ -195,12 +169,12 @@
     },
     {
       "type": "image",
-      "src": "portfolio/assets/design/iande/14-iande-14-9f208bf352/original.webp",
+      "src": "portfolio/assets/design/iande/sem-moldura/m014-960ecf887c/1280w.webp",
       "width": 2250,
       "height": 4000,
-      "srcset": "portfolio/assets/design/iande/14-iande-14-9f208bf352/640w.webp 640w, portfolio/assets/design/iande/14-iande-14-9f208bf352/original.webp 2250w",
+      "srcset": "portfolio/assets/design/iande/sem-moldura/m014-960ecf887c/640w.webp 640w, portfolio/assets/design/iande/sem-moldura/m014-960ecf887c/1280w.webp 1280w, portfolio/assets/design/iande/sem-moldura/m014-960ecf887c/1920w.webp 1920w, portfolio/assets/design/iande/sem-moldura/m014-960ecf887c/original.webp 2250w",
       "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/design/iande/14-iande-14-9f208bf352/original.webp",
+      "fullSrc": "portfolio/assets/design/iande/sem-moldura/m014-960ecf887c/original.webp",
       "fullWidth": 2250,
       "fullHeight": 4000,
       "id": "m014",
@@ -220,6 +194,17 @@
       "alt": "Símbolo da Iandê",
       "kind": "logo",
       "surface": "light"
+    },
+    {
+      "id": "m016",
+      "type": "image",
+      "src": "portfolio/assets/design/iande/sem-moldura/m016-71afb272a8/original.webp",
+      "fullSrc": "portfolio/assets/design/iande/sem-moldura/m016-71afb272a8/original.webp",
+      "width": 720,
+      "height": 1280,
+      "fullWidth": 720,
+      "fullHeight": 1280,
+      "alt": "Retirada do papel da matriz durante a impressão da gravura"
     }
   ],
   "links": [
@@ -257,7 +242,6 @@
             "items": [
               {
                 "id": "m015",
-                "caption": "Símbolo da Iandê",
                 "kind": "logo",
                 "surface": "light"
               }
@@ -284,84 +268,82 @@
       },
       {
         "id": "cor-e-desenho-nas-pecas",
-        "label": "Cor e desenho nas peças",
-        "title": "Cor e desenho nas peças",
+        "label": "Fotos do editorial",
+        "title": "Fotos do editorial",
         "blocks": [
           {
             "type": "media",
             "items": [
               {
-                "id": "m002",
-                "caption": "Peça 01 do acervo iande"
+                "id": "m002"
               },
               {
-                "id": "m003",
-                "caption": "Peça 03 do acervo iande"
+                "id": "m003"
               },
               {
-                "id": "m004",
-                "caption": "Peça 06 do acervo iande"
+                "id": "m004"
               }
             ],
             "layout": "three"
+          },
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Fotografia e styling",
+                "names": "Bruno Nascimento"
+              }
+            ]
           }
         ]
       },
       {
         "id": "impressao-e-bastidores",
-        "label": "Impressão e bastidores",
-        "title": "Impressão e bastidores",
+        "label": "Criação das artes",
+        "title": "Criação das artes",
         "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Processo de criação e impressão em papel das linoleogravuras de Henrique Neves. O artista selecionou motivos dessas obras para compor as estampas das camisetas da coleção Flores de Pedra."
+            ]
+          },
           {
             "type": "media",
             "items": [
               {
-                "id": "m005",
-                "caption": "Peça 02 do acervo iande"
+                "id": "m006"
               },
               {
-                "id": "m006",
-                "caption": "Peça 04 do acervo iande"
+                "id": "m008"
               },
-              {
-                "id": "m007",
-                "caption": "Peça 08 do acervo iande"
-              },
-              {
-                "id": "m008",
-                "caption": "Peça 10 do acervo iande"
-              }
+              "m016"
             ],
-            "layout": "gallery"
+            "layout": "three",
+            "alignEdges": true
           }
         ]
       },
       {
         "id": "frente-costas-e-pequenos-detalhes",
-        "label": "Frente, costas e pequenos detalhes",
-        "title": "Frente, costas e pequenos detalhes",
+        "label": "Detalhes da impressão das estampas",
+        "title": "Detalhes da impressão das estampas",
         "blocks": [
           {
             "type": "media",
             "items": [
               {
-                "id": "m009",
-                "caption": "Peça 07 do acervo iande"
+                "id": "m010"
               },
               {
-                "id": "m010",
-                "caption": "Peça 09 do acervo iande"
+                "id": "m011"
               },
               {
-                "id": "m011",
-                "caption": "Peça 11 do acervo iande"
-              },
-              {
-                "id": "m012",
-                "caption": "Peça 12 do acervo iande"
+                "id": "m012"
               }
             ],
-            "layout": "gallery"
+            "layout": "three",
+            "alignEdges": true
           }
         ]
       },
@@ -374,15 +356,17 @@
             "type": "media",
             "items": [
               {
-                "id": "m013",
-                "caption": "Peça 13 do acervo iande"
+                "id": "m007"
               },
               {
-                "id": "m014",
-                "caption": "Peça 14 do acervo iande"
+                "id": "m013"
+              },
+              {
+                "id": "m014"
               }
             ],
-            "layout": "two"
+            "layout": "three",
+            "alignEdges": true
           }
         ]
       }

@@ -7,17 +7,8 @@
     "Props",
     "Produção para campanha"
   ],
-  "intro": "Estudos dos adereços e fotografias das peças em uso na campanha Fala, Bicho!, colaboração de Hering Kids e Fábula lançada em 2022.",
-  "credits": [
-    {
-      "role": "Marcas",
-      "names": "Hering Kids + Fábula"
-    },
-    {
-      "role": "Adereços, props e peças de roupa",
-      "names": "Bruno Nascimento"
-    }
-  ],
+  "intro": "Adereços, props e peças de roupa para Fala, Bicho!, colaboração de Hering Kids e Fábula lançada em 2022.",
+  "credits": [],
   "area": "design",
   "media": [
     {
@@ -35,14 +26,12 @@
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/hering-fabula/50-macaco-estudo-bab2a56f7e/original.jpg",
-      "width": 1575,
-      "height": 2800,
-      "srcset": "portfolio/assets/editorial/hering-fabula/50-macaco-estudo-bab2a56f7e/640w.webp 640w, portfolio/assets/editorial/hering-fabula/50-macaco-estudo-bab2a56f7e/original.jpg 1575w",
-      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/hering-fabula/50-macaco-estudo-bab2a56f7e/original.jpg",
-      "fullWidth": 1575,
-      "fullHeight": 2800,
+      "src": "portfolio/assets/design/hering-fabula-pranchas/0edc761fb03c/image.webp",
+      "width": 1086,
+      "height": 1448,
+      "fullSrc": "portfolio/assets/design/hering-fabula-pranchas/0edc761fb03c/image.webp",
+      "fullWidth": 1086,
+      "fullHeight": 1448,
       "id": "m002",
       "alt": "Croqui das orelhas"
     },
@@ -61,27 +50,23 @@
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/hering-fabula/52-macaco-cauda-d41f081bad/original.jpg",
-      "width": 1800,
-      "height": 2700,
-      "srcset": "portfolio/assets/editorial/hering-fabula/52-macaco-cauda-d41f081bad/640w.webp 640w, portfolio/assets/editorial/hering-fabula/52-macaco-cauda-d41f081bad/original.jpg 1800w",
-      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/hering-fabula/52-macaco-cauda-d41f081bad/original.jpg",
-      "fullWidth": 1800,
-      "fullHeight": 2700,
+      "src": "portfolio/assets/design/hering-fabula-editorial/macaco-cauda-18a12937b3af/image.webp",
+      "width": 1024,
+      "height": 1536,
+      "fullSrc": "portfolio/assets/design/hering-fabula-editorial/macaco-cauda-18a12937b3af/image.webp",
+      "fullWidth": 1024,
+      "fullHeight": 1536,
       "id": "m004",
       "alt": "Cauda e conjunto em uso"
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/hering-fabula/53-jacare-estudo-1214081b45/original.jpg",
-      "width": 1575,
-      "height": 2800,
-      "srcset": "portfolio/assets/editorial/hering-fabula/53-jacare-estudo-1214081b45/640w.webp 640w, portfolio/assets/editorial/hering-fabula/53-jacare-estudo-1214081b45/original.jpg 1575w",
-      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/hering-fabula/53-jacare-estudo-1214081b45/original.jpg",
-      "fullWidth": 1575,
-      "fullHeight": 2800,
+      "src": "portfolio/assets/design/hering-fabula-pranchas/e475d8a1b638/image.webp",
+      "width": 941,
+      "height": 1672,
+      "fullSrc": "portfolio/assets/design/hering-fabula-pranchas/e475d8a1b638/image.webp",
+      "fullWidth": 941,
+      "fullHeight": 1672,
       "id": "m005",
       "alt": "Estudo de forma e acabamento"
     },
@@ -113,14 +98,12 @@
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/hering-fabula/56-papagaio-estudo-5441338737/original.jpg",
-      "width": 1280,
-      "height": 653,
-      "srcset": "portfolio/assets/editorial/hering-fabula/56-papagaio-estudo-5441338737/640w.webp 640w, portfolio/assets/editorial/hering-fabula/56-papagaio-estudo-5441338737/original.jpg 1280w",
-      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/hering-fabula/56-papagaio-estudo-5441338737/original.jpg",
-      "fullWidth": 1280,
-      "fullHeight": 653,
+      "src": "portfolio/assets/design/hering-fabula-pranchas/1cfa846573bd/image.webp",
+      "width": 1774,
+      "height": 887,
+      "fullSrc": "portfolio/assets/design/hering-fabula-pranchas/1cfa846573bd/image.webp",
+      "fullWidth": 1774,
+      "fullHeight": 887,
       "id": "m008",
       "alt": "Folha de estudos: capacete e proposta de máscara"
     },
@@ -139,14 +122,12 @@
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/hering-fabula/58-onca-estudo-adf713e637/original.jpg",
-      "width": 1800,
-      "height": 1800,
-      "srcset": "portfolio/assets/editorial/hering-fabula/58-onca-estudo-adf713e637/640w.webp 640w, portfolio/assets/editorial/hering-fabula/58-onca-estudo-adf713e637/original.jpg 1800w",
-      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/hering-fabula/58-onca-estudo-adf713e637/original.jpg",
-      "fullWidth": 1800,
-      "fullHeight": 1800,
+      "src": "portfolio/assets/design/hering-fabula-pranchas/bdde7486cd6e/image.webp",
+      "width": 1254,
+      "height": 1254,
+      "fullSrc": "portfolio/assets/design/hering-fabula-pranchas/bdde7486cd6e/image.webp",
+      "fullWidth": 1254,
+      "fullHeight": 1254,
       "id": "m010",
       "alt": "Croqui da onça e anotações de construção"
     },
@@ -165,14 +146,12 @@
     },
     {
       "type": "image",
-      "src": "portfolio/assets/editorial/hering-fabula/60-borboleta-estudo-ba8ec48c98/original.jpg",
-      "width": 1280,
-      "height": 929,
-      "srcset": "portfolio/assets/editorial/hering-fabula/60-borboleta-estudo-ba8ec48c98/640w.webp 640w, portfolio/assets/editorial/hering-fabula/60-borboleta-estudo-ba8ec48c98/original.jpg 1280w",
-      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)",
-      "fullSrc": "portfolio/assets/editorial/hering-fabula/60-borboleta-estudo-ba8ec48c98/original.jpg",
-      "fullWidth": 1280,
-      "fullHeight": 929,
+      "src": "portfolio/assets/design/hering-fabula-pranchas/34ff85ab3053/image.webp",
+      "width": 1512,
+      "height": 1040,
+      "fullSrc": "portfolio/assets/design/hering-fabula-pranchas/34ff85ab3053/image.webp",
+      "fullWidth": 1512,
+      "fullHeight": 1040,
       "id": "m012",
       "alt": "Estudos de adereços"
     },
@@ -188,6 +167,259 @@
       "fullHeight": 2700,
       "id": "m013",
       "alt": "Óculos usados na campanha"
+    },
+    {
+      "id": "m014",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-estudo/373d05ab1994/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-estudo/373d05ab1994/image.webp",
+      "width": 2033,
+      "height": 1091,
+      "fullWidth": 2033,
+      "fullHeight": 1091,
+      "alt": "Prancha de referências para patas de jacaré"
+    },
+    {
+      "id": "m015",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-estudo/058a9ad78e1c/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-estudo/058a9ad78e1c/image.webp",
+      "width": 2033,
+      "height": 2580,
+      "fullWidth": 2033,
+      "fullHeight": 2580,
+      "alt": "Prancha de referências para adereços de cabeça de macaco, papagaio e borboleta"
+    },
+    {
+      "id": "m016",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-estudo/9fd054f9d9fd/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-estudo/9fd054f9d9fd/image.webp",
+      "width": 2033,
+      "height": 1249,
+      "fullWidth": 2033,
+      "fullHeight": 1249,
+      "alt": "Prancha de referências para onça e cauda de macaco"
+    },
+    {
+      "id": "m017",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-estudo/f52c22657422/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-estudo/f52c22657422/image.webp",
+      "width": 2033,
+      "height": 1589,
+      "fullWidth": 2033,
+      "fullHeight": 1589,
+      "alt": "Prancha de referências para bicos de pássaros"
+    },
+    {
+      "id": "m018",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-pranchas/cd936e06f79e/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-pranchas/cd936e06f79e/image.webp",
+      "width": 941,
+      "height": 1672,
+      "fullWidth": 941,
+      "fullHeight": 1672,
+      "alt": "Estudo lateral de bico de pássaro"
+    },
+    {
+      "id": "m019",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-pranchas/550a2d1ca40e/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-pranchas/550a2d1ca40e/image.webp",
+      "width": 1672,
+      "height": 941,
+      "fullWidth": 1672,
+      "fullHeight": 941,
+      "alt": "Estudos frontal e lateral de bico alongado"
+    },
+    {
+      "id": "m020",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-pranchas/4c04b396c4e6/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-pranchas/4c04b396c4e6/image.webp",
+      "width": 1672,
+      "height": 941,
+      "fullWidth": 1672,
+      "fullHeight": 941,
+      "alt": "Estudos de bico e plumagem em duas vistas"
+    },
+    {
+      "id": "m021",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-editorial/macaco-4e20846f44b8/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-editorial/macaco-4e20846f44b8/image.webp",
+      "width": 1866,
+      "height": 2800,
+      "fullWidth": 1866,
+      "fullHeight": 2800,
+      "alt": "Detalhe das orelhas de macaco acopladas ao fone, usadas pela criança na campanha"
+    },
+    {
+      "id": "m022",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-construcao/3e2b3750be19/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-construcao/3e2b3750be19/image.webp",
+      "width": 1575,
+      "height": 2800,
+      "fullWidth": 1575,
+      "fullHeight": 2800,
+      "alt": "Desenhos de referência e traçado da cauda"
+    },
+    {
+      "id": "m023",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-construcao/7b0d02de9d07/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-construcao/7b0d02de9d07/image.webp",
+      "width": 1575,
+      "height": 2800,
+      "fullWidth": 1575,
+      "fullHeight": 2800,
+      "alt": "Molde com grade de marcação sobre o material"
+    },
+    {
+      "id": "m024",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-construcao/68c4cb991f69/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-construcao/68c4cb991f69/image.webp",
+      "width": 1600,
+      "height": 900,
+      "fullWidth": 1600,
+      "fullHeight": 900,
+      "alt": "Silhueta da onça recortada sobre a bancada"
+    },
+    {
+      "id": "m025",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-construcao/e0324e93aa98/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-construcao/e0324e93aa98/image.webp",
+      "width": 1200,
+      "height": 1600,
+      "fullWidth": 1200,
+      "fullHeight": 1600,
+      "alt": "Estrutura curva da cauda de macaco"
+    },
+    {
+      "id": "m026",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-construcao/6594208ee3de/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-construcao/6594208ee3de/image.webp",
+      "width": 1600,
+      "height": 900,
+      "fullWidth": 1600,
+      "fullHeight": 900,
+      "alt": "Frente e hastes dos óculos de borboleta recortadas"
+    },
+    {
+      "id": "m027",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-construcao/23d9b9e70581/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-construcao/23d9b9e70581/image.webp",
+      "width": 1600,
+      "height": 1200,
+      "fullWidth": 1600,
+      "fullHeight": 1200,
+      "alt": "Onça com partes sobrepostas e pontos de articulação"
+    },
+    {
+      "id": "m029",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-construcao/aa93b83abeab/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-construcao/aa93b83abeab/image.webp",
+      "width": 1600,
+      "height": 1200,
+      "fullWidth": 1600,
+      "fullHeight": 1200,
+      "alt": "Orelhas de macaco posicionadas junto ao fone"
+    },
+    {
+      "id": "m030",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-construcao/9c2d840c93ff/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-construcao/9c2d840c93ff/image.webp",
+      "width": 1600,
+      "height": 1200,
+      "fullWidth": 1600,
+      "fullHeight": 1200,
+      "alt": "Estruturas das patas de jacaré com unhas e áreas coloridas"
+    },
+    {
+      "id": "m031",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-construcao/bd5da78f39ef/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-construcao/bd5da78f39ef/image.webp",
+      "width": 1599,
+      "height": 899,
+      "fullWidth": 1599,
+      "fullHeight": 899,
+      "alt": "Componentes pintados do capacete e olhos separados"
+    },
+    {
+      "id": "m032",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-construcao/e16593e3de6b/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-construcao/e16593e3de6b/image.webp",
+      "width": 1200,
+      "height": 1600,
+      "fullWidth": 1200,
+      "fullHeight": 1600,
+      "alt": "Capacete em montagem: vista lateral"
+    },
+    {
+      "id": "m034",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-construcao/76455111d651/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-construcao/76455111d651/image.webp",
+      "width": 1200,
+      "height": 1600,
+      "fullWidth": 1200,
+      "fullHeight": 1600,
+      "alt": "Capacete em montagem: vista frontal"
+    },
+    {
+      "id": "m035",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-editorial/jacare-binoculo-6e13f31e81f5/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-editorial/jacare-binoculo-6e13f31e81f5/image.webp",
+      "width": 1024,
+      "height": 1536,
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Criança com binóculo e conjunto estampado de jacarés, usando as patas verdes com unhas amarelas"
+    },
+    {
+      "id": "m036",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-editorial/papagaio-biscoito-3a5c366a0e43/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-editorial/papagaio-biscoito-3a5c366a0e43/image.webp",
+      "width": 1024,
+      "height": 1536,
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Criança com capacete de papagaio segurando um biscoito diante do rosto"
+    },
+    {
+      "id": "m037",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-editorial/borboleta-prancha-31410f69462f/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-editorial/borboleta-prancha-31410f69462f/image.webp",
+      "width": 1024,
+      "height": 1536,
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Criança com óculos de borboleta, conjunto estampado, prancha verde e nadadeiras rosas"
+    },
+    {
+      "id": "m038",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-fabula-editorial/borboleta-close-15840502320a/image.webp",
+      "fullSrc": "portfolio/assets/design/hering-fabula-editorial/borboleta-close-15840502320a/image.webp",
+      "width": 1120,
+      "height": 1404,
+      "fullWidth": 1120,
+      "fullHeight": 1404,
+      "alt": "Close dos óculos de borboleta, com aplicações rosas e asas coloridas"
     }
   ],
   "sections": [
@@ -255,178 +487,430 @@
     "galleryOrder": "source",
     "chapters": [
       {
-        "id": "fala-bicho",
-        "label": "Fala, Bicho!",
+        "id": "projeto",
+        "label": "O projeto",
         "title": "Fala, Bicho!",
         "blocks": [
           {
             "type": "text",
             "paragraphs": [
-              "Em 2022, Hering Kids e Fábula lançaram uma colaboração inspirada nos animais. Esta seleção reúne estudos dos adereços e fotografias das peças em uso."
+              "A colaboração de Hering Kids e Fábula levou os animais para as roupas e para as imagens da campanha. A participação de Bruno Nascimento reuniu adereços, props e peças de roupa.",
+              "Os desenhos e as fotografias a seguir apresentam o desenvolvimento das peças e sua presença no editorial e no filme."
             ]
           }
         ]
       },
       {
-        "id": "orelhas-e-cauda-de-macaco",
-        "label": "Orelhas e cauda de macaco",
-        "title": "Orelhas e cauda de macaco",
+        "id": "referencias",
+        "label": "Referências",
+        "title": "Pesquisa e referências",
         "blocks": [
           {
             "type": "text",
             "paragraphs": [
-              "O estudo das orelhas aparece ao lado da peça usada na campanha. A fotografia de corpo inteiro mostra também a cauda."
+              "As pranchas aproximam as estampas da coleção de referências de animais, adereços, cores e materiais. Elas reúnem caminhos para desenvolver as patas, os adereços de cabeça, os bicos e as peças com cauda."
             ]
           },
           {
             "type": "media",
+            "items": [
+              {
+                "id": "m014",
+                "caption": "Prancha de referências para patas de jacaré"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m015",
+                "caption": "Prancha de referências para adereços de cabeça de macaco, papagaio e borboleta"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m016",
+                "caption": "Prancha de referências para onça e cauda de macaco"
+              }
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m017",
+                "caption": "Prancha de referências para bicos de pássaros"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "desenhos",
+        "label": "Desenhos",
+        "title": "Dos desenhos às peças",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Os estudos registram propostas de forma, proporção e montagem. As anotações acompanham os desenhos e ajudam a entender as soluções previstas para cada peça."
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "A folha reúne propostas para orelhas, cauda e óculos.",
+              "Os estudos de jacaré e onça mostram outras maneiras de transformar os animais em peças para vestir."
+            ],
+            "title": "Formas para vestir"
+          },
+          {
+            "type": "media",
+            "layout": "three",
             "items": [
               {
                 "id": "m002",
-                "caption": "Croqui das orelhas"
+                "caption": "Orelhas de macaco: desenho e anotações"
               },
-              {
-                "id": "m003",
-                "caption": "Orelhas no editorial"
-              },
-              {
-                "id": "m004",
-                "caption": "Cauda e conjunto em uso"
-              }
-            ],
-            "layout": "three"
-          }
-        ]
-      },
-      {
-        "id": "patas-de-jacare",
-        "label": "Patas de jacaré",
-        "title": "Patas de jacaré",
-        "blocks": [
-          {
-            "type": "text",
-            "paragraphs": [
-              "O desenho registra uma proposta inicial; nas fotos, a peça tem uma solução volumétrica diferente."
-            ]
-          },
-          {
-            "type": "media",
-            "items": [
               {
                 "id": "m005",
-                "caption": "Estudo de forma e acabamento"
+                "caption": "Patas de jacaré: estudo inicial"
               },
               {
-                "id": "m006",
-                "caption": "Patas usadas na campanha"
-              },
-              {
-                "id": "m007",
-                "caption": "Vista lateral das peças"
+                "id": "m010",
+                "caption": "Onça: croqui e indicações de montagem"
               }
-            ],
-            "layout": "three"
-          }
-        ]
-      },
-      {
-        "id": "capacete-de-papagaio",
-        "label": "Capacete de papagaio",
-        "title": "Capacete de papagaio",
-        "blocks": [
-          {
-            "type": "text",
-            "paragraphs": [
-              "Os detalhes das fotografias permitem observar as camadas, o bico e a aplicação de cor."
             ]
           },
           {
+            "type": "text",
+            "paragraphs": [
+              "O estudo do papagaio explora o capacete e uma proposta de máscara. A outra folha reúne desenhos de adereços, incluindo os óculos de borboleta."
+            ],
+            "title": "Estudos de adereços"
+          },
+          {
             "type": "media",
+            "layout": "two",
             "items": [
               {
                 "id": "m008",
-                "caption": "Folha de estudos: capacete e proposta de máscara"
+                "caption": "Papagaio: estudo do capacete e proposta de máscara"
               },
               {
+                "id": "m012",
+                "caption": "Folha de estudos dos adereços"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Os desenhos registram propostas, não apenas versões idênticas ao resultado. Nas patas de jacaré, por exemplo, as fotografias mostram uma solução volumétrica diferente da indicada no estudo."
+            ]
+          },
+          {
+            "type": "text",
+            "title": "Estudos de bicos",
+            "paragraphs": [
+              "Os desenhos exploram bicos alongados e diferentes vistas da peça. São propostas de desenvolvimento; sua presença no estudo não indica que todas foram produzidas para a campanha."
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "three",
+            "items": [
+              {
+                "id": "m018",
+                "caption": "Estudo lateral de bico de pássaro"
+              },
+              {
+                "id": "m019",
+                "caption": "Estudos frontal e lateral de bico alongado"
+              },
+              {
+                "id": "m020",
+                "caption": "Estudos de bico e plumagem em duas vistas"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "construcao",
+        "label": "Construção",
+        "title": "Construção e acabamento",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O processo reúne moldes, recortes, montagem e aplicação de cor. As fotografias de bancada registram as soluções construtivas antes das peças aparecerem na campanha."
+            ]
+          },
+          {
+            "type": "text",
+            "title": "Moldes e marcações",
+            "paragraphs": [
+              "Os desenhos e a grade de marcação orientam a passagem do estudo para o material em tamanho de construção."
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "two",
+            "items": [
+              {
+                "id": "m022",
+                "caption": "Desenhos de referência e traçado da cauda"
+              },
+              {
+                "id": "m023",
+                "caption": "Molde com grade de marcação sobre o material"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "title": "Estruturas recortadas",
+            "paragraphs": [
+              "Os recortes definem as silhuetas e os componentes antes da montagem e do acabamento."
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "three",
+            "items": [
+              {
+                "id": "m024",
+                "caption": "Silhueta da onça recortada sobre a bancada"
+              },
+              {
+                "id": "m025",
+                "caption": "Estrutura curva da cauda de macaco"
+              },
+              {
+                "id": "m026",
+                "caption": "Frente e hastes dos óculos de borboleta recortadas"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "title": "Montagem das peças",
+            "paragraphs": [
+              "As fotografias mostram a articulação das partes da onça, a montagem dos óculos, o encaixe das orelhas no fone e a estrutura das patas."
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "three",
+            "items": [
+              {
+                "id": "m027",
+                "caption": "Onça com partes sobrepostas e pontos de articulação"
+              },
+              {
+                "id": "m029",
+                "caption": "Orelhas de macaco posicionadas junto ao fone"
+              },
+              {
+                "id": "m030",
+                "caption": "Estruturas das patas de jacaré com unhas e áreas coloridas"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "title": "Capacete de papagaio",
+            "paragraphs": [
+              "Os componentes pintados aparecem separados e depois montados sobre a cabeça de apoio. As diferentes vistas mostram o volume do bico e a sobreposição das partes."
+            ]
+          },
+          {
+            "type": "media",
+            "layout": "three",
+            "items": [
+              {
+                "id": "m031",
+                "caption": "Componentes pintados do capacete e olhos separados"
+              },
+              {
+                "id": "m032",
+                "caption": "Capacete em montagem: vista lateral"
+              },
+              {
+                "id": "m034",
+                "caption": "Capacete em montagem: vista frontal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "campanha",
+        "label": "Na campanha",
+        "title": "As peças na campanha",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Nas fotografias da campanha, os adereços aparecem em uso pelas crianças. As vistas gerais mostram a relação das peças com o corpo; os detalhes revelam formas, camadas e acabamentos."
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "As orelhas circulares são acopladas ao fone e combinam áreas coloridas com uma borda de pelos. A cauda curva completa o conjunto, aparecendo na fotografia de corpo inteiro."
+            ],
+            "title": "Orelhas e cauda de macaco"
+          },
+          {
+            "type": "media",
+            "layout": "three",
+            "items": [
+              {
+                "id": "m003",
+                "caption": "Orelhas de macaco no editorial"
+              },
+              {
+                "id": "m021",
+                "caption": "Orelhas de macaco: detalhe do adereço com fone"
+              },
+              {
+                "id": "m004",
+                "caption": "Cauda de macaco e conjunto em uso"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "title": "Onça para vestir",
+            "paragraphs": [
+              "A fotografia mostra a onça suspensa no corpo, conforme a proposta registrada no croqui."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m011",
+                "caption": "Onça para vestir no editorial"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "As fotografias mostram o capacete em diferentes ângulos e gestos, destacando o bico, as camadas e a aplicação de cor."
+            ],
+            "title": "Capacete de papagaio"
+          },
+          {
+            "type": "media",
+            "layout": "three",
+            "items": [
+              {
                 "id": "m009",
-                "caption": "Vista frontal"
+                "caption": "Capacete de papagaio: vista frontal"
               },
               {
                 "id": "m001",
-                "caption": "Vista lateral e acabamento"
+                "caption": "Capacete de papagaio: vista lateral e acabamento"
+              },
+              {
+                "id": "m036",
+                "caption": "Capacete de papagaio em uso, com biscoito"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "title": "Óculos de borboleta",
+            "paragraphs": [
+              "Os óculos combinam a estrutura de papelão com asas coloridas e aplicações."
+            ]
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "m013",
+                "caption": "Óculos de borboleta usados na campanha"
+              },
+              {
+                "id": "m037",
+                "caption": "Óculos de borboleta em uso, com prancha e nadadeiras"
+              },
+              {
+                "id": "m038",
+                "caption": "Óculos de borboleta: detalhe da estrutura e das aplicações"
               }
             ],
             "layout": "three"
-          }
-        ]
-      },
-      {
-        "id": "onca-para-vestir",
-        "label": "Onça para vestir",
-        "title": "Onça para vestir",
-        "blocks": [
+          },
           {
             "type": "text",
             "paragraphs": [
-              "O croqui mostra a estrutura suspensa por cordas e suas referências de montagem. A foto apresenta a peça no corpo."
-            ]
+              "As patas verdes com unhas amarelas aparecem em diferentes poses e vistas, mostrando o volume das peças e sua relação com o corpo."
+            ],
+            "title": "Patas de jacaré"
           },
           {
             "type": "media",
+            "layout": "three",
             "items": [
               {
-                "id": "m010",
-                "caption": "Croqui da onça e anotações de construção"
+                "id": "m006",
+                "caption": "Patas de jacaré usadas na campanha"
               },
               {
-                "id": "m011",
-                "caption": "Peça no editorial"
+                "id": "m035",
+                "caption": "Patas de jacaré em uso, com binóculo"
+              },
+              {
+                "id": "m007",
+                "caption": "Patas de jacaré: vista lateral"
               }
-            ],
-            "layout": "two"
-          }
-        ]
-      },
-      {
-        "id": "oculos-de-borboleta",
-        "label": "Óculos de borboleta",
-        "title": "Óculos de borboleta",
-        "blocks": [
-          {
-            "type": "text",
-            "paragraphs": [
-              "Na folha de estudos, os óculos dividem espaço com propostas para a cauda e as orelhas de macaco."
             ]
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m012",
-                "caption": "Estudos de adereços"
-              },
-              {
-                "id": "m013",
-                "caption": "Óculos usados na campanha"
-              }
-            ],
-            "layout": "two"
           }
         ]
       },
       {
         "id": "filme-da-campanha",
-        "label": "Filme da campanha",
-        "title": "Filme da campanha",
+        "label": "Filme",
+        "title": "A campanha em movimento",
         "blocks": [
           {
             "type": "text",
             "paragraphs": [
-              "Os adereços acompanham as crianças em movimento no filme da campanha."
+              "No filme da campanha, os adereços acompanham os gestos e os movimentos das crianças."
             ]
           },
           {
             "type": "films"
+          }
+        ]
+      },
+      {
+        "id": "creditos",
+        "label": "Créditos",
+        "title": "Ficha técnica",
+        "blocks": [
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Marcas",
+                "names": "Hering Kids + Fábula"
+              },
+              {
+                "role": "Adereços, props e peças de roupa",
+                "names": "Bruno Nascimento"
+              }
+            ]
           }
         ]
       }

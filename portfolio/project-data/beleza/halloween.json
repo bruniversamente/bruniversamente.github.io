@@ -1,0 +1,144 @@
+{
+  "id": "halloween",
+  "area": "beleza",
+  "title": "Halloween",
+  "subtitle": "Maquiagem e adereços",
+  "tags": [
+    "Maquiagem artística",
+    "Adereços"
+  ],
+  "intro": "",
+  "sections": [],
+  "credits": [],
+  "links": [],
+  "cover": {
+    "id": "m001",
+    "type": "image",
+    "src": "portfolio/assets/beleza/halloween/fogo-editorial-ia-f8e5b66117/image.webp",
+    "fullSrc": "portfolio/assets/beleza/halloween/fogo-editorial-ia-f8e5b66117/image.webp",
+    "width": 1254,
+    "height": 1254,
+    "fullWidth": 1254,
+    "fullHeight": 1254,
+    "alt": "Retrato com maquiagem gráfica, adereços dourados e peruca clara sobre fundo vermelho; imagem regenerada com iluminação editorial"
+  },
+  "media": [
+    {
+      "id": "m001",
+      "type": "image",
+      "src": "portfolio/assets/beleza/halloween/fogo-editorial-ia-f8e5b66117/image.webp",
+      "fullSrc": "portfolio/assets/beleza/halloween/fogo-editorial-ia-f8e5b66117/image.webp",
+      "width": 1254,
+      "height": 1254,
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato com maquiagem gráfica, adereços dourados e peruca clara sobre fundo vermelho; imagem regenerada com iluminação editorial"
+    },
+    {
+      "id": "m002",
+      "type": "image",
+      "src": "portfolio/assets/beleza/halloween/fogo-editorial-perfil-7f4118e5a8/image.webp",
+      "fullSrc": "portfolio/assets/beleza/halloween/fogo-editorial-perfil-7f4118e5a8/image.webp",
+      "width": 1254,
+      "height": 1254,
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato de perfil com maquiagem gráfica, adereços perolados e dourados e peruca clara sobre fundo vermelho"
+    },
+    {
+      "id": "m003",
+      "type": "image",
+      "src": "portfolio/assets/beleza/halloween/lara-c7fb8bc73a/image.webp",
+      "fullSrc": "portfolio/assets/beleza/halloween/lara-c7fb8bc73a/image.webp",
+      "width": 1254,
+      "height": 1254,
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Lara com maquiagem artística em azul-violeta, amarelo e coral, lábios vermelhos e blusa de tricô vermelha"
+    },
+    {
+      "id": "m004",
+      "type": "image",
+      "src": "portfolio/assets/beleza/halloween/zombie-1387c6d211/image.webp",
+      "fullSrc": "portfolio/assets/beleza/halloween/zombie-1387c6d211/image.webp",
+      "width": 1254,
+      "height": 1254,
+      "fullWidth": 1254,
+      "fullHeight": 1254,
+      "alt": "Retrato com maquiagem de caveira em preto e branco, jaqueta de couro preta e fundo cinza neutro"
+    },
+    {
+      "id": "m005",
+      "type": "image",
+      "src": "portfolio/assets/beleza/halloween/mateus-6e2f8894d8/image.webp",
+      "fullSrc": "portfolio/assets/beleza/halloween/mateus-6e2f8894d8/image.webp",
+      "width": 1024,
+      "height": 1024,
+      "fullWidth": 1024,
+      "fullHeight": 1024,
+      "alt": "Mateus com maquiagem cênica de zumbi, próteses e pintura em tons acinzentados sobre fundo preto"
+    },
+    {
+      "id": "m006",
+      "type": "image",
+      "src": "portfolio/assets/beleza/halloween/isabella-b65011dbf9/image.webp",
+      "fullSrc": "portfolio/assets/beleza/halloween/isabella-b65011dbf9/image.webp",
+      "width": 1024,
+      "height": 1536,
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Retrato frontal com maquiagem gráfica branca, azul, amarela e vermelha, cabelo ruivo e fundo escuro azulado"
+    },
+    {
+      "id": "m007",
+      "type": "image",
+      "src": "portfolio/assets/beleza/halloween/isabella-f4ee30ce0a/image.webp",
+      "fullSrc": "portfolio/assets/beleza/halloween/isabella-f4ee30ce0a/image.webp",
+      "width": 1024,
+      "height": 1536,
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Retrato em três quartos com maquiagem gráfica colorida, casaco preto e grafite desfocado ao fundo"
+    },
+    {
+      "id": "m008",
+      "type": "image",
+      "src": "portfolio/assets/beleza/halloween/isabella-37737f921e/image.webp",
+      "fullSrc": "portfolio/assets/beleza/halloween/isabella-37737f921e/image.webp",
+      "width": 1024,
+      "height": 1536,
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Retrato frontal com maquiagem gráfica colorida e mãos unidas, casaco preto e fundo azul-acinzentado"
+    }
+  ],
+  "story": {
+    "editorial": true,
+    "navigation": false,
+    "galleryOrder": "source",
+    "coverFit": "contain",
+    "chapters": [
+      {
+        "id": "editorial",
+        "title": "",
+        "blocks": [
+          {
+            "type": "media",
+            "layout": "three",
+            "items": [
+              "m001",
+              "m002",
+              "m003",
+              "m004",
+              "m005",
+              "m006",
+              "m007",
+              "m008"
+            ]
+          }
+        ]
+      }
+    ],
+    "hideCover": true
+  }
+}

@@ -78,7 +78,7 @@
           frame.replaceChildren(embed);embed.focus();
         });
         const source=el('a','case-external',(film.linkLabel||'Ver no Behance')+' ↗');source.href=film.url;source.target='_blank';source.rel='noopener noreferrer';
-        frame.append(play);if(showTitle)card.append(title);card.append(frame,source);films.append(card);
+        frame.append(play);if(showTitle)card.append(title);card.append(frame);if(!film.hideSourceLink)card.append(source);films.append(card);
       });return films;
     }
 

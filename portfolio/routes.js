@@ -60,6 +60,7 @@
     const url = new URL(href(location.href), location.origin);url.hash='';
     const canonical=document.querySelector('link[rel="canonical"]');if(canonical)canonical.href='https://bruniversamente.github.io'+url.pathname+url.search;
     const og=document.querySelector('meta[property="og:url"]');if(og)og.content='https://bruniversamente.github.io'+url.pathname+url.search;
+    window.portfolioStructuredData?.sync();
   }
   window.portfolioRoutes = {read, href, canonicalize, syncMetadata};
 })();

@@ -69,6 +69,26 @@
 @media(max-width:600px){.story-credits{grid-template-columns:1fr}}
 
 /* Compact campaign lettering in the Hering project introduction. */
+.hering-handwritten-sheet{box-sizing:border-box;width:48rem;max-width:100%;margin-inline:auto;padding:2rem;background:#fff;display:flex;flex-direction:column;align-items:center;gap:1.2rem}
+.hering-handwritten-title{display:block;width:100%;height:auto}
+.hering-handwritten-sheet .hering-handwritten-drawing{width:32rem;max-width:100%;border:0;background:#fff}
+.hering-handwritten-drawing>.case-media-trigger{position:relative;aspect-ratio:1.25;height:auto;overflow:hidden}
+.hering-handwritten-drawing>.case-media-trigger>img{position:absolute;left:0;top:-33.333333%;width:100%;height:166.666667%;max-width:none;object-fit:fill}
+.hering-handwritten-materials{display:block;width:16rem;max-width:50%;height:auto;align-self:flex-start;margin-left:2rem}
+.hering-sketch-comparison{display:flex;align-items:stretch;gap:2rem;min-width:0}
+.hering-sketch-comparison>.hering-handwritten-sheet{flex:0 1 32%;min-width:0;margin:0;padding:1.2rem}
+.hering-sketch-comparison>.hering-technical-study{flex:1;min-width:0;margin:0;border:0;background:#fff;display:flex}
+.hering-sketch-comparison>.hering-technical-study>.case-media-trigger{height:100%;display:flex;align-items:center;background:#fff}
+.hering-sketch-comparison>.hering-technical-study>.case-media-trigger>img{width:100%;height:100%;object-fit:contain}
+.hering-sketch-comparison .hering-handwritten-materials{margin-left:1rem}
+.hering-foot-original{justify-content:center}
+.hering-foot-original>.case-figure{margin:0;border:0;background:#fff;width:100%}
+.hering-foot-original>.case-figure>.case-media-trigger>img{width:100%;height:auto;object-fit:contain}
+.hering-rabo-original-crop{position:relative;width:100%;aspect-ratio:.625153846;overflow:hidden}
+.hering-rabo-original-crop>img{position:absolute;left:0;top:0;width:232.55814%;max-width:none;height:100%;object-fit:fill}
+@media(max-width:700px){.hering-sketch-comparison{flex-direction:column;align-items:center}.hering-sketch-comparison>.hering-handwritten-sheet{flex:none;width:32rem}.hering-sketch-comparison>.hering-technical-study{flex:none;width:100%}}
+#chapter-desenhos:has(img[src*="hering-fabula-pranchas/"]) .story-media{max-width:48rem;margin-inline:auto}
+#chapter-desenhos:has(img[src*="hering-fabula-pranchas/"]) .story-media:has(img[src*="0edc761fb03c/"],img[src*="jacare-final-"],img[src*="cd936e06f79e/"]){max-width:32rem}
 #chapter-projeto:has(img[src*="fala-bicho-lettering-"])>.story-chapter-title{display:none}
 #chapter-projeto .story-media:has(img[src*="fala-bicho-lettering-"]){width:61.2rem;max-width:100%}
 #chapter-projeto .story-media:has(img[src*="fala-bicho-lettering-"])>.story-media-row{display:flex;align-items:center;justify-content:flex-start;gap:3.2rem}
@@ -78,3 +98,4 @@
 #chapter-projeto .case-figure:has(img[src*="hering-fabula-lockup-"]){width:40rem}
 #chapter-projeto .story-media:has(img[src*="fala-bicho-lettering-"]) .case-media-trigger{height:auto!important}
 #chapter-projeto .story-media:has(img[src*="fala-bicho-lettering-"]) .case-media-trigger>img{height:auto;width:100%}
+#chapter-filme-da-campanha .case-film:has(img[src*="hering-fabula-film/"])>.case-external{display:none}

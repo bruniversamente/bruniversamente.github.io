@@ -67,3 +67,14 @@
 .case-films:has(.case-film--landscape){grid-template-columns:1fr}.case-film--landscape .case-film-frame{max-width:none}
 #filters{max-height:calc(100svh - var(--header) - var(--bottom) - 2.4rem);overflow:auto;align-content:start}#filters .button{max-width:100%;white-space:normal;line-height:1.35;text-align:left;padding-block:.7rem}
 @media(max-width:600px){.story-credits{grid-template-columns:1fr}}
+
+/* Compact campaign lettering in the Hering project introduction. */
+#chapter-projeto:has(img[src*="fala-bicho-lettering-"])>.story-chapter-title{display:none}
+#chapter-projeto .story-media:has(img[src*="fala-bicho-lettering-"]){width:61.2rem;max-width:100%}
+#chapter-projeto .story-media:has(img[src*="fala-bicho-lettering-"])>.story-media-row{display:flex;align-items:center;justify-content:flex-start;gap:3.2rem}
+#chapter-projeto .case-figure:has(img[src*="fala-bicho-lettering-"]),
+#chapter-projeto .case-figure:has(img[src*="hering-fabula-lockup-"]){border:0;outline:0;background:transparent;align-self:center;flex:0 1 auto}
+#chapter-projeto .case-figure:has(img[src*="fala-bicho-lettering-"]){width:18rem}
+#chapter-projeto .case-figure:has(img[src*="hering-fabula-lockup-"]){width:40rem}
+#chapter-projeto .story-media:has(img[src*="fala-bicho-lettering-"]) .case-media-trigger{height:auto!important}
+#chapter-projeto .story-media:has(img[src*="fala-bicho-lettering-"]) .case-media-trigger>img{height:auto;width:100%}

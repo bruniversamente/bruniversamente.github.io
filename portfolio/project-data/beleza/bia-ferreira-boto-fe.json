@@ -199,6 +199,9 @@
               }
             ],
             "layout": "two"
+          },
+          {
+            "type": "films"
           }
         ]
       },
@@ -302,6 +305,16 @@
           }
         ]
       }
-    ]
-  }
+    ],
+    "filmsInline": true
+  },
+  "films": [
+    {
+      "title": "Preparação da beleza",
+      "src": "https://www.youtube.com/embed/A1De-hyJU2I?rel=0",
+      "url": "https://www.youtube.com/watch?v=A1De-hyJU2I",
+      "poster": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-01-4c5943c2aa/image.avif",
+      "linkLabel": "Ver no YouTube"
+    }
+  ]
 }

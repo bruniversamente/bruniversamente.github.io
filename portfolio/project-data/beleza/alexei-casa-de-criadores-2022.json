@@ -173,7 +173,27 @@
             "layout": "two"
           }
         ]
+      },
+      {
+        "id": "beleza-nos-bastidores",
+        "title": "Beleza nos bastidores",
+        "label": "Beleza nos bastidores",
+        "blocks": [
+          {
+            "type": "films"
+          }
+        ]
       }
-    ]
-  }
+    ],
+    "filmsInline": true
+  },
+  "films": [
+    {
+      "title": "Bastidores · Casa de Criadores 2022",
+      "src": "https://www.youtube.com/embed/TEbN1s6cySk?rel=0",
+      "url": "https://www.youtube.com/watch?v=TEbN1s6cySk",
+      "poster": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-backstage-poster-f6a5daab84/image.avif",
+      "linkLabel": "Ver no YouTube"
+    }
+  ]
 }

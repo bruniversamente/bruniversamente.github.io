@@ -137,13 +137,34 @@
             "alignEdges": true
           }
         ]
+      },
+      {
+        "id": "filme-da-campanha",
+        "title": "Filme da campanha",
+        "label": "Filme da campanha",
+        "blocks": [
+          {
+            "type": "films"
+          }
+        ]
       }
-    ]
+    ],
+    "filmsInline": true
   },
   "links": [
     {
       "title": "Filme no Vimeo · Lucas Vidal",
       "url": "https://vimeo.com/817973117"
+    }
+  ],
+  "films": [
+    {
+      "title": "Filme da campanha",
+      "src": "https://www.youtube.com/embed/P5ZUBi-0kV4?rel=0",
+      "url": "https://www.youtube.com/watch?v=P5ZUBi-0kV4",
+      "poster": "portfolio/assets/design/hering-pequenos-exploradores/filme/poster.jpg",
+      "linkLabel": "Ver no YouTube",
+      "aspectRatio": 1.7777777777777777
     }
   ]
 }

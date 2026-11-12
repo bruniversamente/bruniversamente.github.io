@@ -157,6 +157,16 @@
         ]
       },
       {
+        "id": "em-movimento",
+        "title": "Em movimento",
+        "label": "Em movimento",
+        "blocks": [
+          {
+            "type": "films"
+          }
+        ]
+      },
+      {
         "id": "creditos",
         "title": "Ficha técnica",
         "label": "Créditos",
@@ -227,6 +237,17 @@
           }
         ]
       }
-    ]
-  }
+    ],
+    "filmsInline": true
+  },
+  "films": [
+    {
+      "title": "Filme STROBO",
+      "src": "https://www.youtube.com/embed/lEqv60apahw?rel=0",
+      "url": "https://www.youtube.com/watch?v=lEqv60apahw",
+      "poster": "portfolio/assets/beleza/strobo-stromboli/filme-strobo-2a3a97f236/1280w.avif",
+      "linkLabel": "Ver no YouTube",
+      "aspectRatio": 1.7777777777777777
+    }
+  ]
 }

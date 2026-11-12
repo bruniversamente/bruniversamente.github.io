@@ -235,6 +235,9 @@
             "layout": "two"
           },
           {
+            "type": "films"
+          },
+          {
             "type": "credits",
             "items": [
               {
@@ -281,6 +284,16 @@
           }
         ]
       }
-    ]
-  }
+    ],
+    "filmsInline": true
+  },
+  "films": [
+    {
+      "title": "Bastidores da maquiagem",
+      "src": "https://www.youtube.com/embed/49mTA7zn0D0?rel=0",
+      "url": "https://www.youtube.com/watch?v=49mTA7zn0D0",
+      "poster": "portfolio/assets/beleza/augusto-amparo-transmutacao-textil/backstage-video-c8a4405e3a/image.avif",
+      "linkLabel": "Ver no YouTube"
+    }
+  ]
 }

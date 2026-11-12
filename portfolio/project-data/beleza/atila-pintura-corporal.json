@@ -120,7 +120,34 @@
             "layout": "gallery"
           }
         ]
+      },
+      {
+        "id": "construcao-e-pintura",
+        "title": "Construção e pintura",
+        "label": "Construção e pintura",
+        "blocks": [
+          {
+            "type": "films"
+          }
+        ]
       }
-    ]
-  }
+    ],
+    "filmsInline": true
+  },
+  "films": [
+    {
+      "title": "Construção do adereço",
+      "src": "https://www.youtube.com/embed/ZXggIiqHrn4?rel=0",
+      "url": "https://www.youtube.com/watch?v=ZXggIiqHrn4",
+      "poster": "portfolio/assets/beleza/atila-pintura-corporal/timelapse-adereco-a9ff042c60/image.avif",
+      "linkLabel": "Ver no YouTube"
+    },
+    {
+      "title": "Maquiagem e pintura corporal",
+      "src": "https://www.youtube.com/embed/f92jH6BzOaE?rel=0",
+      "url": "https://www.youtube.com/watch?v=f92jH6BzOaE",
+      "poster": "portfolio/assets/beleza/atila-pintura-corporal/timelapse-maquiagem-61a8a0d6f1/image.avif",
+      "linkLabel": "Ver no YouTube"
+    }
+  ]
 }

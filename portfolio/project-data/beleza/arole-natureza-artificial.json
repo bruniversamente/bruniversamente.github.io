@@ -149,7 +149,41 @@
             "layout": "two"
           }
         ]
+      },
+      {
+        "id": "em-movimento",
+        "title": "Em movimento",
+        "label": "Em movimento",
+        "blocks": [
+          {
+            "type": "films"
+          }
+        ]
       }
-    ]
-  }
+    ],
+    "filmsInline": true
+  },
+  "films": [
+    {
+      "title": "Filme da coleção",
+      "src": "https://www.youtube.com/embed/560Q-_ylbQY?rel=0",
+      "url": "https://www.youtube.com/watch?v=560Q-_ylbQY",
+      "poster": "portfolio/assets/beleza/arole-natureza-artificial/natureza-artificial-video-01-7dc3ac423f/image.avif",
+      "linkLabel": "Ver no YouTube"
+    },
+    {
+      "title": "Teaser de lançamento",
+      "src": "https://www.youtube.com/embed/-iwubvPszTs?rel=0",
+      "url": "https://www.youtube.com/watch?v=-iwubvPszTs",
+      "poster": "portfolio/assets/beleza/arole-natureza-artificial/natureza-artificial-video-02-1adca3515b/image.avif",
+      "linkLabel": "Ver no YouTube"
+    },
+    {
+      "title": "Bastidores da campanha",
+      "src": "https://www.youtube.com/embed/7o-P_K-SffU?rel=0",
+      "url": "https://www.youtube.com/watch?v=7o-P_K-SffU",
+      "poster": "portfolio/assets/beleza/arole-natureza-artificial/natureza-artificial-backstage-bc65938abc/image.avif",
+      "linkLabel": "Ver no YouTube"
+    }
+  ]
 }

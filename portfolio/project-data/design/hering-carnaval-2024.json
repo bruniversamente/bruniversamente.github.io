@@ -1,0 +1,1522 @@
+{
+  "id": "hering-carnaval-2024",
+  "title": "Hering Kids",
+  "subtitle": "Carnaval 2024: adereços e props",
+  "tags": [
+    "Adereços",
+    "Props",
+    "Carnaval"
+  ],
+  "intro": "Adereços e props criados por Bruno Nascimento para a campanha de Carnaval 2024 da Hering Kids.",
+  "area": "design",
+  "credits": [],
+  "credit": "",
+  "links": [],
+  "films": [],
+  "sections": [],
+  "cover": {
+    "id": "robo-campanha-1",
+    "type": "image",
+    "src": "portfolio/assets/design/hering-carnaval-2024/robo-campanha-1-ecda76b72b62.webp",
+    "fullSrc": "portfolio/assets/design/hering-carnaval-2024/robo-campanha-1-ecda76b72b62.webp",
+    "width": 1024,
+    "height": 1536,
+    "fullWidth": 1024,
+    "fullHeight": 1536,
+    "alt": "Menino com cabeça de robô e fitas coloridas",
+    "provenance": "reconstruction"
+  },
+  "media": [
+    {
+      "id": "robo-campanha-1",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/robo-campanha-foto-escolhida-637328abf25b.jpg",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/robo-campanha-foto-escolhida-637328abf25b.jpg",
+      "width": 1440,
+      "height": 1798,
+      "fullWidth": 1440,
+      "fullHeight": 1798,
+      "alt": "Menino sorrindo com a cabeça de robô e confete",
+      "provenance": "original-campaign-user-selected"
+    },
+    {
+      "id": "robo-pesquisa",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/robo-pesquisa-e2dbe02419de.svg",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/robo-pesquisa-e2dbe02419de.svg",
+      "width": 1600,
+      "height": 1100,
+      "fullWidth": 1600,
+      "fullHeight": 1100,
+      "alt": "Prancha de pesquisa: Cabeça de robô",
+      "provenance": "Pinterest references and AI-reconstructed wardrobe on hangers"
+    },
+    {
+      "id": "dragao-pesquisa",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/dragao-pesquisa-2f63a36af81c.svg",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/dragao-pesquisa-2f63a36af81c.svg",
+      "width": 1600,
+      "height": 1100,
+      "fullWidth": 1600,
+      "fullHeight": 1100,
+      "alt": "Prancha de pesquisa: Rabo de dragão",
+      "provenance": "Pinterest references and AI-reconstructed wardrobe on hangers"
+    },
+    {
+      "id": "sorvete-pesquisa",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/sorvete-pesquisa-6f5af7450e31.svg",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/sorvete-pesquisa-6f5af7450e31.svg",
+      "width": 1600,
+      "height": 1100,
+      "fullWidth": 1600,
+      "fullHeight": 1100,
+      "alt": "Prancha de pesquisa: Chapéu de sorvete",
+      "provenance": "Pinterest references and AI-reconstructed wardrobe on hangers"
+    },
+    {
+      "id": "cinto-pesquisa",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/cinto-pesquisa-6d753e8a16cf.svg",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/cinto-pesquisa-6d753e8a16cf.svg",
+      "width": 1600,
+      "height": 1100,
+      "fullWidth": 1600,
+      "fullHeight": 1100,
+      "alt": "Prancha de pesquisa: Cinto de utilidades",
+      "provenance": "Pinterest references and AI-reconstructed wardrobe on hangers"
+    },
+    {
+      "id": "fitas-pesquisa",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/fitas-pesquisa-ceb8fc5ebcbd.svg",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/fitas-pesquisa-ceb8fc5ebcbd.svg",
+      "width": 1600,
+      "height": 1100,
+      "fullWidth": 1600,
+      "fullHeight": 1100,
+      "alt": "Prancha de pesquisa: Cortina de fitas",
+      "provenance": "Pinterest references and AI-reconstructed wardrobe on hangers"
+    },
+    {
+      "id": "varinha-pesquisa",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/varinha-pesquisa-61351c217d53.svg",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/varinha-pesquisa-61351c217d53.svg",
+      "width": 1600,
+      "height": 1100,
+      "fullWidth": 1600,
+      "fullHeight": 1100,
+      "alt": "Prancha de pesquisa: Varinha da fada",
+      "provenance": "Pinterest references and AI-reconstructed wardrobe on hangers"
+    },
+    {
+      "id": "estandartes-pesquisa",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandartes-pesquisa-9c67f3e09257.svg",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandartes-pesquisa-9c67f3e09257.svg",
+      "width": 1600,
+      "height": 1100,
+      "fullWidth": 1600,
+      "fullHeight": 1100,
+      "alt": "Prancha de pesquisa: Estandartes",
+      "provenance": "Pinterest references and AI-reconstructed wardrobe on hangers"
+    },
+    {
+      "id": "robo-croqui",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/robo-croqui-eb06164b85c8.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/robo-croqui-eb06164b85c8.webp",
+      "width": 1086,
+      "height": 1448,
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Croqui de cabeça de robô",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "robo-detalhe",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/robo-detalhe-aaca6d4a0780.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/robo-detalhe-aaca6d4a0780.webp",
+      "width": 1536,
+      "height": 1024,
+      "fullWidth": 1536,
+      "fullHeight": 1024,
+      "alt": "Cabeça de robô: estudo de forma e montagem",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "dragao-croqui",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/dragao-croqui-41688a6b8d91.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/dragao-croqui-41688a6b8d91.webp",
+      "width": 1086,
+      "height": 1448,
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Croqui de rabo de dragão",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "dragao-detalhe",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/dragao-detalhe-a2826a5b6ee9.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/dragao-detalhe-a2826a5b6ee9.webp",
+      "width": 1536,
+      "height": 1024,
+      "fullWidth": 1536,
+      "fullHeight": 1024,
+      "alt": "Rabo de dragão: estudo de forma e montagem",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "sorvete-croqui",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/sorvete-croqui-b04a28175ae7.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/sorvete-croqui-b04a28175ae7.webp",
+      "width": 1086,
+      "height": 1448,
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Croqui de chapéu de sorvete",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "sorvete-detalhe",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/sorvete-detalhe-cf9e2da2e1ec.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/sorvete-detalhe-cf9e2da2e1ec.webp",
+      "width": 1536,
+      "height": 1024,
+      "fullWidth": 1536,
+      "fullHeight": 1024,
+      "alt": "Chapéu de sorvete: estudo de forma e montagem",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "cinto-croqui",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/cinto-croqui-d821268d24e5.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/cinto-croqui-d821268d24e5.webp",
+      "width": 1086,
+      "height": 1448,
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Croqui de cinto de utilidades",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "cinto-detalhe",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/cinto-detalhe-4641958ecaf8.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/cinto-detalhe-4641958ecaf8.webp",
+      "width": 1536,
+      "height": 1024,
+      "fullWidth": 1536,
+      "fullHeight": 1024,
+      "alt": "Cinto de utilidades: estudo de forma e montagem",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "fitas-croqui",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/fitas-croqui-f2f546c6dce6.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/fitas-croqui-f2f546c6dce6.webp",
+      "width": 1086,
+      "height": 1448,
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Croqui de cortina de fitas",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "fitas-detalhe",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/fitas-detalhe-c11dc0a11755.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/fitas-detalhe-c11dc0a11755.webp",
+      "width": 1536,
+      "height": 1024,
+      "fullWidth": 1536,
+      "fullHeight": 1024,
+      "alt": "Cortina de fitas: estudo de forma e montagem",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "varinha-croqui",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/varinha-croqui-c84423bd8bf4.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/varinha-croqui-c84423bd8bf4.webp",
+      "width": 1086,
+      "height": 1448,
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Croqui de varinha da fada",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "varinha-detalhe",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/varinha-detalhe-2f2a9fec72b1.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/varinha-detalhe-2f2a9fec72b1.webp",
+      "width": 1536,
+      "height": 1024,
+      "fullWidth": 1536,
+      "fullHeight": 1024,
+      "alt": "Varinha da fada: estudo de forma e montagem",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "estandarte-azul-croqui",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-azul-croqui-8b0a6e18bc69.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-azul-croqui-8b0a6e18bc69.webp",
+      "width": 1086,
+      "height": 1448,
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Croqui de estandarte azul",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "estandarte-azul-detalhe",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-azul-detalhe-1e99d25d4378.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-azul-detalhe-1e99d25d4378.webp",
+      "width": 1536,
+      "height": 1024,
+      "fullWidth": 1536,
+      "fullHeight": 1024,
+      "alt": "Estandarte azul: estudo de forma e montagem",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "estandarte-verde-croqui",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-verde-croqui-bc546642722f.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-verde-croqui-bc546642722f.webp",
+      "width": 1086,
+      "height": 1448,
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Croqui de estandarte verde",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "estandarte-verde-detalhe",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-verde-detalhe-768f04cc1fe3.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-verde-detalhe-768f04cc1fe3.webp",
+      "width": 1536,
+      "height": 1024,
+      "fullWidth": 1536,
+      "fullHeight": 1024,
+      "alt": "Estandarte verde: estudo de forma e montagem",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "estandarte-floral-croqui",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-floral-croqui-da7513beea9e.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-floral-croqui-da7513beea9e.webp",
+      "width": 1086,
+      "height": 1448,
+      "fullWidth": 1086,
+      "fullHeight": 1448,
+      "alt": "Croqui de estandarte floral",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "estandarte-floral-detalhe",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-floral-detalhe-dcb1253da663.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-floral-detalhe-dcb1253da663.webp",
+      "width": 1536,
+      "height": 1024,
+      "fullWidth": 1536,
+      "fullHeight": 1024,
+      "alt": "Estandarte floral: estudo de forma e montagem",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "robo-construcao",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/robo-construcao-37c0458fc17d.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/robo-construcao-37c0458fc17d.webp",
+      "width": 2172,
+      "height": 724,
+      "fullWidth": 2172,
+      "fullHeight": 724,
+      "alt": "Cabeça de robô: preparação, montagem e acabamento em três etapas",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "dragao-construcao",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/dragao-construcao-3b9749bbcd14.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/dragao-construcao-3b9749bbcd14.webp",
+      "width": 2172,
+      "height": 724,
+      "fullWidth": 2172,
+      "fullHeight": 724,
+      "alt": "Rabo de dragão: preparação, montagem e acabamento em três etapas",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "sorvete-construcao",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/sorvete-construcao-213c340cdd41.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/sorvete-construcao-213c340cdd41.webp",
+      "width": 2172,
+      "height": 724,
+      "fullWidth": 2172,
+      "fullHeight": 724,
+      "alt": "Chapéu de sorvete: preparação, montagem e acabamento em três etapas",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "cinto-construcao",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/cinto-construcao-469e71d5bae5.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/cinto-construcao-469e71d5bae5.webp",
+      "width": 2172,
+      "height": 724,
+      "fullWidth": 2172,
+      "fullHeight": 724,
+      "alt": "Cinto de utilidades: preparação, montagem e acabamento em três etapas",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "fitas-construcao",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/fitas-construcao-4f3110b0f0f8.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/fitas-construcao-4f3110b0f0f8.webp",
+      "width": 2172,
+      "height": 724,
+      "fullWidth": 2172,
+      "fullHeight": 724,
+      "alt": "Cortina de fitas: materiais e montagem",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "varinha-construcao",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/varinha-construcao-ff8dbc45e420.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/varinha-construcao-ff8dbc45e420.webp",
+      "width": 2172,
+      "height": 724,
+      "fullWidth": 2172,
+      "fullHeight": 724,
+      "alt": "Varinha da fada: preparação, montagem e acabamento em três etapas",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "estandarte-azul-construcao",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-azul-construcao-b8537eee5c84.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-azul-construcao-b8537eee5c84.webp",
+      "width": 2172,
+      "height": 724,
+      "fullWidth": 2172,
+      "fullHeight": 724,
+      "alt": "Estandarte azul: preparação, montagem e acabamento em três etapas",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "estandarte-verde-construcao",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-verde-construcao-77f0998e40a1.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-verde-construcao-77f0998e40a1.webp",
+      "width": 2172,
+      "height": 724,
+      "fullWidth": 2172,
+      "fullHeight": 724,
+      "alt": "Estandarte verde: preparação, montagem e acabamento em três etapas",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "estandarte-floral-construcao",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-floral-construcao-proporcoes-bfcfae476d14.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-floral-construcao-proporcoes-bfcfae476d14.webp",
+      "width": 2172,
+      "height": 724,
+      "fullWidth": 2172,
+      "fullHeight": 724,
+      "alt": "Estandarte floral: preparação, montagem e acabamento em três etapas",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "robo-original",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/robo-original-300d5d5f848c.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/robo-original-300d5d5f848c.webp",
+      "width": 1080,
+      "height": 1350,
+      "fullWidth": 1080,
+      "fullHeight": 1350,
+      "alt": "Cabeça de robô na campanha",
+      "provenance": "original-campaign"
+    },
+    {
+      "id": "robo-gif",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/robo-gif-aceno-vertical-56fae7332560.gif",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/robo-gif-aceno-vertical-56fae7332560.gif",
+      "width": 768,
+      "height": 1152,
+      "fullWidth": 768,
+      "fullHeight": 1152,
+      "alt": "Cabeça de robô em movimento",
+      "provenance": "generated-vertical-keyframes-from-native-gif-and-original-scene"
+    },
+    {
+      "id": "dragao-original",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/dragao-original-70b0885950bb.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/dragao-original-70b0885950bb.webp",
+      "width": 1080,
+      "height": 1350,
+      "fullWidth": 1080,
+      "fullHeight": 1350,
+      "alt": "Rabo de dragão na campanha",
+      "provenance": "original-campaign",
+      "crop": [
+        0.07407407407407407,
+        0.05925925925925926,
+        0.8518518518518519,
+        0.8814814814814815
+      ]
+    },
+    {
+      "id": "dragao-campanha-1",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/dragao-campanha-foto-escolhida-ad2844225935.jpg",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/dragao-campanha-foto-escolhida-ad2844225935.jpg",
+      "width": 1080,
+      "height": 1350,
+      "fullWidth": 1080,
+      "fullHeight": 1350,
+      "alt": "Menino com rabo de dragão e menina com chapéu de sorvete sob confete",
+      "provenance": "original-campaign-user-selected"
+    },
+    {
+      "id": "dragao-gif",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/dragao-gif-danca-vertical-087e72963246.gif",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/dragao-gif-danca-vertical-087e72963246.gif",
+      "width": 768,
+      "height": 1152,
+      "fullWidth": 768,
+      "fullHeight": 1152,
+      "alt": "Rabo de dragão em movimento",
+      "provenance": "generated-vertical-keyframes-from-native-gif-and-original-scene"
+    },
+    {
+      "id": "sorvete-original",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/sorvete-foto-ampliada-f8467924c4c6.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/sorvete-foto-ampliada-f8467924c4c6.webp",
+      "width": 1024,
+      "height": 1536,
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Chapéu de sorvete na campanha",
+      "provenance": "original-campaign-outpainted"
+    },
+    {
+      "id": "sorvete-campanha-1",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/sorvete-campanha-1-91bd45f2d741.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/sorvete-campanha-1-91bd45f2d741.webp",
+      "width": 1024,
+      "height": 1536,
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Chapéu de sorvete em uso",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "sorvete-gif",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/sorvete-gif-confete-vertical-0c5a678ea74d.gif",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/sorvete-gif-confete-vertical-0c5a678ea74d.gif",
+      "width": 768,
+      "height": 1152,
+      "fullWidth": 768,
+      "fullHeight": 1152,
+      "alt": "Chapéu de sorvete em movimento",
+      "provenance": "generated-vertical-keyframes-from-native-gif-and-original-scene"
+    },
+    {
+      "id": "cinto-original",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/cinto-original-buzina-vazia-93ff736c08cd.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/cinto-original-buzina-vazia-93ff736c08cd.webp",
+      "width": 1122,
+      "height": 1402,
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Cinto de utilidades na campanha",
+      "provenance": "edited-campaign-empty-horn",
+      "crop": [
+        0.07407407407407407,
+        0.05925925925925926,
+        0.8518518518518519,
+        0.8814814814814815
+      ]
+    },
+    {
+      "id": "cinto-campanha-1",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/cinto-campanha-1-buzina-vazia-6fdcae46eb19.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/cinto-campanha-1-buzina-vazia-6fdcae46eb19.webp",
+      "width": 1024,
+      "height": 1536,
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Cinto de utilidades em uso",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "cinto-gif",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/cinto-gif-voo-vertical-947f0ddf8775.gif",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/cinto-gif-voo-vertical-947f0ddf8775.gif",
+      "width": 768,
+      "height": 1152,
+      "fullWidth": 768,
+      "fullHeight": 1152,
+      "alt": "Cinto de utilidades em movimento",
+      "provenance": "generated-vertical-keyframes-from-native-gif-and-original-scene"
+    },
+    {
+      "id": "varinha-campanha-1",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/varinha-asas-corrigidas-06d996a0c95d.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/varinha-asas-corrigidas-06d996a0c95d.webp",
+      "width": 1024,
+      "height": 1536,
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Varinha da fada em uso",
+      "provenance": "reconstruction-with-reference-matched-wings"
+    },
+    {
+      "id": "varinha-campanha-2",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/varinha-haste-corrigida-4faabc021573.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/varinha-haste-corrigida-4faabc021573.webp",
+      "width": 1024,
+      "height": 1536,
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Varinha da fada em uso",
+      "provenance": "original-campaign-outpainted-with-approved-wand"
+    },
+    {
+      "id": "varinha-gif",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/varinha-gif-nativo-vertical-531d911c3e4d.gif",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/varinha-gif-nativo-vertical-531d911c3e4d.gif",
+      "width": 768,
+      "height": 1152,
+      "fullWidth": 768,
+      "fullHeight": 1152,
+      "alt": "Varinha da fada em movimento",
+      "provenance": "generated-vertical-keyframes-from-native-gif-and-original-scene"
+    },
+    {
+      "id": "estandarte-azul-original",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-azul-festa-aeddc7555907.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-azul-festa-aeddc7555907.webp",
+      "width": 1024,
+      "height": 1536,
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Estandarte azul na campanha",
+      "provenance": "recreated-campaign-scene-with-smiling-photo-references"
+    },
+    {
+      "id": "estandarte-azul-campanha-1",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-azul-campanha-1-683ad07f5e4c.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-azul-campanha-1-683ad07f5e4c.webp",
+      "width": 1024,
+      "height": 1536,
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Estandarte azul em uso",
+      "provenance": "reconstruction"
+    },
+    {
+      "id": "estandarte-azul-gif",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-azul-gif-vertical-b44d2eb8c200.gif",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-azul-gif-vertical-b44d2eb8c200.gif",
+      "width": 768,
+      "height": 1152,
+      "fullWidth": 768,
+      "fullHeight": 1152,
+      "alt": "Estandarte azul em movimento",
+      "provenance": "generated-vertical-keyframes-from-native-gif-and-approved-photo"
+    },
+    {
+      "id": "estandarte-verde-campanha-1",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-verde-campanha-fundo-externo-828a7a6e405b.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-verde-campanha-fundo-externo-828a7a6e405b.webp",
+      "width": 1024,
+      "height": 1536,
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Estandarte verde em uso",
+      "provenance": "generated-background-edit-from-selected-campaign-reference"
+    },
+    {
+      "id": "estandarte-verde-campanha-2",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-verde-campanha-trio-4eefb7767115.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-verde-campanha-trio-4eefb7767115.webp",
+      "width": 1024,
+      "height": 1536,
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Estandarte verde em uso",
+      "provenance": "generated-fresh-trio-from-original-costume-references"
+    },
+    {
+      "id": "estandarte-verde-campanha-3",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-verde-gif-close-vertical-9faa4038d32c.gif",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-verde-gif-close-vertical-9faa4038d32c.gif",
+      "width": 768,
+      "height": 1152,
+      "fullWidth": 768,
+      "fullHeight": 1152,
+      "alt": "Estandarte verde em uso",
+      "provenance": "generated-vertical-keyframes-from-native-gif-and-original-scene"
+    },
+    {
+      "id": "estandarte-floral-original",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-floral-original-7174be73442f.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-floral-original-7174be73442f.webp",
+      "width": 1080,
+      "height": 1350,
+      "fullWidth": 1080,
+      "fullHeight": 1350,
+      "alt": "Estandarte floral na campanha",
+      "provenance": "original-campaign"
+    },
+    {
+      "id": "estandarte-floral-campanha-1",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-floral-campanha-dragao-2f5021ecfa10.webp",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-floral-campanha-dragao-2f5021ecfa10.webp",
+      "width": 1024,
+      "height": 1536,
+      "fullWidth": 1024,
+      "fullHeight": 1536,
+      "alt": "Estandarte floral em uso",
+      "provenance": "generated-dragon-child-holding-floral-banner-outdoor"
+    },
+    {
+      "id": "estandarte-floral-campanha-2",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-carnaval-2024/estandarte-floral-gif-balanco-vertical-185293847580.gif",
+      "fullSrc": "portfolio/assets/design/hering-carnaval-2024/estandarte-floral-gif-balanco-vertical-185293847580.gif",
+      "width": 768,
+      "height": 1152,
+      "fullWidth": 768,
+      "fullHeight": 1152,
+      "alt": "Estandarte floral em uso",
+      "provenance": "generated-vertical-keyframes-from-native-gif-and-original-scene"
+    }
+  ],
+  "story": {
+    "editorial": true,
+    "navigation": true,
+    "galleryOrder": "source",
+    "coverPosition": "50% 40%",
+    "chapters": [
+      {
+        "id": "projeto",
+        "label": "O projeto",
+        "title": "O projeto",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Criei adereços e props para a campanha de Carnaval 2024 da Hering Kids. O conjunto reúne cabeça de robô, rabo de dragão, chapéu de sorvete, cinto de utilidades, cortina de fitas, varinha e estandartes.",
+              "Papelão, tecidos, fitas, pompons e superfícies com brilho dão forma às peças. A apresentação acompanha cada família, das referências visuais às imagens em uso."
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Síntese do projeto"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Campanha: Hering Kids — Carnaval 2024.",
+              "Participação: criação dos adereços e props apresentados.",
+              "Peças: seis acessórios e elementos de cena, mais três modelos de estandarte.",
+              "Apresentação: pesquisa visual, croquis, detalhes de construção, etapas de montagem e campanha."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "referencias",
+        "label": "Referências",
+        "title": "Pesquisa e conceituação",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Formas, materiais e cores aproximam fantasia infantil e referências do Carnaval. As pranchas reúnem imagens do Pinterest e looks da campanha."
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Cabeça de robô"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "robo-pesquisa",
+                "caption": "Cabeça de robô — referências de forma e materiais"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Rabo de dragão"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "dragao-pesquisa",
+                "caption": "Rabo de dragão — referências de forma e materiais"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Chapéu de sorvete"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "sorvete-pesquisa",
+                "caption": "Chapéu de sorvete — referências de forma e materiais"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Cinto de utilidades"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "cinto-pesquisa",
+                "caption": "Cinto de utilidades — referências de forma e materiais"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Cortina de fitas"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "fitas-pesquisa",
+                "caption": "Cortina de fitas — referências de forma e materiais"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Varinha da fada"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "varinha-pesquisa",
+                "caption": "Varinha da fada — referências de forma e materiais"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Estandartes"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "estandartes-pesquisa",
+                "caption": "Estandartes — referências de forma e materiais"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "desenhos",
+        "label": "Desenhos",
+        "title": "Estudos e croquis",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O primeiro desenho de cada peça apresenta a ideia geral. Ao lado, a prancha de detalhe aproxima materiais, camadas e pontos de montagem."
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Cabeça de robô"
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "div",
+              "attrs": {
+                "class": "hering-sketch-comparison"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "hering-handwritten-sheet hering-foot-original"
+                  },
+                  "children": [
+                    {
+                      "media": "robo-croqui"
+                    }
+                  ]
+                },
+                {
+                  "media": "robo-detalhe",
+                  "class": "hering-technical-study"
+                }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Rabo de dragão"
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "div",
+              "attrs": {
+                "class": "hering-sketch-comparison"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "hering-handwritten-sheet hering-foot-original"
+                  },
+                  "children": [
+                    {
+                      "media": "dragao-croqui"
+                    }
+                  ]
+                },
+                {
+                  "media": "dragao-detalhe",
+                  "class": "hering-technical-study"
+                }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Chapéu de sorvete"
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "div",
+              "attrs": {
+                "class": "hering-sketch-comparison"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "hering-handwritten-sheet hering-foot-original"
+                  },
+                  "children": [
+                    {
+                      "media": "sorvete-croqui"
+                    }
+                  ]
+                },
+                {
+                  "media": "sorvete-detalhe",
+                  "class": "hering-technical-study"
+                }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Cinto de utilidades"
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "div",
+              "attrs": {
+                "class": "hering-sketch-comparison"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "hering-handwritten-sheet hering-foot-original"
+                  },
+                  "children": [
+                    {
+                      "media": "cinto-croqui"
+                    }
+                  ]
+                },
+                {
+                  "media": "cinto-detalhe",
+                  "class": "hering-technical-study"
+                }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Cortina de fitas"
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "div",
+              "attrs": {
+                "class": "hering-sketch-comparison"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "hering-handwritten-sheet hering-foot-original"
+                  },
+                  "children": [
+                    {
+                      "media": "fitas-croqui"
+                    }
+                  ]
+                },
+                {
+                  "media": "fitas-detalhe",
+                  "class": "hering-technical-study"
+                }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Varinha da fada"
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "div",
+              "attrs": {
+                "class": "hering-sketch-comparison"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "hering-handwritten-sheet hering-foot-original"
+                  },
+                  "children": [
+                    {
+                      "media": "varinha-croqui"
+                    }
+                  ]
+                },
+                {
+                  "media": "varinha-detalhe",
+                  "class": "hering-technical-study"
+                }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Estandarte azul"
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "div",
+              "attrs": {
+                "class": "hering-sketch-comparison"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "hering-handwritten-sheet hering-foot-original"
+                  },
+                  "children": [
+                    {
+                      "media": "estandarte-azul-croqui"
+                    }
+                  ]
+                },
+                {
+                  "media": "estandarte-azul-detalhe",
+                  "class": "hering-technical-study"
+                }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Estandarte verde"
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "div",
+              "attrs": {
+                "class": "hering-sketch-comparison"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "hering-handwritten-sheet hering-foot-original"
+                  },
+                  "children": [
+                    {
+                      "media": "estandarte-verde-croqui"
+                    }
+                  ]
+                },
+                {
+                  "media": "estandarte-verde-detalhe",
+                  "class": "hering-technical-study"
+                }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Estandarte floral"
+          },
+          {
+            "type": "board",
+            "tree": {
+              "tag": "div",
+              "attrs": {
+                "class": "hering-sketch-comparison"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "hering-handwritten-sheet hering-foot-original"
+                  },
+                  "children": [
+                    {
+                      "media": "estandarte-floral-croqui"
+                    }
+                  ]
+                },
+                {
+                  "media": "estandarte-floral-detalhe",
+                  "class": "hering-technical-study"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": "construcao",
+        "label": "Construção",
+        "title": "Construção e acabamento",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "As sequências mostram a preparação dos materiais, a montagem e a aplicação dos acabamentos."
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Cabeça de robô"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "robo-construcao",
+                "caption": "Preparação dos materiais, montagem e acabamento"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Rabo de dragão"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "dragao-construcao",
+                "caption": "Preparação dos materiais, montagem e acabamento"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Chapéu de sorvete"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "sorvete-construcao",
+                "caption": "Preparação dos materiais, montagem e acabamento"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Cinto de utilidades"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "cinto-construcao",
+                "caption": "Preparação dos materiais, montagem e acabamento"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Cortina de fitas"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "fitas-construcao",
+                "caption": "Preparação dos materiais, montagem e acabamento"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Varinha da fada"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "varinha-construcao",
+                "caption": "Preparação dos materiais, montagem e acabamento"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Estandarte azul"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "estandarte-azul-construcao",
+                "caption": "Preparação dos materiais, montagem e acabamento"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Estandarte verde"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "estandarte-verde-construcao",
+                "caption": "Preparação dos materiais, montagem e acabamento"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Estandarte floral"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "estandarte-floral-construcao",
+                "caption": "Preparação dos materiais, montagem e acabamento"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "campanha",
+        "label": "Na campanha",
+        "title": "As peças na campanha",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Fotografias e pequenos loops mostram os adereços no corpo, os detalhes de acabamento e o movimento das peças."
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Cabeça de robô"
+          },
+          {
+            "type": "media",
+            "layout": "three",
+            "alignEdges": true,
+            "items": [
+              {
+                "id": "robo-original"
+              },
+              {
+                "id": "robo-campanha-1"
+              },
+              {
+                "id": "robo-gif"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Rabo de dragão"
+          },
+          {
+            "type": "media",
+            "layout": "three",
+            "alignEdges": true,
+            "items": [
+              {
+                "id": "dragao-original"
+              },
+              {
+                "id": "dragao-campanha-1"
+              },
+              {
+                "id": "dragao-gif"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Chapéu de sorvete"
+          },
+          {
+            "type": "media",
+            "layout": "three",
+            "alignEdges": true,
+            "items": [
+              {
+                "id": "sorvete-original"
+              },
+              {
+                "id": "sorvete-campanha-1"
+              },
+              {
+                "id": "sorvete-gif"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Cinto de utilidades"
+          },
+          {
+            "type": "media",
+            "layout": "three",
+            "alignEdges": true,
+            "items": [
+              {
+                "id": "cinto-original"
+              },
+              {
+                "id": "cinto-campanha-1"
+              },
+              {
+                "id": "cinto-gif"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Varinha da fada"
+          },
+          {
+            "type": "media",
+            "layout": "three",
+            "alignEdges": true,
+            "items": [
+              {
+                "id": "varinha-campanha-1"
+              },
+              {
+                "id": "varinha-campanha-2"
+              },
+              {
+                "id": "varinha-gif"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Estandarte azul"
+          },
+          {
+            "type": "media",
+            "layout": "three",
+            "alignEdges": true,
+            "items": [
+              {
+                "id": "estandarte-azul-original"
+              },
+              {
+                "id": "estandarte-azul-campanha-1"
+              },
+              {
+                "id": "estandarte-azul-gif"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Estandarte verde"
+          },
+          {
+            "type": "media",
+            "layout": "three",
+            "alignEdges": true,
+            "items": [
+              {
+                "id": "estandarte-verde-campanha-1"
+              },
+              {
+                "id": "estandarte-verde-campanha-2"
+              },
+              {
+                "id": "estandarte-verde-campanha-3"
+              }
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Estandarte floral"
+          },
+          {
+            "type": "media",
+            "layout": "three",
+            "alignEdges": true,
+            "items": [
+              {
+                "id": "estandarte-floral-original"
+              },
+              {
+                "id": "estandarte-floral-campanha-1"
+              },
+              {
+                "id": "estandarte-floral-campanha-2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "creditos",
+        "label": "Créditos",
+        "title": "Ficha técnica",
+        "blocks": [
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Marca",
+                "names": "Hering Kids"
+              },
+              {
+                "role": "Criação dos adereços e props",
+                "names": "Bruno Nascimento"
+              },
+              {
+                "role": "Campanha",
+                "names": "Carnaval 2024"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

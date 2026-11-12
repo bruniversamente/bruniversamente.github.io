@@ -549,14 +549,7 @@
       "url": "https://www.behance.net/gallery/257744859/Hering-Kids-Fabula-Aderecos-e-props"
     }
   ],
-  "films": [
-    {
-      "title": "Filme da campanha",
-      "src": "https://www-ccv.adobe.io/v1/player/ccv/53ax3sAjeMP/embed?api_key=behance1&bgcolor=%23191919",
-      "url": "https://www.behance.net/gallery/257744859/Hering-Kids-Fabula-Aderecos-e-props",
-      "poster": "portfolio/assets/design/hering-fabula-film/frame-real-19s-a46e192b91d8/poster.png"
-    }
-  ],
+  "films": [],
   "story": {
     "editorial": true,
     "navigation": true,
@@ -1176,22 +1169,6 @@
                 "id": "m007"
               }
             ]
-          }
-        ]
-      },
-      {
-        "id": "filme-da-campanha",
-        "label": "Filme",
-        "title": "A campanha em movimento",
-        "blocks": [
-          {
-            "type": "text",
-            "paragraphs": [
-              "No filme da campanha, os adereços acompanham os gestos e os movimentos das crianças."
-            ]
-          },
-          {
-            "type": "films"
           }
         ]
       },

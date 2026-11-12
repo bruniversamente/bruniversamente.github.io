@@ -678,12 +678,6 @@
       "src": "https://www-ccv.adobe.io/v1/player/ccv/UEyvXjhgaV_/embed?api_key=behance1&bgcolor=%23191919",
       "url": "https://www.behance.net/gallery/257787803/Hering-Kids-Carnaval-2023-Aderecos-e-figurino",
       "poster": "portfolio/assets/design/hering-carnaval-film-posters/construcao-primeiro-frame.jpg"
-    },
-    {
-      "title": "Filme da campanha",
-      "src": "https://www-ccv.adobe.io/v1/player/ccv/LRXj2GPq8L3/embed?api_key=behance1&bgcolor=%23191919",
-      "url": "https://www.behance.net/gallery/257787803/Hering-Kids-Carnaval-2023-Aderecos-e-figurino",
-      "poster": "portfolio/assets/design/hering-carnaval-film-posters/campanha-primeiro-frame.jpg"
     }
   ],
   "story": {
@@ -1125,6 +1119,9 @@
                 "caption": "Tiara com olhinhos montada"
               }
             ]
+          },
+          {
+            "type": "films"
           }
         ]
       },
@@ -1269,23 +1266,6 @@
               }
             ],
             "layout": "two"
-          }
-        ]
-      },
-      {
-        "id": "filme-da-campanha",
-        "label": "Filme",
-        "title": "A campanha em movimento",
-        "blocks": [
-          {
-            "type": "embed",
-            "film": {
-              "title": "Filme da campanha",
-              "src": "https://www-ccv.adobe.io/v1/player/ccv/LRXj2GPq8L3/embed?api_key=behance1&bgcolor=%23191919",
-              "url": "https://www.behance.net/gallery/257787803/Hering-Kids-Carnaval-2023-Aderecos-e-figurino",
-              "poster": "portfolio/assets/design/hering-carnaval-film-posters/campanha-primeiro-frame.jpg",
-              "hideSourceLink": true
-            }
           }
         ]
       },

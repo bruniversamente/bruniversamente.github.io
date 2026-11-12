@@ -1,6 +1,6 @@
 {
-  "release": "schema-20261110",
-  "date": "2026-11-10",
+  "release": "hering-carnaval-2024-20261112",
+  "date": "2026-11-12",
   "areas": [
     "dados",
     "design",
@@ -18,6 +18,7 @@
       "dados-05"
     ],
     "design": [
+      "hering-carnaval-2024",
       "hering-carnaval",
       "hering-fabula",
       "hering-pequenos-exploradores",
@@ -92,13 +93,13 @@
   },
   "area_counts": {
     "dados": 5,
-    "design": 9,
+    "design": 10,
     "beleza": 30,
     "consultoria": 15,
     "produtos": 5,
     "software": 3
   },
-  "active_projects": 67,
+  "active_projects": 68,
   "software_projects": [
     "rakestra-app",
     "rakestra-gestao",

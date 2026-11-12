@@ -100,18 +100,6 @@
       "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
     },
     {
-      "id": "m007",
-      "type": "video",
-      "src": "portfolio/assets/beleza/strobo-stromboli/filme-strobo-e5621e1854/video.mp4",
-      "width": 1280,
-      "height": 720,
-      "fullSrc": "portfolio/assets/beleza/strobo-stromboli/filme-strobo-e5621e1854/video.mp4",
-      "fullWidth": 1280,
-      "fullHeight": 720,
-      "alt": "Filme STROBO",
-      "poster": "portfolio/assets/beleza/strobo-stromboli/filme-strobo-2a3a97f236/1280w.avif"
-    },
-    {
       "id": "m008",
       "type": "video",
       "src": "portfolio/assets/beleza/strobo-stromboli/timelapse-beleza-c112afc3ff/video.mp4",
@@ -201,29 +189,6 @@
               }
             ],
             "layout": "three"
-          }
-        ]
-      },
-      {
-        "id": "em-movimento",
-        "title": "Em movimento",
-        "label": "Em movimento",
-        "blocks": [
-          {
-            "type": "text",
-            "paragraphs": [
-              "A STROBO criou Stromboli a partir dos vulcões, com preto, cinza, vermelho e prata."
-            ]
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m007",
-                "caption": "Filme STROBO"
-              }
-            ],
-            "layout": "single"
           }
         ]
       },

@@ -57,16 +57,6 @@
       "alt": "Menino com rádio e comunicador na campanha Pequenos exploradores"
     },
     {
-      "id": "filme",
-      "type": "video",
-      "src": "portfolio/assets/design/hering-pequenos-exploradores/filme/pequenos-exploradores.mp4",
-      "poster": "portfolio/assets/design/hering-pequenos-exploradores/filme/poster.jpg",
-      "width": 1920,
-      "height": 1080,
-      "alt": "Pequenos exploradores · Filme da campanha Hering Kids",
-      "caption": "Filme da campanha Hering Kids. Publicação de Lucas Vidal no Vimeo."
-    },
-    {
       "id": "ia-01",
       "type": "image",
       "src": "portfolio/assets/design/hering-pequenos-exploradores/reconstrucoes-ia/01-comunicador-retrato-reconstrucao-ia-v1.png",
@@ -145,19 +135,6 @@
               "ia-05"
             ],
             "alignEdges": true
-          }
-        ]
-      },
-      {
-        "id": "filme-da-campanha",
-        "label": "Filme da campanha",
-        "title": "Filme da campanha",
-        "blocks": [
-          {
-            "type": "media",
-            "items": [
-              "filme"
-            ]
           }
         ]
       }

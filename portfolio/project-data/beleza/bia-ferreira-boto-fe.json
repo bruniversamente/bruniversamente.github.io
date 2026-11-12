@@ -125,42 +125,6 @@
       "alt": "Preparação da beleza diante do espelho",
       "srcset": "portfolio/assets/beleza/bia-ferreira-boto-fe/foto-04-1c25b75bef/image.avif 777w",
       "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
-    },
-    {
-      "id": "m009",
-      "type": "video",
-      "src": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-01-59aef1574f/video.mp4",
-      "width": 720,
-      "height": 1280,
-      "fullSrc": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-01-59aef1574f/video.mp4",
-      "fullWidth": 720,
-      "fullHeight": 1280,
-      "alt": "Preparação da beleza",
-      "poster": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-01-4c5943c2aa/image.avif"
-    },
-    {
-      "id": "m010",
-      "type": "video",
-      "src": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-02-949d5c0f51/video.mp4",
-      "width": 720,
-      "height": 1280,
-      "fullSrc": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-02-949d5c0f51/video.mp4",
-      "fullWidth": 720,
-      "fullHeight": 1280,
-      "alt": "Equipe no set",
-      "poster": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-02-ec29763222/image.avif"
-    },
-    {
-      "id": "m011",
-      "type": "video",
-      "src": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-03-569296c0d1/video.mp4",
-      "width": 720,
-      "height": 1280,
-      "fullSrc": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-03-569296c0d1/video.mp4",
-      "fullWidth": 720,
-      "fullHeight": 1280,
-      "alt": "Elenco em cena",
-      "poster": "portfolio/assets/beleza/bia-ferreira-boto-fe/backstage-03-8e840d00cf/image.avif"
     }
   ],
   "links": [],
@@ -239,28 +203,10 @@
         ]
       },
       {
-        "id": "nos-bastidores",
-        "title": "Nos bastidores",
-        "label": "Nos bastidores",
+        "id": "creditos",
+        "title": "Ficha técnica",
+        "label": "Créditos",
         "blocks": [
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m009",
-                "caption": "Preparação da beleza"
-              },
-              {
-                "id": "m010",
-                "caption": "Equipe no set"
-              },
-              {
-                "id": "m011",
-                "caption": "Elenco em cena"
-              }
-            ],
-            "layout": "three"
-          },
           {
             "type": "credits",
             "items": [

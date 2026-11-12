@@ -48,18 +48,6 @@
       "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
     },
     {
-      "id": "m003",
-      "type": "video",
-      "src": "portfolio/assets/beleza/arole-natureza-artificial/natureza-artificial-backstage-8e1055fd5a/video.mp4",
-      "width": 720,
-      "height": 1280,
-      "fullSrc": "portfolio/assets/beleza/arole-natureza-artificial/natureza-artificial-backstage-8e1055fd5a/video.mp4",
-      "fullWidth": 720,
-      "fullHeight": 1280,
-      "alt": "Backstage da campanha A.ROLÊ",
-      "poster": "portfolio/assets/beleza/arole-natureza-artificial/natureza-artificial-backstage-bc65938abc/image.avif"
-    },
-    {
       "id": "m004",
       "type": "image",
       "src": "portfolio/assets/beleza/arole-natureza-artificial/selection-21-6c48cf2157/image.avif",
@@ -118,13 +106,9 @@
             "items": [
               {
                 "id": "m002"
-              },
-              {
-                "id": "m003",
-                "caption": "Backstage"
               }
             ],
-            "layout": "two"
+            "layout": "single"
           },
           {
             "type": "media",

@@ -672,14 +672,7 @@
       "url": "https://www.behance.net/gallery/257787803/Hering-Kids-Carnaval-2023-Aderecos-e-figurino"
     }
   ],
-  "films": [
-    {
-      "title": "Construção dos adereços",
-      "src": "https://www-ccv.adobe.io/v1/player/ccv/UEyvXjhgaV_/embed?api_key=behance1&bgcolor=%23191919",
-      "url": "https://www.behance.net/gallery/257787803/Hering-Kids-Carnaval-2023-Aderecos-e-figurino",
-      "poster": "portfolio/assets/design/hering-carnaval-film-posters/construcao-primeiro-frame.jpg"
-    }
-  ],
+  "films": [],
   "story": {
     "editorial": true,
     "navigation": true,
@@ -780,7 +773,8 @@
                 "id": "m022",
                 "caption": "Pesquisa e conceituação: camiseta de guizos e tambor"
               }
-            ]
+            ],
+            "layout": "single"
           },
           {
             "type": "media",
@@ -789,7 +783,8 @@
                 "id": "m023",
                 "caption": "Pesquisa e conceituação: flores e borboletas"
               }
-            ]
+            ],
+            "layout": "single"
           },
           {
             "type": "media",
@@ -798,7 +793,8 @@
                 "id": "m024",
                 "caption": "Pesquisa e conceituação: ombreiras coloridas"
               }
-            ]
+            ],
+            "layout": "single"
           },
           {
             "type": "media",
@@ -807,7 +803,8 @@
                 "id": "m025",
                 "caption": "Pesquisa e conceituação: tiara e olhinhos na roupa"
               }
-            ]
+            ],
+            "layout": "single"
           },
           {
             "type": "media",
@@ -816,7 +813,8 @@
                 "id": "m026",
                 "caption": "Pesquisa e conceituação: fitas coloridas"
               }
-            ]
+            ],
+            "layout": "single"
           },
           {
             "type": "media",
@@ -825,7 +823,8 @@
                 "id": "m027",
                 "caption": "Pesquisa e conceituação: chapéu e pompons"
               }
-            ]
+            ],
+            "layout": "single"
           }
         ]
       },
@@ -1119,9 +1118,6 @@
                 "caption": "Tiara com olhinhos montada"
               }
             ]
-          },
-          {
-            "type": "films"
           }
         ]
       },

@@ -85,18 +85,6 @@
       "alt": "Registro frontal de ateliê com balaclava preta e babados vermelhos de crochê",
       "srcset": "portfolio/assets/beleza/headpieces-de-croche/babados-frontal-fundo-neutro-editorial-4981628977/640w.avif 640w, portfolio/assets/beleza/headpieces-de-croche/babados-frontal-fundo-neutro-editorial-4981628977/image.avif 1086w",
       "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
-    },
-    {
-      "id": "m006",
-      "type": "video",
-      "src": "portfolio/assets/beleza/headpieces-de-croche/headpieces-croche-timelapse-30s-catwalk-af3f1c1038/video.mp4",
-      "width": 720,
-      "height": 1280,
-      "fullSrc": "portfolio/assets/beleza/headpieces-de-croche/headpieces-croche-timelapse-30s-catwalk-af3f1c1038/video.mp4",
-      "fullWidth": 720,
-      "fullHeight": 1280,
-      "alt": "Timelapse da construção e maquiagem com balaclava de crochê",
-      "poster": "portfolio/assets/beleza/headpieces-de-croche/timelapse-croche-28ae91bcaa/image.avif"
     }
   ],
   "links": [],
@@ -143,22 +131,6 @@
               }
             ],
             "layout": "two"
-          }
-        ]
-      },
-      {
-        "id": "construcao-e-maquiagem",
-        "title": "Construção e maquiagem",
-        "label": "Construção e maquiagem",
-        "blocks": [
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m006"
-              }
-            ],
-            "layout": "single"
           }
         ]
       }

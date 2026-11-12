@@ -111,18 +111,6 @@
       "alt": "Bastidores da Alexei: maquiagem branca, olhos azuis, blush rosa e lábios vermelhos",
       "srcset": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/backstage-rosto-branco-475cbc7974/640w.avif 640w, portfolio/assets/beleza/alexei-casa-de-criadores-2022/backstage-rosto-branco-475cbc7974/image.avif 1080w",
       "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
-    },
-    {
-      "id": "m008",
-      "type": "video",
-      "src": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-backstage-2022-512011ebfd/video.mp4",
-      "width": 720,
-      "height": 1280,
-      "fullSrc": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-backstage-2022-512011ebfd/video.mp4",
-      "fullWidth": 720,
-      "fullHeight": 1280,
-      "alt": "Alexei",
-      "poster": "portfolio/assets/beleza/alexei-casa-de-criadores-2022/alexei-backstage-poster-f6a5daab84/image.avif"
     }
   ],
   "links": [],
@@ -183,32 +171,6 @@
               }
             ],
             "layout": "two"
-          }
-        ]
-      },
-      {
-        "id": "beleza-nos-bastidores",
-        "title": "Beleza nos bastidores",
-        "label": "Beleza nos bastidores",
-        "blocks": [
-          {
-            "type": "caption",
-            "text": "Casa de Criadores · 2022"
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Registro do look antes do desfile."
-            ]
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m008"
-              }
-            ],
-            "layout": "single"
           }
         ]
       }

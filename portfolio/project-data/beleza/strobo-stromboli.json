@@ -98,42 +98,6 @@
       "alt": "Três vistas do look preto com botas brancas",
       "srcset": "portfolio/assets/beleza/strobo-stromboli/preto-sequencia-4d92695ba9/640w.avif 640w, portfolio/assets/beleza/strobo-stromboli/preto-sequencia-4d92695ba9/image.avif 1440w",
       "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
-    },
-    {
-      "id": "m008",
-      "type": "video",
-      "src": "portfolio/assets/beleza/strobo-stromboli/timelapse-beleza-c112afc3ff/video.mp4",
-      "width": 720,
-      "height": 1280,
-      "fullSrc": "portfolio/assets/beleza/strobo-stromboli/timelapse-beleza-c112afc3ff/video.mp4",
-      "fullWidth": 720,
-      "fullHeight": 1280,
-      "alt": "Timelapse da maquiagem",
-      "poster": "portfolio/assets/beleza/strobo-stromboli/timelapse-beleza-f22699925c/image.avif"
-    },
-    {
-      "id": "m009",
-      "type": "video",
-      "src": "portfolio/assets/beleza/strobo-stromboli/stop-motion-01dd42f48c/video.mp4",
-      "width": 720,
-      "height": 1280,
-      "fullSrc": "portfolio/assets/beleza/strobo-stromboli/stop-motion-01dd42f48c/video.mp4",
-      "fullWidth": 720,
-      "fullHeight": 1280,
-      "alt": "Stop motion da beleza",
-      "poster": "portfolio/assets/beleza/strobo-stromboli/stop-motion-d03d86b797/image.avif"
-    },
-    {
-      "id": "m010",
-      "type": "video",
-      "src": "portfolio/assets/beleza/strobo-stromboli/no-set-4daf508ac2/video.mp4",
-      "width": 720,
-      "height": 1280,
-      "fullSrc": "portfolio/assets/beleza/strobo-stromboli/no-set-4daf508ac2/video.mp4",
-      "fullWidth": 720,
-      "fullHeight": 1280,
-      "alt": "No set",
-      "poster": "portfolio/assets/beleza/strobo-stromboli/no-set-131e8d92f8/image.avif"
     }
   ],
   "links": [],
@@ -193,28 +157,10 @@
         ]
       },
       {
-        "id": "beleza-e-bastidores",
-        "title": "Beleza e bastidores",
-        "label": "Beleza e bastidores",
+        "id": "creditos",
+        "title": "Ficha técnica",
+        "label": "Créditos",
         "blocks": [
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m008",
-                "caption": "Timelapse da maquiagem"
-              },
-              {
-                "id": "m009",
-                "caption": "Stop motion da beleza"
-              },
-              {
-                "id": "m010",
-                "caption": "No set"
-              }
-            ],
-            "layout": "three"
-          },
           {
             "type": "credits",
             "items": [

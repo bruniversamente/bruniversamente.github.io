@@ -113,18 +113,6 @@
       "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
     },
     {
-      "id": "m008",
-      "type": "video",
-      "src": "portfolio/assets/beleza/augusto-amparo-transmutacao-textil/backstage-beleza-2accf64494/video.mp4",
-      "width": 720,
-      "height": 1280,
-      "fullSrc": "portfolio/assets/beleza/augusto-amparo-transmutacao-textil/backstage-beleza-2accf64494/video.mp4",
-      "fullWidth": 720,
-      "fullHeight": 1280,
-      "alt": "Backstage da maquiagem",
-      "poster": "portfolio/assets/beleza/augusto-amparo-transmutacao-textil/backstage-video-c8a4405e3a/image.avif"
-    },
-    {
       "id": "m009",
       "type": "image",
       "src": "portfolio/assets/beleza/augusto-amparo-transmutacao-textil/backstage-olhos-ada626e95b/image.avif",
@@ -238,16 +226,13 @@
             "type": "media",
             "items": [
               {
-                "id": "m008"
-              },
-              {
                 "id": "m009"
               },
               {
                 "id": "m010"
               }
             ],
-            "layout": "three"
+            "layout": "two"
           },
           {
             "type": "credits",

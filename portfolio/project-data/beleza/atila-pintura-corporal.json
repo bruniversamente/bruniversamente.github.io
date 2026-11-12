@@ -85,30 +85,6 @@
       "alt": "Torso com pintura roxa e adereço amarelo em espiral",
       "srcset": "portfolio/assets/beleza/atila-pintura-corporal/torso-f46d487fb2/640w.avif 640w, portfolio/assets/beleza/atila-pintura-corporal/torso-f46d487fb2/image.avif 1536w",
       "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
-    },
-    {
-      "id": "m006",
-      "type": "video",
-      "src": "portfolio/assets/beleza/atila-pintura-corporal/atila-timelapse-adereco-30s-catwalk-60b8567fa5/video.mp4",
-      "width": 720,
-      "height": 1280,
-      "fullSrc": "portfolio/assets/beleza/atila-pintura-corporal/atila-timelapse-adereco-30s-catwalk-60b8567fa5/video.mp4",
-      "fullWidth": 720,
-      "fullHeight": 1280,
-      "alt": "Construção do adereço",
-      "poster": "portfolio/assets/beleza/atila-pintura-corporal/timelapse-adereco-a9ff042c60/image.avif"
-    },
-    {
-      "id": "m007",
-      "type": "video",
-      "src": "portfolio/assets/beleza/atila-pintura-corporal/atila-timelapse-maquiagem-30s-catwalk-242a077da0/video.mp4",
-      "width": 720,
-      "height": 1280,
-      "fullSrc": "portfolio/assets/beleza/atila-pintura-corporal/atila-timelapse-maquiagem-30s-catwalk-242a077da0/video.mp4",
-      "fullWidth": 720,
-      "fullHeight": 1280,
-      "alt": "Maquiagem e pintura corporal",
-      "poster": "portfolio/assets/beleza/atila-pintura-corporal/timelapse-maquiagem-61a8a0d6f1/image.avif"
     }
   ],
   "links": [],
@@ -142,27 +118,6 @@
               }
             ],
             "layout": "gallery"
-          }
-        ]
-      },
-      {
-        "id": "construcao-e-pintura",
-        "title": "Construção e pintura",
-        "label": "Construção e pintura",
-        "blocks": [
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m006",
-                "caption": "Construção do adereço"
-              },
-              {
-                "id": "m007",
-                "caption": "Maquiagem e pintura corporal"
-              }
-            ],
-            "layout": "two"
           }
         ]
       }

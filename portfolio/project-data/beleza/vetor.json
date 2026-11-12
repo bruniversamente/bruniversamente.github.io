@@ -137,30 +137,6 @@
       "alt": "Página dupla com as fotografias finais da Revista Vetor",
       "srcset": "portfolio/assets/beleza/vetor/pagina-dupla-6a6127c472/640w.avif 640w, portfolio/assets/beleza/vetor/pagina-dupla-6a6127c472/1280w.avif 1280w, portfolio/assets/beleza/vetor/pagina-dupla-6a6127c472/image.avif 1920w",
       "sizes": "(max-width:700px) calc(100vw - 48px), 70vw"
-    },
-    {
-      "id": "m010",
-      "type": "video",
-      "src": "portfolio/assets/beleza/vetor/editorial-final-2edb8babf5/video.mp4",
-      "width": 640,
-      "height": 1138,
-      "fullSrc": "portfolio/assets/beleza/vetor/editorial-final-2edb8babf5/video.mp4",
-      "fullWidth": 640,
-      "fullHeight": 1138,
-      "alt": "Peça final em movimento",
-      "poster": "portfolio/assets/beleza/vetor/headpiece-final-e38671226c/image.avif"
-    },
-    {
-      "id": "m011",
-      "type": "video",
-      "src": "portfolio/assets/beleza/vetor/backstage-completo-2e1be70704/video.mp4",
-      "width": 720,
-      "height": 1280,
-      "fullSrc": "portfolio/assets/beleza/vetor/backstage-completo-2e1be70704/video.mp4",
-      "fullWidth": 720,
-      "fullHeight": 1280,
-      "alt": "Making of completo",
-      "poster": "portfolio/assets/beleza/vetor/tecido-7ece6b9576/image.avif"
     }
   ],
   "links": [],
@@ -275,53 +251,6 @@
                 "names": "Bruno Nascimento",
                 "links": []
               }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "videos-de-backstage",
-        "title": "Vídeos de backstage",
-        "label": "Vídeos de backstage",
-        "blocks": [
-          {
-            "type": "text",
-            "title": "Peça final em movimento",
-            "paragraphs": []
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m010"
-              }
-            ],
-            "layout": "single"
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Registro final do editorial · 15 segundos"
-            ]
-          },
-          {
-            "type": "text",
-            "title": "Making of completo",
-            "paragraphs": []
-          },
-          {
-            "type": "media",
-            "items": [
-              {
-                "id": "m011"
-              }
-            ],
-            "layout": "single"
-          },
-          {
-            "type": "text",
-            "paragraphs": [
-              "Construção da headpiece, figurino, maquiagem e ensaio · 3 minutos e 49 segundos"
             ]
           }
         ]

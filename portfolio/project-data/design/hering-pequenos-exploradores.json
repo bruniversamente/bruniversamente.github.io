@@ -7,21 +7,8 @@
     "Produção de props",
     "Campanha de moda infantil"
   ],
-  "intro": "Produção de props para Pequenos exploradores, campanha da Hering Kids de 2023.",
-  "credits": [
-    {
-      "role": "Marca",
-      "names": "Hering Kids"
-    },
-    {
-      "role": "Produção de props",
-      "names": "Bruno Nascimento"
-    },
-    {
-      "role": "Publicações de origem",
-      "names": "302.estudio"
-    }
-  ],
+  "intro": "Produção de props para Pequenos exploradores, campanha da Hering Kids de 2023: capacete, walkie, capa metalizada e rádio espacial.",
+  "credits": [],
   "cover": {
     "id": "capa-horizontal-ia",
     "type": "image",
@@ -31,7 +18,7 @@
     "height": 941,
     "fullWidth": 1672,
     "fullHeight": 941,
-    "alt": "Hering Kids ? r?dio e comunicador ? capa horizontal adaptada por IA"
+    "alt": "Rádio espacial e comunicador na campanha Pequenos exploradores"
   },
   "media": [
     {
@@ -43,7 +30,7 @@
       "height": 941,
       "fullWidth": 1672,
       "fullHeight": 941,
-      "alt": "Hering Kids ? r?dio e comunicador ? capa horizontal adaptada por IA"
+      "alt": "Rádio espacial e comunicador na campanha Pequenos exploradores"
     },
     {
       "id": "m005",
@@ -65,7 +52,7 @@
       "height": 1402,
       "fullWidth": 1122,
       "fullHeight": 1402,
-      "alt": "Retrato com comunicador · reconstrução por IA a partir de print da campanha"
+      "alt": "Retrato com walkie na campanha"
     },
     {
       "id": "ia-02",
@@ -76,40 +63,227 @@
       "height": 1402,
       "fullWidth": 1122,
       "fullHeight": 1402,
-      "alt": "Capacete com fones e antenas · reconstrução por IA a partir de print da campanha"
+      "alt": "Capacete espacial com fones e antenas"
     },
     {
       "id": "ia-03",
       "type": "image",
-      "src": "portfolio/assets/design/hering-pequenos-exploradores/reconstrucoes-ia/03-capa-metalizada-salto-reconstrucao-ia-v1.png",
-      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/reconstrucoes-ia/03-capa-metalizada-salto-reconstrucao-ia-v1.png",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/capa-campanha-costas-tecido-realista-v4.webp",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/capa-campanha-costas-tecido-realista-v4.webp",
       "width": 1122,
       "height": 1402,
       "fullWidth": 1122,
       "fullHeight": 1402,
-      "alt": "Salto com capa metalizada · reconstrução por IA a partir de print da campanha"
+      "alt": "Menina em pé ligeiramente de lado, sorrindo e segurando uma lateral da capa prateada longa e lisa"
     },
     {
-      "id": "ia-04",
+      "id": "helmet-construcao",
       "type": "image",
-      "src": "portfolio/assets/design/hering-pequenos-exploradores/reconstrucoes-ia/04-capacete-na-mao-reconstrucao-ia-v1.png",
-      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/reconstrucoes-ia/04-capacete-na-mao-reconstrucao-ia-v1.png",
-      "width": 1122,
-      "height": 1402,
-      "fullWidth": 1122,
-      "fullHeight": 1402,
-      "alt": "Exploração com capacete na mão · reconstrução por IA a partir de print da campanha"
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/helmet-construcao-bolinhas-tekbond-v3.webp",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/helmet-construcao-bolinhas-tekbond-v3.webp",
+      "width": 2172,
+      "height": 724,
+      "fullWidth": 2172,
+      "fullHeight": 724,
+      "alt": "Capacete espacial: materiais, pintura prata com proteção e montagem final"
     },
     {
-      "id": "ia-05",
+      "id": "walkie-construcao",
       "type": "image",
-      "src": "portfolio/assets/design/hering-pequenos-exploradores/reconstrucoes-ia/05-lupa-rocha-reconstrucao-ia-v1.png",
-      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/reconstrucoes-ia/05-lupa-rocha-reconstrucao-ia-v1.png",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/walkie-construcao-do-zero-v4.webp",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/walkie-construcao-do-zero-v4.webp",
+      "width": 2172,
+      "height": 724,
+      "fullWidth": 2172,
+      "fullHeight": 724,
+      "alt": "Walkie: materiais, pintura prata com proteção e acabamento colorido"
+    },
+    {
+      "id": "capa-construcao",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/capa-construcao-finais-do-zero-v5.webp",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/capa-construcao-finais-do-zero-v5.webp",
+      "width": 2172,
+      "height": 724,
+      "fullWidth": 2172,
+      "fullHeight": 724,
+      "alt": "Capa metalizada: tecido, barbante grosso, tesoura e fita métrica verde enrolada; montagem e acabamento"
+    },
+    {
+      "id": "radio-construcao",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/radio-construcao-preto-madeira-torneiras-v2.webp",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/radio-construcao-preto-madeira-torneiras-v2.webp",
+      "width": 2172,
+      "height": 724,
+      "fullWidth": 2172,
+      "fullHeight": 724,
+      "alt": "Rádio espacial: gravador preto e amadeirado, pintura prata e montagem das duas torneiras"
+    },
+    {
+      "id": "helmet-base",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/helmet-base-pintura-corrida-v1.webp",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/helmet-base-pintura-corrida-v1.webp",
+      "width": 940,
+      "height": 1672,
+      "fullWidth": 940,
+      "fullHeight": 1672,
+      "alt": "Base do capacete com pintura de corrida"
+    },
+    {
+      "id": "walkie-base",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/walkie-base-colorido-sem-antena-v1.webp",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/walkie-base-colorido-sem-antena-v1.webp",
+      "width": 940,
+      "height": 1672,
+      "fullWidth": 940,
+      "fullHeight": 1672,
+      "alt": "Base do walkie colorido, sem antena"
+    },
+    {
+      "id": "radio-base",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/radio-base-preto-madeira-v1.webp",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/radio-base-preto-madeira-v1.webp",
+      "width": 940,
+      "height": 1672,
+      "fullWidth": 940,
+      "fullHeight": 1672,
+      "alt": "Gravador de rolos preto com detalhes amadeirados"
+    },
+    {
+      "id": "helmet-campanha",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/helmet-campanha.webp",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/helmet-campanha.webp",
+      "width": 1080,
+      "height": 1350,
+      "fullWidth": 1080,
+      "fullHeight": 1350,
+      "alt": "Capacete espacial com fones e duas antenas na campanha"
+    },
+    {
+      "id": "capa-campanha",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/capa-campanha-salto-inteiro-v2.webp",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/capa-campanha-salto-inteiro-v2.webp",
       "width": 1122,
       "height": 1402,
       "fullWidth": 1122,
       "fullHeight": 1402,
-      "alt": "Lupa e rocha cenográfica · reconstrução por IA a partir de print da campanha"
+      "alt": "Menina saltando com os dois pés fora do chão e a capa prateada inteira ao vento"
+    },
+    {
+      "id": "radio-campanha",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/radio-campanha.webp",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/radio-campanha.webp",
+      "width": 1080,
+      "height": 1350,
+      "fullWidth": 1080,
+      "fullHeight": 1350,
+      "alt": "Rádio espacial na locação da campanha"
+    },
+    {
+      "id": "radio-walkie-acabamento",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/walkie-campanha-costas-digitando-v1.webp",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/walkie-campanha-costas-digitando-v1.webp",
+      "width": 1122,
+      "height": 1402,
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Menino visto de costas apertando os botões coloridos do walkie prateado"
+    },
+    {
+      "id": "helmet-loop",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/helmet-campanha.gif",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/helmet-campanha.gif",
+      "width": 512,
+      "height": 432,
+      "fullWidth": 512,
+      "fullHeight": 432,
+      "alt": "Capacete espacial em movimento no filme da campanha"
+    },
+    {
+      "id": "walkie-loop",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/walkie-campanha.gif",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/walkie-campanha.gif",
+      "width": 512,
+      "height": 432,
+      "fullWidth": 512,
+      "fullHeight": 432,
+      "alt": "Walkie em movimento no filme da campanha"
+    },
+    {
+      "id": "radio-loop",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/radio-campanha.gif",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/radio-campanha.gif",
+      "width": 512,
+      "height": 432,
+      "fullWidth": 512,
+      "fullHeight": 432,
+      "alt": "Rádio espacial em movimento no filme da campanha"
+    },
+    {
+      "id": "helmet-pesquisa",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/pesquisa-v1/helmet-pesquisa.svg",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/pesquisa-v1/helmet-pesquisa.svg",
+      "width": 1600,
+      "height": 1100,
+      "fullWidth": 1600,
+      "fullHeight": 1100,
+      "alt": "Pesquisa e conceituação: Capacete espacial"
+    },
+    {
+      "id": "walkie-pesquisa",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/pesquisa-v1/walkie-pesquisa.svg",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/pesquisa-v1/walkie-pesquisa.svg",
+      "width": 1600,
+      "height": 1100,
+      "fullWidth": 1600,
+      "fullHeight": 1100,
+      "alt": "Pesquisa e conceituação: Walkie"
+    },
+    {
+      "id": "capa-pesquisa",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/pesquisa-v1/capa-pesquisa.svg",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/pesquisa-v1/capa-pesquisa.svg",
+      "width": 1600,
+      "height": 1100,
+      "fullWidth": 1600,
+      "fullHeight": 1100,
+      "alt": "Pesquisa e conceituação: Capa metalizada"
+    },
+    {
+      "id": "radio-pesquisa",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/pesquisa-v1/radio-pesquisa.svg",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/pesquisa-v1/radio-pesquisa.svg",
+      "width": 1600,
+      "height": 1100,
+      "fullWidth": 1600,
+      "fullHeight": 1100,
+      "alt": "Pesquisa e conceituação: Rádio espacial"
+    },
+    {
+      "id": "capa-grupo-campanha",
+      "type": "image",
+      "src": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/campanha-tres-modelos-editorial-natural-v2.webp",
+      "fullSrc": "portfolio/assets/design/hering-pequenos-exploradores/case-completo-v1/campanha-tres-modelos-editorial-natural-v2.webp",
+      "width": 1122,
+      "height": 1402,
+      "fullWidth": 1122,
+      "fullHeight": 1402,
+      "alt": "Três crianças caminhando com os props espaciais, com a menina da capa em primeiro plano"
     }
   ],
   "story": {
@@ -119,22 +293,318 @@
     "coverPosition": "50% 50%",
     "chapters": [
       {
-        "id": "objetos-de-exploracao",
-        "label": "Objetos de exploração",
-        "title": "Objetos de exploração",
+        "id": "projeto",
+        "label": "O projeto",
+        "title": "O projeto",
         "blocks": [
           {
-            "type": "media",
-            "layout": "three",
+            "type": "board",
+            "tree": {
+              "tag": "div",
+              "attrs": {
+                "class": "exploradores-project-logos"
+              },
+              "children": [
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "exploradores-project-lettering"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "attrs": {
+                        "src": "portfolio/assets/design/hering-pequenos-exploradores/lettering/pequenos-exploradores-v1.webp",
+                        "alt": "Pequenos exploradores",
+                        "width": "2172",
+                        "height": "724"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "attrs": {
+                    "class": "exploradores-hering-logo"
+                  },
+                  "children": [
+                    {
+                      "tag": "img",
+                      "attrs": {
+                        "src": "portfolio/assets/design/hering-fabula-editorial/hering-fabula-lockup-99f0e9f5bda2/image.png",
+                        "alt": "Hering Kids",
+                        "loading": "lazy"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "type": "text",
+            "paragraphs": [
+              "Produzi props para a campanha Pequenos exploradores da Hering Kids. O conjunto reúne um capacete com fones e antenas, um walkie, uma capa metalizada e um rádio espacial.",
+              "Nas peças, combinei objetos adaptados e superfícies prateadas. O capacete e os aparelhos acompanham as brincadeiras de comunicação; a capa ganha volume nos saltos e no movimento do corpo."
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Síntese do projeto"
+          },
+          {
+            "type": "list",
             "items": [
-              "m005",
-              "ia-01",
-              "ia-02",
-              "ia-03",
-              "ia-04",
-              "ia-05"
+              "Marca: Hering Kids.",
+              "Campanha: Pequenos exploradores, 2023.",
+              "Participação: produção de props.",
+              "Peças: capacete, walkie, capa metalizada e rádio espacial."
+            ]
+          }
+        ]
+      },
+      {
+        "id": "referencias",
+        "label": "Referências",
+        "title": "Pesquisa e conceituação",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "O universo espacial da campanha combina a brincadeira de explorar com antenas, aparelhos de comunicação e superfícies prateadas. As pranchas aproximam os looks da coleção de referências visuais para os quatro props.",
+              "Nos azuis e no malva das roupas, o prateado acrescenta brilho e contraste. Formas de equipamentos antigos e figurinos espaciais ajudam a explicar a linguagem das peças."
+            ]
+          },
+          {
+            "type": "text",
+            "title": "Capacete espacial",
+            "paragraphs": []
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "helmet-pesquisa",
+                "caption": "Capacete espacial · look, referências visuais e paleta"
+              }
+            ],
+            "layout": "single"
+          },
+          {
+            "type": "text",
+            "title": "Walkie",
+            "paragraphs": []
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "walkie-pesquisa",
+                "caption": "Walkie · look, referências visuais e paleta"
+              }
+            ],
+            "layout": "single"
+          },
+          {
+            "type": "text",
+            "title": "Capa metalizada",
+            "paragraphs": []
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "capa-pesquisa",
+                "caption": "Capa metalizada · look, referências visuais e paleta"
+              }
+            ],
+            "layout": "single"
+          },
+          {
+            "type": "text",
+            "title": "Rádio espacial",
+            "paragraphs": []
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "radio-pesquisa",
+                "caption": "Rádio espacial · look, referências visuais e paleta"
+              }
+            ],
+            "layout": "single"
+          }
+        ]
+      },
+      {
+        "id": "construcao",
+        "label": "Construção",
+        "title": "Construção e acabamento",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "As sequências acompanham a preparação das bases, a montagem dos componentes e os acabamentos das quatro peças."
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Peças encontradas em antiquários"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "helmet-base",
+                "caption": "Base do capacete"
+              },
+              {
+                "id": "walkie-base",
+                "caption": "Base do walkie"
+              },
+              {
+                "id": "radio-base",
+                "caption": "Gravador de rolos"
+              }
+            ],
+            "alignEdges": true,
+            "layout": "three"
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Capacete espacial"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "helmet-construcao",
+                "caption": "Preparação, montagem e acabamento"
+              }
             ],
             "alignEdges": true
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Walkie"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "walkie-construcao",
+                "caption": "Preparação, montagem e acabamento"
+              }
+            ],
+            "alignEdges": true
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Capa metalizada"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "capa-construcao",
+                "caption": "Preparação, montagem e acabamento"
+              }
+            ],
+            "alignEdges": true
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Rádio espacial"
+          },
+          {
+            "type": "media",
+            "items": [
+              {
+                "id": "radio-construcao",
+                "caption": "Preparação, montagem e acabamento"
+              }
+            ],
+            "alignEdges": true
+          }
+        ]
+      },
+      {
+        "id": "campanha",
+        "label": "Na campanha",
+        "title": "As peças na campanha",
+        "blocks": [
+          {
+            "type": "text",
+            "paragraphs": [
+              "Fotografias e trechos do filme mostram os props no corpo, os detalhes de acabamento e o movimento das peças."
+            ]
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Capacete espacial"
+          },
+          {
+            "type": "media",
+            "items": [
+              "helmet-campanha",
+              "ia-02",
+              "helmet-loop"
+            ],
+            "alignEdges": true,
+            "layout": "three"
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Walkie"
+          },
+          {
+            "type": "media",
+            "items": [
+              "ia-01",
+              "radio-walkie-acabamento",
+              "walkie-loop"
+            ],
+            "alignEdges": true,
+            "layout": "three"
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Capa metalizada"
+          },
+          {
+            "type": "media",
+            "items": [
+              "capa-campanha",
+              "ia-03",
+              "capa-grupo-campanha"
+            ],
+            "alignEdges": true,
+            "layout": "three"
+          },
+          {
+            "type": "text",
+            "paragraphs": [],
+            "title": "Rádio espacial"
+          },
+          {
+            "type": "media",
+            "items": [
+              "m005",
+              "radio-campanha",
+              "radio-loop"
+            ],
+            "alignEdges": true,
+            "layout": "three"
           }
         ]
       },
@@ -145,6 +615,30 @@
         "blocks": [
           {
             "type": "films"
+          }
+        ]
+      },
+      {
+        "id": "creditos",
+        "label": "Créditos",
+        "title": "Ficha técnica",
+        "blocks": [
+          {
+            "type": "credits",
+            "items": [
+              {
+                "role": "Marca",
+                "names": "Hering Kids"
+              },
+              {
+                "role": "Produção de props",
+                "names": "Bruno Nascimento"
+              },
+              {
+                "role": "Publicações de origem",
+                "names": "302.estudio"
+              }
+            ]
           }
         ]
       }

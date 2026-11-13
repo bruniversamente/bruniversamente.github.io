@@ -1,0 +1,846 @@
+{
+  "version": 1,
+  "phone": "5541988155435",
+  "paths": [
+    {
+      "id": "sites",
+      "title": "Quero um site",
+      "short": "Sites",
+      "description": "Apresente seu negócio e facilite o contato.",
+      "icon": "site",
+      "heading": "Escolha o site para o seu negócio.",
+      "intro": "Compare o tamanho da apresentação e o nível de personalização.",
+      "options": [
+        {
+          "id": "entrada",
+          "parts": [
+            "entrada"
+          ],
+          "title": "Essencial",
+          "description": "Para colocar sua apresentação no ar.",
+          "features": [
+            "Uma página com até 5 seções",
+            "Até 5 serviços e 8 imagens",
+            "WhatsApp, localização e redes",
+            "Design para computador e celular"
+          ],
+          "label": "Black Friday",
+          "recommended": false,
+          "initial": 479.9,
+          "monthly": 0,
+          "details": [
+            "Uma página com até cinco seções em uma estrutura de apresentação definida, adaptada à identidade do cliente.",
+            "Apresentação de até cinco serviços, até oito imagens e informações de contato.",
+            "Botão de WhatsApp, localização e links para redes ou agenda já existente.",
+            "Versão para computador e celular, preparação básica para busca, conexão do domínio e publicação."
+          ],
+          "limits": "Uma rodada consolidada de revisão. O cliente fornece marca, textos e imagens. O valor promocional é R$479,90, conforme a campanha; o regular é R$989.",
+          "revisions": 1,
+          "regular": 989
+        },
+        {
+          "id": "site",
+          "parts": [
+            "site"
+          ],
+          "title": "Personalizado",
+          "description": "Para apresentar seu negócio com uma composição própria.",
+          "features": [
+            "Uma página com até 7 seções",
+            "Até 6 serviços e 10 imagens",
+            "WhatsApp e formulário de contato",
+            "Design próprio e publicação"
+          ],
+          "label": "Mais possibilidades",
+          "recommended": true,
+          "initial": 1990,
+          "monthly": 0,
+          "details": [
+            "Uma página com até sete seções e composição visual própria, para computador e celular.",
+            "Apresentação da empresa, até seis serviços, galeria com até dez imagens e contato.",
+            "WhatsApp, mapa e um formulário simples com até cinco campos e envio conferido.",
+            "Preparação de títulos, descrições e imagens para busca e carregamento; conexão do domínio e publicação."
+          ],
+          "limits": "O cliente fornece identidade, informações, textos e imagens. A organização e os ajustes desses materiais entram; redação do zero e novas funções têm escopo próprio.",
+          "revisions": 2
+        },
+        {
+          "id": "institucional",
+          "parts": [
+            "institucional"
+          ],
+          "title": "Institucional",
+          "description": "Para organizar sua empresa em mais páginas.",
+          "features": [
+            "Até 5 páginas para sua empresa",
+            "Até 10 serviços e 25 imagens",
+            "Galeria, mapa e formulário",
+            "Design próprio e publicação"
+          ],
+          "label": null,
+          "recommended": false,
+          "initial": 3490,
+          "monthly": 0,
+          "details": [
+            "Até cinco páginas fixas, como início, empresa, serviços, galeria e contato, com layout para computador e celular.",
+            "Apresentação de até dez serviços e inserção de até 25 imagens fornecidas.",
+            "Um formulário simples, WhatsApp, mapa e links para canais externos.",
+            "Preparação para busca, organização dos conteúdos fornecidos, conexão do domínio e publicação."
+          ],
+          "limits": "Blog, edição pelo cliente, idioma adicional, áreas restritas e integrações próprias entram como complementos.",
+          "revisions": 2
+        }
+      ]
+    },
+    {
+      "id": "marca",
+      "title": "Preciso de marca e site",
+      "short": "Marca + site",
+      "description": "Comece com uma identidade e uma presença coerentes.",
+      "icon": "brand",
+      "heading": "Sua marca e seu site, juntos.",
+      "intro": "Escolha entre a identidade essencial e um conjunto com mais aplicações.",
+      "options": [
+        {
+          "id": "brand-0",
+          "parts": [
+            "marca",
+            "site"
+          ],
+          "title": "Marca + site",
+          "description": "Uma identidade e um site feitos para conversar entre si.",
+          "features": [
+            "Logo, variações, cores e tipografia",
+            "Guia curto da sua marca",
+            "Site personalizado com até 7 seções",
+            "Contato, formulário e publicação"
+          ],
+          "label": "Marca e site juntos",
+          "recommended": true,
+          "initial": 2990,
+          "monthly": 0,
+          "details": [
+            "Identidade essencial completa: logo, variações, cores, tipografia e guia curto.",
+            "Site de uma página personalizado, com até sete seções, até seis serviços, dez imagens e um formulário simples.",
+            "Aplicação da identidade aprovada no site e publicação."
+          ],
+          "limits": "O cliente fornece textos e imagens. Redação completa, fotos inéditas e manutenção mensal são complementos.",
+          "revisions": 2
+        },
+        {
+          "id": "brand-1",
+          "parts": [
+            "marca_aplicacoes",
+            "institucional"
+          ],
+          "title": "Marca + presença completa",
+          "description": "Sua identidade aplicada ao site e aos materiais do negócio.",
+          "features": [
+            "Identidade e 6 templates para redes",
+            "Cartão, assinatura e proposta editável",
+            "Site institucional com até 5 páginas",
+            "Contato, formulário e publicação"
+          ],
+          "label": null,
+          "recommended": false,
+          "initial": 5490,
+          "monthly": 0,
+          "details": [
+            "Identidade com aplicações completa, incluindo seis templates, cartão, assinatura e modelo de proposta.",
+            "Site institucional com até cinco páginas, dez serviços, 25 imagens e formulário simples.",
+            "Aplicação da marca nos materiais e no site, com publicação."
+          ],
+          "limits": "Os seis templates são modelos editáveis, sem gestão de publicações. Textos completos e mensalidades ficam separados.",
+          "revisions": 2
+        }
+      ]
+    },
+    {
+      "id": "divulgacao",
+      "title": "Quero divulgar meu negócio",
+      "short": "Divulgação",
+      "description": "Cuide do conteúdo, dos anúncios ou da busca.",
+      "icon": "growth",
+      "heading": "Escolha o que você quer acompanhar.",
+      "intro": "Cada opção atende a uma necessidade e tem cobrança mensal.",
+      "options": [
+        {
+          "id": "social",
+          "parts": [
+            "social"
+          ],
+          "title": "Conteúdo para Instagram",
+          "description": "Para manter o perfil ativo com conteúdo e publicação.",
+          "features": [
+            "8 publicações por mês",
+            "6 artes e 2 carrosséis de até 5 páginas",
+            "Legendas, calendário e agendamento",
+            "Relatório simples da conta"
+          ],
+          "label": "Conteúdo e publicação",
+          "recommended": true,
+          "initial": 0,
+          "monthly": 1190,
+          "details": [
+            "Calendário e oito publicações por mês: seis estáticas e dois carrosséis de até cinco páginas cada.",
+            "Oito legendas com chamadas para ação e preparação das imagens.",
+            "Agendamento ou publicação dos conteúdos aprovados em uma conta de Instagram.",
+            "Relatório simples com os indicadores disponíveis da conta e uma rodada de revisão do conjunto."
+          ],
+          "limits": "Captação, vídeos, anúncios e atendimento de comentários ou directs recebem escopo separado. Stories e republicação em outras redes não consomem vagas sem definição prévia.",
+          "revisions": 1
+        },
+        {
+          "id": "anuncios",
+          "parts": [
+            "anuncios"
+          ],
+          "title": "Anúncios locais",
+          "description": "Para divulgar uma oferta em um canal de anúncios.",
+          "features": [
+            "Uma campanha no Google ou Meta",
+            "Uma empresa e uma localidade",
+            "Textos e anúncios conforme o canal",
+            "Acompanhamento e relatório"
+          ],
+          "label": null,
+          "recommended": false,
+          "initial": 0,
+          "monthly": 790,
+          "details": [
+            "Gestão em Google Pesquisa ou Meta Ads, para uma empresa e uma localidade.",
+            "Uma campanha ativa; no Google, até dois grupos e quatro anúncios de texto; no Meta, até dois conjuntos e duas peças estáticas com textos.",
+            "Acompanhamento de termos ou públicos, ajustes e relatório mensal com dados disponíveis.",
+            "Organização da conta de anúncios e dos acessos existentes."
+          ],
+          "limits": "Verba dos anúncios paga pelo cliente. Página de destino e configuração da medição são separadas quando ausentes.",
+          "revisions": 1
+        },
+        {
+          "id": "seo",
+          "parts": [
+            "seo"
+          ],
+          "title": "Google e conteúdo",
+          "description": "Para trabalhar a presença do seu site nas buscas.",
+          "features": [
+            "Até 10 termos de busca acompanhados",
+            "2 páginas otimizadas por mês",
+            "2 artigos de até 600 palavras",
+            "Relatório e recomendações"
+          ],
+          "label": null,
+          "recommended": false,
+          "initial": 0,
+          "monthly": 1290,
+          "details": [
+            "Pesquisa e acompanhamento de até dez termos relacionados ao negócio.",
+            "Otimização de até duas páginas existentes por mês.",
+            "Dois artigos de até 600 palavras cada, com informações fornecidas ou validadas pelo cliente.",
+            "Relatório de busca e navegação com recomendações para o próximo conjunto de conteúdos."
+          ],
+          "limits": "Exige site editável e acessos. Reformulação do site, compra de links, novos modelos de página e correções extensas recebem orçamento separado. Sem promessa de posição no Google.",
+          "revisions": 1
+        }
+      ]
+    }
+  ],
+  "addons": [
+    {
+      "id": "textos",
+      "title": "Textos para o seu site",
+      "description": "Até 5 textos, com total de 1.500 palavras, e uma bio.",
+      "initial": 690,
+      "monthly": 0
+    },
+    {
+      "id": "marca",
+      "title": "Identidade visual",
+      "description": "Logo, variações, cores, tipografia e guia curto.",
+      "initial": 1290,
+      "monthly": 0
+    },
+    {
+      "id": "imagens",
+      "title": "Preparação de imagens",
+      "description": "Tratamento de até 12 fotos e até 2 montagens simples.",
+      "initial": 190,
+      "monthly": 0
+    },
+    {
+      "id": "cuidado",
+      "title": "Cuidado do site",
+      "description": "Verificações e até 2 alterações simples por mês.",
+      "initial": 0,
+      "monthly": 149
+    },
+    {
+      "id": "medicao",
+      "title": "Medição do site",
+      "description": "Configuração de acesso e até 3 ações de contato medidas.",
+      "initial": 490,
+      "monthly": 0
+    },
+    {
+      "id": "local",
+      "title": "Perfil no Google",
+      "description": "Organização do perfil para um negócio elegível.",
+      "initial": 299,
+      "monthly": 0
+    },
+    {
+      "id": "reels",
+      "title": "Edição de dois vídeos",
+      "description": "Até 60 segundos por vídeo, com material fornecido.",
+      "initial": 590,
+      "monthly": 0
+    },
+    {
+      "id": "analise",
+      "title": "Leitura dos resultados",
+      "description": "Relatório de até 6 indicadores e ações recomendadas.",
+      "initial": 0,
+      "monthly": 490
+    },
+    {
+      "id": "site",
+      "title": "Página para sua oferta",
+      "description": "Site personalizado com até 7 seções e contato.",
+      "initial": 1990,
+      "monthly": 0
+    }
+  ],
+  "allowed_addons": {
+    "sites": [
+      "textos",
+      "marca",
+      "imagens",
+      "cuidado",
+      "medicao",
+      "local"
+    ],
+    "marca": [
+      "textos",
+      "imagens",
+      "cuidado",
+      "medicao",
+      "local",
+      "reels"
+    ],
+    "divulgacao": []
+  },
+  "growth_addons": {
+    "social": [
+      "reels",
+      "analise",
+      "marca",
+      "imagens"
+    ],
+    "anuncios": [
+      "site",
+      "medicao",
+      "textos",
+      "analise"
+    ],
+    "seo": [
+      "medicao",
+      "cuidado",
+      "analise",
+      "textos"
+    ]
+  },
+  "packages": {
+    "site": {
+      "id": "site",
+      "name": "Site de uma página personalizado",
+      "price": 1990,
+      "includes": [
+        "Uma página com até sete seções e composição visual própria, para computador e celular.",
+        "Apresentação da empresa, até seis serviços, galeria com até dez imagens e contato.",
+        "WhatsApp, mapa e um formulário simples com até cinco campos e envio conferido.",
+        "Preparação de títulos, descrições e imagens para busca e carregamento; conexão do domínio e publicação."
+      ],
+      "limits": "O cliente fornece identidade, informações, textos e imagens. A organização e os ajustes desses materiais entram; redação do zero e novas funções têm escopo próprio."
+    },
+    "institucional": {
+      "id": "institucional",
+      "name": "Site institucional",
+      "price": 3490,
+      "includes": [
+        "Até cinco páginas fixas, como início, empresa, serviços, galeria e contato, com layout para computador e celular.",
+        "Apresentação de até dez serviços e inserção de até 25 imagens fornecidas.",
+        "Um formulário simples, WhatsApp, mapa e links para canais externos.",
+        "Preparação para busca, organização dos conteúdos fornecidos, conexão do domínio e publicação."
+      ],
+      "limits": "Blog, edição pelo cliente, idioma adicional, áreas restritas e integrações próprias entram como complementos."
+    },
+    "catalogo": {
+      "id": "catalogo",
+      "name": "Catálogo ou portfólio online",
+      "price": 4490,
+      "includes": [
+        "Até cinco páginas fixas e cadastro inicial de até 20 produtos ou projetos em até quatro categorias.",
+        "Um modelo de apresentação dos itens, reaproveitado no conjunto, com até três imagens por item.",
+        "Filtro por categoria e solicitação de orçamento pelo WhatsApp, sem operação de compra.",
+        "Layout para computador e celular, preparação para busca e publicação."
+      ],
+      "limits": "O cliente fornece as informações e imagens dos itens. Carrinho, pagamentos, estoque, painel de edição e cadastro adicional recebem orçamento próprio."
+    },
+    "interface": {
+      "id": "interface",
+      "name": "Design de interface e protótipo",
+      "price": 3900,
+      "includes": [
+        "Organização de um fluxo principal e desenho de até seis telas diferentes de site, aplicativo ou painel.",
+        "Uma direção visual, componentes usados nessas telas e estados básicos dos controles presentes no fluxo.",
+        "Versões para computador e celular quando o produto exigir as duas; protótipo navegável.",
+        "Arquivo editável, estilos e orientações para implementação."
+      ],
+      "limits": "Entrega de design e protótipo. Programação, pesquisa com participantes e novas telas não entram neste valor."
+    },
+    "entrada": {
+      "id": "entrada",
+      "name": "Site Essencial",
+      "price": 989,
+      "promo": 479.9,
+      "includes": [
+        "Uma página com até cinco seções em uma estrutura de apresentação definida, adaptada à identidade do cliente.",
+        "Apresentação de até cinco serviços, até oito imagens e informações de contato.",
+        "Botão de WhatsApp, localização e links para redes ou agenda já existente.",
+        "Versão para computador e celular, preparação básica para busca, conexão do domínio e publicação."
+      ],
+      "limits": "Uma rodada consolidada de revisão. O cliente fornece marca, textos e imagens. O valor promocional é R$479,90, conforme a campanha; o regular é R$989."
+    },
+    "marca": {
+      "id": "marca",
+      "name": "Identidade essencial",
+      "price": 1290,
+      "includes": [
+        "Briefing da marca e uma direção visual para desenvolvimento.",
+        "Logo principal e até três variações de assinatura derivadas da solução escolhida.",
+        "Paleta, tipografia e guia curto de aplicação.",
+        "Arquivos vetoriais e versões para uso digital, com organização da entrega."
+      ],
+      "limits": "Criação de nome, mascote, ilustrações e registro de marca têm escopo separado. As variações de assinatura são adaptações do mesmo logo."
+    },
+    "marca_aplicacoes": {
+      "id": "marca_aplicacoes",
+      "name": "Identidade com aplicações",
+      "price": 2490,
+      "includes": [
+        "Tudo da Identidade essencial.",
+        "Até dois grafismos ou padrões de apoio e guia de uso com aplicações.",
+        "Seis templates estáticos editáveis para redes sociais, em um formato principal.",
+        "Cartão de visita, assinatura de e-mail e modelo de proposta comercial com até quatro páginas."
+      ],
+      "limits": "Impressão, redação da proposta, peças adicionais e compra de fontes ou imagens não entram no valor."
+    },
+    "naming": {
+      "id": "naming",
+      "name": "Nome e apresentação da marca",
+      "price": 2490,
+      "includes": [
+        "Briefing, público, referências e critérios para o nome.",
+        "Cinco opções de nome com justificativas e pesquisa preliminar de disponibilidade de domínio e perfis.",
+        "Desenvolvimento de três opções de slogan para o nome selecionado.",
+        "Texto de apresentação de até 300 palavras e guia curto de tom de voz."
+      ],
+      "limits": "A pesquisa preliminar não garante registro ou exclusividade. Honorários especializados, taxas e processo de registro são separados."
+    },
+    "textos": {
+      "id": "textos",
+      "name": "Textos para apresentação do negócio",
+      "price": 690,
+      "includes": [
+        "Organização das informações fornecidas pelo cliente.",
+        "Até cinco textos para páginas ou seções do site, com limite total de 1.500 palavras.",
+        "Títulos, chamadas para contato e adaptação do vocabulário ao público.",
+        "Uma bio de até 150 palavras derivada da mesma apresentação."
+      ],
+      "limits": "Entrevista técnica extensa, artigos, tradução e apuração de informações que o cliente não forneceu recebem orçamento separado."
+    },
+    "comercial": {
+      "id": "comercial",
+      "name": "Kit de apresentação comercial",
+      "price": 990,
+      "includes": [
+        "Uma apresentação com até dez slides, usando o conteúdo fornecido.",
+        "Modelo de proposta comercial editável com até quatro páginas.",
+        "Uma assinatura de e-mail visual.",
+        "PDF e arquivos editáveis das peças."
+      ],
+      "limits": "Usa a identidade existente; identidade nova, redação completa e programação de assinatura com recursos específicos têm escopo próprio."
+    },
+    "imagens": {
+      "id": "imagens",
+      "name": "Preparação de imagens para divulgação",
+      "price": 190,
+      "includes": [
+        "Tratamento básico de até 12 fotos fornecidas: cor, luz, recorte e enquadramento.",
+        "Até duas montagens simples com fundo ou aplicação da marca, dentro dessas 12 imagens.",
+        "Exportação para site e uma adaptação de formato para redes."
+      ],
+      "limits": "Retoque avançado, reconstrução de produto, imagem inédita e modelagem 3D recebem orçamento separado."
+    },
+    "reels": {
+      "id": "reels",
+      "name": "Duas edições de vídeo",
+      "price": 590,
+      "includes": [
+        "Dois vídeos finais, cada um com até 60 segundos, a partir de material selecionado pelo cliente.",
+        "Cortes, organização, textos na tela, legendas e tratamento básico de áudio e cor.",
+        "Um formato principal por vídeo e capa para cada publicação."
+      ],
+      "limits": "Captação, animação complexa e locução têm escopo próprio. Música e imagens precisam de licença compatível."
+    },
+    "fotos": {
+      "id": "fotos",
+      "name": "Fotografia simples de produtos",
+      "price": 390,
+      "includes": [
+        "Planejamento visual de uma seleção de produtos do mesmo negócio.",
+        "Captação simples em um local e uma ambientação.",
+        "Quinze fotografias finais com tratamento básico e versões para site e redes."
+      ],
+      "limits": "Disponibilidade de produção local ou parceiro a confirmar por projeto. Deslocamento, modelos, locação, cenografia e produção especial são custos separados."
+    },
+    "artes": {
+      "id": "artes",
+      "name": "Kit avulso de artes",
+      "price": 450,
+      "includes": [
+        "Seis artes estáticas com uma direção visual compartilhada.",
+        "Um formato principal por arte.",
+        "Preparação dos arquivos finais para publicação."
+      ],
+      "limits": "O cliente fornece a identidade e os textos aprovados. Legendas, carrosséis, vídeos e publicação são serviços separados."
+    },
+    "cuidado": {
+      "id": "cuidado",
+      "name": "Cuidado do site",
+      "monthly": 149,
+      "includes": [
+        "Conferência do acesso ao site, certificado, links de contato e formulário existente.",
+        "Cópia ou versionamento compatível com a estrutura do site e acompanhamento dos vencimentos dos serviços.",
+        "Até duas alterações simples de conteúdo por mês, cada uma limitada a um texto de até 300 palavras ou uma imagem.",
+        "Registro das verificações e dos pedidos concluídos."
+      ],
+      "limits": "Para site de apresentação sem loja ou sistema próprio. Hospedagem, domínio, e-mail e novas funções são separados. Correção de defeito da entrega original não consome cota de conteúdo."
+    },
+    "cuidado_plus": {
+      "id": "cuidado_plus",
+      "name": "Cuidado e atualização do site",
+      "monthly": 299,
+      "includes": [
+        "As verificações e os registros do Cuidado do site.",
+        "Até cinco alterações simples por mês, nos mesmos limites de texto ou imagem.",
+        "Uma dessas cinco solicitações pode ser o cadastro de um item em modelo de catálogo já existente, com até três fotos e texto de até 300 palavras.",
+        "Resumo das atualizações e das pendências encontradas."
+      ],
+      "limits": "Nova página, novo layout, integração e intervenção em site de terceiro recebem escopo próprio. Os dois planos de cuidado são alternativas, sem soma das cotas."
+    },
+    "design_mensal": {
+      "id": "design_mensal",
+      "name": "Design mensal para redes",
+      "monthly": 690,
+      "includes": [
+        "Oito artes estáticas por mês, em um formato principal.",
+        "Uma direção visual compartilhada e organização dos arquivos.",
+        "Uma rodada consolidada de revisão do conjunto."
+      ],
+      "limits": "O cliente fornece marca, textos e imagens. Planejamento editorial, legendas, agendamento, carrosséis e vídeos não entram neste pacote."
+    },
+    "social": {
+      "id": "social",
+      "name": "Conteúdo e publicação",
+      "monthly": 1190,
+      "includes": [
+        "Calendário e oito publicações por mês: seis estáticas e dois carrosséis de até cinco páginas cada.",
+        "Oito legendas com chamadas para ação e preparação das imagens.",
+        "Agendamento ou publicação dos conteúdos aprovados em uma conta de Instagram.",
+        "Relatório simples com os indicadores disponíveis da conta e uma rodada de revisão do conjunto."
+      ],
+      "limits": "Captação, vídeos, anúncios e atendimento de comentários ou directs recebem escopo separado. Stories e republicação em outras redes não consomem vagas sem definição prévia."
+    },
+    "social_plus": {
+      "id": "social_plus",
+      "name": "Conteúdo e publicação ampliados",
+      "monthly": 1690,
+      "includes": [
+        "Calendário e 12 publicações por mês: oito estáticas e quatro carrosséis de até cinco páginas cada.",
+        "Doze legendas, preparação das imagens e publicação em uma conta de Instagram.",
+        "Quatro adaptações para stories derivadas das publicações, sem pautas adicionais.",
+        "Relatório com leitura dos indicadores disponíveis e recomendações; uma rodada de revisão do conjunto."
+      ],
+      "limits": "As 12 publicações já incluem os carrosséis. Captação, edição de vídeo, atendimento e gestão de anúncios ficam separados."
+    },
+    "infra": {
+      "id": "infra",
+      "name": "Configuração de domínio e e-mail",
+      "price": 249,
+      "includes": [
+        "Orientação para escolher e registrar um domínio na conta do cliente.",
+        "Conexão de um domínio ao site já disponível na hospedagem escolhida.",
+        "Configuração de um domínio de e-mail, até três caixas postais e registros de autenticação compatíveis com o serviço contratado.",
+        "Conferência de acesso ao site e de envio e recebimento de e-mail; entrega dos acessos e instruções."
+      ],
+      "limits": "Domínio, hospedagem e caixas postais são pagos ao fornecedor. Migração de acervo antigo e recuperação de contas têm escopo próprio. Se a conexão do domínio já estiver no pacote de site, cobrar apenas o complemento escolhido, sem duplicação."
+    },
+    "local": {
+      "id": "local",
+      "name": "Presença local no Google",
+      "price": 299,
+      "includes": [
+        "Organização ou criação de um Perfil da Empresa elegível, com acesso do cliente.",
+        "Categorias, descrição, contatos, endereço ou área de atendimento e até dez imagens fornecidas.",
+        "Links de site e contato, orientação para avaliações e conferência dos dados publicados."
+      ],
+      "limits": "Verificação e aprovação dependem da plataforma e da participação do responsável. Suspensão, disputa de propriedade e gestão contínua têm escopo próprio."
+    },
+    "medicao": {
+      "id": "medicao",
+      "name": "Medição inicial do site",
+      "price": 490,
+      "includes": [
+        "Configuração ou organização de GA4, Tag Manager e Search Console para um site.",
+        "Até três eventos básicos, como clique para contato, envio de formulário e acesso a uma página de confirmação.",
+        "Conferência dos eventos e guia dos indicadores disponíveis."
+      ],
+      "limits": "Depende de acessos e de formulário funcional. Comércio eletrônico, integração com CRM e captura de vendas no atendimento têm escopo próprio. Sem duplicar configurações incluídas em outro pacote."
+    },
+    "dashboard": {
+      "id": "dashboard",
+      "name": "Dashboard inicial",
+      "price": 1290,
+      "includes": [
+        "Definição de até seis indicadores para uma fonte de dados já organizada.",
+        "Um painel de até duas páginas, com filtros e identificação da origem dos dados.",
+        "Uma conexão nativa ou importação padronizada, conforme a ferramenta escolhida.",
+        "Conferência dos cálculos e entrega do painel com orientações de uso."
+      ],
+      "limits": "Faixa de proposta exploratória. Tratamento de base desorganizada, API própria, múltiplas fontes, atualização operada por Bruno e licenças são separados. A ferramenta será definida conforme o acesso do cliente."
+    },
+    "analise": {
+      "id": "analise",
+      "name": "Leitura mensal dos resultados",
+      "monthly": 490,
+      "includes": [
+        "Análise de até seis indicadores em até duas fontes já configuradas.",
+        "Relatório mensal com desempenho, limitações dos dados e até três ações recomendadas.",
+        "Uma rodada de esclarecimentos sobre o relatório."
+      ],
+      "limits": "Preço exploratório. Implantação, manutenção de conexões, mudanças no site, anúncios e execução das recomendações não entram por inferência."
+    },
+    "anuncios": {
+      "id": "anuncios",
+      "name": "Campanha local em um canal",
+      "monthly": 790,
+      "includes": [
+        "Gestão em Google Pesquisa ou Meta Ads, para uma empresa e uma localidade.",
+        "Uma campanha ativa; no Google, até dois grupos e quatro anúncios de texto; no Meta, até dois conjuntos e duas peças estáticas com textos.",
+        "Acompanhamento de termos ou públicos, ajustes e relatório mensal com dados disponíveis.",
+        "Organização da conta de anúncios e dos acessos existentes."
+      ],
+      "limits": "Verba dos anúncios paga pelo cliente. Página de destino e configuração da medição são separadas quando ausentes."
+    },
+    "seo": {
+      "id": "seo",
+      "name": "SEO local e conteúdo",
+      "monthly": 1290,
+      "includes": [
+        "Pesquisa e acompanhamento de até dez termos relacionados ao negócio.",
+        "Otimização de até duas páginas existentes por mês.",
+        "Dois artigos de até 600 palavras cada, com informações fornecidas ou validadas pelo cliente.",
+        "Relatório de busca e navegação com recomendações para o próximo conjunto de conteúdos."
+      ],
+      "limits": "Exige site editável e acessos. Reformulação do site, compra de links, novos modelos de página e correções extensas recebem orçamento separado. Sem promessa de posição no Google."
+    },
+    "crm": {
+      "id": "crm",
+      "name": "Organização inicial de contatos",
+      "price": 1490,
+      "includes": [
+        "Um funil comercial com até cinco etapas em CRM existente.",
+        "Até três modelos de mensagem e um formulário de captação conectado por recurso nativo.",
+        "Uma automação simples de aviso ou encaminhamento e teste do fluxo.",
+        "Orientação de uso e registro das etapas de atendimento."
+      ],
+      "limits": "Assinaturas, API de WhatsApp, integrações sob medida e limpeza ou migração de bases são separados. O preço pressupõe recursos nativos compatíveis."
+    }
+  },
+  "combos": [
+    {
+      "name": "Identidade e site de uma página",
+      "parts": [
+        "marca",
+        "site"
+      ],
+      "price": 2990,
+      "includes": [
+        "Identidade essencial completa: logo, variações, cores, tipografia e guia curto.",
+        "Site de uma página personalizado, com até sete seções, até seis serviços, dez imagens e um formulário simples.",
+        "Aplicação da identidade aprovada no site e publicação."
+      ],
+      "limits": "O cliente fornece textos e imagens. Redação completa, fotos inéditas e manutenção mensal são complementos.",
+      "separate_initial": 3280,
+      "separate_monthly": 0,
+      "initial_saving": 290,
+      "monthly_saving": 0
+    },
+    {
+      "name": "Identidade com aplicações e site institucional",
+      "parts": [
+        "marca_aplicacoes",
+        "institucional"
+      ],
+      "price": 5490,
+      "includes": [
+        "Identidade com aplicações completa, incluindo seis templates, cartão, assinatura e modelo de proposta.",
+        "Site institucional com até cinco páginas, dez serviços, 25 imagens e formulário simples.",
+        "Aplicação da marca nos materiais e no site, com publicação."
+      ],
+      "limits": "Os seis templates são modelos editáveis, sem gestão de publicações. Textos completos e mensalidades ficam separados.",
+      "separate_initial": 5980,
+      "separate_monthly": 0,
+      "initial_saving": 490,
+      "monthly_saving": 0
+    },
+    {
+      "name": "Site institucional com textos",
+      "parts": [
+        "institucional",
+        "textos"
+      ],
+      "price": 3990,
+      "includes": [
+        "Site institucional com até cinco páginas e os mesmos limites do pacote avulso.",
+        "Até cinco textos para as páginas, com limite total de 1.500 palavras, mais bio derivada.",
+        "Organização das informações, imagens fornecidas, contato, formulário e publicação."
+      ],
+      "limits": "O cliente valida as informações da empresa. Identidade nova, captação e conteúdo jurídico não entram neste conjunto.",
+      "separate_initial": 4180,
+      "separate_monthly": 0,
+      "initial_saving": 190,
+      "monthly_saving": 0
+    },
+    {
+      "name": "Catálogo e apresentação comercial",
+      "parts": [
+        "catalogo",
+        "comercial",
+        "imagens"
+      ],
+      "price": 5290,
+      "includes": [
+        "Catálogo online com até 20 itens em quatro categorias, até cinco páginas fixas e contato para orçamento.",
+        "Apresentação comercial de até dez slides, proposta editável e assinatura visual.",
+        "Tratamento básico de 12 fotos e até duas montagens simples dentro desse lote.",
+        "Arquivos editáveis dos materiais e publicação do catálogo."
+      ],
+      "limits": "As outras imagens do catálogo, quando necessárias, chegam prontas do cliente. Redação completa, impressão e operação de loja são complementos.",
+      "separate_initial": 5670,
+      "separate_monthly": 0,
+      "initial_saving": 380,
+      "monthly_saving": 0
+    },
+    {
+      "name": "Site com conteúdo presença local e medição",
+      "parts": [
+        "site",
+        "textos",
+        "local",
+        "medicao"
+      ],
+      "price": 3190,
+      "includes": [
+        "Site de uma página personalizado, com até sete seções.",
+        "Textos de apresentação com limite total de 1.500 palavras e bio derivada.",
+        "Perfil da Empresa no Google para negócio elegível, com até dez imagens fornecidas.",
+        "GA4, Tag Manager, Search Console e até três eventos básicos conferidos."
+      ],
+      "limits": "O perfil depende da verificação da plataforma. Acompanhamento de resultados, anúncios e manutenção são opcionais.",
+      "separate_initial": 3469,
+      "separate_monthly": 0,
+      "initial_saving": 279,
+      "monthly_saving": 0
+    },
+    {
+      "name": "Site com cuidado mensal",
+      "parts": [
+        "site",
+        "cuidado"
+      ],
+      "price": 1890,
+      "monthly": 149,
+      "includes": [
+        "Na implantação: Site de uma página personalizado, com publicação.",
+        "Na mensalidade: Cuidado do site, com verificações e até duas alterações simples de conteúdo.",
+        "Registro dos pedidos concluídos e acompanhamento de vencimentos."
+      ],
+      "limits": "Preço inicial e mensalidade aparecem separados na proposta. Hospedagem, domínio e e-mail são custos externos; nenhuma nova página entra como alteração simples.",
+      "separate_initial": 1990,
+      "separate_monthly": 149,
+      "initial_saving": 100,
+      "monthly_saving": 0
+    },
+    {
+      "name": "Página de campanha medição e anúncios",
+      "parts": [
+        "site",
+        "medicao",
+        "anuncios"
+      ],
+      "price": 2290,
+      "monthly": 790,
+      "includes": [
+        "Na implantação: página personalizada com até sete seções, orientada para uma oferta e contato.",
+        "Medição inicial com até três eventos, no escopo do pacote correspondente.",
+        "Na mensalidade: uma campanha local em Google Pesquisa ou Meta Ads, com os limites de grupos, conjuntos e anúncios definidos no pacote avulso."
+      ],
+      "limits": "O cliente fornece conteúdo e identidade; verba de anúncios separada. Redação do zero, captação e atendimento dos contatos são complementos. Operação responsável definida antes da venda.",
+      "separate_initial": 2480,
+      "separate_monthly": 790,
+      "initial_saving": 190,
+      "monthly_saving": 0
+    },
+    {
+      "name": "Site institucional painel e análise",
+      "parts": [
+        "institucional",
+        "medicao",
+        "dashboard",
+        "analise"
+      ],
+      "price": 4990,
+      "monthly": 490,
+      "includes": [
+        "Na implantação: site institucional com até cinco páginas e configuração da medição.",
+        "Dashboard com até duas páginas e seis indicadores, usando uma fonte organizada.",
+        "Na mensalidade: leitura de resultados em até duas fontes configuradas, relatório e até três ações recomendadas."
+      ],
+      "limits": "O valor de dados é exploratório. Alterações decorrentes da análise, integração de vendas e organização de bases recebem escopo próprio.",
+      "separate_initial": 5270,
+      "separate_monthly": 490,
+      "initial_saving": 280,
+      "monthly_saving": 0
+    },
+    {
+      "name": "Conteúdo publicado e leitura dos resultados",
+      "parts": [
+        "social",
+        "analise"
+      ],
+      "monthly": 1490,
+      "includes": [
+        "Oito publicações de Instagram: seis estáticas e dois carrosséis de até cinco páginas, com legendas e agendamento.",
+        "Relatório da conta e análise de até seis indicadores em até duas fontes configuradas.",
+        "Até três ações recomendadas, aproveitando o mesmo relatório para evitar entregas repetidas."
+      ],
+      "limits": "Ferramentas e medição precisam estar configuradas. Atendimento de comentários e directs, vídeo, anúncios e mudanças no site não entram neste pacote.",
+      "separate_initial": 0,
+      "separate_monthly": 1680,
+      "initial_saving": 0,
+      "monthly_saving": 190
+    }
+  ]
+}

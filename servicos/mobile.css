@@ -1,0 +1,86 @@
+/* Phone-only refinements. Desktop geometry and motion remain in their original files. */
+@media screen and (max-width:767px){
+  html{scroll-behavior:auto}
+  .inner{margin-inline:20px}
+  .hero .container{padding-top:28px}
+  .container{padding-block:44px}
+  .hero-copy{margin-top:44px}
+  .hero-mock{right:8px;top:12px;width:64%}
+  .hero-mock,.pricing-art-notebook{animation-name:mobile-notebook-float}
+  .hero-offer{min-width:0}
+  .card-contact .avatar,.card-contact .circle-arrow,.offer-cta>span{flex-shrink:0}
+
+  .process-grid{margin-top:40px;gap:24px}
+  .process-offer-stage{left:16px;width:calc(100% - 32px);min-width:0;top:16px}
+  .process-offer-window{left:0;width:100%}
+  .process-exact .process-copy{height:auto;padding:48px 24px 28px}
+  .process-exact .process-copy p{margin:0}
+  .project-names{padding-top:36px;gap:20px}
+  .about-note{padding:26px 22px;margin-bottom:48px}
+  .section-intro>p{margin-bottom:36px}
+  .benefit-track{margin-right:-20px;padding-right:20px}
+  .benefits .container,.work .container,.faq .container{padding-top:44px}
+  .work-board-content{padding:0 24px 32px}
+  .work-board-content .work-projects{gap:12px}
+  .work-board-content .work-projects a{display:block}
+  .services-board{padding:36px 24px}
+  .work-grid{gap:24px}
+
+  .path-tabs{margin:28px 0 36px}
+  .pricing-flex{gap:24px}
+  .pricing-art{min-height:0;padding:280px 26px 30px}
+  .pricing-art-notebook{width:82%;max-width:340px;left:9%;top:34px}
+  .pricing-art h3{font-size:44px;line-height:44px}
+  .offer-options button{min-height:44px}
+  .scope summary,.addons-details summary{min-height:44px;align-items:center}
+  .scope,.addons-details{padding-block:8px}
+  .addon{min-width:0}
+  .addon>span{min-width:0;overflow-wrap:anywhere}
+  .commercial-notes>div{padding:26px 22px}
+  .faq-left summary{min-height:44px;padding-right:40px}
+  .faq-left details{padding-bottom:18px}
+  .faq-card>.card-contact{font-size:13px;gap:10px}
+  .faq-card>.card-contact::before{width:32px;height:32px}
+  .faq-card>.card-contact .circle-arrow{margin-left:auto}
+  .footer .container{padding-block:44px}
+  .footer h2{margin-top:36px}
+  .footer-flex{gap:32px}
+  .conversation-box{min-width:0}
+  .conversation-box>.btn-white{min-height:52px;white-space:normal}
+  .footer-bottom{margin-top:28px}
+  dialog{max-height:calc(100svh - 24px);overscroll-behavior-y:contain;padding:22px}
+  .dialog-top{position:sticky;top:0;z-index:2;background:var(--paper);gap:12px;margin-bottom:18px}
+  .dialog-top button{width:44px;height:44px;flex:none}
+  dialog h2{font-size:34px;line-height:36px}
+  .dialog-actions>*{min-height:48px;text-align:center;justify-content:center}
+  /* Short entrances avoid temporarily pushing phone content outside its card. */
+  .reference-reveal-ready:not(.reference-revealed),
+  .process-exact.motion-ready:not(.process-visible){transform:none}
+  .reference-revealed,.process-exact.process-visible{
+    animation-name:benefit-fade-in;animation-duration:.35s;animation-delay:0s
+  }
+  .process-offer-stage.process-visible,.process-stack-entry.process-visible{
+    animation-duration:.35s;animation-delay:0s
+  }
+  @keyframes mobile-notebook-float{
+    0%,50%,100%{transform:translateY(0) rotate(0deg)}
+    25%{transform:translateY(-6px) rotate(2deg)}
+    75%{transform:translateY(-6px) rotate(-2deg)}
+  }
+}
+@media screen and (max-width:479px){
+  .pricing-art{padding-top:220px}
+}
+@media screen and (max-width:359px){
+  .inner{margin-inline:16px}
+  .benefit-track{margin-right:-16px;padding-right:16px}
+  .process-exact .process-copy{padding-inline:22px}
+  .offer-panel{padding:20px}
+  .pricing-art{padding-top:195px;padding-inline:22px}
+  .pricing-art h3{font-size:40px;line-height:42px}
+  .hero-offer>.card-contact{gap:8px}
+  .hero-offer>.card-contact small{font-size:11px}
+  .faq-card{padding:22px}
+  .faq-card>.card-contact{font-size:12px;gap:8px}
+  .conversation-box{padding:20px}
+}

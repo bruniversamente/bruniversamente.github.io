@@ -1,0 +1,104 @@
+/* Original reference artwork; only the service label is typeset over its old label. */
+.path-tabs button[data-path="sites"][aria-pressed="true"]{background:#1500ff;border-color:#1500ff;color:#fff}
+.path-tabs button[data-path="marca"][aria-pressed="true"]{background:#ff009a;border-color:#ff009a;color:#230d20}
+.path-tabs button[data-path="divulgacao"][aria-pressed="true"]{background:#ff8200;border-color:#ff8200;color:#241406}
+.offer-panel[data-path="sites"] .offer-label{background:#1500ff22;border-color:#8075ff66;color:#aaa1ff}
+.offer-panel[data-path="marca"] .offer-label{background:#ff009a15;border-color:#ff009a44;color:#ff72c8}
+.offer-panel[data-path="divulgacao"] .offer-label{background:#ff820015;border-color:#ff820044;color:#ffb35c}
+.offer-options button:nth-child(1){--option-bg:#101010}
+.offer-options button:nth-child(2){--option-bg:#282828}
+.offer-options button:nth-child(3){--option-bg:#404040}
+.offer-options button[data-option]{background:var(--option-bg,#1a1a1a);color:#bdb8bc;border-color:#fff4;box-shadow:none}
+.offer-options button[data-option][aria-pressed="false"]{border-color:transparent;box-shadow:inset 0 0 0 .5px #fff4}
+.offer-options button[data-option] small{color:#bbb}
+.offer-options button[data-option][aria-pressed="true"]{color:#fff;border-color:#fff9}
+.offer-options{height:var(--options-stable-height,auto);align-items:center;transition:grid-template-columns 220ms cubic-bezier(.23,1,.32,1)}
+.offer-options button[data-option]{min-width:0;transition:border-color 180ms ease,color 180ms ease,box-shadow 180ms ease,padding-block 220ms cubic-bezier(.23,1,.32,1),font-size 220ms cubic-bezier(.23,1,.32,1),line-height 220ms cubic-bezier(.23,1,.32,1)}
+.offer-options button[data-option] small{transition:font-size 220ms cubic-bezier(.23,1,.32,1)}
+.offer-options button[data-option][aria-pressed="true"]{padding-block:13px;font-size:13px;line-height:17px}
+.offer-options button[data-option][aria-pressed="true"] small{font-size:11px}
+@media(min-width:601px){
+  .offer-options:has(button:nth-child(1)[aria-pressed="true"]){grid-template-columns:1.08fr .96fr .96fr}
+  .offer-options:has(button:nth-child(2)[aria-pressed="true"]){grid-template-columns:.96fr 1.08fr .96fr}
+  .offer-options:has(button:nth-child(3)[aria-pressed="true"]){grid-template-columns:.96fr .96fr 1.08fr}
+  .offer-options.two:has(button:nth-child(1)[aria-pressed="true"]){grid-template-columns:1.04fr .96fr}
+  .offer-options.two:has(button:nth-child(2)[aria-pressed="true"]){grid-template-columns:.96fr 1.04fr}
+}
+@media(max-width:600px){.offer-options button[data-option][aria-pressed="true"]{padding-block:14px;font-size:15px}.offer-options button[data-option][aria-pressed="true"] small{font-size:13px}}
+@media(max-width:359px){.offer-options button[data-option][aria-pressed="true"]{font-size:14px}}
+@media(prefers-reduced-motion:reduce){.offer-options,.offer-options button[data-option],.offer-options button[data-option] small{transition:none}}
+.price-summary{display:grid;gap:20px}
+.payment-label{font-size:13px;line-height:18px;color:#bdb7bb;margin:0 0 10px}
+.payment-total .price-row{margin-bottom:0}
+.pricing-art{overflow:visible}
+.pricing-project-card{position:absolute;left:-19%;top:-35px;width:400px;min-width:520px;max-width:none;container-type:inline-size;pointer-events:none;animation:project-card-turn 16.5s linear infinite;transform-origin:center;filter:drop-shadow(0 10px 14px #00000029)}
+/* Keep the approved card face, excluding the heavy shadow baked into the PNG. */
+.pricing-project-card>img{display:block;width:100%;height:auto;max-width:none;-webkit-mask-image:url('assets/project-card/card-face-mask.svg');mask-image:url('assets/project-card/card-face-mask.svg');-webkit-mask-size:100% 100%;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
+.project-card-label{position:absolute;left:14.7%;top:74.1%;width:17%;height:3.5%;transform:rotate(-8deg);transform-origin:0 50%;display:flex;align-items:center;justify-content:center;background-image:url('assets/project-card/reference-card.png');background-size:588.235% auto;background-position:17.7% 70.6%;color:#ffe3fa;font-family:ReferenceLabel,monospace;font-size:1.6cqw;line-height:1;letter-spacing:.11cqw;text-transform:uppercase;white-space:nowrap}
+.project-card-label>span{position:relative}
+.hero-offer{overflow:hidden}
+.hero-project-card{position:absolute;z-index:-1;width:310px;right:-27%;top:-12px;container-type:inline-size;pointer-events:none;animation:reference-member-float 16.5s linear infinite}
+.hero-project-card>img{display:block;width:100%;height:auto;max-width:none}
+.hero-project-card .project-card-label{left:17%;top:74.2%;width:16.5%;height:4.2%;transform:rotate(-10deg);background-image:url('assets/project-card/hero-reference-card.png');background-size:1000% auto;background-position:23.5% 71%;font-size:1.6cqw}
+.pricing-art>div:last-child{position:relative;z-index:1}
+@keyframes project-card-turn{0%,48.48%,100%{transform:rotate(0deg)}24.24%{transform:rotate(7deg)}72.72%,75.75%{transform:rotate(-7deg)}}
+@media(max-width:991px){.pricing-project-card{width:calc(100% + 40px);min-width:0;max-width:520px;left:-20px;top:-15px}}
+@media(max-width:991px){.hero-project-card{width:250px}}
+@media(max-width:767px){.pricing-project-card{width:calc(100% + 24px);max-width:360px;left:50%;translate:-50% 0;top:0}.pricing-art{padding-top:280px}}
+@media(max-width:767px){.hero-project-card{width:66%;right:0;top:0;animation-name:mobile-notebook-float}}
+@media(max-width:479px){.pricing-art{padding-top:250px}}
+@media(max-width:359px){.pricing-art{padding-top:220px}}
+@media(prefers-reduced-motion:reduce){.pricing-project-card,.hero-project-card{animation:none}}
+
+/* Original yellow face from the reference, on the existing dimensional contact button. */
+.card-contact .avatar.avatar-smile{overflow:hidden;background:radial-gradient(circle at 28% 22%,#fff9b0 0%,#ffe75a 22%,#ffd817 48%,#edb400 78%,#a96900 100%);box-shadow:inset 1px 2px 3px #fff9,inset -2px -3px 5px #8c4f0040,0 5px 9px #21005a33}
+.card-contact .avatar-smile>img{display:block;width:100%;height:100%;object-fit:contain;max-width:none}
+
+/* Original blue/purple reference smile, with a pink dimensional surface. */
+.faq-card .avatar.large-avatar.avatar-smile-purple{overflow:hidden;background:radial-gradient(circle at 28% 22%,#ffe1f1 0%,#ff75bd 22%,#ff0084 48%,#c50065 78%,#79003f 100%);box-shadow:inset 2px 3px 6px #fff9,inset -4px -5px 10px #78003d55,0 8px 16px #21005a33}
+.faq-card .avatar-smile-purple>img{display:block;width:100%;height:100%;object-fit:contain;max-width:none}
+
+/* Contact fields stay on the page until the visitor sends the WhatsApp message. */
+.contact-details{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 20px}
+.contact-details label{display:block;min-width:0;font-size:14px;line-height:20px;color:#252125}
+.contact-details label small{font-size:12px;color:#70676e}
+.contact-details input{display:block;width:100%;min-width:0;min-height:46px;padding:12px 13px;border:1px solid #d0c8cc;border-radius:8px;background:#fff;color:#181418;margin-top:8px;font-size:16px;line-height:21px}
+#contact-dialog .contact-send-note{font-size:12px;line-height:18px;color:#70676e;margin:0 0 20px}
+@media(max-width:600px){.contact-details{grid-template-columns:1fr;gap:14px}}
+
+/* Brevo capture stays confined to the existing confirmation dialog. */
+.contact-details [hidden],#contact-dialog [hidden]{display:none!important}
+.contact-details .contact-email-wide{grid-column:1/-1}
+.lead-honeypot{position:absolute!important;left:-10000px!important;width:1px!important;height:1px!important;overflow:hidden!important}
+#lead-verification:empty{display:none}
+#lead-verification{margin:0 0 14px;max-width:100%}
+#contact-dialog #lead-status{font-size:13px;line-height:19px;margin:0 0 14px}
+#lead-status[data-error="true"]{color:#9b2147}
+#contact-dialog .lead-fallback{display:block;font-size:13px;line-height:19px;text-decoration:underline;margin:0 0 16px}
+#whatsapp-link[aria-disabled="true"]{opacity:.6;cursor:wait}
+
+/* Visitors can describe their project without editing package totals. */
+.contact-details .contact-need{grid-column:1/-1}
+.contact-details .contact-need textarea{min-height:110px;background:#fff;color:#181418;line-height:21px}
+.contact-details .contact-need textarea::placeholder{color:#8d858a;opacity:1}
+#contact-dialog .contact-selection{margin:0 0 20px}
+#contact-dialog .contact-selection>span{font-size:13px;line-height:19px;color:#70676e}
+#contact-dialog .contact-selection pre{margin:8px 0 0;font-size:13px;line-height:19px}
+
+/* Compact confirmation: one heading and a short, read-only selection card. */
+#contact-dialog .dialog-top{gap:16px;margin-bottom:22px}
+#contact-dialog .dialog-top h2{margin:0;font-size:32px;line-height:36px;letter-spacing:-1px;color:#181418}
+#contact-dialog .dialog-top button{flex:none;margin-left:auto}
+#contact-dialog .contact-selection{padding:14px 16px;border:1px solid #727272;border-radius:12px;background:linear-gradient(150deg,#505050,#383838);color:#fff;margin:0 0 20px;box-shadow:inset 0 1px 1px #ffffff55,inset 1px 0 1px #ffffff1a,0 4px 12px #00000012}
+#contact-package-summary .contact-selected-heading{display:flex;align-items:baseline;justify-content:space-between;gap:12px}
+#contact-package-summary .contact-selected-heading strong{font-size:18px;line-height:22px;font-weight:500;letter-spacing:-.3px}
+#contact-package-summary .contact-selected-heading>small{font-size:11px;line-height:15px;color:#d4cfd2}
+#contact-package-summary .contact-selected-totals{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:8px;padding-top:8px;border-top:1px dashed #ffffff30}
+#contact-package-summary .contact-selected-totals>span{display:grid;gap:4px}
+#contact-package-summary .contact-selected-totals small{font-size:11px;line-height:15px;font-weight:400;color:#d4cfd2}
+#contact-package-summary .contact-selected-totals b{font-size:24px;line-height:27px;font-weight:500;letter-spacing:-.7px}
+#contact-package-summary .contact-selected-totals b small{margin-left:3px;letter-spacing:0}
+#contact-package-summary .contact-selected-addons{position:relative;margin-top:12px;padding:9px 10px 7px;border:1px solid #ffffff30;border-radius:6px;background:linear-gradient(#ffffff0d,#0000000d);box-shadow:inset 0 1px 1px #ffffff15}
+#contact-package-summary .contact-selected-addons>span{position:absolute;top:-7px;left:9px;padding:1px 5px;border:1px solid #ffffff25;border-radius:3px;background:#454545;color:#d4cfd2;text-transform:uppercase;font-size:8px;line-height:12px}
+#contact-package-summary .contact-selected-addons p{display:flex;flex-wrap:wrap;gap:5px 14px;margin:0;color:#f0edef;font-size:11px;line-height:16px}
+@media(max-width:600px){#contact-dialog .dialog-top h2{font-size:28px;line-height:32px}}

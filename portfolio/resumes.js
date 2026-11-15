@@ -26,7 +26,7 @@
   const list=section.querySelector('.resume-list');
   const status=section.querySelector('[role="status"]');
   ids.forEach((id,index)=>{
-    const path='/curriculos/bruno-nascimento-'+id+'-pt.pdf?v=area-links-20261115';
+    const path='/curriculos/bruno-nascimento-'+id+'-pt.pdf?v=case-links-20261115';
     const row=document.createElement('article');row.className='resume-row';
     const text=document.createElement('div');text.className='resume-description';
     const heading=document.createElement('h3');heading.textContent=copy.labels[index];

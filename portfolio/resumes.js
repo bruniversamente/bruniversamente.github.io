@@ -3,11 +3,11 @@
   'use strict';
   const lang = window.portfolioI18n?.lang || 'pt';
   const copy = {
-    pt: {title:'Currículos', intro:'Escolha a versão por área de atuação.', format:'PDF em português · 1 página', view:'Ver PDF', download:'Baixar', link:'Copiar link', copied:'Link copiado', failed:'Não foi possível copiar. Abra o PDF e copie o endereço.', labels:['Design e direção criativa','Beleza','UX/UI e desenvolvimento','Dados e BI','Arquitetura e consultoria aeronáutica']},
-    en: {title:'Résumés', intro:'Choose a résumé by field of work.', format:'PDF in Portuguese · 1 page', view:'View PDF', download:'Download', link:'Copy link', copied:'Link copied', failed:'Could not copy. Open the PDF and copy its address.', labels:['Design and creative direction','Beauty','UX/UI and development','Data and BI','Architecture and aviation consulting']},
-    es: {title:'Currículums', intro:'Elige una versión por área de trabajo.', format:'PDF en portugués · 1 página', view:'Ver PDF', download:'Descargar', link:'Copiar enlace', copied:'Enlace copiado', failed:'No se pudo copiar. Abre el PDF y copia su dirección.', labels:['Diseño y dirección creativa','Belleza','UX/UI y desarrollo','Datos y BI','Arquitectura y consultoría aeronáutica']}
+    pt: {title:'Currículos', intro:'Escolha a versão por área de atuação.', format:'PDF em português · 1 página', view:'Ver PDF', download:'Baixar', link:'Copiar link', copied:'Link copiado', failed:'Não foi possível copiar. Abra o PDF e copie o endereço.', labels:['Design e direção criativa','Beleza','Web Design e UX/UI','Desenvolvimento de Software','Dados e BI','Arquitetura e consultoria aeronáutica']},
+    en: {title:'Résumés', intro:'Choose a résumé by field of work.', format:'PDF in Portuguese · 1 page', view:'View PDF', download:'Download', link:'Copy link', copied:'Link copied', failed:'Could not copy. Open the PDF and copy its address.', labels:['Design and creative direction','Beauty','Web Design and UX/UI','Software Development','Data and BI','Architecture and aviation consulting']},
+    es: {title:'Currículums', intro:'Elige una versión por área de trabajo.', format:'PDF en portugués · 1 página', view:'Ver PDF', download:'Descargar', link:'Copiar enlace', copied:'Enlace copiado', failed:'No se pudo copiar. Abre el PDF y copia su dirección.', labels:['Diseño y dirección creativa','Belleza','Diseño web y UX/UI','Desarrollo de software','Datos y BI','Arquitectura y consultoría aeronáutica']}
   }[lang];
-  const ids=['design','beleza','ux-ui-desenvolvimento','dados-bi','arquitetura-consultoria'];
+  const ids=['design','beleza','webdesign','software','dados-bi','arquitetura-consultoria'];
   const section=document.querySelector('#curriculos');
   section.querySelector('h2').textContent=copy.title;
   section.querySelector('.resume-intro').textContent=copy.intro;

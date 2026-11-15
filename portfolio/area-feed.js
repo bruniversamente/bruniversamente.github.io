@@ -11,8 +11,61 @@
   const main=document.querySelector('main');
   let active=null,view='feed',tagFilter=null,units=6;
   let homeView='grid';
+  let servicesHero=null;
   const feedImages=new WeakMap();
   function element(tag,className,text){const el=document.createElement(tag);if(className)el.className=className;if(text)el.textContent=text;return el;}
+  function prepareServicesHero(){
+    if(servicesHero)return;
+    servicesHero=element('section','services-hero');servicesHero.hidden=true;
+    servicesHero.setAttribute('aria-labelledby','services-hero-title');
+    servicesHero.innerHTML=`<div class="services-hero-copy">
+      <span class="services-hero-kicker">Sites e identidade visual</span>
+      <h2 id="services-hero-title">Seu negócio<br>merece <em>ser visto.</em></h2>
+      <p>Seu negócio, seu site, sua identidade.</p>
+      <a class="services-hero-primary" href="/servicos/">Conhecer os serviços <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="services-hero-card">
+      <span class="services-hero-pill"><i aria-hidden="true"></i>Comece por aqui</span>
+      <div class="services-hero-sticker" aria-hidden="true"><img src="/servicos/assets/project-card/hero-reference-card.webp" width="688" height="549" alt="" decoding="async"><span class="services-hero-sticker-label"><span>Design e web</span></span></div>
+      <div class="services-hero-standard">
+        <h3>Seu negócio.<br><em>Na web.</em></h3>
+        <p>Compare os pacotes de sites e de marca e site.</p>
+        <a class="services-hero-offer-link" href="/servicos/#pacotes">Ver os pacotes <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="services-hero-campaign" hidden>
+        <p class="services-hero-package">Sites Essencial · 1 página, até 5 seções</p>
+        <span class="services-hero-sale-label">Oferta Black Friday</span>
+        <p class="services-hero-price"><span>De <s data-hero-regular></s></span><span class="services-hero-price-row"><span class="services-hero-discount" data-hero-discount></span><strong data-hero-price><span class="services-hero-currency">R$ </span><span data-hero-integer></span><span class="services-hero-decimal">,</span><span class="services-hero-cents" data-hero-cents></span></strong></span></p>
+        <a class="services-hero-offer-link" href="/servicos/#pacotes">Ver ofertas da Black Friday <span aria-hidden="true">↗</span></a>
+        <p class="services-hero-deadline"></p>
+      </div>
+    </div>`;
+    feed.before(servicesHero);
+    Promise.all([fetch('/servicos/catalogo.json').then(response=>{if(!response.ok)throw Error('service_catalog_unavailable');return response.json();}),import('../servicos/pricing.mjs')]).then(([data,pricing])=>{
+      const standard=servicesHero.querySelector('.services-hero-standard'),campaign=servicesHero.querySelector('.services-hero-campaign');
+      const money=new Intl.NumberFormat('pt-BR',{style:'currency',currency:'BRL'});
+      function refreshCampaign(){
+        const now=Date.now(),active=pricing.campaignIsActive(data,now);
+        standard.hidden=active;campaign.hidden=!active;
+        if(active){
+          const regular=pricing.partCost(data,'entrada',{now,regular:true}).initial,current=pricing.partCost(data,'entrada',{now}).initial;
+          const [integer,cents]=current.toFixed(2).split('.'),discount=Math.round((1-current/regular)*100);
+          servicesHero.querySelector('[data-hero-regular]').textContent=money.format(regular);
+          servicesHero.querySelector('[data-hero-integer]').textContent=new Intl.NumberFormat('pt-BR').format(Number(integer));
+          servicesHero.querySelector('[data-hero-cents]').textContent=cents;
+          const discountLabel=servicesHero.querySelector('[data-hero-discount]');discountLabel.textContent=`−${discount}%`;discountLabel.hidden=discount<=0;
+          discountLabel.setAttribute('aria-label',`${discount}% de desconto`);
+          servicesHero.querySelector('.services-hero-deadline').textContent=`Até ${data.campaign.deadline_label}. Confira as condições na página de serviços.`;
+        }
+        const next=[data.campaign?.starts_at,data.campaign?.ends_at].map(Date.parse).filter(time=>time>now).sort((a,b)=>a-b)[0];
+        if(next)setTimeout(refreshCampaign,Math.min(next-now+50,2147483647));
+      }
+      refreshCampaign();
+    }).catch(()=>{
+      servicesHero.querySelector('.services-hero-standard').hidden=false;
+      servicesHero.querySelector('.services-hero-campaign').hidden=true;
+    });
+  }
   function applyImage(img,image,orientation='v',sizes='(max-width:700px) 100vw, 50vw'){
     const photo=image.formats?.[orientation]||image;
     img.width=photo.width;img.height=photo.height;img.alt=photo.alt||'';
@@ -61,14 +114,25 @@
   function render(){
     feed.replaceChildren();index.replaceChildren();
     const projects=catalog[active]||[];
+    if(active==='produtos')prepareServicesHero();
     projects.forEach(indexRow);
-    // One image per project in each round; offset later rounds to separate repeats.
+    // Keep the catalog/index order, while composing the Web Design mosaic separately.
+    const cards=[];
     const rounds=Math.max(...projects.map(project=>project.images.length),0);
     for(let round=0;round<rounds;round++){
       const offset=round*Math.max(1,Math.floor(projects.length*.37))%projects.length;
       const ordered=[...projects.slice(offset),...projects.slice(0,offset)];
-      ordered.forEach(project=>{const image=project.images[round];if(image)feedCard(project,image,false);});
+      ordered.forEach(project=>{const image=project.images[round];if(image)cards.push({project,image,slot:image.thumbSlot||round+1});});
     }
+    if(active==='produtos'){
+      // Interleave websites, identities and product screens, with distance between repeats.
+      const order=['nove-patios:1','produtos-01:1','matiz:2','easyaga-webdesign:2','alva:3','produtos-03:1','dobra:1','dito:2','vespera:1','produtos-02:1','modo:3','rakestra-identidade:1','pingo:1',
+        'alva:2','produtos-01:2','nove-patios:3','matiz:1','produtos-02:2','dito:1','rakestra-identidade:2','vespera:3','dobra:2','easyaga-webdesign:1','pingo:3','produtos-03:2','modo:1',
+        'dito:3','produtos-01:3','alva:1','rakestra-identidade:3','matiz:3','produtos-02:3','vespera:2','modo:2','produtos-03:3','nove-patios:2','pingo:2','easyaga-webdesign:3','dobra:3'];
+      const remaining=new Map(cards.map(card=>[`${card.project.id}:${card.slot}`,card]));
+      order.forEach(key=>{const card=remaining.get(key);if(card){feedCard(card.project,card.image,false);remaining.delete(key);}});
+      remaining.forEach(card=>feedCard(card.project,card.image,false));
+    }else cards.forEach(card=>feedCard(card.project,card.image,false));
     filters.replaceChildren();
     const addFilter=(tag,title)=>{const button=element('button','button',title);button.type='button';button.setAttribute('aria-pressed',String(tagFilter===tag));button.addEventListener('click',()=>{tagFilter=tag;[...filters.children].forEach(b=>b.setAttribute('aria-pressed',String(b===button)));update();});filters.append(button);};
     const tags=[...new Set(projects.flatMap(project=>project.tags||[]))].sort((a,b)=>a.localeCompare(b,(window.portfolioI18n?.locale||'pt-BR')));
@@ -79,8 +143,8 @@
     if(!active)return;
     const visible=new Set(catalog[active].filter(matches).map(p=>p.id));
     const unique=tagFilter!==null||search.value.trim()!=='';
-    const shown=new Set();
-    [...feed.children].forEach(card=>{const id=card.dataset.project;card.hidden=!visible.has(id)||(unique&&shown.has(id));if(!card.hidden)shown.add(id);});
+    const firstImages=new Map(catalog[active].map(project=>[project.id,project.images[0]]));
+    [...feed.children].forEach(card=>{const id=card.dataset.project;card.hidden=!visible.has(id)||(unique&&feedImages.get(card)!==firstImages.get(id));});
     [...index.children].forEach(card=>card.hidden=!visible.has(card.dataset.project));
     empty.hidden=visible.size>0;empty.textContent=active==='software'&&catalog[active].length===0?'Projetos em preparação.':'Nenhum projeto encontrado.';
     distributeModules();
@@ -123,6 +187,7 @@
     window.projectPage?.close(false);
     if(next==='grid'){navigate(null);return;}
     view=next==='index'?'index':'feed';feed.hidden=view!=='feed';index.hidden=view!=='index';
+    if(servicesHero)servicesHero.hidden=active!=='produtos'||view!=='feed';
     document.querySelectorAll('[data-view]').forEach(b=>{if(b.dataset.view===view)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});
     index.querySelectorAll('.index-open').forEach(row=>row.classList.remove('index-open'));
     if(push){const url=window.portfolioRoutes.read();url.searchParams.delete('project');if(view==='index')url.searchParams.set('view','index');else url.searchParams.delete('view');history.replaceState({},'',url);}
@@ -135,6 +200,7 @@
     if(!next&&!push)homeView=window.portfolioRoutes.read().searchParams.get('view')==='index'?'index':'grid';
     if(next&&!active)homeView=grid.classList.contains('index-view')?'index':'grid';
     active=next;tagFilter=null;search.value='';setMenu(false);search.hidden=true;document.querySelector('.search-button').setAttribute('aria-expanded','false');document.querySelector('.search-button').setAttribute('aria-label','Abrir busca');
+    if(servicesHero)servicesHero.hidden=active!=='produtos';
     filters.hidden=true;document.querySelector('#filter-toggle').setAttribute('aria-expanded','false');
     grid.hidden=Boolean(active);areaButton.hidden=!active;main.dataset.area=active||'';
     if(active){

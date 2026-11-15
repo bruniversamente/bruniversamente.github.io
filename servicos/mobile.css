@@ -1,6 +1,8 @@
 /* Phone-only refinements. Desktop geometry and motion remain in their original files. */
 @media screen and (max-width:767px){
   html{scroll-behavior:auto}
+  .section{padding-inline:0}
+  .container{border-inline:0}
   .inner{margin-inline:20px}
   .hero .container{padding-top:28px}
   .container{padding-block:44px}
@@ -21,17 +23,23 @@
   .benefit-track{margin-right:-20px;padding-right:20px}
   .benefits .container,.work .container,.faq .container{padding-top:44px}
   .work-board-content{padding:0 24px 32px}
-  .work-board-content .work-projects{gap:12px}
+  .work-board-content .work-projects{display:none;gap:12px}
   .work-board-content .work-projects a{display:block}
   .services-board{padding:36px 24px}
   .work-grid{gap:24px}
 
   .path-tabs{margin:28px 0 36px}
   .pricing-flex{gap:24px}
+  .pricing .pricing-flex>.pricing-art{display:none;width:100%;min-height:0;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none}
+  .pricing .pricing-art>.pricing-project-card,.pricing .pricing-art>div:last-child{display:none}
+  .pricing .inner>.campaign-art-logo{width:min(100%,280px);margin:28px auto 0}
   .pricing-art{min-height:0;padding:280px 26px 30px}
   .pricing-art-notebook{width:82%;max-width:340px;left:9%;top:34px}
   .pricing-art h3{font-size:44px;line-height:44px}
   .offer-options button{min-height:44px}
+  .offer-panel .offer-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:6px;align-items:stretch}
+  .offer-panel .offer-options.two{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .offer-panel .offer-options button[data-option]{padding-inline:6px;white-space:normal;overflow-wrap:anywhere}
   .scope summary,.addons-details summary{min-height:44px;align-items:center}
   .scope,.addons-details{padding-block:8px}
   .addon{min-width:0}
@@ -59,8 +67,11 @@
   .reference-revealed,.process-exact.process-visible{
     animation-name:benefit-fade-in;animation-duration:.35s;animation-delay:0s
   }
-  .process-offer-stage.process-visible,.process-stack-entry.process-visible{
+  .process-stack-entry.process-visible{
     animation-duration:.35s;animation-delay:0s
+  }
+  .process-offer-stage.process-visible{
+    animation-duration:.9s;animation-delay:.12s
   }
   @keyframes mobile-notebook-float{
     0%,50%,100%{transform:translateY(0) rotate(0deg)}

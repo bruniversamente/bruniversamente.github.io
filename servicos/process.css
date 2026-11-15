@@ -36,7 +36,7 @@
 .process-design-front{z-index:2;left:48.3281px;transform:rotate(9deg)}
 .process-design-middle{z-index:1;left:39.3281px;transform:rotate(-7deg)}
 .process-design-back{z-index:0;left:40.3281px;top:33.7812px;transform:rotate(-23deg)}
-@media(hover:hover){.process-stack:hover .process-design-front{transform:rotate(18deg);transition-delay:.5s}.process-stack:hover .process-design-back{transform:rotate(-30deg);transition-delay:.5s}}
+@media(min-width:768px) and (hover:hover){.process-stack:hover .process-design-front{transform:rotate(18deg);transition-delay:.5s}.process-stack:hover .process-design-back{transform:rotate(-30deg);transition-delay:.5s}}
 @keyframes process-marquee{to{transform:translateX(-100%)}}
 @keyframes process-enter-right{from{opacity:0;transform:translateX(100px)}to{opacity:1;transform:translateX(0)}}
 @keyframes process-enter-bottom{from{opacity:0;transform:translateY(100px)}to{opacity:1;transform:translateY(0)}}
@@ -50,3 +50,28 @@
 @media(max-width:991px){.process-grid{max-width:480px;margin-inline:auto}}
 @media(max-width:359px){.process-exact .process-copy{padding-inline:26px}}
 @media(prefers-reduced-motion:reduce){.process-pill-group{animation:none;will-change:auto}.process-design{transition:none!important}}
+
+/* Fill the foreground frame width while keeping its hero copy visible. */
+.process-design-front{height:96%}
+.process-design-front img{width:100%;height:auto;min-height:0;object-fit:initial;object-position:top}
+
+/* Current package identity, reduced to the existing fixed-height illustration. */
+.process-offer-window{background:#000}
+.process-offer-rule{border-top-color:#ffffff75}
+.process-offer-pricing{height:20.1cqw}
+.process-mini-promo{display:table;margin:0 0 1.5cqw;padding:1cqw 1.7cqw;border-radius:.7cqw;background:#e41f30;color:#fff;font-size:2.3cqw;line-height:1;font-weight:700}
+.process-offer-old{margin:0 0 1cqw;font-size:2cqw;line-height:1;color:#aaa}
+.process-mini-price-row{display:flex;align-items:center;gap:1.8cqw;white-space:nowrap}
+.process-mini-discount{color:#e41f30;font-size:6.7cqw;line-height:1;letter-spacing:-.2cqw;font-weight:300}
+.process-offer-price{display:inline-flex;align-items:flex-start;font-size:8.4cqw;line-height:1;letter-spacing:-.35cqw;font-weight:500}
+.process-offer-price>.process-mini-whole{font-size:inherit;letter-spacing:inherit}
+.process-offer-price>.process-mini-currency,.process-offer-price>sup{font-size:3.5cqw;line-height:1;letter-spacing:0;margin-top:.3cqw}
+.process-offer-price>.process-mini-currency{margin-right:.4cqw}
+.process-offer-included{background:linear-gradient(#282828,#1a1a1a)}
+.process-offer-included>div>span{position:relative;padding-left:2.7cqw}
+.process-offer-included>div>span::before{content:'✓';position:absolute;left:0;top:.25cqw;width:1.8cqw;height:1.8cqw;border-radius:50%;background:#8387fc;color:#151515;font-size:1.2cqw;line-height:1.8cqw;text-align:center}
+.process-offer-footer{margin-top:3.8cqw}
+.process-offer-footer>.process-mini-cta{display:inline-flex;align-items:center;gap:1.8cqw;padding:1cqw 2cqw 1cqw 1cqw;border-radius:10cqw;background:linear-gradient(#282727,#1b1b1b);color:#fff}
+.process-mini-cta>i{display:flex;align-items:center;justify-content:center;width:5cqw;height:5cqw;border-radius:50%;background:#8387fc;box-shadow:inset 0 .2cqw .2cqw #ffffff40}
+.process-mini-cta>i>img{display:block;width:3cqw;height:auto}
+.process-mini-promo[hidden],.process-mini-discount[hidden]{display:none}

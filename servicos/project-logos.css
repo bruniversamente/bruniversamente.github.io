@@ -1,0 +1,11 @@
+/* Official approved logos; black display leaves the source assets intact. */
+.project-names.project-logos{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;column-gap:40px;row-gap:26px;max-width:820px;margin-inline:auto;padding-top:60px}
+.project-logos>span{flex-basis:100%;margin:0 0 8px}
+.project-logos .project-logo{display:flex;align-items:center;justify-content:center;width:calc((100% - 120px)/4);min-width:0;min-height:76px;border-radius:8px}
+.project-logo img{display:block;max-width:100%;object-fit:contain;filter:brightness(0)}
+.project-logo:focus-visible{outline:2px solid #111;outline-offset:5px}
+@media(max-width:767px){.project-names.project-logos{column-gap:24px;row-gap:22px;padding-top:36px}.project-logos .project-logo{width:calc((100% - 72px)/4)}}
+@media(max-width:600px){.project-names.project-logos{column-gap:24px;row-gap:18px}.project-logos>span{margin-bottom:4px}.project-logos .project-logo{width:calc((100% - 24px)/2);min-height:76px}.project-logo-vespera img{max-width:140px}}
+
+.project-logos .project-logo-app{gap:7px;color:#000}.project-logo-app>span{font-size:16px;font-weight:400;letter-spacing:0;line-height:1}
+.project-logo-app img{min-width:0;flex-shrink:1}

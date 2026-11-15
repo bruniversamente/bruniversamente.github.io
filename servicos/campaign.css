@@ -1,0 +1,27 @@
+.payment-split{margin:14px 0 0;color:#aaa;font-size:13px;line-height:20px}
+.contact-payment-split{margin:12px 0 0;font-size:12px;line-height:18px;color:#666}
+.campaign-conditions{margin-top:28px;border:1px dashed #d9cdd2;border-radius:14px;padding:18px 24px;color:#514b4d;font-size:14px;line-height:21px}
+.campaign-conditions summary{cursor:pointer;color:#111;font-size:16px;line-height:22px}
+.campaign-conditions ul{padding-left:18px;margin:16px 0 0;display:grid;gap:10px}
+@media(max-width:600px){.campaign-conditions{padding:18px}.payment-split{font-size:12px}.contact-payment-split{font-size:12px}}
+
+
+.process-offer-old[hidden]{display:none}
+
+/* Regenerated logo with native PNG transparency. */
+.campaign-art-logo{position:relative;width:min(100%,300px);margin:40px auto auto}
+.campaign-art-logo img{display:block;width:100%;height:auto}
+@media(max-width:767px){.campaign-art-logo{margin:24px auto 32px}}
+
+/* Red sampled from the generated logo face at (1505,730). */
+.offer-panel[data-path] .offer-label{display:inline-block;margin:0 0 16px;padding:8px 12px;border:0;border-radius:8px;background:#e41f30;color:#fff;font-size:14px;line-height:20px;font-weight:700}
+
+/* Price treatment from the supplied reference; the card stays dark. */
+.offer-panel .price-row{align-items:center;gap:8px}
+.offer-panel .price{display:inline-flex;align-items:flex-start;gap:2px;line-height:1;white-space:nowrap}
+.offer-panel .price .currency,.offer-panel .price .cents{font-size:.43em;line-height:1.1;letter-spacing:0;margin-top:.1em;margin-right:0}
+.offer-panel .price .decimal-separator{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.offer-panel .price-row--discount{flex-wrap:nowrap;gap:10px}
+.offer-panel .price-row--discount .price{font-size:clamp(36px,8.5cqi,46px);letter-spacing:-1.5px}
+.discount-percent{color:#e41f30;font-size:clamp(27px,6.5cqi,36px);line-height:1;letter-spacing:-1px;font-weight:300;white-space:nowrap}
+.offer-panel .price-row>.term{align-self:flex-end;margin-bottom:4px}

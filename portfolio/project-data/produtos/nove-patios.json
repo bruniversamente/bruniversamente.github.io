@@ -1,0 +1,137 @@
+{
+  "id": "nove-patios",
+  "title": "Nove Pátios",
+  "subtitle": "Identidade visual e Web Design",
+  "tags": [
+    "Identidade visual",
+    "Web Design",
+    "Estudo autoral"
+  ],
+  "intro": "Identidade e website para um escritório de arquitetura e interiores. A fotografia dos espaços conduz a apresentação dos projetos, com informação sobre o escritório, os serviços e o contato.",
+  "area": "produtos",
+  "presentation": "boards",
+  "credits": [
+    {
+      "role": "Identidade visual e interfaces",
+      "names": "Bruno Nascimento"
+    },
+    {
+      "role": "Desenvolvimento",
+      "names": "Desenvolvimento assistido por IA (vibe coding)"
+    }
+  ],
+  "credit": "Identidade visual e interfaces: Bruno Nascimento. Estudo autoral com conteúdo demonstrativo e imagens produzidas com IA.",
+  "media": [
+    {
+      "type": "image",
+      "alt": "Nove Pátios · Identidade e Web Design",
+      "width": 1280,
+      "height": 777,
+      "fullWidth": 2800,
+      "fullHeight": 1700,
+      "src": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/01/1280w.webp",
+      "fullSrc": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/01/original.webp",
+      "srcset": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/01/640w.webp 640w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/01/1280w.webp 1280w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/01/1920w.webp 1920w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/01/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)"
+    },
+    {
+      "type": "image",
+      "alt": "Nove Pátios · O projeto",
+      "width": 1280,
+      "height": 914,
+      "fullWidth": 2800,
+      "fullHeight": 2000,
+      "src": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/02/1280w.webp",
+      "fullSrc": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/02/original.webp",
+      "srcset": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/02/640w.webp 640w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/02/1280w.webp 1280w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/02/1920w.webp 1920w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/02/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)"
+    },
+    {
+      "type": "image",
+      "alt": "Nove Pátios · Tipografia e cor",
+      "width": 1280,
+      "height": 846,
+      "fullWidth": 2800,
+      "fullHeight": 1850,
+      "src": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/03/1280w.webp",
+      "fullSrc": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/03/original.webp",
+      "srcset": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/03/640w.webp 640w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/03/1280w.webp 1280w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/03/1920w.webp 1920w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/03/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)"
+    },
+    {
+      "type": "image",
+      "alt": "Nove Pátios · Página inicial",
+      "width": 1280,
+      "height": 1051,
+      "fullWidth": 2800,
+      "fullHeight": 2300,
+      "src": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/04/1280w.webp",
+      "fullSrc": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/04/original.webp",
+      "srcset": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/04/640w.webp 640w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/04/1280w.webp 1280w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/04/1920w.webp 1920w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/04/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)"
+    },
+    {
+      "type": "image",
+      "alt": "Nove Pátios · Conteúdo e navegação",
+      "width": 1280,
+      "height": 1234,
+      "fullWidth": 2800,
+      "fullHeight": 2700,
+      "src": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/05/1280w.webp",
+      "fullSrc": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/05/original.webp",
+      "srcset": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/05/640w.webp 640w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/05/1280w.webp 1280w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/05/1920w.webp 1920w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/05/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)"
+    },
+    {
+      "type": "image",
+      "alt": "Nove Pátios · Páginas internas",
+      "width": 1280,
+      "height": 1234,
+      "fullWidth": 2800,
+      "fullHeight": 2700,
+      "src": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/06/1280w.webp",
+      "fullSrc": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/06/original.webp",
+      "srcset": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/06/640w.webp 640w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/06/1280w.webp 1280w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/06/1920w.webp 1920w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/06/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)"
+    },
+    {
+      "type": "image",
+      "alt": "Nove Pátios · Apresentação e experiência",
+      "width": 1280,
+      "height": 1280,
+      "fullWidth": 2800,
+      "fullHeight": 2800,
+      "src": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/07/1280w.webp",
+      "fullSrc": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/07/original.webp",
+      "srcset": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/07/640w.webp 640w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/07/1280w.webp 1280w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/07/1920w.webp 1920w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/07/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)"
+    },
+    {
+      "type": "image",
+      "alt": "Nove Pátios · Contato e navegação mobile",
+      "width": 1280,
+      "height": 1088,
+      "fullWidth": 2800,
+      "fullHeight": 2380,
+      "src": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/08/1280w.webp",
+      "fullSrc": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/08/original.webp",
+      "srcset": "portfolio/assets/ux-ui/estudos-20261115/nove-patios/08/640w.webp 640w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/08/1280w.webp 1280w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/08/1920w.webp 1920w, portfolio/assets/ux-ui/estudos-20261115/nove-patios/08/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "O projeto",
+      "paragraphs": [
+        "Identidade e website para um escritório de arquitetura e interiores. A fotografia dos espaços conduz a apresentação dos projetos, com informação sobre o escritório, os serviços e o contato."
+      ]
+    },
+    {
+      "title": "Contexto das imagens",
+      "paragraphs": [
+        "Marca fictícia e website demonstrativo. As imagens e os dados pertencem ao estudo autoral; não representam uma empresa em funcionamento. O acervo inclui imagens produzidas com IA."
+      ]
+    }
+  ],
+  "links": []
+}

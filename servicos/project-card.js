@@ -7,15 +7,19 @@
   const image=card?.querySelector('img');
   if(!card||!image||!title||!tabs)return;
   const content={
-    sites:{label:'Web design',first:'Seu negócio.',last:'Na web.',src:'assets/project-card/site-blue.png'},
-    marca:{label:'Marca + site',first:'Sua marca.',last:'Bem apresentada.',src:'assets/project-card/marca-pink.png'},
-    divulgacao:{label:'Divulgação',first:'Sua próxima',last:'campanha.',src:'assets/project-card/divulgacao-orange.png'}
+    sites:{label:'Web design',first:'Seu negócio.',last:'Na web.',src:'assets/project-card/site-blue.webp'},
+    marca:{label:'Marca + site',first:'Sua marca.',last:'Bem apresentada.',src:'assets/project-card/marca-pink.webp'},
+    divulgacao:{label:'Divulgação',first:'Sua próxima',last:'campanha.',src:'assets/project-card/divulgacao-orange.webp'}
   };
-  // Load the approved alternatives once; keep the current card visible until the next is decoded.
-  const ready=new Map(Object.entries(content).map(([id,item])=>{
-    const preload=new Image();preload.src=item.src;
-    return [id,preload.decode().then(()=>true,()=>false)];
-  }));
+  // Decode a service card only when requested, preserving the visible card during a switch.
+  const ready=new Map();
+  function prepare(id){
+    if(!ready.has(id)){
+      const preload=new Image();preload.src=content[id].src;
+      ready.set(id,preload.decode().then(()=>true,()=>false));
+    }
+    return ready.get(id);
+  }
   let currentPath;
   async function update(){
     const selected=tabs.querySelector('[aria-pressed="true"]');
@@ -23,7 +27,7 @@
     const item=content[id];
     if(!item||currentPath===id)return;
     currentPath=id;
-    if(!await ready.get(id)||currentPath!==id)return;
+    if(!await prepare(id)||currentPath!==id)return;
     image.src=item.src;
     image.alt=`Cartão de ${item.label}: ${id==='sites'?'azul e violeta':id==='marca'?'rosa e violeta':'laranja e amarelo'}.`;
     card.dataset.path=id;
@@ -34,4 +38,17 @@
   }
   new MutationObserver(update).observe(tabs,{subtree:true,attributes:true,attributeFilter:['aria-pressed']});
   update();
+})();
+
+// Keep the campaign logo above the service guide on phones, restoring its desktop slot.
+(() => {
+  const logo=document.querySelector('#campaign-art-logo');
+  const guide=document.querySelector('#path-guide');
+  if(!logo||!guide)return;
+  const home=document.createComment('campaign-logo-desktop-slot');
+  logo.before(home);
+  const mobile=matchMedia('(max-width:767px)');
+  const place=()=>{if(mobile.matches)guide.before(logo);else home.after(logo);};
+  mobile.addEventListener('change',place);
+  place();
 })();

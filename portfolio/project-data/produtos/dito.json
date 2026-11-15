@@ -1,0 +1,137 @@
+{
+  "id": "dito",
+  "title": "Dito Gestão",
+  "subtitle": "Identidade visual e Web Design",
+  "tags": [
+    "Identidade visual",
+    "Web Design",
+    "Estudo autoral"
+  ],
+  "intro": "Identidade e website para uma consultoria conceitual de gestão. O site organiza as frentes de atuação e usa exemplos de trabalho para explicar os serviços e iniciar o contato.",
+  "area": "produtos",
+  "presentation": "boards",
+  "credits": [
+    {
+      "role": "Identidade visual e interfaces",
+      "names": "Bruno Nascimento"
+    },
+    {
+      "role": "Desenvolvimento",
+      "names": "Desenvolvimento assistido por IA (vibe coding)"
+    }
+  ],
+  "credit": "Identidade visual e interfaces: Bruno Nascimento. Estudo autoral com conteúdo demonstrativo e imagens produzidas com IA.",
+  "media": [
+    {
+      "type": "image",
+      "alt": "Dito Gestão · Identidade e Web Design",
+      "width": 1280,
+      "height": 777,
+      "fullWidth": 2800,
+      "fullHeight": 1700,
+      "src": "portfolio/assets/ux-ui/estudos-20261115/dito/01/1280w.webp",
+      "fullSrc": "portfolio/assets/ux-ui/estudos-20261115/dito/01/original.webp",
+      "srcset": "portfolio/assets/ux-ui/estudos-20261115/dito/01/640w.webp 640w, portfolio/assets/ux-ui/estudos-20261115/dito/01/1280w.webp 1280w, portfolio/assets/ux-ui/estudos-20261115/dito/01/1920w.webp 1920w, portfolio/assets/ux-ui/estudos-20261115/dito/01/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)"
+    },
+    {
+      "type": "image",
+      "alt": "Dito Gestão · O projeto",
+      "width": 1280,
+      "height": 914,
+      "fullWidth": 2800,
+      "fullHeight": 2000,
+      "src": "portfolio/assets/ux-ui/estudos-20261115/dito/02/1280w.webp",
+      "fullSrc": "portfolio/assets/ux-ui/estudos-20261115/dito/02/original.webp",
+      "srcset": "portfolio/assets/ux-ui/estudos-20261115/dito/02/640w.webp 640w, portfolio/assets/ux-ui/estudos-20261115/dito/02/1280w.webp 1280w, portfolio/assets/ux-ui/estudos-20261115/dito/02/1920w.webp 1920w, portfolio/assets/ux-ui/estudos-20261115/dito/02/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)"
+    },
+    {
+      "type": "image",
+      "alt": "Dito Gestão · Tipografia e cor",
+      "width": 1280,
+      "height": 846,
+      "fullWidth": 2800,
+      "fullHeight": 1850,
+      "src": "portfolio/assets/ux-ui/estudos-20261115/dito/03/1280w.webp",
+      "fullSrc": "portfolio/assets/ux-ui/estudos-20261115/dito/03/original.webp",
+      "srcset": "portfolio/assets/ux-ui/estudos-20261115/dito/03/640w.webp 640w, portfolio/assets/ux-ui/estudos-20261115/dito/03/1280w.webp 1280w, portfolio/assets/ux-ui/estudos-20261115/dito/03/1920w.webp 1920w, portfolio/assets/ux-ui/estudos-20261115/dito/03/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)"
+    },
+    {
+      "type": "image",
+      "alt": "Dito Gestão · Página inicial",
+      "width": 1280,
+      "height": 1051,
+      "fullWidth": 2800,
+      "fullHeight": 2300,
+      "src": "portfolio/assets/ux-ui/estudos-20261115/dito/04/1280w.webp",
+      "fullSrc": "portfolio/assets/ux-ui/estudos-20261115/dito/04/original.webp",
+      "srcset": "portfolio/assets/ux-ui/estudos-20261115/dito/04/640w.webp 640w, portfolio/assets/ux-ui/estudos-20261115/dito/04/1280w.webp 1280w, portfolio/assets/ux-ui/estudos-20261115/dito/04/1920w.webp 1920w, portfolio/assets/ux-ui/estudos-20261115/dito/04/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)"
+    },
+    {
+      "type": "image",
+      "alt": "Dito Gestão · Conteúdo e navegação",
+      "width": 1280,
+      "height": 1234,
+      "fullWidth": 2800,
+      "fullHeight": 2700,
+      "src": "portfolio/assets/ux-ui/estudos-20261115/dito/05/1280w.webp",
+      "fullSrc": "portfolio/assets/ux-ui/estudos-20261115/dito/05/original.webp",
+      "srcset": "portfolio/assets/ux-ui/estudos-20261115/dito/05/640w.webp 640w, portfolio/assets/ux-ui/estudos-20261115/dito/05/1280w.webp 1280w, portfolio/assets/ux-ui/estudos-20261115/dito/05/1920w.webp 1920w, portfolio/assets/ux-ui/estudos-20261115/dito/05/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)"
+    },
+    {
+      "type": "image",
+      "alt": "Dito Gestão · Páginas internas",
+      "width": 1280,
+      "height": 1234,
+      "fullWidth": 2800,
+      "fullHeight": 2700,
+      "src": "portfolio/assets/ux-ui/estudos-20261115/dito/06/1280w.webp",
+      "fullSrc": "portfolio/assets/ux-ui/estudos-20261115/dito/06/original.webp",
+      "srcset": "portfolio/assets/ux-ui/estudos-20261115/dito/06/640w.webp 640w, portfolio/assets/ux-ui/estudos-20261115/dito/06/1280w.webp 1280w, portfolio/assets/ux-ui/estudos-20261115/dito/06/1920w.webp 1920w, portfolio/assets/ux-ui/estudos-20261115/dito/06/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)"
+    },
+    {
+      "type": "image",
+      "alt": "Dito Gestão · Apresentação e experiência",
+      "width": 1280,
+      "height": 1280,
+      "fullWidth": 2800,
+      "fullHeight": 2800,
+      "src": "portfolio/assets/ux-ui/estudos-20261115/dito/07/1280w.webp",
+      "fullSrc": "portfolio/assets/ux-ui/estudos-20261115/dito/07/original.webp",
+      "srcset": "portfolio/assets/ux-ui/estudos-20261115/dito/07/640w.webp 640w, portfolio/assets/ux-ui/estudos-20261115/dito/07/1280w.webp 1280w, portfolio/assets/ux-ui/estudos-20261115/dito/07/1920w.webp 1920w, portfolio/assets/ux-ui/estudos-20261115/dito/07/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)"
+    },
+    {
+      "type": "image",
+      "alt": "Dito Gestão · Contato e navegação mobile",
+      "width": 1280,
+      "height": 1088,
+      "fullWidth": 2800,
+      "fullHeight": 2380,
+      "src": "portfolio/assets/ux-ui/estudos-20261115/dito/08/1280w.webp",
+      "fullSrc": "portfolio/assets/ux-ui/estudos-20261115/dito/08/original.webp",
+      "srcset": "portfolio/assets/ux-ui/estudos-20261115/dito/08/640w.webp 640w, portfolio/assets/ux-ui/estudos-20261115/dito/08/1280w.webp 1280w, portfolio/assets/ux-ui/estudos-20261115/dito/08/1920w.webp 1920w, portfolio/assets/ux-ui/estudos-20261115/dito/08/original.webp 2800w",
+      "sizes": "(max-width:700px) calc(100vw - 48px), calc(100vw - 64px)"
+    }
+  ],
+  "sections": [
+    {
+      "title": "O projeto",
+      "paragraphs": [
+        "Identidade e website para uma consultoria conceitual de gestão. O site organiza as frentes de atuação e usa exemplos de trabalho para explicar os serviços e iniciar o contato."
+      ]
+    },
+    {
+      "title": "Contexto das imagens",
+      "paragraphs": [
+        "Marca fictícia e website demonstrativo. As imagens e os dados pertencem ao estudo autoral; não representam uma empresa em funcionamento. O acervo inclui imagens produzidas com IA."
+      ]
+    }
+  ],
+  "links": []
+}

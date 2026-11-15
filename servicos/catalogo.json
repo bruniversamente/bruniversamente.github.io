@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": "bf-2026-11-14",
   "phone": "5541988155435",
   "paths": [
     {
@@ -17,85 +17,199 @@
             "entrada"
           ],
           "title": "Essencial",
-          "description": "Para colocar sua apresentação no ar.",
+          "description": "Seu negócio em uma página, com seus serviços e formas de contato.",
           "features": [
-            "Uma página com até 5 seções",
-            "Até 5 serviços e 8 imagens",
-            "WhatsApp, localização e redes",
-            "Design para computador e celular"
+            "Site: 1 página com até 5 seções",
+            "Conteúdo: até 5 serviços e 8 imagens",
+            "Design: modelo de site adaptado",
+            "Contato: WhatsApp, localização e redes",
+            "Telas: computador e celular",
+            "Publicação: site no ar e domínio conectado"
           ],
           "label": "Black Friday",
           "recommended": false,
           "initial": 479.9,
           "monthly": 0,
           "details": [
-            "Uma página com até cinco seções em uma estrutura de apresentação definida, adaptada à identidade do cliente.",
-            "Apresentação de até cinco serviços, até oito imagens e informações de contato.",
-            "Botão de WhatsApp, localização e links para redes ou agenda já existente.",
-            "Versão para computador e celular, preparação básica para busca, conexão do domínio e publicação."
+            "Um site de 1 página, com até 5 seções.",
+            "Seu site parte de um modelo criado por mim. Adapto as cores, as fontes, as imagens e o conteúdo para apresentar seu negócio.",
+            "Apresentação de até 5 serviços e até 8 imagens, além das informações de contato.",
+            "Botão de WhatsApp, localização e links para suas redes sociais ou uma agenda que você já use.",
+            "Versão para computador e celular, preparação básica para buscas, conexão do domínio e publicação do site."
           ],
-          "limits": "Uma rodada consolidada de revisão. O cliente fornece marca, textos e imagens. O valor promocional é R$479,90, conforme a campanha; o regular é R$989.",
+          "limits": "Você fornece sua marca, os textos e as imagens.",
           "revisions": 1,
-          "regular": 989
+          "regular": 989,
+          "feature_comparison": [
+            {
+              "text": "1 página · até 5 seções",
+              "included": true
+            },
+            {
+              "text": "Até 5 serviços · 8 imagens",
+              "included": true
+            },
+            {
+              "text": "Modelo de site adaptado",
+              "included": true
+            },
+            {
+              "text": "WhatsApp, localização e redes",
+              "included": true
+            },
+            {
+              "text": "Computador e celular",
+              "included": true
+            },
+            {
+              "text": "Publicação e domínio conectado",
+              "included": true
+            },
+            {
+              "text": "Design exclusivo",
+              "included": false
+            },
+            {
+              "text": "Formulário de contato",
+              "included": false
+            },
+            {
+              "text": "Páginas internas",
+              "included": false
+            }
+          ],
+          "regular_label": null
         },
         {
           "id": "site",
           "parts": [
             "site"
           ],
-          "title": "Personalizado",
-          "description": "Para apresentar seu negócio com uma composição própria.",
+          "title": "Sob Medida",
+          "description": "Uma página com design próprio e mais espaço para destacar seus diferenciais.",
           "features": [
-            "Uma página com até 7 seções",
-            "Até 6 serviços e 10 imagens",
-            "WhatsApp e formulário de contato",
-            "Design próprio e publicação"
+            "Site: 1 página com até 7 seções",
+            "Conteúdo: até 6 serviços e 10 imagens",
+            "Design: composição própria para sua marca",
+            "Contato: WhatsApp, mapa e formulário",
+            "Telas: computador e celular",
+            "Publicação: site no ar e domínio conectado"
           ],
-          "label": "Mais possibilidades",
+          "label": "Black Friday",
           "recommended": true,
-          "initial": 1990,
+          "initial": 1690,
           "monthly": 0,
           "details": [
-            "Uma página com até sete seções e composição visual própria, para computador e celular.",
-            "Apresentação da empresa, até seis serviços, galeria com até dez imagens e contato.",
-            "WhatsApp, mapa e um formulário simples com até cinco campos e envio conferido.",
-            "Preparação de títulos, descrições e imagens para busca e carregamento; conexão do domínio e publicação."
+            "Um site de 1 página, com até 7 seções e design criado para sua marca, para computador e celular.",
+            "Apresentação da empresa, até 6 serviços e uma galeria com até 10 imagens.",
+            "WhatsApp, mapa e formulário de contato com até 5 campos. Confiro o envio das mensagens antes da entrega.",
+            "Ajustes nos títulos, nas descrições e nas imagens para ajudar nas buscas e no carregamento. Inclui conexão do domínio e publicação."
           ],
-          "limits": "O cliente fornece identidade, informações, textos e imagens. A organização e os ajustes desses materiais entram; redação do zero e novas funções têm escopo próprio.",
-          "revisions": 2
+          "limits": "Você fornece sua identidade visual, as informações, os textos e as imagens. Organizo e ajusto esses materiais. Textos escritos do zero e novas funções são serviços à parte.",
+          "revisions": 2,
+          "feature_comparison": [
+            {
+              "text": "1 página · até 7 seções",
+              "included": true
+            },
+            {
+              "text": "Até 6 serviços · 10 imagens",
+              "included": true
+            },
+            {
+              "text": "Design exclusivo",
+              "included": true
+            },
+            {
+              "text": "WhatsApp e mapa",
+              "included": true
+            },
+            {
+              "text": "Formulário de contato",
+              "included": true
+            },
+            {
+              "text": "Computador e celular",
+              "included": true
+            },
+            {
+              "text": "Publicação e domínio conectado",
+              "included": true
+            },
+            {
+              "text": "Páginas internas",
+              "included": false
+            }
+          ],
+          "regular": 1990,
+          "regular_label": "Mais possibilidades"
         },
         {
           "id": "institucional",
           "parts": [
             "institucional"
           ],
-          "title": "Institucional",
-          "description": "Para organizar sua empresa em mais páginas.",
+          "title": "Completo",
+          "description": "Páginas dedicadas à sua empresa e aos seus serviços, com mais detalhes para seus clientes.",
           "features": [
-            "Até 5 páginas para sua empresa",
-            "Até 10 serviços e 25 imagens",
-            "Galeria, mapa e formulário",
-            "Design próprio e publicação"
+            "Site: até 5 páginas",
+            "Conteúdo: até 10 serviços e 25 imagens",
+            "Design: composição própria para sua marca",
+            "Contato: WhatsApp, mapa e formulário",
+            "Telas: computador e celular",
+            "Publicação: site no ar e domínio conectado"
           ],
-          "label": null,
+          "label": "Black Friday",
           "recommended": false,
-          "initial": 3490,
+          "initial": 2990,
           "monthly": 0,
           "details": [
-            "Até cinco páginas fixas, como início, empresa, serviços, galeria e contato, com layout para computador e celular.",
-            "Apresentação de até dez serviços e inserção de até 25 imagens fornecidas.",
-            "Um formulário simples, WhatsApp, mapa e links para canais externos.",
-            "Preparação para busca, organização dos conteúdos fornecidos, conexão do domínio e publicação."
+            "Um site com até 5 páginas, como início, empresa, serviços, galeria e contato, para computador e celular.",
+            "Apresentação de até 10 serviços e inclusão de até 25 imagens que você fornecer.",
+            "Formulário de contato, botão de WhatsApp, mapa e links para outros canais do seu negócio.",
+            "Organização do conteúdo fornecido, preparação para buscas, conexão do domínio e publicação do site."
           ],
-          "limits": "Blog, edição pelo cliente, idioma adicional, áreas restritas e integrações próprias entram como complementos.",
-          "revisions": 2
+          "limits": "Blog, acesso para você editar o site, outro idioma, área com login e conexões com outros sistemas são serviços à parte.",
+          "revisions": 2,
+          "feature_comparison": [
+            {
+              "text": "Até 5 páginas",
+              "included": true
+            },
+            {
+              "text": "Até 10 serviços · 25 imagens",
+              "included": true
+            },
+            {
+              "text": "Design exclusivo",
+              "included": true
+            },
+            {
+              "text": "WhatsApp e mapa",
+              "included": true
+            },
+            {
+              "text": "Formulário de contato",
+              "included": true
+            },
+            {
+              "text": "Computador e celular",
+              "included": true
+            },
+            {
+              "text": "Publicação e domínio conectado",
+              "included": true
+            }
+          ],
+          "regular": 3490,
+          "regular_label": null
         }
       ]
     },
     {
       "id": "marca",
       "title": "Preciso de marca e site",
-      "short": "Marca + site",
+      "short": "Marca e site",
       "description": "Comece com uma identidade e uma presença coerentes.",
       "icon": "brand",
       "heading": "Sua marca e seu site, juntos.",
@@ -107,25 +221,74 @@
             "marca",
             "site"
           ],
-          "title": "Marca + site",
-          "description": "Uma identidade e um site feitos para conversar entre si.",
+          "title": "Essencial",
+          "description": "Uma identidade visual e um site com design próprio para o seu negócio.",
           "features": [
-            "Logo, variações, cores e tipografia",
-            "Guia curto da sua marca",
-            "Site personalizado com até 7 seções",
-            "Contato, formulário e publicação"
+            "Identidade visual: logo, variações, cores e fontes",
+            "Guia da marca: orientações de uso",
+            "Site: 1 página com até 7 seções e design próprio",
+            "Conteúdo: até 6 serviços e 10 imagens",
+            "Contato: WhatsApp, mapa e formulário",
+            "Telas: computador e celular",
+            "Publicação: site no ar e domínio conectado"
           ],
-          "label": "Marca e site juntos",
+          "label": "Black Friday",
           "recommended": true,
-          "initial": 2990,
+          "initial": 2490,
           "monthly": 0,
           "details": [
-            "Identidade essencial completa: logo, variações, cores, tipografia e guia curto.",
-            "Site de uma página personalizado, com até sete seções, até seis serviços, dez imagens e um formulário simples.",
-            "Aplicação da identidade aprovada no site e publicação."
+            "Logo, até 3 variações do mesmo logo, cores, fontes e um guia de uso da marca.",
+            "Arquivos do logo em formato vetorial, para ampliar sem perder qualidade, e versões para uso digital.",
+            "Um site de 1 página, com design criado para sua marca e até 7 seções, para computador e celular.",
+            "Apresentação de até 6 serviços e até 10 imagens, com WhatsApp, mapa e formulário de até 5 campos.",
+            "Aplicação da identidade visual no site, preparação para buscas, conexão do domínio e publicação."
           ],
-          "limits": "O cliente fornece textos e imagens. Redação completa, fotos inéditas e manutenção mensal são complementos.",
-          "revisions": 2
+          "limits": "Você fornece os textos e as imagens. Textos escritos do zero, produção de fotos e manutenção mensal são serviços à parte.",
+          "revisions": 2,
+          "feature_comparison": [
+            {
+              "text": "Logo, variações, cores e fontes",
+              "included": true
+            },
+            {
+              "text": "Guia de uso da marca",
+              "included": true
+            },
+            {
+              "text": "1 página · até 7 seções",
+              "included": true
+            },
+            {
+              "text": "Design exclusivo",
+              "included": true
+            },
+            {
+              "text": "Até 6 serviços · 10 imagens",
+              "included": true
+            },
+            {
+              "text": "WhatsApp, mapa e formulário",
+              "included": true
+            },
+            {
+              "text": "Computador e celular",
+              "included": true
+            },
+            {
+              "text": "Publicação e domínio conectado",
+              "included": true
+            },
+            {
+              "text": "Modelos editáveis para redes sociais",
+              "included": false
+            },
+            {
+              "text": "Cartão, assinatura e proposta",
+              "included": false
+            }
+          ],
+          "regular": 2990,
+          "regular_label": "Marca e site juntos"
         },
         {
           "id": "brand-1",
@@ -133,32 +296,84 @@
             "marca_aplicacoes",
             "institucional"
           ],
-          "title": "Marca + presença completa",
-          "description": "Sua identidade aplicada ao site e aos materiais do negócio.",
+          "title": "Completo",
+          "description": "Sua identidade aplicada a um site com mais páginas e a materiais para o dia a dia.",
           "features": [
-            "Identidade e 6 templates para redes",
-            "Cartão, assinatura e proposta editável",
-            "Site institucional com até 5 páginas",
-            "Contato, formulário e publicação"
+            "Identidade visual: logo, variações, cores e fontes",
+            "Guia da marca: orientações de uso e aplicações",
+            "Site: até 5 páginas com design próprio",
+            "Conteúdo: até 10 serviços e 25 imagens",
+            "Contato: WhatsApp, mapa e formulário",
+            "Telas: computador e celular",
+            "Publicação: site no ar e domínio conectado",
+            "Redes sociais: 6 modelos editáveis",
+            "Materiais: cartão, assinatura e proposta editável"
           ],
-          "label": null,
+          "label": "Black Friday",
           "recommended": false,
-          "initial": 5490,
+          "initial": 4490,
           "monthly": 0,
           "details": [
-            "Identidade com aplicações completa, incluindo seis templates, cartão, assinatura e modelo de proposta.",
-            "Site institucional com até cinco páginas, dez serviços, 25 imagens e formulário simples.",
-            "Aplicação da marca nos materiais e no site, com publicação."
+            "Logo, até 3 variações do mesmo logo, cores, fontes e até 2 elementos gráficos ou padrões de apoio. Inclui arquivos vetoriais e versões digitais.",
+            "Guia de uso da marca com exemplos de aplicação e 6 modelos editáveis para redes sociais, em um formato principal.",
+            "Cartão de visita, assinatura de e-mail e modelo editável de proposta comercial com até 4 páginas.",
+            "Um site com design criado para sua marca e até 5 páginas, para computador e celular, com até 10 serviços e até 25 imagens.",
+            "Formulário de contato, WhatsApp, mapa, preparação para buscas, conexão do domínio e publicação.",
+            "Aplicação da identidade visual no site e nos materiais do pacote."
           ],
-          "limits": "Os seis templates são modelos editáveis, sem gestão de publicações. Textos completos e mensalidades ficam separados.",
-          "revisions": 2
+          "limits": "Os 6 modelos para redes sociais não incluem a produção nem a publicação dos posts. Você fornece os textos e as imagens. Impressão, redação da proposta, peças extras, compra de fontes ou imagens e serviços mensais ficam à parte.",
+          "revisions": 2,
+          "feature_comparison": [
+            {
+              "text": "Logo, variações, cores e fontes",
+              "included": true
+            },
+            {
+              "text": "Guia de uso e aplicações",
+              "included": true
+            },
+            {
+              "text": "Até 5 páginas",
+              "included": true
+            },
+            {
+              "text": "Design exclusivo",
+              "included": true
+            },
+            {
+              "text": "Até 10 serviços · 25 imagens",
+              "included": true
+            },
+            {
+              "text": "WhatsApp, mapa e formulário",
+              "included": true
+            },
+            {
+              "text": "Computador e celular",
+              "included": true
+            },
+            {
+              "text": "Publicação e domínio conectado",
+              "included": true
+            },
+            {
+              "text": "6 modelos editáveis para redes sociais",
+              "included": true
+            },
+            {
+              "text": "Cartão, assinatura e proposta editável",
+              "included": true
+            }
+          ],
+          "regular": 5490,
+          "regular_label": null
         }
       ]
     },
     {
       "id": "divulgacao",
       "title": "Quero divulgar meu negócio",
-      "short": "Divulgação",
+      "short": "Marketing digital",
       "description": "Cuide do conteúdo, dos anúncios ou da busca.",
       "icon": "growth",
       "heading": "Escolha o que você quer acompanhar.",
@@ -169,25 +384,27 @@
           "parts": [
             "social"
           ],
-          "title": "Conteúdo para Instagram",
-          "description": "Para manter o perfil ativo com conteúdo e publicação.",
+          "title": "Instagram",
+          "description": "Conteúdo, legendas e publicações para manter seu perfil ativo.",
           "features": [
-            "8 publicações por mês",
-            "6 artes e 2 carrosséis de até 5 páginas",
-            "Legendas, calendário e agendamento",
-            "Relatório simples da conta"
+            "Canal: 1 conta do Instagram",
+            "Publicações: 8 por mês",
+            "Formatos: 6 artes estáticas e 2 carrosséis de até 5 páginas cada",
+            "Textos: 8 legendas com chamadas para ação",
+            "Planejamento: calendário e agendamento",
+            "Resultados: relatório mensal da conta"
           ],
           "label": "Conteúdo e publicação",
           "recommended": true,
           "initial": 0,
           "monthly": 1190,
           "details": [
-            "Calendário e oito publicações por mês: seis estáticas e dois carrosséis de até cinco páginas cada.",
-            "Oito legendas com chamadas para ação e preparação das imagens.",
-            "Agendamento ou publicação dos conteúdos aprovados em uma conta de Instagram.",
-            "Relatório simples com os indicadores disponíveis da conta e uma rodada de revisão do conjunto."
+            "8 publicações por mês: 6 artes estáticas e 2 carrosséis com até 5 páginas cada. Os carrosséis já fazem parte das 8 publicações.",
+            "Calendário de conteúdo, preparação das imagens e 8 legendas com chamadas para contato ou outra ação combinada.",
+            "Agendamento ou publicação dos conteúdos que você aprovar em 1 conta do Instagram.",
+            "Relatório com os resultados disponíveis na conta."
           ],
-          "limits": "Captação, vídeos, anúncios e atendimento de comentários ou directs recebem escopo separado. Stories e republicação em outras redes não consomem vagas sem definição prévia.",
+          "limits": "Produção de fotos, vídeos, anúncios e respostas a comentários ou mensagens privadas são serviços à parte. Stories e publicações em outras redes precisam de combinação prévia, inclusive sobre a contagem nas 8 publicações.",
           "revisions": 1
         },
         {
@@ -195,25 +412,27 @@
           "parts": [
             "anuncios"
           ],
-          "title": "Anúncios locais",
-          "description": "Para divulgar uma oferta em um canal de anúncios.",
+          "title": "Anúncios",
+          "description": "Campanhas para divulgar sua oferta a clientes da sua região.",
           "features": [
-            "Uma campanha no Google ou Meta",
-            "Uma empresa e uma localidade",
-            "Textos e anúncios conforme o canal",
-            "Acompanhamento e relatório"
+            "Canal: Google Pesquisa ou Meta Ads",
+            "Campanhas: 1 ativa",
+            "Abrangência: 1 empresa e 1 localidade",
+            "Criação: textos e anúncios conforme o canal",
+            "Gestão: acompanhamento e ajustes",
+            "Resultados: relatório mensal"
           ],
           "label": null,
           "recommended": false,
           "initial": 0,
           "monthly": 790,
           "details": [
-            "Gestão em Google Pesquisa ou Meta Ads, para uma empresa e uma localidade.",
-            "Uma campanha ativa; no Google, até dois grupos e quatro anúncios de texto; no Meta, até dois conjuntos e duas peças estáticas com textos.",
-            "Acompanhamento de termos ou públicos, ajustes e relatório mensal com dados disponíveis.",
-            "Organização da conta de anúncios e dos acessos existentes."
+            "Gestão de anúncios no Google Pesquisa ou nas plataformas da Meta, para 1 empresa em 1 localidade. Você escolhe um desses canais.",
+            "1 campanha ativa. No Google: até 2 grupos e 4 anúncios de texto. Na Meta: até 2 conjuntos e 2 artes estáticas com os textos dos anúncios.",
+            "Acompanhamento das buscas ou dos públicos, ajustes na campanha e relatório mensal com os dados disponíveis.",
+            "Organização da conta de anúncios e dos acessos que você já possui."
           ],
-          "limits": "Verba dos anúncios paga pelo cliente. Página de destino e configuração da medição são separadas quando ausentes.",
+          "limits": "Você paga a verba dos anúncios à plataforma, além da mensalidade do serviço. Se precisar criar a página que recebe os visitantes ou configurar a medição dos resultados, esses serviços ficam à parte. Operação ou parceiro responsável deve estar definido antes da oferta comercial.",
           "revisions": 1
         },
         {
@@ -221,25 +440,26 @@
           "parts": [
             "seo"
           ],
-          "title": "Google e conteúdo",
-          "description": "Para trabalhar a presença do seu site nas buscas.",
+          "title": "Buscas do Google",
+          "description": "Conteúdo e ajustes no site para melhorar sua presença nas buscas.",
           "features": [
-            "Até 10 termos de busca acompanhados",
-            "2 páginas otimizadas por mês",
-            "2 artigos de até 600 palavras",
-            "Relatório e recomendações"
+            "Canal: buscas do Google",
+            "Termos de busca: até 10 acompanhados",
+            "Páginas: até 2 otimizadas por mês",
+            "Artigos: 2 por mês, de até 600 palavras cada",
+            "Resultados: relatório e recomendações mensais"
           ],
           "label": null,
           "recommended": false,
           "initial": 0,
           "monthly": 1290,
           "details": [
-            "Pesquisa e acompanhamento de até dez termos relacionados ao negócio.",
-            "Otimização de até duas páginas existentes por mês.",
-            "Dois artigos de até 600 palavras cada, com informações fornecidas ou validadas pelo cliente.",
-            "Relatório de busca e navegação com recomendações para o próximo conjunto de conteúdos."
+            "Pesquisa e acompanhamento de até 10 termos que as pessoas podem usar para buscar seu negócio.",
+            "Ajustes em até 2 páginas existentes do site por mês para melhorar sua apresentação nas buscas.",
+            "2 artigos por mês, com até 600 palavras cada, a partir de informações que você fornecer ou aprovar.",
+            "Relatório com dados de buscas e navegação no site e sugestões para os próximos conteúdos."
           ],
-          "limits": "Exige site editável e acessos. Reformulação do site, compra de links, novos modelos de página e correções extensas recebem orçamento separado. Sem promessa de posição no Google.",
+          "limits": "Preciso de acesso ao site e de uma forma de editar suas páginas. Refazer o site, comprar links, criar novos modelos de página e fazer correções extensas são serviços à parte. Não há garantia de posição no Google.",
           "revisions": 1
         }
       ]
@@ -248,66 +468,75 @@
   "addons": [
     {
       "id": "textos",
-      "title": "Textos para o seu site",
-      "description": "Até 5 textos, com total de 1.500 palavras, e uma bio.",
+      "title": "Textos para o site",
+      "description": "Até 5 textos para o site, somando até 1.500 palavras, e uma apresentação curta de até 150 palavras.",
       "initial": 690,
-      "monthly": 0
+      "monthly": 0,
+      "feature": "Textos para o site: até 5 textos (1.500 palavras no total) e 1 apresentação curta"
     },
     {
       "id": "marca",
       "title": "Identidade visual",
-      "description": "Logo, variações, cores, tipografia e guia curto.",
+      "description": "Logo, até 3 variações do mesmo logo, cores, fontes e um guia de uso.",
       "initial": 1290,
-      "monthly": 0
+      "monthly": 0,
+      "feature": "Identidade visual: logo, até 3 variações, cores, fontes e guia"
     },
     {
       "id": "imagens",
-      "title": "Preparação de imagens",
-      "description": "Tratamento de até 12 fotos e até 2 montagens simples.",
+      "title": "Tratamento de imagens",
+      "description": "Ajustes de cor, luz e recorte em até 12 fotos que você fornecer. Até 2 dessas fotos podem receber uma montagem simples.",
       "initial": 190,
-      "monthly": 0
+      "monthly": 0,
+      "feature": "Tratamento de imagens: até 12 fotos, incluindo até 2 montagens"
     },
     {
       "id": "cuidado",
-      "title": "Cuidado do site",
-      "description": "Verificações e até 2 alterações simples por mês.",
+      "title": "Manutenção do site",
+      "description": "Verificações do site e até 2 alterações por mês. Cada alteração pode ser um texto de até 300 palavras ou 1 imagem.",
       "initial": 0,
-      "monthly": 149
+      "monthly": 149,
+      "feature": "Manutenção do site: verificações e até 2 alterações por mês"
     },
     {
       "id": "medicao",
       "title": "Medição do site",
-      "description": "Configuração de acesso e até 3 ações de contato medidas.",
+      "description": "Configuro 1 site para acompanhar até 3 ações, como cliques no WhatsApp ou envio de formulário.",
       "initial": 490,
-      "monthly": 0
+      "monthly": 0,
+      "feature": "Medição do site: configuração em 1 site e até 3 ações de contato"
     },
     {
       "id": "local",
-      "title": "Perfil no Google",
-      "description": "Organização do perfil para um negócio elegível.",
+      "title": "Perfil da Empresa no Google",
+      "description": "Criação ou organização de 1 perfil, com dados da empresa e até 10 imagens que você fornecer. Seu negócio precisa atender aos critérios do Google.",
       "initial": 299,
-      "monthly": 0
+      "monthly": 0,
+      "feature": "Perfil da Empresa no Google: 1 perfil e até 10 imagens"
     },
     {
       "id": "reels",
-      "title": "Edição de dois vídeos",
-      "description": "Até 60 segundos por vídeo, com material fornecido.",
+      "title": "Edição de vídeos",
+      "description": "Edição de 2 vídeos, com até 60 segundos cada, a partir do material que você fornecer. Não inclui gravação.",
       "initial": 590,
-      "monthly": 0
+      "monthly": 0,
+      "feature": "Edição de vídeos: 2 vídeos de até 60 segundos cada"
     },
     {
       "id": "analise",
-      "title": "Leitura dos resultados",
-      "description": "Relatório de até 6 indicadores e ações recomendadas.",
+      "title": "Análise de resultados",
+      "description": "Análise mensal de até 6 indicadores em até 2 fontes de dados já configuradas. Inclui relatório e até 3 sugestões de ação.",
       "initial": 0,
-      "monthly": 490
+      "monthly": 490,
+      "feature": "Análise de resultados: até 6 indicadores em até 2 fontes por mês"
     },
     {
       "id": "site",
-      "title": "Página para sua oferta",
-      "description": "Site personalizado com até 7 seções e contato.",
+      "title": "Página de campanha",
+      "description": "Uma página com design criado para sua marca, até 7 seções, até 6 serviços e até 10 imagens. Inclui WhatsApp e formulário de até 5 campos.",
       "initial": 1990,
-      "monthly": 0
+      "monthly": 0,
+      "feature": "Página de campanha: 1 página com até 7 seções, WhatsApp e formulário"
     }
   ],
   "allowed_addons": {
@@ -842,5 +1071,31 @@
       "initial_saving": 0,
       "monthly_saving": 190
     }
-  ]
+  ],
+  "campaign": {
+    "id": "black-friday-2026",
+    "starts_at": "2026-11-14T00:00:00-03:00",
+    "ends_at": "2026-12-01T00:00:00-03:00",
+    "deadline_label": "30/11/2026",
+    "part_prices": {
+      "entrada": 479.9,
+      "site": 1690,
+      "institucional": 2990
+    },
+    "combo_prices": {
+      "marca+site": 2490,
+      "institucional+marca_aplicacoes": 4490
+    },
+    "payment": {
+      "entry_percent": 50,
+      "delivery_percent": 50
+    },
+    "terms": [
+      "Contratações até 30/11/2026. A agenda de execução é combinada na proposta.",
+      "Projetos: 50% de entrada e 50% na entrega. Serviços mensais têm cobrança separada.",
+      "O preço promocional é confirmado com a aprovação da proposta e o pagamento da entrada dentro do período da campanha.",
+      "As entregas e as rodadas de ajustes de cada pacote permanecem as descritas.",
+      "Os complementos mantêm seus valores. Para as mesmas entregas, aplico a condição mais vantajosa entre o total vigente e os combinados disponíveis, sem acumular descontos sobre a mesma parcela."
+    ]
+  }
 }

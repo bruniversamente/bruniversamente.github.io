@@ -11,7 +11,7 @@
   const reset=()=>{token='';if(widgetId!==null&&window.turnstile)window.turnstile.reset(widgetId);};
   window.addEventListener('bn:contact',event=>{context=event.detail;saved='';});
   form.addEventListener('input',()=>{saved='';fallback.hidden=true;});
-  function payload(){return {name:document.querySelector('#contact-name').value.trim(),email:document.querySelector('#contact-email').value.trim(),phone:phone.value.trim(),business:context.business,need:document.querySelector('#contact-need')?.value.trim()??'',selection:context.selection,contactPermission:true,website:document.querySelector('#lead-website').value,token};}
+  function payload(){return {name:document.querySelector('#contact-name').value.trim(),email:document.querySelector('#contact-email').value.trim(),phone:phone.value.trim(),business:context.business,need:document.querySelector('#contact-need')?.value.trim()??'',selection:context.selection,catalogVersion:context.catalogVersion,contactPermission:true,website:document.querySelector('#lead-website').value,token};}
   function valid(){
     phone.setCustomValidity('');
     let digits=phone.value.replace(/\D/g,'');if(digits.length===10||digits.length===11)digits='55'+digits;
@@ -31,6 +31,7 @@
     if(loading){event.preventDefault();say('Preparando o contato. Toque novamente em instantes.');return;}
     if(!config?.enabled)return;
     event.preventDefault();if(busy||!valid())return;
+    if(context.catalogVersion && !config.catalogVersions?.includes(context.catalogVersion)){say('O cadastro está sendo atualizado. Você pode continuar pelo WhatsApp.',true);allowFallback();return;}
     const body=payload(),fingerprint=JSON.stringify({...body,token:''});
     if(saved===fingerprint){window.open(link.href,'_blank','noopener,noreferrer');return;}
     if(!ready||!token){say(ready?'Conclua a verificação para continuar.':'O cadastro está indisponível. Você pode continuar pelo WhatsApp.',true);allowFallback();return;}
@@ -54,7 +55,7 @@
     document.querySelector('#contact-email-field').classList.add('contact-email-wide');
     link.textContent='Confirmar e abrir WhatsApp ↗';
     const response=await fetch(config.endpoint+'/config',{credentials:'omit',signal:AbortSignal.timeout(8000)});
-    const server=await response.json();ready=response.ok&&server.ready===true;config.siteKey=server.siteKey;
+    const server=await response.json();ready=response.ok&&server.ready===true;config.siteKey=server.siteKey;config.catalogVersions=server.catalogVersions;
     if(!ready)return;
     if(window.turnstile){mountWidget();return;}
     const js=document.createElement('script');js.src='https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit';js.async=true;js.defer=true;js.onload=mountWidget;

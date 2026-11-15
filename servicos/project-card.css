@@ -34,12 +34,12 @@
 .pricing-project-card{position:absolute;left:-19%;top:-35px;width:400px;min-width:520px;max-width:none;container-type:inline-size;pointer-events:none;animation:project-card-turn 16.5s linear infinite;transform-origin:center;filter:drop-shadow(0 10px 14px #00000029)}
 /* Keep the approved card face, excluding the heavy shadow baked into the PNG. */
 .pricing-project-card>img{display:block;width:100%;height:auto;max-width:none;-webkit-mask-image:url('assets/project-card/card-face-mask.svg');mask-image:url('assets/project-card/card-face-mask.svg');-webkit-mask-size:100% 100%;mask-size:100% 100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}
-.project-card-label{position:absolute;left:14.7%;top:74.1%;width:17%;height:3.5%;transform:rotate(-8deg);transform-origin:0 50%;display:flex;align-items:center;justify-content:center;background-image:url('assets/project-card/reference-card.png');background-size:588.235% auto;background-position:17.7% 70.6%;color:#ffe3fa;font-family:ReferenceLabel,monospace;font-size:1.6cqw;line-height:1;letter-spacing:.11cqw;text-transform:uppercase;white-space:nowrap}
+.project-card-label{position:absolute;left:14.7%;top:74.1%;width:17%;height:3.5%;transform:rotate(-8deg);transform-origin:0 50%;display:flex;align-items:center;justify-content:center;background-image:url('assets/project-card/reference-card.webp');background-size:588.235% auto;background-position:17.7% 70.6%;color:#ffe3fa;font-family:ReferenceLabel,monospace;font-size:1.6cqw;line-height:1;letter-spacing:.11cqw;text-transform:uppercase;white-space:nowrap}
 .project-card-label>span{position:relative}
 .hero-offer{overflow:hidden}
 .hero-project-card{position:absolute;z-index:-1;width:310px;right:-27%;top:-12px;container-type:inline-size;pointer-events:none;animation:reference-member-float 16.5s linear infinite}
 .hero-project-card>img{display:block;width:100%;height:auto;max-width:none}
-.hero-project-card .project-card-label{left:17%;top:74.2%;width:16.5%;height:4.2%;transform:rotate(-10deg);background-image:url('assets/project-card/hero-reference-card.png');background-size:1000% auto;background-position:23.5% 71%;font-size:1.6cqw}
+.hero-project-card .project-card-label{left:17%;top:74.2%;width:16.5%;height:4.2%;transform:rotate(-10deg);background-image:url('assets/project-card/hero-reference-card.webp');background-size:1000% auto;background-position:23.5% 71%;font-size:1.6cqw}
 .pricing-art>div:last-child{position:relative;z-index:1}
 @keyframes project-card-turn{0%,48.48%,100%{transform:rotate(0deg)}24.24%{transform:rotate(7deg)}72.72%,75.75%{transform:rotate(-7deg)}}
 @media(max-width:991px){.pricing-project-card{width:calc(100% + 40px);min-width:0;max-width:520px;left:-20px;top:-15px}}
@@ -102,3 +102,143 @@
 #contact-package-summary .contact-selected-addons>span{position:absolute;top:-7px;left:9px;padding:1px 5px;border:1px solid #ffffff25;border-radius:3px;background:#454545;color:#d4cfd2;text-transform:uppercase;font-size:8px;line-height:12px}
 #contact-package-summary .contact-selected-addons p{display:flex;flex-wrap:wrap;gap:5px 14px;margin:0;color:#f0edef;font-size:11px;line-height:16px}
 @media(max-width:600px){#contact-dialog .dialog-top h2{font-size:28px;line-height:32px}}
+
+/* Use the portfolio favicon as the compact header signature. */
+.hero-nav .wordmark.site-favicon{flex:none;line-height:0}
+.hero-nav .site-favicon img{display:block;width:40px;height:40px}
+
+/* Match Designjoy outline header buttons: transparent to white in 200 ms. */
+.hero-nav .btn-outline{border-color:#ddced3;transition:all .2s ease}
+.hero-nav .btn-outline:hover{background-color:#fff;border-color:#fff;transform:none}
+@media(prefers-reduced-motion:reduce){.hero-nav .btn-outline{transition:none}}
+
+/* Reference carousel motion, with room to align the final card at the start. */
+.benefit-track{scroll-behavior:auto}
+.benefit-track::after{content:"";flex:0 0 var(--benefit-end-space,0px);align-self:stretch;pointer-events:none}
+.benefit-track.is-sliding{scroll-snap-type:none}
+.track-controls button{transition:transform .3s ease;background:#fff;transform:scale(1);transform-origin:center}
+@media(hover:hover) and (pointer:fine){.track-controls button:hover{background:#fff;transform:scale(.8)}}
+.track-controls button:active{transform:scale(.8)}
+@media(prefers-reduced-motion:reduce){.track-controls button{transition:none}.track-controls button:hover,.track-controls button:active{transform:none}}
+
+/* Extend the carousel viewport to the container border, keeping its left alignment. */
+.benefit-track{margin-right:-40px;padding-right:0}
+@media(max-width:767px){.benefit-track{margin-right:-20px;padding-right:0}}
+@media(max-width:359px){.benefit-track{margin-right:-16px;padding-right:0}}
+
+/* Three-position service selector: one track, one sliding selection. */
+.path-guide{text-align:center;color:#716a70;font-size:16px;line-height:22px;margin:32px auto 14px}
+.path-tabs.path-toggle{position:relative;isolation:isolate;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;width:min(100%,460px);margin:0 auto 60px;padding:5px;border:1px solid #d2c8ce;border-radius:999px;background:#e2dbdf;box-shadow:inset 0 1px 3px #30252e0c}
+.path-tabs.path-toggle::before{content:"";position:absolute;z-index:-1;left:5px;top:5px;bottom:5px;width:calc((100% - 10px)/3);border-radius:999px;background:#1500ff;box-shadow:0 2px 5px #20102c20;transform:translateX(0);transition:transform 240ms cubic-bezier(.32,.72,0,1),background-color 200ms ease}
+.path-tabs.path-toggle:has([data-path="marca"][aria-pressed="true"])::before{transform:translateX(100%);background:#ff009a}
+.path-tabs.path-toggle:has([data-path="divulgacao"][aria-pressed="true"])::before{transform:translateX(200%);background:#ff8200}
+.path-tabs.path-toggle button[data-path]{position:relative;min-width:0;min-height:46px;padding:12px 8px;border:0;border-radius:999px;background:transparent;color:#5e555c;font-size:15px;line-height:22px;white-space:nowrap;box-shadow:none;transition:color 180ms ease}
+.path-tabs.path-toggle button[data-path][aria-pressed="true"]{background:transparent;border-color:transparent;color:#fff}
+.path-tabs.path-toggle button[data-path="marca"][aria-pressed="true"]{color:#230d20}
+.path-tabs.path-toggle button[data-path="divulgacao"][aria-pressed="true"]{color:#241406}
+.path-tabs.path-toggle button:focus-visible{outline:2px solid #151015;outline-offset:2px}
+.path-tabs.path-toggle.is-keyboard::before{transition:none}
+@media(hover:hover) and (pointer:fine){.path-tabs.path-toggle button[data-path]:hover{color:#171017}.path-tabs.path-toggle button[data-path="sites"][aria-pressed="true"]:hover{color:#fff}}
+@media(max-width:767px){.path-guide{font-size:14px;line-height:20px;margin-top:28px}.path-tabs.path-toggle{margin-bottom:36px}}
+@media(max-width:400px){.path-tabs.path-toggle button[data-path]{font-size:13px;padding-inline:4px}}
+@media(prefers-reduced-motion:reduce){.path-tabs.path-toggle::before,.path-tabs.path-toggle button[data-path]{transition:none}}
+
+/* Match the selected package border to its service toggle. */
+.offer-panel[data-path="sites"]{--package-accent:#1500ff}
+.offer-panel[data-path="marca"]{--package-accent:#ff009a}
+.offer-panel[data-path="divulgacao"]{--package-accent:#ff8200}
+.offer-panel[data-path] .offer-options button[data-option][aria-pressed="true"]{border-color:var(--package-accent);box-shadow:inset 0 0 0 1px var(--package-accent)}
+
+/* Show included deliveries beside the totals when the panel has enough room. */
+.offer-panel{container:offer-content / inline-size}
+.offer-values{min-width:0}
+@media(min-width:768px){
+ @container offer-content (min-width:450px){
+  .offer-overview{display:grid;grid-template-columns:minmax(205px,.95fr) minmax(0,1.05fr);align-items:start;gap:24px;margin:0 0 24px}
+  .offer-overview>.included{min-width:0;margin:14px 0 0;padding:28px 18px 22px}
+  .offer-overview>.included>span{left:18px}
+  .offer-overview>.included ul{grid-template-columns:minmax(0,1fr);gap:10px}
+  .offer-overview .price{font-size:clamp(44px,10cqi,58px)}
+ }
+}
+
+/* Keep the Black Friday comparison visible, including when extras are selected. */
+.offer-options .option-pricing .option-regular{display:block;margin-bottom:2px;color:#aaa;font-weight:400;text-decoration-thickness:1px}
+.offer-options .option-pricing .option-current{display:block}
+.payment-total .regular-comparison{font-size:17px;line-height:22px;color:#aaa;margin:0 0 8px}
+.payment-total .regular-comparison s{text-decoration-thickness:1.3px}
+
+/* Keep both prices on the same line in the compact package selector. */
+.offer-options button[data-option] .option-pricing{display:flex;align-items:baseline;gap:6px;white-space:nowrap}
+.offer-options .option-pricing .option-regular{margin-bottom:0}
+
+/* Original reference smile, cropped at the lower-right edge of the pricing panel. */
+.package-corner-smile{position:absolute;right:0;bottom:0;width:150px;height:164px;overflow:hidden;border-bottom-right-radius:18px;color:var(--package-accent,#1500ff);pointer-events:none;z-index:0}
+.package-corner-smile>svg{position:absolute;right:-115px;bottom:-100px;display:block;width:265px;height:264px;max-width:none;stroke:none}
+.offer-panel>.offer-cta,.offer-panel>.panel-caption{position:relative;z-index:1;max-width:calc(100% - 115px)}
+.offer-panel>.panel-caption{min-height:32px}
+@media(max-width:600px){
+ .package-corner-smile{width:101px;height:110px}
+ .package-corner-smile>svg{width:178px;height:177px;right:-77px;bottom:-67px}
+ .offer-panel>.offer-cta,.offer-panel>.panel-caption{max-width:calc(100% - 75px)}
+ .offer-panel>.panel-caption{min-height:36px}
+}
+
+/* Reference smile on the package button, colored by the selected service. */
+.offer-cta>.package-cta-icon{flex-shrink:0;background:var(--package-accent,#1500ff);box-shadow:inset 0 1px 1px #ffffff40}
+.offer-cta>.package-cta-icon>img{display:block;width:28px;height:24px;max-width:none;pointer-events:none;animation:project-card-turn 16.5s linear infinite;transform-origin:center}
+@media(prefers-reduced-motion:reduce){.offer-cta>.package-cta-icon>img{animation:none}}
+
+/* Exact sampled pixels from the approved project cards: lightest first, vivid last. */
+.offer-panel[data-path="sites"]:has(.offer-options button[data-option="entrada"][aria-pressed="true"]){--package-accent:#8387fc}
+.offer-panel[data-path="sites"]:has(.offer-options button[data-option="site"][aria-pressed="true"]){--package-accent:#4339f9}
+.offer-panel[data-path="sites"]:has(.offer-options button[data-option="institucional"][aria-pressed="true"]){--package-accent:#0902fc}
+.offer-panel[data-path="marca"]:has(.offer-options button[data-option="brand-0"][aria-pressed="true"]){--package-accent:#fa5fc4}
+.offer-panel[data-path="marca"]:has(.offer-options button[data-option="brand-1"][aria-pressed="true"]){--package-accent:#f70286}
+.offer-panel[data-path="divulgacao"]:has(.offer-options button[data-option="social"][aria-pressed="true"]){--package-accent:#fcae35}
+.offer-panel[data-path="divulgacao"]:has(.offer-options button[data-option="anuncios"][aria-pressed="true"]){--package-accent:#f99c0f}
+.offer-panel[data-path="divulgacao"]:has(.offer-options button[data-option="seo"][aria-pressed="true"]){--package-accent:#fb5902}
+
+/* Original Linear icon geometry; package colors stay tied to the approved palette. */
+.included li{padding-left:24px}
+.included li::before{content:"";position:absolute;left:0;top:2px;width:16px;height:16px;background:var(--package-accent,#d0d6e0);-webkit-mask:url("assets/comparison/linear-check.svg") center / contain no-repeat;mask:url("assets/comparison/linear-check.svg") center / contain no-repeat}
+.included li.feature-unavailable{color:#aaa}
+.included li.feature-unavailable::before{content:"";left:-2px;top:0;width:20px;height:20px;background:#aaa;-webkit-mask-image:url("assets/comparison/linear-x.svg");mask-image:url("assets/comparison/linear-x.svg")}
+.included .feature-note{display:block;margin-top:4px;font-size:12px;line-height:1.4;color:#aaa}
+
+/* Native checkboxes retain their semantics and keyboard behavior, with the same circular glyph as deliveries. */
+.addon input[type="checkbox"]{appearance:none;-webkit-appearance:none;display:block;width:16px;height:16px;min-width:16px;flex:0 0 16px;margin:2px 0 0;border:1px solid #888;border-radius:50%;background:transparent;cursor:pointer;mask:none;-webkit-mask:none}
+.addon input[type="checkbox"]:checked{border:0;border-radius:0;background:var(--package-accent,#d0d6e0);-webkit-mask:url("assets/comparison/linear-check.svg") center / contain no-repeat;mask:url("assets/comparison/linear-check.svg") center / contain no-repeat}
+.addon:has(input:focus-visible){outline:2px solid var(--package-accent,#d0d6e0);outline-offset:2px}
+@media(forced-colors:active){.addon input[type="checkbox"],.addon input[type="checkbox"]:checked{appearance:auto;-webkit-appearance:checkbox;border:initial;background:initial;-webkit-mask:none;mask:none;accent-color:auto}}
+
+/* Match the original pricing divider: white, dashed, one CSS pixel. */
+.offer-panel>.offer-description{border-bottom:1px dashed #fff}
+
+/* Carry the reference divider through both expandable package sections. */
+.offer-panel>.scope,.offer-panel>.addons-details{border-top:1px dashed #fff}
+.offer-panel>.addons-details{border-bottom:1px dashed #fff}
+.offer-panel>.addons-details+.chosen-total{border-top:0}
+
+/* The existing FAQ and contact card now form the black page footer. */
+.faq-footer>.faq>.container{padding-top:100px;padding-bottom:80px}
+.faq-footer .faq-left .center-title{margin-top:0;color:#fff}
+.faq-footer .faq-left summary{color:#f5f5f5}
+.faq-footer .faq-left summary::after{filter:invert(1)}
+.faq-footer .faq-left details p{color:#bbb}
+@media(max-width:767px){.faq-footer>.faq>.container{padding-block:44px}}
+
+/* Package selectors show names only; existing horizontal padding and width motion stay intact. */
+.offer-options button[data-option]{display:flex;align-items:center;justify-content:center;text-align:center;font-size:16px;line-height:20px;font-weight:500;padding-block:12px}
+.offer-options button[data-option][aria-pressed="true"]{font-size:17px;line-height:22px;font-weight:600;padding-block:16px}
+@media(max-width:600px){.offer-options button[data-option]{font-size:14px;line-height:20px}.offer-options button[data-option][aria-pressed="true"]{font-size:15px;line-height:21px}}
+@media(max-width:359px){.offer-options button[data-option]{font-size:13px;line-height:18px}.offer-options button[data-option][aria-pressed="true"]{font-size:14px;line-height:20px}}
+
+/* Hover feedback: the square stays still; only the arrow moves. */
+.offer-panel>.offer-cta{transition:border-color 200ms ease,box-shadow 200ms ease}
+.offer-cta>.offer-cta-copy,.offer-cta .offer-cta-arrow{width:auto;height:auto;border-radius:0;background:none;box-shadow:none;color:inherit;font-size:inherit;line-height:inherit;font-weight:inherit;letter-spacing:inherit}
+.offer-cta>.offer-cta-copy{display:block;min-width:0;text-align:left}
+.offer-cta .offer-cta-arrow{display:inline-block;transition:transform 220ms cubic-bezier(.23,1,.32,1)}
+.offer-panel>.offer-cta:is(:hover,:focus-visible){border-color:var(--package-accent,#8387fc);box-shadow:inset 0 1px 1px #ffffff40,0 0 0 1px color-mix(in srgb,var(--package-accent,#8387fc) 22%,transparent),0 6px 24px color-mix(in srgb,var(--package-accent,#8387fc) 18%,transparent)}
+.offer-panel>.offer-cta:is(:hover,:focus-visible) .offer-cta-arrow{transform:translate(3px,-3px)}
+@media(prefers-reduced-motion:reduce){.offer-panel>.offer-cta,.offer-cta .offer-cta-arrow{transition:none}.offer-panel>.offer-cta:is(:hover,:focus-visible) .offer-cta-arrow{transform:none}}

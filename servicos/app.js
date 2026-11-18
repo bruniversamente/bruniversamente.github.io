@@ -220,5 +220,5 @@
   $('#contact-details').addEventListener('input',()=>{if(data)updateContactDraft();});
   $('#contact-details').addEventListener('submit',event=>event.preventDefault());
   $('#whatsapp-link').addEventListener('click',event=>{if(!validateContact())event.preventDefault();});
-  fetch('./catalogo.json?v=services-20261115').then(r=>{if(!r.ok)throw Error('catalog');return r.json();}).then(catalog=>{data=catalog;sanitize();render();}).catch(()=>{$('#offer-panel').setAttribute('aria-busy','false');announce('Não foi possível carregar a seleção. Os detalhes dos pacotes continuam disponíveis abaixo.');});
+  fetch('./catalogo.json?v=services-20261118-pages6').then(r=>{if(!r.ok)throw Error('catalog');return r.json();}).then(catalog=>{data=catalog;sanitize();render();}).catch(()=>{$('#offer-panel').setAttribute('aria-busy','false');announce('Não foi possível carregar a seleção. Os detalhes dos pacotes continuam disponíveis abaixo.');});
 })();

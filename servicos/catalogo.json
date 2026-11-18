@@ -20,7 +20,7 @@
           "description": "Seu negócio em uma página, com seus serviços e formas de contato.",
           "features": [
             "Site: 1 página com até 5 seções",
-            "Conteúdo: até 5 serviços e 8 imagens",
+            "Conteúdo: até 5 serviços e 10 imagens",
             "Design: modelo de site adaptado",
             "Contato: WhatsApp, localização e redes",
             "Telas: computador e celular",
@@ -33,7 +33,7 @@
           "details": [
             "Um site de 1 página, com até 5 seções.",
             "Seu site parte de um modelo criado por mim. Adapto as cores, as fontes, as imagens e o conteúdo para apresentar seu negócio.",
-            "Apresentação de até 5 serviços e até 8 imagens, além das informações de contato.",
+            "Apresentação de até 5 serviços e até 10 imagens, além das informações de contato.",
             "Botão de WhatsApp, localização e links para suas redes sociais ou uma agenda que você já use.",
             "Versão para computador e celular, preparação básica para buscas, conexão do domínio e publicação do site."
           ],
@@ -46,7 +46,7 @@
               "included": true
             },
             {
-              "text": "Até 5 serviços · 8 imagens",
+              "text": "Até 5 serviços · 10 imagens",
               "included": true
             },
             {
@@ -86,10 +86,10 @@
             "site"
           ],
           "title": "Sob Medida",
-          "description": "Uma página com design próprio e mais espaço para destacar seus diferenciais.",
+          "description": "Um site com design próprio e mais espaço para destacar seus diferenciais.",
           "features": [
-            "Site: 1 página com até 7 seções",
-            "Conteúdo: até 6 serviços e 10 imagens",
+            "Site: até 3 páginas",
+            "Conteúdo: até 10 serviços e 20 imagens",
             "Design: composição própria para sua marca",
             "Contato: WhatsApp, mapa e formulário",
             "Telas: computador e celular",
@@ -100,8 +100,8 @@
           "initial": 1690,
           "monthly": 0,
           "details": [
-            "Um site de 1 página, com até 7 seções e design criado para sua marca, para computador e celular.",
-            "Apresentação da empresa, até 6 serviços e uma galeria com até 10 imagens.",
+            "Um site de até 3 páginas com design criado para sua marca, para computador e celular.",
+            "Apresentação da empresa, até 10 serviços e uma galeria com até 20 imagens.",
             "WhatsApp, mapa e formulário de contato com até 5 campos. Confiro o envio das mensagens antes da entrega.",
             "Ajustes nos títulos, nas descrições e nas imagens para ajudar nas buscas e no carregamento. Inclui conexão do domínio e publicação."
           ],
@@ -109,11 +109,11 @@
           "revisions": 2,
           "feature_comparison": [
             {
-              "text": "1 página · até 7 seções",
+              "text": "Até 3 páginas",
               "included": true
             },
             {
-              "text": "Até 6 serviços · 10 imagens",
+              "text": "Até 10 serviços · 20 imagens",
               "included": true
             },
             {
@@ -138,7 +138,7 @@
             },
             {
               "text": "Páginas internas",
-              "included": false
+              "included": true
             }
           ],
           "regular": 1990,
@@ -152,8 +152,8 @@
           "title": "Completo",
           "description": "Páginas dedicadas à sua empresa e aos seus serviços, com mais detalhes para seus clientes.",
           "features": [
-            "Site: até 5 páginas",
-            "Conteúdo: até 10 serviços e 25 imagens",
+            "Site: até 6 páginas",
+            "Conteúdo: até 15 serviços e 30 imagens",
             "Design: composição própria para sua marca",
             "Contato: WhatsApp, mapa e formulário",
             "Telas: computador e celular",
@@ -164,8 +164,8 @@
           "initial": 2990,
           "monthly": 0,
           "details": [
-            "Um site com até 5 páginas, como início, empresa, serviços, galeria e contato, para computador e celular.",
-            "Apresentação de até 10 serviços e inclusão de até 25 imagens que você fornecer.",
+            "Um site com até 6 páginas, como início, empresa, serviços, galeria e contato, para computador e celular.",
+            "Apresentação de até 15 serviços e inclusão de até 30 imagens que você fornecer.",
             "Formulário de contato, botão de WhatsApp, mapa e links para outros canais do seu negócio.",
             "Organização do conteúdo fornecido, preparação para buscas, conexão do domínio e publicação do site."
           ],
@@ -173,11 +173,11 @@
           "revisions": 2,
           "feature_comparison": [
             {
-              "text": "Até 5 páginas",
+              "text": "Até 6 páginas",
               "included": true
             },
             {
-              "text": "Até 10 serviços · 25 imagens",
+              "text": "Até 15 serviços · 30 imagens",
               "included": true
             },
             {
@@ -388,9 +388,9 @@
           "description": "Conteúdo, legendas e publicações para manter seu perfil ativo.",
           "features": [
             "Canal: 1 conta do Instagram",
-            "Publicações: 8 por mês",
-            "Formatos: 6 artes estáticas e 2 carrosséis de até 5 páginas cada",
-            "Textos: 8 legendas com chamadas para ação",
+            "Publicações: 12 por mês",
+            "Formatos: 6 artes estáticas e 6 carrosséis de até 5 páginas cada",
+            "Textos: 12 legendas com chamadas para ação",
             "Planejamento: calendário e agendamento",
             "Resultados: relatório mensal da conta"
           ],
@@ -399,12 +399,12 @@
           "initial": 0,
           "monthly": 1190,
           "details": [
-            "8 publicações por mês: 6 artes estáticas e 2 carrosséis com até 5 páginas cada. Os carrosséis já fazem parte das 8 publicações.",
-            "Calendário de conteúdo, preparação das imagens e 8 legendas com chamadas para contato ou outra ação combinada.",
+            "12 publicações por mês: 6 artes estáticas e 6 carrosséis com até 5 páginas cada. Os carrosséis já fazem parte das 12 publicações.",
+            "Calendário de conteúdo, preparação das imagens e 12 legendas com chamadas para contato ou outra ação combinada.",
             "Agendamento ou publicação dos conteúdos que você aprovar em 1 conta do Instagram.",
             "Relatório com os resultados disponíveis na conta."
           ],
-          "limits": "Produção de fotos, vídeos, anúncios e respostas a comentários ou mensagens privadas são serviços à parte. Stories e publicações em outras redes precisam de combinação prévia, inclusive sobre a contagem nas 8 publicações.",
+          "limits": "Produção de fotos, vídeos, anúncios e respostas a comentários ou mensagens privadas são serviços à parte. Stories e publicações em outras redes precisam de combinação prévia, inclusive sobre a contagem nas 12 publicações.",
           "revisions": 1
         },
         {
@@ -416,7 +416,7 @@
           "description": "Campanhas para divulgar sua oferta a clientes da sua região.",
           "features": [
             "Canal: Google Pesquisa ou Meta Ads",
-            "Campanhas: 1 ativa",
+            "Campanhas: 3 ativas",
             "Abrangência: 1 empresa e 1 localidade",
             "Criação: textos e anúncios conforme o canal",
             "Gestão: acompanhamento e ajustes",
@@ -428,7 +428,7 @@
           "monthly": 790,
           "details": [
             "Gestão de anúncios no Google Pesquisa ou nas plataformas da Meta, para 1 empresa em 1 localidade. Você escolhe um desses canais.",
-            "1 campanha ativa. No Google: até 2 grupos e 4 anúncios de texto. Na Meta: até 2 conjuntos e 2 artes estáticas com os textos dos anúncios.",
+            "3 campanhas ativas. No Google: até 2 grupos e 4 anúncios de texto. Na Meta: até 2 conjuntos e 2 artes estáticas com os textos dos anúncios.",
             "Acompanhamento das buscas ou dos públicos, ajustes na campanha e relatório mensal com os dados disponíveis.",
             "Organização da conta de anúncios e dos acessos que você já possui."
           ],
@@ -444,9 +444,9 @@
           "description": "Conteúdo e ajustes no site para melhorar sua presença nas buscas.",
           "features": [
             "Canal: buscas do Google",
-            "Termos de busca: até 10 acompanhados",
-            "Páginas: até 2 otimizadas por mês",
-            "Artigos: 2 por mês, de até 600 palavras cada",
+            "Termos de busca: até 50 acompanhados",
+            "Páginas: até 10 otimizadas por mês",
+            "Artigos: 8 por mês, de até 600 palavras cada",
             "Resultados: relatório e recomendações mensais"
           ],
           "label": null,
@@ -454,9 +454,9 @@
           "initial": 0,
           "monthly": 1290,
           "details": [
-            "Pesquisa e acompanhamento de até 10 termos que as pessoas podem usar para buscar seu negócio.",
-            "Ajustes em até 2 páginas existentes do site por mês para melhorar sua apresentação nas buscas.",
-            "2 artigos por mês, com até 600 palavras cada, a partir de informações que você fornecer ou aprovar.",
+            "Pesquisa e acompanhamento de até 50 termos que as pessoas podem usar para buscar seu negócio.",
+            "Ajustes em até 10 páginas existentes do site por mês para melhorar sua apresentação nas buscas.",
+            "8 artigos por mês, com até 600 palavras cada, a partir de informações que você fornecer ou aprovar.",
             "Relatório com dados de buscas e navegação no site e sugestões para os próximos conteúdos."
           ],
           "limits": "Preciso de acesso ao site e de uma forma de editar suas páginas. Refazer o site, comprar links, criar novos modelos de página e fazer correções extensas são serviços à parte. Não há garantia de posição no Google.",
@@ -581,11 +581,11 @@
   "packages": {
     "site": {
       "id": "site",
-      "name": "Site de uma página personalizado",
+      "name": "Site personalizado",
       "price": 1990,
       "includes": [
-        "Uma página com até sete seções e composição visual própria, para computador e celular.",
-        "Apresentação da empresa, até seis serviços, galeria com até dez imagens e contato.",
+        "Até três páginas com composição visual própria, para computador e celular.",
+        "Apresentação da empresa, até dez serviços, galeria com até vinte imagens e contato.",
         "WhatsApp, mapa e um formulário simples com até cinco campos e envio conferido.",
         "Preparação de títulos, descrições e imagens para busca e carregamento; conexão do domínio e publicação."
       ],
@@ -596,8 +596,8 @@
       "name": "Site institucional",
       "price": 3490,
       "includes": [
-        "Até cinco páginas fixas, como início, empresa, serviços, galeria e contato, com layout para computador e celular.",
-        "Apresentação de até dez serviços e inserção de até 25 imagens fornecidas.",
+        "Até seis páginas fixas, como início, empresa, serviços, galeria e contato, com layout para computador e celular.",
+        "Apresentação de até quinze serviços e inserção de até 30 imagens fornecidas.",
         "Um formulário simples, WhatsApp, mapa e links para canais externos.",
         "Preparação para busca, organização dos conteúdos fornecidos, conexão do domínio e publicação."
       ],
@@ -634,7 +634,7 @@
       "promo": 479.9,
       "includes": [
         "Uma página com até cinco seções em uma estrutura de apresentação definida, adaptada à identidade do cliente.",
-        "Apresentação de até cinco serviços, até oito imagens e informações de contato.",
+        "Apresentação de até cinco serviços, até dez imagens e informações de contato.",
         "Botão de WhatsApp, localização e links para redes ou agenda já existente.",
         "Versão para computador e celular, preparação básica para busca, conexão do domínio e publicação."
       ],
